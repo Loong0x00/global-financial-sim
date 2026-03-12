@@ -1,0 +1,283 @@
+{
+  "leader": "Keir Starmer",
+  "role": "Prime Minister of the United Kingdom (2024-present); Leader of the Labour Party (2020-present)",
+  "level": 2,
+  "compiled_by": "claude-opus-4-6",
+  "compiled_date": "2026-03-13",
+  "compilation_sources": [
+    "UK-EU reset agreement and summit (May 2025): fishing rights, food import red tape, Erasmus+ rejoining",
+    "Defense spending pledge: 2.3% to 2.5% GDP by 2027, potential 3% post-next-election",
+    "Ukraine 'coalition of the willing' virtual summit (Mar 2025) and security guarantee with France (Jan 2026)",
+    "Immigration White Paper (May 2025): 10-year citizenship path, health/care visa closure, earned settlement",
+    "Small boat crossings: 41,000 in 2025 (13% rise, second-highest on record), 50,000+ cumulative under Starmer",
+    "Rachel Reeves Autumn Budget 2025: £26bn tax raise, frozen income thresholds, historic 38% GDP tax burden",
+    "Spring Statement 2026: OBR downgraded growth forecast 2026 to 1.1%",
+    "Franco-British Ukraine security guarantee (Jan 2026)",
+    "Director of Public Prosecutions career (2008-2013): Stephen Lawrence case, 2011 riots response",
+    "Human rights barrister career: McLibel case, death penalty advisory panel, Northern Ireland policing",
+    "Labour Party transformation: purging Corbynite left, centrist repositioning (2020-2024)",
+    "Coalition of the willing press conference (Oct 2025)",
+    "UK-EU Security and Defence Partnership (SDP) agreement"
+  ],
+  "background": {
+    "born": "1962-09-02",
+    "origin": "Southwark, London, England",
+    "career_path": "University of Leeds law degree (1985) → St Edmund Hall, Oxford BCL (1986) → Barrister (1987) → Human rights lawyer at Doughty Street Chambers → Queen's Counsel (2002, age 39) → Director of Public Prosecutions/Head of CPS (2008-2013) → Knighted KCB (2014) → MP for Holborn and St Pancras (2015) → Shadow Brexit Secretary (2016-2020) → Labour Leader (2020) → Prime Minister (Jul 2024)",
+    "formative_experiences": "Working-class background (father: toolmaker; mother: nurse with rare disease requiring NHS care) created authentic connection to public services and NHS specifically — this is not politician-manufactured empathy but lived experience. Human rights law career (1987-2008): McLibel case defense, death penalty advisory work, Northern Ireland policing — built worldview that individual rights and rule of law are paramount. DPP experience (2008-2013) managing 6,000+ CPS employees taught institutional management but also created a cautious, evidence-based decision style that sometimes reads as indecisive. The Stephen Lawrence case (achieving convictions decades after murder) revealed capacity for determined persistence on justice issues. Named after Keir Hardie (Labour Party founder) — Labour identity is literally in his name.",
+    "decision_style_origin": "Prosecutor's mindset: build the case methodically, present evidence carefully, don't overcommit until the facts support the conclusion. This produces: (1) deliberate, process-oriented decisions, (2) risk aversion (prosecutors hate losing cases), (3) preference for precedent and institutional channels, (4) discomfort with bold gestures or rhetorical flourishes. The DPP experience managing a large bureaucracy (CPS) means Starmer is comfortable with institutional complexity but may be captured by it. Compared to Macron's top-down imposition or Merz's corporate decisiveness, Starmer's style is cautious incrementalism. Effective for governance but uninspiring for leadership."
+  },
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector for Keir Starmer compiled from his first 20 months as Prime Minister (Jul 2024-Mar 2026) plus his DPP and legal career. Starmer represents a distinctive type: the institutional lawyer who governs through process rather than vision. His greatest strength (methodical evidence-based approach) is also his greatest weakness (perceived as boring, cautious, lacking conviction). The defining tension of his premiership: inherited a country in institutional decay (NHS, immigration, infrastructure, post-Brexit economic friction) with almost no fiscal room to address any of it. The 'responsible change' promise is constrained by economic reality at every turn.",
+    "dimensions": 41,
+    "vectors": [
+      {
+        "label": "ukraine_support_hardness",
+        "value": 0.84,
+        "evidence": "UK has been the most consistent European supporter of Ukraine since 2022 (NLAWs, Storm Shadow, training). Starmer continued and expanded this: hosted 'coalition of the willing' virtual summit (Mar 2025), pledged 'boots on the ground' for peace implementation, signed Franco-British security guarantee for Ukraine (Jan 2026). UK rhetoric on Ukraine has been harder than any continental European country. Starmer has maintained cross-party consensus (Conservatives equally hawkish). The UK's island geography and nuclear deterrent make Ukraine support lower-risk than for continental states. Pattern: bipartisan hardline maintained regardless of party in power."
+      },
+      {
+        "label": "defense_spending_commitment",
+        "value": 0.76,
+        "evidence": "Pledged to increase defense spending from 2.3% to 2.5% GDP by 2027 — largest sustained increase since Cold War. Left open possibility of 3% after next general election. Brought defense spending pledge to Washington to help sway Trump on Ukraine. UK defense spending trajectory under Starmer is significant but constrained by fiscal rules. Compared to Merz's 5% GDP target, Starmer's is modest. However, UK starts from a higher base (already meeting 2% NATO target) and has more capable military infrastructure. The defense commitment is genuine but faces Rachel Reeves' fiscal discipline."
+      },
+      {
+        "label": "us_special_relationship_maintenance",
+        "value": 0.78,
+        "evidence": "Visited Washington with defense spending pledge. Engaged Trump on Ukraine. Maintained Five Eyes intelligence sharing. UK-US 'special relationship' is deeply institutionalized (intelligence, nuclear deterrent Trident, military interoperability) and survives leadership changes. Starmer's approach to Trump: transactional rather than ideological — offer defense spending increases and military cooperation in exchange for continued US engagement with European security. Unlike Macron (who lectures Trump), Starmer offers practical deliverables. The lawyerly approach works better with Trump's transactional style."
+      },
+      {
+        "label": "trump_relationship_management",
+        "value": 0.64,
+        "evidence": "Starmer's approach to Trump: professional, pragmatic, non-confrontational. Brought defense spending pledge to Washington as concrete deliverable. Avoided public disagreements. Maintained intelligence sharing and military cooperation channels. The Labour government has navigated Trump more successfully than expected — partly because UK post-Brexit needs US trade relationship and partly because Starmer's non-ideological style avoids triggering Trump's competitive instincts. However, fundamental policy disagreements exist (climate, multilateralism, Ukraine endgame). Starmer manages these through compartmentalization — cooperate on defense, agree to disagree on other issues."
+      },
+      {
+        "label": "eu_rapprochement_post_brexit",
+        "value": 0.72,
+        "evidence": "May 2025: UK-EU reset agreement including: 12-year fishing rights extension, food import red tape reduction, veterinary agreement, professional qualification mutual recognition. Dec 2025: UK joining Erasmus+ from 2027 (£570m annual cost). UK-EU Security and Defence Partnership (SDP) agreed. Trade and Cooperation Agreement review scheduled 2026. Starmer campaigned against Brexit and has systematically worked to repair the UK-EU relationship. Red lines maintained: no customs union, no single market, no freedom of movement. The reset is real but incremental — full EU re-engagement is politically impossible in 2020s Britain. Starmer's achievement: turned post-Brexit hostility into functional cooperation."
+      },
+      {
+        "label": "brexit_red_lines_maintenance",
+        "value": 0.81,
+        "evidence": "Explicitly ruled out: customs union, single market, freedom of movement. These red lines reflect political calculation — Brexit referendum result (2016) is still politically toxic to reverse. Starmer (who campaigned for Remain and served as Shadow Brexit Secretary) knows the issue's electoral potency. The red lines constrain the reset: deeper UK-EU integration requires exactly the mechanisms Starmer has ruled out. Result: incremental improvements (SPS agreement, Erasmus+) but structural trade barriers remain. The UK pays an ongoing economic cost for political prudence."
+      },
+      {
+        "label": "fiscal_discipline_vs_public_services",
+        "value": 0.66,
+        "evidence": "Autumn Budget 2025: £26bn in tax increases (employer NI contributions, frozen income tax thresholds). Tax burden reaching historic 38% of GDP. Two-child Universal Credit limit removed from Apr 2026. National Living Wage increased to £12.71. OBR growth forecast downgraded to 1.1% for 2026. Starmer inherited the worst UK public finances since WWII and has chosen fiscal discipline (Rachel Reeves' rules) over aggressive public spending expansion. The result: tax increases without visible public service improvement — politically the worst of both worlds. NHS waiting lists, infrastructure decay, and local government funding crises continue."
+      },
+      {
+        "label": "rachel_reeves_fiscal_rules_adherence",
+        "value": 0.73,
+        "evidence": "Reeves' fiscal rules: current budget in balance by end of forecast period, debt falling as % GDP. OBR assesses compliance only at Autumn Budgets (changed from both events). The fiscal rules are Starmer-Reeves' anchor against markets (Truss mini-budget trauma still fresh) and Labour's historical reputation for fiscal irresponsibility. However, the rules severely constrain investment: defense spending increases compete with NHS funding, infrastructure investment requires tax increases. The rules are simultaneously reassuring (market confidence) and suffocating (no fiscal room for transformative spending)."
+      },
+      {
+        "label": "migration_policy_effectiveness",
+        "value": 0.38,
+        "evidence": "41,000 small boat Channel crossings in 2025 — 13% rise, second-highest on record. Over 50,000 cumulative crossings under Starmer's premiership. Labour promised to 'smash the smuggling gangs' — results are the opposite. May 2025 Immigration White Paper: 10-year citizenship path (up from 5), higher skills/English requirements, health/care visa route closed, 'one in one out' scheme until Jul 2026. The policies are restrictive on paper but ineffective in practice. The small boats crisis is Starmer's most visible policy failure — it feeds into Reform UK's electoral narrative and erodes public trust."
+      },
+      {
+        "label": "migration_policy_strictness_rhetoric",
+        "value": 0.71,
+        "evidence": "Immigration White Paper represents significant rightward shift from Labour's traditional position: closing health/care visa (post-Brexit/COVID staffing lifeline), 10-year citizenship wait, earned settlement system, temporary refugee status with limited benefits. Starmer has adopted restrictive rhetoric previously associated with Conservatives. The shift is driven by: (1) Reform UK electoral threat, (2) public opinion strongly anti-immigration, (3) small boats political toxicity. However, rhetoric exceeds results — policies announced but crossings increase."
+      },
+      {
+        "label": "nhs_priority_commitment",
+        "value": 0.78,
+        "evidence": "Starmer's mother's NHS-dependent illness (rare condition, Still's disease) gives him authentic NHS connection. NHS reform is a stated top priority. Budget allocated increased NHS funding. However, waiting lists have not significantly improved. Doctor/nurse recruitment affected by immigration policy changes (health/care visa closure). The NHS commitment is genuine but caught in a trap: fixing NHS requires massive investment that fiscal rules prevent, and immigration policy changes reduce the foreign healthcare workers the NHS desperately needs. Pattern: sincere priority, insufficient resources, contradictory policies."
+      },
+      {
+        "label": "lawyer_caution_decision_style",
+        "value": 0.82,
+        "evidence": "DPP experience: managed 6,000 CPS employees, made prosecution decisions affecting thousands of cases. The prosecutorial style: review evidence, assess probability of conviction, proceed only when confident. Applied to governance: Starmer prefers to wait for evidence before committing, announces policies carefully, avoids bold rhetoric that might prove wrong. This style produced: (1) successful UK-EU reset (careful negotiation, delivered results), (2) criticized Ukraine response (perceived as following rather than leading), (3) immigration policy that announces tough measures but lacks execution urgency. Compared to Macron (bold then backtrack) or Merz (decisive then constrained), Starmer is cautious then consistent."
+      },
+      {
+        "label": "domestic_reform_ambition",
+        "value": 0.59,
+        "evidence": "Labour's manifesto promised 'responsible change' — deliberately modest. Planning reform (housing). NHS reform. Criminal justice reform. Green energy investment. Workers' rights strengthening. But the ambition is constrained by fiscal reality: no money for transformative investment. The reform agenda is incremental, technocratic, and largely invisible to voters. Starmer's 'boring but competent' brand requires visible competence — which small boats failures and NHS waiting lists undermine. The reform ambition is genuine but undersized relative to Britain's accumulated institutional decay."
+      },
+      {
+        "label": "nuclear_deterrence_trident_commitment",
+        "value": 0.87,
+        "evidence": "Labour purged nuclear disarmament from party policy (Corbyn's CND position abandoned). Trident nuclear deterrent renewal fully supported. Starmer explicitly committed to UK nuclear deterrent as 'foundation of national security.' This is both conviction (Starmer's security establishment orientation) and political positioning (Labour must prove it can be trusted with defense). The Trident commitment also underpins the Franco-British nuclear relationship and Five Eyes credibility."
+      },
+      {
+        "label": "intelligence_sharing_five_eyes",
+        "value": 0.88,
+        "evidence": "Five Eyes (US, UK, Canada, Australia, New Zealand) intelligence sharing is the UK's most valuable strategic asset — it provides intelligence access far beyond what UK could generate alone. Starmer has maintained all Five Eyes commitments. GCHQ, MI5, MI6 operations continue with full partner integration. Post-Brexit, Five Eyes became even more important as UK's primary multilateral security framework. Starmer would not risk Five Eyes for any policy position — it is a genuine non-negotiable."
+      },
+      {
+        "label": "china_policy_pragmatism",
+        "value": 0.55,
+        "evidence": "Labour described China as posing 'an epoch-defining challenge' — harder rhetoric than expected. Maintained Huawei 5G ban (inherited from Conservatives). Continued AUKUS submarine deal with Australia/US. However, avoided complete decoupling: maintained diplomatic channels, allowed some Chinese investment, sought to manage rather than confront. The approach is pragmatic: acknowledge China as threat while avoiding economic damage from confrontation. UK-China trade (£100bn+) is too important to sacrifice for ideology. Compared to US hawkishness or Macron's strategic ambiguity, Starmer's China policy is cautious middle ground."
+      },
+      {
+        "label": "aukus_commitment",
+        "value": 0.83,
+        "evidence": "AUKUS (Australia-UK-US) nuclear submarine deal continued and expanded under Starmer. The deal involves UK sharing nuclear submarine technology with Australia — one of the most significant defense agreements in decades. Starmer sees AUKUS as: (1) US relationship anchor, (2) Indo-Pacific engagement vehicle, (3) defense industry boost for UK shipyards. AUKUS also signals UK's global security ambition beyond Europe — important for post-Brexit 'Global Britain' narrative."
+      },
+      {
+        "label": "green_energy_investment",
+        "value": 0.68,
+        "evidence": "Great British Energy (state-owned clean energy company) established. £8.3bn Green Prosperity Plan (reduced from original £28bn pledge — fiscal constraints forced downsizing). Offshore wind, solar, and nuclear investment continued. However, North Sea oil/gas licenses continue (Rosebank field). The green agenda is genuine but fiscally constrained — the £28bn→£8.3bn reduction symbolizes Starmer's broader problem: ambitious plans meeting fiscal reality. GB Energy is the signature green achievement but its impact is uncertain."
+      },
+      {
+        "label": "workers_rights_strengthening",
+        "value": 0.67,
+        "evidence": "Employment Rights Bill: banned zero-hour contracts (mostly), strengthened unfair dismissal protections, improved parental leave. National Living Wage increased to £12.71 (Apr 2026). Trade union rights modestly expanded. This is traditional Labour territory and Starmer's most distinctively left-wing policy area. However, business lobbied successfully to water down many provisions. The result: meaningful but incremental improvement in worker protections, not the transformative change unions hoped for."
+      },
+      {
+        "label": "housing_crisis_response",
+        "value": 0.61,
+        "evidence": "Planning reform to build 1.5 million homes over parliament. Mandatory housing targets for local authorities. New Towns programme. However, local opposition ('NIMBYism'), construction industry capacity constraints, and planning system inertia slow implementation. Housing is the UK's deepest structural economic problem — Starmer's response is ambitious in target but uncertain in delivery. The lawyer's approach: change the legal framework (planning rules) and hope execution follows."
+      },
+      {
+        "label": "labour_party_transformation_from_corbyn",
+        "value": 0.88,
+        "evidence": "Starmer systematically transformed Labour from Corbyn's hard-left party to centrist electability: expelled Corbyn from parliamentary party, removed nuclear disarmament policy, adopted fiscal discipline, moderated on immigration, strengthened defense/security positioning. The transformation was ruthless and effective — Labour won a massive majority (Jul 2024). However, it created internal party tensions: left-wing members feel betrayed, union relations strained. Starmer's party management is his most impressive political achievement — more consequential than any policy."
+      },
+      {
+        "label": "reform_uk_electoral_threat_response",
+        "value": 0.63,
+        "evidence": "Reform UK (Farage) threatens Labour from the right on immigration, cultural issues, and anti-establishment sentiment. Starmer's response: toughen immigration rhetoric, emphasize 'patriotic' defense spending, maintain fiscal discipline. The Immigration White Paper's restrictive measures are partly aimed at Reform voters. However, Starmer's cautious-lawyer style is the opposite of Farage's populist energy — he cannot out-perform Reform on populist appeal, only on competent governance. If governance isn't visibly competent (small boats, NHS), Reform benefits."
+      },
+      {
+        "label": "coalition_of_willing_leadership",
+        "value": 0.72,
+        "evidence": "Mar 2025: Hosted virtual summit of Western leaders on Ukraine peace implementation. Oct 2025: Coalition of the Willing press conference formalizing commitment. Jan 2026: Franco-British security guarantee. Starmer has positioned UK as a bridge between European and US positions on Ukraine — leveraging UK's unique position as non-EU but NATO member with strong Atlantic relationship. The leadership role on Ukraine is Starmer's strongest international achievement. It demonstrates that post-Brexit UK can still lead on European security."
+      },
+      {
+        "label": "franco_british_security_axis",
+        "value": 0.76,
+        "evidence": "Jan 2026: Joint UK-France Ukraine security guarantee. Lancaster House treaties (2010) foundation. Franco-British Combined Joint Expeditionary Force. Nuclear cooperation (Teutates). The Franco-British security relationship is the strongest bilateral defense partnership in Europe — two nuclear powers with expeditionary capability and UN Security Council seats. Under Starmer and Macron, the partnership has deepened as both hedge against US unreliability. Post-Brexit, security/defense has become the primary UK-European engagement channel."
+      },
+      {
+        "label": "boots_on_ground_ukraine_willingness",
+        "value": 0.63,
+        "evidence": "Starmer said UK is 'ready to put boots on the ground' to support a Ukraine peace deal. This is peacekeeping/enforcement, not combat — but it is a significant commitment. UK military has the capability (professional army, expeditionary experience) and institutional culture for such deployments. However, actual deployment would require: (1) peace agreement, (2) multilateral framework, (3) parliamentary support, (4) adequate troop numbers (UK army at 73,000 is smallest since Napoleonic era). The willingness is genuine but heavily conditioned."
+      },
+      {
+        "label": "erasmus_plus_rejoining",
+        "value": 0.67,
+        "evidence": "Dec 2025: UK announced rejoining Erasmus+ from 2027 (£570m annual cost). This is the most symbolically significant post-Brexit EU rapprochement measure — Erasmus was specifically lamented by young voters. The decision shows Starmer's willingness to spend political capital on EU reconnection, even if it irritates Brexit-supporting voters. However, £570m annually is a significant commitment given fiscal constraints."
+      },
+      {
+        "label": "fishing_rights_pragmatism",
+        "value": 0.61,
+        "evidence": "UK-EU reset: kept waters open for European fishermen for 12 years after current deal expires in 2026, in exchange for EU easing food import red tape. Fishing was the most emotionally charged Brexit issue ('take back our waters') but economically marginal (~0.1% GDP). Starmer traded fishing rights for practical trade benefits — the rational exchange that Johnson could not make due to Brexit symbolism. This epitomizes Starmer's approach: prioritize substance over symbolism."
+      },
+      {
+        "label": "tax_burden_political_risk",
+        "value": 0.71,
+        "evidence": "Tax burden reaching historic 38% of GDP — highest since WWII records began. Employer NI contributions increase. Income tax thresholds frozen until 2031 (fiscal drag pulling more into higher bands). £8bn additional revenue from threshold freeze alone. Starmer and Reeves are creating a record tax burden while delivering limited visible improvement in public services — the most politically dangerous combination. If voters feel poorer without seeing better NHS/schools/infrastructure, the tax burden becomes Labour's political liability."
+      },
+      {
+        "label": "two_child_benefit_limit_removal",
+        "value": 0.69,
+        "evidence": "Two-child limit on Universal Credit removed from Apr 2026, expected to reduce child poverty by 450,000 by 2029/30. This is Starmer's most significant social policy: it reverses a Conservative policy that was widely criticized as punishing children for family size. The removal signals Labour values (anti-child-poverty) without requiring massive spending. However, it was delayed to Budget 2025 — not immediate — revealing fiscal caution overriding social urgency."
+      },
+      {
+        "label": "health_care_visa_closure_contradiction",
+        "value": 0.56,
+        "evidence": "Immigration White Paper closed the health and social care visa route — which was the primary mechanism for recruiting foreign NHS/care workers post-Brexit and post-COVID. The NHS currently has ~112,000 vacancies. Closing the visa route reduces immigration numbers (political goal) but exacerbates NHS staffing crisis (policy priority). This is the clearest example of Starmer's policy contradictions: immigration restriction and NHS improvement are in direct tension, and he has chosen immigration restriction. The contradiction will become politically visible as NHS performance fails to improve."
+      },
+      {
+        "label": "security_establishment_orientation",
+        "value": 0.79,
+        "evidence": "DPP role required extensive security clearance and interaction with intelligence/law enforcement. Starmer is comfortable with security establishment (MI5, MI6, GCHQ, military) in a way that Corbyn fundamentally was not. He has maintained all intelligence-sharing commitments, supported Trident, continued AUKUS, expanded defense spending. The security establishment trusts Starmer — a crucial asset for a Labour PM given the party's historical defense credibility problem. This trust enables bolder foreign policy (Ukraine boots on ground offer) than would be possible without institutional backing."
+      },
+      {
+        "label": "personal_charisma_deficit",
+        "value": 0.38,
+        "evidence": "Starmer is widely perceived as boring, cautious, and lacking vision. 'Forensic' was the polite description; 'dull' is the common one. He won the 2024 election more because of Conservative collapse than Labour enthusiasm — turnout was historically low, Labour vote share modest despite massive seat majority. The charisma deficit matters: it makes it harder to build public support for painful reforms, harder to inspire party loyalty, harder to project international leadership. Macron has too much personal grandiosity; Starmer has too little. The sweet spot is elusive."
+      },
+      {
+        "label": "corbyn_purge_ruthlessness",
+        "value": 0.81,
+        "evidence": "Expelled Corbyn from Labour parliamentary party (withdrew whip). Purged Corbynite left from shadow cabinet. Changed party rules to reduce left influence. Moderated policy positions across the board. The purge was executed with prosecutorial precision — methodical, evidence-based (antisemitism investigations), institutionally proper. Starmer showed that his cautious style does not preclude ruthlessness when institutional control is at stake. The purge succeeded: Labour is now firmly centrist. But it created enemies who would exploit any Starmer weakness."
+      },
+      {
+        "label": "post_truss_fiscal_caution",
+        "value": 0.83,
+        "evidence": "Liz Truss's mini-budget (Sep 2022) crashed the pound and gilt market, demonstrating that markets will punish fiscal irresponsibility. Starmer-Reeves have internalized this lesson to the point of overcaution: fiscal rules are sacrosanct, bond market confidence is paramount, no unfunded spending commitments. The Truss trauma explains why Labour governs more conservatively than its manifesto: the cost of market panic exceeds the benefit of ambitious spending. This is rational but potentially self-defeating — excessive fiscal caution prevents the investment needed to generate growth."
+      },
+      {
+        "label": "devolution_scotland_wales_management",
+        "value": 0.58,
+        "evidence": "Scotland: Labour recovered Scottish seats from SNP (2024 election) but Scottish independence movement persists. Wales: Labour governs Welsh Senedd. Northern Ireland: fragile post-Good Friday Agreement balance. Starmer's approach: maintain union through delivery (better public services) rather than confrontation. His Northern Ireland human rights advisory experience gives him genuine understanding of the constitutional complexities. However, Scottish independence pressure will resurface if Labour governance disappoints."
+      },
+      {
+        "label": "rule_of_law_institutional_commitment",
+        "value": 0.86,
+        "evidence": "Human rights barrister. DPP head. Knighted for services to law and criminal justice. Starmer's deepest professional identity is as a guardian of rule of law. This manifests in: (1) respect for institutional process (contrast with Johnson's prorogation), (2) careful legal framing of policies, (3) discomfort with executive overreach, (4) commitment to international law (ECHR, ICJ). The rule of law commitment constrains some policies (deportation schemes face legal challenges) but provides institutional credibility."
+      },
+      {
+        "label": "information_fidelity_from_advisors",
+        "value": 0.76,
+        "evidence": "UK institutional infrastructure (Civil Service, intelligence agencies, Bank of England) provides high-quality information. Starmer's prosecutorial background means he demands evidence and is comfortable questioning briefings. No evidence of information bubble or sycophancy filter. Cabinet government structure (more collegial than French presidential system) provides multiple perspectives. Risk factor: over-reliance on Civil Service conventional wisdom may produce cautious consensus rather than creative solutions."
+      },
+      {
+        "label": "northern_ireland_understanding",
+        "value": 0.71,
+        "evidence": "Served as human rights adviser to Northern Ireland Policing Board. Deep understanding of Good Friday Agreement and its legal/political architecture. This expertise is valuable for managing post-Brexit Northern Ireland Protocol tensions. Starmer's NI experience also shaped his broader approach to constitutional issues: compromise, power-sharing, incremental trust-building. The NI lens may explain his preference for negotiated settlements over confrontational positions."
+      },
+      {
+        "label": "global_britain_post_brexit_identity",
+        "value": 0.59,
+        "evidence": "Starmer has quietly dropped the 'Global Britain' slogan but maintained the substance: AUKUS in Indo-Pacific, Five Eyes globally, defense engagement worldwide, EU reset in Europe. The identity challenge: UK is no longer an EU member but not fully an independent global power. Starmer's solution: pragmatic partnerships (bilateral deals with EU, US, Australia, Japan) rather than grand identity narrative. This works operationally but leaves a strategic identity gap that voters notice."
+      },
+      {
+        "label": "economic_growth_strategy",
+        "value": 0.57,
+        "evidence": "Growth is Starmer's stated top economic priority but delivery is elusive. OBR downgraded 2026 forecast to 1.1%. Planning reform (housing/infrastructure) is the main supply-side measure. Green energy investment through GB Energy. Fiscal constraints prevent demand-side stimulus. The growth strategy is orthodox (remove planning barriers, invest in infrastructure, maintain fiscal discipline) but may be insufficient for UK's structural problems (low productivity, post-Brexit trade friction, aging population). Pattern: correct diagnosis, insufficient prescription."
+      },
+      {
+        "label": "pandemic_public_inquiry_management",
+        "value": 0.54,
+        "evidence": "COVID public inquiry continues under Starmer's government. Starmer has maintained the inquiry's independence while managing political fallout (Johnson's WhatsApp messages, government failures). His prosecutorial instinct favors thorough investigation. However, the inquiry also reveals cross-party governance failures that implicate institutional systems Labour now runs. Management approach: let the process run, accept findings, avoid interference."
+      }
+    ]
+  },
+  "red_lines": [
+    {
+      "id": "RL001",
+      "trigger": "Threat to UK territorial integrity (Falklands, Gibraltar, Northern Ireland)",
+      "response": "Full military response capability maintained",
+      "threshold": 0.94,
+      "evidence": "UK maintains Falklands garrison, Gibraltar sovereignty commitment, Northern Ireland constitutional guarantee. These are cross-party non-negotiables. Starmer's defense spending commitment partly serves territorial defense credibility."
+    },
+    {
+      "id": "RL002",
+      "trigger": "Five Eyes intelligence sharing compromise",
+      "response": "Absolute protection of intelligence relationships",
+      "threshold": 0.96,
+      "evidence": "Five Eyes is UK's most valuable strategic asset. No policy position — on China, Russia, EU, or any other issue — would be pursued if it risked Five Eyes integrity. This is a genuine non-negotiable shared across all UK governments."
+    },
+    {
+      "id": "RL003",
+      "trigger": "Customs union or single market rejoining",
+      "response": "Explicit refusal — political red line maintained",
+      "threshold": 0.89,
+      "evidence": "Despite Starmer's Remain background, customs union/single market rejoining is politically impossible in 2020s Britain. The red line is politically rather than ideologically driven — Starmer would likely prefer deeper EU integration but calculates the electoral cost as prohibitive."
+    },
+    {
+      "id": "RL004",
+      "trigger": "Nuclear deterrent reduction or elimination",
+      "response": "Full Trident commitment maintained",
+      "threshold": 0.92,
+      "evidence": "Starmer purged Labour's nuclear disarmament faction. Trident renewal fully supported. UK nuclear deterrent is foundation of security policy and Franco-British relationship. Abandoning it would destroy UK's great power status and Five Eyes credibility."
+    },
+    {
+      "id": "RL005",
+      "trigger": "Market confidence crisis (Truss-style)",
+      "response": "Immediate fiscal retrenchment to restore market confidence",
+      "threshold": 0.90,
+      "evidence": "The Truss mini-budget trauma is Labour's institutional memory. Any policy that risks gilt market panic would be immediately reversed. Rachel Reeves' fiscal rules exist specifically to prevent this scenario. Starmer would sacrifice any policy priority to maintain market confidence."
+    }
+  ],
+  "special_notes": [
+    "Starmer's defining paradox: he is a human rights lawyer governing through immigration restriction. The tension between his professional identity (defending individual rights, rule of law) and his political imperatives (reducing migration, appearing tough on borders) is the central psychological conflict of his premiership. The health/care visa closure — simultaneously worsening NHS staffing while claiming NHS is top priority — is the clearest manifestation.",
+    "The prosecutor's decision style is the key modeling parameter. Starmer does not make bold bets (like Macron's snap election or Merz's debt brake reform). He builds cases methodically, moves when evidence supports action, and avoids overcommitment. This makes him predictable but slow. In crisis scenarios, expect Starmer to: (1) convene advisors, (2) review evidence, (3) seek institutional consensus, (4) act cautiously, (5) adjust incrementally. This style is optimal for steady-state governance but suboptimal for crisis response.",
+    "The UK-EU reset is Starmer's most underappreciated achievement. Fishing rights for trade facilitation, Erasmus+ return, SDP on defense, veterinary agreement — each individually modest but collectively representing the most constructive UK-EU relationship since Brexit. Starmer achieved this through lawyerly negotiation rather than grand gestures — offering practical concessions for practical benefits. Any model should weight this diplomatic competence.",
+    "Small boats are Starmer's political Achilles heel. 41,000 crossings in 2025 (record under Labour) destroy the 'competent governance' narrative that is Starmer's primary selling proposition. If Reform UK can campaign on '50,000 crossings under Starmer,' no amount of institutional reform or fiscal responsibility will save Labour's electoral position. The migration crisis is existential for Starmer's political survival in a way that Ukraine or defense policy are not."
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "leader": "Ali Khamenei",
+  "leader_fa": "علی خامنه‌ای",
+  "leader_zh": "阿里·哈梅内伊",
+  "status": "DECEASED — assassinated February 28, 2026",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "Supreme Leader tenure (1989-07-04 to 2026-02-28): 36 years, 8 months. Third President of Iran 1981-1989 (Iran-Iraq War).",
+    "Key events compiled: JCPOA approval 2015, Rouhani accommodation, Ahmadinejad confrontation, Green Movement 2009 suppression, 2019 protests suppression, 2022 Mahsa Amini protests suppression, nuclear program escalation and partial rollback, proxy network construction and deployment, June 2025 Twelve-Day War (survived strikes), assassination February 28 2026 (Operation Lion's Roar, US-Israel joint strike)",
+    "Obituary sources: CNN 'Obituary: Who was Ayatollah Khamenei? He battled the US and Israel for decades' (February 28 2026); NPR 'Iran's Ayatollah Ali Khamenei is killed in Israeli strike, ending 36-year iron rule'; Al Jazeera 'Ayatollah Ali Khamenei: The leader who shaped Iran's defiance'",
+    "Academic sources: CFR 'After Khamenei: Planning for Iran's Leadership Transition'; Stimson Center 'After Khamenei: Regional Reckoning'; Atlantic Council analysis; Washington Institute nuclear balancing act analysis; MEMRI JCPOA guidelines letter 2015; United Against Nuclear Iran profile",
+    "IRGC economic empire: Iran International reporting on IRGC financial structure; National Interest 'The Day After Khamenei'; Hudson Institute 'Three Forces Shaping Post-Revolutionary Iran'",
+    "Succession context: Iran International 'wartime succession'; Times of Israel 'IRGC orchestrated selection of new supreme leader'; Euronews insider testimony"
+  ],
+  "historical_note": "This profile covers Ali Khamenei as a historical figure whose tenure shaped Iran's political, military, and economic system from 1989 to 2026. It is compiled primarily for: (1) understanding the institutional inheritance that Mojtaba Khamenei received; (2) comparing Khamenei-era behavioral parameters with what is expected under Mojtaba; (3) modeling Iran's 36-year behavioral patterns during the period in which the main simulation's economic data was collected. All values are retrospective assessments with high confidence due to the extensive historical record available.",
+  "behavior_matrix": {
+    "description": "Behavior matrix for Ali Khamenei as Supreme Leader 1989-2026. His tenure was defined by: a unique combination of rigid ideological commitment to Khomeinism with pragmatic tactical flexibility; institutional power-building through control of appointments, IRGC patronage, and information suppression rather than personal charisma; proxy warfare as primary foreign policy instrument; nuclear program management as both deterrent and bargaining chip; and a fundamental failure to build a legitimate succession that ultimately resulted in his son being installed by IRGC fiat rather than clerical consensus. He was never a charismatic or popular leader — his power derived entirely from institutional control, IRGC alignment, and the elimination of political rivals. Analysts have noted the parallel to Brezhnev: a system manager rather than a transformer, who preserved stability by suppressing alternatives and allowed institutional decay to accumulate under a surface of controlled stability. His assassination by US-Israeli forces was the consequence of the very threat he had tried to manage for decades through proxy warfare and strategic ambiguity — ultimately the deterrent failed.",
+    "dimensions": 49,
+    "vectors": [
+
+      {
+        "label": "institutional_control_over_charisma",
+        "value": 0.93,
+        "evidence": "Khamenei was never a popular or charismatic leader — he was elevated to Supreme Leader in 1989 in a rushed process after Khomeini's death, despite having insufficient religious credentials for the position (he was a mid-ranking Hojatoleslam, not an Ayatollah, when appointed — was posthumously upgraded). His power came entirely from: (1) controlling the appointment of all senior judges, military officers, and media heads, (2) cultivating the IRGC as a patronage network, (3) systematically eliminating potential rivals through disqualification and imprisonment, (4) controlling the Guardian Council which disqualified electoral candidates. This institutional control model — analogous to Brezhnev's control through party machinery rather than personal appeal — was effective for stability but created a brittle system with no legitimate succession mechanism."
+      },
+      {
+        "label": "irgc_symbiotic_dependency",
+        "value": 0.88,
+        "evidence": "The relationship between Khamenei and the IRGC was symbiotic but the direction of dependency evolved over time. Early tenure: Khamenei cultivated IRGC dependence on him (appointments, budget, political protection). Middle tenure: the IRGC's economic empire (~$200B in assets across oil, construction, telecommunications, smuggling) made it increasingly autonomous. Late tenure: multiple analyses suggest the IRGC had become the effective principal and Khamenei the formal legitimizer. IRGC orchestrated his son's succession — selecting Mojtaba Khamenei against clerical tradition — demonstrating that by 2026, the IRGC had sufficient power to override the Assembly of Experts' formal processes. The 0.88 reflects high but imperfect IRGC control: Khamenei retained real power through appointments and could (occasionally) override IRGC preferences on tactical matters, but on strategic direction, they were effectively co-equal."
+      },
+      {
+        "label": "irgc_control_vs_controlled_ambiguity",
+        "value": 0.58,
+        "evidence": "The fundamental question of who controlled whom — Khamenei controlling the IRGC, or the IRGC controlling Khamenei — has no clean answer. Evidence for Khamenei in control: He appointed and fired IRGC commanders multiple times, indicating real authority. Evidence for IRGC in control: The IRGC's economic autonomy meant it did not need his political protection to survive; the Mojtaba succession was an IRGC decision. The most accurate model: a power-sharing arrangement in which each side needed the other for different things — Khamenei needed IRGC coercive capacity for regime survival, IRGC needed Khamenei's religious legitimacy for political cover. The 0.58 reflects genuine ambiguity, not a modeling failure."
+      },
+      {
+        "label": "anti_us_ideology_depth",
+        "value": 0.92,
+        "evidence": "Khamenei's anti-Americanism was the organizing principle of his foreign policy and a core regime legitimacy pillar. 'Death to America' was not rhetoric for him but a genuine worldview: the US as the primary imperialist power seeking to dominate the Muslim world and undermine the Islamic Republic. This ideology was: (1) formative — shaped by the US support for the Shah and the 1953 CIA coup, (2) reinforced by US sanctions and military presence in the region, (3) structurally useful — internal regime failures could always be attributed to American sabotage/sanctions. Khamenei never seriously explored accommodation with the US because doing so would undermine the legitimacy narrative the regime was built on. The JCPOA 2015 was the maximum pragmatic exception — and he extracted enormous conditions and maintained anti-US rhetoric even while approving it."
+      },
+      {
+        "label": "anti_israel_ideology_depth",
+        "value": 0.94,
+        "evidence": "Even more than anti-Americanism, anti-Zionism and anti-Israel ideology was central to Khamenei's worldview. He called for Israel's destruction repeatedly, denied the Holocaust, promoted explicit antisemitic tropes in official speeches. For him, Israel's existence was illegitimate and its elimination was an Islamic obligation. This was not primarily tactical — it was a genuine ideological commitment that shaped: (1) the construction of the proxy network (Hezbollah as the primary anti-Israel force), (2) the nuclear program's deterrent function against Israel, (3) refusal to recognize Israel in any context. He hosted Holocaust denial conferences in Tehran. This ideological depth meant he could not be negotiated with on Israel's existence, only on tactical parameters."
+      },
+      {
+        "label": "proxy_warfare_strategic_preference",
+        "value": 0.91,
+        "evidence": "Khamenei's single greatest strategic innovation was the construction and management of the 'Axis of Resistance' proxy network: Hezbollah (Lebanon), Hamas (Gaza), Houthis (Yemen), Iraqi militias, Syrian presence. The strategic logic: asymmetric pressure on US and Israeli interests without direct Iranian military engagement that would trigger devastating retaliation. The network allowed Iran to: (1) threaten Israel from multiple directions without Iran formally being at war, (2) tie down US forces in Iraq/Syria through proxy harassment, (3) control the Hormuz threat without actually closing it (maintaining leverage), (4) create strategic depth by having non-Iranian forces fight Iran's battles. The network was enormously expensive ($1-2B/year estimated) and ultimately failed to deter the US-Israeli decapitation operation, but it represented the primary foreign policy achievement of his tenure."
+      },
+      {
+        "label": "direct_military_confrontation_aversion",
+        "value": 0.85,
+        "evidence": "Despite aggressive rhetoric, Khamenei consistently avoided direct Iranian military confrontation with the US or Israel. Even after severe provocations: (1) US forces killed Iranian-backed militia commanders, (2) Stuxnet destroyed thousands of centrifuges, (3) Mossad assassinated multiple nuclear scientists, (4) Mossad stole the nuclear archive, (5) 2018 Israeli strikes on Iranian forces in Syria. In each case, the retaliation was calibrated to not cross into direct Iran-US/Iran-Israel war. The 2019 Strait of Hormuz tanker seizures and Houthi attacks were proxy/asymmetric responses. Only twice did Iran directly fire at Israeli territory (April 2024 drone/missile barrage, which was calibrated to be intercepted) — and this was itself more theatrical than genuine military escalation. The aversion to direct confrontation was strategic, not cowardly — he understood that direct confrontation would allow the US/Israel to apply their conventional military advantage decisively."
+      },
+      {
+        "label": "nuclear_program_as_deterrent_bargaining",
+        "value": 0.87,
+        "evidence": "Khamenei's nuclear strategy was sophisticated: maintain the program at the maximum level that falls short of triggering a military response, using it simultaneously as a deterrent threat and a bargaining chip. The 'fatwa against nuclear weapons' (whose authenticity was disputed by experts) was a plausible deniability mechanism. He approved the JCPOA (2015) when sanctions-induced economic collapse made the cost of the program exceed its deterrent benefit — a genuinely pragmatic calculation. He rejected the JCPOA revival under Biden because: (1) Trump's JCPOA exit had demonstrated the US could exit agreements, making commitments worthless, (2) Iran's nuclear progress had advanced enough that the price for stopping was higher, (3) domestic hardliner pressure against any deal had increased. The ultimate lesson: the deterrent failed. His death demonstrates that even a near-nuclear program did not deter the US-Israeli decapitation operation."
+      },
+      {
+        "label": "economic_pragmatism_floor",
+        "value": 0.48,
+        "evidence": "Unlike pure ideologues, Khamenei had a genuine floor below which economic conditions would force pragmatic policy adjustments. The JCPOA approval (2015) is the primary evidence: when sanctions had destroyed Iran's GDP and caused currency collapse, he approved negotiations and a deal despite ideological reservations. He reportedly told advisors that 'heroic flexibility' was acceptable when the alternative was system collapse. He also allowed reformist presidents (Khatami, Rouhani) to pursue economic opening when the economy was under severe strain — then shut down their political reforms when the economy stabilized. Pattern: economic pragmatism is activated by acute crisis, then ideology reasserts itself in stability. The 0.48 reflects a genuine but reactive pragmatism — not proactive economic management but crisis-response moderation."
+      },
+      {
+        "label": "resistance_economy_ideology",
+        "value": 0.84,
+        "evidence": "'Resistance Economy' was Khamenei's formal economic doctrine — promoted from the early 2010s. Core tenets: (1) sanctions resilience through domestic production rather than import substitution, (2) reduced reliance on oil revenues (explicitly stated goal, never implemented), (3) self-sufficiency in strategic sectors (food, medicine, industrial), (4) IRGC as economic backbone for critical sectors. In practice, the resistance economy meant accepting lower GDP growth in exchange for reduced sanctions vulnerability. The IRGC's economic empire grew enormously under this doctrine — they became the primary contractor for 'strategic' sectors. The doctrine was part ideology (anti-imperialist self-reliance) and part necessity (adapting to permanent sanctions)."
+      },
+      {
+        "label": "oil_revenue_dependency",
+        "value": 0.78,
+        "evidence": "Despite the Resistance Economy rhetoric, Iran remained deeply dependent on oil revenues under Khamenei. Oil accounted for ~40-60% of government revenues (depending on sanctions pressure) throughout his tenure. The failure to diversify away from oil while preaching Resistance Economy was a fundamental contradiction. The IRGC's control of smuggling routes (including oil via shadow fleet) meant that sanctions 'hurt' official Iran while IRGC-affiliated networks circumvented them profitably — a structural conflict of interest that reduced the regime's genuine effort at economic diversification."
+      },
+      {
+        "label": "presidential_independence_tolerance",
+        "value": 0.42,
+        "evidence": "Khamenei's relationship with presidents evolved through a consistent pattern: allow presidents to pursue their agendas when those agendas serve regime interests, then shut them down when they challenge his authority or ideological limits. Khatami (reformist): allowed social liberalization rhetoric while blocking substantive reform, eventually empowered hardliners to imprison reformist allies. Ahmadinejad: initially aligned, then allowed Ahmadinejad to be humiliated when he challenged Khamenei's authority (2011 political crisis). Rouhani: used for JCPOA negotiation (needed his credibility internationally), then allowed hardliners to undermine him domestically. Raisi: fully loyal, died in helicopter crash 2024. The pattern: presidents have real operational authority as long as they don't challenge the Supreme Leader's domain. When they do, they are destroyed politically."
+      },
+      {
+        "label": "reformist_accommodation_ceiling",
+        "value": 0.38,
+        "evidence": "Khamenei's tolerance for reformism had a hard ceiling: anything that might threaten the Supreme Leader's authority, the IRGC's position, or the Islamic Republic's fundamental ideological premises was blocked or crushed. The 2009 Green Movement (Mousavi/Karroubi challenging the election result) was suppressed brutally — Mousavi and Karroubi were placed under house arrest for years. The 2022 Mahsa Amini protests (which generated the largest internal challenge to the regime since 1979) were suppressed with live fire and mass arrests. Khamenei described protesters as 'agents of foreign enemies' — the standard framing that justified unlimited suppression. The reformist ceiling meant that Iran could not develop politically, creating accumulating pressure."
+      },
+      {
+        "label": "political_violence_authorization_threshold",
+        "value": 0.82,
+        "evidence": "Khamenei authorized political violence against internal opposition at a relatively low threshold. The 1988 mass executions of political prisoners (estimated 3,000-5,000 deaths) occurred during his presidency. As Supreme Leader: Green Movement 2009 (dozens killed, thousands imprisoned), 2019 protests (estimated 1,500 killed in the crackdown — one of the bloodiest single protest suppressions in modern history), 2022 Mahsa Amini protests (hundreds killed, thousands imprisoned). He consistently framed dissent as foreign-sponsored subversion requiring security response. The pattern shows a system that treats mass political violence as routine governance, not exceptional."
+      },
+      {
+        "label": "hardliner_conservative_coalition_dependency",
+        "value": 0.86,
+        "evidence": "Khamenei's power base was the hardliner-conservative clerical-military-intelligence coalition. This coalition: IRGC leadership, judiciary, Guardian Council, hardliner media, powerful clerics with commercial interests, Basij militia. He systematically advanced their interests: budget allocations, appointment of loyalists, suppression of reformist competitors, protection from accountability. This coalition dependency meant that any pragmatic move toward the West or liberalization was constrained by hardliner veto — similar to how Netanyahu is constrained by Ben Gvir/Smotrich, but more systematically embedded."
+      },
+      {
+        "label": "succession_planning_failure",
+        "value": 0.82,
+        "evidence": "Khamenei's failure to establish a legitimate succession mechanism was his most consequential institutional failure. His tenure lasted 36 years without building a consensus successor within the clerical establishment. His son Mojtaba was widely known as his preferred choice, but Mojtaba lacked the religious credentials required by Islamic Republic constitutional design. Rather than reforming the succession system or building clerical consensus for Mojtaba, he allowed the succession to become dependent on IRGC backing — which ultimately meant the IRGC orchestrated the succession, not the clerical establishment. The result: Iran's third supreme leader has questionable religious legitimacy and full IRGC dependency, which is a regime-weakening outcome."
+      },
+      {
+        "label": "mojtaba_grooming_covert",
+        "value": 0.78,
+        "evidence": "Over the final decade of his rule, Khamenei systematically expanded Mojtaba's influence while maintaining plausible deniability about succession preferences. Mojtaba was given: (1) channels tied to IRGC intelligence apparatus, (2) financial sections of the Supreme Leader's office (Beyt), (3) influence over IRGC personnel decisions and clerical appointments in Qom. By 2026, Mojtaba had 'deep relationships across IRGC command networks' built over decades. The covert grooming was necessary because formal designation would have triggered constitutional objections — Mojtaba never held an official formal position equivalent to his actual influence."
+      },
+      {
+        "label": "long_time_horizon_decision_making",
+        "value": 0.83,
+        "evidence": "Unlike leaders optimizing for election cycles or short-term political survival, Khamenei operated on decades-long time horizons. The proxy network construction (beginning in the 1980s) reached its operational peak in the 2010s-2020s — a 30-40 year project. The nuclear program's deterrent purpose was understood as a multi-decade effort. His resistance to US pressure was explicitly framed as 'we can outlast the Americans' — a strategic patience doctrine. This long time horizon made him difficult to deter through short-term economic pain (sanctions) and made him willing to accept sustained economic deterioration in pursuit of ideological-strategic goals."
+      },
+      {
+        "label": "heroic_flexibility_tactical_pragmatism",
+        "value": 0.62,
+        "evidence": "'Heroic Flexibility' was Khamenei's explicit concept for justified tactical pragmatism — borrowed from military strategy. He used it to justify JCPOA negotiations when sanctions had created acute economic crisis. The concept allowed him to pursue deals he found ideologically distasteful by framing them as tactical maneuvers in a longer struggle. This tactical pragmatism had limits: (1) he extracted maximum conditions from any deal (the JCPOA guidelines letter had 9 conditions that effectively limited implementation), (2) he never accepted permanent restrictions, only temporary ones, (3) any deal required maintaining anti-US/anti-Israel rhetorical posture domestically. Pragmatism was always instrumental — it could be activated when system survival required it but was immediately reversed when pressure lifted."
+      },
+      {
+        "label": "jcpoa_2015_as_crisis_driven_pragmatism",
+        "value": 0.85,
+        "evidence": "The JCPOA is the clearest evidence of Khamenei's crisis-driven pragmatism. By 2013-2015, Iran's economy had contracted ~5-8% due to sanctions, currency had collapsed 50%+, oil exports had halved, and inflation was 30%+. Khamenei signaled approval for negotiations in September 2013 using religious analogy ('flexibility is sometimes necessary to achieve victory'). He approved the JCPOA despite significant domestic hardliner opposition — Speaker Larijani fast-tracked the parliamentary vote on Khamenei's instructions. Then in October 2015, he issued a 9-condition guidelines letter that effectively constrained implementation. The pattern: needed the deal badly enough to approve it, but immediately began hedging against full implementation. When Trump exited in 2018, Khamenei said 'I told you Americans couldn't be trusted' — vindicating his hedging instinct."
+      },
+      {
+        "label": "domestic_legitimacy_narrative_dependence",
+        "value": 0.88,
+        "evidence": "The Islamic Republic's legitimacy under Khamenei rested on three narrative pillars: (1) anti-American/anti-Zionist resistance as Islamic obligation, (2) the 1979 revolution as a permanently valid governing mandate, (3) the Supreme Leader as the faqih (Islamic jurist) with divine-inspired guidance. Khamenei was deeply invested in maintaining these narratives even when they conflicted with material interests. Any diplomatic opening with the US required elaborate framing to avoid undermining narrative pillar (1). Any acknowledgment of governance failures undermined pillar (2). Any reform of the Supreme Leader's powers undermined pillar (3). The narrative dependence created structural rigidity — reforms that might save the regime materially were blocked because they threatened the legitimacy frame."
+      },
+      {
+        "label": "sanctions_tolerance_through_ideology",
+        "value": 0.78,
+        "evidence": "Khamenei's Resistance Economy doctrine allowed him to accept sanctions costs that would be politically fatal to most leaders. Evidence: Iran endured extremely severe sanctions regimes (2012-2015, 2018-present) that caused genuine economic suffering (40%+ currency collapse, GDP contraction, import restrictions), yet the regime survived. The mechanism: (1) blame deflection to external enemies ('it's American economic warfare'), (2) IRGC economic networks partially circumvented sanctions, (3) ideological framing made sacrifice virtuous ('resistance is a religious duty'), (4) security services suppressed economic protest. However, there was a limit — the 2013-2015 period where JCPOA was approved suggests acute economic crisis does eventually overcome the ideology."
+      },
+      {
+        "label": "china_alignment_strategic_depth",
+        "value": 0.82,
+        "evidence": "The Iran-China 25-year strategic cooperation agreement (signed 2021) was the most significant economic arrangement of Khamenei's late tenure. China purchased ~$26B/year in Iranian oil via shadow fleet under sanctions, providing the economic lifeline that kept the regime functioning. In exchange, Iran provided a reliable energy source and strategic foothold in the Middle East for Chinese policy. Khamenei valued China as: (1) primary sanctions-circumvention partner, (2) UN Security Council veto power preventing sanctions escalation, (3) technology provider (surveillance, infrastructure), (4) proof that the 'West is not the world' narrative had validity. The relationship was asymmetric — Iran needed China far more than China needed Iran."
+      },
+      {
+        "label": "russia_alignment_transactional",
+        "value": 0.75,
+        "evidence": "Khamenei's Russia relationship was more transactional and less ideologically grounded than the China relationship. Under the Russia-Ukraine war (2022-present), Iran-Russia military cooperation deepened significantly: Iran supplied Shahed drones to Russia, Russia supplied advanced air defense systems to Iran. Russia provided UNSC diplomatic cover alongside China. The alignment was real but limited: (1) Russia and Iran compete for influence in the Caucasus and Central Asia, (2) Putin is not trusted as a reliable long-term partner (Russia has historically betrayed Iran in negotiations), (3) Iran could not provide Russia with sufficient economic compensation for weapons supply, creating a debt that Russia exploited. The relationship strengthened opportunistically during the Ukraine war but was not a genuine strategic alliance."
+      },
+      {
+        "label": "information_environment_control",
+        "value": 0.90,
+        "evidence": "Khamenei presided over one of the most comprehensive information control systems outside of North Korea and China. All major media required Supreme Leader's approval. Internet was censored and periodically shut down (complete shutdown during 2019 protests). Foreign media access was tightly controlled. The effect: his decision-making was based on information filtered by a system that had strong incentives to tell him what he wanted to hear. Multiple analyses suggest that by his final decade, Khamenei was receiving systematically optimistic assessments of Iran's capabilities and foreign policy situation. The gap between his worldview (Iran was successfully resisting US/Israel and building strategic depth) and reality (the proxy network was being destroyed, nuclear scientists were being assassinated, his successor had just been killed) was widening."
+      },
+      {
+        "label": "information_fidelity_system_distortion",
+        "value": 0.34,
+        "evidence": "Khamenei's effective information quality was very low despite his institutional access to all intelligence. Reasons: (1) Iranian intelligence agencies competed with each other for his approval, incentivizing positive reports, (2) IRGC had direct access to him but institutional interest in overstating their capabilities and Iranian strength, (3) 36 years of cultivating yes-men around him had eliminated advisors willing to deliver uncomfortable truths, (4) his own ideological framework filtered incoming information — he interpreted US actions as imperialist aggression rather than strategic responses, which prevented accurate modeling of US decision-making, (5) Iran's isolation from the West meant virtually no informal channels for calibrating assessments against Western perspectives. The 0.34 reflects that many of his major decisions (including his continued confidence in the proxy network strategy after significant degradation) appear to have been made on substantially incorrect premises."
+      },
+      {
+        "label": "brezhnev_analogy_system_management",
+        "value": 0.88,
+        "evidence": "The Brezhnev comparison is analytically precise: Khamenei, like Brezhnev, was a system manager who prioritized stability over transformation. He inherited a revolutionary system (Khomeinism, as Brezhnev inherited Soviet Communism) and chose to: (1) suppress reformist challenges (Khrushchev-era openness analog), (2) extend the system's lifespan through institutional control rather than adaptation, (3) allow gradual ideological sclerosis ('Brezhnevism' = 'Khamenei-ism' in its prioritization of stability over vitality), (4) prevent succession planning that might challenge his authority, (5) use foreign policy activism (proxy network = Soviet expansion) to maintain ideological legitimacy at home. The Brezhnev parallel predicts what follows: the system he built is more stable in the short term but more brittle structurally, and his successor (Mojtaba/Gorbachev) may accelerate institutional breakdown by trying to change things."
+      },
+      {
+        "label": "nuclear_fatwa_strategic_ambiguity",
+        "value": 0.72,
+        "evidence": "Khamenei's 'fatwa against nuclear weapons' was a strategic ambiguity tool rather than a genuine religious constraint. Evidence: (1) the fatwa was never formally published (raised authenticity questions), (2) it was used primarily when Iran needed to reassure Western negotiating partners, (3) experts consistently noted it could be modified or reversed as circumstances required, (4) Iran's actual nuclear program involved activities (weapons-design research, neutron initiator studies) that were inconsistent with a genuine fatwa-based constraint. The fatwa served as plausible deniability while Iran accumulated dual-use capabilities. Khamenei's actual nuclear strategy: advance capabilities as far as possible while maintaining the argument that intent was civilian — the 'nuclear latency' strategy designed to keep the option open without triggering decisive preventive action."
+      },
+      {
+        "label": "jcpoa_exit_by_trump_lesson_learned",
+        "value": 0.87,
+        "evidence": "Trump's 2018 JCPOA exit was a defining lesson for Khamenei's final years. It confirmed his pre-existing distrust of the US: the Americans could not be trusted to honor agreements, and any deal was temporary. The lesson shaped: (1) rejection of the Biden JCPOA revival (why enter a deal Trump will exit again?), (2) acceleration of nuclear program after 2018 (if the deal doesn't hold, maximize capabilities), (3) increased investment in proxy networks (diplomatic solutions are unreliable; military deterrence through proxies is more reliable). Ironically, the acceleration made Iran a more immediate target — which contributed to the conditions for the Khamenei assassination."
+      },
+      {
+        "label": "deterrence_failure_trajectory",
+        "value": 0.82,
+        "evidence": "Retrospectively, Khamenei's deterrence strategy shows a systematic failure trajectory: each escalation by Israel/US that went without decisive retaliation emboldened the next step. Timeline: Stuxnet (no retaliation) → scientist assassinations (no decisive retaliation) → nuclear archive theft (no retaliation) → 2019 tanker seizures (small retaliation) → 2019 Houthi Saudi Aramco strike (no direct attribution) → 2024 direct missile attack on Israel (intercepted, no decisive response) → June 2025 Twelve-Day War nuclear strikes (survived, but capabilities degraded) → February 2026 assassination. Each step demonstrated that the proxy network was not a sufficient deterrent against direct action. The strategy that worked for 30 years ultimately failed because it never developed a credible direct deterrent."
+      },
+      {
+        "label": "populist_religious_legitimacy_performance",
+        "value": 0.80,
+        "evidence": "Khamenei cultivated a persona of pious, austere, religiously-legitimate leadership despite holding institutionally unprecedented power for a figure with his limited theological credentials. He maintained a simple lifestyle (by head-of-state standards), gave Quranic lectures, issued religious guidance on mundane matters. This performance of legitimacy was essential because his core claim to authority (velayat-e faqih — governance by the Islamic jurist) required him to appear as a genuine religious authority, not merely a political power broker. His limited clerical credentials (mid-ranking Hojatoleslam promoted to Ayatollah after appointment as Supreme Leader) made this performance more important — he needed to constantly demonstrate religious authority he did not organically possess."
+      },
+      {
+        "label": "palestine_cause_as_legitimacy_instrument",
+        "value": 0.90,
+        "evidence": "The Palestinian cause was simultaneously an ideological commitment and a legitimacy instrument for Khamenei's regime. The anti-Israel/pro-Palestinian narrative: (1) unified Sunni and Shia Muslims behind Iran despite sectarian divisions (important for pan-Islamic legitimacy), (2) provided a foreign enemy that justified domestic repression, (3) gave Iran geopolitical relevance beyond its actual economic power, (4) made Hezbollah and Hamas into regime legitimacy demonstrations ('we are doing something for Muslims that no one else will'). The Quds Force's expenditure on Palestinian factions and Hezbollah was viewed as legitimacy investment, not just military strategy. The strategic and ideological functions were completely intertwined."
+      },
+      {
+        "label": "domestic_economic_management_quality",
+        "value": 0.32,
+        "evidence": "Iran's economic management under Khamenei was poor by virtually any metric. GDP per capita in real terms fell significantly over his tenure relative to comparable middle-income countries. Chronic inflation (structural, not cyclical — caused by monetization of deficits). Currency collapse (repeated, severe). Investment collapse (due to sanctions + IRGC-dominated economic environment that crowded out private sector). Unemployment chronic, particularly youth. The economic failures were: (1) partially sanctions-caused (external), (2) partially self-inflicted (IRGC monopolization of the economy prevented competitive private sector development), (3) partly ideological (resistance economy doctrine prioritized self-sufficiency over efficiency). The 0.32 reflects genuinely poor economic management — below even what the sanctions environment would structurally impose."
+      },
+      {
+        "label": "irgc_economic_empire_enablement",
+        "value": 0.88,
+        "evidence": "The IRGC's expansion from a military force into an economic empire controlling oil, construction, telecommunications, and smuggling was enabled and encouraged by Khamenei. The logic: IRGC economic interests created a direct financial stake in the regime's survival, making them institutionally loyal. The IRGC construction arm (Khatam al-Anbiya) became Iran's largest contractor through no-bid contracts on infrastructure projects. IRGC-affiliated entities controlled key import/export chains. By the end of Khamenei's tenure, the IRGC economy was estimated at $200B+. This economic empire crowded out private sector investment, distorted the economy, and created a class of IRGC-connected oligarchs. It also made the IRGC structurally more powerful than Khamenei, as they no longer needed his political protection for economic survival."
+      },
+      {
+        "label": "green_movement_2009_suppression",
+        "value": 0.92,
+        "evidence": "The 2009 Green Movement — mass protests disputing the 2009 presidential election results (Ahmadinejad vs. Mousavi) — was the most serious internal threat to the Islamic Republic since the early post-revolution years. Khamenei personally endorsed the election results and called the protesters foreign agents, authorizing brutal suppression (dozens killed, thousands arrested, movement leaders placed under permanent house arrest). The suppression was decisive and ended reformism as an electoral force for years. His response demonstrated that regime survival overrode any legitimacy concerns — he was willing to create the 'Velvet Divorce' from reformist civil society to maintain control."
+      },
+      {
+        "label": "2019_protests_100x_suppression",
+        "value": 0.96,
+        "evidence": "The November 2019 protests (triggered by fuel price increases) were suppressed with extraordinary violence — estimated 1,500 killed over several days, one of the highest death tolls for a single protest event in modern history outside of full war zones. The internet was shut down nationally. The suppression was qualitatively more brutal than 2009, reflecting Khamenei's assessment that the regime was under existential threat. This event revealed that when facing genuine popular revolt, the regime would deploy maximum violence without restraint. It also revealed the regime's information control system — the shutdown prevented international documentation of casualties."
+      },
+      {
+        "label": "mahsa_amini_2022_response",
+        "value": 0.90,
+        "evidence": "The 2022 Mahsa Amini protests (triggered by her death in morality police custody) generated sustained protests across all social classes and regions — the broadest challenge to the regime since 1979. Khamenei authorized suppression (hundreds killed, tens of thousands arrested) while maintaining the ideological framework that the protests were foreign-sponsored. The protests revealed a generational legitimacy crisis — particularly among women and youth who explicitly rejected the Islamic Republic's fundamental premises. Khamenei showed no willingness to make substantive concessions and ultimately the protests were suppressed, but the underlying legitimacy deficit accelerated."
+      },
+      {
+        "label": "velayat_e_faqih_ideological_commitment",
+        "value": 0.94,
+        "evidence": "The doctrine of velayat-e faqih (governance by the Islamic jurist) was Khamenei's fundamental governing principle — it legitimized his own authority and the entire political system. He defended and enforced it against reformist interpretations (Grand Ayatollah Montazeri challenged the doctrine's scope, was marginalized). The doctrine was not merely instrumental for him but genuinely believed: the Supreme Leader had divine-inspired authority to govern until the return of the Hidden Imam. This genuine ideological commitment made him resistant to systemic reform — to reform the velayat-e faqih system was to deny the theological premise of his own authority."
+      },
+      {
+        "label": "israel_destruction_rhetoric_vs_action",
+        "value": 0.68,
+        "evidence": "Despite 36 years of 'Death to Israel' rhetoric and active proxy network funding against Israel, Khamenei consistently kept direct Iranian military action against Israel below the threshold that would trigger decisive response. The April 2024 direct Iranian missile/drone attack on Israel was the first direct attack — and it was calibrated to be interceptable, with advance warnings given through channels that reached Israel. This reveals the gap between rhetoric (eliminate Israel) and operational reality (avoid a direct war that Iran would lose). He used the proxy network to impose costs on Israel without giving Israel the 'clean' casus belli for a direct Iran war. The strategy failed in the end — the US-Israel axis created the casus belli anyway."
+      },
+      {
+        "label": "june_2025_twelve_day_war_survival",
+        "value": 0.75,
+        "evidence": "The June 2025 Twelve-Day War (Israel strikes on Natanz, nuclear scientists, ballistic missile program) was a near-death experience for Khamenei's strategic vision, though he personally survived. The nuclear program was significantly damaged (though not destroyed). His response: (1) maintained public defiance, (2) began reconstruction of nuclear facilities, (3) apparently became less careful about his own security (IRGC security rot noted by Al Jazeera analysis of the Mossad's ultimate success). The survival of the June 2025 attack may have created a false confidence that led to reduced security measures — contributing to the conditions that enabled the February 2026 assassination. The CNBC post-assassination analysis noted that 'Mossad relies on US cover and security rot for Iran strikes.'"
+      },
+      {
+        "label": "personal_security_complacency_late_tenure",
+        "value": 0.65,
+        "evidence": "By the time of his assassination, Khamenei's personal security had developed significant vulnerabilities. Al Jazeera analysis post-assassination: 'Israel's Mossad relies on US cover and security rot for Iran strikes.' After surviving the June 2025 strikes, he may have felt that Israeli/US capabilities had been exhausted or that remaining underground was creating unacceptable governance limitations. The CIA was able to determine his location with sufficient precision for the February 2026 strike — suggesting either a penetrated security network or that he was not maintaining full location security protocols. This complacency in late tenure is itself a behavioral data point."
+      },
+      {
+        "label": "anti_western_cultural_policy",
+        "value": 0.89,
+        "evidence": "Khamenei enforced stringent cultural controls as both ideological commitment and social control mechanism: mandatory hijab, gender segregation, restrictions on music/arts/cinema, internet censorship, harassment of Western-influenced lifestyle. These controls were simultaneously genuine religious commitment and a practical tool for suppressing political opposition (morality enforcement gave the state permanent pretext for intrusion into private life). The 2022 Mahsa Amini protests began precisely because of hijab enforcement — demonstrating that these cultural controls had become a major source of regime delegitimization, particularly among youth and women."
+      },
+      {
+        "label": "foreign_hostage_diplomacy",
+        "value": 0.72,
+        "evidence": "Iran under Khamenei regularly detained foreign nationals (Western, particularly dual citizens) to use as bargaining chips in sanctions negotiations. The pattern was systematic: detain when needing leverage in negotiations, release when a deal is reached. This was an asymmetric coercive instrument that imposed real costs on Western governments (prisoner swap pressure, funding releases) for relatively low risk to Iran. The practice was officially denied but effectively acknowledged through the diplomatic pattern."
+      },
+      {
+        "label": "supreme_leader_appointment_power_usage",
+        "value": 0.92,
+        "evidence": "Khamenei used his constitutional authority over senior appointments (judiciary, military, media) as his primary power instrument — more than any other tool. He appointed: all senior judges (ensuring the judiciary protected his interests), IRGC commanders (creating military loyalty), heads of state broadcasting, members of the Guardian Council (which controlled elections). This appointment power was the skeleton of his institutional control — visible in: the Guardian Council's systematic disqualification of reformist candidates, the judiciary's prosecution of political opponents, the IRGC commanders' political loyalty. When a Supreme Leader controls appointments across all branches, the separation of powers is nominal."
+      },
+      {
+        "label": "khomenism_preservation_vs_adaptation",
+        "value": 0.88,
+        "evidence": "Khamenei's fundamental governing choice was to preserve Khomeinism rather than adapt it. Khomeini's revolution had the energy of genuine popular mobilization; Khamenei inherited the form without the substance. His response: (1) intensify ideological enforcement (resistance economy, cultural controls) to maintain the revolutionary character, (2) use the IRGC to substitute coercive power for lost popular legitimacy, (3) block any theological or constitutional reform that might create space for liberalization. The result: a system that maintained the revolutionary symbols while hollowing out the revolutionary substance — a definition of Brezhnevism applied to Iran."
+      },
+      {
+        "label": "sectarian_politics_exploitation",
+        "value": 0.75,
+        "evidence": "Despite promoting pan-Islamic unity in rhetoric, Khamenei exploited sectarian (Shia-Sunni) divisions strategically. The proxy network in Iraq (Shia militias), Lebanon (Hezbollah = Shia), and Yemen (Houthis = Zaidi/Shia) was built on sectarian foundations. The Shia crescent concept created Iranian strategic depth through Shia majority populations in Iraq, Syria, and Lebanon. However, he framed it publicly as pan-Islamic anti-Zionism to maintain Sunni-facing legitimacy (Hamas is Sunni, Palestine is predominantly Sunni — making their support require transcending sectarianism)."
+      },
+      {
+        "label": "war_with_iraq_formative_experience",
+        "value": 0.88,
+        "evidence": "The Iran-Iraq War (1980-1988) was Khamenei's most formative experience — he served as president throughout its entirety and personally experienced the human catastrophe of a war in which over a million Iranians died. Key lessons absorbed: (1) Iran can survive existential military conflict through national mobilization and sacrifice, (2) the US (which backed Iraq with intelligence and weapons) is an implacable enemy of the Islamic Republic, (3) Iran needs asymmetric deterrence (proxy network) because it cannot match US or Israeli conventional military power, (4) economic sanctions (wartime international isolation) are survivable. These lessons directly shaped his Supreme Leader tenure — the war was both a trauma and a proof of concept for Iran's survival capacity."
+      },
+      {
+        "label": "revolutionary_vs_state_interest_balance",
+        "value": 0.72,
+        "evidence": "Khamenei consistently prioritized Islamic Republic revolutionary ideology over narrow Iranian state interests. This was most visible in: (1) maintaining the proxy network despite its enormous cost to the Iranian economy, (2) refusing US normalization that might have brought massive economic benefits, (3) nuclear brinkmanship that imposed sanctions costing Iran hundreds of billions. From a pure state-interest perspective, normalization with the US after 2001 might have served Iran far better than continued confrontation. Khamenei rejected this path because it would have undermined the regime's legitimacy narrative. The revolutionary commitment was genuine, not merely instrumental."
+      },
+      {
+        "label": "12_day_war_iran_response_calibration",
+        "value": 0.70,
+        "evidence": "The June 2025 Twelve-Day War struck Iran's most important strategic assets. Khamenei's response after surviving: maintained defiance posture, authorized Hormuz disruption (partial), activated Hezbollah (resumed strikes on Israel), but did not directly escalate to a general war. This calibration — maximum disruption below direct Iran-Israel/Iran-US war threshold — was consistent with his 36-year pattern. However, the calibration was no longer functional: the US-Israel had decided to eliminate the deterrent problem by eliminating Khamenei himself, not by waiting for him to escalate."
+      }
+
+    ]
+  },
+  "red_lines": [
+    {
+      "id": "RL001",
+      "name": "islamic_republic_regime_overthrow",
+      "condition": "Any domestic or foreign action that directly threatened the Islamic Republic's existence as a political system",
+      "forced_action": "maximum_suppression_and_military_mobilization",
+      "confidence": 0.99,
+      "evidence": "This was the absolute first priority. The 2009 Green Movement suppression, the 2019 1,500-death crackdown, and the 2022 Mahsa Amini suppression all demonstrate that regime survival is the terminal value from which all others derive. No economic, diplomatic, or humanitarian cost was too high to pay for regime preservation.",
+      "priority": 1
+    },
+    {
+      "id": "RL002",
+      "name": "nuclear_program_full_dismantlement",
+      "condition": "Agreement or military action that permanently destroyed Iran's nuclear program capability",
+      "forced_action": "reject_any_agreement_and_defend_program_by_all_available_means",
+      "confidence": 0.93,
+      "evidence": "Khamenei's JCPOA guidelines explicitly preserved the program's long-term continuation (sunset clauses, R&D restrictions only for fixed periods). He never agreed to permanent dismantlement — only temporary limitation in exchange for sanctions relief. When Trump exited the JCPOA, he used it as confirmation that he had been right to preserve the program's core.",
+      "priority": 1
+    },
+    {
+      "id": "RL003",
+      "name": "normalization_with_us_or_israel",
+      "condition": "Formal diplomatic normalization with the US or Israel (recognition, treaty, formal relations)",
+      "forced_action": "reject_and_use_as_ideological_rallying_point",
+      "confidence": 0.97,
+      "evidence": "Normalization with the US or Israel was structurally impossible under Khamenei because it would undermine the legitimacy narrative the entire regime was built on. The JCPOA was technically not normalization (no diplomatic relations restored) — which was essential to him accepting it.",
+      "priority": 1
+    },
+    {
+      "id": "RL004",
+      "name": "supreme_leader_authority_institutional_challenge",
+      "condition": "Systematic challenge to the velayat-e faqih doctrine or the Supreme Leader's constitutional authority",
+      "forced_action": "eliminate_challengers_through_judiciary_and_intelligence_services",
+      "confidence": 0.95,
+      "evidence": "Grand Ayatollah Montazeri (challenged the doctrine's scope) was put under house arrest for years. Ahmadinejad (challenged Supreme Leader authority in 2011) was systematically undermined. Reformist candidates were disqualified. Any institutional challenge to his authority was met with elimination of the challenger.",
+      "priority": 1
+    },
+    {
+      "id": "RL005",
+      "name": "proxy_network_full_elimination",
+      "condition": "Military action that destroyed the entire proxy network (Hezbollah, Houthis, Iraqi militias) simultaneously",
+      "forced_action": "direct_military_response_and_Hormuz_escalation",
+      "confidence": 0.82,
+      "evidence": "The proxy network was Iran's primary strategic asset and deterrent. Its complete elimination would strip Iran of all foreign policy leverage and leave it directly exposed. This threshold was never reached during his tenure — the proxy network was degraded (Hezbollah significantly damaged, Hamas leadership largely eliminated) but not destroyed.",
+      "priority": 2
+    }
+  ],
+  "decision_priority_hierarchy": [
+    "1. Islamic Republic regime survival",
+    "2. Supreme Leader's personal authority preservation",
+    "3. Nuclear program protection and advancement",
+    "4. Proxy network maintenance (Axis of Resistance)",
+    "5. Anti-US/anti-Israel ideological consistency",
+    "6. IRGC institutional interests (patronage, economic empire)",
+    "7. Iranian national economic survival (threshold-based — activates when crisis is acute)",
+    "8. Regional Shia/Islamic hegemony",
+    "9. Domestic social control (cultural enforcement, political opposition suppression)",
+    "10. International diplomatic positioning (China/Russia alignments)"
+  ],
+  "comparison_with_mojtaba": {
+    "description": "Key behavioral differences between Ali Khamenei and his successor Mojtaba Khamenei, for use in transition modeling",
+    "vectors": [
+      {
+        "dimension": "pragmatic_flexibility",
+        "ali_khamenei": 0.62,
+        "mojtaba_khamenei": 0.18,
+        "interpretation": "Ali Khamenei demonstrated 'heroic flexibility' (JCPOA approval) when backed into economic crisis. Mojtaba, inheriting power under attack conditions with his father just assassinated, cannot show pragmatic flexibility without appearing to reward the forces that killed his father."
+      },
+      {
+        "dimension": "direct_military_confrontation_aversion",
+        "ali_khamenei": 0.85,
+        "mojtaba_khamenei": 0.40,
+        "interpretation": "Ali Khamenei systematically avoided direct Iran-US/Iran-Israel military confrontation for 36 years. Mojtaba inherits an active war state and has both personal (revenge) and IRGC institutional incentives to escalate."
+      },
+      {
+        "dimension": "international_experience_depth",
+        "ali_khamenei": 0.74,
+        "mojtaba_khamenei": 0.22,
+        "interpretation": "Ali Khamenei had 36 years of direct engagement with international affairs, understanding of US political system, negotiating experience with multiple administrations. Mojtaba has essentially no documented international affairs experience."
+      },
+      {
+        "dimension": "regime_legitimacy_religious_credentials",
+        "ali_khamenei": 0.55,
+        "mojtaba_khamenei": 0.28,
+        "interpretation": "Ali Khamenei's legitimacy was already questionable (mid-ranking cleric elevated beyond credentials) but he built institutional legitimacy over 36 years. Mojtaba has even weaker credentials and was installed by IRGC fiat, creating deeper legitimacy fragility."
+      },
+      {
+        "dimension": "economic_management_priority",
+        "ali_khamenei": 0.42,
+        "mojtaba_khamenei": 0.25,
+        "interpretation": "Ali Khamenei occasionally prioritized economic concerns (JCPOA). Mojtaba faces immediate war and revenge imperatives that will dominate economic considerations for his early tenure."
+      },
+      {
+        "dimension": "irgc_dependency",
+        "ali_khamenei": 0.68,
+        "mojtaba_khamenei": 0.92,
+        "interpretation": "Ali Khamenei had coequal relationship with IRGC (mutual dependency). Mojtaba was installed by IRGC and has no independent power base — the IRGC is his primary (possibly only) source of power."
+      },
+      {
+        "dimension": "nuclear_acceleration",
+        "ali_khamenei": 0.72,
+        "mojtaba_khamenei": 0.95,
+        "interpretation": "Ali Khamenei managed the nuclear program as a deterrent bargaining chip. Mojtaba, having witnessed his father killed despite Iran's near-nuclear status, has the clearest possible lesson that nuclear weapons are the only guarantee of survival."
+      }
+    ]
+  },
+  "background": {
+    "name_full": "Sayyid Ali Hosseini Khamenei (سید علی حسینی خامنه‌ای)",
+    "born": "1939-04-19",
+    "birthplace": "Mashhad, Iran",
+    "died": "2026-02-28",
+    "age_at_death": 86,
+    "cause_of_death": "Assassinated in US-Israeli joint airstrike (Operation Lion's Roar) on his Tehran compound. CIA provided location intelligence. Israeli Blue Sparrow air-launched ballistic missiles and 30+ precision bombs.",
+    "education": [
+      "Qom seminary — traditional Islamic theological training",
+      "Studied under Grand Ayatollah Boroujerdi and (briefly) Ayatollah Khomeini in Qom",
+      "Mashhad seminary — continued religious studies",
+      "No Western academic education"
+    ],
+    "career_path": "religious_revolutionary_politician",
+    "career_detail": "Clerical studies from age 11. Imprisoned multiple times under the Shah (1960s-1970s) for opposition activity. Active in the 1979 Islamic Revolution. Served as: prayer leader, Revolutionary Council member, defense minister (Iran-Iraq War early phase), President of Iran 1981-1989 (two terms, entire Iran-Iraq War). Elevated to Supreme Leader upon Khomeini's death June 1989 despite insufficient theological credentials — was a mid-ranking Hojatoleslam, was subsequently elevated to Ayatollah to satisfy the constitutional requirement.",
+    "formative_experiences": [
+      "Imprisonment under the Shah — direct experience of state repression, reinforced anti-monarchical and anti-US worldview (US support for Shah was visible and resented)",
+      "1979 Islamic Revolution — participant in the revolutionary movement that shaped his entire worldview and the legitimacy framework he governed by",
+      "Iran-Iraq War 1980-1988 — presided as President for the entire war, direct experience of Iran's military vulnerability, US hostility (US backed Iraq), and the nation's capacity for sacrifice",
+      "Khomeini's succession — the rushed, contested process that elevated him despite insufficient credentials created a permanent legitimacy deficit that shaped his compensatory institutional control strategy",
+      "JCPOA 2018 exit by Trump — validated his distrust of the US and shaped his refusal to re-engage diplomatically under Biden"
+    ],
+    "personal_risk_tolerance": "LOW for direct confrontation, HIGH for long-term proxy risk — the defining characteristic of his 36-year strategy"
+  },
+  "information_fidelity": 0.34,
+  "information_fidelity_reasoning": "Khamenei's information quality was severely compromised by structural factors: (1) Iran's information environment under his control — all media required his approval, creating a system where all information channels had been shaped to avoid challenging him, (2) 36 years of eliminating advisors who contradicted him — created a yes-men court, (3) IRGC intelligence monopoly — IRGC provided the majority of his security intelligence, with institutional incentives to overstate Iran's capabilities and adversary weaknesses, (4) Ideological framework distortion — he processed US/Israeli actions through an anti-imperialist framework that systematically misread adversary motivations, (5) Isolation from international civil society — no informal channels to calibrate against Western perspectives. Positive: his own extensive revolutionary and wartime experience gave him genuine understanding of Iranian domestic politics and Middle East regional dynamics. The calibration failure that mattered most: he systematically underestimated US willingness to take direct action against the Islamic Republic. This led to his assassination.",
+  "post_cutoff_assessment": {
+    "final_period_2025_2026": "Khamenei's final months (June 2025-February 2026) saw him face the most severe challenges to his regime in its history: the Twelve-Day War struck Iran's nuclear facilities, the IRGC lost significant proxy infrastructure (Hezbollah degraded, Houthi operations disrupted), and Iran's economic situation worsened under renewed oil sanctions. He responded with maintained defiance, Hormuz disruption, and Hezbollah reactivation. His decision to not radically escalate after the Twelve-Day War (avoiding direct Iran-US war) was consistent with his 36-year pattern but did not provide the deterrence he expected — the US-Israel axis interpreted continued Iranian military activity as justification for further escalation. He was killed 9 months after the Twelve-Day War, in a strike that his security apparatus failed to prevent.",
+    "legacy_assessment": "Khamenei's legacy is paradoxical: he preserved the Islamic Republic for 36 years (an institutional survival achievement) while systematically undermining the conditions for its long-term legitimacy and sustainability. His institutional control prevented the regime's collapse but also prevented its adaptation to changing social conditions. The succession he arranged (Mojtaba via IRGC) was the minimum for immediate continuity but maximum for long-term fragility. His proxy strategy imposed significant costs on the US and Israel for 30+ years but ultimately failed to deter the decapitation operation. The analyst community noted upon his death: 'his assassination removes the most pragmatic decision-maker in the system, potentially closing the door on nuclear diplomacy and empowering less predictable hardliners.'"
+  },
+  "special_notes": "1. THE BREZHNEV ANALOGY: The most analytically useful comparison for modeling Khamenei's behavior is Leonid Brezhnev (Soviet leader 1964-1982). Both: (a) inherited a revolutionary system (Marxism-Leninism / Khomeinism) and chose preservation over adaptation, (b) ruled through institutional control rather than personal charisma, (c) used foreign policy activism (Soviet expansion / proxy network) to maintain ideological legitimacy at home, (d) prevented succession planning that might challenge their authority, (e) presided over gradual ideological sclerosis while maintaining surface stability, (f) left a brittle system unable to adapt after their departure. The simulation should use the Brezhnev template for Khamenei's decision function: stability maximizer, institutionalist, ideologically constrained pragmatist, long-time horizon. 2. IRGC AS PRINCIPAL: The most important analytical question for Khamenei's final decade was 'who is the principal and who is the agent — Khamenei or the IRGC?' The answer shifted over time: early tenure Khamenei was clearly the principal; by his assassination, the IRGC's orchestration of the succession suggests they had become coequal or dominant. For the simulation: model the Khamenei-IRGC relationship as a bilateral principal-agent relationship where the IRGC's principal role gradually increased, reaching near-primacy by 2026. The key implication: decisions attributed to 'Khamenei' were increasingly IRGC institutional decisions using Khamenei as formal legitimizer. 3. PRAGMATISM FLOOR VS. MOJTABA: The single most important behavioral difference between Ali Khamenei and Mojtaba (for the simulation) is the pragmatism floor. Ali Khamenei's pragmatism floor existed — proved by JCPOA. Mojtaba's pragmatism floor appears far lower (father assassinated, IRGC hardliner backing, revenge motivation, legitimacy fragility requiring escalation-demonstration). This difference fundamentally changes the probability distribution of Iran's diplomatic decisions: Ali Khamenei's JCPOA-type pragmatic deal was achievable at high economic pain threshold; Mojtaba's version of the same deal appears essentially unreachable in the short term. 4. NUCLEAR DETERRENCE FAILURE AS SIMULATION PARAMETER: The most important system-level lesson of Khamenei's assassination for the simulation is that nuclear latency (near-weapons capability) did not provide deterrence against US-Israeli decapitation. For Iran-related modeling: the deterrence value of 'nuclear latency' vs. 'actual nuclear weapons' should be modeled as discontinuous — nuclear latency did not prevent assassination of Khamenei, actual weapons might have. This is a critical insight for modeling Mojtaba's nuclear decision calculus. 5. INFORMATION ENVIRONMENT DETERIORATION: Khamenei's information quality appears to have deteriorated significantly over time — a classic pattern in long-tenure autocrats where the accumulation of yes-men, the elimination of truth-tellers, and the institutionalization of ideological filtering creates an increasingly distorted information environment. For the simulation: model information_fidelity as a time-decreasing function for long-tenure autocrats. Each year of unchallenged power reduces effective information quality by a small amount. After 36 years, the cumulative effect (0.34) was severe. This contributed to his ultimate strategic failure — he systematically underestimated US willingness to take direct action. 6. SUCCESSION AS HISTORICAL TURNING POINT: The transition from Ali Khamenei to Mojtaba Khamenei is one of the most consequential leadership transitions in the simulation's scope. The behavioral change is not incremental — it is a qualitative shift: from a 36-year cautious pragmatic institutionalist to an unproven, crisis-appointed, revenge-motivated IRGC-dependent leader. The simulation should treat this as a regime_change_flag event equivalent to the Soviet Union's transition from Brezhnev to Gorbachev — potentially the beginning of system decomposition rather than continuity. 7. PROXY NETWORK DEGRADATION TRAJECTORY: By the time of Khamenei's assassination, the proxy network had been significantly degraded: Hezbollah suffered major losses in the Lebanon campaign (2024-2025), Hamas's political/military leadership was largely eliminated (2023-2025), Houthi operations had been disrupted by US strikes. The network was alive but wounded. For modeling: the proxy network should be modeled as a declining asset from 2023 onward, with its deterrent value diminishing in each conflict cycle — which itself contributed to the conditions for the US-Israel escalation to direct decapitation."
+}

@@ -1,0 +1,25 @@
+{
+  "n_econ_indicators": 102,
+  "n_leader_dims": 20,
+  "n_total_dims": 123,
+  "n_months": 370,
+  "n_pca_dims": 14,
+  "pca_variance": 0.9523734230784431,
+  "n_profiles_used": 30,
+  "n_transitions": 12,
+  "role_slots": [
+    "CN_LEADER",
+    "CN_PBOC",
+    "CN_PREMIER",
+    "EU_ECB",
+    "EU_LEADER",
+    "IR_LEADER",
+    "JP_PM",
+    "RU_CB",
+    "RU_LEADER",
+    "UK_BOE",
+    "UK_PM",
+    "US_FED",
+    "US_PRES"
+  ]
+}

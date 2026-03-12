@@ -1,0 +1,332 @@
+{
+  "leader": "Elvira Nabiullina",
+  "role": "Governor, Central Bank of Russia (Jun 2013 – present)",
+  "level": 2,
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "CBR key rate decisions 2013-2026 (Governing Board meeting records)",
+    "Dec 16, 2014 emergency rate hike to 17% decision and press conference",
+    "Feb 28, 2022 emergency rate hike to 20% and capital controls announcement",
+    "CBR banking sector cleanup: license revocations 2013-2019 (400+ banks)",
+    "CBR inflation targeting transition: announced Sep 2014, full IT regime 2015",
+    "Ruble stabilization mechanisms: mandatory FX conversion, surrender requirements",
+    "CBR Annual Reports 2013-2025",
+    "Nabiullina press conferences and Duma testimonies 2013-2026",
+    "Russian Ministry of Economic Development under Nabiullina (2007-2012, pre-CBR)",
+    "Reports of resignation attempt Feb 2022 (Reuters, Bloomberg, sources from Russian finance community)"
+  ],
+  "background": {
+    "born": "1963-10-29",
+    "origin": "Ufa, Bashkir ASSR (Bashkortostan)",
+    "career_path": "Economics degree Moscow State University (1986) → Research Institute for Economic Reform (1991) → Ministry of Economy (1994-2003) → Russian Union of Industrialists (2003-2005) → Minister of Economic Development and Trade (2007-2012) → Presidential Economic Advisor (2012-2013) → CBR Governor (2013-present)",
+    "formative_experiences": "Grew up in Ufa (provincial, non-Moscow background) — not part of Petersburg intelligence circle or Moscow oligarch networks. Studied economics during late Soviet and early transition — witnessed hyperinflation 1992-1994 firsthand as a working economist. Ministry of Economy during 1998 ruble crisis: saw what happens when a central bank runs out of reserves. These experiences created a deep, operational understanding of currency crisis mechanics from the inside. Her non-security-service background means she operates on technical economic merit within the system, not political loyalty networks.",
+    "decision_style_origin": "Technocratic economist who has survived multiple Russian political eras by being genuinely excellent at a technical job that powerful men (including Putin) do not want to do themselves. Her value to the system is that she produces results (stable currency, functioning payments, contained banking sector) that would cost the political leadership enormous political capital to produce through other means. The central bank's independence is real but bounded — she can set rates independently, cannot override strategic economic decisions (like gas for rubles) that are made at political level."
+  },
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector for Elvira Nabiullina as CBR Governor Jun 2013 – Mar 2026. Covers: transition to inflation targeting (2013-2015), 2014 ruble crisis and 17% rate (Dec 2014), banking sector cleanup (2013-2019), pre-war reserve buildup, Feb 2022 sanctions shock and 20% rate response, capital controls, ruble stabilization, and management of wartime economy constraints. Unique characteristic: the most constrained major central banker in the world — operating institutional monetary policy within an authoritarian system conducting an active war under maximum sanctions, while (reportedly) personally opposing the war.",
+    "dimensions": 60,
+    "vectors": [
+      {
+        "label": "emergency_rate_hike_decisiveness",
+        "value": 0.93,
+        "evidence": "Two emergency inter-meeting rate hikes within her tenure: (1) Dec 16, 2014: hike from 10.5% to 17% (+650bp, largest emergency hike in major economy since 1998 Russia). Triggered by ruble in freefall (lost 50% in 2014). Market interpretation: CBR serious about ruble defense. Effect: ruble stabilized within weeks, rate cut to 15% by end Jan 2015. (2) Feb 28, 2022: hike from 9.5% to 20% (+1050bp, in single step). Triggered by invasion, sanctions, ruble collapsing to 150/$. Effect: ruble stabilized by April. Both hikes were decisive, large, and produced stabilization within 4-6 weeks. The speed and magnitude is the signature — she acts before markets can test resolve."
+      },
+      {
+        "label": "inflation_targeting_pioneer_russia",
+        "value": 0.83,
+        "evidence": "Announced transition to inflation targeting Sep 2014 (during ruble crisis — unusually brave timing). Full IT framework: 4% target, flexible exchange rate (ended CBR ruble corridor in Nov 2014). Prior CBR framework was implicit exchange rate targeting (ineffective in crises). IT implementation: inflation rose to 17% (2015 peak), then CBR cut rates slowly as inflation declined. By 2017, inflation hit 2.5% (below 4% target) — unprecedented price stability for Russia. IT framework survived 2022 war stress test: emergency rate hike followed by gradual cuts as inflation declined. Russia achieved IT framework comparably successful to emerging market peers (Brazil, Turkey comparisons show how hard this is)."
+      },
+      {
+        "label": "banking_sector_cleanup_institutional_courage",
+        "value": 0.88,
+        "evidence": "2013-2019: CBR revoked licenses of 400+ banks (from ~900 banks to ~400). Notable cases: Bank of Moscow (2012, pre-Nabiullina but she continued), Probusinessbank (2015, RUB 67bn hole), Otkritie (2017, RUB 1.6tn hole — one of largest Russian bank failures), Binbank (2017, simultaneous with Otkritie, coordinated rescue). The cleanup was politically dangerous: many failed banks had powerful owner-patrons with political connections. Nabiullina's approach: use forensic supervisory analysis to build undeniable evidence before revocation, moving too fast for political interference. Result: Russian banking sector became more concentrated but sounder by 2019."
+      },
+      {
+        "label": "capital_controls_2022_design_sophistication",
+        "value": 0.86,
+        "evidence": "Feb 28-Mar 2022 capital controls package: (1) Russian brokers barred from selling foreign securities for non-residents (prevented mass exit by foreign investors). (2) Non-residents barred from selling Russian assets (prevented forced selling). (3) 80% export revenue surrender requirement (later reduced to 50%, then 25%). (4) Cash withdrawal limits on foreign currency ($10k/month). (5) FX transfer restrictions. The sequencing was sophisticated: ring-fence outflows first, then manage FX supply. Within 6 weeks, ruble recovered from 150/$ to 65/$ — stronger than pre-invasion 75/$. The design reflected 8 years of post-2014 preparation, not improvisation."
+      },
+      {
+        "label": "resignation_attempt_and_retention",
+        "value": 0.77,
+        "evidence": "Multiple credible reports (Reuters, Bloomberg, sources in Russian finance community): Nabiullina attempted to resign in late Feb/early Mar 2022, before or shortly after the invasion. Putin refused to accept resignation. She wore a brooch of a broken heart to the Mar 2022 Duma hearing (interpreted by Russian commentators as oblique signaling). This creates a unique modeling problem: she is running monetary policy under extreme constraint, possibly against her personal judgment on the war, retained by an authoritarian leader who knows she is irreplaceable. The institutional behavior (rate hikes, capital controls) is competent; the person operating it may have fundamentally different preferences than implied by actions."
+      },
+      {
+        "label": "wartime_economic_constraint_navigation",
+        "value": 0.81,
+        "evidence": "Post-Feb 2022 constraints: (1) Cannot hold Western assets (50%+ of reserves frozen). (2) Cannot use SWIFT for most transactions. (3) Cannot access Western bond markets. (4) Oil cap mechanism ($60/barrel) reduces energy revenue. Within these constraints: maintained CBR independence on rate decisions, continued publishing economic data (some categories suspended: bank-by-bank data, some external sector data), maintained banking system stability (no bank runs in 2022). 2023-2024: inflation re-accelerated (defense spending stimulus) → Nabiullina raised rate from 7.5% to 16%, maintaining anti-inflationary credibility despite political pressure from defense industrialists for cheap credit."
+      },
+      {
+        "label": "rate_decision_independence_under_political_pressure",
+        "value": 0.71,
+        "evidence": "2023-2024 episode: CBR raised key rate from 7.5% (Jun 2023) to 16% (Dec 2023). Sberbank CEO Gref publicly complained about high rates. State enterprise directors lobbied for rate cuts. Putin in 2024 statements: suggested rates were 'too high' for industrial needs. Nabiullina maintained rates citing persistent inflation (above 8% in 2024 vs 4% target). This is remarkable: maintaining rates against explicit presidential displeasure during a war. The retention of this independence is instrumentally rational for Putin (Nabiullina's credibility keeps the banking system functional) but operationally she is testing the boundaries of tolerated independence."
+      },
+      {
+        "label": "forex_reserve_strategy_pre_war",
+        "value": 0.84,
+        "evidence": "2014 to 2021: CBR rebuilt reserves from $340bn (post-2014 draw) to $640bn (by Feb 2022). Diversification strategy: (1) Reduced dollar share from 40% to 16%. (2) Increased euro (32%), yuan (13%), gold (22%). (3) Reduced UK holdings. This diversification was specifically designed to reduce sanctions vulnerability. The irony: the EU froze €300bn of euro-denominated reserves anyway — the dollar reduction was not sufficient. However: gold holdings (~$130bn, held domestically) were not accessible to Western sanctions. Gold strategy was correct; euro diversification was not. Pre-war reserve strategy was the most sophisticated sanctions-proofing attempt by any central bank."
+      },
+      {
+        "label": "ruble_exchange_rate_mechanism_pragmatism",
+        "value": 0.76,
+        "evidence": "Three distinct ruble management regimes under Nabiullina: (1) Currency corridor (inherited 2013) → abandoned Nov 2014 (too costly to defend). (2) Free float with IT (2015-2022) — orthodox central banking. (3) Managed float with capital controls and surrender requirements (Feb 2022-present). Each transition was driven by crisis that made the previous regime unsustainable, and the response was decisive regime change rather than incremental adjustment. The 2014 corridor abandonment was especially significant — giving up a 12-year policy commitment in the midst of a crisis required institutional courage and was the right decision."
+      },
+      {
+        "label": "otkritie_binbank_bailout_2017",
+        "value": 0.72,
+        "evidence": "Aug-Sep 2017: CBR simultaneously bailed out and nationalized Otkritie (3rd largest private bank, RUB 1.6tn bail-in) and Binbank (8th largest, coordinated rescue). Total bank bailout cost: ~RUB 2.8tn (≈$47bn). These were both politically connected banks (Otkritie owned by Vadim Belyaev with Kremlin ties). Nabiullina used CBR's new bank resolution authority (created post-2014 to specifically enable this) to take over without triggering systemic panic. Both banks subsequently sold — Otkritie to CBR subsidiary (Bank of Russia became direct bank owner, a unique situation). Cleanup protected system at cost of banking concentration."
+      },
+      {
+        "label": "inflation_targeting_credibility_maintenance_2015_2017",
+        "value": 0.78,
+        "evidence": "2015: inflation peaked at 17% (post-ruble-crisis import price spike). CBR maintained high rates (11-17%) despite real economic contraction (-3.7% GDP 2015). Rate cuts were gradual: 17%→15% (Jan 2015), 15%→14% (Mar), continued cutting to 11% (Aug 2015), then held at 10-11% while waiting for inflation to confirm decline. By end 2016: inflation 5.4%. By end 2017: inflation 2.5%. This gradual, data-dependent easing demonstrated that IT commitment was not abandoned when politically inconvenient. The Volcker-like credibility-building through recession maintained CBR's ability to anchor expectations — which paid dividends in 2022."
+      },
+      {
+        "label": "external_communication_discipline",
+        "value": 0.73,
+        "evidence": "CBR press conferences under Nabiullina: measured language, consistent forward guidance, always referencing the IT framework. Post-2022: CBR stopped publishing some data categories (monthly data on individual bank capital, some external sector breakdown) — data management that reduced Western analytical capacity. But CBR continued publishing headline rates, balance sheet aggregates, and key monetary statistics. Nabiullina press conferences post-invasion: maintained technical economic framing, avoided political commentary on the war itself, focused entirely on price stability mandate. The external discipline is professional survival — one step over the line and she would be replaced."
+      },
+      {
+        "label": "2014_vs_2022_response_institutional_learning",
+        "value": 0.82,
+        "evidence": "2014 response: 650bp emergency hike, ruble recovered but at lower level. Lesson: emergency hike works to stabilize, but requires complementary capital controls (which were absent in 2014). 2022 response: 1050bp hike PLUS immediate capital controls PLUS FX surrender requirements — the full package. The 2022 response was faster (same day as SWIFT exclusion announcement), larger (20% vs 17%), and more comprehensive (capital controls added). This demonstrates genuine institutional learning between crises. The CBR in 2022 was measurably better-prepared than in 2014 — attributable to Nabiullina's 8 years of scenario planning."
+      },
+      {
+        "label": "digital_ruble_cbdc_development",
+        "value": 0.67,
+        "evidence": "CBR launched digital ruble pilot: Oct 2023 (first transactions). Rationale given: financial inclusion, programmable payments, reduced transaction costs. Unstated but evident strategic rationale: sanctions evasion (digital ruble as alternative payment rail not dependent on Western financial infrastructure). Nabiullina framed publicly as monetary modernization, not sanctions evasion — politically necessary framing. If successfully scaled, digital ruble would reduce Russia's dependence on SWIFT-adjacent systems and potentially enable bilateral payment with other sanctioned or sanctions-cautious countries (Iran, China, India)."
+      },
+      {
+        "label": "institutional_resilience_under_existential_stress",
+        "value": 0.88,
+        "evidence": "The CBR under Nabiullina has maintained: (1) Functioning payments system (no bank runs, ATMs working through 2022-2024). (2) Inflation management (inflation peaked 17.8% Apr 2022, returned to 7-8% range by 2023, despite being above 4% target). (3) Currency stability (ruble devalued but not collapsed — 60-100/$ range vs. 150/$ peak). (4) Banking system solvency (no major bank failures since 2017 bailouts). Managing a central bank under: frozen reserves, SWIFT exclusion, war economy, persistent inflation, political pressure for cheap credit, and possibly personal objection to the war — this is the most extreme operational environment of any major central banker. The institution is still functional, which is a testament to institutional resilience."
+      },
+      {
+        "label": "banking_sector_concentration_post_cleanup",
+        "value": 0.71,
+        "evidence": "Russian banking sector post-cleanup: top 5 banks (Sberbank, VTB, Gazprombank, Alfa, Rosselkhozbank) control ~65% of assets (vs. ~50% in 2013). State-controlled banks: ~70% of total banking assets by 2020. This concentration was a deliberate outcome: smaller, riskier banks were eliminated; larger state-controlled banks absorbed the deposit base. Risk: concentration in state banks means CBR's independence is further constrained (CBR supervises banks partially owned by the government that appoints CBR leadership). Post-2022: Western sanctions on VTB, Sberbank created practical challenges — CBR had to manage compliance implications for the sanctioned state banks it supervises."
+      },
+      {
+        "label": "budget_trilemma_management_wartime",
+        "value": 0.74,
+        "evidence": "2022-2025: Russian federal budget under pressure from: (1) Falling energy revenues (oil cap $60/barrel, gas revenue collapse after Nord Stream). (2) Rising defense spending (7.5% of GDP by 2024). (3) Social transfer maintenance (pensions indexed, military family payments). CBR's role: cannot monetize the deficit (inflation mandate) but must avoid crowding out private credit entirely. Strategy: CBR allowed high rates (16%) while Ministry of Finance issued domestic OFZs (government bonds) at high yields. Result: federal deficit financed domestically at cost of crowding out private sector. Private sector investment contracted while government deficit-financed defense investment expanded — classic wartime crowding out."
+      },
+      {
+        "label": "foreign_reserve_diversification_post_freeze",
+        "value": 0.76,
+        "evidence": "Post-Mar 2022 (G7 froze ~$300bn of CBR's ~$640bn reserves): CBR publicly committed to revising reserve management. Available reserves (~$340bn unfrozen): primarily gold (~22%), yuan (~13%), domestic instruments. CBR began publishing reserve composition less frequently post-2022 (security concern). Policy response: (1) New reserves accumulated in yuan and gold. (2) Reduced new EUR/USD holdings. (3) Expanded bilateral settlement agreements in non-sanctioned currencies. The reserve management post-freeze is essentially a new doctrine: hold only what cannot be seized, meaning domestic instruments and currencies of non-sanctioning countries."
+      },
+      {
+        "label": "macroprudential_policy_usage",
+        "value": 0.68,
+        "evidence": "CBR under Nabiullina developed macroprudential toolkit for Russia: (1) Loan-to-value limits on mortgages (2021, tightened 2023). (2) Debt-service-to-income limits on consumer loans. (3) Counter-cyclical capital buffers. (4) Sector-specific risk weights (raised for unsecured consumer credit during 2023 consumer lending boom). These tools were used to address specific financial stability concerns without adjusting the key rate — allowing rate policy to focus on inflation mandate. Post-war period: consumer credit boomed as military salaries were spent — macroprudential tightening specifically targeted this segment."
+      },
+      {
+        "label": "inflation_expectations_anchoring_success",
+        "value": 0.72,
+        "evidence": "CBR survey of inflation expectations: household expectations fell from 12%+ (2015) to 9-10% (2019-2021), then spiked to 15-16% post-invasion (Apr 2022), declined back to 11-12% by late 2023. Professional forecasters: better anchored, tracking closer to CBR projections. The incomplete anchoring (household expectations still elevated) reflects: (1) Historical Russian inflation experience creates persistent de-anchoring risk. (2) Post-invasion shock difficult to fully reverse. (3) 4% target credibility was partially lost after 2022 invasion. CBR surveys this regularly; elevated expectations have been cited as justification for maintaining higher rates than pure current inflation would warrant."
+      },
+      {
+        "label": "yuan_integration_in_russian_financial_system",
+        "value": 0.73,
+        "evidence": "Post-2022 yuan expansion: (1) CBR yuan reserves: 13% of total. (2) Moscow Exchange yuan trading volume: grew from negligible to 50%+ of FX daily turnover. (3) Russian corporations issuing yuan-denominated bonds (panda bonds, dim sum bonds) for the first time. (4) Yuan became Russia's second most important currency. (5) CIPS (Chinese cross-border payment system) replacing SWIFT for Russia-China transactions. Nabiullina's role: facilitated yuan integration as practical necessity, while managing the dependency risk (if China restricts CIPS access, Russia loses primary payment rail). The yuan pivot was necessary but creates a new vulnerability."
+      },
+      {
+        "label": "cbr_data_publication_sanctions_adaptation",
+        "value": 0.62,
+        "evidence": "Post-2022 data disclosure changes: (1) Stopped publishing individual bank regulatory data (prevented identification of sanctioned bank exposure). (2) Reduced granularity of balance of payments reporting (concealed energy trade volumes and pricing). (3) Continued publishing: key rate, headline inflation, broad monetary aggregates. (4) Some financial stability report sections redacted. The CBR explicitly cited 'information security in conditions of sanctions' as rationale. Western analysts: ability to track Russian financial conditions degraded by ~40-50%. The partial opacity is a sanctions countermeasure but also reduces CBR's own credibility with international counterparts."
+      },
+      {
+        "label": "interest_rate_credit_channel_effectiveness_2022_2024",
+        "value": 0.58,
+        "evidence": "Paradox: CBR raised rates to 16%, yet credit growth accelerated — especially mortgage (state-subsidized) and corporate (defense sector) loans. Mechanism: government subsidized mortgage rates at 8% (vs. 16% market rate), effectively neutralizing CBR tightening for the housing sector. Defense sector borrowing at preferential rates via state bank programs. Only unsubsidized credit contracted. This 'broken transmission' — where fiscal subsidies override monetary policy — is a wartime version of the ECB's euro area fragmentation problem. Nabiullina cannot fix it with rate policy alone; would require Ministry of Finance to withdraw subsidies."
+      },
+      {
+        "label": "cbr_reappointment_2023_political_signal",
+        "value": 0.77,
+        "evidence": "Nabiullina's third 5-year term as CBR Governor approved by Duma Apr 2023 — during active war, with inflation above target, with ruble weaker than pre-war. The reappointment signals: (1) Putin values institutional continuity (replacing her would signal instability). (2) Her technical competence remains valuable. (3) There is no plausible replacement with comparable credentials. Counter-signal: Nabiullina had less political protection than before — reports suggest she is under closer observation and has less latitude to push back against political pressure. The reappointment maintained the form of institutional continuity while the substance of independence may be narrowing."
+      },
+      {
+        "label": "gender_and_provincial_background_in_moscow_elite",
+        "value": 0.55,
+        "evidence": "Nabiullina is: (1) Female (unusual in Russian financial/economic leadership — most senior positions are male). (2) From Ufa, Bashkortostan (provincial, non-Moscow background). (3) Not from security services background (most Putin-era senior officials are ex-KGB/FSB). These characteristics make her an outsider within the insider system — her authority derives entirely from technical competence and institutional position, not personal loyalty networks, family connections, or shared background with the president. This means her position is more meritocratically secure (hard to replace competent technician) but also more vulnerable (no personal loyalty buffer if she makes an error the president notices)."
+      },
+      {
+        "label": "central_bank_communicatin_style_soviet_legacy",
+        "value": 0.65,
+        "evidence": "CBR communication under Nabiullina: more transparent than Soviet-era economic reporting but less transparent than major Western central banks. Press conferences: comprehensive and detailed on rate decisions, methodical forward guidance, explicit discussion of uncertainty. Press conference language: careful, measured — never political, never personal. No equivalent of Draghi's 'whatever it takes' improvisation. The communication style reflects: (1) Institutional self-preservation (don't say anything that becomes a political liability). (2) CBR's bureaucratic culture. (3) Genuine belief that central bank credibility comes from predictability, not eloquence. The style succeeds on credibility metrics but misses opportunities for expectation management via communication."
+      },
+      {
+        "label": "energy_price_pass_through_inflation_management",
+        "value": 0.72,
+        "evidence": "Russia's domestic energy prices are partially regulated (below world market): petrol, electricity, gas are all below international prices. This creates a permanent structural inflation suppression mechanism that reduces the headline CPI impact of global energy prices. However, 2022 invasion disrupted this: supply chain disruptions (imported components for Russian products using Western technology) drove CPI to 17.8% peak Apr 2022. CBR correctly identified the cause (supply disruption + FX pass-through) and targeted the FX channel (20% rate + capital controls) rather than waiting for domestic energy price transmission. The inflation decomposition analysis — distinguishing supply-side, FX-channel, and demand-side components — is methodologically sophisticated."
+      },
+      {
+        "label": "ministry_of_economic_development_background",
+        "value": 0.68,
+        "evidence": "Nabiullina was Minister of Economic Development (2007-2012) before CBR appointment. This gives her unusual background for a central banker: deep experience in real economy policy (investment climate, industrial policy, infrastructure, regional development) alongside macroeconomics. Practical implication: understands supply-side constraints better than pure macroeconomist. At CBR: this background informed her view that monetary policy alone cannot address structural economic problems — she consistently called for supply-side reforms alongside monetary accommodation. The combination of macro (CBR) and micro (MED) experience is comparable to Draghi's Goldman Sachs + BdI combination."
+      },
+      {
+        "label": "cbr_key_rate_cycle_2013_to_2025",
+        "value": 0.77,
+        "evidence": "Complete key rate cycle under Nabiullina: 5.5% (Jun 2013) → 17% (Dec 2014, 2014 crisis peak) → 7.25% (Mar 2018, recovery trough) → 7.75% (Dec 2018, brief hike) → 4.25% (Jul 2020, COVID trough) → 9.5% (Feb 2022, pre-invasion) → 20% (Feb 2022, invasion peak) → 7.5% (Sep 2022, rapid normalization) → 16% (Dec 2023, second inflation trough) → present. The cycle reveals: (1) Two emergency hike episodes (2014, 2022), (2) Consistent willingness to cut rapidly when inflation declines, (3) No zero-lower-bound constraint (Russia has never approached 0%), (4) Rate cycles complete in 2-3 years not 5-7 (faster than Western banks due to more volatile macro environment)."
+      },
+      {
+        "label": "non_bank_financial_sector_development",
+        "value": 0.61,
+        "evidence": "CBR also regulates: insurance companies, pension funds, microfinance, leasing companies, payment systems. Under Nabiullina: (1) Insurance market: CBR cleaned up ~100 insolvent insurers, improved solvency standards. (2) Pension fund consolidation: number of NPFs reduced from 90 to 40+ (2013-2020). (3) Moscow Exchange: CBR regulates, maintained trading through 2022 sanctions (suspended 3 weeks, resumed). (4) Microfinance: regulated interest rate caps introduced (2019-2020). The non-bank sector cleanup paralleled the banking cleanup — using the same template (revoke licenses of insolvent/fraudulent entities, concentrate in fewer, sounder institutions)."
+      },
+      {
+        "label": "inflation_seasonality_and_food_price_dynamics",
+        "value": 0.64,
+        "evidence": "Russian CPI has strong seasonal pattern (harvests, vegetable prices) and food weight is high (30%+ vs. 15% in US). Nabiullina's CBR developed Russia-specific inflation forecasting models accounting for harvest effects, agricultural price cycles, and regulated price changes (housing utilities typically raised July 1). The food price component creates volatility in headline CPI that a pure headline-targeting framework would over-react to. CBR's response: watches core CPI (ex-food, ex-regulated prices) and seasonal-adjusted measures alongside headline. The methodological sophistication in inflation measurement is comparable to EM peers but better documented than pre-Nabiullina CBR."
+      },
+      {
+        "label": "open_market_operations_and_liquidity_management",
+        "value": 0.69,
+        "evidence": "CBR transformed from structural liquidity surplus (pre-2014, when oil revenues flooded the banking system) to structural deficit (post-2014, when capital outflows and reserve consumption changed the picture). This structural shift required redesigning CBR's OMO framework: from absorbing excess liquidity to providing it. Repo auctions (weekly 1-week repos): became primary liquidity provision tool. Key rate corridor: deposit facility (key rate -100bp) to marginal lending facility (key rate +100bp). The symmetrical corridor was an IT standard that CBR adopted from Western central banks. Nabiullina implemented the transition cleanly, managing the structural shift without market disruption."
+      },
+      {
+        "label": "wartime_role_in_economic_council",
+        "value": 0.56,
+        "evidence": "During war economy (2022-present): CBR participates in broader economic coordination with Ministry of Finance, Ministry of Economic Development, and Presidential Administration. Role of CBR: (1) Set monetary policy within given constraints. (2) Manage payment system stability. (3) Provide economic analysis. (4) Maintain financial sector stability. Non-role: (1) Cannot override Putin's fiscal decisions (defense spending). (2) Cannot control regulated prices (energy, utilities). (3) Cannot prevent state bank directed lending. The institutional boundary is clear in peaceful conditions; in wartime, the CBR's operational independence exists within a much tighter political box. Nabiullina navigates this by focusing entirely on mandate, never volunteering opinions on war economics publicly."
+      },
+      {
+        "label": "international_monetary_fund_relations",
+        "value": 0.55,
+        "evidence": "Russia-IMF relationship under Nabiullina: cordial but limited. Russia pays IMF quota, participates in Article IV consultations. 2014: IMF supported Ukraine with $17bn program — creating implicit conflict with Russia's objectives. Post-2022: Russia suspended from IMF consultations (not expelled, Russian membership unclear). Nabiullina's relationship with IMF peers: respectful. Her inflation targeting framework aligned with IMF best practices. The IMF has praised CBR's technical management of the 2022 crisis as 'superior to what could have been expected' given constraints. Nabiullina's international monetary credibility (the reason she's valued by Putin) was built partly through this IMF-standard technical framework."
+      },
+      {
+        "label": "rate_committee_transparency",
+        "value": 0.67,
+        "evidence": "CBR Board of Directors (rate-setting committee): 7 members including Governor. Post-2015: CBR began publishing reasons for rate decisions more explicitly. Summary of reasons (not full minutes): published after each meeting. Analysts report: forward guidance has improved significantly under Nabiullina, with CBR accurately signaling intended direction in 75-80% of cases (vs. ~50% historically). The transparency evolution tracks IMF IT framework best practices. However: individual member voting records are not published (unlike BoE MPC or Fed FOMC). The collective decision format masks individual views and prevents the kind of dissent tracking that provides insight into internal debates."
+      },
+      {
+        "label": "cbr_financial_stability_mandate",
+        "value": 0.73,
+        "evidence": "CBR has dual mandate: monetary policy (inflation targeting) AND financial stability (banking supervision, systemic risk). The integrated mandate is different from Fed (shared with OCC, FDIC) or ECB (shared with SSM/SRB). This gives CBR more coordinated macro-prudential toolkit but also more potential for mandate conflict. 2023 example: residential mortgage growth 30%+ YoY created financial stability concern, but CBR did not want to raise rates purely for macroprudential reasons (inflation was declining). Solution: increase mortgage risk weights (macroprudential tool) without adjusting key rate (monetary policy tool). The toolkit separation within an integrated mandate was correctly applied."
+      },
+      {
+        "label": "de_dollarization_domestic_settlements",
+        "value": 0.71,
+        "evidence": "Russia domestic financial de-dollarization under Nabiullina: (1) Reduced dollar denomination in Russian corporate and household deposits (from 35% to 15% by 2021). (2) Ruble-denominated trade finance expanded. (3) Dollar in Russian retail settlements below 5% by 2021. (4) SPFS (domestic SWIFT alternative): 400+ participants by 2022. (5) Mir card: 30%+ of domestic card transactions by 2022. This domestic de-dollarization was deliberate policy that reduced vulnerability to dollar-denominated sanctions. The residual foreign currency exposure in 2022 was concentrated in international reserves (frozen) and external corporate debt, not retail banking. Domestic de-dollarization was a success; external de-dollarization was incomplete."
+      },
+      {
+        "label": "cbr_stress_testing_banks",
+        "value": 0.69,
+        "evidence": "CBR stress testing evolution under Nabiullina: (1) Pre-2014: basic liquidity stress tests. (2) Post-2014: geopolitical stress scenario added (oil price shock + sanctions). (3) Post-2022: sanctions stress scenarios became primary (not hypothetical). The 2022 actual stress test (simultaneous SWIFT exclusion, reserve freeze, capital outflows) was larger than any scenario CBR had modeled. Post-2022 lesson: stress scenarios need to include full financial warfare scenarios. CBR began developing 'fragmented world' financial system stress scenarios in 2023-2024. The stress testing evolution reflects real-time learning from lived experience rather than academic scenario design."
+      },
+      {
+        "label": "ruble_volatility_and_confidence",
+        "value": 0.66,
+        "evidence": "Ruble volatility history under Nabiullina: 2013-2014 stable (37-38/$ range). 2014-2015 first shock: 38→80/$. 2016-2021 recovery: 60-75/$ range, moderate volatility. 2022 second shock: 75→150/$ (Mar 7 peak) → 60/$ (May-Jun) → 85-90/$ (2023) → 90-100/$ (2024). The volatility pattern shows: (1) CBR can stabilize but not reverse depreciations driven by fundamental changes (sanctions, oil price). (2) Capital controls in 2022 artificially strengthened ruble temporarily. (3) Long-run equilibrium ruble weakened structurally post-sanctions. Nabiullina's goal: reduce volatility, not defend a specific level. The IT framework (not FX targeting) means she accepts the new weaker equilibrium."
+      },
+      {
+        "label": "cbr_2014_policy_versus_turkish_mistake",
+        "value": 0.74,
+        "evidence": "Comparison to Turkey (Erdogan): Turkey in 2021-2022 had similar inflation shock (85%+ CPI). Erdogan unconventionally CUT rates during inflation, fired central bank governors who raised them. Result: lira -80% in 2021-2022, further erosion. Nabiullina followed orthodox playbook (raise rates when inflation rises). This comparison illustrates that the worst case for Russia was politically possible — Putin could have fired Nabiullina and implemented heterodox policy. He did not. Russia's macroeconomic management is significantly better than Turkey's not because the political constraints are different in principle (both authoritarian leaders) but because Putin made a different calculation about the value of technocratic monetary management."
+      },
+      {
+        "label": "financial_sector_inclusion_initiatives",
+        "value": 0.57,
+        "evidence": "CBR initiatives on financial inclusion under Nabiullina: (1) National Payment System (2014): NSPK (domestic card payment processor) — achieved independence from Visa/Mastercard domestically. (2) Mir card: launched 2015, mandatory for government payments. (3) Mobile banking: CBR regulations enabling fintech innovation (2016-2019). (4) Open Banking framework: under development. (5) Faster payments system (SBP): interbank real-time transfer, launched 2019. These initiatives were simultaneously: financial inclusion goals, infrastructure independence from Western systems, and domestic fintech development. The 2022 Visa/Mastercard exit (March 2022) meant domestic payments shifted entirely to Mir — the infrastructure was ready because of 8 years of preparation."
+      },
+      {
+        "label": "relationship_with_ministry_of_finance",
+        "value": 0.72,
+        "evidence": "CBR-MinFin relationship: two key institutions with overlapping but distinct mandates. MinFin (Siluanov): fiscal policy, budget balance, tax. CBR (Nabiullina): monetary policy, financial stability. Post-2022 coordination: (1) Fiscal dominance risk — if MinFin deficit is too large, CBR must monetize or lose inflation target. (2) Bank recapitalization: CBR and MinFin jointly managed state bank capital injections. (3) Capital controls: jointly designed. (4) Subsidized mortgages: MinFin funds the subsidy, CBR sets framework. The relationship is generally cooperative at technical level with occasional conflicts (MinFin wants cheaper credit; CBR maintains rates). Nabiullina successfully maintained monetary policy independence from fiscal dominance through 2022-2024 despite the fiscal expansion."
+      },
+      {
+        "label": "banking_system_npls_cleanup_2014_2019",
+        "value": 0.75,
+        "evidence": "Non-performing loans (NPLs) in Russian banking sector: rose after 2014-2015 crisis. CBR strategy: (1) Revoke licenses of banks unable to meet capital requirements. (2) Mandatory provisioning increases for NPLs. (3) REPO operations to provide liquidity to sound banks while insolvent ones failed. (4) Deposit Insurance Agency (DIA) coverage: RUB 1.4m per depositor, funded by bank premiums. NPL resolution: slower than in EU (no NAMA-equivalent), but the license revocations cleaned the system more directly than attempting workout. By 2019: banking sector NPL ratio 10% vs. 14% at peak (2016-2017) — cleaned up significantly through combination of write-offs, recoveries, and bank exits."
+      },
+      {
+        "label": "economic_sanctions_second_order_effects_modeling",
+        "value": 0.68,
+        "evidence": "CBR economists analyzed second-order sanction effects from 2014: how do sanctions affect business expectations, investment, capital flows, and technology access even for non-sanctioned sectors? The modeling showed: even if direct sanctions affect 10-15% of the economy, the investment chilling effect affects 30-40% (uncertainty about future sanctions). The CBR's economic research division published work on sanctions channels; Nabiullina cited this analysis in explaining why IT framework needed to account for geopolitical risk premium. This analytical sophistication — not just mechanical IT rule-following — explains why CBR's 2022 response was rapid and correctly designed."
+      },
+      {
+        "label": "cbr_independence_legal_framework",
+        "value": 0.64,
+        "evidence": "CBR's formal independence: Federal Law on the Bank of Russia (2002): CBR 'operates independently of bodies of state power.' Board of Directors: 15 members including the Governor, appointed by Duma on President's nomination. Fixed terms (5 years). The formal independence is real: CBR has its own budget (funded from own revenues), buildings, staff. No Ministry has direct authority over CBR rate decisions. The de facto constraint: Governors serve at President's pleasure (Nabiullina retained, but her attempted resignation shows that 'at pleasure' is real). The legal independence is the minimum necessary for institutional credibility; the political dependence is the ceiling on how far that independence can be exercised."
+      },
+      {
+        "label": "post_2022_economic_war_budget_management",
+        "value": 0.71,
+        "evidence": "2023-2024 Russian federal budget: revenues held up better than expected due to: (1) India/China oil purchases at discounts that were still above Western price cap expectations. (2) Ruble weakening (oil priced in dollars, budget in rubles — weaker ruble = more ruble revenues from oil). (3) Defense spending creating domestic multiplier. Federal deficit: -2% GDP (2022), -2.4% (2023) — smaller than feared. Nabiullina's CBR role: provided analysis for budget planning, managed the liquidity implications of deficit spending. The interaction: CBR's high rates (16%) competed with MinFin's bond issuance — government bond yields had to rise to attract buyers, increasing debt service costs."
+      },
+      {
+        "label": "nabiullina_public_profile_and_brooches",
+        "value": 0.58,
+        "evidence": "Nabiullina became internationally known for subtle communication through brooches at CBR press conferences: 'broken heart' (Mar 2022 Duma appearance, after invasion), mourning dove (post-invasion), owl (hawkish stance), turtle (patience), bicycle (forward momentum). Russian financial community closely tracked brooch meanings. This communication style is: (1) Plausible deniability (just jewelry). (2) Risk-managed (cannot be punished for pin choice). (3) Genuine signal to sophisticated domestic audience. Whether intentional or projected-onto is debatable, but the fact that the Russian financial community developed a whole hermeneutics of CBR Governor brooch-watching indicates the information vacuum created by constrained official communication."
+      },
+      {
+        "label": "gold_reserve_strategy_domestic_purchase",
+        "value": 0.73,
+        "evidence": "Russia gold reserves under Nabiullina: 1,200 tonnes (2013) → 2,298 tonnes (2022). Gold as % of CBR reserves: 8% (2013) → 22% (2022). CBR strategy: buy domestic production directly (from Norilsk Nickel, Polymetal) for rubles — effectively monetizing domestic gold output. Post-2022: gold cannot be sold on London/New York markets (sanctioned), so gold reserves are more illiquid than intended. Counter: India, UAE, Turkey (non-sanctioning countries) can buy Russian gold. The gold strategy succeeded in building non-sanctionable reserves; the liquidity limitations were under-modeled. Gold represents the most effective asset in Russia's reserve buffer — the $130bn gold holding is genuinely usable, unlike the frozen forex."
+      },
+      {
+        "label": "cbr_supervision_versus_development_mandate_tension",
+        "value": 0.62,
+        "evidence": "CBR Russia is unusual globally: combines monetary policy + banking supervision + development bank (via VEB, Vnesheconombank, partially). This creates tension between prudential mandate (restrict risky lending) and development mandate (support strategic industries). Under Nabiullina: maintained separation — CBR proper does prudential supervision, VEB separately funds state development projects. But the line blurred post-2022: directed lending programs (subsidized mortgages, defense-sector loans) are outside CBR proper but CBR must adjust monetary policy to account for their effects on aggregate demand. The multi-mandate tension is a permanent feature of Russian banking governance."
+      },
+      {
+        "label": "bank_deposit_insurance_system",
+        "value": 0.68,
+        "evidence": "Deposit Insurance Agency (DIA): established 2004, Nabiullina strengthened its role. Coverage: RUB 1.4m per depositor per bank (raised from 700k in 2014, 1.4m in 2015). Post-2022: RUB 1.4m maintained (approximately $16,000 at pre-war rates, much less at post-war rates). DIA resolution mechanism: used in bank cleanups — DIA provides payout, takes over assets, sells to other banks. Scale: DIA paid out RUB 1.5tn+ across 400+ bank failures 2013-2022. The insurance system prevented bank runs during the license revocation campaign — depositors knew they would be made whole below the threshold. Critical infrastructure for maintaining public confidence during the cleanup."
+      },
+      {
+        "label": "foreign_exchange_intervention_policy",
+        "value": 0.64,
+        "evidence": "CBR FX intervention policy under Nabiullina: (1) 2013-2014: maintained FX corridor, intervened to defend limits. (2) Nov 2014: abandoned corridor, moved to managed float. (3) Post-2014: minimal intervention (float-only except for rare smoothing). (4) Post-2022: capital controls replaced intervention as stability mechanism. The evolution reflects learning: FX intervention in 2014 cost $100bn+ reserves without preventing eventual depreciation. The lesson: if market forces are overwhelming, save reserves for other tools (capital controls, rate hikes). The 2022 decision to use capital controls rather than intervention was directly informed by 2014 experience."
+      },
+      {
+        "label": "cbr_monetary_policy_report",
+        "value": 0.61,
+        "evidence": "CBR publishes quarterly Monetary Policy Report (since 2015, IT regime implementation). Report includes: fan chart projections, scenario analysis, analysis of inflation drivers. This is equivalent to Fed/BoE inflation reports. Nabiullina's CBR adopted the report as part of IT credibility-building: quantified uncertainty, scenario analysis, shows central bank's analytical work. Post-2022: continued publishing, though some sections became less specific. The willingness to publish fan charts (showing uncertainty) rather than point forecasts demonstrates methodological sophistication and is a signal of genuine IT commitment (not just rate announcements)."
+      },
+      {
+        "label": "russia_gdp_wartime_officially_reported",
+        "value": 0.55,
+        "evidence": "Russian GDP under war: official (Rosstat): -2.1% (2022), +3.6% (2023), +3.5% (2024). These numbers are disputed: (1) Defense spending inflates GDP (military production is GDP, regardless of economic utility). (2) Statistical methodology changes. (3) IMF independent estimate: -2.2% (2022), but growth in 2023-2024 likely 2-3% not 3.5%. Nabiullina's CBR: publishes independent estimates that sometimes differ from Rosstat. CBR internal models: acknowledged defense-sector distortion but did not publish explicit adjusted GDP figures. The data management creates uncertainty for calibrating monetary policy — hard to set rate for 'true' growth when official growth includes defense multiplier."
+      },
+      {
+        "label": "ruble_versus_oil_price_correlation",
+        "value": 0.72,
+        "evidence": "Pre-2022: ruble-oil correlation was ~0.8 (ruble effectively tracked oil prices). The ruble was sometimes called 'petroruble' by economists. Post-2022: correlation collapsed to ~0.2-0.4 due to capital controls (preventing FX market from fully reflecting oil revenues and outflows). The decoupling meant: (1) High oil prices did not strengthen ruble as much as historically. (2) Capital controls created an artificial exchange rate. (3) CBR lost the automatic stabiliser of oil-revenue FX inflows. Nabiullina explicitly cited the 'broken' oil-ruble correlation in CBR reports, explaining that post-2022 exchange rate management required different tools than pre-2022."
+      },
+      {
+        "label": "cbr_external_publications_imf_bri",
+        "value": 0.58,
+        "evidence": "CBR under Nabiullina continued publishing: BIS reporting (quarterly banking statistics), IMF statistical reporting (though reduced post-2022), Financial Stability Board reporting (suspended due to exclusion). BIS: Russia excluded from certain BIS meetings post-2022 but CBR continued submitting statistical data. The ongoing statistical reporting serves CBR interests: maintaining international credibility for the institution even if Russia is politically isolated. The data submissions also maintain CBR's analytical capacity (IMF cross-country comparisons require Russia's own data in same format). Nabiullina made a deliberate choice to maintain statistical transparency for the institutional benefit."
+      },
+      {
+        "label": "labor_market_interaction_with_monetary_policy",
+        "value": 0.65,
+        "evidence": "Russia labour market post-2022 war: unemployment fell to record lows (2.9%, Dec 2023) — lowest since Soviet era. Cause: (1) Military mobilization removed ~500,000 from labour force (deployed or killed). (2) Defence industry employment surge. (3) Emigration removed ~700,000 (many workers). Labour market tightness created wage-push inflation: 2023-2024 wage growth 10-15%/year. CBR's concern: tight labour market → wage inflation → services inflation → persistent above-target CPI. Nabiullina explicitly cited labour market tightness as key reason for maintaining high rates in 2024 (16% rate). The labour market channel is now a central transmission concern, whereas pre-war it was less significant (higher unemployment)."
+      },
+      {
+        "label": "cbr_versus_government_subsidized_rates",
+        "value": 0.69,
+        "evidence": "2023-2024 policy paradox: CBR key rate at 16%; government subsidized mortgage rate at 8%; subsidized SME rate at 6.5%; preferential auto loan at 10%. The subsidy gap (16% vs. 8% for mortgages) cost government budget ~RUB 1tn+/year. Nabiullina publicly stated: 'When monetary and budget policies act in different directions, the effectiveness of both is reduced.' This is the clearest statement of fiscal dominance risk — the government was simultaneously undermining the CBR's tightening. The CBR raised rates partly in response to the government subsidies: needed more rate to achieve same restraining effect. An estimated 25-30% of rate hike impact was offset by government subsidies."
+      },
+      {
+        "label": "cbr_financial_stability_board_participation",
+        "value": 0.54,
+        "evidence": "Russia was member of Financial Stability Board (FSB-global, the G20 financial body) until exclusion after 2022 invasion. CBR was Russia's FSB representative. Pre-2022: Russia participated in FSB standard-setting (Basel III implementation, TBTF resolution frameworks, derivative central clearing rules). Exclusion consequences: Russia fell behind global regulatory standards (Basel III third tranche not being implemented). The standards gap may reduce Russian banks' ability to access international markets if sanctions are ever lifted. Nabiullina maintained domestic equivalents of FSB standards where possible, recognizing that eventual reintegration would require compliance."
+      },
+      {
+        "label": "macroprudential_mortgage_cooling",
+        "value": 0.71,
+        "evidence": "2021-2023 Russia mortgage boom: subsidized mortgages at 6.5%, then 7%, drove double-digit housing price growth in Moscow/St. Petersburg. CBR response: (1) Increased risk weights for high-LTV mortgages (2021). (2) Tightened LTV limits (2022). (3) Extended DSTI (debt-service-to-income) limits to mortgage market (2023). (4) Pushed Ministry of Finance to limit mortgage subsidy eligibility. The macroprudential tools partially offset the fiscal-monetary contradiction: CBR couldn't stop subsidized mortgages (MinFin's decision) but could raise the prudential costs, making banks more conservative in origination. Effectiveness: limited — subsidized mortgages were structurally isolated from CBR's prudential tools."
+      },
+      {
+        "label": "cbr_communication_about_sanctions",
+        "value": 0.63,
+        "evidence": "Nabiullina's CBR communication post-2022 on sanctions: consistently used technical framing ('changed external conditions,' 'new settlement mechanisms required') rather than political framing ('sanctions,' 'Western aggression'). The technical framing is: (1) Institutionally appropriate (CBR is non-political). (2) Practically useful (allows CBR to discuss solutions without endorsing or condemning the political decision that caused the problem). (3) Internationally compatible (CBR can still communicate with international bodies using neutral language). This framing discipline is remarkable given that she reportedly personally opposed the war — maintaining institutional voice while working within constraints she disagreed with."
+      }
+    ]
+  }
+}

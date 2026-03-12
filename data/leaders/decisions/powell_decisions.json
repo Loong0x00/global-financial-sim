@@ -1,0 +1,1165 @@
+{
+  "leader": "Jerome Powell",
+  "role": "Federal Reserve Chair",
+  "entity": "US",
+  "tenure": {"start": "2018-02-05", "end": null},
+  "leader_type": "technocrat_central_banker",
+  "data_range": "2022-01 to 2026-03",
+  "decisions": [
+    {
+      "date": "2022-01-26",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 7.0,
+          "unemployment": 3.9,
+          "gdp_growth": -1.6,
+          "fed_funds_rate_before": 0.08,
+          "sp500_yoy_change": -8.5,
+          "oil_price_wti": 87.0,
+          "usd_index_dxy": 96.2
+        },
+        "political_state": {
+          "geopolitical_tension": 0.5,
+          "domestic_pressure": 0.6,
+          "election_proximity": 0.3,
+          "description": "Russia massing troops on Ukraine border (invasion not yet begun). Biden midterm pressure building. Inflation becoming political liability. Markets selling off sharply in Jan 2022 on tightening expectations."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "hold",
+        "magnitude_bp": 0,
+        "new_rate_range": "0.00-0.25",
+        "forward_guidance": "hawkish",
+        "vote": "unanimous",
+        "description": "Held rates at 0-0.25% but signaled imminent rate hike cycle. Announced acceleration of QE taper to end asset purchases in early March. Powell stated rate hike 'soon' warranted. Dot plot signaled 3 hikes in 2022."
+      },
+      "outcome": {
+        "sp500_day_change_pct": -0.2,
+        "treasury_10y_change_bp": 5,
+        "description": "Market volatile; S&P fell mid-press-conference as Powell more hawkish than expected, erasing earlier gains. 10-year yield rose."
+      },
+      "sources": ["FOMC Statement 2022-01-26", "Federal Reserve Press Conference Jan 26 2022"]
+    },
+    {
+      "date": "2022-03-16",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 7.9,
+          "unemployment": 3.8,
+          "gdp_growth": -1.6,
+          "fed_funds_rate_before": 0.08,
+          "sp500_yoy_change": -8.2,
+          "oil_price_wti": 98.5,
+          "usd_index_dxy": 98.4
+        },
+        "political_state": {
+          "geopolitical_tension": 0.85,
+          "domestic_pressure": 0.65,
+          "election_proximity": 0.3,
+          "description": "Russia invaded Ukraine on Feb 24, 3 weeks prior. Oil prices spiked above $100. Energy sanctions adding to inflation. Biden approval at ~40%. Congress pressing Fed to act on inflation."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "rate_hike",
+        "magnitude_bp": 25,
+        "new_rate_range": "0.25-0.50",
+        "forward_guidance": "hawkish",
+        "vote": "8-1 (Bullard dissented, wanted 50bp)",
+        "description": "First rate hike since December 2018. Lifted off from zero lower bound. Powell signaled aggressive tightening ahead, dots showed 7 total hikes in 2022 (to ~1.9% year-end). Balance sheet runoff (QT) to begin soon."
+      },
+      "outcome": {
+        "sp500_day_change_pct": 2.2,
+        "treasury_10y_change_bp": 5,
+        "description": "Stocks rallied sharply — S&P +2.2% on relief that 25bp (not 50bp) and hawkish guidance was manageable. 'Buy the fact' reaction after weeks of anticipation."
+      },
+      "sources": ["FOMC Statement 2022-03-16", "CNBC Fed March 2022 recap"]
+    },
+    {
+      "date": "2022-05-04",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 8.3,
+          "unemployment": 3.6,
+          "gdp_growth": -1.6,
+          "fed_funds_rate_before": 0.33,
+          "sp500_yoy_change": -12.8,
+          "oil_price_wti": 104.0,
+          "usd_index_dxy": 103.2
+        },
+        "political_state": {
+          "geopolitical_tension": 0.8,
+          "domestic_pressure": 0.75,
+          "election_proximity": 0.4,
+          "description": "Russia-Ukraine war ongoing with heavy Western sanctions. Inflation hitting 40-year highs. Supply chain disruptions from China COVID lockdowns (Shanghai). Biden midterms looming in Nov. Strong political pressure to tame inflation."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "rate_hike",
+        "magnitude_bp": 50,
+        "new_rate_range": "0.75-1.00",
+        "forward_guidance": "hawkish",
+        "vote": "unanimous",
+        "description": "Largest single hike since 2000 (22 years). Simultaneously announced start of quantitative tightening (QT) — balance sheet reduction starting June 1 at $47.5B/month, rising to $95B/month. Powell explicitly ruled out 75bp at upcoming meetings (which he later reversed)."
+      },
+      "outcome": {
+        "sp500_day_change_pct": -3.6,
+        "treasury_10y_change_bp": -8,
+        "description": "Initial 3% rally reversed into -3.6% decline the next day as market digested hawkish implications. Powell's ruling out of 75bp was brief relief, then reversed."
+      },
+      "sources": ["FOMC Statement 2022-05-04", "Conference Board FOMC Analysis May 2022"]
+    },
+    {
+      "date": "2022-06-15",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 8.6,
+          "unemployment": 3.6,
+          "gdp_growth": -1.6,
+          "fed_funds_rate_before": 0.83,
+          "sp500_yoy_change": -18.5,
+          "oil_price_wti": 118.0,
+          "usd_index_dxy": 105.0
+        },
+        "political_state": {
+          "geopolitical_tension": 0.8,
+          "domestic_pressure": 0.85,
+          "election_proximity": 0.5,
+          "description": "CPI print of 8.6% (May data released Jun 10) shocked markets and Fed. Consumer confidence collapsed. University of Michigan inflation expectations surged. Fed forced to abandon May pledge of 50bp max, pivoted to 75bp. Ukraine war ongoing. Gasoline above $5/gallon nationally."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "rate_hike",
+        "magnitude_bp": 75,
+        "new_rate_range": "1.50-1.75",
+        "forward_guidance": "hawkish",
+        "vote": "unanimous (Waller and Bullard supported 75bp)",
+        "description": "Largest hike since 1994 (28 years). Emergency pivot from 50bp guidance after unexpectedly hot CPI print. Dot plot moved terminal rate to ~3.4% by end 2022, 3.8% in 2023. Powell admitted inflation expectations data 'caught attention'. QT at $47.5B/month proceeding."
+      },
+      "outcome": {
+        "sp500_day_change_pct": 1.5,
+        "treasury_10y_change_bp": -12,
+        "description": "Relief rally — market had feared 100bp. 10-year yield fell on perception the aggressive hike would slow economy and bring inflation down faster. Short-term relief before continued bear market."
+      },
+      "sources": ["FOMC Statement 2022-06-15", "Federal Reserve Press Conference June 2022"]
+    },
+    {
+      "date": "2022-07-27",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 9.1,
+          "unemployment": 3.6,
+          "gdp_growth": -0.6,
+          "fed_funds_rate_before": 1.58,
+          "sp500_yoy_change": -12.5,
+          "oil_price_wti": 97.0,
+          "usd_index_dxy": 107.0
+        },
+        "political_state": {
+          "geopolitical_tension": 0.78,
+          "domestic_pressure": 0.85,
+          "election_proximity": 0.55,
+          "description": "US technically in recession (2 consecutive negative GDP quarters: Q1 -1.6%, Q2 -0.6%). CPI hit 9.1% in June (40-year peak). Biden administration disputed recession label. Mid-term elections 3.5 months away. Bipartisan pressure to address inflation vs recession fears."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "rate_hike",
+        "magnitude_bp": 75,
+        "new_rate_range": "2.25-2.50",
+        "forward_guidance": "hawkish",
+        "vote": "unanimous",
+        "description": "Second consecutive 75bp hike, reaching neutral rate range (2.25-2.5%). Powell stated at press conference that 'another unusually large increase could be appropriate' at next meeting but also noted slowing was possible. Mentioned moving to 'restrictive territory'. QT now at full $95B/month pace."
+      },
+      "outcome": {
+        "sp500_day_change_pct": 2.6,
+        "treasury_10y_change_bp": -10,
+        "description": "Strong rally as Powell's dovish pivot hints ('slowing pace could be appropriate at some point') drove stocks up sharply. Market interpreted as peak hawkishness. S&P +2.6% on the day."
+      },
+      "sources": ["FOMC Statement 2022-07-27", "CNBC Fed July 2022 recap"]
+    },
+    {
+      "date": "2022-09-21",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 8.3,
+          "unemployment": 3.7,
+          "gdp_growth": 3.2,
+          "fed_funds_rate_before": 2.33,
+          "sp500_yoy_change": -17.5,
+          "oil_price_wti": 85.0,
+          "usd_index_dxy": 111.8
+        },
+        "political_state": {
+          "geopolitical_tension": 0.82,
+          "domestic_pressure": 0.8,
+          "election_proximity": 0.65,
+          "description": "Russia annexed 4 Ukrainian regions (Sept 30). Dollar at 20-year highs causing global currency crises (UK pound crashed, Japan intervention). Fed in 'whatever it takes' mode. Core CPI re-accelerated to 6.3% in Aug (released Sept 13) — major shock that forced 75bp over 50bp. Mid-terms in 7 weeks."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "rate_hike",
+        "magnitude_bp": 75,
+        "new_rate_range": "3.00-3.25",
+        "forward_guidance": "hawkish",
+        "vote": "unanimous",
+        "description": "Third consecutive 75bp hike. Rates at 14-year high (since 2008). Dot plot raised terminal rate forecast to 4.6% for 2023, up sharply from June's 3.8%. Powell's Jackson Hole speech (Aug 26) had pre-committed to 'pain' necessary to defeat inflation. Median 2022 year-end dot at 4.4%."
+      },
+      "outcome": {
+        "sp500_day_change_pct": -1.7,
+        "treasury_10y_change_bp": 15,
+        "description": "Sharp selloff as hawkish dot plot (terminal rate 4.6%) exceeded expectations. 10-year yield surged to highest since 2010. Bear market continued."
+      },
+      "sources": ["FOMC Statement 2022-09-21", "Bankrate September 2022 recap"]
+    },
+    {
+      "date": "2022-11-02",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 8.2,
+          "unemployment": 3.5,
+          "gdp_growth": 3.2,
+          "fed_funds_rate_before": 3.08,
+          "sp500_yoy_change": -17.2,
+          "oil_price_wti": 88.0,
+          "usd_index_dxy": 111.5
+        },
+        "political_state": {
+          "geopolitical_tension": 0.78,
+          "domestic_pressure": 0.8,
+          "election_proximity": 0.9,
+          "description": "US midterm elections just 6 days away (Nov 8). Republicans expected to make gains. Labor market still tight with 3.5% unemployment. Core CPI re-accelerated to 6.6% in September (40-year high for core). Market pricing in terminal rate above 5%."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "rate_hike",
+        "magnitude_bp": 75,
+        "new_rate_range": "3.75-4.00",
+        "forward_guidance": "hawkish",
+        "vote": "unanimous",
+        "description": "Fourth consecutive 75bp hike. Rates at 15-year high. Powell statement mentioned possibility of slowing pace 'at some point' but also that terminal rate may need to be higher than previously expected. Rates moving 'at a pace that it isn't yet' appropriate to slow."
+      },
+      "outcome": {
+        "sp500_day_change_pct": -2.5,
+        "treasury_10y_change_bp": 8,
+        "description": "Initial rally on 'slowing pace' language, then sharp reversal as Powell at press conference reiterated higher terminal rate. S&P gave back +2.5% intraday gain, closing down 2.5%."
+      },
+      "sources": ["FOMC Statement 2022-11-02", "MagnifyMoney November 2022 recap"]
+    },
+    {
+      "date": "2022-12-14",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 7.1,
+          "unemployment": 3.7,
+          "gdp_growth": 3.2,
+          "fed_funds_rate_before": 3.83,
+          "sp500_yoy_change": -16.8,
+          "oil_price_wti": 74.0,
+          "usd_index_dxy": 104.0
+        },
+        "political_state": {
+          "geopolitical_tension": 0.72,
+          "domestic_pressure": 0.7,
+          "election_proximity": 0.2,
+          "description": "Midterms over (Democrats retained Senate, Republicans took House). CPI falling from 9.1% peak but still very high. China COVID-zero policy ending, uncertain global growth implications. Dollar weakening from peak."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "rate_hike",
+        "magnitude_bp": 50,
+        "new_rate_range": "4.25-4.50",
+        "forward_guidance": "hawkish",
+        "vote": "unanimous",
+        "description": "Step-down to 50bp from four consecutive 75bp hikes. Rates at 15-year high. Dot plot raised 2023 median terminal rate to 5.1% (up from 4.6% in September). Powell explicitly rejected market expectations of 2023 rate cuts. 2023 GDP forecast cut, unemployment raised."
+      },
+      "outcome": {
+        "sp500_day_change_pct": -0.6,
+        "treasury_10y_change_bp": 10,
+        "description": "Market sold off despite smaller hike because dot plot showed higher-for-longer (5.1% terminal rate) surprised to the hawkish side vs ~4.9% market expectation."
+      },
+      "sources": ["FOMC Statement 2022-12-14", "Bankrate December 2022 recap", "CNBC December 2022"]
+    },
+    {
+      "date": "2023-02-01",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 6.4,
+          "unemployment": 3.4,
+          "gdp_growth": 2.7,
+          "fed_funds_rate_before": 4.33,
+          "sp500_yoy_change": 5.5,
+          "oil_price_wti": 78.0,
+          "usd_index_dxy": 101.8
+        },
+        "political_state": {
+          "geopolitical_tension": 0.68,
+          "domestic_pressure": 0.62,
+          "election_proximity": 0.1,
+          "description": "Inflation clearly declining from 9.1% peak. Labor market still extremely tight (unemployment 3.4%, lowest since 1969). 2024 presidential cycle beginning. Debt ceiling negotiations began (hit limit Jan 19). China balloon incident detected (shot down Feb 4)."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "rate_hike",
+        "magnitude_bp": 25,
+        "new_rate_range": "4.50-4.75",
+        "forward_guidance": "hawkish",
+        "vote": "unanimous",
+        "description": "Further step-down to 25bp. Powell acknowledged 'disinflation process has started' — notable dovish language. But stressed ongoing hikes still appropriate and cuts not expected in 2023. Near-peak territory. Cumulative tightening: 450bp in 11 months."
+      },
+      "outcome": {
+        "sp500_day_change_pct": 1.5,
+        "treasury_10y_change_bp": -8,
+        "description": "Rally on 'disinflation' comment — market took as signal of approaching peak. Tech-led rally. 10-year yield fell."
+      },
+      "sources": ["FOMC Statement 2023-02-01", "CNBC February 2023 recap"]
+    },
+    {
+      "date": "2023-03-22",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 6.0,
+          "unemployment": 3.6,
+          "gdp_growth": 2.6,
+          "fed_funds_rate_before": 4.58,
+          "sp500_yoy_change": 2.8,
+          "oil_price_wti": 72.0,
+          "usd_index_dxy": 102.8
+        },
+        "political_state": {
+          "geopolitical_tension": 0.68,
+          "domestic_pressure": 0.72,
+          "election_proximity": 0.15,
+          "description": "SVB (Silicon Valley Bank) failed March 10 — largest bank failure since 2008. Signature Bank also failed. Emergency BTFP lending facility created. Banking stress raised calls to pause hiking. Fed forced to balance financial stability vs inflation fight. Significant market uncertainty."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "rate_hike",
+        "magnitude_bp": 25,
+        "new_rate_range": "4.75-5.00",
+        "forward_guidance": "neutral",
+        "vote": "unanimous",
+        "description": "Hiked despite SVB banking crisis, showing inflation-fighting commitment. Language changed from 'ongoing increases will be appropriate' to 'some additional firming may be appropriate' — signaling near the end of hike cycle. Powell emphasized banking system 'sound and resilient'. BTFP facility providing liquidity backstop."
+      },
+      "outcome": {
+        "sp500_day_change_pct": -1.6,
+        "treasury_10y_change_bp": -12,
+        "description": "Mixed reaction. Some saw hike as error given banking stress; others interpreted softer guidance as dovish pivot. Bonds rallied (flight to safety still in play from SVB)."
+      },
+      "sources": ["FOMC Statement 2023-03-22", "Bloomberg March 2023 hike recap"]
+    },
+    {
+      "date": "2023-05-03",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 4.9,
+          "unemployment": 3.4,
+          "gdp_growth": 2.0,
+          "fed_funds_rate_before": 4.83,
+          "sp500_yoy_change": 4.2,
+          "oil_price_wti": 71.5,
+          "usd_index_dxy": 101.5
+        },
+        "political_state": {
+          "geopolitical_tension": 0.65,
+          "domestic_pressure": 0.68,
+          "election_proximity": 0.2,
+          "description": "Debt ceiling crisis intensifying (deadline approaching, Treasury using extraordinary measures). First Republic Bank taken over by FDIC May 1 — second major regional bank failure. US credit rating under watch. Inflation decelerating but core still ~5.5%."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "rate_hike",
+        "magnitude_bp": 25,
+        "new_rate_range": "5.00-5.25",
+        "forward_guidance": "neutral",
+        "vote": "unanimous",
+        "description": "Likely final hike of the cycle (signaled but not committed). Statement dropped 'some additional firming may be appropriate' language entirely, replaced with data-dependent approach. Powell said 'we may be at or near the point where policy is sufficiently restrictive'. Peak rate territory."
+      },
+      "outcome": {
+        "sp500_day_change_pct": -0.7,
+        "treasury_10y_change_bp": -5,
+        "description": "Modest decline on uncertainty about pause vs more hikes. Market pricing in cuts by end 2023 — Powell pushed back on that expectation."
+      },
+      "sources": ["FOMC Statement 2023-05-03", "CoinDesk FOMC May 2023"]
+    },
+    {
+      "date": "2023-06-14",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 4.0,
+          "unemployment": 3.7,
+          "gdp_growth": 2.0,
+          "fed_funds_rate_before": 5.08,
+          "sp500_yoy_change": 16.5,
+          "oil_price_wti": 69.0,
+          "usd_index_dxy": 103.4
+        },
+        "political_state": {
+          "geopolitical_tension": 0.6,
+          "domestic_pressure": 0.55,
+          "election_proximity": 0.25,
+          "description": "Debt ceiling deal reached June 3 (avoiding default). CPI falling sharply toward 4%. Core PCE still elevated at ~4.6%. AI/tech bull market beginning (Nvidia surged). Banking sector stress abated. 2024 presidential campaigns underway."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "hold",
+        "magnitude_bp": 0,
+        "new_rate_range": "5.00-5.25",
+        "forward_guidance": "hawkish",
+        "vote": "unanimous",
+        "description": "First pause after 10 consecutive hikes (450bp total since March 2022). Described as 'skip' not a 'stop'. Dot plot raised 2023 year-end median rate to 5.6% (implying 2 more hikes). Powell called it a 'prudent move to move at more moderate pace'. Gave time to assess cumulative tightening effects."
+      },
+      "outcome": {
+        "sp500_day_change_pct": -0.4,
+        "treasury_10y_change_bp": 8,
+        "description": "Modest selloff on hawkish dot plot (2 more hikes expected) despite the pause itself being expected. 10-year yield rose on 'higher for longer' signal."
+      },
+      "sources": ["FOMC Statement 2023-06-14", "JP Morgan June 2023 meeting analysis"]
+    },
+    {
+      "date": "2023-07-26",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 3.0,
+          "unemployment": 3.6,
+          "gdp_growth": 2.4,
+          "fed_funds_rate_before": 5.08,
+          "sp500_yoy_change": 20.5,
+          "oil_price_wti": 79.0,
+          "usd_index_dxy": 101.3
+        },
+        "political_state": {
+          "geopolitical_tension": 0.55,
+          "domestic_pressure": 0.5,
+          "election_proximity": 0.3,
+          "description": "CPI fell to 3% — dramatic disinflation progress. 'Soft landing' narrative gaining traction. GDP growth surprisingly strong in Q2 2023 (2.4% annualized). Labor market still resilient. Fitch considering US credit rating downgrade (announced Aug 1). Russia Wagner Group mutiny (June) raised geopolitical uncertainty."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "rate_hike",
+        "magnitude_bp": 25,
+        "new_rate_range": "5.25-5.50",
+        "forward_guidance": "neutral",
+        "vote": "unanimous",
+        "description": "Final rate hike of the tightening cycle (as it turned out). Rates at 22-year high (5.25-5.50%). Powell said Fed would proceed 'carefully' going forward. No pre-commitment on future moves. Balanced language acknowledging cooling inflation while noting labor market still tight."
+      },
+      "outcome": {
+        "sp500_day_change_pct": 0.2,
+        "treasury_10y_change_bp": 3,
+        "description": "Flat market reaction — hike was fully priced in. No hawkish surprises. Rally in tech continued in coming weeks as soft landing became consensus view."
+      },
+      "sources": ["FOMC Statement 2023-07-26", "CNBC July 2023 Fed meeting", "JP Morgan July 2023 analysis"]
+    },
+    {
+      "date": "2023-09-20",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 3.7,
+          "unemployment": 3.8,
+          "gdp_growth": 4.9,
+          "fed_funds_rate_before": 5.33,
+          "sp500_yoy_change": 15.5,
+          "oil_price_wti": 91.0,
+          "usd_index_dxy": 105.4
+        },
+        "political_state": {
+          "geopolitical_tension": 0.6,
+          "domestic_pressure": 0.52,
+          "election_proximity": 0.35,
+          "description": "CPI re-accelerated to 3.7% (Aug data) from 3.0% trough, partly driven by energy. Oil prices rising toward $95. UAW auto workers strike began Sept 15. Government shutdown risk (averted Oct 1 temporarily). Q3 GDP tracking very strong."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "hold",
+        "magnitude_bp": 0,
+        "new_rate_range": "5.25-5.50",
+        "forward_guidance": "hawkish",
+        "vote": "unanimous",
+        "description": "Held steady but dot plot retained one more hike in 2023, with higher-for-longer 2024 path (only 50bp of cuts in 2024 vs prior 100bp). Powell emphasized 'We're prepared to raise rates further if appropriate.' Fed watching energy price re-acceleration and strong growth closely."
+      },
+      "outcome": {
+        "sp500_day_change_pct": -0.9,
+        "treasury_10y_change_bp": 12,
+        "description": "Hawkish hold — 10-year yield surged to 4.4% (highest since 2007) on higher-for-longer dot plot. Stocks fell. September-October 2023 saw sharp bond market selloff."
+      },
+      "sources": ["FOMC Statement 2023-09-20", "Federal Reserve Press Conference Sept 2023"]
+    },
+    {
+      "date": "2023-11-01",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 3.7,
+          "unemployment": 3.9,
+          "gdp_growth": 4.9,
+          "fed_funds_rate_before": 5.33,
+          "sp500_yoy_change": 8.5,
+          "oil_price_wti": 82.0,
+          "usd_index_dxy": 106.5
+        },
+        "political_state": {
+          "geopolitical_tension": 0.78,
+          "domestic_pressure": 0.55,
+          "election_proximity": 0.4,
+          "description": "Hamas attacked Israel Oct 7; Israel-Gaza war began. Middle East tensions raised oil price uncertainty. US 10-year yield briefly hit 5% (Oct 23, 16-year high). Treasury increased long-term bond issuance. Continued government shutdown risk. S&P suffered -10% correction Oct from 2023 highs."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "hold",
+        "magnitude_bp": 0,
+        "new_rate_range": "5.25-5.50",
+        "forward_guidance": "neutral",
+        "vote": "unanimous",
+        "description": "Second consecutive hold. Powell noted 'tighter financial conditions' from bond market selloff doing some of the Fed's work. Slightly softer tone than September — acknowledged significant tightening in long-term yields. Kept optionality for further hikes but market increasingly pricing in peak rates."
+      },
+      "outcome": {
+        "sp500_day_change_pct": 1.1,
+        "treasury_10y_change_bp": -20,
+        "description": "Rally as Powell's softer tone and acknowledgment of tighter financial conditions seen as peak hawkishness. 10-year yield fell sharply after testing 5%. Major bond market rally began."
+      },
+      "sources": ["FOMC Statement 2023-11-01", "Chatham Financial November 2023 recap"]
+    },
+    {
+      "date": "2023-12-13",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 3.1,
+          "unemployment": 3.7,
+          "gdp_growth": 4.9,
+          "fed_funds_rate_before": 5.33,
+          "sp500_yoy_change": 20.2,
+          "oil_price_wti": 71.0,
+          "usd_index_dxy": 104.0
+        },
+        "political_state": {
+          "geopolitical_tension": 0.72,
+          "domestic_pressure": 0.45,
+          "election_proximity": 0.45,
+          "description": "Inflation clearly on downward path. PCE fell to 3.0%, core PCE 3.2%. Bond market rally in Nov-Dec as markets priced in aggressive 2024 cuts (6-7 cuts priced). Biden approval hovering ~40%. 2024 presidential race: Trump dominating Republican primary. Israel-Gaza war ongoing."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "hold",
+        "magnitude_bp": 0,
+        "new_rate_range": "5.25-5.50",
+        "forward_guidance": "dovish",
+        "vote": "unanimous",
+        "description": "Major dovish pivot. Dot plot showed median 75bp of cuts in 2024 (3 cuts of 25bp each). Powell acknowledged 'the question of when to begin dialing back' was discussed. Stated it would be 'premature to declare victory' but clear pivot toward eventual easing. Market euphoria triggered."
+      },
+      "outcome": {
+        "sp500_day_change_pct": 1.4,
+        "treasury_10y_change_bp": -18,
+        "description": "Major year-end rally. 10-year yield fell sharply. S&P surged as market priced in 6-7 cuts for 2024. Fed 'pivot' became dominant market narrative going into 2024."
+      },
+      "sources": ["FOMC Statement 2023-12-13", "Federal Reserve Press Conference Dec 2023"]
+    },
+    {
+      "date": "2024-01-31",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 3.4,
+          "unemployment": 3.7,
+          "gdp_growth": 3.3,
+          "fed_funds_rate_before": 5.33,
+          "sp500_yoy_change": 22.5,
+          "oil_price_wti": 78.0,
+          "usd_index_dxy": 103.4
+        },
+        "political_state": {
+          "geopolitical_tension": 0.68,
+          "domestic_pressure": 0.45,
+          "election_proximity": 0.55,
+          "description": "Strong Q4 2023 GDP (3.3%) defied recession fears. CPI ticked back up from 3.1% to 3.4%. Primary season underway (Trump vs Biden rematch solidifying). Middle East tensions: US forces attacked in Jordan (Tower 22, Jan 28). Market had priced in March cut — Fed pushing back."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "hold",
+        "magnitude_bp": 0,
+        "new_rate_range": "5.25-5.50",
+        "forward_guidance": "neutral",
+        "vote": "unanimous",
+        "description": "Held steady. Powell explicitly pushed back against March cut expectations in press conference: 'I don't think it's likely that we will reach a level of confidence by the time of the March meeting.' Strong economy gave Fed flexibility to wait. Removed language about future hikes."
+      },
+      "outcome": {
+        "sp500_day_change_pct": -1.6,
+        "treasury_10y_change_bp": 10,
+        "description": "Selloff as Powell ruled out March cut (market had been ~50% pricing it in). Repricing of cut timeline pushed to May-June."
+      },
+      "sources": ["FOMC Statement 2024-01-31", "JP Morgan January 2024 meeting analysis"]
+    },
+    {
+      "date": "2024-03-20",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 3.2,
+          "unemployment": 3.9,
+          "gdp_growth": 3.4,
+          "fed_funds_rate_before": 5.33,
+          "sp500_yoy_change": 28.5,
+          "oil_price_wti": 81.0,
+          "usd_index_dxy": 103.9
+        },
+        "political_state": {
+          "geopolitical_tension": 0.65,
+          "domestic_pressure": 0.45,
+          "election_proximity": 0.6,
+          "description": "Bitcoin ETF approved January, crypto bull market resumed. S&P at all-time highs. Trump effectively secured Republican nomination. Jan-Feb CPI prints came in hotter than expected (3.2%, 3.1%), complicating cut timeline. Red Sea shipping disruptions from Houthi attacks raising goods inflation concerns."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "hold",
+        "magnitude_bp": 0,
+        "new_rate_range": "5.25-5.50",
+        "forward_guidance": "neutral",
+        "vote": "unanimous",
+        "description": "Held as expected. Dot plot maintained 3 cuts for 2024 despite hot CPI prints — reassured markets. Powell noted 'bumpy road' to 2% but still on track. Slightly reduced balance sheet runoff pace signaled for upcoming months. AI-driven economy appeared resilient."
+      },
+      "outcome": {
+        "sp500_day_change_pct": 0.9,
+        "treasury_10y_change_bp": -5,
+        "description": "Mild rally as dot plot preserved 3-cut forecast despite hot inflation data. Market relief that Fed wasn't turning more hawkish."
+      },
+      "sources": ["FOMC Statement 2024-03-20", "Federal Reserve Press Conference March 2024"]
+    },
+    {
+      "date": "2024-05-01",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 3.5,
+          "unemployment": 3.9,
+          "gdp_growth": 1.6,
+          "fed_funds_rate_before": 5.33,
+          "sp500_yoy_change": 21.5,
+          "oil_price_wti": 83.0,
+          "usd_index_dxy": 105.8
+        },
+        "political_state": {
+          "geopolitical_tension": 0.72,
+          "domestic_pressure": 0.5,
+          "election_proximity": 0.65,
+          "description": "Q1 2024 GDP slowed to 1.6% (below expectations). CPI re-accelerated to 3.5% (March data) — third straight upside surprise. Iran launched direct drone attack on Israel (April 13). 'No progress' on inflation in Q1 Powell noted. Election: Biden-Trump rematch locked in. Campus protests over Gaza war began."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "hold",
+        "magnitude_bp": 0,
+        "new_rate_range": "5.25-5.50",
+        "forward_guidance": "hawkish",
+        "vote": "unanimous",
+        "description": "Held as expected but more hawkish than March. Powell acknowledged 'lack of further progress' toward 2% inflation in Q1. Announced slower QT: cap on Treasury runoff reduced from $60B to $25B/month starting June. Cut expectations pushed to September at earliest."
+      },
+      "outcome": {
+        "sp500_day_change_pct": 0.9,
+        "treasury_10y_change_bp": -8,
+        "description": "Mild rally as slower QT seen as modest dovish signal and Powell didn't signal rate hikes were coming back."
+      },
+      "sources": ["FOMC Statement 2024-05-01", "Federal Reserve Press Conference May 2024"]
+    },
+    {
+      "date": "2024-06-12",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 3.3,
+          "unemployment": 4.0,
+          "gdp_growth": 1.6,
+          "fed_funds_rate_before": 5.33,
+          "sp500_yoy_change": 24.8,
+          "oil_price_wti": 78.0,
+          "usd_index_dxy": 105.2
+        },
+        "political_state": {
+          "geopolitical_tension": 0.65,
+          "domestic_pressure": 0.5,
+          "election_proximity": 0.7,
+          "description": "Trump-Biden debate scheduled June 27. Biden's re-election prospects weakening. Unemployment crossed 4% for first time since 2022. CPI May (released same day as meeting) came in at 3.3% — cooler than expected. Election concerns about Fed appearing political if it cuts before Nov election."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "hold",
+        "magnitude_bp": 0,
+        "new_rate_range": "5.25-5.50",
+        "forward_guidance": "neutral",
+        "vote": "unanimous",
+        "description": "Held steady. Dot plot reduced 2024 cut forecast from 3 cuts to only 1 cut (hawkish surprise vs market's 2-cut expectation). But cooler May CPI (released day of meeting) opened door to September cut. Powell noted 'modest further progress' on inflation."
+      },
+      "outcome": {
+        "sp500_day_change_pct": 0.9,
+        "treasury_10y_change_bp": -10,
+        "description": "Bonds rallied strongly on cooler CPI data (released same morning). Stocks mildly positive. Dot plot's 1-cut reduction mostly offset by encouraging CPI."
+      },
+      "sources": ["FOMC Statement 2024-06-12", "Federal Reserve June 2024 Press Conference"]
+    },
+    {
+      "date": "2024-07-31",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 3.0,
+          "unemployment": 4.3,
+          "gdp_growth": 2.8,
+          "fed_funds_rate_before": 5.33,
+          "sp500_yoy_change": 22.3,
+          "oil_price_wti": 76.0,
+          "usd_index_dxy": 104.3
+        },
+        "political_state": {
+          "geopolitical_tension": 0.62,
+          "domestic_pressure": 0.55,
+          "election_proximity": 0.8,
+          "description": "Biden announced withdrawal from presidential race July 21; Kamala Harris became Democratic candidate. Unemployment jumped to 4.3% in July (released Aug 2) — triggered Sahm Rule recession indicator. Markets experiencing AI bubble concerns (Nasdaq fell ~10% in Jul). Election 3 months away."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "hold",
+        "magnitude_bp": 0,
+        "new_rate_range": "5.25-5.50",
+        "forward_guidance": "dovish",
+        "vote": "unanimous",
+        "description": "Held but major dovish shift: statement added language that Committee 'has gained greater confidence that inflation is moving sustainably toward 2%.' Powell stated 'a reduction in our policy rate could be on the table as soon as the next meeting' (September). Clear pre-commitment to September cut."
+      },
+      "outcome": {
+        "sp500_day_change_pct": 1.6,
+        "treasury_10y_change_bp": -12,
+        "description": "Rally on Powell's dovish signal. But major market turmoil followed Aug 2 (Sahm Rule triggered by jobs report), causing brief global selloff and 'yen carry trade unwind' on Aug 5."
+      },
+      "sources": ["FOMC Statement 2024-07-31", "Federal Reserve Press Conference July 2024"]
+    },
+    {
+      "date": "2024-09-18",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 2.5,
+          "unemployment": 4.2,
+          "gdp_growth": 3.0,
+          "fed_funds_rate_before": 5.33,
+          "sp500_yoy_change": 26.2,
+          "oil_price_wti": 70.0,
+          "usd_index_dxy": 100.8
+        },
+        "political_state": {
+          "geopolitical_tension": 0.65,
+          "domestic_pressure": 0.52,
+          "election_proximity": 0.9,
+          "description": "Election 7 weeks away. Harris vs Trump race tightening. Labor market cooling with unemployment at 4.2%. Inflation near target at 2.5%. Powell's Jackson Hole speech (Aug 23) declared 'the time has come for policy to adjust.' First cut since COVID era. Israel intensifying operations in Gaza/Lebanon."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "rate_cut",
+        "magnitude_bp": 50,
+        "new_rate_range": "4.75-5.00",
+        "forward_guidance": "dovish",
+        "vote": "11-1 (Bowman dissented, preferred 25bp)",
+        "description": "First rate cut since March 2020 — front-loaded 50bp cut. Fed chose jumbo cut to 'recalibrate' rather than gradual 25bp, citing labor market risk. Powell framed as 'sign of strength' not panic. Dot plot showed 50bp more cuts in 2024, 100bp in 2025. Bowman's dissent first since 2005 by a governor."
+      },
+      "outcome": {
+        "sp500_day_change_pct": -0.3,
+        "treasury_10y_change_bp": 5,
+        "description": "Volatile session — initial rally then reversed. 'Sell the news' after the big cut. 10-year yield rose slightly as market worried 50bp signal economic weakness. S&P finished marginally negative on the day."
+      },
+      "sources": ["FOMC Statement 2024-09-18", "Conference Board FOMC September 2024 analysis"]
+    },
+    {
+      "date": "2024-11-07",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 2.6,
+          "unemployment": 4.1,
+          "gdp_growth": 2.8,
+          "fed_funds_rate_before": 4.83,
+          "sp500_yoy_change": 35.2,
+          "oil_price_wti": 72.0,
+          "usd_index_dxy": 104.8
+        },
+        "political_state": {
+          "geopolitical_tension": 0.6,
+          "domestic_pressure": 0.45,
+          "election_proximity": 0.05,
+          "description": "Trump won presidential election November 5 — decisive Electoral College victory. Republicans swept Senate and House. Trump's tariff and tax cut agenda created uncertainty about future inflation path. Market rallying strongly post-election ('Trump trade'). Powell facing potential political pressure/threats to independence."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "rate_cut",
+        "magnitude_bp": 25,
+        "new_rate_range": "4.50-4.75",
+        "forward_guidance": "neutral",
+        "vote": "unanimous",
+        "description": "Cut 25bp as expected. Powell dismissed questions about Trump's potential interference: 'Not something we think about or discuss.' Stated he would not resign if Trump asked. Economy 'solid, no signs of significant deterioration.' More cautious language than September on further cuts pace."
+      },
+      "outcome": {
+        "sp500_day_change_pct": 0.7,
+        "treasury_10y_change_bp": 4,
+        "description": "Mild positive reaction. Market focused on Trump election aftermath more than Fed. 'Trump trade' rally continued in following weeks."
+      },
+      "sources": ["FOMC Statement 2024-11-07", "FOMC Minutes November 2024"]
+    },
+    {
+      "date": "2024-12-18",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 2.7,
+          "unemployment": 4.2,
+          "gdp_growth": 3.1,
+          "fed_funds_rate_before": 4.58,
+          "sp500_yoy_change": 28.8,
+          "oil_price_wti": 70.0,
+          "usd_index_dxy": 107.0
+        },
+        "political_state": {
+          "geopolitical_tension": 0.58,
+          "domestic_pressure": 0.48,
+          "election_proximity": 0.05,
+          "description": "Trump transition underway; cabinet appointments ongoing. Syria Assad regime collapsed Dec 8. CPI re-accelerated slightly to 2.7%. Economy still robust. Market at all-time highs (S&P ~6000). Government shutdown risk again in December. Trump threatening tariffs on Day 1."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "rate_cut",
+        "magnitude_bp": 25,
+        "new_rate_range": "4.25-4.50",
+        "forward_guidance": "hawkish",
+        "vote": "11-1 (Hammack dissented, preferred hold)",
+        "description": "Third consecutive cut but hawkish pivot in dot plot. 2025 median dots showed only 50bp of cuts (2 cuts), down from September's 100bp (4 cuts). Powell called this a 'hawkish cut' — cutting but signaling slowdown in pace. Raised inflation forecasts; cited uncertainty about fiscal policy under new administration."
+      },
+      "outcome": {
+        "sp500_day_change_pct": -2.9,
+        "treasury_10y_change_bp": 12,
+        "description": "Significant selloff — biggest post-FOMC drop in 2024. Hawkish dot plot (only 2 cuts in 2025) vs market's 3-cut expectation. 10-year yield surged to 4.5%. Nasdaq fell ~3.5%."
+      },
+      "sources": ["FOMC Statement 2024-12-18", "JP Morgan December 2024 meeting", "CNBC December 2024 recap"]
+    },
+    {
+      "date": "2025-01-29",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 2.9,
+          "unemployment": 4.1,
+          "gdp_growth": 2.3,
+          "fed_funds_rate_before": 4.33,
+          "sp500_yoy_change": 25.3,
+          "oil_price_wti": 75.0,
+          "usd_index_dxy": 108.5
+        },
+        "political_state": {
+          "geopolitical_tension": 0.65,
+          "domestic_pressure": 0.55,
+          "election_proximity": 0.05,
+          "description": "Trump inaugurated Jan 20. Immediately signed executive orders on immigration, tariffs (threatened 25% on Canada/Mexico), and declared national energy emergency. Trump publicly called for lower rates. DeepSeek AI shock hit markets (Jan 27). Strong January jobs data. Market uncertainty about tariff-driven inflation."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "hold",
+        "magnitude_bp": 0,
+        "new_rate_range": "4.25-4.50",
+        "forward_guidance": "neutral",
+        "vote": "unanimous",
+        "description": "Paused cut cycle. Statement noted 'uncertainty' about economic outlook. Powell explicitly pushed back on Trump's rate cut demands without naming him: Fed 'doesn't need to be in a hurry to adjust.' Tariff uncertainty cited as complication for inflation path. No dot plot update (non-SEP meeting)."
+      },
+      "outcome": {
+        "sp500_day_change_pct": 0.5,
+        "treasury_10y_change_bp": -5,
+        "description": "Mildly positive. Hold was fully expected. Powell's pushback on political pressure seen as defending Fed independence — positive for credibility."
+      },
+      "sources": ["FOMC Statement 2025-01-29", "Federal Reserve Press Conference January 2025"]
+    },
+    {
+      "date": "2025-03-19",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 2.8,
+          "unemployment": 4.1,
+          "gdp_growth": 2.3,
+          "fed_funds_rate_before": 4.33,
+          "sp500_yoy_change": 12.5,
+          "oil_price_wti": 67.0,
+          "usd_index_dxy": 103.5
+        },
+        "political_state": {
+          "geopolitical_tension": 0.68,
+          "domestic_pressure": 0.6,
+          "election_proximity": 0.05,
+          "description": "Trump tariffs escalating: 25% on Canada/Mexico steel/aluminum implemented. Markets pricing in tariff-driven stagflation risk. S&P dropped ~10% from January highs. Consumer confidence declining. DOGE (Elon Musk) cutting federal workforce — potential GDP headwind. Ukraine ceasefire discussions."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "hold",
+        "magnitude_bp": 0,
+        "new_rate_range": "4.25-4.50",
+        "forward_guidance": "neutral",
+        "vote": "unanimous",
+        "description": "Held steady. Dot plot maintained 2 cuts in 2025 (50bp total) but with significant uncertainty. Raised inflation forecasts (PCE to 2.7% for 2025), cut GDP forecast to 1.7%. Powell acknowledged 'elevated uncertainty' from tariff policy. Stagflationary risk acknowledged but not base case."
+      },
+      "outcome": {
+        "sp500_day_change_pct": 0.6,
+        "treasury_10y_change_bp": -8,
+        "description": "Mild relief rally as Fed maintained 2-cut dot plot despite stagflation concerns. Market had feared a hawkish shift with zero cuts."
+      },
+      "sources": ["FOMC Statement 2025-03-19", "Federal Reserve Press Conference March 2025"]
+    },
+    {
+      "date": "2025-05-07",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 2.4,
+          "unemployment": 4.2,
+          "gdp_growth": -0.3,
+          "fed_funds_rate_before": 4.33,
+          "sp500_yoy_change": 8.5,
+          "oil_price_wti": 58.0,
+          "usd_index_dxy": 99.8
+        },
+        "political_state": {
+          "geopolitical_tension": 0.72,
+          "domestic_pressure": 0.7,
+          "election_proximity": 0.05,
+          "description": "April 'Liberation Day' tariffs announced April 2 — blanket 10% global tariff + higher rates on China (145% total). Markets in turmoil: S&P fell ~15% in two weeks. Q1 GDP printed -0.3% (imports surge distorted). US-China trade war intensifying. Trump repeatedly demanding 'FIRE Powell'. 90-day tariff pause announced April 9."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "hold",
+        "magnitude_bp": 0,
+        "new_rate_range": "4.25-4.50",
+        "forward_guidance": "neutral",
+        "vote": "unanimous",
+        "description": "Held despite market turmoil and presidential pressure. Powell stated 'wait and see' approach to tariff impacts — 'too early to know' the effects on inflation vs growth. Acknowledged tariff-driven uncertainty creates 'difficult tradeoffs.' Fed maintaining independence in face of political attacks. Trump threatened to fire Powell (legal basis disputed)."
+      },
+      "outcome": {
+        "sp500_day_change_pct": 0.4,
+        "treasury_10y_change_bp": 5,
+        "description": "Mild positive. Hold was expected given tariff-inflation uncertainty. Market stabilizing after April turmoil."
+      },
+      "sources": ["FOMC Statement 2025-05-07", "Federal Reserve Press Conference May 2025"]
+    },
+    {
+      "date": "2025-06-18",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 2.7,
+          "unemployment": 4.2,
+          "gdp_growth": 1.8,
+          "fed_funds_rate_before": 4.33,
+          "sp500_yoy_change": 15.2,
+          "oil_price_wti": 62.0,
+          "usd_index_dxy": 98.5
+        },
+        "political_state": {
+          "geopolitical_tension": 0.72,
+          "domestic_pressure": 0.65,
+          "election_proximity": 0.05,
+          "description": "US-China 90-day tariff truce (May 12 deal) partially eased trade tensions. Trade uncertainty persisting. Israel struck Iran nuclear facilities (June). US bond yields elevated. Fed under continued political pressure. Trump-Powell tension persisting but legal challenge to Fire Powell denied by courts."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "hold",
+        "magnitude_bp": 0,
+        "new_rate_range": "4.25-4.50",
+        "forward_guidance": "neutral",
+        "vote": "unanimous",
+        "description": "Held steady. Dot plot updated: only 1 cut in 2025 now projected (down from 2), reflecting tariff-driven inflation uncertainty. Powell maintained Fed is 'well-positioned to wait.' GDP and inflation forecasts revised due to tariff impact uncertainty."
+      },
+      "outcome": {
+        "sp500_day_change_pct": -0.3,
+        "treasury_10y_change_bp": 6,
+        "description": "Slight negative as 1-cut dot (vs prior 2-cut) was mildly disappointing for market. But overall muted given it was expected direction."
+      },
+      "sources": ["FOMC Statement 2025-06-18", "Federal Reserve SEP June 2025"]
+    },
+    {
+      "date": "2025-07-30",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 2.7,
+          "unemployment": 4.3,
+          "gdp_growth": 2.2,
+          "fed_funds_rate_before": 4.33,
+          "sp500_yoy_change": 18.5,
+          "oil_price_wti": 65.0,
+          "usd_index_dxy": 97.2
+        },
+        "political_state": {
+          "geopolitical_tension": 0.65,
+          "domestic_pressure": 0.6,
+          "election_proximity": 0.05,
+          "description": "Labor market continuing to cool (unemployment 4.3%). Tariff uncertainty somewhat reduced from peak. Q2 GDP tracking positive. Trump Big Beautiful Bill passing through Congress (tax cuts + spending). Trade deals being negotiated with several countries."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "hold",
+        "magnitude_bp": 0,
+        "new_rate_range": "4.25-4.50",
+        "forward_guidance": "neutral",
+        "vote": "unanimous",
+        "description": "Held as expected. No SEP meeting. Powell maintained wait-and-see approach. Acknowledged labor market cooling but inflation still above target. Non-committal on September cut — dependent on incoming data."
+      },
+      "outcome": {
+        "sp500_day_change_pct": 0.2,
+        "treasury_10y_change_bp": -3,
+        "description": "Near-flat market reaction as outcome was widely expected. Focus shifting to September meeting."
+      },
+      "sources": ["FOMC Statement 2025-07-30", "Federal Reserve Press Conference July 2025"]
+    },
+    {
+      "date": "2025-09-17",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 3.0,
+          "unemployment": 4.4,
+          "gdp_growth": 2.4,
+          "fed_funds_rate_before": 4.33,
+          "sp500_yoy_change": 22.5,
+          "oil_price_wti": 68.0,
+          "usd_index_dxy": 100.5
+        },
+        "political_state": {
+          "geopolitical_tension": 0.62,
+          "domestic_pressure": 0.58,
+          "election_proximity": 0.05,
+          "description": "Labor market cooling: unemployment rose to 4.4%. Inflation slightly re-elevated to 3.0% on energy base effects. September historically weak for markets. Trade policy still uncertain but less acute. Some signs of economic moderation from tariff drag. Unanimous within FOMC to begin cutting."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "rate_cut",
+        "magnitude_bp": 25,
+        "new_rate_range": "4.00-4.25",
+        "forward_guidance": "dovish",
+        "vote": "11-1",
+        "description": "First rate cut since December 2024. 9-month pause ended. Dot plot showed 2 additional cuts in 2025 (total 75bp for the year). Powell cited cooling labor market and sufficient progress on inflation as primary drivers. One member dissented preferring hold."
+      },
+      "outcome": {
+        "sp500_day_change_pct": 0.7,
+        "treasury_10y_change_bp": -10,
+        "description": "Modest positive reaction. Cut was well-telegraphed. 10-year yield fell as easing cycle resumed. Markets priced in follow-through cuts in October and December."
+      },
+      "sources": ["Federal Reserve Statement 2025-09-17", "CNBC Fed September 2025 minutes"]
+    },
+    {
+      "date": "2025-10-29",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 2.8,
+          "unemployment": 4.4,
+          "gdp_growth": 3.5,
+          "fed_funds_rate_before": 4.08,
+          "sp500_yoy_change": 28.5,
+          "oil_price_wti": 67.0,
+          "usd_index_dxy": 101.8
+        },
+        "political_state": {
+          "geopolitical_tension": 0.58,
+          "domestic_pressure": 0.52,
+          "election_proximity": 0.05,
+          "description": "Q3 GDP surprised to upside (3.5%). Labor market stabilizing. Inflation trending back toward 2% target. Stock market at new all-time highs. Trump fiscal expansion (tax cuts) proceeding through Congress. Tariff uncertainties partially resolved via trade deals."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "rate_cut",
+        "magnitude_bp": 25,
+        "new_rate_range": "3.75-4.00",
+        "forward_guidance": "neutral",
+        "vote": "unanimous",
+        "description": "Second consecutive 25bp cut. Steady pace of easing continuing. Non-SEP meeting. Powell reiterated data-dependent approach. Acknowledged strong Q3 GDP as positive sign economy resilient. Target range now at 3.75-4.00%."
+      },
+      "outcome": {
+        "sp500_day_change_pct": 0.4,
+        "treasury_10y_change_bp": -5,
+        "description": "Mild positive. Cut fully priced in. Market continued to grind higher into year-end."
+      },
+      "sources": ["FOMC Statement 2025-10-29", "Chatham Financial October 2025 recap"]
+    },
+    {
+      "date": "2025-12-10",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 2.7,
+          "unemployment": 4.4,
+          "gdp_growth": 2.5,
+          "fed_funds_rate_before": 3.83,
+          "sp500_yoy_change": 30.2,
+          "oil_price_wti": 68.0,
+          "usd_index_dxy": 106.8
+        },
+        "political_state": {
+          "geopolitical_tension": 0.55,
+          "domestic_pressure": 0.5,
+          "election_proximity": 0.05,
+          "description": "End of year. Inflation still slightly above 2% at 2.7%. S&P at record highs near year-end. USD surged strongly in late 2025. Trump 'Big Beautiful Bill' advancing. Fiscal expansion concerns raising long-term yield concerns. Fed cutting but with growing internal dissent about pace."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "rate_cut",
+        "magnitude_bp": 25,
+        "new_rate_range": "3.50-3.75",
+        "forward_guidance": "hawkish",
+        "vote": "9-3 (Hammack, Waller, Miran dissented, preferred hold)",
+        "description": "Third consecutive 25bp cut, but unusual 3-way dissent (most since 2022) signaling growing concern about cutting too much. Dot plot showed only 1 cut in 2026. Powell stated 'we are significantly closer to neutral' but rates still modestly restrictive. Hawkish cut — cutting pace slowing to once per year in 2026."
+      },
+      "outcome": {
+        "sp500_day_change_pct": -1.0,
+        "treasury_10y_change_bp": 8,
+        "description": "Modest selloff. 3-dissent hawkish cut signal and only 1 cut projected for 2026 disappointed markets expecting more easing. 10-year yield rose."
+      },
+      "sources": ["FOMC Statement 2025-12-10", "RBC Economics December 2025", "Bloomberg December 2025 FOMC", "Mariemont Capital December 2025 analysis"]
+    },
+    {
+      "date": "2026-01-28",
+      "context": {
+        "economic_state": {
+          "cpi_yoy": 2.7,
+          "unemployment": 4.1,
+          "gdp_growth": 2.3,
+          "fed_funds_rate_before": 3.58,
+          "sp500_yoy_change": 12.5,
+          "oil_price_wti": 75.0,
+          "usd_index_dxy": 108.5
+        },
+        "political_state": {
+          "geopolitical_tension": 0.58,
+          "domestic_pressure": 0.52,
+          "election_proximity": 0.02,
+          "description": "Trump one year into second term. Economy solid but inflation still slightly above target. Labor market showing signs of stabilization after earlier cooling. Markets beginning 2026 with caution. Fed facing political pressure to cut more but maintaining independence. 2 dissenters prefer another cut."
+        }
+      },
+      "decision": {
+        "category": "monetary_policy",
+        "action": "hold",
+        "magnitude_bp": 0,
+        "new_rate_range": "3.50-3.75",
+        "forward_guidance": "neutral",
+        "vote": "10-2 (Miran and Waller dissented, preferred 25bp cut)",
+        "description": "Held as expected following three 2025 cuts. First meeting of 2026. Powell noted 'economic activity expanding at a solid pace,' job gains stabilized, inflation 'somewhat elevated.' Stated Fed 'does not need to be in a hurry' to adjust rates. No dot plot (non-SEP). Market consensus: next cut likely summer 2026."
+      },
+      "outcome": {
+        "sp500_day_change_pct": -0.5,
+        "treasury_10y_change_bp": 3,
+        "description": "Slightly negative as two dissents for cut noted. Market interpreting 2 dissenters as sign Fed still split. No major market move — outcome was widely anticipated."
+      },
+      "sources": ["FOMC Statement 2026-01-28", "JP Morgan January 2026 analysis", "CNBC January 2026 Fed decision", "America's Credit Unions FOMC Jan 2026"]
+    }
+  ]
+}

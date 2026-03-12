@@ -1,0 +1,401 @@
+{
+  "leader": "Alan Greenspan",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "Federal Reserve: 18.5-year tenure as Fed Chairman (Aug 11 1987 – Jan 31 2006), ~66 FOMC meetings chaired, monetary policy cycle covering 1987 crash, 1990-91 recession, 1994 rate-hike cycle, 1997 Asian crisis, 1998 LTCM/Russian default, 2001 dot-com bust, 9/11, and 2001-2004 emergency low-rate era that contributed to housing bubble",
+    "Memoirs and primary sources: 'The Age of Turbulence' (2007 autobiography), Congressional testimonies 1987-2006 (notably Oct 2008 'flaw in my ideology' admission), Humphrey-Hawkins testimonies (twice-yearly), FOMC transcripts (released with 5-year lag)",
+    "Intellectual background: NYU economics PhD (ABD), Arthur Burns mentorship, Townsend-Greenspan economic consulting firm 1954-1987, Ayn Rand 'Collective' membership 1950s-1960s, Council of Economic Advisers chairman 1974-77 (Ford administration), served on boards including JP Morgan, Alcoa, General Foods",
+    "Academic/analytical sources: Sebastian Mallaby 'The Man Who Knew' (2016, definitive biography), Bob Woodward 'Maestro' (2000), Justin Fox 'The Myth of the Rational Market', William Fleckenstein 'Greenspan's Bubbles', John Taylor criticism of Taylor Rule violations",
+    "Key decisions: 1987 crash liquidity injection, 1989-1994 rate cycle, 1994 'stealth tightening' that triggered bond massacre, 1995-1999 'soft landing' navigation, 1996 'irrational exuberance' speech then inaction, 1998 emergency LTCM rate cuts, 2001 rapid rate cuts to 1%, 2003-2004 maintenance of 1% rate despite housing boom, ARMs testimony 2004"
+  ],
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector for Alan Greenspan, compiled from 18.5 years (Aug 1987 – Jan 2006) as Federal Reserve Chairman — the longest-serving modern Fed chair. Covers the 1987 Black Monday crash, three complete business cycles, 1994 bond massacre, 1997 Asian contagion, 1998 LTCM near-collapse, 2001 dot-com bust + 9/11 twin shock, and the historically low rate era (2001-2004) that directly seeded the 2008 housing crisis. Greenspan's behavior is defined by four core tensions: (1) Ayn Rand libertarian ideology vs pragmatic interventionism in crises, (2) opacity/deliberate ambiguity as communication strategy vs Fed transparency norm he ultimately helped end, (3) genuine mastery of economic data vs ideological blind spots on financial innovation, (4) 'Greenspan Put' market backstop effect that progressively distorted risk-taking. Information fidelity: 0.87 — extensive FOMC transcripts, Congressional testimony, detailed biography (Mallaby), and his own memoirs provide unusually high-quality behavioral data.",
+    "dimensions": 62,
+    "vectors": [
+
+      {
+        "label": "inflation_sensitivity_primary",
+        "value": 0.88,
+        "evidence": "Greenspan's core identity was as an inflation hawk, inherited from Arthur Burns era failures and the Volcker disinflation he inherited. His 1994 pre-emptive tightening cycle (raised rates from 3% to 6% with inflation at only 2.7%) was a defining example: hiked aggressively against a non-existent inflation threat to prevent one from materializing. The 1994 campaign — 7 rate hikes in 12 months — was later praised as his best technical work. His 1996 'irrational exuberance' speech showed inflation vigilance extended to asset prices. However, his inflation sensitivity paradoxically declined after 2001 when he became willing to hold rates at 1% for 12 months despite housing price acceleration. Pre-2001 inflation sensitivity scores very high; post-2001 it was overridden by growth/deflation fear."
+      },
+      {
+        "label": "deflation_fear_post_2001",
+        "value": 0.89,
+        "evidence": "The 2001-2004 period was dominated by Greenspan's genuine fear of deflation Japanese-style, which became the primary driver overriding his normally high inflation sensitivity. With CPI at ~1.5-2.5%, he repeatedly cited the Japan 'lost decade' scenario as justification for holding the federal funds rate at 1%. At the Aug 2003 FOMC, with CPI at 2.1%, he still insisted on 'considerable period' language implying no near-term hikes. This deflation fear was specifically amplified by: (1) dot-com bust destroying $5T in wealth, (2) 9/11 shock uncertainty, (3) Bernanke's November 2002 'helicopter speech' confirming Fed had tools against deflation. The deflation fear overrode his instinctive inflation hawk tendencies during the most consequential policy error of his career."
+      },
+      {
+        "label": "greenspan_put_explicit_willingness",
+        "value": 0.91,
+        "evidence": "The 'Greenspan Put' — the market expectation that the Fed would cut rates aggressively to cushion any major financial market decline — was not an accident but a deliberate policy choice executed three times at scale: (1) 1987 Black Monday: within 24 hours issued single-sentence statement 'ready to serve as source of liquidity,' cut rates; (2) 1998 LTCM: three emergency cuts despite core economy healthy (unemployment 4.5%), signaling the 'put' applied to hedge fund failures; (3) 2001: 13 rate cuts from 6.5% to 1.75% in one year, more than any prior easing cycle. Each exercise of the 'put' validated market expectations for the next crisis. Greenspan was aware of the moral hazard but believed the stability benefits outweighed it."
+      },
+      {
+        "label": "deliberate_opacity_as_strategy",
+        "value": 0.95,
+        "evidence": "Greenspan famously said: 'If I seem unduly clear to you, you must have misunderstood what I said.' This was not modesty — opacity was a deliberate communication strategy. His logic: precise forward guidance would constrain the Fed's flexibility, while deliberate ambiguity allowed maximum policy maneuverability. FOMC statements under Greenspan were notoriously elliptical. Congressional testimony was parsed by markets like Kremlin-watching: whether he carried a briefcase (=news), whether he used 'may' vs 'might.' Compare to Bernanke/Yellen/Powell who all moved toward explicit forward guidance. Greenspan's opacity contrasts with every post-Greenspan Fed chair — it was personalized to his specific communication philosophy."
+      },
+      {
+        "label": "ayn_rand_libertarian_ideology",
+        "value": 0.75,
+        "evidence": "Greenspan was a member of Ayn Rand's inner 'Collective' circle in the 1950s-60s and wrote essays for her newsletter advocating gold standard and opposing bank regulation. He never formally renounced these views and testified in 2008 that he had found 'a flaw' in his ideology (that banks wouldn't self-regulate against self-interest) — the specific 'flaw' framing shows he still viewed it as a basically correct framework with one exception. His deregulatory stance on financial innovation (derivatives, mortgage securitization, ARMs) had direct intellectual roots in libertarian belief that markets self-correct. The ideology was a real behavioral parameter, not mere rhetoric, evidenced by his active opposition to regulating derivatives before the 2008 crisis."
+      },
+      {
+        "label": "financial_regulation_opposition",
+        "value": 0.82,
+        "evidence": "Greenspan's most consequential policy position beyond interest rates was his active opposition to financial regulation. In 1999, opposed Brooksley Born's CFTC proposal to regulate over-the-counter derivatives — testified to Congress that regulation would harm innovation and markets. In 2004, testified that adjustable-rate mortgages (ARMs) were beneficial for consumers, encouraging their adoption. In 1997, supported Gramm-Leach-Bliley Act repealing Glass-Steagall separation of commercial/investment banking. These were not passive positions — he actively used his Fed chairman authority and credibility to block regulation. His 2008 Congressional testimony admitting this was a 'flaw' confirmed the ideology-driven nature of these positions."
+      },
+      {
+        "label": "asset_bubble_tolerance_equity",
+        "value": 0.72,
+        "evidence": "Greenspan privately worried about equity bubbles (1996 'irrational exuberance' speech) but consistently decided not to act against them with monetary policy. His reasoning, publicly articulated: (1) impossible to identify a bubble in real time, (2) the cure (rate hikes) might be worse than the disease (the bubble itself), (3) better to 'mop up' after a bubble bursts than try to deflate it pre-emptively. He used this 'mop up' framework explicitly in speeches 1999-2005. The problem: the 2001-2003 'mopping up' created conditions for the next (housing) bubble, validating critics' argument that this was a recursive policy failure."
+      },
+      {
+        "label": "housing_bubble_recognition_failure",
+        "value": 0.15,
+        "evidence": "Low score = failed to recognize. Despite his mastery of economic data, Greenspan consistently denied a housing bubble was forming even as prices rose 40-60% above historical trend. June 2005 testimony: described housing price appreciation as a 'froth' in local markets, not a national bubble. His economic reasoning: housing markets are local, mortgages are fixed-rate (wrong — ARMs were proliferating, partly at his 2004 encouragement), financial innovation had distributed risk efficiently (wrong — CDO tranching was concentrating risk). This failure was not random noise — it was systematically produced by his ideological commitments to financial innovation and market self-correction."
+      },
+      {
+        "label": "financial_innovation_deference",
+        "value": 0.88,
+        "evidence": "Greenspan had near-absolute faith in financial innovation as welfare-improving. His reasoning: securitization disperses risk to those best able to bear it; derivatives allow precise risk management; 'originate and distribute' model is more efficient than 'originate and hold.' In Congressional testimonies 2001-2005, he repeatedly cited financial innovation as a stabilizing force. This deference was not ignorance — he had detailed technical knowledge of these instruments. It was ideological commitment to the proposition that market-created innovations outperform regulatory interventions. The 2008 crisis refuted this empirically; Greenspan acknowledged it in his October 2008 testimony."
+      },
+      {
+        "label": "pre_emptive_rate_action_willingness",
+        "value": 0.84,
+        "evidence": "Greenspan's signature technical achievement was pre-emptive monetary policy — acting against threats before they materialized. 1994: raised rates with inflation at 2.7% to prevent an inflation spike, triggering a bond market selloff but successfully containing the eventual price pressure. 1997-98: navigated Asian crisis and LTCM without US recession through calibrated pre-emptive cuts. 1999: raised rates pre-emptively against Y2K liquidity concerns, then cut them as Y2K proved non-event. His pre-emptive instinct was strongest in the 1990s and was part of what built his 'maestro' reputation. Post-2001, the instinct reversed: he became pre-emptive in the dovish direction, cutting aggressively before threats fully materialized."
+      },
+      {
+        "label": "data_mastery_obsession",
+        "value": 0.93,
+        "evidence": "Greenspan had a genuine and unusual mastery of granular economic data. He tracked railroad freight car loadings, commercial paper issuance, and dozens of obscure leading indicators from his consulting firm background. FOMC colleagues described him reading raw data series before committee meetings that others hadn't seen. His economic modeling was largely informal but impressionistic data synthesis — he integrated thousands of data points into narratives rather than formal econometric models. This mastery was real but also created overconfidence: the housing bubble data (rising ARMs, falling lending standards, accelerating prices) was visible in the data he monitored, which makes his failure to act more puzzling and more ideology-driven."
+      },
+      {
+        "label": "productivity_miracle_thesis_conviction",
+        "value": 0.87,
+        "evidence": "In 1994-2000, Greenspan developed a strong conviction that information technology was driving a permanent upshift in US productivity growth, justifying higher potential GDP growth and lower natural interest rates. This productivity thesis allowed him to permit the 1990s expansion to continue beyond what prior frameworks would have allowed (unemployment fell to 3.9% without triggering inflation). He was approximately correct in the 1990s — productivity did accelerate. But the thesis contributed to the dot-com bubble by validating extraordinary equity valuations ('new economy') and later contributed to the 'low neutral rate' view that justified holding rates at 1% post-2001."
+      },
+      {
+        "label": "crisis_response_decisiveness",
+        "value": 0.91,
+        "evidence": "In acute financial crises, Greenspan's decisiveness was remarkable and consistently exceeded what consensus would have supported. 1987 Black Monday: single-sentence statement issued before market open the next day, immediately communicated Fed backstop. 1997 Asian crisis: calibrated response, cut once pre-emptively when contagion risk elevated. 1998 LTCM: three consecutive cuts in September-November despite internal FOMC dissent. 2001: began cutting before January 31 FOMC meeting (emergency inter-meeting cut January 3), eventually cut 11 times. His crisis response instinct was almost purely Keynesian despite his libertarian ideology — when systemic risk appeared, he acted."
+      },
+      {
+        "label": "fed_independence_institutional_defense",
+        "value": 0.88,
+        "evidence": "Greenspan strongly defended Fed independence from political pressure across four presidential administrations (Reagan, Bush Sr., Clinton, Bush Jr.). He operated relatively comfortably with each president but consistently maintained the norm that Fed policy would not be subordinated to White House electoral interests. His relationship with Clinton was closest — they coordinated on budget deficit reduction (Clinton would cut the deficit, Greenspan would provide accommodative rates) — which some criticized as blurring the line. But he pushed back against Reagan-era pressure for easier policy and maintained hikes in 1994 despite Clinton White House discomfort. His Fed independence defense was behavioral, not just rhetorical."
+      },
+      {
+        "label": "relationship_with_presidents_management",
+        "value": 0.82,
+        "evidence": "Greenspan survived and thrived across four presidencies by maintaining personal relationships while defending institutional independence. Reagan: appointed him as conservative choice, relationship was formal. Bush Sr.: strained relationship — Bush blamed Greenspan's 1989-91 rate policy for the 1991 recession that cost him re-election ('I reappointed him and he killed me'). Clinton: warm relationship, coordinated on deficit-rate package. Bush Jr.: warm relationship in early years, mutual support for tax cuts (Greenspan controversially endorsed Bush tax cuts in 2001, for which he later expressed regret). His ability to manage political relationships while formally maintaining independence was a core skill."
+      },
+      {
+        "label": "relationship_with_treasury_secretary",
+        "value": 0.78,
+        "evidence": "Greenspan had variable but usually managed relationships with Treasury Secretaries. Baker: close coordination during 1987 crash (Baker's public pressure on Germany contributed to the crash; Greenspan had to manage aftermath). Brady: worked with to contain savings & loan crisis. Bentsen: initially tense (Clinton's first Treasury, 1994 rate hikes angered administration). Rubin: very close alignment — both were fiscal hawks, shared view that deficit reduction + tight monetary policy was the correct mix. Summers: similar to Rubin, close alignment. O'Neill/Snow: more distant under Bush. Paulson: only briefly overlapped."
+      },
+      {
+        "label": "ltcm_bailout_orchestration",
+        "value": 0.89,
+        "evidence": "Greenspan's handling of the LTCM near-collapse (September 1998) was a textbook example of his crisis management style. He orchestrated a private-sector bailout ($3.6B from 14 banks) coordinated through the New York Fed — not using public money but using Fed moral suasion to organize private creditors. Then cut rates three times (September 29, October 15 emergency inter-meeting, November 17) to stabilize broader financial markets. The combination of private sector bailout + monetary easing prevented systemic collapse without direct taxpayer funds. He was widely praised for this — but it also demonstrated that leveraged hedge funds could expect Fed backstop, reinforcing moral hazard."
+      },
+      {
+        "label": "interest_rate_path_inertia",
+        "value": 0.70,
+        "evidence": "Greenspan's rate cycles tended to be gradual and sequential — he rarely executed abrupt reversals. The 1994 cycle went up seven steps. The 1995 soft landing cut was cautious. The 1999-2000 tightening cycle was measured. The exception was the 2001 easing (11 cuts in one year) which was the most rapid since Volcker. He preferred to 'feel his way' along a policy path rather than commit to an endpoint. This inertia sometimes created problems: the January 1994 hike surprised markets badly (insufficient signaling), and the 2004 'measured' pace of hikes was too slow to prevent housing acceleration."
+      },
+      {
+        "label": "yield_curve_monitoring_attention",
+        "value": 0.77,
+        "evidence": "Greenspan tracked the yield curve carefully but interpreted it differently from his successors. He watched the 10-2 Treasury spread as a recession predictor. During 1994, the yield curve's reaction to his hikes was a key feedback variable. In 2005-2006, when the yield curve inverted (long rates falling despite Fed hikes), he described it as a 'conundrum' — global savings glut driving down long rates — rather than as a recession warning. His yield curve monitoring was real but his interpretation framework led him to discount the inversion signal that preceded the 2007-2009 recession."
+      },
+      {
+        "label": "unemployment_dual_mandate_weighting",
+        "value": 0.68,
+        "evidence": "Greenspan placed relatively less weight on the unemployment side of the dual mandate than his successors, though he monitored it closely. In the 1990s expansion, he allowed unemployment to fall to 3.9% (below most NAIRU estimates) without preemptive hikes because he believed productivity growth had shifted the natural rate lower. In 2001-2004, he was willing to hold rates near zero partly to address rising unemployment. However, his primary self-image was as an inflation guardian — unemployment featured in his decisions primarily as an indicator of economic slack (and thus inflation risk), not as a primary welfare metric."
+      },
+      {
+        "label": "nairu_uncertainty_flexibility",
+        "value": 0.82,
+        "evidence": "One of Greenspan's genuine intellectual contributions was his flexible approach to NAIRU (the Non-Accelerating Inflation Rate of Unemployment). While most Fed models in the mid-1990s assumed NAIRU was ~5.5-6%, Greenspan repeatedly pushed back against premature tightening when unemployment fell below those estimates without triggering inflation. He argued NAIRU was uncertain and possibly falling due to productivity improvements. This flexibility allowed the 1990s expansion to run longer than rule-based frameworks would have permitted, with better outcomes. His NAIRU flexibility was validated by the 1990s non-inflationary expansion."
+      },
+      {
+        "label": "irrational_exuberance_inaction_pattern",
+        "value": 0.85,
+        "evidence": "The 'irrational exuberance' episode (December 5, 1996 speech) illustrates a defining Greenspan pattern: he would identify a risk, publicly signal concern, then fail to act when action was required. The speech caused a brief global market sell-off (Tokyo down 3%, London down 4%, US equities down 2.3% next day), demonstrating markets respected his authority. But he then did nothing with interest rates to address the bubble concerns — no hikes for asset price reasons, no macro-prudential measures. The 1996 speech was followed by three more years of dot-com acceleration. His identification ability exceeded his intervention willingness by a wide margin."
+      },
+      {
+        "label": "congressional_testimony_communication_skill",
+        "value": 0.88,
+        "evidence": "Greenspan's semi-annual Humphrey-Hawkins testimonies were must-watch financial events. He was a master of saying nothing in the most elaborate possible way, or of burying the most important signal deep within dense economic language. Markets developed elaborate tea-leaf-reading industries around his word choices. He was also genuinely skilled at managing Congressional relationships — respectful of both parties, never politically partisan in testimony, willing to engage substantive economic debate. His communication skill was a core power source: he could simultaneously be opaque to markets (preserving flexibility) while maintaining Congressional credibility."
+      },
+      {
+        "label": "global_financial_contagion_sensitivity",
+        "value": 0.83,
+        "evidence": "Greenspan was notably attentive to international financial contagion effects on the US — more so than the formal Fed mandate required. 1994 Mexico Tequila Crisis: supported Clinton administration peso stabilization. 1997 Asia: monitored carefully, took pre-emptive action. 1998 Russia/LTCM: most aggressive intervention, despite Russia being small US trade partner (the contagion pathway was financial, not trade). His contagion sensitivity reflected understanding that modern financial markets transmitted risks through leverage and correlation, not just trade flows. This was ahead of most 1990s thinking."
+      },
+      {
+        "label": "y2k_liquidity_provision",
+        "value": 0.85,
+        "evidence": "Greenspan's pre-emptive approach to Y2K was a near-perfect example of his technical data-driven analysis. He estimated potential cash demand from Y2K fears, pre-positioned Fed lending facilities, and briefly tightened rates in mid-1999 to make room for subsequent easing. The result: Y2K caused minimal market disruption partly because the Fed had pre-staged liquidity. The Fed then smoothly removed the excess liquidity. This was a technically flawless monetary operation that got little credit because the problem it prevented was invisible — a good example of how his best work was often in crises that didn't happen."
+      },
+      {
+        "label": "arms_endorsement_2004",
+        "value": 0.80,
+        "evidence": "In February 2004 testimony, Greenspan explicitly stated that many homeowners 'would have saved tens of thousands of dollars in the last decade if they had taken out one-year adjustable-rate mortgages rather than 30-year fixed mortgages.' This was a direct public endorsement of ARMs at exactly the wrong moment — when housing prices were already accelerating and ARMs were being used to qualify buyers for loans they couldn't afford at fixed rates. He later expressed regret, but the testimony had real-world effects: ARM originations accelerated in 2004-2005. This is one of the clearest examples where his ideological confidence in financial innovation overrode analytic warning signals."
+      },
+      {
+        "label": "derivatives_regulation_opposition_strength",
+        "value": 0.87,
+        "evidence": "Greenspan's opposition to derivatives regulation was one of his most consequential positions. In 1998, CFTC Chair Brooksley Born proposed regulating OTC derivatives; Greenspan joined with Rubin and Summers to oppose her, testifying that derivatives markets functioned well and regulation would harm them. The President's Working Group on Financial Markets (1999) explicitly recommended against derivatives regulation. His reasoning was ideologically consistent: well-informed counterparties, bilateral contracts, markets self-regulating. The 2008 crisis demonstrated this was wrong — the notional $600T OTC derivatives market, largely unregulated, was a primary channel for systemic risk transmission."
+      },
+      {
+        "label": "bank_supervision_passivity",
+        "value": 0.75,
+        "evidence": "As Fed Chair, Greenspan had supervisory authority over bank holding companies and had a role in financial stability. He systematically underused this authority for macroprudential purposes, preferring monetary policy as the primary Fed tool. The Fed could have used supervisory guidance to tighten mortgage lending standards, require higher capital against mortgage-related assets, or restrict ARMs proliferation. Instead, the Fed under Greenspan issued guidance defending banks' ability to innovate. His passivity was not incompetence — it was ideology: markets allocate credit better than regulators."
+      },
+      {
+        "label": "consumer_credit_deregulation_support",
+        "value": 0.78,
+        "evidence": "Greenspan supported consumer credit deregulation throughout his tenure, consistent with his view that financial markets improve welfare through innovation and competition. He supported GLB Act (Gramm-Leach-Bliley) repealing Glass-Steagall. He supported expanding bank permissible activities. He was broadly supportive of predatory lending innovations as market-clearing mechanisms rather than exploitative practices. His support was not unconditional — he did raise some concerns about specific practices — but his net effect was to slow and frustrate regulation of an increasingly predatory consumer credit industry."
+      },
+      {
+        "label": "soft_landing_technical_skill",
+        "value": 0.93,
+        "evidence": "Greenspan's greatest technical achievement was the 1994-1998 'soft landing' period: raising rates in 1994 to pre-empt inflation (triggering a bond massacre but no recession), then navigating the Asian crisis and LTCM without causing a US recession. From 1991 to 2001, the US had its longest peacetime economic expansion (10 years). Unemployment fell from 7.8% to 3.9%. Inflation remained contained. This was genuine central banking skill and is why he was called 'maestro.' The failure mode was that success bred the confidence that led to the post-2001 policy error — the soft landing record made him more resistant to criticism of the low-rate era."
+      },
+      {
+        "label": "gold_standard_residual_attachment",
+        "value": 0.42,
+        "evidence": "Greenspan's 1966 essay 'Gold and Economic Freedom' was a strong defense of the gold standard as the only restraint on inflationary government. He never formally renounced this view and made occasional cryptic positive references to gold in Congressional testimony. However, his actual behavior as Fed Chairman was entirely consistent with discretionary fiat monetary policy — he never seriously advocated for gold or commodity anchors within the Fed. The residual attachment was more intellectual/nostalgic than behaviorally operational. Score reflects non-trivial ideological coloring without operational impact."
+      },
+      {
+        "label": "bipartisan_political_survival_skill",
+        "value": 0.91,
+        "evidence": "Greenspan served under four presidents of both parties and was reappointed by Clinton (a Democrat) despite being a Republican appointee. His political survival skill was extraordinary: he maintained personal relationships with Democratic and Republican Treasury Secretaries, consistently testified respectfully before Congress regardless of party control, and avoided publicly partisan positions (except the 2001 Bush tax cut endorsement which he later regretted as a political error). His annual reappointment would not have happened without bipartisan support — financial markets demanded stability, and Congress generally shared that preference."
+      },
+      {
+        "label": "2001_emergency_rate_cut_decisiveness",
+        "value": 0.94,
+        "evidence": "The 2001 easing cycle was Greenspan at his most decisive in response to compound shocks. Eleven rate cuts in 2001 alone (6.5% to 1.75%), the fastest easing since Volcker's period. The January 3 inter-meeting emergency cut preceded any scheduled FOMC meeting — a signal of extreme urgency. 9/11 triggered immediate liquidity provisions and an additional September 17 cut (first meeting after attack). By June 2003, the rate was 1% — below the inflation rate (negative real rates). The speed and depth were genuinely without modern precedent. The problem: the cuts were appropriate for the recession/deflation threat but stayed at emergency levels for too long (until 2004), planting the seeds of the housing bubble."
+      },
+      {
+        "label": "policy_error_acknowledgment_timing",
+        "value": 0.58,
+        "evidence": "Greenspan acknowledged his major policy error but only three years after leaving office. October 23, 2008 Congressional testimony: 'I found a flaw. I don't know how significant or permanent it is. But I've been very distressed by that fact.' The 'flaw' was his belief that banks' self-interest would protect shareholders from excessive risk — he discovered this was wrong. This acknowledgment was notable for a former Fed Chairman (most never do this publicly) but came far too late to be corrective. Score reflects genuine if delayed acknowledgment — he could have simply denied or obfuscated as many did."
+      },
+      {
+        "label": "taylor_rule_adherence",
+        "value": 0.51,
+        "evidence": "John Taylor's famous criticism: Greenspan's post-2001 rate policy deviated substantially from what the Taylor Rule would prescribe. By 2002-2003, the Taylor Rule implied rates of 3-4% while Greenspan kept rates at 1%. Greenspan was aware of the Taylor Rule and disagreed with it as a mechanical guide, preferring discretionary judgment. His defense: the Taylor Rule doesn't incorporate risk of deflation or non-linear economic dynamics. Whether the Taylor Rule deviation was right or wrong, Greenspan's adherence to it was clearly low — he trusted his own judgment over mechanical rules, which was sometimes correct (1990s) and sometimes catastrophically wrong (2001-2004)."
+      },
+      {
+        "label": "housing_market_data_attention",
+        "value": 0.68,
+        "evidence": "Despite his data obsession in other areas, Greenspan's monitoring of housing market data was selective. He tracked housing starts and residential investment as GDP components but did not apparently closely monitor: (1) loan-to-value ratios in new mortgages, (2) ARM issuance volumes and teaser-rate structures, (3) mortgage denial rates (falling rapidly), (4) housing price-to-rent or price-to-income ratios in specific metros. The data was available — Case-Shiller, HMDA, OCC lending surveys all showed warning signals by 2003-2005. His selective attention was not random; it was shaped by his ideology that market-provided mortgages were welfare-improving by definition."
+      },
+      {
+        "label": "market_expectations_management",
+        "value": 0.88,
+        "evidence": "Greenspan had a sophisticated understanding of how market expectations influenced monetary policy transmission. His opacity strategy was partly about preserving optionality by not anchoring expectations. His FOMC statements were carefully crafted to signal direction without committing to magnitude or timing. The 'measured pace' language in 2004 was an attempt to reassure markets that hikes would be gradual — this language was successful in containing financial market volatility during the tightening cycle. His expectations management was masterful in the 1990s and early 2000s but the 'measured pace' language may have also contributed to housing bubble by reassuring borrowers that rates would rise slowly."
+      },
+      {
+        "label": "external_expert_deference",
+        "value": 0.45,
+        "evidence": "Greenspan was not particularly deferential to outside economic opinion — he had a long career as an independent economic consultant and formed his own views. He was aware of academic research but synthesized it through his own framework. When prominent economists (Robert Shiller on housing, Raghuram Rajan on financial sector risk) raised concerns, Greenspan did not incorporate them into his framework in any visible way. This was partly a function of his confidence in his own data-reading approach. Score of 0.45 reflects genuine attention to external research without strong operational deference."
+      },
+      {
+        "label": "fiscal_policy_interaction_management",
+        "value": 0.79,
+        "evidence": "Greenspan had a sophisticated approach to monetary-fiscal interactions. His 1993 'deal' with Clinton: if Clinton would reduce the deficit, Greenspan would provide lower interest rates — a non-public but effective coordination. This was widely credited with setting up the 1990s expansion. His 2001 Bush tax cut endorsement broke this pattern and he later said it was a mistake — he endorsed them with insufficient conditions about fiscal responsibility. His testimony that the federal surplus should be returned to taxpayers (without adequate conditions) was used to justify tax cuts he didn't fully intend to endorse."
+      },
+      {
+        "label": "imf_coordination_willingness",
+        "value": 0.76,
+        "evidence": "Greenspan participated actively in G7/G8 central bank coordination and generally supported IMF crisis management, though with ideological tensions. He supported the 1994 Mexico rescue but believed excessive IMF involvement created moral hazard. During Asian crisis, he worked with Rubin/Summers to coordinate response. He supported IMF conditionality requirements (the austerity conditions attached to Asian bailout packages). His coordination willingness was genuine but filtered through skepticism about whether international institutions distorted market incentives."
+      },
+      {
+        "label": "dollar_reserve_currency_protection",
+        "value": 0.81,
+        "evidence": "Greenspan consistently prioritized maintaining the dollar's reserve currency status as a meta-objective. His policy decisions, especially during crises, incorporated concern about dollar stability — not just domestic price stability. The 1995 peso crisis response, the 1997-98 Asian crisis management, and the 2001 monetary easing all had elements of 'what will this do to dollar confidence' in their calculus. His comfort with large US current account deficits (running $500B+ by 2005) was partly justified on the grounds that the dollar's unique reserve status allowed this, though he acknowledged unsustainability."
+      },
+      {
+        "label": "risk_management_approach_insurance_model",
+        "value": 0.84,
+        "evidence": "Greenspan articulated a 'risk management' framework for monetary policy in his 2003 Jackson Hole speech: even if adverse scenarios have low probability, if the downside is catastrophic enough, the Fed should take out insurance against them. This framework justified the 2003 cut to 1% even with low probability of deflation — the deflation downside was severe enough that insurance was warranted. The framework is intellectually sophisticated but had a systematic bias: it was applied asymmetrically (always use insurance against downside) without considering that the insurance itself (low rates) was creating new risks (housing bubble)."
+      },
+      {
+        "label": "fomc_consensus_building",
+        "value": 0.79,
+        "evidence": "Greenspan was a skilled FOMC consensus builder but also dominated the committee in ways that may have suppressed dissent. Multiple FOMC members later described feeling reluctant to challenge Greenspan's framing. The committee had very few formal dissents under his chairmanship relative to later periods. He prepared carefully for meetings, had stronger data preparation than most members, and his track record of success made challengers reluctant. The FOMC transcripts show genuine discussion but also a clear Greenspan-dominance dynamic. This matters for behavior modeling: his decisions were formally collective but effectively his personal views implemented through skilled consensus management."
+      },
+      {
+        "label": "banking_sector_financial_stability_attention",
+        "value": 0.71,
+        "evidence": "Greenspan monitored banking sector health but his stability framework was narrow — he was primarily concerned about bank solvency through capital adequacy, not systemic risk through interconnectedness and leverage. He was satisfied when individual institutions appeared well-capitalized according to Basel standards. He did not develop a framework for how healthy-seeming institutions could collectively create systemic instability through correlated exposures (what we now call macroprudential risk). This gap was not unique to Greenspan — the entire regulatory framework of the era lacked it — but his deregulatory ideology actively opposed efforts to develop it."
+      },
+      {
+        "label": "media_management_crafted_mystique",
+        "value": 0.86,
+        "evidence": "Greenspan actively cultivated his public mystique as the 'maestro.' He worked with Bob Woodward on the 2000 biography 'Maestro,' a largely flattering portrait he clearly cooperated with. He managed relationships with influential journalists and financial writers. His personal habits (the briefcase watch, the early morning reading, the bathtub calculations) became legendary partly through cultivation. This image management served his policy goals: a Fed chairman perceived as omniscient commands more market credibility than one perceived as uncertain. The mystique was a genuine source of policy power that he understood and managed."
+      },
+      {
+        "label": "conference_speech_signaling_use",
+        "value": 0.80,
+        "evidence": "Greenspan used conference speeches (especially Jackson Hole) for major policy signaling. The 'irrational exuberance' speech (1996 AEI dinner) moved global markets. His 2003 Jackson Hole risk management speech articulated his deflation-fighting philosophy. The August FOMC meeting/Jackson Hole calendar intersection meant his annual keynote was particularly market-moving. He understood that formal speeches outside Congressional testimony could communicate policy direction with more nuance than FOMC statements, allowing him to test market reaction to ideas before formally committing."
+      },
+      {
+        "label": "supply_side_productivity_thesis",
+        "value": 0.85,
+        "evidence": "Greenspan's single most intellectually distinctive contribution was his mid-1990s argument that IT-driven productivity gains had shifted the US potential growth rate upward, reducing inflationary pressure at any given unemployment level. He began articulating this before mainstream economists accepted it, and the subsequent data (1994-2000 expansion without inflation) largely vindicated him. His productivity thesis was based on detailed tracking of capital expenditure data, particularly semiconductor price declines and IT investment rates. The thesis informed his willingness to let unemployment fall below 5% without hiking — a decision that was right in the 1990s."
+      },
+      {
+        "label": "personal_income_inequality_attention",
+        "value": 0.42,
+        "evidence": "Greenspan paid relatively little attention to income distribution as a monetary policy or economic welfare concern. His framework was primarily aggregate efficiency. He occasionally noted productivity benefits should be broadly distributed but made no specific policy proposals to ensure this. His financial innovation endorsements (credit cards, ARMs, consumer credit deregulation) arguably increased inequality by providing high-return credit products to wealthy borrowers and high-cost predatory products to low-income borrowers. His 2008 acknowledgment of a 'flaw' in his ideology did not extend to inequality dimensions."
+      },
+      {
+        "label": "global_savings_glut_framework_adoption",
+        "value": 0.79,
+        "evidence": "Greenspan adopted and promoted Ben Bernanke's 'global savings glut' hypothesis (2005) as an explanation for why long-term interest rates remained low despite Fed tightening — the so-called 'conundrum.' The framework: high savings in Asia/oil exporters were flowing into US Treasuries, suppressing long rates independent of Fed policy. This was a genuine economic force but Greenspan used it to partially excuse the Fed from responsibility for the low interest rate environment. The savings glut framework also implicitly reduced the urgency of regulating the domestic mortgage market, since the forces driving housing prices included global financial flows, not just Fed policy."
+      },
+      {
+        "label": "1987_crash_response_speed",
+        "value": 0.97,
+        "evidence": "Greenspan's handling of the October 19, 1987 Black Monday crash — his first major crisis, coming just two months into his tenure — was definitional. On the morning of October 20, before US markets opened, the Fed issued a single sentence: 'The Federal Reserve, consistent with its responsibilities as the Nation's central bank, affirmed today its readiness to serve as a source of liquidity to support the economic and financial system.' This statement, combined with direct calls to major bank CEOs encouraging them to continue making loans to securities firms, stopped the panic. Dow recovered 57% of its losses within two days. The speed and clarity (the only time Greenspan was ever maximally clear) was deliberate — crises required different communication than normal times."
+      },
+      {
+        "label": "interest_rate_cycle_duration_patience",
+        "value": 0.75,
+        "evidence": "Greenspan was generally patient in allowing rate cycles to run their course, not reversing prematurely. The 1994 tightening cycle ran 12 months despite political pressure. The 1999-2000 tightening ran 15 months. The 2001 easing cycle ran through 2003 (about 24 months to reach bottom). The exception was 1995: he cut rates in January 1995 before the full tightening effects had worked through, which was actually a masterful soft landing. His patience distinguished him from some predecessors who reversed too quickly."
+      },
+      {
+        "label": "committee_process_nominally_respected",
+        "value": 0.72,
+        "evidence": "Greenspan nominally followed FOMC committee process but in practice dominated it. He prepared the committee's briefing materials (through the Board Research staff), went around the table himself to gauge opinions before revealing his own, and rarely faced formal challenges. Multiple post-retirement accounts (by Blinder, Mishkin, Poole) described the dynamic as: committee discusses, Greenspan decides. He was not imperious or dismissive — he was skilled at incorporating others' views while reaching his pre-formed conclusions. The committee was a legitimizing body more than a co-equal decision-making body under his tenure."
+      },
+      {
+        "label": "financial_stability_vs_price_stability_trade_off",
+        "value": 0.65,
+        "evidence": "Greenspan's implicit framework assigned higher weight to financial stability than to strict price stability in acute crisis periods, but lower weight in normal periods. In 1998 (LTCM): cut rates even with inflation and unemployment in comfortable ranges, prioritizing financial stability. In 2001-2003: accepted deflation risk as justifying emergency rates even with housing prices accelerating (ignored the financial stability implications of the housing boom). His trade-off was not consistent — he prioritized financial stability when risks were acute and visible (1998) but failed to apply the same logic when risks were accumulating slowly (2002-2006)."
+      },
+      {
+        "label": "exit_strategy_rate_normalization",
+        "value": 0.63,
+        "evidence": "Greenspan's normalization of rates from 1% (June 2003) to 5.25% (June 2006) was done at a deliberately 'measured' pace — 17 consecutive 25bp hikes at every FOMC meeting. This predictability was intended to be market-friendly but critics (including Taylor) argued it was too slow and predictable, allowing housing speculation to continue. The 'measured pace' language from the June 2004 statement essentially pre-committed to slow, gradual hikes, which may have encouraged the very leverage it was meant to discourage. His exit strategy was technically smooth but arguably too telegraphed and too gradual."
+      },
+      {
+        "label": "former_consultant_quantitative_instinct",
+        "value": 0.85,
+        "evidence": "Greenspan's background as an independent economic consultant (Townsend-Greenspan, 1954-1987) gave him an unusually quantitative and data-specific frame relative to other Fed chairs. He tracked specific commodity prices, freight volumes, semiconductor production, and dozens of other leading indicators. This was not academic economics — it was applied business-cycle forecasting. His FOMC presentations were famously data-dense. The consultant background explained both his strengths (data synthesis) and some weaknesses (overconfidence in quantitative signals without structural understanding of incentive changes in the mortgage market)."
+      },
+      {
+        "label": "trade_policy_limited_role",
+        "value": 0.35,
+        "evidence": "As Fed chairman, Greenspan had limited formal role in trade policy but held consistent views: free trade was welfare-improving, trade deficits were not inherently concerning if offset by capital inflows, comparative advantage should operate. He testified against protectionist legislation when asked. His low score reflects that trade policy was simply not within his primary decision domain — he deferred to Treasury and USTR on trade while maintaining formal neutrality. His views on trade did influence his willingness to accept large current account deficits as sustainable under dollar reserve status."
+      },
+      {
+        "label": "intellectual_humility_public",
+        "value": 0.48,
+        "evidence": "Greenspan had limited public intellectual humility during his tenure — the maestro mystique required projecting confidence. He was rarely seen publicly revising his views or acknowledging uncertainty. However, the 2008 Congressional testimony was a genuine exception: his acknowledgment of a 'flaw' in his ideology was more explicit self-criticism than most central bankers ever offer. In private (per FOMC transcripts), he showed more genuine uncertainty than his public persona suggested. Score of 0.48 reflects the mismatch: publicly confident/opaque, privately more uncertain."
+      },
+      {
+        "label": "bank_mergers_consolidation_tolerance",
+        "value": 0.79,
+        "evidence": "Greenspan supported banking sector consolidation throughout his tenure, consistent with his view that competitive financial markets produce efficiency gains. The Fed under his leadership approved numerous large bank mergers (Citicorp-Travelers creating the original too-big-to-fail Citigroup; BankAmerica-NationsBank; JP Morgan-Bank One). He believed diversified, large financial institutions were more stable than concentrated savings-and-loans or specialized banks. This consolidation tolerance contributed to the 'too big to fail' dynamic that amplified the 2008 crisis."
+      },
+      {
+        "label": "academic_economic_modeling_skepticism",
+        "value": 0.73,
+        "evidence": "Despite his technical quantitative skills, Greenspan was skeptical of formal econometric models and academic economic theory as policy guides. He preferred his own data-synthesis approach to model-based policy rules. His disagreement with the Taylor Rule was explicit. He was skeptical of DSGE models (the mainstream academic macro models of his era) as too stylized to capture real-world dynamics. This skepticism was sometimes correct (1994 productivity thesis was ahead of academic models) and sometimes wrong (resisted academic work on behavioral finance showing markets weren't perfectly efficient, including Shiller's housing bubble warnings)."
+      },
+      {
+        "label": "geopolitical_economic_linkage",
+        "value": 0.72,
+        "evidence": "Greenspan incorporated geopolitical developments into his economic analysis more than his formal role required. 9/11 response was immediate and decisive. Gulf War 1991: monitored oil price spikes carefully and factored into policy. Asian currency crises: recognized as having political as well as economic dimensions. His memoirs discuss geopolitics extensively, especially energy security. However, his primary lens was always economic — geopolitical events mattered to him primarily as they affected economic variables (oil prices, capital flows, trade patterns) rather than as independent concerns."
+      },
+      {
+        "label": "energy_price_pass_through_sensitivity",
+        "value": 0.74,
+        "evidence": "Greenspan tracked energy prices carefully as inflation inputs and monitored pass-through to core inflation. In the 1990s, he benefited from oil price declines that provided disinflationary tailwind. The 1999-2001 oil price spike was factored into his rate decisions. He developed a framework distinguishing 'relative price changes' (oil spikes) from 'general price level changes' (inflation) — correctly arguing that transitory oil spikes shouldn't trigger tightening if second-round effects were contained. His energy price pass-through analysis was technically sophisticated but may have contributed to complacency about energy-driven inflation in 2004-2006."
+      },
+      {
+        "label": "information_fidelity_score",
+        "value": 0.87,
+        "evidence": "Unusually high for a historical leader: FOMC transcripts released with 5-year lag provide verbatim record. Congressional testimonies twice yearly for 18.5 years. Detailed authorized biography (Mallaby 'The Man Who Knew', 5 years of research). His own memoir ('Age of Turbulence'). Multiple FOMC colleague memoirs (Blinder, Mishkin) providing insider perspectives. The 2008 Congressional testimony on 'the flaw' provides explicit acknowledgment of his own reasoning errors. The main uncertainty is about the internal mental models and informal conversations not captured in transcripts."
+      }
+
+    ]
+  },
+  "red_lines": [
+    {
+      "id": "RL001",
+      "name": "financial_system_acute_seizure",
+      "condition": "Major financial institution failure threatening immediate systemic collapse (payment system, interbank lending seizing up)",
+      "forced_action": "immediate_liquidity_injection_and_rate_cuts_regardless_of_inflation",
+      "confidence": 0.97,
+      "evidence": "1987 Black Monday: within 24 hours, issued statement and flooded system with liquidity regardless of prior policy stance. 1998 LTCM: three emergency cuts despite healthy underlying economy and significant internal dissent. His actions in these crises were faster and more decisive than his normal deliberate style. Financial system seizure overrode all other considerations. He would accept any inflation risk rather than allow payment system failure.",
+      "priority": 1
+    },
+    {
+      "id": "RL002",
+      "name": "deflation_deflationary_spiral_risk",
+      "condition": "CPI falling toward zero or turning negative combined with economic contraction (Japan scenario)",
+      "forced_action": "sustained_emergency_low_rates_and_unconventional_measures_signaling",
+      "confidence": 0.91,
+      "evidence": "2001-2003: Held rates at 1% for 12 months despite housing price acceleration, explicitly citing deflation risk even with CPI at ~1.5-2.5%. His risk management framework (2003 Jackson Hole speech) formalized this: even low-probability catastrophic deflation justified 'insurance' rate cuts. The Japan 'lost decade' example was repeatedly cited in FOMC discussions as the nightmare scenario that justified crossing any normal threshold.",
+      "priority": 2
+    },
+    {
+      "id": "RL003",
+      "name": "dollar_reserve_status_acute_attack",
+      "condition": "Coordinated international selling of dollar assets threatening dollar's reserve currency status",
+      "forced_action": "coordinate_with_treasury_g7_intervention_rate_defense",
+      "confidence": 0.83,
+      "evidence": "While this scenario did not fully materialize during his tenure, his actions in the 1987 crash, 1995 peso crisis, and 1998 Asian crisis all incorporated dollar stability as a meta-objective alongside domestic mandates. His coordination with Rubin and G7 partners was specifically to prevent dollar reserve status erosion during emerging market crises.",
+      "priority": 3
+    },
+    {
+      "id": "RL004",
+      "name": "fed_political_capture",
+      "condition": "Attempt by political branch to formally direct monetary policy decisions",
+      "forced_action": "public_assertion_of_independence_congressional_testimony_defense",
+      "confidence": 0.88,
+      "evidence": "Greenspan resisted formal political pressure across four administrations. His 1989-91 rate policy endured Bush Sr. anger. He maintained 1994 hike cycle through Clinton administration discomfort. He would not cross into territory where political instructions were directly reflected in FOMC votes. His bipartisan political relationships were maintained specifically to preserve this independence — by being useful to all parties, he reduced the incentive for any to destroy Fed independence.",
+      "priority": 4
+    }
+  ],
+  "biographical_context": {
+    "birth_year": 1926,
+    "career_background": "economist_consultant_then_regulator",
+    "key_formative_experiences": [
+      "Arthur Burns mentorship (learned inflation-fighting from the Fed Chairman who failed at it during 1970s — negative lesson)",
+      "Ayn Rand inner circle membership 1950s-60s (libertarian ideology formation)",
+      "Townsend-Greenspan consulting firm 1954-1987 (data-driven practical forecasting mindset)",
+      "CEA Chairman under Ford 1974-77 (first government experience during stagflation era)",
+      "Inheriting the 1987 crash two months into tenure (defined his crisis response identity)"
+    ],
+    "decision_style": "data_synthesis_plus_ideological_filter_with_deliberate_opacity",
+    "information_fidelity": 0.87,
+    "tenure_start": "1987-08-11",
+    "tenure_end": "2006-01-31",
+    "tenure_years": 18.5
+  },
+  "simulation_notes": {
+    "backtesting_period": "1987-2006",
+    "critical_policy_errors_for_backtesting": [
+      "2001-2004 low rate era: rates held at 1% for 12 months despite housing acceleration",
+      "2004 ARM endorsement: public testimony encouraging ARMs adoption",
+      "1998-1999 derivatives opposition: blocked CFTC regulation that could have mitigated 2008",
+      "1996 irrational exuberance inaction: identified bubble, took no action"
+    ],
+    "key_policy_successes": [
+      "1987 crash response: textbook crisis management, 24-hour response",
+      "1994 pre-emptive tightening: controlled inflation before it started",
+      "1994-2000 soft landing: 10-year expansion, unemployment 3.9%, contained inflation",
+      "1998 LTCM: private-sector bailout + monetary easing, prevented systemic collapse",
+      "Y2K: pre-staged liquidity, smooth transition"
+    ],
+    "tda_backtesting_significance": "Greenspan's 18.5-year tenure covers four complete business cycles and three major financial crises, providing the richest behavioral dataset of any Fed chair. His policy decisions directly shaped the 1994-2000 expansion topology and the 2001-2006 housing bubble topology. The 'Greenspan Put' created a systematic asymmetry in market risk-taking that should appear as a topological feature (reduced volatility in expansions, amplified crises) in TDA analysis of this period."
+  }
+}

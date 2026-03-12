@@ -1,0 +1,291 @@
+{
+  "leader": "Barack Obama",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "Presidential term: Jan 20 2009 – Jan 20 2017 (two terms). Economic events: ARRA 2009 ($787B stimulus), ACA 2010, Dodd-Frank 2010, auto industry bailout, QE era coordination with Bernanke/Yellen, 2010 midterm losses, debt ceiling crises 2011/2013, fiscal cliff 2012, sequestration, Trans-Pacific Partnership (unsigned)",
+    "Foreign policy: Afghanistan surge and drawdown, Iraq withdrawal, Libya intervention, Arab Spring response, Iran nuclear deal (JCPOA 2015), Russia reset and failure, Syria red line retreat, pivot to Asia, Paris Climate Accord, Cuba normalization, TPP, bin Laden raid",
+    "Primary sources: Obama memoir 'A Promised Land' Vol 1 (2020), 'The Audacity of Hope' (2006), Obama White House Council of Economic Advisers annual reports 2009-2017, Timothy Geithner 'Stress Test' (2014), Ben Bernanke 'The Courage to Act' (2015), Jeh Johnson (DHS), Susan Rice 'Tough Love'",
+    "Background: Columbia University BA 1983 (political science/international relations), Harvard Law School JD 1991 (Law Review President), community organizer Chicago 1985-88, Illinois State Senate 1997-2004, US Senate 2005-2008, constitutional law lecturer University of Chicago",
+    "Key analytical sources: Bob Woodward 'Obama's Wars' (2010), Ryan Lizza New Yorker ('Leading from Behind' 2011), David Remnick 'The Bridge' (2010 biography), Ron Suskind 'Confidence Men' (2011, economic team dysfunction), Peter Baker 'Obama: The Call of History' (2017)"
+  ],
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector for Barack Obama, compiled from his full two-term presidency (Jan 2009 – Jan 2017). Obama's presidency can be divided into three phases: (1) GFC Crisis Management 2009-2010 — massive fiscal stimulus, auto bailout, financial re-regulation, heavily expert-driven; (2) Divided Government Fiscal Wars 2011-2014 — debt ceiling brinksmanship, sequestration, ACA implementation, constrained by Tea Party-driven House Republican opposition; (3) Geopolitical Reorientation 2013-2017 — Iran deal, Cuba, Paris Climate, TPP, pivot to Asia, managing Russia's Ukraine aggression. Defining characteristics: highly analytical/deliberative decision style, heavy expert reliance, aversion to 'stupid stuff' (actual policy doctrine), pragmatic liberal incrementalism over ideological purity, and a fundamental belief in the long-term arc of history bending toward progress. Information fidelity: 0.81 — detailed memoir, multiple cabinet member accounts, extensive press access, extensive record of public speeches and decisions.",
+    "dimensions": 40,
+    "vectors": [
+
+      {
+        "label": "analytical_deliberation_depth",
+        "value": 0.91,
+        "evidence": "Obama was the most analytically rigorous president of the modern era. His decision processes involved extensive written options papers, multiple briefings, devil's advocate positions, and genuine consideration of alternatives before deciding. National Security Council meetings under Obama were known for marathon deliberation sessions. On Afghanistan surge (2009): held 9 NSC meetings over 3 months, considered multiple options, pushed generals for alternatives to troop surge. On bin Laden raid: five separate meetings, demanded intelligence confidence levels, worked through multiple scenarios. His Law Review background (training in structured written argument) was operationally present in governance. Aides described him as the best-prepared person in most rooms."
+      },
+      {
+        "label": "expert_advisor_reliance",
+        "value": 0.89,
+        "evidence": "Obama assembled the most credentialed economic team in modern presidential history: Larry Summers (former Treasury Secretary, Harvard president), Tim Geithner (NY Fed President), Christina Romer (UC Berkeley economics professor), Peter Orszag (budget expert). He ran National Economic Council (Summers) and CEA (Romer) as genuine advisory bodies with real analytical input. His foreign policy team was similarly expert-heavy (Clinton, Gates, Donilon, Rice). The expert reliance was not pure deference — Obama pushed back, asked hard questions, and overrode his advisors notably on Libya and Syria. But his decision framework started with expert analysis rather than instinct."
+      },
+      {
+        "label": "stimulus_scale_deliberation_compromise",
+        "value": 0.68,
+        "evidence": "The ARRA stimulus size ($787B, ultimately revised from $800B) was a source of internal tension that illustrates Obama's decision style. Christina Romer initially estimated needed stimulus at $1.2T (for genuine gap-filling) but advisors (Summers) argued that number was politically unsalable. Obama signed at $787B — larger than Obama's advisors expected could pass, smaller than economists recommended. He later acknowledged (in his memoir) that the stimulus was probably too small. His willingness to accept a compromise rather than fight for the full economic need reflects his pragmatic incrementalism, which produced less-than-optimal economic recovery but avoided political failure."
+      },
+      {
+        "label": "financial_crisis_triage_prioritization",
+        "value": 0.82,
+        "evidence": "Obama's first-year economic agenda (stimulus + TARP continuation + stress tests + auto bailout + financial reform) represents the most compressed major economic legislative agenda since FDR. His triage ordering: stabilize the financial system first (inherited from Bush, continued through Geithner's stewardship), then stimulus, then structural reform (Dodd-Frank). This sequencing was deliberate and expert-recommended — Geithner argued that financial stability had to come before structural reform. Critics (progressive economists, Simon Johnson's 'Too Big to Fail' critique) argued Obama was too gentle with banks; defenders argued it preserved financial stability that allowed recovery."
+      },
+      {
+        "label": "auto_industry_bailout_support",
+        "value": 0.87,
+        "evidence": "Obama continued and completed Bush's auto industry bridge loans, and ultimately directed the managed bankruptcy of GM and Chrysler (March-June 2009). The government took 60% equity stake in GM. This was his most ideologically incongruous act — nationalizing major manufacturing companies — but he argued it was necessary to prevent millions of job losses. The intervention worked: GM repaid loans, employment recovered. Obama's decision was driven by: (1) economic analysis of job loss cascade, (2) midwest political importance (Ohio, Michigan), (3) long-term industrial policy instinct about maintaining manufacturing capacity. He later cited it as one of his best decisions."
+      },
+      {
+        "label": "dodd_frank_financial_regulation_priority",
+        "value": 0.78,
+        "evidence": "Dodd-Frank (July 2010) was Obama's financial regulatory achievement. Created FSOC (systemic risk council), CFPB (consumer protection bureau), Volcker Rule (proprietary trading limits), derivatives transparency requirements, orderly liquidation authority. Obama personally supported it but let Geithner and Congress (Frank, Dodd) drive the details. The legislation was weaker than progressive critics wanted (too-big-to-fail not directly addressed, Glass-Steagall not restored) but substantially stronger than the pre-crisis regulatory framework. His engagement style: set the broad architecture, delegate the legislative details, accept compromises to get it passed."
+      },
+      {
+        "label": "aca_healthcare_reform_persistence",
+        "value": 0.88,
+        "evidence": "The Affordable Care Act (March 2010) was Obama's signature domestic achievement and required sustained political will against intense opposition, Congressional complexity, and declining poll numbers. He spent political capital accumulated from the stimulus fight on ACA. His persistence was notable: when Scott Brown won Ted Kennedy's Massachusetts Senate seat in January 2010, most advisors counseled scaling back; Obama pushed forward with the full bill. The decision to persist over pragmatic retreat demonstrates his ideological commitment on healthcare was one of his highest-priority domestic objectives, outweighing short-term political considerations."
+      },
+      {
+        "label": "debt_ceiling_negotiation_pattern",
+        "value": 0.55,
+        "evidence": "Obama's debt ceiling negotiations (2011 especially) were widely criticized by his own side as revealing his negotiating weaknesses. He entered the 2011 negotiation willing to make significant entitlement cuts in exchange for revenue increases, but ultimately accepted the Budget Control Act with spending caps (sequestration) and no revenue increases — a pure Republican win by most analyses. His negotiating pattern: starts from a compromise position, moves further toward opponent, accepts worse-than-expected deal to avoid crisis. Progressive criticism: he never used the full leverage of his position. Obama's defense: governance requires functioning institutions; debt default would have been catastrophic. His negotiation style prioritized process stability over maximum outcome."
+      },
+      {
+        "label": "long_term_arc_of_history_conviction",
+        "value": 0.88,
+        "evidence": "'The arc of the moral universe is long, but it bends toward justice' (MLK quote Obama invoked repeatedly) was not just rhetoric — it was an operating framework. This conviction allowed Obama to accept short-term losses and incremental progress as consistent with a longer trajectory. ACA's imperfect passage was acceptable because it established the architecture that could be expanded later. DACA was an executive action when Congress refused to act — impermanent, but bending the arc. The long-arc framework also explains his restraint in crises: he didn't want to make permanent decisions that locked in bad paths, even when inaction was criticized. This is a key simulation parameter: his discount rate for immediate outcomes was lower than most politicians."
+      },
+      {
+        "label": "dont_do_stupid_stuff_risk_aversion",
+        "value": 0.84,
+        "evidence": "'Don't do stupid stuff' (the actual Obama foreign policy doctrine per Ben Rhodes) was a genuine decision filter, not just a sound bite. It reflected his learned reading of the Iraq disaster: the catastrophic outcome from the last administration was not from doing too little but from doing too much carelessly. This risk aversion produced the Syria red line retreat (2013 — drew a line, then didn't enforce it, trading credibility for avoiding a Libya repeat), the Libyan intervention (air-only, no ground troops, led 'from behind'), and the incremental Afghanistan surge paired with an exit timeline. Critics called it risk-averse; Obama called it avoiding repeating Bush's mistakes."
+      },
+      {
+        "label": "geopolitical_risk_aversion_military",
+        "value": 0.78,
+        "evidence": "Obama maintained high reluctance to use ground forces for sustained occupations, reflecting his direct exposure to the Iraq War as a defining political event (his anti-Iraq War Senate speech in 2002 launched his political career). His military interventions were characterized by: air power preference (Libya, Syria, drone campaigns), special operations preference (bin Laden raid, JSOC), and explicit exit timeline requirements (Afghanistan). He rejected the Afghanistan generals' request for 80,000 additional troops (chose 30,000). His restraint on Syria — refusing to escalate after chemical weapons use — was his most controversial expression of this risk aversion."
+      },
+      {
+        "label": "iran_deal_multilateral_strategy",
+        "value": 0.85,
+        "evidence": "JCPOA (July 2015) was Obama's signature foreign policy achievement and illustrated his preference for multilateral diplomatic frameworks over unilateral action or military options. The deal involved P5+1 (US, UK, France, Russia, China, Germany) — building genuine international coalition — and provided Iran with sanctions relief in exchange for verifiable nuclear limitations. His strategy: isolate Iran economically through multilateral sanctions, then offer a verifiable deal. He executed this over intense opposition (Netanyahu, Congressional Republicans, Saudi Arabia). The JCPOA is a clear example of his preference for durable multilateral frameworks over unilateral declarations."
+      },
+      {
+        "label": "pivot_to_asia_strategic_vision",
+        "value": 0.81,
+        "evidence": "The 'Pivot to Asia' (or 'Rebalance') announced in 2011 was Obama's most consequential strategic shift and a direct precursor to US-China competition of the 2020s. Key elements: TPP (trade architecture excluding China), enhanced defense relationships with Australia, South Korea, Japan, Philippines, Vietnam, and redeployment of military assets toward Pacific. The pivot reflected Obama's long-term strategic view that the 21st century's defining rivalry would be US-China in the Asia-Pacific, not US vs. Middle East terrorism. His framing was not confrontational — 'hedging' not 'containment' — but the structural logic was containment. TPP's failure (Congressional opposition, then Trump withdrawal) undermined the economic pillar."
+      },
+      {
+        "label": "russia_reset_reassessment",
+        "value": 0.60,
+        "evidence": "The 'Russia Reset' (2009-2012) attempted to engage Russia as a strategic partner, producing New START Treaty and Russian cooperation on Iran sanctions. The reset failed as Putin returned to the presidency (2012) and Russia reversed its cooperative stance. Obama's Ukraine response (2014 Crimea annexation) was restrained by European allies' reluctance to impose strong sanctions and his own 'don't do stupid stuff' doctrine. His Russia policy evolved: from reset optimism, through reassessment, to defensive posture after Ukraine. The evolution shows genuine learning but critics argued the restrained Ukraine response emboldened Russia for further aggression. Score reflects a real policy that partially worked (New START) and partially failed (Ukraine deterrence)."
+      },
+      {
+        "label": "fiscal_stimulus_economic_multiplier_belief",
+        "value": 0.79,
+        "evidence": "Obama genuinely believed in Keynesian fiscal multipliers — that government spending in recessions produces more than $1 in output per $1 spent. His economic advisors (Romer, Bernstein) provided multiplier estimates that justified ARRA's scale. He maintained this belief through the sequestration cuts (2013), arguing publicly that premature austerity would damage recovery. His opposition to Republican deficit-cutting during a weak recovery was consistent with mainstream macro economics of the era. This belief shaped his willingness to run large deficits in 2009-2010 and his resistance to austerity in 2011-2013."
+      },
+      {
+        "label": "income_inequality_attention",
+        "value": 0.76,
+        "evidence": "Inequality was a genuine Obama concern that increasingly shaped his rhetoric if not always his policy. His 2013 speech calling inequality 'the defining challenge of our time.' ACA subsidies were explicitly progressive (lower-income Americans benefited disproportionately). Dodd-Frank's CFPB protected lower-income consumers. His tax policy (extended Bush cuts for income <$250K, raised top rate to 39.6% in fiscal cliff deal) was the first income tax increase on the wealthy in 20 years. The Gini coefficient rose throughout his presidency despite his rhetoric, partly due to structural factors and partly because his financial crisis response (QE, bank stabilization) disproportionately benefited asset owners."
+      },
+      {
+        "label": "bipartisan_negotiation_attempts",
+        "value": 0.65,
+        "evidence": "Obama consistently attempted bipartisan cooperation beyond what critics thought justified. The ACA included Republican-origin ideas (mandate from Heritage Foundation, state exchanges from Romney's Massachusetts plan). The 2011 debt ceiling Grand Bargain attempt with Boehner was willing to accept $4T in deficit reduction including Social Security/Medicare adjustments — further than most Democrats wanted. Multiple invitations to Republicans for policy development (health care summits) were accepted and then treated as partisan exercises by Republicans. Obama's bipartisan attempts reflected both genuine conviction and a strategic miscalculation: he believed compromising would produce Republican cooperation; instead it often produced more aggressive demands."
+      },
+      {
+        "label": "climate_change_policy_priority",
+        "value": 0.82,
+        "evidence": "Climate change was Obama's signature domestic-international policy priority in his second term. Paris Climate Accord (2015): led the negotiation of the most significant global climate agreement since Kyoto. Clean Power Plan (EPA, 2015): domestic regulatory implementation, eventually blocked by courts. EPA greenhouse gas regulations under Clean Air Act authority. His climate engagement was genuine and long-term oriented — he explicitly invoked his children and grandchildren as the framework for the long-arc thinking. The Paris Accord was negotiated specifically as an executive agreement (not treaty) to avoid Senate ratification, which proved prescient when Trump withdrew, but also legally fragile."
+      },
+      {
+        "label": "executive_action_when_congress_blocked",
+        "value": 0.78,
+        "evidence": "Obama's second-term strategy after the 2010 and 2014 midterm losses was to use executive action for policy where Congress blocked legislation. DACA (Deferred Action for Childhood Arrivals, 2012): immigration relief for 800,000 Dreamers by executive order when DREAM Act failed. DAPA: similar expansion attempted and blocked by courts. EPA Clean Power Plan: regulatory action without legislation. Keystone XL pipeline rejection: executive authority. Obama was aware of the limits and legal challenges but used executive power more aggressively than any recent Democratic president, explicitly because Republican congressional obstruction made legislation impossible."
+      },
+      {
+        "label": "drone_warfare_approval_rate",
+        "value": 0.82,
+        "evidence": "Obama significantly expanded the US drone strike program relative to Bush's era. Strikes in Pakistan, Yemen, Somalia increased substantially. The 'disposition matrix' formalized the process for targeting decisions. He personally reviewed high-value targeting decisions on 'Terror Tuesday' White House meetings. His engagement with drone warfare was direct and deliberate — he believed precision strikes were more ethically defensible than alternatives (ground invasions, conventional bombing) while acknowledging civilian casualties were a profound moral cost. His decision to personally review targeting reflected both his legal/ethical seriousness and his willingness to own the decision rather than delegate it completely."
+      },
+      {
+        "label": "bin_laden_raid_decision_independence",
+        "value": 0.89,
+        "evidence": "The bin Laden raid (May 1-2, 2011) was Obama's highest-confidence independent decision. He approved the SEAL raid over the preferences of some advisors who wanted missile strike (less intelligence-gathering potential) or nothing (uncertain intelligence). His decision process: received intelligence, tested confidence levels, modeled scenarios, made independent judgment to authorize. Vice President Biden and Secretary Gates recommended against; Obama overrode them. The raid's success was contingent on multiple uncertain factors — it was genuinely a calculated risk Obama chose to take. This decision demonstrates he could be decisive and independent when he chose to be, contrasting with his more deliberate style in other domains."
+      },
+      {
+        "label": "financial_sector_regulatory_toughness",
+        "value": 0.60,
+        "evidence": "Obama was less tough on financial sector accountability than his progressive base wanted. His administration chose not to prosecute senior financial executives for the 2008 crisis (DOJ cited legal complexity, though critics argued political will was lacking). TARP repayment became a success narrative that reduced pressure for accountability. The Volcker Rule (proprietary trading limits) was included in Dodd-Frank but was watered down in implementation. His attorney general (Holder) later described financial institutions as 'too big to jail.' The gap between Obama's rhetoric about Wall Street accountability and his actual prosecution record was a major source of progressive disillusionment."
+      },
+      {
+        "label": "tpp_trade_policy_engagement",
+        "value": 0.79,
+        "evidence": "Trans-Pacific Partnership was Obama's most significant trade initiative and a central element of his Asia Pivot. The TPP covered 12 Pacific Rim countries (40% of global GDP) and was designed to set trade rules in the Asia-Pacific, implicitly excluding China and creating a US-led economic architecture. Obama pushed it despite opposition from his own Democratic base (unions, progressives) and eventually it never received Congressional vote (died in lame-duck 2016 when Trump election made it politically impossible). His TPP engagement demonstrates: (1) genuine strategic thinking about Asia-Pacific architecture, (2) willingness to fight his own party on trade, (3) pragmatic realpolitik — trade rules as strategic tool, not pure economic welfare maximization."
+      },
+      {
+        "label": "pragmatic_liberal_incrementalism",
+        "value": 0.87,
+        "evidence": "Obama's core governing philosophy was pragmatic liberal incrementalism — accepting partial progress over perfect outcomes, working within existing institutions rather than revolutionary change, and building durable foundations for future expansion. ACA was explicitly designed as a 'bridge' to eventual single-payer (he acknowledged this was his personal preference). Dodd-Frank was a foundation for potentially stronger regulation. Paris Agreement set a framework for more ambitious targets. His incrementalism frustrated the left (who wanted more) and confused the right (who saw it as ideological). His own framing: 'I'd rather have half a loaf than no bread, because half a loaf feeds people and gives you the base to get more later.'"
+      },
+      {
+        "label": "qe_coordination_bernanke_yellen",
+        "value": 0.72,
+        "evidence": "Obama's relationship with the Federal Reserve was the most cooperative of any modern president in terms of policy coordination, while formally respecting Fed independence. His reappointment of Bernanke (January 2010) was a deliberate choice to maintain crisis management continuity. His appointment of Yellen (2013) was broadly seen as preferring the most dovish qualified candidate. He never publicly pressured the Fed but his public statements were consistently supportive of the Fed's QE programs (QE1, QE2, QE3) as complements to his fiscal stimulus. The zero interest rate environment was consistent with his expansionary fiscal policy in a way that served both actors' goals."
+      },
+      {
+        "label": "congressional_deal_making_first_term",
+        "value": 0.74,
+        "evidence": "Obama's first two years (with Democratic House and Senate supermajority until January 2010) produced the most consequential legislative agenda since LBJ: ARRA, ACA, Dodd-Frank, CARD Act, Lily Ledbetter Act. The legislation was genuine and substantial. His Congressional relations were handled primarily by Rahm Emanuel (Chief of Staff) and Joe Biden. Obama's personal engagement style — formal, not transactional — contrasted with LBJ's legendary arm-twisting. He was less effective at personal persuasion but better at setting the analytical framework for complex legislation."
+      },
+      {
+        "label": "post_2010_gridlock_management",
+        "value": 0.57,
+        "evidence": "After the 2010 midterm election (Tea Party wave gave Republicans the House), Obama's legislative capacity was severely constrained. His management of divided government produced mixed results: fiscal cliff deal (Jan 2013) raised top income tax rate — a genuine policy win. But debt ceiling confrontations (2011, 2013) produced cuts without adequate policy wins. Budget sequestration (2013) was a self-inflicted wound from the 2011 Budget Control Act. His second-term legislative record was largely executive-action-driven. His inability to break the gridlock was both a structural constraint (Republican obstruction) and a personal limitation (not an LBJ-style legislative whisperer)."
+      },
+      {
+        "label": "climate_and_energy_long_term_view",
+        "value": 0.83,
+        "evidence": "Obama's climate policy was explicitly framed around long-term economic and security consequences, not short-term costs. He described climate change as 'the greatest threat to future generations' — a framing that prioritized long-term consequences over near-term economic disruption. His willingness to accept near-term energy price effects (clean energy regulations, no Keystone XL) in service of long-term decarbonization trajectory is consistent with his low discount rate for future outcomes. The Paris Agreement's non-binding structure was a pragmatic compromise — better to have 190 countries in a framework than 40 countries in an ironclad treaty."
+      },
+      {
+        "label": "cuba_normalization_pragmatism",
+        "value": 0.80,
+        "evidence": "Obama's normalization of relations with Cuba (December 2014) was a pragmatic decision that overrode 50+ years of domestic political taboo. His reasoning: the embargo had failed to achieve its objective (regime change) while isolating the US from Latin American partners who found the Cuba policy an obstacle to cooperation. The normalization was executed through executive action (bypassing the embargo legislation, which only Congress can lift) in coordination with Pope Francis and Canadian diplomatic back-channels. This demonstrates his willingness to override legacy constraints when the empirical case for failure was clear — a pattern consistent with his analytical style."
+      },
+      {
+        "label": "domestic_surveillance_expansion_continuation",
+        "value": 0.61,
+        "evidence": "Obama continued and in some ways expanded Bush-era surveillance authorities despite his civil liberties background and campaign promises to reform them. NSA bulk metadata collection (exposed by Snowden 2013) continued under Obama. His initial response to the Snowden revelations was defensive. The USA FREEDOM Act (2015) made modest reforms but did not eliminate bulk collection. His continuity on surveillance reflected: (1) post-9/11 security bureaucracy inertia, (2) genuine intelligence value arguments from DNI/NSA, (3) legal authorization from FISA court. Obama found it harder to restrain the surveillance state than he expected — a common finding for presidents who learn the scope of these programs only after taking office."
+      },
+      {
+        "label": "wall_street_executive_prosecution_restraint",
+        "value": 0.28,
+        "evidence": "Low score = failed to prosecute financial sector misconduct. Obama's DOJ did not criminally prosecute a single senior Wall Street executive for the conduct that caused the 2008 financial crisis. DOJ reached large civil settlements (Bank of America $17B, JPMorgan $13B) without criminal accountability. Eric Holder's 'too big to jail' comment crystallized the critique. The prosecutorial restraint was partly legal (securities fraud requires intent, which is hard to prove for complex instruments), partly political (financial sector was a major Democratic donor class), and partly pragmatic (prosecutions could destabilize already-fragile institutions). This restraint created lasting progressive disillusionment that shaped the Sanders 2016 challenge."
+      },
+      {
+        "label": "measured_speech_communication_style",
+        "value": 0.91,
+        "evidence": "Obama's communication style was distinctive: precise, measured, legally-trained, capable of holding complexity ('there are those who say X, and there are those who say Y, but the truth is...'). His speeches were drafted carefully, often showing his own hand in edits. He used conditional language extensively — 'I believe that,' 'it seems to me that' — that reflected genuine epistemic humility while frustrating supporters who wanted declarative statements. His best speeches (Philadelphia race speech 2008, Charleston eulogy 2015, Cairo speech 2009) were genuinely significant rhetorical achievements. His legal precision sometimes made him sound detached in crisis moments — contrasting with the emotional directness voters wanted from leaders in emergencies (Katrina critique applied to him too in some moments)."
+      },
+      {
+        "label": "gfc_recovery_speed_expectations",
+        "value": 0.65,
+        "evidence": "Obama's economic team (Romer, Bernstein) projected faster recovery from the GFC than occurred, with the infamous 'unemployment won't exceed 8%' forecast (it reached 10%). The forecasting error had lasting political consequences — it set expectations his stimulus package failed to meet, undermining political support for additional stimulus that economists argued was needed. The forecasting failure was partly honest (GFC was more severe than estimated, financial crisis recoveries are historically slower) and partly driven by the political requirement to justify the stimulus scale with optimistic projections. The mismatch between projections and outcomes shaped the political environment through 2010."
+      },
+      {
+        "label": "multilateral_institution_preference",
+        "value": 0.86,
+        "evidence": "Obama consistently preferred multilateral institutions and frameworks over unilateral action. Iran deal: P5+1 structure. Paris Climate: UNFCCC process. Asia Pivot: bilateral partnerships + TPP multilateral trade architecture. Libya: UN authorization + NATO command structure. Syria: sought UN authorization (blocked by Russia). His preference for multilateral frameworks was both ideological (legitimacy requires international consensus) and strategic (sharing burden, maintaining alliances). The contrast with Bush's 'coalition of the willing' approach to Iraq was explicit and intentional. His multilateralism was occasionally limiting (Syria UN veto prevented action he might otherwise have taken) but produced more durable outcomes where it succeeded."
+      },
+      {
+        "label": "deficit_reduction_second_term_priority",
+        "value": 0.64,
+        "evidence": "In his second term, Obama shifted rhetoric toward deficit reduction while maintaining that premature austerity would harm recovery. The 2013 sequestration (though a failure of his negotiating strategy) did reduce discretionary spending. His 'balanced approach' framework (spending cuts + tax revenue increases) was the basis for multiple failed Grand Bargain attempts. By 2014-2016, deficits had fallen significantly ($455B in 2013 to $439B in 2015) driven by economic recovery and automatic stabilizer reversal. His deficit position was more fiscally centrist than his base wanted — willing to accept entitlement modifications if paired with revenue increases."
+      },
+      {
+        "label": "race_and_politics_navigating_constraints",
+        "value": 0.75,
+        "evidence": "Obama's approach to racial politics was carefully constrained by his calculation that being too explicitly focused on race would reduce his ability to govern effectively. He governed as president 'of all Americans,' avoiding racialized framing of economic issues even when racial disparities were stark. He intervened more directly on race in his second term (Trayvon Martin, Ferguson, Charleston) but the interventions were carefully measured. His Philadelphia race speech (2008 campaign) was the most explicit engagement with systemic racism in a major political speech in decades. His restraint frustrated Black progressives who wanted more explicit policy focus, while his Obama-specific approach produced backlash from white conservatives."
+      },
+      {
+        "label": "technology_innovation_policy_enthusiasm",
+        "value": 0.77,
+        "evidence": "Obama was more enthusiastic about technology and innovation as economic policy tools than most presidents of his era. Tech company CEOs were frequent White House visitors. His economic recovery narrative was partially built around 'jobs of the future' in clean energy and technology. He launched 'Advanced Manufacturing Partnerships' and 'Made in America' manufacturing revival initiatives. His relationship with Silicon Valley was warmer than any prior president. However, his tech enthusiasm also delayed his engagement with technology's distributional effects (automation, gig economy, platform monopolies) — he was quicker to celebrate tech growth than to address its disruptions to workers."
+      },
+      {
+        "label": "moderate_republican_engagement",
+        "value": 0.62,
+        "evidence": "Obama repeatedly sought and failed to find Republican partners for bipartisan legislation, which shaped his perception of the possible. The ACA's absence of Republican votes (despite incorporating Republican ideas) was partly because McConnell decided from day one that Republican opposition to Obama was the optimal electoral strategy. The failed Grand Bargain negotiations with Boehner (2011) showed Obama was willing to offer entitlement cuts for revenue, but Boehner couldn't hold his conference. By 2013-2014, Obama had largely given up on Republican engagement on major legislation, which shifted him toward executive action. His engagement attempts were genuine; their failure was partly his negotiating limitations and partly structural Republican obstruction."
+      },
+      {
+        "label": "legacy_institution_building",
+        "value": 0.83,
+        "evidence": "Obama was explicitly conscious of institutional legacy in a way that shaped his policy choices. ACA was designed to create enough economic stakeholders (insurance companies, hospital systems, beneficiaries) that it would be difficult to repeal. Paris Agreement architecture embedded the US in international commitments that would be costly to exit. The CFPB was designed with an independent funding mechanism (Fed Board of Governors) to make it harder to defund. His legacy-building instinct led him to prefer creating durable institutions over achieving maximum immediate impact, consistent with his incremental long-term framework."
+      },
+      {
+        "label": "information_fidelity_score",
+        "value": 0.81,
+        "evidence": "Strong documentation: Obama's own memoir (two volumes, covers 2009-2011 in detail), multiple cabinet member accounts (Geithner, Bernanke, Biden, Rice), extensive press access (more than Bush but less than Clinton), and substantial academic literature. The main gap is Obama's internal deliberative process on foreign policy decisions (Syria, drone targeting) where some details remain classified. His legal training produced extensive written records of his thinking. The 'Audacity of Hope' (2006) provides a pre-presidential intellectual baseline for comparison with actual behavior."
+      }
+
+    ]
+  },
+  "red_lines": [
+    {
+      "id": "RL001",
+      "name": "financial_system_acute_collapse",
+      "condition": "Imminent collapse of major financial institution(s) with systemic contagion risk",
+      "forced_action": "authorize_emergency_government_intervention_regardless_of_scale",
+      "confidence": 0.91,
+      "evidence": "Obama inherited and completed the TARP program, authorized GM/Chrysler nationalization, and consistently backed Fed emergency facilities. His pattern: when expert consensus (Geithner, Bernanke) presented credible systemic collapse scenarios, he authorized intervention at the scale required. His decision framework separated 'I wish the world were different' from 'I must act given the world as it is' — allowing ideologically incongruous actions when expert evidence demanded it.",
+      "priority": 1
+    },
+    {
+      "id": "RL002",
+      "name": "wmd_attack_on_american_allies",
+      "condition": "Chemical, biological, or nuclear weapon used against US allies or US territory",
+      "forced_action": "military_response_authorization",
+      "confidence": 0.80,
+      "evidence": "Obama drew a 'red line' on Syrian chemical weapons use (August 2012) and then declined to enforce it (September 2013) — suggesting this red line was softer than stated. However, his response to more direct threats (bin Laden, ISIS) was forceful. His WMD red line was real but required combination: clear use + attributable to state actor + viable military response that didn't trigger worse outcome. The Syria retreat was driven by his 'don't do stupid stuff' filter overriding the red line, suggesting competing red lines with different priorities.",
+      "priority": 2
+    },
+    {
+      "id": "RL003",
+      "name": "aca_existential_legal_threat",
+      "condition": "Supreme Court ruling that would destroy the ACA's core mechanisms",
+      "forced_action": "immediate_executive_action_and_legislative_priority_reallocation",
+      "confidence": 0.85,
+      "evidence": "ACA survived two existential Supreme Court cases (2012 NFIB, 2015 King v Burwell). Obama's response to the legal challenges was to make their defeat a top political priority and to publicly argue the cases' merits. His ACA defense was one of his most passionate second-term commitments — he would have used all available executive and political resources to preserve it.",
+      "priority": 3
+    },
+    {
+      "id": "RL004",
+      "name": "nuclear_escalation_risk",
+      "condition": "Risk of nuclear weapon use by any actor in any conflict",
+      "forced_action": "immediate_de_escalation_prioritization_over_all_other_geopolitical_objectives",
+      "confidence": 0.93,
+      "evidence": "Obama's Prague speech (2009) committing to nuclear weapons reduction was a genuine policy commitment, not rhetoric. His response to nuclear escalation risks would override his normal risk aversion — the long-arc-of-history framework requires avoiding catastrophic irreversible events. His nuclear security summit series (4 summits, 2010-2016) demonstrated sustained engagement with nuclear risk reduction as a priority.",
+      "priority": 4
+    }
+  ],
+  "biographical_context": {
+    "birth_year": 1961,
+    "career_background": "community_organizer_constitutional_law_professor_state_senate_us_senate",
+    "key_formative_experiences": [
+      "Hawaii and Indonesia multicultural childhood (shaped cosmopolitan worldview, comfort with ambiguity of identity)",
+      "Community organizing in Chicago South Side 1985-88 (learned limits of bottom-up change, shaped institutional reform instinct)",
+      "Harvard Law Review President (trained in structured written analysis, consensus-building within adversarial framework)",
+      "Anti-Iraq War speech 2002 Illinois Senate (defined his foreign policy identity, launched his national career)",
+      "2008 financial crisis as Senator and President-elect (first presidential decision was to manage a crisis he didn't create)"
+    ],
+    "decision_style": "analytical_deliberation_with_expert_synthesis_and_incremental_pragmatism",
+    "information_fidelity": 0.81,
+    "tenure_start": "2009-01-20",
+    "tenure_end": "2017-01-20",
+    "tenure_years": 8
+  },
+  "simulation_notes": {
+    "backtesting_period": "2009-2017",
+    "three_phase_model": {
+      "phase_1_gfc_triage": "2009-2010 — ARRA, auto bailout, Dodd-Frank, ACA. Democratic supermajority. Maximum legislative output. Expert-driven economic policy.",
+      "phase_2_divided_government": "2011-2014 — debt ceiling crises, sequestration, ACA implementation. Republican House from 2011. Constrained legislative capacity. Shift to executive action.",
+      "phase_3_geopolitical_legacy": "2015-2017 — Iran deal, Paris Climate, Cuba, TPP (failed). QE tapering/end under Yellen. Lame duck constraints."
+    },
+    "key_economic_events_for_tda": [
+      "2009 GFC trough and ARRA stimulus deployment",
+      "2010-2012 slow recovery period (housing price stabilization)",
+      "2011 debt ceiling crisis and S&P US credit downgrade",
+      "2013 'Taper Tantrum' — Bernanke QE taper signal causes emerging market volatility",
+      "2014-2016 oil price collapse ($100 → $30) — shaped global economic environment"
+    ],
+    "delegation_model_note": "Obama's economic decisions should model the Geithner/Summers/Bernanke-Yellen axis as primary technical decision-makers, with Obama providing political authorization and broad parameters. His geopolitical decisions (Iran deal, Asia Pivot, Syria) were more personally driven. ACA and climate were his highest personal engagement.",
+    "tda_backtesting_significance": "Obama's presidency covers the GFC recovery period and the QE era — the most extraordinary monetary policy experiment in modern history. The combination of near-zero rates + quantitative easing + weak fiscal recovery created unusual topological conditions in financial markets (asset price inflation without economic inflation). His regulatory legacy (Dodd-Frank) changed the structural topology of the banking sector, reducing some systemic risks while creating others."
+  }
+}

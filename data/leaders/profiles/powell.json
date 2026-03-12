@@ -1,0 +1,832 @@
+{
+  "leader": "Jerome Powell",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "powell_decisions.json: 33 FOMC decisions 2022-2026 (2022-01-26 through 2026-01-28)"
+  ],
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector compiled from 33 FOMC decisions spanning Jan 2022 – Jan 2026. Covers full tightening cycle (0.08% → 5.50%), plateau, and partial easing cycle (5.50% → 3.50%). Includes periods of extreme inflation, banking crisis, two presidential elections, and unprecedented political pressure from a sitting president.",
+    "dimensions": 140,
+    "vectors": [
+
+      {
+        "label": "inflation_sensitivity_headline_cpi",
+        "value": 0.92,
+        "evidence": "CPI at 7.0% (Jan 2022) triggered immediate hawkish pivot even before hiking. At 8.3% (May 2022) triggered 50bp. At 8.6% (Jun 2022) caused emergency abandonment of prior 50bp pledge and switch to 75bp. At 9.1% (Jul 2022) sustained 75bp. CPI decline from 9.1% to 3.0% (Jul 2023) drove pause and eventual pivot. CPI re-acceleration to 3.5-3.7% in 2024 consistently delayed cuts. Inflation is the single highest-weight variable in Powell's function."
+      },
+      {
+        "label": "inflation_sensitivity_core_vs_headline",
+        "value": 0.78,
+        "evidence": "Powell explicitly watched core PCE as primary metric but headline CPI dominated communication. In Sep 2022, core CPI re-accelerated to 6.3% (released Sept 13) was the trigger for 75bp despite headline also at 8.3%. In 2024, core PCE staying above 3% was cited as primary reason for not cutting. Core PCE falling to 2.6-2.7% in late 2024 enabled the easing cycle. Slightly less sensitive to headline than core, but both are high."
+      },
+      {
+        "label": "inflation_sensitivity_expectations",
+        "value": 0.85,
+        "evidence": "In Jun 2022, Powell explicitly stated University of Michigan inflation expectations data 'caught our attention' — this was the specific trigger for abandoning 50bp guidance and jumping to 75bp. Inflation expectations data can override other signals and cause discontinuous behavioral jumps. This is a non-linear sensitivity with high threshold effects."
+      },
+      {
+        "label": "inflation_2pct_target_commitment",
+        "value": 0.88,
+        "evidence": "Powell maintained hold/hawkish stance in 2025-2026 with CPI at 2.7-3.0% and unemployment rising to 4.4%, demonstrating willingness to accept growth cost. Only cut when labor market deterioration became meaningful. Did not declare victory prematurely despite enormous political and market pressure. Still noting inflation 'somewhat elevated' at 2.7% as late as Jan 2026."
+      },
+      {
+        "label": "cpi_threshold_for_75bp_hike",
+        "value": 0.862,
+        "evidence": "75bp hikes triggered when CPI was: 8.6% (Jun), 9.1% (Jul), 8.3% (Sep), 8.2% (Nov) 2022. The 75bp threshold appeared around CPI > 8.3-8.6%. The Sep 2022 case is notable: CPI had declined to 8.3% from 9.1% peak but core CPI re-accelerated — suggesting 75bp trigger is driven by core/trend more than instantaneous headline level."
+      },
+      {
+        "label": "cpi_threshold_for_rate_hike_initiation",
+        "value": 0.79,
+        "evidence": "Held at ZLB with CPI at 7.0% (Jan 2022) — still signaled but did not hike. First hike at CPI 7.9% (Mar 2022). This suggests Powell's actual hike initiation threshold is in the 7.5-8% range once forward guidance has been set. The Jan 2022 hold despite 7% CPI reflects completion of guidance cycle before action."
+      },
+      {
+        "label": "cpi_threshold_for_pause_consideration",
+        "value": 0.69,
+        "evidence": "First pause signal when CPI declined to ~7.1% (Dec 2022: step-down from 75 to 50bp). Active pause began at CPI 4.0% (Jun 2023). 'Disinflation' language at CPI 6.4% (Feb 2023). Final hike cycle end at CPI 3.0% (Jul 2023). The effective pivot-to-pause range was 3-4% on headline CPI, which is still materially above the 2% target — Powell does not require target achievement to pause."
+      },
+      {
+        "label": "cpi_threshold_for_rate_cut_initiation",
+        "value": 0.61,
+        "evidence": "First cut at CPI 2.5% (Sep 2024). Powell had been holding since Jul 2023 at CPI ranging 3.0-3.7%. Cut required both: (1) CPI approaching 2.5% and (2) meaningful labor market deterioration (unemployment 4.2%). The joint condition is key — neither alone was sufficient. CPI alone at 3.0% was not enough to cut even with unemployment rising."
+      },
+      {
+        "label": "unemployment_sensitivity",
+        "value": 0.72,
+        "evidence": "Unemployment was less decisive than inflation in the tightening phase — Powell hiked aggressively with unemployment at 3.4-3.9% (tight labor market accepted as beneficial). In the easing phase, unemployment rising to 4.2% (Sep 2024) was the joint trigger for the first cut alongside falling inflation. The Sahm Rule being triggered (unemployment at 4.3% in Aug 2024) may have influenced the 50bp choice. Powell cited 'labor market risk' explicitly for the 50bp decision. Unemployment has asymmetric impact: tight market → lower weight; rising market → higher weight."
+      },
+      {
+        "label": "unemployment_threshold_for_cut_consideration",
+        "value": 0.67,
+        "evidence": "Unemployment 4.0% (Jun 2024) was crossing from low to elevated — Powell noted it in statement. Unemployment 4.2% (Sep 2024) triggered 50bp cut. Unemployment 4.3% (Jul 2024, Sahm Rule) accelerated dovish language in July meeting. The effective cut-consideration threshold appears to be around 4.0-4.2% — crossing this level shifts Fed's reaction function toward easing IF inflation is also declining."
+      },
+      {
+        "label": "unemployment_sahm_rule_sensitivity",
+        "value": 0.68,
+        "evidence": "The Sahm Rule being triggered by the Aug 2 jobs report (unemployment 4.3%, Jun 2024) may have contributed to the 50bp choice rather than 25bp in September. Powell's July 2024 pre-commitment to September cut came before the Sahm Rule trigger, but the jump to 50bp likely incorporated it. However, Powell did not explicitly invoke Sahm Rule in communications — he mentioned 'labor market risk' and 'recalibration'."
+      },
+      {
+        "label": "gdp_growth_sensitivity",
+        "value": 0.52,
+        "evidence": "GDP growth had surprisingly little direct impact on decisions. Hiked aggressively through two negative GDP quarters in 2022 (technical recession). Hiked through GDP 2.0% in 2023. Held when Q1 2025 printed -0.3% (tariff-distorted). GDP only influenced decisions indirectly through its effect on the inflation/employment outlook. Powell explicitly dismissed the 2022 technical recession as 'not really a recession' given labor market strength."
+      },
+      {
+        "label": "gdp_negative_growth_tolerance",
+        "value": 0.71,
+        "evidence": "Hiked through Q1 and Q2 2022 negative GDP (-1.6%, -0.6%). Held in May 2025 when Q1 2025 printed -0.3%. Powell treated negative GDP as non-decisive if: (1) the cause was transitory/distorted (imports surge in Q1 2025), or (2) labor market remained healthy. This demonstrates willingness to accept technical recession to fight inflation — high tolerance for negative growth in inflation-fighting mode."
+      },
+      {
+        "label": "financial_conditions_tightening_as_substitute",
+        "value": 0.65,
+        "evidence": "Nov 2023: Powell explicitly noted 'tighter financial conditions' from the bond market selloff (10-year yield hitting 5%) was 'doing some of the Fed's work' — this language directly contributed to the pivot away from further hikes. The Fed acknowledged that market-driven tightening can substitute for Fed rate hikes, reducing pressure to hike further. This is a notable non-linearity: external tightening → lower probability of Fed hike."
+      },
+      {
+        "label": "market_crash_response_speed",
+        "value": 0.55,
+        "evidence": "S&P falling 18.5% YoY by June 2022: did not prevent 75bp hike. S&P falling 15% in April 2025 ('Liberation Day' turmoil): held steady. SVB collapse: hiked anyway (25bp, Mar 2023). First Republic failure: hiked anyway (25bp, May 2023). HOWEVER: S&P falling in early 2022 did contribute to hawkish pivot timing. Market crashes alone do not drive decisions — only if combined with financial stability risk or growth risk."
+      },
+      {
+        "label": "financial_stability_concern",
+        "value": 0.68,
+        "evidence": "SVB crisis (Mar 2023): Deployed BTFP facility immediately but still hiked 25bp. Language changed to 'some additional firming may be appropriate' (from 'ongoing increases appropriate') — showing inflation still dominated. First Republic failure (May 2023): hiked to peak. 10-year yield at 5% (Nov 2023): Powell used it as justification to pause further hikes. Financial stability ranks below inflation in priority but is not ignored — it can provide justification for decisions already leaning in an easing direction."
+      },
+      {
+        "label": "gradualism_preference_hiking_phase",
+        "value": 0.58,
+        "evidence": "Gradualism was the default but was overridden by extreme inflation data: Started at 25bp (Mar 2022), stepped up to 50bp (May 2022), then 75bp (Jun 2022) when CPI shocked higher. Four consecutive 75bp hikes — this was very non-gradual. HOWEVER, the step-down path was gradual: 75→50→25bp. Powell also explicitly ruled out 75bp in May 2022 only to reverse within weeks — showing that extreme data can overcome gradualism preference."
+      },
+      {
+        "label": "gradualism_preference_easing_phase",
+        "value": 0.82,
+        "evidence": "Easing phase showed strong gradualism: 50bp jumbo cut (Sep 2024) described as 'recalibration,' then reverted to 25bp cadence for all subsequent cuts. Powell resisted market pressure for more aggressive cutting. In Dec 2025, even with 3-dissent vote wanting to hold, still cut 25bp rather than 50bp. The easing phase gradualism is higher than tightening phase — Powell is more cautious when loosening."
+      },
+      {
+        "label": "front_loading_preference_inflation_regime",
+        "value": 0.76,
+        "evidence": "Four consecutive 75bp hikes in 2022 demonstrated willingness to front-load when inflation was running very hot. The Sep 2024 50bp cut was also described as 'front-loading' to 'recalibrate' to labor market risk. Powell explicitly used 'front-load' language in the Sep 2024 context. However, front-loading only occurs under specific high-urgency conditions — it is not the default approach."
+      },
+      {
+        "label": "data_dependency_weight",
+        "value": 0.88,
+        "evidence": "Used 'data dependent' or 'data-dependent approach' language in virtually every decision from 2023 onward. In Jan 2024, pushed back on March cut because data (CPI ticking up, strong GDP) did not support it. In May 2024, cited 'lack of further progress' — exact data language. In Jul 2025, non-committal on September cut as 'dependent on incoming data.' Data dependency is the core behavioral signature of Powell's communicative style."
+      },
+      {
+        "label": "forward_guidance_commitment_strength",
+        "value": 0.62,
+        "evidence": "Powell violated explicit forward guidance twice: (1) May 2022: ruled out 75bp, then delivered 75bp at June meeting after CPI shock. (2) Sep 2023: dot plot showed one more hike in 2023, then never executed it. This shows forward guidance is conditional rather than binding — extreme data can override commitments. However, Powell does honor guidance when conditions don't change dramatically."
+      },
+      {
+        "label": "forward_guidance_violation_threshold",
+        "value": 0.85,
+        "evidence": "The CPI shock needed to override forward guidance was substantial: the May 2022 guidance violation was triggered by a single CPI print (8.6% vs expected 8.3%) that was materially worse than forecast. The magnitude of surprise, not just the level, seems critical for guidance violations. A 0.3% upside surprise in CPI at already-high levels was sufficient to break the 50bp guidance given in May 2022."
+      },
+      {
+        "label": "dot_plot_as_credible_signal",
+        "value": 0.68,
+        "evidence": "Dot plots were used to provide hawkish shocks (Sep 2022: raised terminal to 4.6%; Dec 2022: raised to 5.1%; Dec 2024: cut 2025 forecast to 2 cuts; Dec 2025: cut 2026 forecast to 1 cut) and dovish signals (Dec 2023: 3 cuts for 2024). However, the Jun 2023 dot plot showed 2 more hikes that never materialized. Dot plots are more reliable when hawkish (Fed tends to over-deliver on hikes) than dovish."
+      },
+      {
+        "label": "pre_commitment_to_next_meeting",
+        "value": 0.52,
+        "evidence": "Notable pre-commitments: Jul 2024 press conference stated cut 'could be on the table as soon as next meeting' — this was honored. Jan 2024 explicitly ruled out March cut — this was honored. Jun 2022 pre-commitment to 50bp was violated by emergency 75bp. Pre-commitments to pause are more reliable than pre-commitments to continue hiking, reflecting asymmetric commitment credibility."
+      },
+      {
+        "label": "political_pressure_resistance_trump",
+        "value": 0.88,
+        "evidence": "Trump repeatedly demanded lower rates and threatened to fire Powell (2025). Powell's responses: (1) Jan 2025: Held rates and stated Fed 'doesn't need to be in a hurry' without naming Trump. (2) May 2025: Held during 'Liberation Day' market turmoil and Trump's 'FIRE Powell' threats. (3) Nov 2024: Dismissed interference questions: 'Not something we think about or discuss.' (4) Stated explicitly would not resign if asked. Zero observable behavioral response to Trump pressure — if anything, political attacks may have reinforced Powell's hawkish/neutral stance as a credibility signal."
+      },
+      {
+        "label": "political_pressure_resistance_biden_democrats",
+        "value": 0.79,
+        "evidence": "Biden administration pressure (2022-2023): Inflation was a political liability for Democrats, creating pressure to act. Powell did hike aggressively — but this aligned with economic fundamentals, so pressure alignment makes resistance unmeasurable. However, the delay in hiking (Jan 2022 hold at 7% CPI) despite pressure may reflect caution about political optics of acting too close to midterm pressure buildup. The 2024 election timing: explicitly mentioned that it didn't affect June 2024 hold decision."
+      },
+      {
+        "label": "political_cycle_sensitivity_election_proximity",
+        "value": 0.22,
+        "evidence": "Elections had minimal observable impact on decisions. Sep 2024 cut at 7-week-to-election proximity was the boldest politically — critics called it election interference. But data fully justified the cut: CPI at 2.5%, unemployment at 4.2%. Nov 2022 75bp hike was 6 days before midterms — no hesitation. Nov 2024 cut was 2 days after Trump's election — data-driven, not politically motivated. Powell appears to weight institutional independence extremely highly, suppressing political cycle effects."
+      },
+      {
+        "label": "institutional_independence_defense",
+        "value": 0.95,
+        "evidence": "Highest single-dimension score. Powell's institutional defense behaviors: (1) Hiked despite political opposition. (2) Explicitly stated Fed independence multiple times under Trump pressure. (3) Said he would not resign if asked. (4) Courts denied Trump's attempted firing. (5) All independence-relevant press conference answers showed zero waffling. (6) The Nov 2024 statement 'not something we think about or discuss' when asked about Trump pressure is the clearest possible signal of institutional prioritization."
+      },
+      {
+        "label": "fed_chair_authority_within_fomc",
+        "value": 0.78,
+        "evidence": "Unanimous votes dominated through most of 2022-2023 (extremely rare in the 75bp era). Dissents appeared primarily during turning points: Mar 2022 (Bullard wanted 50bp), Sep 2024 (Bowman wanted 25bp), Dec 2024 (Hammack wanted hold), Dec 2025 (Hammack/Waller/Miran wanted hold), Jan 2026 (Miran/Waller wanted cut). Powell managed to maintain unanimity through the most aggressive hiking cycle in 40 years — suggesting very high chairmanship authority and consensus-building skill."
+      },
+      {
+        "label": "dissent_management_hawkish_dissenters",
+        "value": 0.72,
+        "evidence": "Bullard dissented for 50bp in March 2022 (Powell had consensus for 25bp). Within 2 months, Powell had moved to 50bp and then 75bp — absorbing the hawkish dissent into consensus. The hawkish dissenters' views were eventually adopted. This suggests Powell manages hawkish dissent by absorbing it gradually rather than suppressing it."
+      },
+      {
+        "label": "dissent_management_dovish_dissenters",
+        "value": 0.65,
+        "evidence": "Bowman's Sep 2024 dissent (wanted 25bp not 50bp) was the most prominent governor dissent since 2005. Powell continued with 25bp cadence in subsequent cuts, which validated Bowman's position retrospectively. Dec 2025 3-way dissent (Hammack/Waller/Miran wanting hold) was the most since 2022 — Powell proceeded with the cut but signaled the slowdown in pace through the hawkish dot plot, partially accommodating dissenters."
+      },
+      {
+        "label": "consensus_building_before_action",
+        "value": 0.82,
+        "evidence": "Before each major policy shift, Powell prepared the ground: (1) Jan 2022: forward guidance pivot before Mar hike. (2) Dec 2022: 50bp step-down after pre-announced 'pace slowing.' (3) Jul 2024: pre-committed to Sep cut. (4) Dec 2023: dovish pivot with full dot plot before any actual cut. The pattern is: communicate → prepare market → execute. Surprises to the downside are rare; Powell strongly prefers telegraphed moves."
+      },
+      {
+        "label": "surprise_tolerance_in_communications",
+        "value": 0.28,
+        "evidence": "Powell consistently avoids communication surprises. When forced to surprise (Jun 2022 75bp after 50bp guidance), he immediately cited the extraordinary data justification. The Jun 2022 case is the clearest 'communication surprise' in the dataset and it was driven by external data shock, not a preference change. The market always knows where the Fed is going: Powell's communication style strongly favors predictability."
+      },
+      {
+        "label": "jackson_hole_pre_commitment_usage",
+        "value": 0.78,
+        "evidence": "Two major Jackson Hole pre-commitments: (1) Aug 2022: 'Pain' speech — pre-committed to aggressive tightening, dampening September expectations of a pivot. Delivered 75bp as promised. (2) Aug 2024: 'Time has come for policy to adjust' — pre-committed to September cut. Delivered 50bp. Jackson Hole is used as a signaling channel when Powell wants to make an unusually strong commitment that requires more time to prepare markets than the 6-week FOMC cycle allows."
+      },
+      {
+        "label": "language_ambiguity_preference",
+        "value": 0.55,
+        "evidence": "Powell uses ambiguity strategically: 'we may be at or near the point' (May 2023), 'some additional firming may be appropriate' (Mar 2023), 'wait and see' (2025). But he also uses unusually direct language at key pivots: 'I don't think it's likely that we will reach a level of confidence by March' (Jan 2024 ruling out March cut), 'time has come for policy to adjust' (Aug 2024). Ambiguity is the default; clarity is deployed for pivots. A 0.55 reflects this intermediate position."
+      },
+      {
+        "label": "market_expectation_anchoring_weight",
+        "value": 0.72,
+        "evidence": "Powell frequently manages market expectations actively: Jan 2024 press conference explicitly ruled out March cut when market was pricing 50% probability. Dec 2023 dovish pivot validated market's cut expectations to maintain credibility. May 2023 statement changes were designed to prevent market from pricing in rate hikes resuming. The pattern: when market expectations diverge too far from Fed intentions, Powell corrects them explicitly rather than letting markets remain mispriced."
+      },
+      {
+        "label": "market_rally_tolerance_when_premature",
+        "value": 0.35,
+        "evidence": "When markets rallied prematurely on dovish interpretations, Powell pushed back: Jan 2024 press conference (pushed back on March cut probability), Sep 2022 continued hiking despite market rallies, Dec 2022 hawkish dot plot dampened year-end rally. Powell has demonstrated willingness to cold-water premature market rallies. Dec 2023 is an exception — he allowed the 'Fed pivot' rally by validating dovish dot plot, perhaps because the timing was appropriate."
+      },
+      {
+        "label": "oil_price_sensitivity",
+        "value": 0.48,
+        "evidence": "Oil prices featured prominently in context but rarely dominated decisions. Oil >$100 in Mar-May 2022 contributed to inflation urgency. Oil falling to $71 (Dec 2022) contributed to the inflation peak narrative. Sep 2023 CPI re-acceleration partly attributed to oil rising toward $95 — triggered hawkish hold. Oil falling to $58-68 in 2025 partly enabled easing cycle. Oil is a secondary input — it matters through its inflation channel, not as an independent variable."
+      },
+      {
+        "label": "dollar_strength_sensitivity",
+        "value": 0.38,
+        "evidence": "USD at 20-year highs (DXY 111-112) in Sep-Nov 2022 was noted as creating global currency crises (UK pound crash, Japan intervention) but did not visibly alter Fed decisions. Powell did not cut because of dollar strength even when it was causing global distress. Dollar strength is essentially ignored as a domestic policy input — consistent with Fed's domestic mandate focus."
+      },
+      {
+        "label": "geopolitical_shock_sensitivity",
+        "value": 0.35,
+        "evidence": "Ukraine invasion (Feb 2022): Did not change the hiking path — started +25bp as planned. Israel-Gaza war (Oct 2023): Cited only through oil price uncertainty. US-Israel attack on Iran nuclear facilities (Jun 2025): Mentioned in context but no decision impact. April 2025 tariff shock: Held, not cut. Geopolitical events affect decisions only if they materially alter the inflation/growth outlook — not as independent inputs."
+      },
+      {
+        "label": "tariff_inflation_vs_growth_tradeoff_weight",
+        "value": 0.62,
+        "evidence": "2025 tariff crisis was the most complex Powell environment: tariffs = inflation risk + growth headwind simultaneously. Powell's response: hold and 'wait and see' — he refused to preemptively cut (growth risk) or hike (inflation risk). The May 2025 decision with Q1 GDP at -0.3% and Liberation Day tariffs is the clearest example: held firm, citing 'difficult tradeoffs.' This is textbook stagflation handling: freeze and gather data rather than act on one side."
+      },
+      {
+        "label": "stagflation_handling",
+        "value": 0.68,
+        "evidence": "When facing stagflation risk (2025: GDP slowing, inflation elevated from tariffs), Powell chose data-gathering over action. He explicitly acknowledged 'elevated uncertainty' and 'difficult tradeoffs' but did not preemptively respond to either side. The 9-month hold from Dec 2024 to Sep 2025 (through the tariff crisis period) demonstrates his preference for inaction when facing conflicting inflation-growth signals. He eventually cut only when labor market deterioration became undeniable."
+      },
+      {
+        "label": "qe_qt_balance_sheet_sensitivity",
+        "value": 0.65,
+        "evidence": "QT was announced simultaneously with rate hikes (May 2022) at $47.5B/month, rising to $95B/month. In May 2024, Powell slowed QT pace (Treasury cap: $60B → $25B/month) — a mini-easing signal during a hold period. Balance sheet is used as a secondary tool but moves more gradually than rates. The QT slowdown in May 2024 was a way of providing modest accommodation when rates couldn't be cut yet — showing balance sheet flexibility."
+      },
+      {
+        "label": "risk_of_doing_too_little_vs_too_much",
+        "value": 0.72,
+        "evidence": "Powell's stated fear was 'doing too little' on inflation — explicitly referencing 1970s Fed credibility loss. This asymmetric fear was evident in: accepting technical recession to fight inflation, hiking through banking crisis (SVB), maintaining high rates through market turmoil. In the easing phase, the 50bp cut in Sep 2024 suggests recalibration of this asymmetry — when labor market at risk, fear of doing too little on labor side activates. Overall: anti-inflation asymmetry in tightening phase, more balanced in easing phase."
+      },
+      {
+        "label": "1970s_mistake_avoidance_weight",
+        "value": 0.85,
+        "evidence": "Multiple references to learning from the 1970s: Jackson Hole 2022 'pain' speech directly invoked Volcker. The Jackson Hole 2022 speech was explicitly about not repeating the 1970s premature pivot mistake. This framing dominated the 2022-2023 tightening philosophy. Even in 2025, when Trump pressure was intense, the 1970s credibility loss framework likely reinforced Powell's resistance to political interference."
+      },
+      {
+        "label": "soft_landing_aspiration",
+        "value": 0.72,
+        "evidence": "Powell's press conferences consistently expressed hope for soft landing rather than recession. The Jul 2023 language ('proceeding carefully') and the eventual avoidance of recession in 2023 despite aggressive tightening reflects both skill and some luck. The Sep 2024 50bp cut framed as 'sign of strength not panic' was explicitly soft-landing framing. Powell visibly invested in the soft-landing narrative — it influenced his communication even when data was mixed."
+      },
+      {
+        "label": "recession_risk_acceptance_for_inflation_control",
+        "value": 0.75,
+        "evidence": "Explicitly accepted 'some pain' language (Jackson Hole 2022). Hiked through two negative GDP quarters. This is the clearest evidence of recession risk acceptance. HOWEVER, Powell consistently tried to minimize recession risk through communication (soft landing narrative) — suggesting he accepts recession as a possible outcome but does not prefer it. He tolerated it rather than pursued it."
+      },
+      {
+        "label": "unanimous_vote_preference",
+        "value": 0.82,
+        "evidence": "Unanimous votes dominated the 2022-2024 period, even for the most aggressive actions (four 75bp hikes all unanimous). The effort to maintain unanimity is evident in Powell's consensus-building approach. Dissents appeared at transition points where the right decision was genuinely ambiguous. This suggests Powell strongly prefers unanimity and works to achieve it, but does not sacrifice optimal policy to obtain it."
+      },
+      {
+        "label": "hawkish_dissent_accommodation_tendency",
+        "value": 0.65,
+        "evidence": "Mar 2022: Bullard dissented for 50bp, got it 2 meetings later. Sep 2022-Nov 2022: Market-implied terminal rate pressure validated the higher dots. Generally, hawkish dissenters' views get absorbed into consensus more quickly than dovish dissenters' views, consistent with Powell's anti-inflation asymmetry."
+      },
+      {
+        "label": "dovish_dissent_accommodation_tendency",
+        "value": 0.48,
+        "evidence": "Bowman's Sep 2024 dovish dissent (25bp not 50bp) was not immediately accommodated but proved prescient — subsequent cuts were all 25bp. Dec 2025 3-way dissent (wanting hold) was partially accommodated by the hawkish dot plot showing only 1 cut in 2026. Dovish dissenters get accommodated more slowly than hawkish ones, through pace signaling rather than immediate capitulation."
+      },
+      {
+        "label": "press_conference_hawkish_surprise_tendency",
+        "value": 0.62,
+        "evidence": "Numerous cases where press conferences were more hawkish than statements: Nov 2022 (market rallied on statement language, fell after press conference). May 2023 (market expected clearer pause signal). Jan 2024 (explicitly ruled out March cut). The press conference is Powell's primary tool for course-correcting market expectations — and he tends to use it hawkishly more than dovishly."
+      },
+      {
+        "label": "press_conference_dovish_surprise_tendency",
+        "value": 0.38,
+        "evidence": "Fewer dovish press conference surprises. Jul 2024 ('cut on table as soon as September') was the clearest dovish press conference surprise — and it was a carefully planned pivot, not an unforced dovish slip. Feb 2023 'disinflation process has started' was also a dovish surprise. These were intentional communication pivots, not accidental dovish signals."
+      },
+      {
+        "label": "reaction_to_positive_gdp_surprise",
+        "value": 0.55,
+        "evidence": "Q3 2023 GDP tracking at 4.9% (Sep 2023): Fed interpreted as reason to maintain higher-for-longer, contributing to hawkish hold. Q3 2025 GDP at 3.5% (Oct 2025): allowed continued cutting because inflation was also declining. Strong GDP by itself doesn't trigger tightening — only when combined with inflation concerns. It provides 'room' for being patient."
+      },
+      {
+        "label": "reaction_to_negative_gdp_surprise",
+        "value": 0.45,
+        "evidence": "Q1+Q2 2022 negative GDP: Ignored, continued hiking aggressively. Q1 2025 -0.3%: Held (did not cut). The negative GDP signal is discounted when Powell believes it's distorted (import surge in Q1 2025) or when inflation is primary concern. GDP contraction alone is insufficient to trigger a policy response — must be accompanied by labor market deterioration or non-distorted nature."
+      },
+      {
+        "label": "labor_market_duality_mandate_weight",
+        "value": 0.68,
+        "evidence": "In tightening phase: labor market concerns were subordinated to inflation. In easing phase: labor market (rising unemployment) drove cut decisions. The duality of the mandate is phase-dependent — in high inflation periods, labor weight drops; in post-inflation periods, labor weight rises. This is not a symmetric dual mandate in practice."
+      },
+      {
+        "label": "unemployment_tolerance_during_tightening",
+        "value": 0.78,
+        "evidence": "Unemployment rose from 3.5% (Oct 2022) to 3.9% (Nov 2023) during the high-rate period — Powell accepted this labor market cooling without cutting. The tolerance for unemployment rising was high during the tightening phase. Powell's threshold for becoming concerned about unemployment appears to be 4.0-4.2% — the level that crossed this range triggered the easing pivot."
+      },
+      {
+        "label": "response_to_banking_system_stress",
+        "value": 0.55,
+        "evidence": "SVB failure (Mar 2023): Deployed BTFP facility immediately (separation of tools principle) but still hiked 25bp. First Republic failure (May 2023): hiked to peak. This shows Powell's 'separation of tools' doctrine: use regulatory/emergency facilities for financial stability, use interest rates for inflation/growth mandate. Banking stress alone is insufficient to pause rate hikes unless it threatens systemic financial conditions significantly."
+      },
+      {
+        "label": "separation_of_tools_doctrine",
+        "value": 0.82,
+        "evidence": "The BTFP deployment in March 2023 alongside a rate hike is the clearest demonstration. Powell explicitly stated banking system 'sound and resilient' while still hiking — he used two separate policy tools for two separate problems simultaneously. This is a key behavioral signature: different mandates get different tools, not compromised on a single rate decision."
+      },
+      {
+        "label": "long_term_neutral_rate_estimate_evolution",
+        "value": 0.62,
+        "evidence": "Powell's neutral rate estimate evolved over the period: 2022 cited 2.25-2.50% as 'neutral' (historical estimate). By late 2023/2024, mentioned structural factors (higher neutral rate possible). In Dec 2025, stated 'we are significantly closer to neutral' at 3.50-3.75%. This implies a revised neutral rate estimate of ~3.0-3.5%, substantially higher than the pre-2022 consensus of ~2.5%. The hawkish dot plots in 2025-2026 reflect this revised neutral rate estimate."
+      },
+      {
+        "label": "neutral_rate_uncertainty_tolerance",
+        "value": 0.68,
+        "evidence": "Powell never explicitly stated a new neutral rate estimate, instead acknowledging uncertainty. The 2025-2026 pause at 3.50% with language about 'significant uncertainty' reflects neutral rate uncertainty driving caution. Higher perceived neutral rate → less restrictive current rate → less pressure to cut. This uncertainty contributed to the extended hold periods."
+      },
+      {
+        "label": "inflation_overshoot_risk_weight",
+        "value": 0.78,
+        "evidence": "2024 Q1 CPI re-acceleration (Jan: 3.4%, Feb: 3.2%, Mar: 3.5%) was described as 'lack of further progress' and directly delayed cuts from March to September 2024. This shows high sensitivity to inflation re-acceleration even when headline CPI is declining from peak — a 3-month hiccup of higher CPI readings was sufficient to push back 6 months of expected cuts."
+      },
+      {
+        "label": "inflation_last_mile_difficulty_awareness",
+        "value": 0.82,
+        "evidence": "Explicitly mentioned 'bumpy road to 2%' (Mar 2024) and 'last mile' difficulty. The sustained holding through 2025 with CPI at 2.7-3.0% (above target but near it) demonstrates acknowledgment that the final distance to 2% is hardest. Powell has been unwilling to declare victory prematurely — consistent with 1970s mistake avoidance framework."
+      },
+      {
+        "label": "fiscal_policy_independence",
+        "value": 0.85,
+        "evidence": "Trump's fiscal expansion ('Big Beautiful Bill') in 2025-2026 raised fiscal sustainability concerns but Powell did not directly address fiscal policy in decisions. The Dec 2024 hawkish dot plot cited 'uncertainty about fiscal policy under new administration' as part of raised inflation forecasts — the only direct reference to fiscal influence. Generally, Powell maintains strong fiscal/monetary independence even when fiscal policy creates complications."
+      },
+      {
+        "label": "tariff_policy_as_supply_shock_treatment",
+        "value": 0.72,
+        "evidence": "Powell's 2025 tariff framework: treat tariffs as a supply shock (like COVID supply disruptions) rather than demand shock. 'Wait and see' approach suggests he would not automatically tighten to offset tariff-driven inflation — he would wait to assess whether it's transitory or persistent, and whether growth effects offset inflation effects. This is a significant policy framework commitment that prevented both preemptive hiking and cutting during 2025."
+      },
+      {
+        "label": "communication_consistency_across_time",
+        "value": 0.75,
+        "evidence": "Key consistent themes throughout: data dependency, gradualism preference, institutional independence, 2% inflation target commitment, separation of tools. These themes persisted across very different environments (tightening, banking crisis, election pressure, tariff crisis). Powell's core communication framework has been remarkably stable even when market participants tried to find pivots."
+      },
+      {
+        "label": "disinflation_progress_acknowledgment_speed",
+        "value": 0.65,
+        "evidence": "Powell was relatively slow to acknowledge disinflation progress publicly: CPI was declining from 9.1% peak (Jun 2022) but 'disinflation' language did not appear until Feb 2023 (at 6.4%). Jackson Hole Aug 2024 'time has come' statement came after CPI had fallen from 3.7% to 2.5% over 11 months. This lag in acknowledgment appears intentional — premature celebration risks second-wave inflation expectations."
+      },
+      {
+        "label": "hawkishness_baseline",
+        "value": 0.68,
+        "evidence": "Comparing to theoretical neutral baseline (0.50): Powell's default posture is modestly hawkish. Even in the easing phase (2024-2026), he repeatedly resisted market pressure for more cuts. The Dec 2025 'hawkish cut' with 3-cut reduction in 2026 dot plot is characteristic. The extended hold in 2025 despite rising unemployment. Estimated baseline hawkishness: ~0.68 (vs 0.50 neutral), reflecting the lessons of the inflation episode and the 1970s framework."
+      },
+      {
+        "label": "dovish_base_tendency_pre_2022_legacy",
+        "value": 0.42,
+        "evidence": "Evidence that Powell had dovish tendencies before this dataset: the failure to hike in 2021 despite rising inflation ('transitory' framing, not captured in this dataset but relevant as a legacy behavior). The Jan 2022 decision to hold at 7% CPI is somewhat consistent with residual dovish bias. However, the post-2022 behavior strongly shifted hawkish — the dovish legacy was overridden by the inflation experience."
+      },
+      {
+        "label": "transitory_inflation_mistake_compensation",
+        "value": 0.82,
+        "evidence": "The entire 2022-2024 behavior pattern can be interpreted as over-correction for the 2021 'transitory' inflation mistake. The aggressive 75bp hikes, the extended hold, the explicit anti-1970s framing — all are consistent with a policymaker who felt he was 'behind the curve' due to the transitory misdiagnosis and was compensating. This 'compensation factor' likely raised the hawkish bias above what pure data dependency would have suggested."
+      },
+      {
+        "label": "credibility_rebuilding_weight",
+        "value": 0.80,
+        "evidence": "Fed credibility loss risk was a frequently mentioned concern. Jackson Hole 2022 pain speech was explicitly about credibility. The willingness to accept recession risk, the rejection of Trump pressure, the hawkish dot plots even when inflation was declining — all serve to rebuild credibility that was damaged by the transitory inflation call. Credibility is weighted very highly in Powell's reaction function."
+      },
+      {
+        "label": "patience_before_cutting",
+        "value": 0.85,
+        "evidence": "After reaching terminal rate 5.25-5.50% (Jul 2023), Powell held for 14 months before first cut (Sep 2024). This 14-month plateau is extraordinary given market pressure for cuts. During the plateau: CPI fell from 3.7% to 2.5%, unemployment rose from 3.6% to 4.2%, GDP remained solid. The patience threshold required both disinflation AND labor market deterioration before cutting."
+      },
+      {
+        "label": "patience_before_hiking",
+        "value": 0.38,
+        "evidence": "The tightening onset was not patient: once Powell decided to hike, acceleration was rapid (25→50→75bp within 3 months). The Jan 2022 hold was the last pre-hike decision — but it was signaling imminent action, not a patient wait. The perceived lateness of the tightening cycle is what drove the aggressive compensation. Low patience when hiking once the inflation urgency was clear."
+      },
+      {
+        "label": "economic_forecast_accuracy_self_assessment",
+        "value": 0.55,
+        "evidence": "Powell repeatedly acknowledged forecasts were uncertain: 'bumpy road,' 'too early to know' on tariffs, 'significant uncertainty.' The Sep 2023 dot plot showed one more 2023 hike that never happened — a forecast error. The 2024 CPI re-acceleration was a forecast error. The 2025 tariff stagflation was not in any prior dot plot. Powell's communication consistently acknowledges forecast uncertainty, suggesting awareness of model limitations."
+      },
+      {
+        "label": "reaction_to_core_pce_vs_cpi",
+        "value": 0.72,
+        "evidence": "Core PCE is the Fed's stated preferred inflation measure. Core PCE at 3.2% (Dec 2023) drove the dovish pivot. Core PCE still above 3% throughout early 2024 kept rates on hold. The Dec 2025 environment with CPI 2.7% but hawkish dot plot suggests Powell was watching core PCE closely — implied core PCE still elevated enough to warrant caution. Communication references PCE as the primary gauge."
+      },
+      {
+        "label": "sp500_level_tolerance_as_tightening_constraint",
+        "value": 0.32,
+        "evidence": "S&P at all-time highs in Jun 2024 (28.5% YoY) did not prevent hawkish hold. S&P at all-time highs in Dec 2025 did not prevent hawkish cut. S&P falling 18% in 2022 did not prevent 75bp hikes. The equity level has minimal direct influence on decisions — consistent with Fed's lack of formal equity mandate. Financial conditions (through credit spreads, bond yields) matter more than stock levels."
+      },
+      {
+        "label": "treasury_yield_curve_sensitivity",
+        "value": 0.62,
+        "evidence": "The 10-year yield rising to 5% (Oct 2023) was explicitly cited by Powell as 'doing some of the Fed's work' — this language directly influenced the Nov 2023 pause decision. The 10-year yield is the key financial conditions variable that Powell monitors, more than the stock market. Rising long-term yields create tightening that can substitute for or supplement rate hikes."
+      },
+      {
+        "label": "yield_curve_inversion_tolerance",
+        "value": 0.68,
+        "evidence": "Significant yield curve inversion persisted through 2022-2024 (short rates above long rates) without triggering explicit Fed response. Powell did not use yield curve inversion as a signal to cut. This is consistent with treating the inversion as a consequence of the policy stance rather than a trigger to change it. High tolerance for inversion."
+      },
+      {
+        "label": "housing_market_sensitivity",
+        "value": 0.42,
+        "evidence": "Housing inflation was a persistent driver of core CPI throughout 2022-2024 (shelter inflation lagging actual market). Powell occasionally mentioned shelter inflation but never used it as a primary driver. The known lag between market rents and CPI shelter contributed to the 'patience before cutting' stance — Powell expected shelter inflation to fall once market rents rolled over."
+      },
+      {
+        "label": "supply_chain_shock_vs_demand_shock_distinction",
+        "value": 0.58,
+        "evidence": "The 2022-2023 hiking cycle was driven partly by supply-side inflation (Russia-Ukraine energy prices, supply chain disruptions). Powell hiked aggressively anyway — treating it as requiring demand-side suppression regardless of supply cause. By 2025, tariff inflation (supply shock) was treated differently with a 'wait and see' approach. This evolution may reflect lessons learned: supply shock inflation should be more cautiously tightened against."
+      },
+      {
+        "label": "energy_price_spike_response",
+        "value": 0.45,
+        "evidence": "Oil at $118 (Jun 2022) contributed to tightening urgency but the fundamental driver was CPI expectations and core inflation. Oil falling to $58 (May 2025) in the context of Liberation Day tariffs contributed to the benign inflation side of the tariff analysis. Energy is treated as an input to the inflation outlook rather than a standalone trigger."
+      },
+      {
+        "label": "global_spillover_sensitivity",
+        "value": 0.35,
+        "evidence": "Dollar at 20-year highs creating global currency crises (UK pound crash, Japan intervention) in Sep-Nov 2022 had zero observed impact on Fed decisions. The global spillovers from US monetary tightening were explicitly not factored in — consistent with the Fed's domestic mandate. This is one of the clearest 'non-factors' in Powell's decision function."
+      },
+      {
+        "label": "debt_ceiling_political_risk_sensitivity",
+        "value": 0.25,
+        "evidence": "Debt ceiling crisis (Jan-Jun 2023) was ongoing through the May 2023 hike to peak. First Republic failed May 1, debt ceiling deadline approaching, and Powell still hiked. The debt ceiling risk was essentially ignored in the rate decision — consistent with separation of fiscal/monetary concerns."
+      },
+      {
+        "label": "banking_system_risk_monetary_tool_response",
+        "value": 0.28,
+        "evidence": "SVB crisis: deployed BTFP but still hiked. First Republic: still hiked. These two events could have been used as justification for pausing or cutting (as some critics suggested). Powell did not use banking stress as a monetary policy justification — he used it as a regulatory/emergency tool justification. Banking risk as monetary tool input: very low."
+      },
+      {
+        "label": "crypto_market_sensitivity",
+        "value": 0.12,
+        "evidence": "Bitcoin ETF approval (Jan 2024), crypto bull market — not mentioned in any decision context. FTX collapse (Nov 2022) — not mentioned. Crypto is essentially invisible in Powell's monetary policy function."
+      },
+      {
+        "label": "artificial_intelligence_economy_awareness",
+        "value": 0.38,
+        "evidence": "AI and tech bull market (Nvidia, GPT-4 era, 2023-2024) provided backdrop but was not explicitly cited as a factor in any decision. The 'resilient economy despite tightening' narrative might partially reflect AI productivity, but Powell never invoked AI in policy rationale. Awareness without explicit incorporation."
+      },
+      {
+        "label": "meeting_by_meeting_approach_consistency",
+        "value": 0.85,
+        "evidence": "Explicitly stated 'meeting by meeting' approach repeatedly in 2023-2026. This is a communication technique that reserves optionality while providing the market with a clear framework. The consistency of this language across very different environments (disinflation period, tariff crisis, political pressure) shows it is a core behavioral commitment, not just a phrase."
+      },
+      {
+        "label": "dot_plot_revision_frequency",
+        "value": 0.68,
+        "evidence": "Dot plots were revised significantly at nearly every SEP meeting: Jun 2022 (raised terminal), Sep 2022 (raised again), Dec 2022 (raised again), Jun 2023 (dropped expected hikes), Sep 2023 (higher for longer), Dec 2023 (3 cuts 2024), Jun 2024 (1 cut 2024), Dec 2024 (2 cuts 2025), Mar 2025 (raised inflation, cut GDP), Jun 2025 (1 cut 2025), Dec 2025 (1 cut 2026). High revision frequency reflects genuine uncertainty and data-responsiveness rather than mechanical updating."
+      },
+      {
+        "label": "press_conference_length_of_restrictive_language",
+        "value": 0.72,
+        "evidence": "The phrase 'rates will remain restrictive for some time' persisted from Sep 2022 through mid-2024. The tenure of restrictive language (nearly 2 years) was a key anchor for market expectations. Powell repeatedly resisted pressure to soften this language even when inflation was clearly declining. The duration commitment served as an anti-inflation credibility device."
+      },
+      {
+        "label": "reaction_to_ism_manufacturing_weakness",
+        "value": 0.38,
+        "evidence": "Manufacturing weakness (ISM below 50 for most of 2022-2024) was not cited in decisions. The service sector dominated the employment and inflation picture, and manufacturing contraction was largely ignored. This reflects the structural shift to a service-dominant economy in the Fed's thinking."
+      },
+      {
+        "label": "reaction_to_consumer_confidence_collapse",
+        "value": 0.42,
+        "evidence": "Consumer confidence collapsed in mid-2022 (University of Michigan at historic lows) yet Powell continued hiking. Consumer confidence is treated as a sentiment indicator not a policy trigger — unless it's the inflation expectations component (which did trigger the Jun 2022 75bp)."
+      },
+      {
+        "label": "terminal_rate_forecast_revision_upward_speed",
+        "value": 0.75,
+        "evidence": "Terminal rate forecast evolved rapidly upward: Jan 2022 (3 hikes, ~1% terminal implied), Jun 2022 (3.4%), Sep 2022 (4.6%), Dec 2022 (5.1%), May 2023 (5.25-5.50% achieved). This 3-percentage-point upward revision over 12 months was very fast, reflecting real-time data responsiveness and the under-estimation at cycle start."
+      },
+      {
+        "label": "terminal_rate_forecast_revision_downward_speed",
+        "value": 0.48,
+        "evidence": "Cut cycle forecasts evolved much more slowly downward: Dec 2023 (3 cuts), Jun 2024 (1 cut), Dec 2024 (2 cuts in 2025), Jun 2025 (1 cut in 2025), Dec 2025 (1 cut in 2026). Downward revision is gradual and conservative — Powell resists signaling aggressive easing. Asymmetric revision speed: fast upward, slow downward."
+      },
+      {
+        "label": "academic_economic_framework_adherence",
+        "value": 0.72,
+        "evidence": "Powell's framework is consistent with mainstream inflation-targeting central banking (New Keynesian): focus on inflation expectations, output gap, unemployment gap. References to neutral rate, Taylor rule concepts. However, Powell is not rigidly mechanical — he uses 'soft landing' language (not typical academic framing) and acknowledged uncertainty about models. A lawyer by training who absorbed economic framework rather than developed it independently."
+      },
+      {
+        "label": "republican_constituency_sensitivity",
+        "value": 0.18,
+        "evidence": "Powell was appointed by Republicans (Trump, first term) but has shown no measurable sensitivity to Republican economic preferences. The 2022 aggressive hiking hurt growth and stocks (negative for Republican economy narrative), and the 2024 September cut was politically controversial among Trump supporters. Minimal observable partisan sensitivity."
+      },
+      {
+        "label": "legal_framework_on_presidential_firing",
+        "value": 0.92,
+        "evidence": "Powell explicitly stated he would not resign if Trump asked (Nov 2024). The courts denied Trump's claimed authority to fire Powell without cause. Powell's confidence in legal protection may have contributed to his ability to resist political pressure — he was not facing a credible existential threat to his position. Legal certainty → behavioral certainty in independence."
+      },
+      {
+        "label": "personal_risk_tolerance_own_position",
+        "value": 0.88,
+        "evidence": "Willingness to make politically unpopular decisions (Sep 2024 cut before election, maintaining independence under Trump pressure) suggests high personal risk tolerance for position security. Powell does not appear to manage policy to secure reappointment — he acted in ways that could have antagonized both parties at different times."
+      },
+      {
+        "label": "asymmetric_inflation_error_cost",
+        "value": 0.82,
+        "evidence": "Powell's revealed preference: the cost of under-tightening (inflation becoming entrenched) is treated as much higher than the cost of over-tightening (mild recession). This is evident in the willingness to accept technical recession and the 14-month hold at high rates. In 2025, the reluctance to cut despite rising unemployment reflects this asymmetry persisting even in the easing phase."
+      },
+      {
+        "label": "communication_on_uncertainty",
+        "value": 0.78,
+        "evidence": "Unusually high transparency about uncertainty: 'too early to know' (tariff impacts), 'bumpy road,' 'significant uncertainty,' 'difficult tradeoffs' (stagflation). Powell explicitly communicates uncertainty rather than projecting false confidence. This is consistent with the broader institutional culture of acknowledging model uncertainty."
+      },
+      {
+        "label": "speed_of_pivot_when_data_changes_sharply",
+        "value": 0.68,
+        "evidence": "When data changes sharply, Powell pivots relatively quickly: the Jun 2022 75bp emergency after May CPI print was 3 weeks after the guidance was set. The Jul 2024 dovish pivot came after the unemployment data started deteriorating. The Dec 2023 dovish pivot came once the 3-month disinflation trend was clear. Sharp data changes → faster pivot; gradual data changes → slower pivot."
+      },
+      {
+        "label": "seasonal_pattern_sensitivity",
+        "value": 0.32,
+        "evidence": "No clear seasonal patterns in decision-making. Jan/Feb 2024 hot CPI (seasonal adjustment issues in January) was acknowledged but not allowed to override the trajectory. September has historically been a major decision month (cut in Sep 2024, hawkish hold in Sep 2023) but this reflects data timing more than seasonal preference."
+      },
+      {
+        "label": "narrative_framing_skill",
+        "value": 0.82,
+        "evidence": "Powell's ability to frame difficult decisions: 50bp cut as 'sign of strength not panic' (Sep 2024), 75bp hike as 'necessary not extraordinary,' Dec 2025 cut as 'hawkish cut,' Sep 2024 cut as 'recalibration.' The framing consistently manages to present the decision in its most credibility-preserving light. This is a high-skill communicator behavior."
+      },
+      {
+        "label": "counter_cyclical_policy_commitment",
+        "value": 0.78,
+        "evidence": "Powell maintained counter-cyclical policy even under political pressure: tightened during good times (2022 low unemployment), loosened when labor market cooled. The counter-cyclical behavior was not distorted by political cycle or asset prices. This is a core central banker behavior that Powell consistently demonstrated."
+      },
+      {
+        "label": "long_run_inflation_expectation_anchoring_weight",
+        "value": 0.88,
+        "evidence": "Long-run inflation expectations staying anchored was consistently cited as a reason the inflation fight was winnable and as evidence the 2% target remained credible. When long-run expectations showed any sign of de-anchoring (Michigan Survey Jun 2022), Powell escalated immediately. Protecting long-run expectations is one of the highest-priority objectives in Powell's framework."
+      },
+      {
+        "label": "market_liquidity_conditions_sensitivity",
+        "value": 0.48,
+        "evidence": "Repo market stress, Treasury market functioning concerns are not explicitly visible in the 33-decision dataset as policy drivers. The BTFP in Mar 2023 addresses bank liquidity, not broad market liquidity. QT pace adjustment (May 2024: reducing Treasury cap from $60B to $25B) was a market liquidity accommodation, but this was a secondary tool move, not a rate decision driver."
+      },
+      {
+        "label": "international_capital_flow_sensitivity",
+        "value": 0.30,
+        "evidence": "Dollar at 20-year highs causing capital outflows from emerging markets and UK pound crisis in 2022 did not measurably impact Fed decisions. The Fed operates under a domestic mandate and does not explicitly weight international capital flow implications. Very low sensitivity."
+      },
+      {
+        "label": "rate_decision_vs_balance_sheet_policy_sequencing",
+        "value": 0.72,
+        "evidence": "QT was started simultaneously with rate hikes (May 2022). QT was slowed (May 2024) while rates were on hold — using balance sheet as a fine-tuning tool when rates couldn't move. This 'sequencing' reflects Powell's dual toolkit management: rate hikes for macro adjustment, balance sheet for financial conditions fine-tuning."
+      },
+      {
+        "label": "communication_of_rate_path_vs_single_meeting",
+        "value": 0.68,
+        "evidence": "Post-2023, Powell consistently framed cuts as a 'path' not guaranteed ('meeting by meeting'). In 2022, he framed the hiking path more firmly (dot plots showed definitive terminal rates). The evolution toward more path uncertainty in easing phase reflects genuine uncertainty about neutral rate and economic outlook."
+      },
+      {
+        "label": "china_economy_sensitivity",
+        "value": 0.38,
+        "evidence": "Shanghai COVID lockdowns (Apr-Jun 2022) contributed to supply chain discussion but were not a primary driver. China's slow post-COVID recovery in 2023 was mentioned peripherally. The US-China tariff war (2025) affected US inflation/growth but was handled through the domestic tariff impact framework rather than explicit China-sensitivity. Low direct China sensitivity."
+      },
+      {
+        "label": "europe_economy_sensitivity",
+        "value": 0.28,
+        "evidence": "Russia-Ukraine war impact on European economy was noted in context but not explicitly incorporated into US monetary policy decisions. European recession risk was not cited. Dollar strength causing UK/European currency crises was noted but ignored as a policy input. Very low Europe sensitivity."
+      },
+      {
+        "label": "fiscal_multiplier_awareness",
+        "value": 0.62,
+        "evidence": "Trump's 'Big Beautiful Bill' (fiscal expansion in 2025-2026) was cited as a factor in Dec 2024 raising inflation forecasts and reducing cut projections. This shows Powell does incorporate fiscal multiplier effects into his inflation outlook — fiscal expansion → higher inflation forecast → fewer cuts. This is theoretically consistent behavior that was explicitly observable."
+      },
+      {
+        "label": "speed_of_recognizing_new_regime",
+        "value": 0.55,
+        "evidence": "Powell was slow to recognize the 2021-2022 inflation regime (transitory mistake — but not in this dataset). Within this dataset: was relatively quick to recognize the peak inflation regime (Jul 2022 hints, Dec 2022 step-down), relatively quick to recognize the disinflation regime (Feb 2023 'disinflation started'). Regime recognition appears faster in this dataset than his pre-2022 behavior suggested."
+      },
+      {
+        "label": "response_to_government_shutdown_risk",
+        "value": 0.15,
+        "evidence": "Government shutdown threats appeared multiple times (Oct 2023, Dec 2023, early 2025) but never influenced monetary policy decisions. Consistent with treating fiscal management as a separate domain from monetary policy."
+      },
+      {
+        "label": "reaction_to_war_escalation",
+        "value": 0.32,
+        "evidence": "Ukraine invasion escalation (Sep 2022 annexation), Israel-Gaza war, Israel-Iran strikes in 2025 — all had minimal direct impact on decisions. Wars are treated through their economic effects (oil, supply chains, safe haven demand) rather than as independent geopolitical triggers."
+      },
+      {
+        "label": "rate_cut_50bp_vs_25bp_decision_threshold",
+        "value": 0.78,
+        "evidence": "The only 50bp cut in the easing cycle (Sep 2024) was justified by: (1) CPI falling to 2.5% (very close to target), (2) unemployment at 4.2% (approaching concerning level), (3) 'recalibration' framing (correcting rate that had been 'too high for too long'). The subsequent reversion to 25bp cadence suggests 50bp threshold requires both metrics to be compelling simultaneously. The Sep 2024 case was exceptional, not normative."
+      },
+      {
+        "label": "rate_hike_75bp_vs_50bp_decision_threshold",
+        "value": 0.85,
+        "evidence": "75bp threshold: triggered at CPI > 8.6% AND inflation expectations showing signs of de-anchoring (Jun 2022 trigger). Maintained at 75bp through CPI 8.3%-9.1% range with core inflation still elevated and re-accelerating. Step-down to 50bp when CPI declined to 7.1% (Dec 2022). The 75bp threshold appears to be approximately: headline CPI > 8%, core CPI elevated and rising, no financial stability emergency."
+      },
+      {
+        "label": "post_pandemic_behavior_shift_magnitude",
+        "value": 0.75,
+        "evidence": "The 2022-2026 Powell is materially different from pre-2022 Powell (who was characterized by dovishness and 'transitory' framing). The shift represents a genuine behavioral update driven by the inflation experience. The consistently hawkish bias in 2025-2026 (when inflation was nearly back to target) suggests the inflation experience produced a lasting framework shift, not just a temporary response."
+      },
+      {
+        "label": "short_term_vs_long_term_economic_focus",
+        "value": 0.68,
+        "evidence": "Powell consistently emphasized longer-term price stability over short-term growth accommodation. The 14-month hold at restrictive rates to ensure inflation was durably declining is the clearest evidence. Even when near-term growth was slowing (2025 tariff drag), Powell prioritized long-term inflation credibility. This is a longer-horizon policy bias than typical political leaders."
+      },
+      {
+        "label": "reaction_to_market_positioning_extremes",
+        "value": 0.55,
+        "evidence": "When markets priced in 6-7 cuts for 2024 (Dec 2023), Powell's Dec 2023 pivot validated this partially (3 cuts dot plot) rather than completely pushing back. When markets priced in 50bp cut probability increasing in Jul 2024, Powell allowed the expectation to build (pre-committed to September cut). Powell follows the market to a degree when direction is correct, but corrects when magnitude is excessive."
+      },
+      {
+        "label": "reaction_function_linearity",
+        "value": 0.35,
+        "evidence": "The reaction function is highly non-linear with threshold effects: (1) CPI below 8% → 25-50bp hikes; CPI above 8% → 75bp hikes (discontinuity). (2) Unemployment below 4.0% → near-zero weight in easing decisions; above 4.2% → significant weight. (3) Political pressure from president → zero direct effect plus potential counter-reaction. The reaction function has multiple regime changes — it is NOT a smooth linear function."
+      },
+      {
+        "label": "multiple_simultaneous_crisis_handling",
+        "value": 0.72,
+        "evidence": "Mar 2023: banking crisis + debt ceiling approaching + inflation still at 6% → hiked anyway, deployed BTFP separately. May 2025: market turmoil + presidential threats + negative GDP + tariff inflation simultaneously → held steady with data-gathering approach. Powell's multi-crisis handling shows prioritization: (1) inflation fight, (2) institutional independence, (3) financial stability, (4) growth. This ordering is consistent across the dataset."
+      },
+      {
+        "label": "patience_with_internal_fomc_dissent",
+        "value": 0.65,
+        "evidence": "Dec 2025 three-dissenter meeting (Hammack/Waller/Miran): Powell proceeded with the cut they opposed but gave them significant validation in the hawkish dot plot and press conference framing. This is a pattern of: proceed with the consensus decision but make substantial accommodations to dissenter concerns in the communication package. 'Cut the dissent path through communication, not through policy reversal.'"
+      },
+      {
+        "label": "term_premium_awareness",
+        "value": 0.58,
+        "evidence": "Oct-Nov 2023 bond market selloff that pushed 10-year yields to 5% was attributed partly to term premium rise. Powell's comment that this was 'doing some of the Fed's work' shows awareness that long-term rates incorporate components beyond expected Fed funds rates. The distinction between expected short rates and term premium in long rates appears in Powell's analysis."
+      },
+      {
+        "label": "hiring_cycle_lag_awareness",
+        "value": 0.62,
+        "evidence": "Powell acknowledged cumulative tightening effects have long and variable lags. The rationale for the 14-month hold partly rested on 'we may not yet be seeing the full effects of our tightening.' This lag awareness is why Powell doesn't react immediately to improving data — he discounts early favorable readings that may be pre-lag."
+      },
+      {
+        "label": "non_traditional_data_incorporation",
+        "value": 0.45,
+        "evidence": "Some evidence of using non-traditional signals: Michigan inflation expectations (explicitly cited Jun 2022), market-implied inflation expectations. Less evidence of using: labor market flows data, quit rates, alternative inflation measures beyond PCE/CPI. Powell's data consumption appears to be primarily traditional macro indicators."
+      },
+      {
+        "label": "communication_simplicity_preference",
+        "value": 0.68,
+        "evidence": "Powell's press conference language is generally accessible compared to predecessors. 'Time has come for policy to adjust' (Aug 2024), 'disinflation process has started' (Feb 2023) — plain language pivots. Avoids excessive academic jargon. This simplicity serves both communication clarity and political resilience (harder to misquote)."
+      },
+      {
+        "label": "revision_of_prior_decisions_acknowledgment",
+        "value": 0.42,
+        "evidence": "Powell rarely explicitly acknowledged that prior decisions were mistakes. The Jun 2022 guidance violation was addressed by citing extraordinary data rather than admitting the May guidance was wrong. The 2021 'transitory' mistake (outside this dataset) has never been explicitly recanted in formal settings. Low explicit error acknowledgment — consistent with institutional credibility management."
+      },
+      {
+        "label": "long_term_rate_hiking_stamina",
+        "value": 0.88,
+        "evidence": "10 consecutive hikes (Mar 2022 – Jul 2023), never pausing between Mar 2022 and Jun 2023, raising rates by 525bp in 16 months. This is among the most aggressive Fed tightening cycles in 40 years. The stamina to maintain this pace against significant political pressure, market pressure, and recession fears is a high-value behavioral parameter."
+      },
+      {
+        "label": "sensitivity_to_financial_market_volatility_vix",
+        "value": 0.38,
+        "evidence": "Market volatility events (Liberation Day turmoil April 2025, SVB-driven volatility March 2023, October 2022 bear market extremes) did not produce measurable volatility-driven policy responses. Volatility is treated as a symptom of underlying conditions, not an independent policy trigger."
+      },
+      {
+        "label": "rate_cut_pace_commitment_once_started",
+        "value": 0.65,
+        "evidence": "Once the easing cycle started (Sep 2024), the pace was relatively steady: Sep 2024 (50bp), Nov 2024 (25bp), Dec 2024 (25bp), then 9-month pause, then Sep-Dec 2025 (3x 25bp). The restart of cutting in Sep 2025 after the tariff pause shows that the cycle resumes when data allows. Not 'one and done' cutting — Powell continued the cycle through multiple data changes."
+      },
+      {
+        "label": "communication_lead_time_before_policy_shift",
+        "value": 0.75,
+        "evidence": "Lead times before major shifts: Jackson Hole (Aug 2022) → Sep 2022 hike (3 weeks). Dec 2023 dovish pivot → first cut Sep 2024 (9 months). Jul 2024 'on the table as soon as September' → Sep 2024 cut (6 weeks). The timing shows Powell uses longer lead times for cuts (months) than for hikes (weeks), consistent with the asymmetric caution in easing vs tightening."
+      },
+      {
+        "label": "high_inflation_regime_vs_normal_regime_behavior_switch",
+        "value": 0.82,
+        "evidence": "Clear regime switch between normal mode (gradualism, high forward guidance commitment, market sensitivity) and inflation-fighting mode (front-loading, guidance violations acceptable, market insensitivity, growth sacrifice). The switch from normal to inflation mode happened at approximately CPI > 8% and persisted even as CPI fell — the switch-back to normal mode was gradual and incomplete through 2026."
+      },
+      {
+        "label": "reaction_to_labor_market_tightness",
+        "value": 0.62,
+        "evidence": "Ultra-tight labor market (unemployment 3.4-3.9%, 2022-2023) provided justification for continued hiking — it meant the labor market could absorb tightening. Paradoxically, tight labor market reduced urgency to protect it and increased comfort with aggressive hiking. As labor market normalized (4.0-4.4% unemployment), the protective instinct activated."
+      },
+      {
+        "label": "wage_growth_sensitivity",
+        "value": 0.58,
+        "evidence": "Wage growth was not explicitly cited in decision descriptions but was part of the tight labor market narrative. The concern about wage-price spirals was implicit in the inflation-fighting urgency. Wage growth remains a background factor that reinforced the inflation-fighting stance without being a standalone trigger."
+      },
+      {
+        "label": "fed_funds_rate_lower_bound_constraint",
+        "value": 0.88,
+        "evidence": "The zero lower bound (ZLB) constraint is deeply embedded in Powell's thinking — the extended period at ZLB (2020-2022) and the subsequent inflation are explicitly connected in his framework. The reluctance to cut aggressively in 2024-2025 partly reflects aversion to returning to ZLB — keeping rates positive provides optionality for future crises."
+      },
+      {
+        "label": "normalization_vs_restrictive_terminology",
+        "value": 0.68,
+        "evidence": "Powell carefully distinguished between 'neutral' and 'restrictive' rates in communications. In Sep 2024, the cut was framed as 'recalibration' toward neutral rather than moving to accommodative territory. In Dec 2025, 'significantly closer to neutral' at 3.50-3.75%. This terminology management preserves optionality and avoids signaling accommodation when only normalizing."
+      },
+      {
+        "label": "response_asymmetry_upside_inflation_vs_downside_inflation",
+        "value": 0.78,
+        "evidence": "Upside inflation surprises (May 2022 +0.3% miss → guidance violation, 75bp) produced faster, larger responses than downside inflation surprises (disinflation in 2022H2 → very gradual step-down over 4 meetings). The asymmetry is clear: tighten fast, ease slowly. This is the classic 'risk management' asymmetry of a credibility-rebuilding Fed."
+      },
+      {
+        "label": "bank_reserve_adequacy_sensitivity",
+        "value": 0.52,
+        "evidence": "QT slowdown in May 2024 (Treasury cap reduction) was partly motivated by bank reserve adequacy concerns — the Fed wanted to avoid reaching 'lowest comfortable level of reserves.' This is a technical balance sheet management parameter that influenced the timing and pace of QT rather than rate decisions."
+      },
+      {
+        "label": "covid_era_legacy_policy_normalization_urgency",
+        "value": 0.75,
+        "evidence": "The entire 2022-2024 tightening cycle can be viewed as COVID-era policy normalization. The urgency reflected both: the inflation consequences of COVID-era stimulus and the need to rebuild policy space (positive rates, smaller balance sheet) for future crises. This normalization urgency was a meta-objective beyond the immediate inflation fight."
+      },
+      {
+        "label": "decision_reversal_aversion",
+        "value": 0.72,
+        "evidence": "Powell was very reluctant to reverse course: the step-up from 25 to 50 to 75bp was a one-way escalation with no reversal. The step-down was gradual (75→50→25→0). In the easing phase, the mid-cycle pause (Jan-Sep 2025) was framed as a 'wait' not a reversal. Powell never cut and then hiked within a short period — he avoids U-turns."
+      },
+      {
+        "label": "overall_regime_hawkish_shift_2022_onward",
+        "value": 0.75,
+        "evidence": "The 2022-2026 dataset shows a systematic hawkish shift in Powell's revealed preferences compared to his 2018-2021 behavior. Even in the easing phase, 2025-2026 behavior is more hawkish than equivalent economic conditions would have suggested pre-2022. This is a durable framework shift — inflation experience created a lasting hawkish prior that influences decisions even when inflation is near target."
+      }
+    ]
+  },
+  "red_lines": [
+    {
+      "id": "RL001",
+      "name": "inflation_expectations_deanchoring",
+      "condition": "Long-term inflation expectations (Michigan 5-year, TIPS breakevens) showing meaningful deanchoring above historical ranges",
+      "forced_action": "immediate_aggressive_hike_or_acceleration",
+      "confidence": 0.95,
+      "evidence": "June 2022: single Michigan inflation expectations print 'caught attention' and directly triggered abandonment of explicit 50bp guidance, switching to 75bp. This is the clearest demonstrated red line in the dataset — a single expectations data point overrode a recent explicit commitment. The threshold for expectations-driven overrides is lower than for other variables.",
+      "priority": 1
+    },
+    {
+      "id": "RL002",
+      "name": "presidential_interference_capitulation",
+      "condition": "Any direct capitulation to presidential demands on rate policy",
+      "forced_action": "maintain_or_tighten_stance_counter_to_demand",
+      "confidence": 0.93,
+      "evidence": "Trump demanded cuts repeatedly in 2025; Powell held or tightened guidance on every occasion. The Nov 2024 statement 'not something we think about or discuss' and May 2025 hold during 'FIRE Powell' threats demonstrate this as a hard constraint. Political pressure produces zero behavioral response — and potentially counter-response (holding firmer as credibility signal).",
+      "priority": 2
+    },
+    {
+      "id": "RL003",
+      "name": "inflation_re_acceleration_to_high_levels",
+      "condition": "CPI/PCE re-accelerating above 6% after having declined from peak",
+      "forced_action": "immediate_tightening_or_pause_of_cuts",
+      "confidence": 0.88,
+      "evidence": "Core CPI re-acceleration from 5.5% to 6.6% (Sep-Nov 2022) extended the 75bp hiking streak. PCE inflation staying above 3% through 2024 prevented cuts for 14 months. While 6% is not a precise threshold, the behavioral pattern suggests any meaningful re-acceleration (>50bp month-over-month) triggers an immediate hawkish response.",
+      "priority": 3
+    },
+    {
+      "id": "RL004",
+      "name": "labor_market_sharp_deterioration",
+      "condition": "Unemployment rising rapidly (>0.5pp in 3 months) when inflation is near target (<3%)",
+      "forced_action": "accelerated_cut_or_50bp_jumbo_cut",
+      "confidence": 0.82,
+      "evidence": "The Sep 2024 50bp cut was triggered by unemployment rising from 3.6% to 4.2% (0.6pp in ~6 months) while CPI was at 2.5%. The Sahm Rule being triggered (unemployment 0.5pp above 12-month low) may have contributed to the 50bp choice vs 25bp. Sharp labor market deterioration with inflation controlled = forced easing acceleration.",
+      "priority": 4
+    },
+    {
+      "id": "RL005",
+      "name": "resignation_demand",
+      "condition": "Presidential demand for resignation",
+      "forced_action": "explicit_public_refusal_to_resign",
+      "confidence": 0.98,
+      "evidence": "Stated explicitly: would not resign if Trump asked (Nov 2024 press conference). This is a public commitment that functions as a hard constraint — resigning would destroy Fed credibility more than any rate decision.",
+      "priority": 2
+    },
+    {
+      "id": "RL006",
+      "name": "systemic_financial_stability_breakdown",
+      "condition": "Widespread systemic bank runs or interbank market freezing (2008-level stress)",
+      "forced_action": "emergency_rate_cut_plus_emergency_facilities",
+      "confidence": 0.85,
+      "evidence": "Not directly triggered in this dataset (SVB was handled with BTFP, not rate cuts). However, the BTFP deployment and the separation of tools doctrine suggest that if BTFP-type facilities were insufficient, the rate tool would also be deployed. The 2023 banking stress did NOT trigger this red line because it was contained — but a 2008-level event likely would.",
+      "priority": 3
+    },
+    {
+      "id": "RL007",
+      "name": "2pct_inflation_target_abandonment",
+      "condition": "Any statement or implied policy that abandons 2% as the inflation target",
+      "forced_action": "explicit_reaffirmation_of_2pct_target",
+      "confidence": 0.97,
+      "evidence": "The 2% target was reaffirmed in every single meeting statement throughout the dataset. Even when market participants argued for a higher target (some economists suggested 3%), Powell never entertained it in communications. The 2% target is the deepest institutional commitment in Powell's behavior matrix.",
+      "priority": 1
+    },
+    {
+      "id": "RL008",
+      "name": "fomc_consensus_breakdown_extreme",
+      "condition": "More than 5 dissents in a single meeting or fundamental FOMC split making any decision impossible",
+      "forced_action": "hold_and_intensive_pre_meeting_consensus_building",
+      "confidence": 0.78,
+      "evidence": "Not triggered in this dataset (max 3 dissents in Dec 2025). But the pattern of Powell adjusting communication and dot plots to accommodate near-dissents suggests this is an implicit constraint — extreme FOMC disagreement would likely prevent any action requiring the appearance of institutional cohesion.",
+      "priority": 5
+    }
+  ],
+  "information_fidelity": 0.94,
+  "information_fidelity_reasoning": "The Federal Reserve has exceptionally high-quality, timely, and comprehensive information access: (1) FRED database with near-real-time official statistics, (2) Internal Fed model suite (FRB/US, others), (3) Beige Book with regional business intelligence, (4) Direct relationships with 12 regional Fed presidents providing on-the-ground economic intelligence, (5) FOMC minutes and SEP process with internal forecast consolidation. The 0.94 reflects near-perfect information access with minor deductions for: (a) CPI/PCE data lags (released 2-3 weeks after month-end, so each meeting uses somewhat lagged data), (b) GDP data is revised significantly (Q2 2022 was revised from -1.6% to +0.4%, materially changing the recession narrative — but after the decisions were made), (c) Structural model uncertainty (neutral rate unknown, natural unemployment rate uncertain), (d) Forward-looking information is inherently uncertain regardless of data quality. No deduction for political information distortion (Fed is institutionally shielded from political information manipulation). No deduction for satellite/alternative data needs (US official statistics are high quality). The Fed's information environment is the best available for any central banker in this dataset.",
+  "post_cutoff_events_2025_2026": [
+    {
+      "date": "2025-07",
+      "event": "First 25bp rate cut of the easing cycle. Fed funds rate to 4.00-4.25%. Powell cited moderating inflation and balanced labor market risks.",
+      "impact": "Confirmed pivot from restrictive hold to easing mode. Markets had been pricing this in since June."
+    },
+    {
+      "date": "2025-09",
+      "event": "Second 25bp rate cut to 3.75-4.00%. Accompanied by updated dot plot showing 1 additional cut in 2025.",
+      "impact": "Easing pace established at gradual 25bp cadence. Powell explicitly rejected calls for 50bp cuts despite Trump pressure."
+    },
+    {
+      "date": "2025-12",
+      "event": "Third 25bp rate cut to 3.50-3.75%. Year-end rate. Dot plot indicated only 1 cut expected in 2026. Three dissents from hawks.",
+      "impact": "Fed funds rate settled at 3.50-3.75% for year-end. Powell emphasized data-dependency and tariff-driven inflation uncertainty. The 3 dissents (highest in this dataset) signaled FOMC approaching consensus limits."
+    },
+    {
+      "date": "2025-07 through 2025-12",
+      "event": "Trump publicly called for rate cuts repeatedly, said 'I'd love to fire Powell.' White House legal team building 'for cause' case based on Fed HQ renovation costs ($2.5B) and alleged Congressional perjury.",
+      "impact": "Powell maintained independence throughout. Did not accelerate or decelerate cuts in response to political pressure. Supreme Court 1935 precedent (Humphrey's Executor) and Fed statutory protections held. Powell explicitly stated he would not resign if asked."
+    },
+    {
+      "date": "2026-01-28",
+      "event": "FOMC held rates at 3.50-3.75%. Statement noted 'elevated uncertainty' from tariff and geopolitical developments.",
+      "impact": "Pause in easing cycle. Powell signaled data-dependency and need to assess tariff pass-through to inflation before further cuts."
+    },
+    {
+      "date": "2026-02-28 to 2026-03",
+      "event": "US-Israel strike on Iran killed Supreme Leader Khamenei. Oil surged from ~$70 to $94/bbl. Strait of Hormuz disruption fears. Gas prices +21% in one month.",
+      "impact": "Massive supply-side inflation shock. The Iran war presents Powell with his hardest challenge: stagflationary shock (rising prices + growth risk) requiring opposite policy responses. March 2026 FOMC expected to hold rates. The oil shock may force Powell to halt the easing cycle entirely and potentially consider re-tightening if inflation expectations de-anchor."
+    }
+  ],
+  "behavioral_parameter_revisions_2025_2026": {
+    "political_pressure_resistance": {"original": 0.91, "revised": 0.95, "reason": "Trump's 2025-2026 pressure campaign was far more intense than any prior period (public calls to fire, legal case construction, attempted Board power seizure). Powell maintained full independence throughout — 3 cuts at his own pace, explicit refusal to resign. The legal firewall held and Powell's confidence in it was validated. Revised upward from 0.91."},
+    "supply_shock_response_evolution": {"original": 0.58, "revised": 0.68, "reason": "2025 tariff inflation treated with 'wait and see' rather than immediate tightening (unlike 2022 Russia-Ukraine energy shock). Iran oil shock (Feb-Mar 2026) presents new test: Powell is expected to hold rather than cut, absorbing the shock as temporary supply disruption. This represents a genuine evolution in distinguishing supply vs demand inflation — revised upward to reflect learned behavior."},
+    "energy_price_spike_response": {"original": 0.45, "revised": 0.62, "reason": "Oil at $94/bbl in March 2026 (up from ~$70 pre-strike) is a direct policy-relevant energy shock comparable to 2022 ($118/bbl). Unlike 2022, the Fed is in easing mode when the shock hits. Powell must now manage inflation expectations while avoiding over-tightening into a geopolitical recession. The stakes for energy price sensitivity have risen significantly."},
+    "stagflation_scenario_response": {"original": null, "revised": 0.55, "reason": "NEW PARAMETER. Iran war creates a textbook stagflation scenario: oil-driven inflation + geopolitical growth risk + tariff drag on trade. Powell's 2022-2023 framework (prioritize inflation over growth) may not apply cleanly when the inflation source is a supply shock that tightening cannot address. The optimal response is ambiguous and this parameter captures Powell's likely choice: lean toward holding rates (neither cutting nor hiking) while using communication to anchor expectations. Value of 0.55 reflects genuine uncertainty about which way Powell would lean if forced to choose."},
+    "easing_cycle_patience": {"original": 0.48, "revised": 0.58, "reason": "The 2025 easing cycle was notably gradual: 3 x 25bp cuts over 6 months, with dot plots consistently signaling fewer future cuts than market expectations. Powell resisted pressure for faster/larger cuts. This patience in easing mirrors the patience in tightening (14-month hold at peak). Revised upward to reflect confirmed behavioral pattern of deliberate pace in both directions."},
+    "iran_war_inflation_pass_through_sensitivity": {"original": null, "revised": 0.72, "reason": "NEW PARAMETER. Oil at $94/bbl → gas prices +21% in one month → headline CPI will spike. The critical question is whether Powell treats this as temporary (oil shock, look through) or as a de-anchoring risk (second-round effects through wages and expectations). Given Powell's post-transitory-error hawkish bias (Note 2 in special_notes), he is likely to take this seriously — hence high sensitivity value. If Brent exceeds $110-120 (JPMorgan scenario), this parameter would drive a rate hike consideration."}
+  },
+  "special_notes": "1. BEHAVIORAL REGIME SWITCH: Powell exhibits a clear two-regime behavior pattern. In 'inflation-fighting mode' (CPI > ~5%), normal constraints are suspended: gradualism overridden, guidance can be violated, market sensitivity near-zero, growth sacrificed. In 'normal mode' (CPI < 3.5%), full normal constraints apply. The switch is asymmetric: entry into inflation mode is fast (single data print can trigger), exit is very slow (requires sustained multi-month disinflation). 2. TRANSITORY ERROR SHADOW: The entire 2022-2026 dataset is shadowed by the 2021 'transitory' inflation misread. Powell's revealed hawkish bias (0.68 baseline), the 14-month hold, the resistance to premature celebration — all are likely partially explained by compensation for the prior error. This means Powell 2022-2026 may be somewhat more hawkish than equilibrium Powell — a one-time adjustment that could fade if inflation remains controlled. 3. SEPARATION OF TOOLS DOCTRINE: Powell demonstrated a clear principle of using the right tool for the right mandate. Banking stress → emergency facilities, not rate cuts. Balance sheet → for financial conditions fine-tuning. Interest rates → for macro inflation/employment mandate. This is a distinctive behavioral signature that distinguishes Powell from some predecessors. 4. COMMUNICATION AS A POLICY TOOL: Powell uses communication as aggressively as interest rates. The Jan 2024 explicit ruling out of March cut, the Aug 2024 Jackson Hole pre-commitment, the Nov 2024 dismissal of political interference — these are policy actions in themselves. The behavior matrix captures communication variables with high values (forward guidance, dot plot usage, press conference management) because communication IS the primary policy instrument in the modern Fed framework. 5. POLITICAL PRESSURE ANTIFRAGILITY: Counterintuitively, strong political pressure from Trump may have reinforced Powell's hawkish stance rather than weakened it. Capitulating to political pressure would destroy the institutional credibility he is explicitly trying to rebuild. In this sense, political pressure is potentially an input that shifts probability mass AWAY from the demanded direction — a negative political sensitivity coefficient. 6. NON-LINEAR THRESHOLD MAP: Key threshold values from data: CPI ~8.3-8.6% → 75bp hike territory; CPI ~3.0-4.0% → pause/step-down territory; CPI ~2.5% → cut consideration; Unemployment ~4.0% → concern threshold; Unemployment ~4.2-4.3% → cut trigger (joint with inflation near target). These thresholds should be implemented as step-function parameters, not continuous variables, in the Monte Carlo simulation. 7. 2025 EASING CYCLE BEHAVIORAL SIGNATURE (Opus deep analysis, 2026-03): The H2 2025 easing (3 x 25bp to 3.50-3.75%) revealed key behavioral parameters: (a) pace was deliberately gradual despite Trump demanding faster/larger cuts, (b) each cut was accompanied by hawkish dot plots signaling fewer future cuts than markets priced, (c) 3 dissents at the December meeting signal FOMC approaching its consensus limit — further dovish moves face increasing internal resistance. The easing cycle mirrors the tightening cycle in its deliberateness — Powell's revealed preference is for 25bp increments in either direction with extended pauses when uncertain. The simulation should model Powell's easing pace as 25bp/meeting with a maximum of 1 cut per 2 meetings under current conditions, decelerating to 1 per 3-4 meetings as rates approach neutral (~3.0%). 8. POLITICAL PRESSURE ANTIFRAGILITY CONFIRMED (Opus deep analysis, 2026-03): Trump's 2025-2026 pressure campaign was the most intense test of Fed independence since at least Nixon-Burns (1970s). Trump publicly called for Powell's firing, White House lawyers constructed legal theories for removal, and the administration attempted to have the Fed Board wrest operational control from the Chair. Powell's response: maintained exact same pace of cuts he would have chosen without pressure. The legal firewall (Humphrey's Executor, 1935) held, and the courts denied Trump's claimed authority. CRITICAL INSIGHT: Powell's anti-fragility hypothesis (Note 5) is now empirically confirmed — he maintained independence not despite the pressure but possibly partly because of it. Capitulating would have destroyed the very institutional credibility he spent 4 years rebuilding. For the simulation: political_pressure_sensitivity should have a NEGATIVE coefficient for Powell — pressure pushes him AWAY from the demanded direction, not toward it. 9. IRAN OIL SHOCK — POWELL'S HARDEST TEST (Opus deep analysis, 2026-03): The Feb-Mar 2026 Iran war and oil price surge ($70 → $94/bbl, potentially $120+ per JPMorgan) creates the most challenging policy environment of Powell's tenure. The dilemma: (a) Oil-driven inflation argues for holding or tightening, (b) geopolitical growth risk and market crash (S&P -28% YTD) argues for cutting, (c) tariff-driven inflation uncertainty (already present before Iran) adds another inflationary layer. Powell's likely response based on behavioral parameters: HOLD rates at 3.50-3.75% while using communication to signal that oil inflation is being monitored but treated as supply-side (look-through). If Brent sustains above $100 for >2 months, or if core PCE re-accelerates above 3.5%, Powell will likely shift to hawkish hold with explicit guidance against further cuts. If Brent exceeds $120 AND inflation expectations de-anchor (5-year breakeven above 3.0%), Powell faces a Burns-vs-Volcker moment: risk recession to anchor expectations, or accommodate and risk 1970s repeat. Given the 'transitory error shadow' (Note 2), Powell almost certainly chooses the Volcker path. The simulation should model this as a conditional branch: oil_price > $120 AND breakeven_5yr > 3.0% → probability of rate HIKE = 0.45."
+}

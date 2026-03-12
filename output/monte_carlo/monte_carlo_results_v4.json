@@ -1,0 +1,123 @@
+{
+  "version": "v4_leader_decisions",
+  "timestamp": "2026-03-13",
+  "config": {
+    "n_simulations": 1000000,
+    "max_horizon_months": 48,
+    "n_pca_components": 14,
+    "device": "cuda",
+    "n_clusters": 80,
+    "leaders": [
+      "trump",
+      "xi_jinping"
+    ]
+  },
+  "leader_parameters": {
+    "trump": {
+      "market_crash_threshold": 0.08,
+      "stock_market_report_card": 0.93,
+      "tariff_volatility": 0.9,
+      "tariff_escalation_rate": 0.15,
+      "tariff_pause_on_crash": 0.85,
+      "military_action_willingness": 0.92,
+      "military_momentum_init": 0.4,
+      "military_momentum_increment": 0.08,
+      "military_action_base_prob": 0.05,
+      "military_cooldown_months": 4,
+      "fed_pressure_probability": 0.3,
+      "fed_pressure_escalation": 0.05,
+      "deal_aspiration": 0.85,
+      "deal_month_threshold": 18
+    },
+    "xi": {
+      "taiwan_base_prob": 0.005,
+      "taiwan_prob_2027_peak": 0.03,
+      "taiwan_ramp_start_month": 6,
+      "taiwan_ramp_peak_month": 18,
+      "taiwan_action_prob_overall": 0.7,
+      "gdp_red_line_trigger": 0.85,
+      "stimulus_probability": 0.6,
+      "flood_stimulus_aversion": 0.82,
+      "stimulus_scale": 0.4,
+      "financial_crisis_response": 0.94,
+      "capital_control_threshold": 0.8,
+      "capital_control_probability": 0.4,
+      "information_fidelity": 0.41,
+      "delayed_response_months": 3,
+      "political_security_priority": 0.97,
+      "tech_retaliation_probability": 0.25
+    }
+  },
+  "leader_events": {
+    "tariff_escalation": 4358374,
+    "tariff_pause": 4410863,
+    "military_action": 2961060,
+    "fed_pressure": 16233816,
+    "taiwan_action": 698683,
+    "stimulus": 3992222,
+    "capital_controls": 17402381,
+    "tech_retaliation": 2976065
+  },
+  "scenarios": {
+    "No Leaders (v3 Full Shock)": {
+      "key_probabilities": {
+        "6_months": {
+          "any": 0.11553,
+          "two": 0.003666,
+          "all": 1.1e-05
+        },
+        "12_months": {
+          "any": 0.695513,
+          "two": 0.065015,
+          "all": 0.003472
+        },
+        "24_months": {
+          "any": 0.997672,
+          "two": 0.301012,
+          "all": 0.030494
+        },
+        "36_months": {
+          "any": 0.999997,
+          "two": 0.492437,
+          "all": 0.070235
+        },
+        "48_months": {
+          "any": 1.0,
+          "two": 0.636674,
+          "all": 0.128589
+        }
+      },
+      "elapsed_seconds": 2.3
+    },
+    "With Trump + Xi Decisions": {
+      "key_probabilities": {
+        "6_months": {
+          "any": 0.365929,
+          "two": 0.050153,
+          "all": 0.000555
+        },
+        "12_months": {
+          "any": 0.954425,
+          "two": 0.212822,
+          "all": 0.012674
+        },
+        "24_months": {
+          "any": 0.999999,
+          "two": 0.594037,
+          "all": 0.189188
+        },
+        "36_months": {
+          "any": 1.0,
+          "two": 0.870744,
+          "all": 0.467018
+        },
+        "48_months": {
+          "any": 1.0,
+          "two": 0.984046,
+          "all": 0.692864
+        }
+      },
+      "elapsed_seconds": 2.3
+    }
+  }
+}

@@ -1,0 +1,763 @@
+{
+  "country": "Japan",
+  "country_code": "JP",
+  "last_updated": "2026-03-12",
+  "roles": {
+    "head_of_government": {
+      "title": "Prime Minister",
+      "title_zh": "内阁总理大臣",
+      "leaders": [
+        {
+          "name": "Sato Eisaku",
+          "name_zh": "佐藤荣作",
+          "role": "Prime Minister",
+          "term_start": "1964-11",
+          "term_end": "1972-07",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "bureaucrat",
+          "background_detail": "Former Ministry of Railways official, served in multiple cabinet posts before becoming PM. Nobel Peace Prize laureate (1974) for non-nuclear principles.",
+          "predecessor": "Ikeda Hayato",
+          "key_economic_events": [
+            "Nixon Shock (1971) - end of dollar-gold convertibility",
+            "Okinawa reversion (1972)",
+            "Japan surpasses West Germany as 2nd largest economy"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Tanaka Kakuei",
+          "name_zh": "田中角荣",
+          "role": "Prime Minister",
+          "term_start": "1972-07",
+          "term_end": "1974-12",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "businessman",
+          "background_detail": "Self-made construction magnate with no university degree. Known as 'the computerized bulldozer'. Architect of Japan's infrastructure boom.",
+          "predecessor": "Sato Eisaku",
+          "key_economic_events": [
+            "1973 Oil Crisis - devastating impact on oil-dependent Japan",
+            "Normalization of relations with China (1972)",
+            "Japanese Archipelago Remodeling Plan - massive infrastructure spending",
+            "Runaway inflation exceeding 20%"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Miki Takeo",
+          "name_zh": "三木武夫",
+          "role": "Prime Minister",
+          "term_start": "1974-12",
+          "term_end": "1976-12",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "lawyer",
+          "background_detail": "Known as 'Mr. Clean' for anti-corruption stance. Long-serving parliamentarian focused on political reform.",
+          "predecessor": "Tanaka Kakuei",
+          "key_economic_events": [
+            "Post-oil crisis recession and recovery",
+            "Lockheed scandal investigation (Tanaka arrested)",
+            "Anti-Monopoly Law strengthening"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Fukuda Takeo",
+          "name_zh": "福田赳夫",
+          "role": "Prime Minister",
+          "term_start": "1976-12",
+          "term_end": "1978-12",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "bureaucrat",
+          "background_detail": "Former Ministry of Finance official, specialist in fiscal policy. Father of later PM Fukuda Yasuo.",
+          "predecessor": "Miki Takeo",
+          "key_economic_events": [
+            "Fukuda Doctrine - expanded relations with ASEAN",
+            "Yen appreciation crisis",
+            "Fiscal stimulus to combat post-oil-crisis stagnation"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Ohira Masayoshi",
+          "name_zh": "大平正芳",
+          "role": "Prime Minister",
+          "term_start": "1978-12",
+          "term_end": "1980-06",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "bureaucrat",
+          "background_detail": "Former Ministry of Finance official and Foreign Minister. Died in office during 1980 election campaign.",
+          "predecessor": "Fukuda Takeo",
+          "key_economic_events": [
+            "Second Oil Crisis (1979)",
+            "Proposed consumption tax (failed, contributed to political crisis)",
+            "Died in office June 1980"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Suzuki Zenko",
+          "name_zh": "铃木善幸",
+          "role": "Prime Minister",
+          "term_start": "1980-07",
+          "term_end": "1982-11",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "bureaucrat",
+          "background_detail": "Fisheries policy specialist, considered a compromise candidate after Ohira's sudden death.",
+          "predecessor": "Ohira Masayoshi",
+          "key_economic_events": [
+            "Administrative and fiscal reform drive",
+            "Japan-US trade friction intensifies",
+            "Privatization discussions begin (JNR, NTT)"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Nakasone Yasuhiro",
+          "name_zh": "中曾根康弘",
+          "role": "Prime Minister",
+          "term_start": "1982-11",
+          "term_end": "1987-11",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "bureaucrat",
+          "background_detail": "Former Home Ministry official, hawkish defense stance, close relationship with Reagan and Thatcher. Pursued privatization and deregulation.",
+          "predecessor": "Suzuki Zenko",
+          "key_economic_events": [
+            "Plaza Accord (1985) - yen appreciation",
+            "Privatization of JNR (Japan National Railways) into JR Group",
+            "NTT and Japan Tobacco privatization",
+            "Beginning of asset bubble",
+            "Maekawa Report on economic restructuring"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Takeshita Noboru",
+          "name_zh": "�的下登",
+          "role": "Prime Minister",
+          "term_start": "1987-11",
+          "term_end": "1989-06",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "bureaucrat",
+          "background_detail": "Tanaka faction heir, master of backroom politics. Successfully introduced the consumption tax.",
+          "predecessor": "Nakasone Yasuhiro",
+          "key_economic_events": [
+            "Introduction of 3% consumption tax (1989)",
+            "Peak of Japanese asset bubble",
+            "Recruit scandal forced resignation",
+            "Nikkei 225 approaching all-time high"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Uno Sosuke",
+          "name_zh": "宇野宗佑",
+          "role": "Prime Minister",
+          "term_start": "1989-06",
+          "term_end": "1989-08",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "bureaucrat",
+          "background_detail": "Former Foreign Minister, one of the shortest-serving PMs. Resigned after personal scandal.",
+          "predecessor": "Takeshita Noboru",
+          "key_economic_events": [
+            "Geisha scandal forced resignation after 69 days",
+            "LDP suffered major upper house election defeat"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Kaifu Toshiki",
+          "name_zh": "海部俊树",
+          "role": "Prime Minister",
+          "term_start": "1989-08",
+          "term_end": "1991-11",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "bureaucrat",
+          "background_detail": "Clean-image politician chosen to restore LDP credibility after scandals. Relatively weak factional power base.",
+          "predecessor": "Uno Sosuke",
+          "key_economic_events": [
+            "Japanese asset bubble burst (1990-91)",
+            "Nikkei crash from 38,957 to below 20,000",
+            "Gulf War contribution controversy ($13 billion)",
+            "Political reform attempts failed"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Miyazawa Kiichi",
+          "name_zh": "宫泽喜一",
+          "role": "Prime Minister",
+          "term_start": "1991-11",
+          "term_end": "1993-08",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "bureaucrat",
+          "background_detail": "Former Ministry of Finance official, fluent English speaker, experienced finance minister. Last PM of unbroken LDP rule.",
+          "predecessor": "Kaifu Toshiki",
+          "key_economic_events": [
+            "Deepening post-bubble recession",
+            "Beginning of Lost Decade",
+            "Non-performing loan crisis emerges",
+            "LDP loses power for first time (1993)",
+            "No-confidence vote triggered general election"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Hosokawa Morihiro",
+          "name_zh": "细川护熙",
+          "role": "Prime Minister",
+          "term_start": "1993-08",
+          "term_end": "1994-04",
+          "party_or_affiliation": "Japan New Party",
+          "background": "bureaucrat",
+          "background_detail": "Former governor of Kumamoto Prefecture, descended from feudal lords. Led the first non-LDP coalition government since 1955.",
+          "predecessor": "Miyazawa Kiichi",
+          "key_economic_events": [
+            "Electoral reform - new mixed electoral system",
+            "Yen surges past 100 per dollar",
+            "Coalition government instability",
+            "Resigned over financial scandal allegations"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Hata Tsutomu",
+          "name_zh": "羽田孜",
+          "role": "Prime Minister",
+          "term_start": "1994-04",
+          "term_end": "1994-06",
+          "party_or_affiliation": "Shinseito (Japan Renewal Party)",
+          "background": "bureaucrat",
+          "background_detail": "Former LDP member who broke away. Served only 64 days as PM, shortest post-war tenure at the time.",
+          "predecessor": "Hosokawa Morihiro",
+          "key_economic_events": [
+            "Minority government lasted only 64 days",
+            "Continued economic stagnation"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Murayama Tomiichi",
+          "name_zh": "村山富市",
+          "role": "Prime Minister",
+          "term_start": "1994-06",
+          "term_end": "1996-01",
+          "party_or_affiliation": "Social Democratic Party (SDP)",
+          "background": "bureaucrat",
+          "background_detail": "First socialist PM since 1948. Led unlikely coalition with LDP. Known for Murayama Statement on WWII apology.",
+          "predecessor": "Hata Tsutomu",
+          "key_economic_events": [
+            "Great Hanshin (Kobe) Earthquake (1995)",
+            "Yen hits record 79.75 per dollar (April 1995)",
+            "Tokyo subway sarin attack (1995)",
+            "Jusen housing loan crisis - first bailout",
+            "Murayama Statement on war responsibility"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Hashimoto Ryutaro",
+          "name_zh": "桥本龙太郎",
+          "role": "Prime Minister",
+          "term_start": "1996-01",
+          "term_end": "1998-07",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "bureaucrat",
+          "background_detail": "Known for administrative reform agenda. Raised consumption tax from 3% to 5%, contributing to recession.",
+          "predecessor": "Murayama Tomiichi",
+          "key_economic_events": [
+            "Big Bang financial deregulation",
+            "Consumption tax raised to 5% (1997)",
+            "Asian Financial Crisis (1997)",
+            "Yamaichi Securities and Hokkaido Takushoku Bank collapse",
+            "Economy fell into deep recession"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Obuchi Keizo",
+          "name_zh": "小渊惠三",
+          "role": "Prime Minister",
+          "term_start": "1998-07",
+          "term_end": "2000-04",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "bureaucrat",
+          "background_detail": "Initially derided as 'cold pizza', proved more capable than expected. Died of stroke while in office.",
+          "predecessor": "Hashimoto Ryutaro",
+          "key_economic_events": [
+            "Massive fiscal stimulus packages",
+            "Financial Revitalization Law - bad loan resolution",
+            "Long-Term Credit Bank nationalization",
+            "Y2K preparations",
+            "Suffered stroke in office, died May 2000"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Mori Yoshiro",
+          "name_zh": "森喜朗",
+          "role": "Prime Minister",
+          "term_start": "2000-04",
+          "term_end": "2001-04",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "bureaucrat",
+          "background_detail": "Succeeded Obuchi after backroom deal. Historically low approval ratings. Later led Tokyo 2020 Olympics organizing committee.",
+          "predecessor": "Obuchi Keizo",
+          "key_economic_events": [
+            "Dot-com bubble burst impacts Japan",
+            "Record-low approval ratings (~7%)",
+            "IT revolution policy initiative",
+            "Continued economic stagnation"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Koizumi Junichiro",
+          "name_zh": "小泉纯一郎",
+          "role": "Prime Minister",
+          "term_start": "2001-04",
+          "term_end": "2006-09",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "bureaucrat",
+          "background_detail": "Maverick reformer who broke LDP conventions. Privatized postal system, pursued structural reform. Hugely popular 'lion-maned' PM.",
+          "predecessor": "Mori Yoshiro",
+          "key_economic_events": [
+            "Postal privatization (2005)",
+            "Structural reform - 'reform with no sacred cows'",
+            "Takenaka banking reform - NPL resolution",
+            "Japan's longest postwar economic expansion began",
+            "Quantitative easing by BoJ during tenure",
+            "Yasukuni Shrine visits strained China/Korea relations"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Abe Shinzo",
+          "name_zh": "安倍晋三",
+          "role": "Prime Minister (1st term)",
+          "term_start": "2006-09",
+          "term_end": "2007-09",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "bureaucrat",
+          "background_detail": "Youngest postwar PM at the time. First term cut short by health issues and scandals. Grandson of PM Kishi Nobusuke.",
+          "predecessor": "Koizumi Junichiro",
+          "key_economic_events": [
+            "Continued Koizumi's economic recovery",
+            "Cabinet scandals and pension record crisis",
+            "LDP lost upper house majority",
+            "Resigned citing health reasons (ulcerative colitis)"
+          ],
+          "depth_level": 1
+        },
+        {
+          "name": "Fukuda Yasuo",
+          "name_zh": "福田康夫",
+          "role": "Prime Minister",
+          "term_start": "2007-09",
+          "term_end": "2008-09",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "businessman",
+          "background_detail": "Son of former PM Fukuda Takeo. Former oil company executive before entering politics. Steady but uninspiring leadership.",
+          "predecessor": "Abe Shinzo",
+          "key_economic_events": [
+            "Global Financial Crisis beginning",
+            "Twisted Diet - opposition controlled upper house",
+            "Rising food and fuel prices",
+            "Resigned abruptly citing political deadlock"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Aso Taro",
+          "name_zh": "麻生太郎",
+          "role": "Prime Minister",
+          "term_start": "2008-09",
+          "term_end": "2009-09",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "businessman",
+          "background_detail": "Grandson of PM Yoshida Shigeru. Cement company executive. Known for manga enthusiasm and verbal gaffes.",
+          "predecessor": "Fukuda Yasuo",
+          "key_economic_events": [
+            "Global Financial Crisis - Lehman shock hit Japan hard",
+            "GDP contracted sharply (-5.5% in 2009)",
+            "Multiple stimulus packages totaling ~$250B",
+            "LDP suffered historic election defeat to DPJ"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Hatoyama Yukio",
+          "name_zh": "鸠山由纪夫",
+          "role": "Prime Minister",
+          "term_start": "2009-09",
+          "term_end": "2010-06",
+          "party_or_affiliation": "Democratic Party of Japan (DPJ)",
+          "background": "academic",
+          "background_detail": "Stanford PhD in engineering. Heir to Bridgestone fortune. Led DPJ to historic victory ending LDP rule.",
+          "predecessor": "Aso Taro",
+          "key_economic_events": [
+            "DPJ first government - promised to shift from bureaucrat-led to politician-led governance",
+            "Child allowance and highway toll-free policies",
+            "Futenma base relocation controversy",
+            "Resigned over broken Okinawa base promise"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Kan Naoto",
+          "name_zh": "菅直人",
+          "role": "Prime Minister",
+          "term_start": "2010-06",
+          "term_end": "2011-09",
+          "party_or_affiliation": "Democratic Party of Japan (DPJ)",
+          "background": "lawyer",
+          "background_detail": "Grassroots activist turned politician. Patent attorney background. Led Japan through triple disaster.",
+          "predecessor": "Hatoyama Yukio",
+          "key_economic_events": [
+            "Great East Japan Earthquake and Tsunami (2011-03-11)",
+            "Fukushima Daiichi nuclear disaster",
+            "Yen hit postwar record high of 75.35",
+            "Massive reconstruction spending",
+            "Proposed consumption tax increase"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Noda Yoshihiko",
+          "name_zh": "野田佳彦",
+          "role": "Prime Minister",
+          "term_start": "2011-09",
+          "term_end": "2012-12",
+          "party_or_affiliation": "Democratic Party of Japan (DPJ)",
+          "background": "bureaucrat",
+          "background_detail": "Former finance minister. Pushed through controversial consumption tax hike legislation. Last DPJ prime minister.",
+          "predecessor": "Kan Naoto",
+          "key_economic_events": [
+            "Consumption tax increase legislation passed (to 8% then 10%)",
+            "Senkaku Islands nationalization - China tensions",
+            "Continued strong yen hurting exporters",
+            "DPJ suffered devastating election loss"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Abe Shinzo",
+          "name_zh": "安倍晋三",
+          "role": "Prime Minister (2nd term)",
+          "term_start": "2012-12",
+          "term_end": "2020-09",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "bureaucrat",
+          "background_detail": "Longest-serving PM in Japanese history. Architect of 'Abenomics' - three arrows of monetary easing, fiscal stimulus, structural reform. Assassinated July 2022.",
+          "predecessor": "Noda Yoshihiko",
+          "key_economic_events": [
+            "Abenomics - three arrows economic policy",
+            "BoJ massive quantitative and qualitative easing (QQE)",
+            "Consumption tax raised to 8% (2014), then 10% (2019)",
+            "TPP negotiations and signing",
+            "Negative interest rate policy (2016)",
+            "COVID-19 pandemic response (2020)",
+            "Record-long economic expansion (2012-2018)",
+            "Resigned due to ulcerative colitis recurrence"
+          ],
+          "depth_level": 1
+        },
+        {
+          "name": "Suga Yoshihide",
+          "name_zh": "菅义伟",
+          "role": "Prime Minister",
+          "term_start": "2020-09",
+          "term_end": "2021-10",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "bureaucrat",
+          "background_detail": "Former Chief Cabinet Secretary under Abe for nearly 8 years. Son of a strawberry farmer from Akita. Focused on digital reform and COVID vaccination.",
+          "predecessor": "Abe Shinzo",
+          "key_economic_events": [
+            "COVID-19 vaccination rollout",
+            "Tokyo Olympics 2021 (held without spectators)",
+            "Digital Agency established",
+            "2050 carbon neutrality pledge",
+            "Declined to run for LDP leadership reelection"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Kishida Fumio",
+          "name_zh": "岸田文雄",
+          "role": "Prime Minister",
+          "term_start": "2021-10",
+          "term_end": "2024-10",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "bureaucrat",
+          "background_detail": "Former Foreign Minister, Hiroshima native. Pursued 'new capitalism' blending growth and distribution. Stepped down amid LDP fundraising scandal.",
+          "predecessor": "Suga Yoshihide",
+          "key_economic_events": [
+            "Historic yen depreciation (past 150/dollar)",
+            "BoJ ended negative interest rates (2024-03)",
+            "BoJ ended yield curve control",
+            "Record defense spending increase",
+            "New Capitalism - wage growth push",
+            "Nikkei 225 surpassed 1989 bubble-era high",
+            "LDP slush fund scandal",
+            "Stepped down September 2024"
+          ],
+          "depth_level": 1
+        },
+        {
+          "name": "Ishiba Shigeru",
+          "name_zh": "石破茂",
+          "role": "Prime Minister",
+          "term_start": "2024-10",
+          "term_end": "2025-09",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "bureaucrat",
+          "background_detail": "Former Defense Minister, known as military policy expert and LDP intra-party critic. Won LDP leadership on 5th attempt after decades as a maverick backbencher. Resigned September 7, 2025 after LDP-Komeito coalition lost majority in House of Councillors.",
+          "predecessor": "Kishida Fumio",
+          "key_economic_events": [
+            "LDP lost majority in 2024 lower house election - minority government",
+            "Continued BoJ rate normalization",
+            "Yen stabilization efforts",
+            "Regional revitalization policy focus",
+            "US-Japan trade deal framework negotiations (15% tariff, $550B investment)",
+            "Resigned September 7, 2025 after upper house coalition defeat"
+          ],
+          "depth_level": 1
+        },
+        {
+          "name": "Takaichi Sanae",
+          "name_zh": "高市早苗",
+          "role": "Prime Minister",
+          "term_start": "2025-10",
+          "term_end": "incumbent",
+          "party_or_affiliation": "Liberal Democratic Party (LDP)",
+          "background": "bureaucrat",
+          "background_detail": "Japan's first female Prime Minister. Ultraconservative with ties to far-right LDP factions. Former Minister of Internal Affairs and Communications. Close ideological successor to Abe Shinzo. Known for Yasukuni Shrine visits and hawkish defense posture. Won LDP presidential election 237-149 in lower house vote, elected by parliament October 21, 2025.",
+          "predecessor": "Ishiba Shigeru",
+          "key_economic_events": [
+            "Japan's first female Prime Minister",
+            "US-Japan Trade Deal finalized July 2025: 15% tariff rate, $550B investment commitment",
+            "BoJ rate normalization continued (0.75% by December 2025)",
+            "Abenomics continuation and expansion — fiscal stimulus, defense spending increase",
+            "Yen remained soft at 156-157/USD despite BOJ hikes"
+          ],
+          "depth_level": 1
+        }
+      ]
+    },
+    "central_bank_governor": {
+      "title": "Governor of the Bank of Japan",
+      "title_zh": "日本银行总裁",
+      "leaders": [
+        {
+          "name": "Sasaki Tadashi",
+          "name_zh": "佐佐木直",
+          "role": "Governor, Bank of Japan",
+          "term_start": "1969-12",
+          "term_end": "1974-12",
+          "party_or_affiliation": "Bank of Japan",
+          "background": "bureaucrat",
+          "background_detail": "Career Bank of Japan official. Navigated the Nixon Shock and first oil crisis.",
+          "predecessor": "Usami Makoto",
+          "key_economic_events": [
+            "Nixon Shock - end of Bretton Woods (1971)",
+            "Shift to floating exchange rates (1973)",
+            "First Oil Crisis (1973) - inflation surged past 20%",
+            "Tight monetary policy to combat inflation"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Morinaga Teiichiro",
+          "name_zh": "森永�的一郎",
+          "role": "Governor, Bank of Japan",
+          "term_start": "1974-12",
+          "term_end": "1979-12",
+          "party_or_affiliation": "Bank of Japan",
+          "background": "bureaucrat",
+          "background_detail": "Former Ministry of Finance official. Managed post-oil crisis monetary stabilization.",
+          "predecessor": "Sasaki Tadashi",
+          "key_economic_events": [
+            "Post-oil crisis stabilization",
+            "Gradual disinflation",
+            "Yen appreciation after Smithsonian Agreement collapse",
+            "Second Oil Crisis beginning (1979)"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Maekawa Haruo",
+          "name_zh": "前川春雄",
+          "role": "Governor, Bank of Japan",
+          "term_start": "1979-12",
+          "term_end": "1984-12",
+          "party_or_affiliation": "Bank of Japan",
+          "background": "bureaucrat",
+          "background_detail": "Career BoJ official. Later authored the 'Maekawa Report' (1986) recommending economic restructuring.",
+          "predecessor": "Morinaga Teiichiro",
+          "key_economic_events": [
+            "Second Oil Crisis management",
+            "Tight monetary policy brought inflation under control",
+            "Japan-US trade friction intensifies",
+            "Financial market liberalization begins"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Sumita Satoshi",
+          "name_zh": "澄田智",
+          "role": "Governor, Bank of Japan",
+          "term_start": "1984-12",
+          "term_end": "1989-12",
+          "party_or_affiliation": "Ministry of Finance",
+          "background": "bureaucrat",
+          "background_detail": "Former Ministry of Finance Vice Minister. Oversaw aggressive monetary easing post-Plaza Accord that fueled the asset bubble.",
+          "predecessor": "Maekawa Haruo",
+          "key_economic_events": [
+            "Plaza Accord (1985) - coordinated yen appreciation",
+            "Aggressive monetary easing to offset yen impact",
+            "Discount rate cut to record-low 2.5%",
+            "Asset bubble inflated - land and stock prices soared",
+            "Louvre Accord (1987)"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Mieno Yasushi",
+          "name_zh": "三重野康",
+          "role": "Governor, Bank of Japan",
+          "term_start": "1989-12",
+          "term_end": "1994-12",
+          "party_or_affiliation": "Bank of Japan",
+          "background": "bureaucrat",
+          "background_detail": "Career BoJ official known as 'the Demon' for aggressive rate hikes. Deliberately burst the asset bubble.",
+          "predecessor": "Sumita Satoshi",
+          "key_economic_events": [
+            "Raised discount rate 5 times to burst bubble (2.5% → 6%)",
+            "Nikkei crashed from 38,957 (Dec 1989) to ~15,000",
+            "Real estate prices collapsed",
+            "Beginning of Lost Decade",
+            "Began cutting rates as recession deepened"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Matsushita Yasuo",
+          "name_zh": "松下康雄",
+          "role": "Governor, Bank of Japan",
+          "term_start": "1994-12",
+          "term_end": "1998-03",
+          "party_or_affiliation": "Ministry of Finance",
+          "background": "bureaucrat",
+          "background_detail": "Former Ministry of Finance official. Oversaw period of deepening financial crisis and banking failures.",
+          "predecessor": "Mieno Yasushi",
+          "key_economic_events": [
+            "Discount rate cut to historic low of 0.5% (1995)",
+            "Asian Financial Crisis (1997)",
+            "Yamaichi Securities collapse (1997)",
+            "Hokkaido Takushoku Bank failure",
+            "BoJ scandal led to early departure"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Hayami Masaru",
+          "name_zh": "速水优",
+          "role": "Governor, Bank of Japan",
+          "term_start": "1998-03",
+          "term_end": "2003-03",
+          "party_or_affiliation": "Bank of Japan",
+          "background": "businessman",
+          "background_detail": "Former Nissho Iwai (trading company) chairman. BoJ career before business. Advocated BoJ independence from government.",
+          "predecessor": "Matsushita Yasuo",
+          "key_economic_events": [
+            "Zero Interest Rate Policy (ZIRP) introduced (1999)",
+            "Premature rate hike (2000) reversed after criticism",
+            "Launched first Quantitative Easing program (2001)",
+            "Deflation became entrenched",
+            "New BoJ Law granting independence (1998)"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Fukui Toshihiko",
+          "name_zh": "福井俊彦",
+          "role": "Governor, Bank of Japan",
+          "term_start": "2003-03",
+          "term_end": "2008-03",
+          "party_or_affiliation": "Bank of Japan",
+          "background": "bureaucrat",
+          "background_detail": "Career BoJ official. Expanded then exited QE. Personal investment scandal (Murakami Fund) damaged credibility.",
+          "predecessor": "Hayami Masaru",
+          "key_economic_events": [
+            "Expanded quantitative easing",
+            "Ended QE (2006) as economy recovered",
+            "Raised rates twice (to 0.5%)",
+            "Murakami Fund investment scandal",
+            "Global financial crisis emerging at term end"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Shirakawa Masaaki",
+          "name_zh": "白川方明",
+          "role": "Governor, Bank of Japan",
+          "term_start": "2008-04",
+          "term_end": "2013-03",
+          "party_or_affiliation": "Bank of Japan",
+          "background": "academic",
+          "background_detail": "BoJ career official with academic background (University of Chicago). Cautious monetary policy drew criticism for insufficient action against deflation.",
+          "predecessor": "Fukui Toshihiko",
+          "key_economic_events": [
+            "Global Financial Crisis response",
+            "Great East Japan Earthquake emergency liquidity (2011)",
+            "Comprehensive Monetary Easing (2010)",
+            "Yen appreciation to record 75.35",
+            "1% inflation target adopted (later raised to 2%)",
+            "Resigned early as Abe government pressured for change"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Kuroda Haruhiko",
+          "name_zh": "黑田东彦",
+          "role": "Governor, Bank of Japan",
+          "term_start": "2013-03",
+          "term_end": "2023-04",
+          "party_or_affiliation": "Ministry of Finance / Asian Development Bank",
+          "background": "bureaucrat",
+          "background_detail": "Former Ministry of Finance official and ADB President. Architect of unprecedented monetary easing under Abenomics. Served two full terms.",
+          "predecessor": "Shirakawa Masaaki",
+          "key_economic_events": [
+            "Quantitative and Qualitative Easing 'bazooka' (2013)",
+            "2% inflation target with 'whatever it takes' commitment",
+            "Negative Interest Rate Policy (-0.1%, 2016)",
+            "Yield Curve Control introduced (2016)",
+            "BoJ became largest holder of Japanese stocks via ETFs",
+            "COVID-19 emergency monetary measures",
+            "Yen depreciation accelerated in final year",
+            "Maintained ultra-loose policy despite global tightening"
+          ],
+          "depth_level": 1
+        },
+        {
+          "name": "Ueda Kazuo",
+          "name_zh": "植田和男",
+          "role": "Governor, Bank of Japan",
+          "term_start": "2023-04",
+          "term_end": "incumbent",
+          "party_or_affiliation": "Academic",
+          "background": "academic",
+          "background_detail": "MIT-trained economist, former BoJ Policy Board member, University of Tokyo professor. First academic governor since WWII.",
+          "predecessor": "Kuroda Haruhiko",
+          "key_economic_events": [
+            "Ended Yield Curve Control (2023-2024)",
+            "Ended negative interest rates (2024-03)",
+            "First rate hikes since 2007",
+            "Managing normalization of ultra-loose policy",
+            "Yen volatility during policy transition",
+            "August 2024 market shock after rate hike"
+          ],
+          "depth_level": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "leader": "Gordon Brown",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "Chancellor of the Exchequer 1997-05-02 to 2007-06-27 (10 years, longest continuous UK chancellorship since Nicholas Vansittart 1812-1823)",
+    "Prime Minister 2007-06-27 to 2010-05-11",
+    "Shadow Chancellor 1992-1997, Labour Shadow Chancellor from 1992, MP for Kirkcaldy and Cowdenbeath 1983-2015",
+    "Key events as Chancellor: Bank of England independence May 1997, UK gold sale 1999-2002 (395 tonnes at $275-296/oz average), fiscal rules (Golden Rule + Sustainable Investment Rule), Scottish Parliament devolution 1999, PFI expansion, Northern Rock nationalisation 2008",
+    "Key events as PM: 2008 Global Financial Crisis — led international response, G20 London Summit April 2009 ($1.1T stimulus package, largest coordinated fiscal response in history), Northern Rock run and nationalisation 2007, bank recapitalisation October 2008, Royal Bank of Scotland/HBOS bailouts",
+    "Background: Edinburgh University history PhD (thesis on Scottish Labour Party), journalist, BBC Scotland, early political career in Labour Scotland, close to Robin Cook and Donald Dewar, Christian (son of Church of Scotland minister)",
+    "Economic framework: macro-Keynesian with micro-market, inflation targeting, fiscal rules, 'post neo-classical endogenous growth theory' (John Prescott: 'That's brilliant, Gordon, but it won't fit on a bumper sticker')",
+    "Academic/analytical sources: Alistair Darling (Back from the Brink, 2011), Andrew Rawnsley (End of the Party, 2010), Robert Peston (Brown's Britain, 2005), Paul Krugman commentary on G20 2009, IMF Working Papers on 2009 coordinated fiscal stimulus"
+  ],
+  "behavior_matrix": {
+    "description": "Level 2 behavior matrix compiled for Gordon Brown. Two distinct phases: (1) Chancellor 1997-2007 — ten years of macroeconomic management, largely successful but with critical structural failures including gold sale at historic lows, light-touch FSA framework, and PFI fiscal off-balance-sheet expansion; (2) PM 2007-2010 — politically inept peacetime leader who became an extraordinary crisis manager during 2008. The contrast is the defining feature of Brown's career: his analytical depth, global network, and crisis management skills were perfectly calibrated for the 2008 emergency; his interpersonal limitations, inability to communicate emotional connection, and the accumulated political cost of waiting for Blair's job made him a poor peacetime PM. The G20 London Summit 2009 — where he coordinated $1.1 trillion in global fiscal stimulus — is arguably the most consequential economic diplomacy since the 1944 Bretton Woods conference. Brown's background as son of a Church of Scotland minister gave him a moral framework (duty, prudence, thrift) that shaped both his economic philosophy and his personal style.",
+    "dimensions": 52,
+    "vectors": [
+      {
+        "label": "macroeconomic_intellectual_depth",
+        "value": 0.92,
+        "evidence": "Brown was the most intellectually serious economic mind to hold UK Treasury since perhaps Keynes-era. PhD in history but self-educated in economics to post-graduate level. Post-neo-classical endogenous growth theory was a genuine intellectual framework (Romer, Lucas) translated into policy language. His relationship with economists: Joseph Stiglitz, Paul Volcker, Larry Summers as serious intellectual interlocutors. In the 2008 crisis, Brown's economic analysis was ahead of most finance ministers — he immediately understood this was a systemic liquidity and solvency crisis requiring coordinated global response, not just bilateral central bank action. That analytical clarity drove the G20 outcome."
+      },
+      {
+        "label": "fiscal_rule_credibility_construction",
+        "value": 0.88,
+        "evidence": "The Golden Rule (borrow only to invest over the economic cycle) and Sustainable Investment Rule (debt below 40% GDP) were Brown's most important legacy as Chancellor. They were credible in 1997-2001 — the UK ran surpluses for the first time since WWII. The mechanism: pre-committed publicly to rules, independent Office for Budget Responsibility (precursor), Comprehensive Spending Reviews tied to fiscal position. The rules created a decade of market confidence in UK fiscal management. Problem: the definition of 'economic cycle' was periodically redefined when convenient, and the structural deficit was understated pre-2008. Chilcot found something similar: the fiscal position was 'materially weaker than the Chancellor presented' by 2007."
+      },
+      {
+        "label": "bank_of_england_independence_design",
+        "value": 0.95,
+        "evidence": "The most significant UK monetary policy decision of the 20th century — Bank of England operational independence, announced 5 days after the 1997 election. Brown designed the MPC structure, the inflation target (2% HICP), and the split between monetary policy (independent) and financial stability (Treasury). This was Brown's initiative, executed before Blair had fully settled in. The design reflected sophisticated understanding of time-inconsistency in monetary policy and central bank credibility theory. It worked: UK inflation stayed close to target 1997-2007, longest stable period since pre-WWI gold standard. The flaw: splitting monetary policy and banking supervision (FSA) created the regulatory gap that allowed Northern Rock to build a vulnerable wholesale-funding model."
+      },
+      {
+        "label": "gold_sale_historic_mispricing",
+        "value": 0.15,
+        "evidence": "The 'Brown Bottom' — selling 395 tonnes of UK gold reserves (roughly half) between 1999-2002 at average price ~$275-296/oz. Gold subsequently rose to $1,900/oz by 2011. Cost to UK taxpayer: approximately £7-11bn in forgone value. Brown's stated rationale: diversification of reserve assets, gold earns no income. Technical defence: the diversification argument was standard reserve management doctrine in 1999. But: (1) Brown pre-announced the sales (HM Treasury announcement May 1999 caused gold price to drop before sale, worsening proceeds), (2) the timing — gold was at 20-year lows — reflected no market timing awareness, (3) the pre-announcement was unusual and against standard reserve management practice. Score of 0.15 reflects this as one of the worst market-timing decisions by any OECD treasury minister in the period."
+      },
+      {
+        "label": "light_touch_financial_regulation_endorsement",
+        "value": 0.78,
+        "evidence": "The FSA 'light-touch' regulatory framework was Brown's design as Chancellor. The City of London's contribution to UK revenues made regulation politically toxic — Brown competed with Blair to reassure the City. Key decisions: FSA's 'risk-based' regulation allowing banks to set their own capital requirements (under Basel II), no intervention in Northern Rock's wholesale funding model (60% funded via short-term market borrowing vs retail deposits), no caps on bank leverage (RBS reached 50:1 by 2007). Brown regularly praised 'light-touch regulation' in Mansion House speeches. The 2008 crisis revealed that 'light-touch' meant 'inadequate' for systemic risks. Score of 0.78 reflects deep complicity in the regulatory architecture that created 2008 vulnerability."
+      },
+      {
+        "label": "pfi_off_balance_sheet_expansion",
+        "value": 0.75,
+        "evidence": "Brown as Chancellor drove PFI expansion from £5bn to £55bn committed (1997-2007). The fiscal advantage: PFI spending didn't count against the Sustainable Investment Rule. This was accounting arbitrage — spending the government would otherwise have to borrow for was reclassified as a service contract. Brown understood the long-term cost (PFI premiums 30-50% above equivalent public borrowing) but the short-term political economy was overwhelming: hospitals and schools built, debt rules met. By 2012 annual PFI payments were £2.4bn. The hospitals built are real; the costs were kicked to future taxpayers. Score of 0.75 reflects deliberate use of accounting structure at scale — not fraud, but deliberately choosing the expensive option for political convenience."
+      },
+      {
+        "label": "g20_london_2009_crisis_coordination",
+        "value": 0.97,
+        "evidence": "The G20 London Summit April 2009 is Brown's most significant achievement. He chaired a coordinated $1.1 trillion fiscal stimulus package — the largest in world economic history. Key achievements: $750bn IMF resources expansion (quadrupled from $250bn), trade finance guarantee of $250bn, agreement on coordinated fiscal stimulus ($5tn by G20 nations), agreement on new global financial regulation framework (FSB creation), crackdown on tax havens. Paul Krugman: 'Gordon Brown saved the world.' The mechanism: Brown spent 18 months pre-crisis building relationships (Treasury officials globally), understood the systemic risk, called G20 leaders personally, and used UK G20 Presidency to create the coordinating structure. This was crisis management at the highest level — analytical understanding + diplomatic network + political will + execution."
+      },
+      {
+        "label": "2008_uk_bank_recapitalisation_innovation",
+        "value": 0.95,
+        "evidence": "Brown and Darling's decision to recapitalise UK banks directly (October 2008) was the model that the rest of the world copied. When Lehman collapsed September 2008, the initial response (guarantees, liquidity) was inadequate — banks were insolvent, not just illiquid. Brown's innovation: use public equity injection to recapitalise banks (£37bn in RBS, HBOS, Lloyds-TSB), taking government stakes. This was opposed by Treasury officials who preferred the US TARP model (asset purchase). Brown's argument: asset purchase doesn't fix solvency, only equity does. He was right. Within 2 weeks Paulson reversed US policy to adopt the recapitalisation model. European governments followed. This was a genuine policy innovation under extreme time pressure."
+      },
+      {
+        "label": "northern_rock_crisis_response_delay",
+        "value": 0.35,
+        "evidence": "Northern Rock was the first UK bank run since 1866. The September 2007 queues outside branches revealed the limits of the FSA regulatory model. Brown/Darling's response was slow: initial denial ('this is not a systemic problem'), reluctance to guarantee depositors (took 10 days), opposition to Bank of England bailout until forced. Northern Rock was eventually nationalised February 2008 (first UK bank nationalisation since 1970s). The delay reflected: regulatory design failure (BoE/FSA split — no clear responsibility), political calculation (nationalisation was politically embarrassing for a Labour government), and underestimation of contagion risk. Score of 0.35 reflects a significant early failure in crisis management that improved dramatically by October 2008."
+      },
+      {
+        "label": "end_of_boom_and_bust_hubris",
+        "value": 0.88,
+        "evidence": "Brown's most damaging pre-crisis claim: 'I have ended boom and bust' — stated repeatedly in Budget speeches 2003-2007. The specific claim appeared 36 times in Hansard 1997-2007. The logical basis: inflation targeting + fiscal rules + Bank of England independence = structural stability. The claim was not entirely without foundation — the Great Moderation was real. But: (1) it embedded excessive confidence in the stability of UK financial system, (2) it made the 2008 crisis politically devastating — he had personally promised it couldn't happen, (3) it discouraged macro-prudential vigilance. Score of 0.88 reflects the depth of the credibility commitment and the severity of its destruction."
+      },
+      {
+        "label": "inequality_and_redistribution_commitment",
+        "value": 0.82,
+        "evidence": "Brown's most consistent domestic policy value was reducing poverty and inequality, pursued via fiscal redistribution rather than labour market intervention. Key mechanisms: Working Tax Credit, Child Tax Credit, minimum wage (largely Brown's pushing), Sure Start children's centres, NHS spending (which disproportionately benefits lower-income groups). Child poverty fell 600,000 from 3.4m (1997) to 2.8m (2007) — significant but short of Blair's 'halve child poverty by 2010' target. Income inequality (Gini coefficient) was broadly stable 1997-2007 — redistribution offset market inequality growth. Brown genuinely believed in the Church of Scotland moral framework: the duty to the poor. This was not just political positioning."
+      },
+      {
+        "label": "international_development_commitment",
+        "value": 0.85,
+        "evidence": "International development was Brown's other genuine moral commitment. As Chancellor: the Heavily Indebted Poor Countries (HIPC) debt relief initiative, 0.7% aid target (finally met 2013), PEPFAR co-financing, Make Poverty History political support. G8 Gleneagles 2005: Brown was the architect of the $40bn debt cancellation and $50bn aid commitment. As PM: Global Fund for AIDS/TB/malaria, education for all initiatives. The motivation was genuine — his father's Christianity, his own Scottish Calvinist sense of global duty. Post-PM: UN Special Envoy on Global Education. Unlike Blair's post-PM work, Brown's development work was largely unpaid and unglamorous."
+      },
+      {
+        "label": "political_communication_weakness",
+        "value": 0.25,
+        "evidence": "Brown's Achilles heel was political communication. He could not perform the empathy that Blair made look effortless. His smile was famously 'trained' and appeared uncomfortable. The 'Smeargate' scandal (spin operation against Conservative politicians). The 'bigot' gaffe (April 2010 — described Labour voter Gillian Duffy as 'bigoted' while mic was live — career-defining moment of political tin-deafness). His PMQs were workmanlike but never inspirational. Every major political speech was intellectually rigorous but emotionally flat. This weakness was structural — he had spent 10 years as Chancellor (a technical role) and never developed the performance skills that 10 Downing Street requires. Score of 0.25 reflects genuine and persistent incapacity."
+      },
+      {
+        "label": "paranoid_political_operation",
+        "value": 0.72,
+        "evidence": "Brown's political operation was unusually aggressive and dysfunctional. Ed Balls, Damian McBride, Charlie Whelan — his inner circle specialised in briefing against Labour colleagues. McBride was eventually forced to resign (2009) for an email proposing spreading false sexual smears about Conservative politicians (the 'Smeargate' episode). The Treasury under Brown became known as a parallel government operation competing with Number 10. Andrew Rawnsley documented extensive examples of Brown's physical and psychological intimidation of staff (throwing objects, phone-slamming). The psychological portrait: enormous intelligence, genuine moral purpose, crippling personal insecurity leading to bullying behaviour and zero-sum political operation."
+      },
+      {
+        "label": "granita_deal_blair_obsession",
+        "value": 0.80,
+        "evidence": "The 1994 Granita restaurant meeting and Brown's belief he had a commitment from Blair to hand over the premiership was the obsession around which his entire political psychology organised. The wait — 13 years — created a sense of grievance and entitlement that shaped every decision. Cabinet colleagues reported that Brown would raise 'the deal' in private. His inability to challenge Blair from strength (never ran against him in leadership elections, never forced a showdown) reflected both loyalty to the Labour project and his own political miscalculation. When he finally got the job in 2007, he had waited so long that his government began in the least favourable conditions possible. The granita obsession is the key to understanding Brown's entire political psychology."
+      },
+      {
+        "label": "election_timing_miscalculation_2007",
+        "value": 0.18,
+        "evidence": "Brown's most damaging political decision as PM: the 2007 election that never was. After a honeymoon period (floods, foot and mouth, terrorism — all handled well), polls showed Brown ahead by 8+ points in October 2007. Advisors strongly recommended calling an election. Brown dithered, briefed the media extensively about an election, then announced there would be no election — blaming it on the desire to 'let the government settle.' The real reason: subsequent polls showed the gap narrowing, and Brown was not confident of a large majority. The reversal was catastrophic: destroyed his reputation for decisiveness, gave the Conservatives a narrative ('bottler Brown'), and he never recovered the momentum. He remained PM until 2010 but his political authority was permanently damaged."
+      },
+      {
+        "label": "10p_tax_band_abolition_political_failure",
+        "value": 0.22,
+        "evidence": "In his final budget as Chancellor (March 2007), Brown abolished the 10p starting rate of income tax — a tax cut that disproportionately hurt low-income workers (particularly those earning £5,000-£18,500). The purpose: simplify the income tax structure and fund a 2p basic rate cut. The problem: the 10p abolition was regressive — it removed a benefit that specifically helped the working poor. By 2008, Frank Field and other Labour MPs publicly revolted. Brown was forced into a £2.7bn compensation package that effectively undid the budget measure. The episode was a rare case of Brown failing on his own ground (inequality) — an unexpectedly regressive redistribution from a Chancellor famous for redistribution toward the poor. Score of 0.22 reflects an unusual policy failure in his domain of expertise."
+      },
+      {
+        "label": "global_keynesian_stimulus_advocacy",
+        "value": 0.93,
+        "evidence": "Brown was the intellectual and political architect of the global Keynesian response to 2008. His framework, developed in the UK context: (1) let automatic stabilisers work (don't cut spending during recession), (2) add discretionary fiscal stimulus (VAT cut UK 2008, housing measures), (3) coordinate internationally to avoid each country free-riding. The G20 Seoul and London summits were the multilateral expression. Paul Krugman and Joseph Stiglitz publicly praised Brown's approach as textbook correct Keynesian response. The UK fiscal stimulus of 2008-2009 (£35bn, 2.5% GDP) was one of the largest in the G20. The intellectual underpinning was solid; the political sustainability was questionable — UK entered 2010 with structural deficit that led to Cameron's austerity."
+      },
+      {
+        "label": "northern_ireland_continuation",
+        "value": 0.70,
+        "evidence": "Brown maintained Blair's Northern Ireland framework. The 2007 power-sharing restoration (Paisley-McGuinness) happened in Blair's final weeks but Brown provided continuity. No major new crisis in Northern Ireland during Brown's premiership — a baseline success. Brown was less personally invested in Northern Ireland than Blair — it was a managed ongoing process rather than a defining mission. His attention was elsewhere (global financial crisis). Score of 0.70 reflects competent continuation without innovation."
+      },
+      {
+        "label": "iraq_war_legacy_management",
+        "value": 0.55,
+        "evidence": "Brown was associated with Iraq through collective Cabinet responsibility (he attended Cabinet when the decision was made, never publicly dissented). Unlike Robin Cook (resigned) or Clare Short (also resigned later), Brown stayed. Post-2003 he was careful to neither defend nor directly criticise the decision — his political survival as Blair's designated successor required avoiding the Iraq association while maintaining Blair's loyalty. As PM, he announced a phased UK withdrawal from Iraq in July 2007. The Chilcot inquiry found Brown was peripherally involved — his political focus was economic, not foreign policy. Score of 0.55 reflects passive complicity followed by managed distance."
+      },
+      {
+        "label": "deficit_expansion_during_crisis_willingness",
+        "value": 0.90,
+        "evidence": "Brown's 2008-2009 fiscal response completely abandoned his pre-crisis fiscal rules — correctly. UK deficit rose from 2.7% GDP (2007) to 10.1% GDP (2010). Gross debt rose from 36% to 77% GDP by 2012. Brown explicitly defended this as correct Keynesian policy: 'You don't cut in a recession.' The political costs were severe: Conservative 'fiscal recklessness' narrative dominated 2010 election. But the economic evidence supports Brown's judgment — the 2009-2010 UK recovery was among the fastest in the G20. The 2010 switch to austerity under Cameron arguably choked the recovery. Brown's crisis-era deficit tolerance was intellectually sound even as it created the fiscal position that lost him the 2010 election."
+      },
+      {
+        "label": "financial_stability_board_creation",
+        "value": 0.88,
+        "evidence": "The Financial Stability Board (FSB) — created at G20 London 2009 as successor to the Financial Stability Forum — was one of Brown's lasting institutional legacies. The FSB gave developing countries (G20 members) a voice in global financial regulation alongside the traditional G7 financial regulators. It became the primary vehicle for post-crisis global financial regulatory reform: Basel III capital requirements, systemically important financial institution (SIFI) designation, derivatives regulation, shadow banking oversight. The institutional creation reflected Brown's genuine belief in rules-based global governance — the same impulse that drove his development work."
+      },
+      {
+        "label": "chancellor_institutional_dominance",
+        "value": 0.85,
+        "evidence": "As Chancellor, Brown ran HM Treasury as a semi-autonomous government within the government. Unprecedented control: the 'pre-budget report' (his innovation) gave the Chancellor two fiscal events a year. The Comprehensive Spending Reviews tied departmental budgets to his priorities. No. 11 Downing Street political operation (Balls, Whelan, McBride) ran parallel to No. 10. He vetoed Blair initiatives he disagreed with using Treasury spending approvals as leverage (ID cards, some foundation hospital elements). The Blair 2004 'five economic tests' for euro entry were designed to be impossible to meet — this was Brown controlling the euro decision unilaterally. Score of 0.85 reflects genuine institutional dominance within the constitutional framework."
+      },
+      {
+        "label": "endogenous_growth_theory_application",
+        "value": 0.80,
+        "evidence": "Brown's economic framework was sophisticated post-neoclassical: investment in human capital (education, Sure Start), technology (R&D tax credits), infrastructure, and institutions (Bank of England independence, FSA) as drivers of long-term growth. This was genuine theory applied to policy — not just political rhetoric. The intellectual influences: Robert Solow (growth theory), Robert Lucas (human capital), Paul Romer (endogenous innovation). The 'post neo-classical endogenous growth theory' phrase became a joke (Prescott) but the underlying framework was intellectually serious. Policy outcomes: UK productivity growth was above trend 1999-2006. The 2008 crisis didn't invalidate the growth framework; it revealed the financial sector vulnerability that was outside his model."
+      },
+      {
+        "label": "scottish_political_identity",
+        "value": 0.82,
+        "evidence": "Brown was deeply Scottish in political identity — Kirkcaldy, Church of Scotland, Edinburgh University, Scottish Labour Party history. His PhD on the Scottish Labour movement was genuine intellectual passion. But becoming UK PM created a constitutional awkwardness: Scottish MPs voting on English laws, Scottish Parliament handling Scottish domestic policy, English resentment of 'Scottish PM.' The 'West Lothian Question' became politically toxic under Brown. His response was to commission reviews but not act — he had no answer to the asymmetric devolution he had helped design. The Scottish political identity that was a strength in Labour politics became a liability in English public opinion."
+      },
+      {
+        "label": "personal_resilience_under_adversity",
+        "value": 0.88,
+        "evidence": "Brown's personal life included severe adversity: near-blindness in one eye after rugby accident at Edinburgh University, death of his daughter Jennifer after 10 days (January 2002), son Fraser diagnosed with cystic fibrosis 2006. His response to these events was stoic — he rarely referenced them for public sympathy. The personal resilience translated into political resilience: lost every battle with Blair (never got the handover when promised), ran a dysfunctional government, faced constant leadership coup attempts (2008-2009 — Geoff Hoon and Patricia Hewitt leadership letter January 2010), and stayed until the election. Score of 0.88 reflects extraordinary personal and political stamina under genuine adversity."
+      },
+      {
+        "label": "multilateral_institutional_construction",
+        "value": 0.90,
+        "evidence": "Brown's signature approach: build or reform multilateral institutions to solve collective action problems. G20 London: FSB creation, IMF expansion, coordinated stimulus framework. IDA (International Development Association) replenishment. Global Fund for AIDS/TB/Malaria. Millennium Development Goals monitoring framework. The institutional approach reflected his view that problems are structural, not individual — you need rules and institutions, not just good leaders. This was the opposite of the personality-driven approach that characterised Blair's foreign policy. Brown's institutional creations tended to outlast his political career."
+      },
+      {
+        "label": "economic_policy_stewardship_1997_2007",
+        "value": 0.80,
+        "evidence": "The 10-year economic record as Chancellor: GDP growth averaged 2.7%/year, unemployment fell from 7.3% to 5.4%, inflation averaged 2.4% (within BoE target), employment reached record high 75%. This is a genuinely good record — better than most G7 peers over the same period. The 'golden decade' of UK economic performance. The structural problems (current account deficit, financial sector vulnerability, house price bubble, fiscal loosening post-2000) were less visible in the headline numbers. Score of 0.80 reflects a record that was genuinely strong but masked developing vulnerabilities that the 2008 crisis exposed."
+      },
+      {
+        "label": "house_price_bubble_tolerance",
+        "value": 0.25,
+        "evidence": "UK house prices roughly doubled in real terms 1997-2007 — from £90k to £180k average. Brown/Blair government consistently declined to address this: no capital gains tax on primary residences, no land value tax, planning system restrictions that constrained supply. The official view: house price inflation was not the BoE's target (CPI, not HICP with housing), and house prices reflected supply constraints not just financial excess. By 2007 UK household debt-to-income ratio was 160% — among the highest in the G7. The house price bubble created the collateral base for the Northern Rock mortgage boom. Brown's score of 0.25 reflects near-complete failure to act on a clearly developing structural vulnerability that was politically untouchable (homeowners vote)."
+      },
+      {
+        "label": "crisis_decisiveness_vs_peacetime_caution",
+        "value": 0.85,
+        "evidence": "The fundamental paradox of Brown's career: exceptional in crisis, poor in peacetime. Crisis contexts (2008 banking collapse): immediate diagnosis, decisive action (recapitalisation), correct theory (Keynesian stimulus), successful execution (G20 coordination). Peacetime contexts (2007-2008 non-crisis): 2007 election dithering (indecisive), 10p tax reversal (poor political management), constant Cabinet reshuffles (indecisive), leadership coup management (reactive). The psychological mechanism: crisis activates Brown's intellectual and analytical strengths and removes the interpersonal performance demands he cannot meet. Peacetime governance requires the political skills he lacks. Score of 0.85 captures the asymmetry."
+      },
+      {
+        "label": "spending_review_discipline",
+        "value": 0.78,
+        "evidence": "The Comprehensive Spending Reviews (1998, 2000, 2002, 2004, 2007) were Brown's innovation in UK fiscal management — three-year departmental budgets replacing annual spending rounds. Discipline: departments had certainty (could plan multi-year), Treasury had control (no annual renegotiation), public could scrutinise (published spending plans). The 1997-2000 period (Conservative spending plans inherited) was fiscally tight. Post-2000 the reviews became increasingly expansionary as tax revenues grew. The 2007 review locked in spending commitments that became problematic when 2008 revenues collapsed. Score of 0.78 reflects a genuine governance innovation that worked well in good times."
+      },
+      {
+        "label": "africa_debt_relief_architecture",
+        "value": 0.88,
+        "evidence": "Brown's 2005 Gleneagles achievement on African debt relief was the most tangible development outcome of any G8 Presidency. The HIPC initiative: $40bn debt cancellation for 18 countries (with conditions on governance reform). The aid commitment: $50bn increase in annual aid by 2010 (80% delivered). The trade justice agenda: less successful, but Brown pushed it. The motivation was genuine — from his Church of Scotland upbringing through his university activism (anti-apartheid movement). The mechanism: Brown personally lobbied every G8 leader in the months before Gleneagles. The design was his: conditional debt relief (good governance, poverty reduction strategies) rather than unconditional cancellation."
+      },
+      {
+        "label": "climate_change_domestic_framework",
+        "value": 0.72,
+        "evidence": "Brown was less focused on climate than Blair but delivered the Climate Change Act 2008 — the world's first legally binding national carbon reduction target (80% by 2050 versus 1990). The Act survived into the Conservative era and became the model for similar legislation globally. The domestic energy policy under Brown: nuclear power revival (new nuclear programme announced 2008), renewable energy targets (EU 20% by 2020), feed-in tariffs. The gap: aviation and road transport were not adequately included. Score of 0.72 reflects strong institutional framework creation with moderate ambition on the hardest sectors."
+      },
+      {
+        "label": "electoral_arithmetic_understanding",
+        "value": 0.55,
+        "evidence": "Brown's political arithmetic was sophisticated but his instincts were poor. He understood the structural challenges: the 2010 electoral map favoured Conservatives (boundary commission changes, Southern England drift), the economic environment was terrible (deficit, recession). He managed to delay the election to May 2010 (constitutional maximum). The result was better than predicted: 258 seats (Labour's second worst result since 1983, but better than forecast given the 2009 polling). Brown's instincts failed on: 2007 election non-call, understanding of swing voter psychology, communication with the English working class. The Gillian Duffy 'bigot' episode was the crystallisation of a structural failure to connect with the voters Labour needed."
+      },
+      {
+        "label": "cooperation_with_fed_and_ecb_in_crisis",
+        "value": 0.90,
+        "evidence": "Brown's central bank coordination during 2008 was unusually effective. Working relationships: Ben Bernanke (Fed), Jean-Claude Trichet (ECB), Mervyn King (BoE). The coordinated central bank liquidity provision October 2008 (six central banks cut rates simultaneously) was partly Brown's diplomatic work. The G7 finance ministers' declaration that governments would 'take all necessary steps' to prevent bank failures was drafted substantially in Brown's Treasury. The mechanism: Brown had spent 10 years building relationships with finance ministers and central bankers in G7/G20 contexts — the relationship capital was available when needed."
+      },
+      {
+        "label": "welfare_reform_means_testing_preference",
+        "value": 0.72,
+        "evidence": "Brown's redistribution philosophy favoured means-tested benefits (Working Tax Credit, Child Tax Credit) over universal benefits or universal basic income. The advantage: targeted help for the poorest, more redistribution per pound spent. The disadvantage: complex system, high marginal tax rates at taper-out (effective marginal rates of 70%+ for some low-income workers), stigma, high error rates. The Tax Credits system was administratively chaotic in 2003-2004 (£2bn in overpayments). Brown's Treasury designed a complex system that worked for macroeconomic redistribution statistics but created severe administrative problems for individuals. Score of 0.72 reflects genuine redistributive intent with design and delivery failures."
+      },
+      {
+        "label": "prudence_as_political_identity",
+        "value": 0.85,
+        "evidence": "'Prudence' was Brown's self-defining political brand word — chosen deliberately to neutralise Labour's economic credibility problem. In practice: first two years of fiscal conservatism (inherited Conservative spending limits), no tax rises in 1997 (except windfall on utilities), fiscal surplus in 1999-2001. The 'Prudence' brand served its purpose — Labour was re-elected in 2001 on its economic record. Then: the brand became a straitjacket as spending needs grew and the economic cycle turned. The gold sale undermined 'Prudence' retrospectively. The 2008 crisis destroyed it utterly. But 'Prudence' was genuinely Brown's self-concept — the Church of Scotland minister's son who was careful with money — not purely political positioning."
+      },
+      {
+        "label": "policy_obsession_over_politics",
+        "value": 0.80,
+        "evidence": "Brown was fundamentally a policy person who had to perform politics rather than a politician who needed policy. His natural habitat: bilateral meetings with officials and economists, not press conferences and public meetings. His energy: reading Treasury papers at midnight, not working press gallery dinners. This created the paradox: the best-prepared Chancellor in a generation who was incapable of communicating his achievements to the public. He could explain endogenous growth theory to IMF economists but not explain why the minimum wage was going up to Daily Mirror readers. The policy obsession was genuine — he worked harder than anyone in the Treasury — but it came at the cost of the political skills that governing requires."
+      },
+      {
+        "label": "social_union_vs_scottish_nationalism",
+        "value": 0.65,
+        "evidence": "Brown saw the United Kingdom as a 'social union' — shared institutions (NHS, welfare state, BBC, armed forces) rather than ethnic or cultural identity. His post-PM activity: 'The People's Vow' in the 2014 Scottish independence referendum — the last-minute cross-party pledge that appears to have swung the result from Yes to No (55% No). Brown's emotional connection to the Union was genuine: a Scot who saw unionism as progressive (pooling and sharing of resources) rather than English nationalism. His contribution to the 2014 referendum campaign was his most effective post-PM political act — the authenticity of a Scottish Labour elder making the social democratic case for the Union."
+      },
+      {
+        "label": "euro_decision_blocking",
+        "value": 0.92,
+        "evidence": "Brown's five economic tests for euro membership (1997) were designed by Brown and Ed Balls to give the Chancellor control over the single most politically significant economic decision of the Blair government. The tests: sustainable convergence, sufficient flexibility, impact on financial services, impact on investment, impact on employment. The 2003 Treasury assessment (500 pages) concluded the tests were 'not yet' met. Blair wanted to join; Brown blocked it. The decision to stay out of the euro was economically correct (the eurozone's design flaws became catastrophically apparent in 2010-2012) but Brown's motivation was as much political (keeping control of monetary policy, avoiding subjection to ECB) as economic. Score of 0.92 reflects Brown's iron determination to maintain this veto."
+      },
+      {
+        "label": "leadership_style_intimidation",
+        "value": 0.68,
+        "evidence": "Brown's management style was documented as intimidating by multiple Cabinet members. Andrew Rawnsley's account (End of the Party) described: throwing mobile phones, slamming desks, shouting at staff, threatening dismissal. Cabinet Secretary Gus O'Donnell and Chief Whip Geoff Hoon were reportedly aware of the problem. The Cabinet Office allegedly maintained a 'Brown protocol' for handling his rages. The political operation (McBride, Balls) conducted aggressive internal briefing that created a culture of fear in the Brown circle. This damaged governance: officials were afraid to bring bad news, creating information filtering problems analogous to a milder version of autocratic information environments."
+      },
+      {
+        "label": "housing_crisis_management_northern_rock",
+        "value": 0.42,
+        "evidence": "Northern Rock's September 2007 bank run was Brown's first major crisis as PM — handled poorly. Alistair Darling (Chancellor) was the formal point of responsibility but Brown was closely involved. The slow decision-making: 10 days between bank run and deposit guarantee, Northern Rock nationalisation took 5 more months (February 2008). The regulatory design failure (FSA light-touch + BoE/FSA split) was Brown's as Chancellor. The slow response as PM compounded it. The 2008 crisis management (October 2008) was dramatically better — the comparison shows Brown's capacity to learn and improve under extreme pressure."
+      },
+      {
+        "label": "intellectual_confidence_authority",
+        "value": 0.88,
+        "evidence": "Brown's intellectual confidence in economic policy was genuine and broadly justified by outcomes. He would challenge Treasury officials who disagreed with detailed arguments. His engagement with IMF, World Bank, and academic economists was at peer level rather than hierarchical. When he said the 2008 crisis was a 'global problem requiring a global solution,' he had done the theoretical work to support that assertion. This intellectual authority translated into persuasive power in international forums — other finance ministers and leaders took his analysis seriously. The contrast with his political communication failures is stark: intellectually dominant in technical forums, politically ineffective in popular communication."
+      },
+      {
+        "label": "moral_courage_political_context",
+        "value": 0.62,
+        "evidence": "Brown showed occasional moral courage in difficult political contexts — and notable absence of it in others. Moral courage examples: maintained Iraq opposition silence to preserve Labour unity (actually moral cowardice in some readings), did eventually introduce minimum wage over CBI opposition, maintained international development spending during recession. Moral cowardice examples: never publicly challenged Blair on Iraq (collective Cabinet responsibility), never publicly challenged Blair on leaving (despite the Granita deal), 10p tax abolition that hurt poorest workers. The pattern: moral courage applied to international/economic issues, moral cowardice applied to direct personal confrontations. A complex, not simple, moral record."
+      },
+      {
+        "label": "successor_management_failure",
+        "value": 0.30,
+        "evidence": "Brown's management of the succession to himself was poor. He kept potential successors in weak positions — Ed Miliband, David Miliband, Ed Balls were all powerful allies but not developed as independent leadership capacities. The 2008-2010 leadership coup attempts (Patricia Hewitt/Geoff Hoon letter, December 2009 James Purnell resignation) were handled through containment rather than rehabilitation. The 2010 Labour leadership contest (won by Ed Miliband over David Miliband by trade union block vote) was a mess Brown partly created by not endorsing clearly. His focus was entirely on surviving and governing, not on building the capacity for Labour's future. Score of 0.30 reflects serious institutional failure."
+      },
+      {
+        "label": "quantitative_easing_support",
+        "value": 0.80,
+        "evidence": "Brown supported the Bank of England's QE programme (March 2009, initial £75bn, eventually £375bn) as part of the broader crisis toolkit. His Keynesian framework made unconventional monetary policy a natural complement to fiscal stimulus. The coordination: BoE operationally independent, but Brown publicly endorsed the QE decision rather than treating it as constitutionally off-limits (which some critics argued it should have been given its fiscal implications). Score of 0.80 reflects support for monetary innovation when fiscal tools were reaching political limits."
+      },
+      {
+        "label": "private_sector_partnership_evolution",
+        "value": 0.55,
+        "evidence": "Brown as Chancellor was less enthusiastic about private sector partnership than Blair — he endorsed PFI as a fiscal tool but his ideological instincts were more statist. As PM, he maintained PFI but the global financial crisis shifted his frame toward direct government action (bank nationalisation, fiscal stimulus). His preference was state capacity over market mechanisms — the reverse of Blair's instinct. The tension created policy incoherence: maintaining PFI commitments while nationalising banks. Score of 0.55 reflects genuine ambivalence."
+      },
+      {
+        "label": "press_management_in_downing_street",
+        "value": 0.35,
+        "evidence": "Brown's press operation was one of the worst in recent UK PM history. Charlie Whelan (aggressive, uncontrollable), Damian McBride (ultimately destroyed by Smeargate). The 'Smeargate' episode (April 2009): McBride and Derek Draper's email plot to spread false sexual smears about Conservative politicians was leaked, causing enormous damage. Brown's response: fired McBride but 'didn't know' about the smear operation (widely disbelieved). His attempts to manage the press himself (regular calls to editors) were described as aggressive and counter-productive. By 2009 most major newspaper groups had withdrawn support. Score of 0.35 reflects systematic failure."
+      },
+      {
+        "label": "constitutional_innovation",
+        "value": 0.65,
+        "evidence": "Brown had constitutional reform ambitions as PM — the 'New Politics' agenda. The Constitutional Renewal Act 2010 included: restrictions on executive war powers (Parliamentary vote required), Ombudsman reform, Civil Service independence in statute. But the transformative reforms (proportional representation, Lords reform completion) were not delivered. Brown commissioned Alan Johnson to lead PR referendum work but never committed to it. The constitutional agenda was crowded out by the financial crisis. Score of 0.65 reflects genuine ambition with partial delivery."
+      },
+      {
+        "label": "pre_budget_report_fiscal_innovation",
+        "value": 0.82,
+        "evidence": "The Pre-Budget Report (Brown's invention as Chancellor) gave the UK two fiscal events per year, increasing parliamentary scrutiny and policy flexibility. The November/December PBR allowed fiscal adjustments between April Budgets. This was a genuine governance innovation — most OECD governments had one budget event annually. It was later formalised as the Autumn Statement. The practice of detailed economic forecasts (FSBR — Financial Statement and Budget Report) expanding to multiple hundreds of pages of economic analysis was Brown's insistence on technical rigour in fiscal communication."
+      },
+      {
+        "label": "austerity_alternative_advocacy",
+        "value": 0.88,
+        "evidence": "Post-2010 Brown became the most prominent advocate for the Keynesian alternative to austerity — internationally. His speeches, books (Beyond the Crash, 2010), and IMF engagement consistently argued that the 2010 switch to austerity was a policy error. Evidence supports this: IMF later acknowledged multipliers were larger than assumed, UK double-dip recession 2012, prolonged recovery. Brown's 'you don't cut in a recession' thesis was empirically validated by the austerity experience of 2010-2012 in UK and Europe. His political vindication came too late to save his government but his intellectual position aged well."
+      }
+    ]
+  },
+  "red_lines": [
+    {
+      "id": "RL001",
+      "label": "bank_of_england_independence_non_negotiable",
+      "description": "The BoE operational independence was treated as permanently settled — Brown would not reverse it regardless of political pressure. Even during the 2008 crisis, the formal independence was maintained.",
+      "priority": 0.98
+    },
+    {
+      "id": "RL002",
+      "label": "sustainable_fiscal_position_nominal",
+      "description": "Brown maintained the nominal commitment to fiscal rules even when bending the definitions (redefining economic cycle). Complete abandonment came only during 2008 crisis, when Keynesian logic overrode the rules.",
+      "priority": 0.75
+    },
+    {
+      "id": "RL003",
+      "label": "euro_veto_maintenance",
+      "description": "Brown would not allow UK to join the euro — his five tests were effectively an unconditional block. This was his single most significant exercise of unilateral power as Chancellor.",
+      "priority": 0.95
+    },
+    {
+      "id": "RL004",
+      "label": "international_development_0_7_target",
+      "description": "Commitment to 0.7% GNI for international aid was treated as a moral commitment, not political convenience. Post-PM maintained in advocacy.",
+      "priority": 0.82
+    }
+  ],
+  "decision_style": {
+    "primary_mode": "analytical_institutional_builder",
+    "description": "Brown processes problems analytically, builds institutional frameworks, relies on economic models and historical precedent. In crisis: excellent — clarity of diagnosis, decisive institutional response. In peacetime politics: poor — lacks interpersonal performance instinct, unable to communicate emotional connection.",
+    "key_cognitive_biases": [
+      "intellectual_overconfidence_in_technical_solutions",
+      "interpersonal_communication_avoidance",
+      "path_dependency_on_established_positions",
+      "gold_sale_recency_bias_inverse_momentum"
+    ],
+    "crisis_response_mode": "global_institutional_coordination",
+    "information_fidelity": 0.78,
+    "gold_bottom_paradox": "The same analytical confidence that led to correct crisis management led to the gold sale error — both reflect total conviction in economic models without sufficient respect for market timing uncertainty."
+  },
+  "era_parameters": {
+    "chancellor_period": "1997-05-02 to 2007-06-27",
+    "pm_period": "2007-06-27 to 2010-05-11",
+    "party": "Labour (New Labour)",
+    "country": "United Kingdom",
+    "key_relationships": [
+      {"name": "Tony Blair", "type": "rival_partner", "weight": 0.88},
+      {"name": "Ed Balls", "type": "closest_political_ally", "weight": 0.85},
+      {"name": "Alistair Darling", "type": "chancellor_during_crisis", "weight": 0.72},
+      {"name": "Ben Bernanke", "type": "crisis_coordination_partner", "weight": 0.80},
+      {"name": "Paul Krugman", "type": "intellectual_validator", "weight": 0.65}
+    ],
+    "defining_events": [
+      "Bank of England independence 1997",
+      "Gold sale 1999-2002 (Brown Bottom)",
+      "Iraq War 2003 (silent Cabinet member)",
+      "Northern Rock bank run 2007",
+      "2008 Global Financial Crisis — bank recapitalisation",
+      "G20 London Summit April 2009",
+      "2007 election non-call",
+      "Gillian Duffy 'bigot' gaffe April 2010"
+    ]
+  }
+}

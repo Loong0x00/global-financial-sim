@@ -1,0 +1,933 @@
+{
+  "leader": "Xi Jinping",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "Public record: CPC decisions, State Council policy documents, Xinhua official releases 2012-2026",
+    "Xi Jinping speeches and writings: 'The Governance of China' volumes I-IV (2014-2022)",
+    "Economic policy timeline: supply-side structural reform 2015-2018, dual circulation 2020, common prosperity 2021",
+    "Crisis events: 2015 stock market crash, 2018-19 trade war, 2020-22 zero-COVID, Evergrande 2021-23",
+    "Leadership biography: Cultural Revolution (1966-76), Zhengding county (1982-85), Fujian (1985-2002), Zhejiang (2002-07), Shanghai (2007), center (2007-12)",
+    "Regulatory actions: Ant Group IPO block Nov 2020, tech crackdown 2020-22, gaming restrictions 2021",
+    "Geopolitical: BRI 2013-present, trade war 2018-20, Russia alignment 2022-present, Taiwan coercion toolkit",
+    "Anti-corruption campaign 2012-2026: 4.7M+ officials investigated",
+    "Third term constitutional amendment March 2018, term limit removal",
+    "20th Party Congress October 2022: full consolidation of power"
+  ],
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector covering Xi Jinping's economic governance from Nov 2012 (General Secretary) through Mar 2026. Encompasses full arc: initial market-friendly signaling (2013 Third Plenum), supply-side reform (2015-18), trade war (2018-20), COVID zero policy (2020-22), common prosperity drive (2021), tech crackdown/reversal (2020-24), Evergrande controlled demolition (2021-23), and deflationary response (2023-26). Xi is the paramount leader since Mao — all major economic decisions ultimately reflect his priorities. Unlike democratic leaders, Xi faces no electoral constraint; his binding constraints are CPC regime stability, territorial integrity, and personal political survival. Economic policy is instrumentalized to serve these deeper objectives.",
+    "dimensions": 144,
+    "vectors": [
+
+      {
+        "label": "political_security_over_economic_growth",
+        "value": 0.97,
+        "evidence": "The single most important parameter in Xi's function. Hong Kong 2019-20: chose National Security Law (Jun 2020) knowing it would trigger US sanctions, UK BNO scheme, and massive capital flight — accepted >$50B in direct economic cost for political control. Zero-COVID: tolerated $1.5T+ in cumulative GDP losses through 2022 to maintain narrative of system superiority. Tech crackdown 2020-22: destroyed $1T+ in market cap (DiDi, Alibaba, Tencent) to eliminate politically independent power centers. Evergrande managed collapse rather than bailout despite systemic risk, because bailout would signal market over party. This parameter overrides all economic optimization when triggered."
+      },
+      {
+        "label": "cpc_regime_survival_priority",
+        "value": 0.99,
+        "evidence": "Deepest behavioral constant — everything else is instrumental to this. Constitutional amendment (Mar 2018) removing term limits: chose indefinite rule over institutional norm, accepting external criticism. Anti-corruption campaign launched within weeks of taking power (Nov 2012): used as both genuine reform and tool to eliminate rivals. All major red lines trace back to this. Xi's personal political survival IS CPC regime survival in his framing — the two are merged."
+      },
+      {
+        "label": "information_environment_control_priority",
+        "value": 0.98,
+        "evidence": "Internet censorship expansion 2013-2026: Great Firewall tightened, VPN crackdowns, 2017 Cybersecurity Law, 2021 Data Security Law, 2022 Algorithms Regulation. COVID data suppression: WHO was not notified of human-to-human transmission for weeks in Jan 2020. Economic statistics manipulation tolerance: Keqiang Index (electricity/rail/loans) is used by investors because official GDP is considered smoothed. Media consolidation: private media effectively brought under party control 2012-2016. Information control is treated as a national security imperative. Revised upward: information control is arguably Xi's single most practiced skill — his entire career in the party apparatus is about controlling narratives. This is not just policy but core competency."
+      },
+      {
+        "label": "state_vs_market_balance_preference",
+        "value": 0.28,
+        "evidence": "Third Plenum 2013 communique gave market 'decisive role in resource allocation' — this was the high-water mark of pro-market signaling. By 2015 the trajectory reversed: SOE reform froze, party committees in private firms expanded. By 2021 common prosperity and tech crackdown made the state-dominant direction explicit. By 2023-24 private sector 'guidance' (party cells in every firm > 100 employees) normalized. 0.28 reflects Xi's revealed preference for state dominance with market as tactical tool, not the occasional pro-market rhetoric. Contrast: Deng Xiaoping era would score ~0.65."
+      },
+      {
+        "label": "soe_reform_genuine_commitment",
+        "value": 0.22,
+        "evidence": "SOE reform was announced prominently at Third Plenum 2013 and in subsequent five-year plans. Actual implementation: SOE market share in key sectors INCREASED 2012-2026. Mixed-ownership reform allowed private capital into SOEs but retained state control. SOE profit remittances to state budget raised but SOE privileges (credit access, land, subsidies) unchanged. Multiple 'SOE reform' announcements with minimal structural change. The reform language serves to manage expectations; the revealed preference is to maintain SOE dominance for control purposes."
+      },
+      {
+        "label": "private_sector_messaging_consistency",
+        "value": 0.18,
+        "evidence": "Extreme contradiction between rhetoric and action is the defining feature. 2013: 'Market decisive role.' 2015: 'State-owned enterprises are an important material and political foundation.' 2017: 'Mixed ownership reform.' 2020: Ant Group IPO blocked 48 hours before listing. 2021: Tech crackdown, education sector nationalized, gaming restricted to 3hrs/week for minors. 2022: 'Support private economy.' 2023: 'Private economy is an important force.' Each cycle of crackdown followed by pro-private rhetoric after economic damage becomes visible. 0.18 reflects near-zero reliability of pro-private signals as predictors of actual policy."
+      },
+      {
+        "label": "supply_side_structural_reform_commitment",
+        "value": 0.62,
+        "evidence": "Supply-side structural reform (供给侧结构性改革) announced Dec 2015 at Central Economic Work Conference. Five tasks: cut overcapacity, destock, deleverage, reduce costs, shore up weaknesses. Steel capacity cut 150M tons 2016-2020 (exceeded targets). Coal capacity reduced. Property destocking in lower-tier cities. However, deleveraging was abandoned during COVID. SOE overcapacity partially addressed but SOE reform stalled. Genuine supply-side action on industrial overcapacity (0.75) but weak on financial deleveraging and SOE reform (0.45). Blended at 0.62."
+      },
+      {
+        "label": "dual_circulation_strategy_commitment",
+        "value": 0.78,
+        "evidence": "Dual circulation (双循环) announced May 2020, formalized in 14th Five-Year Plan. Domestic demand (internal circulation) as primary, international trade (external circulation) as supplement. Implementation: massive domestic consumption push, rural e-commerce expansion, 'new infrastructure' investment, Made in China 2025 continuation under different branding. Driven by US-China decoupling risk: semiconductor restrictions (Oct 2022 CHIPS Act equivalents) accelerated the pivot. Xi has personally championed this as strategic necessity, not tactical response — consistent investment 2020-2026."
+      },
+      {
+        "label": "flood_style_stimulus_aversion",
+        "value": 0.82,
+        "evidence": "'Not engaging in flood-style strong stimulus' (大水漫灌) — Xi's personal phrase used repeatedly since 2015. During COVID 2020: China's fiscal stimulus was ~4% of GDP vs US 15%+ — deliberately more restrained. Post-COVID slowdown 2022-23: targeted sector-specific stimulus rather than broad-based. Property crisis 2021-23: resisted blanket bailout. Sep 2024 policy package included rate cuts, reserve requirement cuts, and property support — a significant move but still targeted. Xi's aversion reflects: (1) fear of debt accumulation that could trigger financial crisis, (2) moral hazard concern, (3) ideological preference for 'high quality' over 'quantity' growth."
+      },
+      {
+        "label": "targeted_stimulus_preference",
+        "value": 0.76,
+        "evidence": "Stimulus consistently deployed as sector-specific: 'new infrastructure' (5G, AI, EV charging, data centers) rather than broad demand support. Rural revitalization programs targeted at poverty alleviation regions. 'Specialty and new' (专精特新) SME support for advanced manufacturing. Green energy subsidies. Each stimulus round uses precise targeting language. Sep-Oct 2024 stimulus: property policy easing, stock market support, specific consumption vouchers — still sector-specific despite being the largest package since COVID response."
+      },
+      {
+        "label": "common_prosperity_drive_intensity",
+        "value": 0.74,
+        "evidence": "Common prosperity (共同富裕) elevated to central policy goal at 10th meeting of Central Financial and Economic Affairs Commission Aug 2021. Triggered tech crackdown acceleration, education sector nationalization (Jul 2021 private tutoring ban), celebrity income restrictions, platform economy regulation. Zhejiang pilot zone announced. Income redistribution language intensified. However, by 2022-23, common prosperity rhetoric softened as economic damage from crackdowns became clear. The drive reflects genuine Xi ideology (not just tactical) but implementation was modulated when growth costs became unacceptable. Scored at 0.74 for the genuine commitment despite tactical retreat."
+      },
+      {
+        "label": "inequality_reduction_vs_growth_tradeoff_tolerance",
+        "value": 0.61,
+        "evidence": "Xi has shown willingness to sacrifice some growth for inequality reduction, but not unlimited willingness. The tech crackdown destroyed $1T+ in market cap and reduced GDP growth contribution of the digital economy. The private tutoring ban eliminated a ~$100B industry. But when 2022 growth collapsed to 3% (worst since 1970s ex-COVID), the common prosperity push was modulated and pro-private rhetoric intensified. The revealed tolerance for growth sacrifice in service of equality is real but bounded at approximately 1-1.5 percentage points of GDP growth."
+      },
+      {
+        "label": "made_in_china_2025_commitment",
+        "value": 0.88,
+        "evidence": "Made in China 2025 (中国制造2025) announced May 2015 — 10-sector manufacturing upgrade plan with market share targets. US trade war pushback (2018-19) caused Chinese officials to downplay the branding, but the actual policy continued under different names: 'manufacturing power' strategy, industrial modernization. Semiconductor self-sufficiency targets accelerated after US chip export controls. EV, solar, and battery manufacturing achieved or exceeded targets. Aircraft (COMAC C919) commercial operations begun 2023. Xi views advanced manufacturing as existential necessity, not just economic policy — the commitment is durable regardless of diplomatic cost."
+      },
+      {
+        "label": "technology_self_reliance_urgency",
+        "value": 0.94,
+        "driver": "shared_network_origin",
+        "evidence": "Technology self-reliance (科技自立自强) became explicit strategy after Huawei chip ban (May 2019). Semiconductor: SMIC received massive state support, YMTC (memory), CXMT (DRAM). AI: national AI strategy 2017, accelerated after ChatGPT (DeepSeek 2024 as benchmark). $150B+ cumulative semiconductor subsidies 2019-2026. CRITICAL CAVEAT: Xi personally has no deep understanding of technology — his career was county/provincial party secretary (Ningde, Fuzhou, Zhejiang). The tech self-reliance push is largely driven by military-industrial interests (PLA has significant control over Huawei's strategic direction) and technocrat factions within the state apparatus. Xi adopted and elevated this narrative, but the intellectual framework and urgency originate from military/intelligence stakeholders. This means: (1) the priority could shift if factional balance changes, (2) Xi's personal commitment is to the NARRATIVE of tech self-reliance (nationalism), not the technical substance."
+      },
+      {
+        "label": "rmb_internationalization_commitment",
+        "value": 0.63,
+        "evidence": "RMB internationalization has been a stated goal since at least 2009 (post-GFC Zhou Xiaochuan proposal). SDR inclusion achieved Oct 2016. Cross-border payment system (CIPS) expanded. Digital RMB (e-CNY) developed as potential internationalization tool. Petrodollar challenge: Saudi oil in RMB discussions 2022-23. However, capital account remains significantly restricted — real RMB internationalization requires convertibility that Xi is unwilling to grant due to capital flight risk. The commitment is genuine but constrained by capital control priorities. Russia sanctions 2022 accelerated RMB bilateral trade settlement push."
+      },
+      {
+        "label": "capital_control_intensity",
+        "value": 0.85,
+        "evidence": "2015 stock market crash and subsequent RMB devaluation (Aug 2015) triggered massive capital outflows (~$1T in reserves used to defend currency). Response: tightened capital controls significantly (2016-2017), $50,000 individual annual quota enforced strictly, underground banking crackdowns, outbound FDI restrictions. Anbang, HNA, Dalian Wanda overseas acquisitions blocked. Capital control intensity has remained high since 2017 — periodic liberalization in specific corridors (Stock Connect, Bond Connect) but not systemic openness. The 2015 lesson created a lasting preference for capital controls as insurance against financial crisis."
+      },
+      {
+        "label": "stock_market_intervention_willingness",
+        "value": 0.87,
+        "evidence": "2015 stock market crash response is the benchmark. July 2015: CSRC halted IPOs, government bought ETFs through 'national team' (Central Huijin, China Securities Finance Corp), suspended trading in 1,300+ stocks (>40% of market). Spent est. $200-300B on market support. The 2015 intervention failed to halt the crash but established willingness to intervene massively. Oct 2024: 'national team' intervention again following PBOC stimulus announcement — CSI 300 circuit breakers triggered upward. Xi views stock market collapse as threatening social stability and regime legitimacy — intervention is automatic response."
+      },
+      {
+        "label": "shadow_banking_tolerance",
+        "value": 0.31,
+        "evidence": "Shadow banking (wealth management products, trust loans, peer-to-peer lending) expanded rapidly 2010-2017, peaking at ~$8.5T. Xi's administration launched systematic deleveraging campaign 2016-2018 (三三四十 inspections, asset management rules 2018). P2P lending sector effectively eliminated by 2020 (>1,500 platforms to ~0). Trust company restrictions 2023-24. Shadow banking was tolerated as necessary credit channel but systematically dismantled when financial stability risk became apparent. Current shadow banking level is small fraction of 2017 peak. Xi's tolerance is low and declining."
+      },
+      {
+        "label": "local_government_debt_tolerance",
+        "value": 0.44,
+        "evidence": "Local government debt (including LGFVs/城投债) is a chronic structural problem. Total local government debt est. 50-60% of GDP by 2023. Xi's approach: acknowledge problem, conduct periodic 'debt swaps' (central bonds for local bonds), but no systemic restructuring. Special bond quotas increased but also constrained. Oct 2023: announced ¥1T special central government bond for local debt relief. Multiple LGFV restructurings in lower-rated provinces (Guizhou, Yunnan, Tianjin). Xi tolerates higher local debt than desirable for growth/stability reasons but periodically tightens. The tolerance is moderate and politically driven — LGFVs are instruments of local political economy."
+      },
+      {
+        "label": "real_estate_sector_as_growth_engine_dependence",
+        "value": 0.35,
+        "evidence": "Xi has explicitly stated property sector should not be used as short-term economic stimulus tool. 'Houses are for living in, not for speculation' (房住不炒) — Xi's personal formulation from Oct 2016 Central Economic Work Conference, repeated constantly since. Three red lines policy (Aug 2020) deliberately constrained developer borrowing. However, when growth collapsed, property support was repeatedly relaxed (2022 'model city' support, 2023 city-specific easing, 2024 nationwide support). Xi has been willing to allow controlled contraction of property sector — accepting growth cost to reduce speculative excess and financial risk."
+      },
+      {
+        "label": "three_red_lines_enforcement_commitment",
+        "value": 0.72,
+        "evidence": "Three red lines (三条红线) announced Aug 2020: (1) liability/asset ratio <70%, (2) net debt/equity <100%, (3) cash/short-term debt >1x. Developers in breach restricted from increasing debt. This directly triggered Evergrande's liquidity crisis (Sep 2021). Despite Evergrande default affecting $300B+ in liabilities, the three red lines framework was maintained — not abandoned. Xi accepted massive property sector contraction and developer defaults rather than abandon the leverage constraint framework. This demonstrates high policy conviction."
+      },
+      {
+        "label": "evergrande_controlled_demolition_preference",
+        "value": 0.78,
+        "evidence": "Evergrande collapse Sep 2021: authorities did NOT bail out the company. Supervised restructuring, asset sales, controlled debt resolution. State banks provided credit facilities for project completion (保交楼) but not company rescue. By 2024 Evergrande liquidation ordered by Hong Kong court. Country Garden collapse 2023: similar approach — allow restructuring without blanket bailout. Xi chose 'controlled demolition' (有序出清) over moral hazard — accepting financial sector pain (bad loans, developer defaults) to eliminate excessive leverage. This is consistent with the three red lines framework and flood-stimulus aversion."
+      },
+      {
+        "label": "property_market_floor_protection_willingness",
+        "value": 0.58,
+        "evidence": "Despite accepting developer failures, Xi has consistently sought to protect home buyers and ensure project completion (保交楼). Sept 2022: ¥200B PSL for social housing. May 2024: PBOC created ¥300B relending facility for SOEs to purchase unsold housing inventory. May 2024: floor price guidance removed in many cities. Sep 2024: nationwide property support (minimum down payment cut, rate cut, inventory purchase program). The support is for buyers and market floor, not developer rescue — consistent distinction between systemic floor and bailout."
+      },
+      {
+        "label": "deflation_response_urgency",
+        "value": 0.52,
+        "evidence": "China experienced PPI deflation from Oct 2022 continuously through 2024. CPI briefly dipped below zero (negative CPI) in early 2024. Xi's response was slower than many economists urged — consistent with flood-stimulus aversion. The Sept-Oct 2024 stimulus package was described as 'the most significant' since COVID — but came after nearly 2 years of deflationary pressure. Xi's deflation response urgency is real but modulated by debt concerns. He is more comfortable with mild deflation than with debt accumulation risk."
+      },
+      {
+        "label": "ant_group_ipo_block_financial_control_signal",
+        "value": 0.93,
+        "evidence": "Ant Group IPO blocked Nov 2020 — largest ever IPO ($37B) halted 48 hours before listing. Immediate trigger: Jack Ma's Oct 2020 speech criticizing financial regulators as 'pawnshops.' Deeper cause: Ant's consumer credit operation (Jiebei, Huabei) was creating a parallel financial system outside PBOC control, with risk misallocation and regulatory arbitrage. Response: Ant restructured as financial holding company, subjected to full banking regulation, credit data shared with PBOC. Jack Ma disappeared from public for months. This event definitively established: no private entity can rival CPC's control of financial system."
+      },
+      {
+        "label": "tech_sector_regulation_tolerance",
+        "value": 0.21,
+        "evidence": "2020-2022 was the peak crackdown period. Ant blocked. DiDi forcibly delisted from NYSE after IPO (Jul 2021), fined ¥8B, app removed. Alibaba fined ¥18.2B for antitrust (Apr 2021). Tencent's gaming revenue blocked. New media data regulations. The crackdown destroyed $1T+ in market cap and caused massive tech sector layoffs. By 2023, tone shifted after GDP impact became undeniable. Xi 2023: met with tech leaders, encouraged private investment. However, the regulatory framework (platform economy rules, algorithm regulations, data security laws) remained fully intact — what changed was enforcement intensity, not the rules. 0.21 reflects high regulatory intervention appetite."
+      },
+      {
+        "label": "tech_sector_reversal_pragmatism",
+        "value": 0.61,
+        "evidence": "Post-crackdown reversal 2023-2024: Ant received final approval for restructuring, allowing resumption of some growth. Alibaba breakup plan scaled back. Jack Ma returned to China, made public appearances. Gaming licenses resumed after 14-month freeze. AI investment officially encouraged. This reversal was pragmatic response to: (1) GDP growth collapse, (2) youth unemployment record high (21.3% Jun 2023), (3) tech sector investment contraction. The reversal does not eliminate the regulatory framework but reduces enforcement intensity — classic Xi pattern of policy oscillation."
+      },
+      {
+        "label": "gaming_restriction_policy_volatility",
+        "value": 0.48,
+        "evidence": "Aug 2021: National Press and Publication Administration imposed 3 hours/week limit on gaming for minors under 18. Gaming approvals froze (no new licenses ~14 months). Tencent/NetEase stock crashed. Then: gaming licenses resumed (Apr 2022 initial batch). Jan 2023: new games regulations proposed (daily spend limits), then walked back. By 2024 gaming industry partially normalized. The pattern shows Xi's willingness to impose severe restrictions for social control/youth productivity reasons, then moderate when economic damage is obvious — policy oscillation with ~18 month cycles."
+      },
+      {
+        "label": "trade_war_retaliation_pattern",
+        "value": 0.73,
+        "evidence": "2018-2019 trade war: China retaliated systematically against each Trump tariff round — matching in value but not necessarily in rate. Agricultural purchases used as bargaining chip (soybean retaliation targeting US farm states). Rare earth export restriction threats. Phase One deal (Jan 2020): China agreed to $200B+ in additional US purchases — a partial concession driven by economic impact. When Biden maintained tariffs and added tech restrictions (2022), China's retaliation was more restrained — targeted at specific companies (Micron ban, lithium export controls) rather than broad tariffs. Pattern: retaliate to signal resolve, then negotiate to limit damage."
+      },
+      {
+        "label": "trade_war_de_escalation_willingness",
+        "value": 0.58,
+        "evidence": "Phase One deal Jan 2020 shows willingness to make tangible concessions (agricultural purchases, IP commitments) when trade war costs are high. Xi agreed to meet Trump at G20 Osaka Jun 2019 after escalation paused. Post-2022 tech decoupling: less willingness to concede on semiconductor/AI restrictions because Xi views these as existential threats, not trade disputes. De-escalation willingness is higher for traditional trade issues (goods tariffs) than for technology security issues (chips, AI). The threshold for concession is determined by domestic economic pain relative to perceived national security interest."
+      },
+      {
+        "label": "bri_investment_discipline",
+        "value": 0.51,
+        "evidence": "Belt and Road Initiative launched 2013. Peak BRI lending: ~$75B/year 2016. By 2020-22, BRI lending fell sharply to ~$10-20B/year after accumulation of troubled projects (Hambantota Port, Ethiopia Railways, Pakistan CPEC). Chinese banks became more selective and conservative. 'BRI 2.0' (post-2021) emphasizes smaller, 'green' projects and debt sustainability. Multiple debt restructurings (Zambia, Sri Lanka, Ethiopia). Xi has maintained BRI as geopolitical tool but accepted reduced financial exposure — pragmatic adjustment after debt trap criticism and project failures."
+      },
+      {
+        "label": "russia_economic_alignment_post_2022",
+        "value": 0.81,
+        "evidence": "Post-Feb 2022 Ukraine invasion: China-Russia bilateral trade reached record $240B in 2023, up from $148B in 2021. Russia became China's largest oil supplier. RMB-Ruble settlement expanded. Chinese banks navigated secondary sanctions risk. Chinese firms (including state firms) stopped exporting dual-use goods under US/EU sanctions pressure, but many smaller firms continued. Xi maintained 'no limits partnership' framing while avoiding direct military aid. The alignment is strategic (reducing Russia's dependence on West, demonstrating alternative to US-led order) but calibrated to avoid triggering full Western sanctions on Chinese banks."
+      },
+      {
+        "label": "taiwan_economic_coercion_escalation_willingness",
+        "value": 0.67,
+        "evidence": "Economic coercion toolkit used incrementally. 2022: banned imports of certain Taiwan agricultural products (pineapples 2021, grouper fish 2022) as political signal. Military exercises Aug 2022 (Pelosi visit) disrupted shipping lanes temporarily. Rare earth and processed materials exports to Taiwan a potential future tool. However, Xi has NOT imposed broad trade embargo on Taiwan — the economic interdependence (Taiwan produces 90%+ of advanced chips used in China) is too high. Economic coercion is used as political signaling tool, not economic warfare — the constraint is mutual dependence."
+      },
+      {
+        "label": "financial_sanctions_vulnerability_awareness",
+        "value": 0.89,
+        "evidence": "Russia SWIFT sanctions (Feb 2022) was a direct lesson for Xi: demonstrated US can weaponize dollar system against major powers. Accelerated: (1) de-dollarization push, (2) CIPS expansion, (3) digital RMB development, (4) gold reserve accumulation, (5) bilateral settlement in local currencies, (6) pressure on partners to reduce dollar dependence. PBOC reduced US Treasury holdings from peak $1.3T to ~$800B by 2024. Xi gave personal instructions to reduce sanctions vulnerability — this is now a national security priority, not just financial policy."
+      },
+      {
+        "label": "anti_corruption_campaign_economic_restructuring_use",
+        "value": 0.79,
+        "evidence": "Anti-corruption campaign launched Nov 2012 (same month Xi took power). 4.7M+ officials investigated 2012-2024, including 100+ ministerial level. Economic impact: massive reduction in government consumption (baijiu industry, luxury goods, travel), 'Four Winds' campaign changed incentive structures. More important: used to eliminate politically connected business networks (Bo Xilai's Chongqing model destroyed). Financial sector purge: 2023-24 saw securities regulators, fund managers, bank executives prosecuted. The campaign simultaneously reduces corruption AND eliminates rival networks — it is both genuine reform and political control tool."
+      },
+      {
+        "label": "anti_corruption_chilling_effect_tolerance",
+        "value": 0.72,
+        "evidence": "Xi has accepted that anti-corruption campaign creates significant chilling effects: officials afraid to make decisions ('躺平式干部'), reduced local government investment initiative, slower project approvals. Multiple campaigns to 'punish both laziness and corruption' suggest Xi is aware of the chilling effect but accepts it as tolerable cost of political control. By 2018, economic slowdown partly attributed to officials being afraid to approve projects. Response: adjusted accountability frameworks but did not reduce anti-corruption enforcement. Tolerance for chilling effect is high when weighed against control benefits."
+      },
+      {
+        "label": "zero_covid_policy_economic_cost_tolerance",
+        "value": 0.96,
+        "evidence": "The single most extreme demonstration of political priority over economics in Xi's record. Zero-COVID maintained 2020-Nov 2022 despite: (1) GDP growth falling to 3% in 2022 (second-worst since Mao), (2) Shanghai 2-month lockdown (Apr-Jun 2022) disrupting global supply chains, (3) Foxconn/Zhengzhou riots (Nov 2022), (4) cumulative GDP cost estimated $1.5-2T+, (5) youth unemployment to 19-21%. Xi maintained zero-COVID because: abandonment = admission of failure of system vs West's 'living with COVID'. The abrupt reversal Dec 2022 came only after Urumqi fire protests (Nov 24-28), showing that only mass social unrest shifted the policy — not economic data."
+      },
+      {
+        "label": "policy_reversal_under_social_unrest",
+        "value": 0.74,
+        "evidence": "Zero-COVID reversal is the clearest example: Urumqi fire (Nov 24 2022), white paper protests Nov 25-28 across major cities, then rapid zero-COVID abandonment within 2 weeks. Economic coercion occasionally reversed when public sentiment turns (some food import bans relaxed). Xi is responsive to mass social instability signals even when he rejects economic signals — social stability threat triggers faster policy reversal than economic deterioration."
+      },
+      {
+        "label": "hong_kong_economic_integration_post_2020",
+        "value": 0.76,
+        "evidence": "2019-20 protests: initially tolerated (~6 months of protests), then imposed National Security Law (Jun 2020) accepting major economic cost. Hong Kong GDP fell ~6.1% in 2019, -6.1% in 2020. Capital outflows accelerated (IPOs moved to Shanghai/Shenzhen). HSI underperformed massively vs other markets. Xi prioritized political control over Hong Kong's role as international financial center. Post-NSL integration: Greater Bay Area integration accelerated, Stock Connect expanded, but Hong Kong's international trust permanently reduced. Economic integration with mainland accelerated even as international financial role declined."
+      },
+      {
+        "label": "five_year_plan_gdp_target_commitment",
+        "value": 0.58,
+        "evidence": "14th Five-Year Plan (2021-25) did NOT set specific annual GDP targets — a major break from tradition. Replaced with 'around 5%' flexible target. This flexibility was maintained during COVID, allowing 2022's 3% without appearing to miss target. For 2023: set 'around 5%' target and achieved 5.2%. For 2024: set 'around 5%', achieved officially 5.0%. GDP target management serves political legitimacy — Xi needs growth to maintain regime legitimacy, but has moved toward flexible targets to maintain optics."
+      },
+      {
+        "label": "gdp_growth_5pct_floor_sensitivity",
+        "value": 0.71,
+        "evidence": "5% has emerged as the psychological floor for GDP growth — approximately the level needed to maintain: (1) employment absorption for new labor market entrants (~12M/year), (2) debt servicing of local governments at current leverage, (3) political legitimacy narrative. When GDP risks falling below 5%, Xi has deployed stimulus (Sep-Oct 2024 package). When GDP is comfortably at 5%+, stimulus aversion dominates. The 5% floor functions as a soft red line, below which stimulus probability increases sharply."
+      },
+      {
+        "label": "youth_unemployment_sensitivity",
+        "value": 0.65,
+        "evidence": "Youth unemployment hit 21.3% in Jun 2023 — at which point China SUSPENDED publishing the youth unemployment statistic (suspended Jul 2023, methodology changed, resumed with lower numbers). This itself is revealing: youth unemployment embarrassment was large enough to trigger data suppression. The statistic was considered politically sensitive because: 'lying flat' (躺平), 'full-time child' (全职儿女) social phenomena indicated youth disillusionment. Xi began emphasizing vocational education, encouraged youth to 'endure hardship.' Sensitivity is real but response is more narrative management than policy change."
+      },
+      {
+        "label": "population_aging_policy_response_urgency",
+        "value": 0.55,
+        "evidence": "China's population peaked in 2022 and began declining. Total fertility rate ~1.0-1.1 (well below replacement). Xi ended one-child policy 2015 (two-child), then three-child 2021, then unlimited 2021. Pro-natalist policies (maternity leave extensions, childcare subsidies) introduced but with modest uptake. Structural causes (housing costs, education costs, career costs for women) not addressed. Xi has acknowledged the problem but policy response has been symbolic rather than structural — possibly because structural fixes (reducing housing/education costs) conflict with other priorities."
+      },
+      {
+        "label": "cultural_revolution_economic_lesson_internalization",
+        "value": 0.68,
+        "evidence": "Xi was sent to Liangjiahe village, Shaanxi (1969-75) as 'sent-down youth' (知青) at age 15. Lived in cave dwelling, subsistence conditions. This experience: (1) created personal understanding of poverty and food security as existential issues, (2) reinforced conviction that political chaos destroys economic development — the Cultural Revolution destroyed decades of Chinese development. Xi has explicitly invoked this: 'I understand what it means to be poor.' The experience likely strengthens his preference for stability and his distrust of 'chaos' (including market chaos)."
+      },
+      {
+        "label": "princelings_regime_stability_worldview",
+        "value": 0.92,
+        "evidence": "Xi is a 'red second generation' (红二代) — son of Xi Zhongxun (early PRC revolutionary, later persecuted during Cultural Revolution, rehabilitated). This background creates: (1) strong sense of dynastic entitlement to rule, (2) CPC as family legacy not just institution, (3) deep commitment to preventing regime collapse (father's persecution = cost of political instability), (4) elite network within party that provides political survival infrastructure. The princeling background means Xi does NOT see the CPC state as merely instrumental — it is existentially his, and his governance reflects regime preservation as a first principle."
+      },
+      {
+        "label": "fujian_zhejiang_provincial_career_pragmatism",
+        "value": 0.63,
+        "evidence": "Xi governed Fujian (1985-2002) and Zhejiang (2002-07), both coastal export-oriented provinces. Zhejiang: one of China's most private-sector-dominated economies. Xi worked with Alibaba (Hangzhou), praised Zhejiang's private economy, championed 'Zhejiang Model' of SME-driven growth. This background gave him genuine understanding of private sector economics and market dynamics — his anti-market actions after 2015 are therefore ideological choices, not ignorance. He knows how markets work; he chooses state dominance for political control reasons."
+      },
+      {
+        "label": "party_committee_control_in_private_firms",
+        "value": 0.87,
+        "evidence": "2017 Party Congress: requirement that companies with 3+ party members form party cells, with party secretary having voice in major decisions. By 2019-20: major tech firms (Alibaba, Tencent) have prominent party committees. Foreign firms pressured to accept party cells. This is structural CPC penetration of the private economy that goes beyond regulation — it is direct political control mechanism. Xi views private firms as potential rival power centers and party cells as insurance mechanism. The expansion of party cells into private firms 2012-2026 is monotonic."
+      },
+      {
+        "label": "centralization_of_economic_policymaking",
+        "value": 0.93,
+        "evidence": "Xi has concentrated economic policy authority in personal hands to unprecedented degree. Central Leading Group for Comprehensively Deepening Reform (established Dec 2013): Xi chairs, absorbs functions previously held by State Council. Central Financial and Economic Affairs Commission: Xi chairs. Central National Security Commission: Xi chairs. PBOC Governor effectively reduced to implementer (Yi Gang, Pan Gongsheng serve Xi's agenda). Premier Li Keqiang (2013-23) increasingly sidelined on economic policy — visible tension at press conferences (Li mentioned 600M Chinese earning <1,000 RMB/month in 2020, contradicting official narrative). Xi is the de facto economic policymaker."
+      },
+      {
+        "label": "technocratic_economic_advice_receptivity",
+        "value": 0.38,
+        "evidence": "Xi has systematically sidelined traditional economic technocrats. Liu He (Harvard-educated, Davos-attending) was key trade negotiator and economic advisor 2018-2023 — but clearly implementer not independent voice. He Lifeng replaced Liu He as economic czar 2023 with significantly less international profile. Reform-oriented PBOC governors (Yi Gang, Zhou Xiaochuan) were followed by He Lifeng. Multiple Chinese economists have been silenced or censured for public criticism of economic policy (e.g., pointing out official GDP statistics differ from satellite data). Xi prefers loyalty over technocratic expertise in top economic positions."
+      },
+      {
+        "label": "market_signal_responsiveness",
+        "value": 0.42,
+        "evidence": "Xi's economic policymaking shows a weak connection to market signals compared to democratic leaders. The tech crackdown continued for 18+ months despite clear stock market evidence of economic damage ($1T+ cap destruction, fund outflows). Evergrande managed collapse continued despite contagion to property sector. COVID zero maintained despite visible economic contraction. Market signals are inputs but are heavily discounted relative to political signals (social stability reports, party loyalty assessments). The 0.42 reflects real but muted market responsiveness."
+      },
+      {
+        "label": "economic_data_reliability_acceptance",
+        "value": 0.29,
+        "evidence": "Xi governs partly based on unreliable data. GDP statistics are widely considered smoothed by economists (Keqiang Index: electricity + rail freight + bank loans is more reliable). Youth unemployment suspended 2023. Property sector data releases inconsistent. This is partly deliberate (data serves narrative) and partly structural (local officials face incentives to report favorable data). Xi is aware of data quality issues — he personally elevated alternative indicators during Liaoning governorship — but data manipulation is systemic. The 0.29 reflects the information environment challenge he operates within."
+      },
+      {
+        "label": "social_media_monitoring_for_stability_signals",
+        "value": 0.84,
+        "evidence": "The CPC social stability apparatus (维稳体系) is the most sophisticated in the world — weibo monitoring, WeChat keyword censorship, Sina Weibo 'hot topics' manipulation. Xi receives curated social stability reports. The Urumqi fire protests spread via Weibo before being censored — and this spread directly preceded zero-COVID reversal. The 2022 'white paper protests' were monitored in real-time. Xi is responsive to social media signals of mass discontent even when he suppresses the underlying speech — the signal leaks through the censorship."
+      },
+      {
+        "label": "national_rejuvenation_china_dream_ideological_weight",
+        "value": 0.91,
+        "evidence": "China Dream (中国梦) — national rejuvenation by 2049 centenary — is Xi's core ideological framework, personally introduced in Nov 2012 first week as General Secretary. All major economic policies are framed in national rejuvenation terms: Made in China 2025, dual circulation, tech self-reliance, BRI, common prosperity. This is not propaganda for external consumption — Xi's internal speeches, party school lectures all use this framework consistently. Decisions are evaluated through the lens of 'does this advance national rejuvenation?' GDP growth is instrumental; national rejuvenation is terminal."
+      },
+      {
+        "label": "centenary_goal_2049_time_horizon",
+        "value": 0.82,
+        "evidence": "Xi explicitly frames decisions with 2049 centenary in mind — 'two centenary goals' (两个一百年奋斗目标). This creates a long time horizon that allows tolerance for short-term pain. Zero-COVID: 'China's system will prove superior.' Tech self-reliance: 'even if it takes 30 years.' This long-horizon thinking explains the seeming paradox of short-term economic sacrifice — Xi is making inter-temporal tradeoffs with a much longer discount rate than any democratic leader."
+      },
+      {
+        "label": "taiwan_economic_cost_acceptance_for_unification_goal",
+        "value": 0.76,
+        "evidence": "Xi's stated objective is unification — he has called Taiwan issue 'cannot be passed from generation to generation.' Stated willingness to accept economic cost for unification: reduced foreign investment from Western partners (already occurring due to decoupling), potential military conflict with massive economic consequences. However, Xi has not yet acted militarily — the 0.76 reflects ideological commitment combined with careful risk calculation. Economic preparation (de-dollarization, food security, energy security, semiconductor self-reliance) is proceeding simultaneously with military preparation — Xi is building capacity to sustain economic costs of conflict."
+      },
+      {
+        "label": "food_security_strategic_importance",
+        "value": 0.89,
+        "evidence": "Xi elevated food security to national security issue in multiple speeches. 'Chinese people's rice bowl must be firmly held in our own hands.' Farmland red line (1.8 billion mu) rigorously protected. Black soil protection law enacted. Seed industry nationalization push (Longping High-Tech, other hybrid seed companies). Grain reserve expansion. This reflects: (1) Cultural Revolution personal memory of food scarcity, (2) Strategic fear of sanctions/blockade during Taiwan conflict, (3) Historical Chinese sensitivity to famine (1959-61). Food security is a near-absolute priority."
+      },
+      {
+        "label": "energy_security_strategic_importance",
+        "value": 0.87,
+        "evidence": "China is the world's largest energy importer (oil, gas, coal). Malacca Strait chokepoint vulnerability for oil tankers. Xi has pursued: (1) domestic renewable energy expansion (world's largest solar/wind installer), (2) coal as backup security energy source, (3) Russia energy alignment post-2022 (diversification away from Middle East/US allies), (4) strategic petroleum reserve expansion, (5) BRI energy infrastructure (CPEC pipelines, Central Asia gas). Energy security is a foundational constraint on China's foreign policy — Xi accepts higher energy costs for security."
+      },
+      {
+        "label": "semiconductor_chokepoint_vulnerability_response",
+        "value": 0.96,
+        "driver": "shared_network_origin",
+        "evidence": "TSMC dependency is China's most acute strategic vulnerability — TSMC produces 90%+ of advanced chips (<7nm). Oct 2022 US chip export controls created existential technological threat. Response: SMIC unlimited state support, Huawei Mate 60 Pro (7nm SMIC chip) celebrated Sep 2023, 大基金 Phase III ($47B), talent acquisition from TSMC/Samsung. CRITICAL CAVEAT: Same as technology_self_reliance_urgency — the military-industrial complex (specifically PLA strategic support force and its successors) drives semiconductor urgency. Huawei's Ren Zhengfei has deep military connections (former PLA engineer). The $150B+ in semiconductor subsidies flows through channels heavily influenced by military procurement priorities. Xi endorses and amplifies but does not originate the technical strategy. The 大基金 corruption scandal (multiple executives arrested 2022) exposed how factional interests, not national strategy, drove allocation decisions."
+      },
+      {
+        "label": "green_economy_transition_genuineness",
+        "value": 0.69,
+        "evidence": "China is both the world's largest carbon emitter and the world's largest installer of renewable energy. Xi announced carbon neutrality by 2060 at UN Sep 2020. China's EV market is the world's largest. Solar and wind installation rates are record-setting. However, coal capacity expansion continued post-2021 (energy security concern post-Europe energy crisis). Peak carbon is targeted by 2030. The green transition is genuine as an economic modernization strategy (EV, solar exports, domestic energy security) but coal phase-out is slower than climate goals require. Green economy serves industrial policy AND climate goals simultaneously."
+      },
+      {
+        "label": "ev_solar_battery_industrial_policy_commitment",
+        "value": 0.93,
+        "evidence": "China's EV, solar panel, and battery industries are the clearest success stories of Xi-era industrial policy. BYD became world's largest EV seller 2023. China produces ~80% of world's solar panels. CATL dominates global EV battery market (35%+ share). State subsidies, preferential credit, domestic market protection, and technology support created these industries. Xi personally championed 'new three' (新三样: EV, battery, solar) as China's export growth drivers replacing traditional electronics. These industries are now subject to Western tariffs (US, EU) — Xi accepts trade friction for industrial leadership."
+      },
+      {
+        "label": "ai_development_strategic_priority",
+        "value": 0.91,
+        "evidence": "China announced national AI strategy Jul 2017 — targeting world leadership by 2030. Post-ChatGPT (Nov 2022): DeepSeek launch late 2024 showed China's large language model capability is close to frontier. State investment in AI estimated $15B+ per year. AI applications in surveillance, manufacturing, finance, military. Xi personally connected AI to national rejuvenation. However, semiconductor restrictions limit access to training compute — NVIDIA A100/H100 banned. This is China's key technology tension: AI ambition vs chip chokepoint."
+      },
+      {
+        "label": "decoupling_response_resilience_building",
+        "value": 0.85,
+        "evidence": "Post-2018 trade war and especially post-2022 tech controls: Xi is systematically building resilience against decoupling. Dual circulation (domestic demand). Technology self-reliance. Diversified supply chains to SE Asia (while keeping ultimate China manufacturing hub). RCEP trade agreement (15-country Asia-Pacific bloc, signed 2020). Russia/Middle East energy diversification. Alternative payment systems. The resilience-building is comprehensive and multi-year — Xi is preparing for a prolonged period of economic conflict with the US-led order."
+      },
+      {
+        "label": "wto_rules_compliance_willingness",
+        "value": 0.34,
+        "evidence": "China joined WTO 2001 but has been cited repeatedly for WTO-inconsistent practices: industrial subsidies, technology transfer requirements (largely eliminated in 2019 Foreign Investment Law but still practiced informally), state enterprise preferences, market access restrictions. WTO dispute settlement cases against China have accumulated. Xi's administration has not fundamentally reformed these practices — WTO compliance is tactical (avoiding maximum dispute settlement penalties) rather than genuine (restructuring the state-market relationship to WTO standards). The 0.34 reflects low genuine compliance intent."
+      },
+      {
+        "label": "multilateral_institution_participation_selective",
+        "value": 0.61,
+        "evidence": "Xi participates selectively in multilateral institutions. IMF/World Bank: participates but pushes for greater developing country voice. AIIB: created as BRI financial instrument and alternative to World Bank. SCO, BRICS, RCEP: actively champions as alternative multilateral structures. WTO: participates but resists structural reform. G20: active participant. G7: excluded. UN Security Council: uses veto to protect allies (Russia). Xi's multilateralism is revisionist — accepting existing institutions that benefit China, building alternative institutions to shift global governance architecture."
+      },
+      {
+        "label": "brics_expansion_geopolitical_economic_tool",
+        "value": 0.74,
+        "evidence": "BRICS expanded to BRICS+ in 2024 (Saudi Arabia, UAE, Iran, Ethiopia, Egypt, Argentina joining). Xi championed expansion as 'Global South' alternative to G7. BRICS+ now represents 40%+ of world population, 30%+ of global GDP. Potential for BRICS payment system to challenge dollar. Xi views BRICS expansion as long-term architecture for post-dollar multipolar world — consistent with de-dollarization strategy, sanctions resilience, and national rejuvenation framework."
+      },
+      {
+        "label": "strategic_patience_long_game_orientation",
+        "value": 0.88,
+        "evidence": "Xi consistently demonstrates long time horizons: 'Hide brightness, cherish obscurity' (韬光养晦) replaced by 'striving for achievement' (奋发有为) under Xi — but this is about being more assertive, not impatient. On Taiwan: military buildup for 'option by 2027' while maintaining 2049 unification timeline. On semiconductors: 'even if it takes 30 years.' On BRI: 100+ country engagement over 15+ year horizon. Xi is willing to absorb short-term costs (trade war pain, COVID zero, Evergrande losses) for long-term strategic positioning. This is opposite of democratic election-cycle thinking."
+      },
+      {
+        "label": "domestic_consumption_promotion_effectiveness",
+        "value": 0.41,
+        "evidence": "China's consumption/GDP ratio remains among the world's lowest (~37-38% vs US 68%). Multiple campaigns to boost domestic consumption — vouchers, 'Golden Week' spending promotions, rural e-commerce. 14th Five-Year Plan: domestic consumption as primary demand driver. Results have been disappointing — household consumption has not sustainably accelerated. Structural barriers: weak social safety net (households self-insure via savings), hukou system limiting rural-urban mobility, property market wealth effect negative 2021-24. Xi's consumption promotion has been policy commitment with limited structural reform — hence the low 0.41 effectiveness score."
+      },
+      {
+        "label": "social_safety_net_expansion_commitment",
+        "value": 0.48,
+        "evidence": "Pension, healthcare, and unemployment systems have expanded under Xi but remain underdeveloped vs household savings rate. Universal healthcare coverage achieved in terms of breadth but not quality — rural areas significantly underserved (exposed during COVID). Pension system faces severe demographic pressure (peak working-age population). Xi has resisted bold social safety net expansion because: (1) fiscal cost, (2) would reduce household savings (potentially destabilizing for bank funding), (3) ideological preference for 'working hard' over welfare dependency. The commitment is real but incremental — 0.48 reflects moderate priority."
+      },
+      {
+        "label": "rural_poverty_alleviation_completion",
+        "value": 0.87,
+        "evidence": "Poverty alleviation (脱贫攻坚) was one of Xi's three 'critical battles' (2017-20). China officially eliminated 'absolute poverty' by end 2020 — 100M+ lifted above poverty line by official metrics. Massive rural infrastructure investment, targeted relocation programs. This was a genuine policy priority with real results — Xi personally tracked progress with county-level accountability systems. Politically: poverty elimination is existential for Xi's legitimacy narrative ('CPC delivers for the people'). The 0.87 reflects genuine commitment AND completion of stated goal."
+      },
+      {
+        "label": "urbanization_hukou_reform_pace",
+        "value": 0.43,
+        "evidence": "Hukou (household registration) system remains major barrier to full urbanization — 300M+ 'floating population' without urban benefits. Xi has promised hukou reform in multiple five-year plans. Progress: smaller cities largely liberalized, medium cities eased, large cities still restrictive. Beijing/Shanghai remain tightly controlled. Full reform would require: massive fiscal transfer for urban social services, land system reform, accept social composition changes in large cities. Xi has not made the structural changes needed. 0.43 reflects moderate reform intent with limited structural implementation."
+      },
+      {
+        "label": "land_reform_financial_system_resistance",
+        "value": 0.25,
+        "evidence": "China's land system (state ownership of all land, farmers have use rights, urban land controlled by local governments) is a fundamental source of fiscal revenue for local governments and a structural barrier to rural wealth. Economists broadly agree land reform is necessary for consumption expansion and urbanization. Xi has maintained the fundamental land system unchanged — despite acknowledging issues. This is because: (1) rural land serves as social safety net (farmers can return to land), (2) land revenue is local government fiscal foundation (reform would require new fiscal arrangements), (3) political risk of large-scale property rights assignment. 0.25 reflects very low reform intent."
+      },
+      {
+        "label": "fiscal_deficit_tolerance",
+        "value": 0.52,
+        "evidence": "China's official fiscal deficit has been maintained 2-3% of GDP (consistent with stated fiscal discipline). However, including off-budget LGFV debt and quasi-fiscal spending (policy bank lending: CDB, EXIM, ADBC), the augmented fiscal deficit is significantly larger (~10%+ of GDP in some years). Xi has maintained official deficit discipline for signaling purposes while allowing off-budget expansion. The 0.52 reflects moderate tolerance — more than democratic leaders might show, but less than pure growth-maximizers would prefer."
+      },
+      {
+        "label": "bond_market_development_commitment",
+        "value": 0.59,
+        "evidence": "China's bond market has grown from $3T to $20T+ during Xi's tenure — now second largest in world. Opening to foreign investors: Bond Connect launched 2017, CIBM market access. Government bond futures launched. However: capital controls limit full integration. LGFV bond problems create systemic credit risk. Rating agency independence compromised (Chinese rating agencies rate most issuers AAA). Corporate bond defaults allowed (2019 SOE defaults, 2021 developer defaults) — a liberalization vs previous no-default assumption. Bond market development is real but partial and state-directed."
+      },
+      {
+        "label": "pboc_independence_from_political_direction",
+        "value": 0.12,
+        "evidence": "PBOC has very limited independence in Xi era. Major monetary decisions (reserve requirement cuts, rate cuts) are coordinated through Central Financial and Economic Affairs Commission (Xi chairs). The Sep 2024 monetary easing was announced by PBOC but clearly coordinated at the top. Governor Yi Gang (PhD Cornell, Fed alumnus) navigated carefully within political constraints. Pan Gongsheng (current governor) is more politically reliable, less independently technocratic. Multiple instances of PBOC's preferred policies being overridden by political judgment. The 0.12 reflects very limited monetary policy independence."
+      },
+      {
+        "label": "financial_sector_reform_genuine_commitment",
+        "value": 0.39,
+        "evidence": "Financial sector reform is a recurring promise in Five-Year Plans. Actual progress: interest rate liberalization (deposit rates freed 2015, loan prime rate reform 2019). Exchange rate flexibility increased (daily band widened). Capital account partial opening. But: state bank dominance unchanged (Big Four control 40%+ of assets). Credit allocation still heavily influenced by political guidance. Bond and equity market development real but not genuinely market-determined. Xi's financial reform is real at the margins but avoids the structural changes that would reduce party control over credit allocation — the defining feature of China's political economy."
+      },
+      {
+        "label": "exchange_rate_management_activism",
+        "value": 0.76,
+        "evidence": "PBOC manages RMB through daily fixing mechanism (central parity) with ±2% trading band. Aug 2015: one-time 1.9% devaluation and move to market-based fixing triggered $1T+ outflows and US accusations of currency manipulation. Since 2016: PBOC has maintained RMB stability as policy objective — resisting both depreciation (capital flight risk) and appreciation (export competitiveness). Counter-cyclical adjustment factor in fixing mechanism explicitly smooths depreciation pressure. Oct 2023: RMB at 7.3/$ (weakest since 2007) — PBOC used state banks to sell dollars, issuing bills in Hong Kong. Active management is constant."
+      },
+      {
+        "label": "current_account_surplus_preservation",
+        "value": 0.68,
+        "evidence": "China's current account surplus recovered from near-balance 2013-18 to $400B+ annually by 2021-24 (2-3% of GDP). Manufacturing export dominance drove recovery — EV, solar, machinery replacing electronics decline. Xi has NOT pursued domestic demand expansion aggressive enough to reduce surplus — consistent with export-led growth as safe harbor. Trade partners (US, EU) have responded with tariffs. Xi accepts international trade friction rather than structural reforms that would reduce surplus — surplus represents manufacturing power, employment, and foreign exchange security."
+      },
+      {
+        "label": "property_tax_reform_willingness",
+        "value": 0.28,
+        "evidence": "Property tax has been discussed for 20+ years in China — economists broadly agree it would reduce speculative property investment, reduce local government land sale dependence, and provide stable fiscal revenue. Xi's administration announced property tax pilot trials (Shanghai, Chongqing exist since 2011). Broader rollout announced 2021, then quietly delayed. The resistance comes from: (1) wealthy homeowners (including party elites) who face large tax bills, (2) fear of property price collapse if holding cost increases, (3) local government resistance (land sales fund LGFVs). Xi has not overcome these interests — 0.28 reflects very low probability of comprehensive reform."
+      },
+      {
+        "label": "census_demographic_data_action_speed",
+        "value": 0.44,
+        "evidence": "2020 Census confirmed dramatically lower fertility than official figures suggested. Xi moved to three-child policy 2021, then unlimited 2021. Pro-natalist incentives introduced. But structural causes (housing costs, youth unemployment) not addressed. Xi's response speed was moderate — 2020 Census → 2021 policy change is relatively fast by bureaucratic standards. But the policy tools deployed are insufficient for the demographic challenge. The 0.44 reflects awareness and initial action but inadequate response magnitude."
+      },
+      {
+        "label": "geopolitical_risk_premium_tolerance_for_investment",
+        "value": 0.64,
+        "evidence": "FDI into China declined significantly post-2022 — from $180B annual peak to ~$30B net by 2023 (FDI-equivalent basis). Xi has expressed concern but has not made the structural changes (property rights, rule of law, data security law carve-outs, market access) needed to reverse the trend. Instead: verbal reassurance to foreign businesses, targeted investment promotions, CPPCC meetings with foreign CEOs. The gap between Xi's stated desire for foreign investment and the policies creating uncertainty (NSL, data laws, regulatory unpredictability) is wide — revealed preference is control over investment attraction."
+      },
+      {
+        "label": "military_budget_economic_constraint",
+        "value": 0.79,
+        "evidence": "China's military budget has grown ~7% annually under Xi — from $130B (2012) to $225B (2023) in official figures (true figure estimated 40-60% higher by Western analysts). Military spending is NOT subject to GDP growth pressure — even in weak growth years (2022: 3% GDP, 7.1% military budget growth). Xi personally chairs Central Military Commission. Military modernization (aircraft carriers, hypersonics, nuclear expansion, space) is a non-negotiable budget item. The military budget is the strongest example of Xi's spending that is insulated from economic optimization."
+      },
+      {
+        "label": "corruption_in_military_purge_effect_on_readiness",
+        "value": 0.58,
+        "evidence": "2023-24: Xi's purge reached deep into PLA Rocket Force (ballistic missiles) — Rocket Force commander Li Yuchao removed, multiple generals investigated. Reason: likely corruption in procurement (fake missile fuel scandal circulated). The purge disrupted military organizational continuity but Xi chose to accept this cost for control. Economic implication: defense procurement contracts under uncertainty, military-industrial complex investment signaling unclear. This demonstrates Xi's political control priority extends to military readiness tradeoffs."
+      },
+      {
+        "label": "foreign_reserves_management_conservatism",
+        "value": 0.81,
+        "evidence": "China's foreign reserves peaked at $4T (Jun 2014) and have been maintained at $3-3.2T since 2017 after the 2015-16 outflow crisis (reserves fell from $3.99T to $3.01T — a $1T decline in 18 months). SAFE and PBOC have been very conservative since the 2016 experience: reserve adequacy is treated as a national security issue. Xi personally received briefings on reserve levels during the 2016 crisis. Reserves are managed to ensure minimum 3 months of import coverage plus sufficient buffer for currency defense — conservatism has increased not decreased since 2015."
+      },
+      {
+        "label": "gold_reserve_accumulation_rate",
+        "value": 0.73,
+        "evidence": "PBOC has been consistently accumulating gold reserves post-2022 — 18+ consecutive months of purchases reported 2022-2023. Gold reserves grew from 1,948 tonnes (2019) to 2,264+ tonnes (2024). This is part of de-dollarization strategy following Russia sanctions lesson. Xi's direction to diversify reserves away from US Treasuries is reflected in: Treasury holdings declining from $1.3T to $775B, gold and other currencies rising share. The accumulation pace accelerated post-Ukraine — a clear behavioral change driven by geopolitical calculation."
+      },
+      {
+        "label": "information_fidelity_correction_for_information_bubble",
+        "value": 0.41,
+        "evidence": "Xi's information environment is compromised by multiple factors: (1) Officials report selectively favorable data (grassroots research expeditions — Xi conducts 'xuefang' visits precisely because he knows official reports are unreliable), (2) Anti-corruption campaign created 'lazy officials' who avoid controversial assessments, (3) Policy failures are suppressed — zero-COVID reversal information environment shows Xi was genuinely surprised by protest scale, (4) Sycophancy bias: subordinates tell Xi what he wants to hear. Counter: Xi's xuefang inspections, personal research teams, special information channels. Net effect: Xi receives significantly distorted information, particularly about negative outcomes."
+      },
+      {
+        "label": "policy_announcement_implementation_gap",
+        "value": 0.69,
+        "evidence": "A persistent feature of Xi governance: policy announced nationally, implementation varies enormously by locality. Local officials face incentive conflicts between central directives and local interests. Anti-corruption: announced nationally, implementation rate varies (coastal vs inland, Xi loyalists vs others). Common prosperity: announced loudly, implementation pulled back quietly when economic costs became visible. Environmental regulations: strict in Beijing/coastal, minimal in interior. Xi is aware of implementation gaps (he complains about them) but structural solutions (genuine federalism, independent oversight) conflict with political control. The gap is a systemic feature."
+      },
+      {
+        "label": "economic_nationalism_ideological_content",
+        "value": 0.82,
+        "evidence": "Economic nationalism is a core element of Xi's governing ideology — not just tactical tool. 'We must always have faith in our country, in our people, in the Party' in economic discourse. 'Self-reliance and self-improvement' (自力更生、艰苦奋斗) as economic development model. National champion building. Made in China 2025 framed as national dignity issue. Consumer boycotts of foreign brands (H&M, Nike after Xinjiang cotton statements 2021) tacitly encouraged. Xi's economic nationalism creates genuine policy constraints — accepting foreign technology dependence is ideologically costly, even when economically rational."
+      },
+      {
+        "label": "market_opening_reciprocity_demand",
+        "value": 0.65,
+        "evidence": "Xi consistently rejects the framing that China should liberalize unilaterally — insists on reciprocity. 'We want market access but so does everyone else.' Negative list system for FDI in theory offers broad access but specific sector restrictions remain extensive (media, internet, finance with caps, healthcare). RCEP and CPTPP applications: CPTPP application lodged 2021 but no real prospect of meeting standards (state enterprise rules, data flow requirements). The reciprocity demand is genuine but the implicit standard Xi applies is 'China can access foreign markets while maintaining domestic restrictions' — not true reciprocity."
+      },
+      {
+        "label": "economic_sanctions_retaliation_precision",
+        "value": 0.71,
+        "evidence": "China's economic retaliation for political disagreements is systematic but targeted: (1) Australia: barley, wine, coal, beef, timber, lobster (2020-21) after COVID inquiry call — comprehensive but carefully avoiding iron ore (too expensive for China). (2) Lithuania: blocked from EU supply chains after Taiwan representative office allowed (2021-22). (3) South Korea: THAAD deployment (2017) → tourism boycott, Lotte hypermarkets forced to close. (4) Norway: salmon ban after Liu Xiaobo Nobel Prize (2010). Pattern: target sectors where China has market power, avoid sectors where China needs imports, time response to political resolution opportunity."
+      },
+      {
+        "label": "taiwan_strait_military_economic_integration",
+        "value": 0.81,
+        "evidence": "Taiwan Strait military posture and economic policy are explicitly integrated under Xi. Military exercises (Aug 2022) coordinated with economic coercion (agricultural import bans). Xi's Taiwan policy has three tracks: (1) military deterrence/capability building, (2) economic integration/attraction (ECFA cross-strait trade agreement maintained), (3) political pressure/isolation. The economic track serves both attraction (showing Taiwan economic benefits of 'one country, two systems') and coercion (agricultural bans as punishment). Xi maintains both simultaneously — not resolved to either pure attraction or pure coercion."
+      },
+      {
+        "label": "covid_zero_abrupt_exit_chaos_tolerance",
+        "value": 0.63,
+        "evidence": "When zero-COVID was abandoned Dec 2022, the exit was chaotic: no mass vaccination of elderly, no ICU capacity expansion, no antivirals stockpiled. China experienced massive COVID wave — est. 1M+ deaths (by excess mortality estimates). Xi accepted this chaos rather than managed transition because: (1) any managed transition would have required acknowledging failure earlier, (2) political calculus said social stability (no more lockdowns) was immediate priority. The exit demonstrates Xi's preference for decisive breaks over managed transitions when the political moment is right."
+      },
+      {
+        "label": "national_security_law_economic_cost_acceptance",
+        "value": 0.91,
+        "evidence": "Hong Kong NSL (Jun 2020) imposed despite: (1) expected massive FDI outflow (materialized: $50B+ left), (2) expected US sanctions (HKHRDA, loss of special trading status), (3) expected professional talent exodus (100,000+ emigrated), (4) expected drop in IPO activity (materialized: HKEx market cap fell from $6.5T to $4T). Xi accepted all these costs because the alternative — continued political uncertainty from 2019 protests — was assessed as greater regime threat. This is the clearest pricing of 'political security premium' in Xi's record."
+      },
+      {
+        "label": "greater_bay_area_integration_priority",
+        "value": 0.66,
+        "evidence": "Greater Bay Area (Guangdong-HK-Macao) development plan announced 2019, accelerated post-NSL. Integration of Shenzhen (tech/manufacturing) + Hong Kong (finance) + Guangzhou (commerce) + Macao (tourism/gaming) as unified economic zone. Cross-border data flows, professional licensing, infrastructure (Guangzhou-Shenzhen-HK Express Rail). Xi views GBA as demonstrating 'one country, two systems' viability under stronger political framework. Progress is real but Hong Kong's role is shifting from international financial hub to regional economic hub — the distinction matters for the global financial system."
+      },
+      {
+        "label": "demographic_dividend_loss_policy_response",
+        "value": 0.46,
+        "evidence": "China's working-age population peaked around 2011 (before Xi took power) and demographic dividend has been declining since. Xi's responses: (1) end one-child, two-child, three-child policies, (2) delayed retirement age proposed (gradual retirement delay to 63/65 men, 55/58 women — politically sensitive, announced Sep 2024), (3) automation/robotics investment (world's largest industrial robot installer), (4) vocational education expansion. None of these fully compensate for demographic headwinds. Xi is managing demographic decline rather than reversing it — realistic about limits but unwilling to make structural changes (immigration, housing cost reduction) that would have larger impact."
+      },
+      {
+        "label": "central_local_fiscal_relationship_reform",
+        "value": 0.38,
+        "evidence": "Central-local fiscal relationship is a 30-year structural problem: 1994 tax sharing gave center most revenue, locals most expenditure obligations. Led to land sale dependence and LGFV debt. Xi has repeatedly promised reform but has not restructured the fundamental 1994 system. Oct 2023 special bond transfer to locals is a symptom-treatment not structural reform. Xi appears to understand the problem but fears that genuine fiscal federalism would reduce central control. 0.38 reflects awareness without structural willingness."
+      },
+      {
+        "label": "private_enterprise_confidence_restoration_2023_24",
+        "value": 0.54,
+        "evidence": "Post-crackdown restoration effort 2023-24: Xi met with private entrepreneurs (Liu Chuanzhi, Jack Ma returned), the 31-point 'private economy promotion' document released Jul 2023, 'Two Unwaverings' (public ownership + private economy both solid) regularly invoked. Alibaba restructuring scaled back. Ant Group restructuring finalized. Some gaming licenses restored. But: regulatory framework (data security, platform economy, common prosperity) unchanged. Foreign investor surveys show continued confidence gap. The restoration is real but partial — it is reduction of crackdown intensity, not reversal of regulatory direction."
+      },
+      {
+        "label": "statistics_manipulation_tolerance",
+        "value": 0.76,
+        "evidence": "China's GDP statistics are widely considered to be smoothed and sometimes overstated. Li Keqiang's 2007 leaked cable (via WikiLeaks): stated GDP was 'man-made' and unreliable, preferred electricity/rail/loans. Youth unemployment suspended Jul 2023 when it hit 21.3%. Property sector data releases inconsistent. NBS revised 2020 GDP upward after publishing 2.3% — unusually large revision. Xi tolerates or directs statistical manipulation for political legitimacy purposes — official statistics serve the narrative of successful governance."
+      },
+      {
+        "label": "debt_to_gdp_ceiling_implicit",
+        "value": 0.57,
+        "evidence": "China's total debt (government + corporate + household) exceeds 300% of GDP. Xi has expressed concern about 'gray rhino' financial risks and 'systemic financial risk' being a red line. But actual deleveraging has been limited — deleveraging campaign 2016-18 reduced shadow banking but overall debt continued rising. The implied ceiling seems to be around managing the pace of increase rather than absolute level — Xi is more concerned about debt composition (less shadow, more direct government) and debt growth rate than the level itself."
+      },
+      {
+        "label": "systemic_financial_risk_tolerance",
+        "value": 0.39,
+        "evidence": "Xi has explicitly said preventing 'systemic financial risk' is a 'bottom line' (底线) — but the definition of systemic is narrow. Evergrande default was allowed to proceed; Huarong (state AMC with $22B+ in restructuring needs, 2021) was bailed out. The distinction: Evergrande = private developer = let fail; Huarong = state-adjacent = bail out. Bank runs on small rural banks (2022 Henan rural bank crisis: 400,000+ depositors frozen, then partially compensated) were contained but not prevented. Xi's systemic risk tolerance is higher than OECD central banks but lower than pure market logic — state sector gets implicit guarantee, private sector does not."
+      },
+      {
+        "label": "digital_currency_dcep_strategic_motivation",
+        "value": 0.79,
+        "evidence": "Digital RMB (e-CNY/DC-EP) is the world's most advanced CBDC. Motivations: (1) monetary sovereignty — reduce Alipay/WeChat Pay duopoly that sits outside PBOC monitoring, (2) international sanctions resilience — potential to settle cross-border transactions outside SWIFT, (3) financial surveillance — complete transaction traceability. Xi personally endorsed e-CNY as 'digital economy infrastructure.' Pilot expansions in multiple cities. Adoption has been slower than planned (user incentives needed). The strategic motivation is stronger than the current adoption rate suggests."
+      },
+      {
+        "label": "quantum_computing_investment_commitment",
+        "value": 0.72,
+        "evidence": "China is the world's second-largest quantum computing investor. National quantum laboratory in Hefei. Achievements: Jiuzhang photonic quantum computer (2020), Zuchongzhi superconducting (2021). US export controls on quantum computing components. Xi views quantum as potential cryptographic advantage for intelligence and as post-semiconductor-constraint computing path. Investment is consistent and growing — $15B+ committed in national quantum plans. However, commercialization remains years away — this is pure long-horizon strategic investment."
+      },
+      {
+        "label": "space_economy_strategic_priority",
+        "value": 0.76,
+        "evidence": "China's space program under Xi: Tiangong space station completed (2022), Chang'e lunar program (4 landed), Mars mission (Tianwen-1 2021), GNSS (Beidou) global navigation system completed (2020) replacing GPS dependence. Space is military (anti-satellite weapons, reconnaissance), civilian, and national prestige. Xi's 'space dream' (航天梦) is explicitly tied to China Dream (中国梦). Budget: official space budget ~$12B/year but actual spending including military estimated 2-3x higher. Commercial space (Chinese SpaceX equivalents) encouraged but state-led. Strategic priority is clear and durable."
+      },
+      {
+        "label": "new_development_paradigm_quality_over_quantity",
+        "value": 0.71,
+        "evidence": "'High quality development' (高质量发展) has replaced 'high speed development' (高速发展) as Xi's stated economic model since 19th Party Congress (2017). Explicitly rejected GDP-as-primary-metric. Introduced instead: innovation, green development, coordinated development, open development, shared development (innovation being the primary driver). This shift is genuine — Xi has resisted multiple calls for large-scale stimulus that would boost quantity growth. The 5% target reflects accommodation of lower-quality infrastructure investment in favor of genuine productivity enhancement."
+      },
+      {
+        "label": "intellectual_property_enforcement_strengthening",
+        "value": 0.59,
+        "evidence": "China's IP protection has improved significantly under Xi — partly driven by phase one trade deal commitments, partly by Chinese innovative firms needing IP protection themselves. Specialized IP courts established. Patent grants expanded dramatically (but quality still lower than US/EP). Trade secret protection laws strengthened. However: state-sponsored IP theft continues per US intelligence assessments. The improvement is real at the legal framework level but enforcement is uneven. Chinese firms like Huawei, CATL, Xiaomi now have large patent portfolios and want IP protection — domestic demand is shifting incentive."
+      },
+      {
+        "label": "zero_sum_vs_positive_sum_global_economy_view",
+        "value": 0.35,
+        "evidence": "Xi's stated position: 'win-win cooperation.' Actual revealed preference: increasingly zero-sum. Semiconductor technology: if China gets advanced chips, it's a strategic threat → US imposes controls. Manufacturing dominance: solar, EV, battery — Xi views global market share as strategic asset, not mutual gain. BRI: project finance that builds China economic-strategic networks. The widening gap between rhetorical commitment to mutual benefit and actual zero-sum economic competition in strategic sectors suggests Xi's operative model is more competitive than cooperative. Score 0.35 (more zero-sum than his rhetoric)"
+      },
+      {
+        "label": "anti_western_economic_model_critique",
+        "value": 0.77,
+        "evidence": "Xi has increasingly articulated an explicit critique of Western economic model: 'neoliberal globalization has led to inequality.' 'Washington Consensus has failed developing countries.' 'Global South needs development without western conditionality.' BRI as alternative development finance. AIIB as alternative to IMF/World Bank conditionality. Common prosperity as explicit rejection of 'trickle down economics.' These are genuine ideological positions, not just tactical positioning — Xi believes China's 'whole process people's democracy' combined with market socialism is a superior development model."
+      },
+      {
+        "label": "economic_policy_trial_and_error_tolerance",
+        "value": 0.45,
+        "evidence": "Xi's policy approach shows some trial-and-error but less than technocratic systems. Successful trials: free trade zones (Shanghai FTZ 2013 → expanded), negative list approach, bond market opening incremental steps. Failed trials: 2015 circuit breakers (installed, triggered mass panic within 4 days, removed). Property tax pilots (Shanghai/Chongqing) not expanded despite years of evaluation. Common prosperity drive (implemented aggressively 2021, walked back 2022-23). The tolerance for acknowledging policy failure is low (political legitimacy constraint), so errors are quietly reversed rather than explicitly corrected."
+      },
+      {
+        "label": "international_monetary_system_reform_ambition",
+        "value": 0.72,
+        "evidence": "Xi supports structural reform of international monetary system: (1) expanded SDR basket (RMB inclusion 2016), (2) greater developing country representation in IMF/World Bank, (3) de-dollarization through bilateral settlements, (4) BRICS payment system discussions, (5) e-CNY for cross-border settlement. Xi has been explicit: 'the international monetary system dominated by a single reserve currency is unstable.' This is a long-term structural ambition — Xi does not expect to dethrone the dollar in his term but is building toward a multipolar monetary system over decades."
+      },
+      {
+        "label": "anti_hegemony_economic_posture",
+        "value": 0.85,
+        "evidence": "Anti-hegemony (反霸权主义) is a constant in Xi's foreign and economic policy. 'No country should seek hegemony, practice power politics, or create spheres of influence.' Xi frames China's rise explicitly as challenging US hegemony — not to replace it with Chinese hegemony, but to establish 'multipolarity.' In practice: SCO expansion, BRICS expansion, BRI, RCEP, AIIB, de-dollarization. Every institutional alternative to US-led international order is built under this framework. Xi's anti-hegemony posture directly shapes trade, finance, and technology policy — it is not separable from economic decision-making."
+      },
+      {
+        "label": "npc_rubber_stamp_economic_oversight",
+        "value": 0.07,
+        "evidence": "National People's Congress theoretically approves state budget, economic plans. In practice: NPC approval is formality. 3,000-member NPC meets ~2 weeks per year, approves all government bills presented. No bill has been rejected. Premier's Government Work Report delivers economic targets, NPC approves without substantive debate. This is relevant for the simulation: Xi's economic decisions are NOT constrained by legislative check — no budget battles, no congressional override. This differs fundamentally from democratic leaders' economic decision-making."
+      },
+      {
+        "label": "think_tank_economic_advice_utilization",
+        "value": 0.52,
+        "evidence": "Xi uses think tanks but selectively. CASS (Chinese Academy of Social Sciences) and DRC (Development Research Center of the State Council) provide analysis. PKU/Tsinghua economists consulted. However: think tanks that provide unwelcome analysis face consequences (multiple economists disciplined for bearish assessments). 'Wolf warrior' economists who align with Xi's worldview are elevated. The think tank community is self-censoring — institutions provide analysis within acceptable ranges. Net effect: Xi receives less diverse, less challenging economic advice than the nominal consultation process suggests."
+      },
+      {
+        "label": "inflation_tolerance_upside",
+        "value": 0.58,
+        "evidence": "China's CPI inflation has been generally moderate under Xi: 2-3% range most years, negative briefly in 2024. Xi has not faced a serious inflation crisis comparable to 1988-89 (when inflation triggered Tiananmen protests) or 2007-08. Historical CPI awareness: 1988-89 inflation (20%+) destabilized the regime → Xi would prioritize price stability strongly if inflation threatened to exceed 5-6%. Current mild deflation is tolerated over reflation risk. Upside inflation tolerance is moderate but will become very low if inflation approaches historically destabilizing levels."
+      },
+      {
+        "label": "pension_system_fiscal_sustainability_concern",
+        "value": 0.61,
+        "evidence": "China's pension system faces severe actuarial stress: (1) 1.4:1 worker-to-retiree ratio projected by 2050 vs current 4:1, (2) Local pension funds have accumulated deficits — Northeast provinces (Heilongjiang) ran out of pension reserves, (3) Central transfer payments increasing. Response: retirement age extension announced Sep 2024 (3-year delayed implementation). National Social Security Fund as reserve. However: the actuarial gap is large and the solutions deployed are insufficient. Xi is aware (regular briefings) but politically constrained on pension reform — elderly vote (even if not in electoral system, social stability is their proxy)."
+      },
+      {
+        "label": "market_economy_legal_framework_development",
+        "value": 0.44,
+        "evidence": "China has developed extensive market economy legal infrastructure under Xi: Company Law revised, Bankruptcy Law applied (Evergrande bankruptcy proceedings in Hong Kong), Civil Code enacted 2021 (first comprehensive codification), Foreign Investment Law 2020 (negative list, VIE structure legalized). However: legal system is not independent — party controls courts, party secretary of Supreme Court is senior to chief justice. Contract enforcement in disputes with state-connected parties is unreliable. Foreign firm arbitration rulings frequently unenforceable. The legal framework is increasingly sophisticated but not genuinely rule of law."
+      },
+      {
+        "label": "2015_stock_market_crash_lesson_internalization",
+        "value": 0.81,
+        "evidence": "2015 crash (Shanghai Composite from 5,178 to 2,927, -43%, Jun-Aug 2015) was deeply traumatic for Xi's economic legitimacy. The government had encouraged stock market participation ('invest in China's story'), then the market crashed. The lesson: (1) do not encourage retail investor participation in bubble markets, (2) when market crashes, state must intervene, (3) IPO gate as market management tool. The 2024 A-share support (national team intervention) and IPO restraint show 2015 lessons being applied. Xi's stock market management became permanently more interventionist post-2015."
+      },
+      {
+        "label": "economic_policy_consistency_within_term",
+        "value": 0.55,
+        "evidence": "Xi's economic policies show significant oscillation within terms: common prosperity announced loudly 2021, modulated 2022-23; tech crackdown aggressive 2020-22, reversal 2023; zero-COVID absolute 2020-22, abrupt abandonment Dec 2022; three red lines absolute 2020-23, softened 2024. Each major policy has had a crackdown phase and a reversal/modulation phase. The pattern is: Xi announces a direction, implements aggressively, economic costs accumulate, then moderate without abandoning the framework. Consistency is lower than his authoritarian decisiveness image suggests."
+      },
+      {
+        "label": "economic_management_decisiveness_vs_technocratic_process",
+        "value": 0.77,
+        "evidence": "Major Xi economic decisions are highly centralized and often announced without extensive technocratic process: Ant IPO block (48 hours notice), zero-COVID launch (rapid implementation), three red lines (relatively quick implementation), tech crackdown (regulatory actions without prior public consultation). Contrast: Western economic policy typically involves years of regulatory process. Xi's decisiveness creates policy uncertainty for businesses but allows rapid implementation of Xi's priorities. The decisiveness is real — but also means rapid reversals when signals change."
+      },
+      {
+        "label": "supply_chain_security_domestic_resilience_priority",
+        "value": 0.88,
+        "evidence": "COVID exposed supply chain vulnerability (medical supplies, electronics, food). Xi elevated supply chain security: (1) semiconductor self-sufficiency as national imperative, (2) critical minerals processing (lithium, cobalt, rare earths — China processes 60-80% of global supply), (3) food supply chain (grain reserves, soybean substitution, aquaculture expansion), (4) energy supply chain (renewable + coal backup), (5) industrial backup capacity (kept steel overcapacity partly for strategic reasons). This is explicitly supply-side national security policy — not economic optimization."
+      },
+      {
+        "label": "critical_minerals_control_as_economic_weapon",
+        "value": 0.82,
+        "evidence": "China controls 60-80% of global processing for rare earths, cobalt, lithium, graphite, germanium, gallium. Xi has weaponized this: Aug 2023 gallium/germanium export restrictions (used in semiconductors, fiber optics). Sep 2023 graphite export restrictions (EV batteries). Rare earth export quotas as response to US tech restrictions. This is explicit use of resource/processing dominance as economic leverage — China's analog to US technology controls. Xi has invested in expanding this leverage: mining in Africa/LatAm via BRI, processing capacity expansion, REE recycling technology."
+      },
+      {
+        "label": "global_south_economic_leadership_aspiration",
+        "value": 0.79,
+        "evidence": "Xi presents China as champion of Global South: (1) BRI infrastructure development (150+ countries), (2) COVID vaccine diplomacy (Sinovac/Sinopharm to developing countries), (3) AIIB as alternative multilateral development bank, (4) BRICS expansion, (5) debt relief for African/LatAm countries (with conditions). 'Global Development Initiative' announced 2021 as UN-level alternative to Western development model. This is both genuine commitment and strategic competition — building China-centric economic networks that reduce Western influence in developing world."
+      },
+      {
+        "label": "decarbonization_economic_opportunity_recognition",
+        "value": 0.78,
+        "evidence": "Xi recognized early that green economy transition = massive economic opportunity: China has captured 70-80% of global solar panel production, 65%+ of wind turbine production, 60%+ of EV battery production, 40%+ of global EV sales (BYD world's largest). The 2060 carbon neutrality commitment was timed with the Biden administration's climate push — Xi recognized strategic advantage in leading green technology. Climate policy and industrial policy are merged: decarbonization is both environmental commitment and export-industry building."
+      },
+      {
+        "label": "third_term_legitimacy_economic_performance_pressure",
+        "value": 0.69,
+        "evidence": "Xi's unprecedented third term (secured Oct 2022) breaks institutional norms that were designed to prevent leader-for-life situations. This creates additional economic performance pressure: without the legitimizing precedent of peaceful term rotation, Xi needs economic performance as an alternative source of legitimacy. The 2022-24 economic slowdown (property crisis, deflation, youth unemployment) occurring in the third term creates political pressure Xi did not face as strongly in first and second terms. The Sep-Oct 2024 stimulus package was the largest since COVID — likely driven partly by third-term legitimacy pressure."
+      },
+      {
+        "label": "pandemic_preparedness_system_upgrade_post_covid",
+        "value": 0.52,
+        "evidence": "Post-zero-COVID exit (Dec 2022): China invested in pandemic preparedness infrastructure: ICU capacity expansion, antivirals stockpiling, MRNA vaccine development (domestic). However, the investment was slower than scale of the chaotic exit warranted — multiple waves hit before preparation was complete. Xi's response to the failure of zero-COVID exit was more measured than the original zero-COVID implementation. The 0.52 reflects moderate response investment, not the urgency level that the crisis would have justified."
+      },
+      {
+        "label": "economic_coercion_of_allies_tolerance_for_self_harm",
+        "value": 0.64,
+        "evidence": "When China applies economic coercion, it accepts some self-harm. Australia barley/wine/coal ban: Australian coal ban meant more expensive alternative coal (prices rose), LNG dependence increased temporarily. South Korea THAAD: Lotte exit from China cost Lotte but also reduced jobs in China. Norway salmon ban: Norwegian salmon was replaced but at higher cost. Xi accepts some self-harm from coercion tools when political signal value is high — especially when the target is smaller (Australia GDP 1.5T vs China's 17T) and China's market dependence on that product is lower."
+      },
+      {
+        "label": "economic_espionage_technology_acquisition_tolerance",
+        "value": 0.83,
+        "evidence": "US intelligence consistently identifies China as the most significant economic espionage threat. Documented cases: IP theft from aerospace (Boeing, GE), semiconductors (multiple cases), biotechnology (COVID research), defense technology. Military-civil fusion strategy explicitly integrates civilian and military R&D — foreign firm technology accessed for military application. State-sponsored academic talent programs (Thousand Talents) used for technology transfer. Xi has not publicly acknowledged this activity and has maintained it as a systematic national capability. The 0.83 reflects high tolerance for activities that serve technological catch-up even at diplomatic cost."
+      },
+      {
+        "label": "gig_economy_platform_worker_protection",
+        "value": 0.57,
+        "evidence": "Platform worker protections became a policy issue 2021-22: Meituan (food delivery), DiDi, Alibaba logistics drivers have high accident rates, no labor benefits, algorithmic wage pressure. SAMR and Ministry of Human Resources and Social Security issued platform worker protection guidelines 2021. However: fundamental employment status (contractor vs employee) not resolved. Minimum income guarantee for platform workers introduced. This is an area where Xi's common prosperity and labor protection rhetoric has been converted into some policy action — more than pure market liberal approach, less than full labor reform."
+      },
+      {
+        "label": "south_china_sea_economic_exclusion_zone_enforcement",
+        "value": 0.77,
+        "evidence": "South China Sea (nine-dash line): China has built artificial islands, deployed coast guard, asserted fishing rights and resource rights in areas Vietnam/Philippines/Malaysia also claim. Economic dimension: oil/gas reserves, fishing rights, shipping lanes (30%+ of world trade). Xi has not enforced economic exclusion absolutely — fishing agreements maintained with some ASEAN neighbors. But coast guard enforcement has intensified 2023-24 (gray zone operations near Philippines). The economic coercion is below threshold of military action but above peaceful commercial dispute — Xi is progressively asserting economic jurisdiction."
+      },
+      {
+        "label": "beijing_consensus_model_export_ambition",
+        "value": 0.72,
+        "evidence": "'Beijing Consensus' (coined externally, then adopted) = state-directed development, authoritarianism-compatible growth, technology leapfrogging, sovereignty preservation. Xi has explicitly promoted this as alternative development model for Global South: China Development Forum presentations, Xi's party school international programs, 'China Solution' (中国方案) in global governance. BRI, AIIB, Digital Silk Road all carry implicit model export. Xi is not shy about presenting China's political economy model as globally applicable — unlike Deng who kept 'one country, two systems' strictly domestic."
+      },
+      {
+        "label": "property_market_wealth_effect_awareness",
+        "value": 0.67,
+        "evidence": "Urban household wealth in China is 60-70% property (vs US ~30%). The Evergrande-led property price decline 2021-24 created a massive negative wealth effect on consumer confidence. Xi has become increasingly aware that property market health is linked to consumer spending and hence GDP target achievement. The 2024 property support package (PBOC facility, down payment cut, rate cuts) was explicitly linked to confidence restoration. However, Xi also wants to reduce speculative property investment — the awareness creates a policy tension he has not fully resolved: he wants property stable but not booming."
+      },
+      {
+        "label": "export_led_growth_continuation_preference",
+        "value": 0.66,
+        "evidence": "Despite dual circulation rhetoric emphasizing domestic demand, China's trade surplus hit records 2021-24 ($838B in 2022, $823B in 2023, $1T+ in 2024). The record surpluses reflect: (1) COVID suppressed imports (zero-COVID reduced domestic demand), (2) EV/solar/battery exports booming, (3) domestic consumption weakness relative to production capacity. Xi has not resolved the structural surplus — it is partly chosen (export industries = employment, strategic capability) and partly structural (insufficient domestic consumption). The revealed preference is continued export led growth despite dual circulation rhetoric."
+      },
+      {
+        "label": "overcapacity_strategic_use_tolerance",
+        "value": 0.71,
+        "evidence": "China's solar, EV, steel, and chemical industries have massive overcapacity relative to domestic demand — with the excess exported at low prices (sometimes below cost). The US/EU have responded with tariffs (US EV 100%, EU EV 45%, various solar tariffs). Xi views strategic overcapacity as industrial policy tool: (1) drives down costs for global green energy transition, (2) prices out foreign competitors, (3) secures market share for long-term. Xi accepts trade friction from overcapacity exports because the strategic industrial dominance is more valuable than avoiding tariffs."
+      },
+      {
+        "label": "fiscal_stimulus_via_special_bonds_preference",
+        "value": 0.68,
+        "evidence": "Xi's preferred fiscal stimulus mechanism is special bonds (专项债) for infrastructure — not cash transfers or consumption vouchers. 2020: ¥3.75T special local government bond quota. 2023: ¥1T central government special bond. 2024: ¥1T ultra-long special government bond for strategic investments (food security, energy security, supply chain). The infrastructure/investment focus reflects: (1) visible 'productive' use of government funds, (2) state control over allocation, (3) employment impact through construction. Direct consumer transfers (American-style stimulus checks) are ideologically disfavored — 'lazy' spending."
+      },
+      {
+        "label": "interest_rate_transmission_mechanism_trust",
+        "value": 0.46,
+        "evidence": "PBOC rate cuts have had limited transmission to real economy: (1) banks reluctant to lend to private SMEs even at lower rates (prefer SOE/local government borrowers), (2) property developers cannot absorb new loans despite lower rates (balance sheet recession), (3) households prefer to save rather than borrow/spend despite lower deposit rates (negative wealth effect from property). Xi's economists have recognized the 'pushing on string' problem but structural solutions (SOE credit preference reform, consumer confidence restoration) conflict with political priorities. Rate transmission efficiency is low — reducing rate cut effectiveness."
+      },
+      {
+        "label": "balance_sheet_recession_recognition_response",
+        "value": 0.49,
+        "evidence": "China's post-2021 slowdown has characteristics of a balance sheet recession: (1) private firms paying down debt rather than investing even with low rates, (2) local governments constrained by LGFV debt from new investment, (3) households saving more due to property wealth loss. Koo-style analysis suggests fiscal expansion is needed to offset private deleveraging. Xi has deployed some fiscal tools (special bonds, consumption vouchers) but not at the scale that balance sheet recession theory would recommend. Awareness is growing (Chinese economists publishing on this) but policy response is constrained by debt concerns."
+      },
+
+      {
+        "label": "leninist_organizational_control_mastery",
+        "value": 0.96,
+        "evidence": "Xi's mastery of Leninist organizational instruments is the highest since Mao's peak. The CPC's core power tools — Organization Department (cadre appointments), Central Commission for Discipline Inspection (purges), Political and Legal Affairs Commission (security/judiciary), Central Committee General Office (information flow), Propaganda Department (ideology) — are ALL controlled by Xi's personal loyalists forming a closed loop. Organization Dept: Chen Xi (2017-23, Tsinghua classmate) → Li Ganjie (2023-present) under Cai Qi's overall coordination. CCDI: Wang Qishan (2012-17) → Zhao Leji (2017-22) → Li Xi (2022-present). Central Office: Li Shulei → Cai Qi supervising. By 2024, over 70% of 31 provincial party secretaries have direct career ties to Xi. This organizational control means Xi's policy signals are amplified through the cadre system — officials over-implement to demonstrate loyalty, creating the systematic 'overshoot then pullback' pattern visible in tech crackdown, common prosperity, and zero-COVID. The Leninist organizational toolkit is what converts Xi's personal preferences into nationwide policy reality."
+      },
+      {
+        "label": "succession_crisis_risk",
+        "value": 0.88,
+        "evidence": "Xi has systematically destroyed every succession mechanism that Deng Xiaoping built: (1) term limits abolished (2018 constitutional amendment), (2) no designated successor — Sun Zhengcai (the presumed 'heir apparent') was purged in 2017 on corruption charges, (3) no leadership pipeline — no one in the 20th Politburo Standing Committee (2022) is positioned as successor (youngest member Ding Xuexiang born 1962, would be 70 at earliest possible succession), (4) the 'generational designated successor' convention (Deng designated both Jiang and Hu) is defunct, (5) the 'elder statesman' retirement path destroyed by Xi's prosecution of Zhou Yongkang (former Standing Committee member), meaning any successor could do the same to Xi — which means Xi cannot safely retire. Jan 2026 Zhang Youxia purge eliminated the last military figure who could serve as a 'stabilizer' during succession. Historical comparison: Mao's death (1976) triggered a power struggle resolved within a month (Gang of Four arrest) only because Marshal Ye Jianying provided military backing. Xi's military is now purged of any such independent figure. The succession crisis risk increases with each year Xi remains in power without designating a successor — it is a time-accumulating systemic risk, not a static parameter."
+      },
+      {
+        "label": "information_distortion_systemic",
+        "value": 0.82,
+        "evidence": "Distinct from Xi's personal information bubble (information_fidelity 0.41), this measures the SYSTEM-WIDE information distortion inherent in Leninist hierarchical reporting. Each level of the bureaucracy systematically beautifies data before passing it upward — the Soviet term 'pripiski' (inflated reporting) has a direct Chinese equivalent in the saying '官出数字，数字出官' (officials produce numbers, numbers produce officials). Concrete evidence: (1) GDP: provincial GDP totals consistently exceeded national GDP for years until NBS reform in 2019 — Liaoning province admitted in 2017 to inflating GDP by over 20%, (2) youth unemployment: publication suspended Jul 2023 when it hit 21.3%, resumed with changed methodology showing lower figures, (3) local government debt: full-scope hidden debt (including LGFV) estimates range from 40T-65T RMB — even PBOC may not know the true figure, (4) environmental data: systematic fabrication discovered by central inspection teams, (5) grain production: '18 consecutive years of harvest growth' narrative contradicted by satellite observations. The Soviet Union's collapse was fundamentally enabled by information distortion — Gorbachev discovered the country he inherited bore little resemblance to official statistics. China's distortion level has not reached late-Soviet levels (estimated 0.85-0.90) but the trend is worsening as anti-corruption chilling effects reduce honest reporting."
+      },
+      {
+        "label": "purge_institutionalization",
+        "value": 0.89,
+        "evidence": "Xi has achieved the most institutionalized purge apparatus in Leninist party history — more systematic than Stalin's NKVD troikas, more controlled than Mao's mass movements. Key innovations: (1) National Supervisory Commission (2018 constitutional amendment): extended CCDI's party discipline power to ALL public officials (not just CPC members), creating a supra-legal oversight body, (2) 'Liuzhi' detention system replacing 'Shuanggui': formally legalized, allowing 6-month detention without judicial approval, (3) dual narrative function: purges are framed as 'anti-corruption' which enjoys genuine popular support (corruption IS a real problem), making political purges appear as rule-of-law enforcement, (4) selective prosecution as power tool: Xi allies (e.g., Cai Qi) face no investigation despite similar profiles to purged officials. Scale: 4.7M+ officials investigated 2012-2024, 100+ generals purged since 2022, multiple ministers disappeared (Qin Gang, Li Shangfu). Death sentences are extremely rare (Lai Xiaomin is an exception). Compared to Stalin (physical elimination, ~1M executed) or Mao (mass movement chaos), Xi's purge is more 'civilized' but more sustainable and more pervasive — it operates continuously for 14 years with no sign of ending, creating permanent uncertainty."
+      },
+      {
+        "label": "five_year_plan_cycle_decision_weight",
+        "value": 0.73,
+        "evidence": "Xi's major economic policy shifts are strongly synchronized with Five-Year Plan cycles, inherited from the Soviet planning tradition (China is on its 14th FYP, 2021-25). Pattern: (1) 2015 (end of 12th FYP): supply-side structural reform announced, (2) 2020 (end of 13th FYP to start of 14th FYP): dual circulation strategy, Ant Group IPO block, three red lines, common prosperity drive — all clustered at the plan transition, (3) 2025 (end of 14th FYP to 15th FYP drafting): expected major policy recalibration. Infrastructure investment follows FYP rhythm — acceleration in launch years and closing years. Xi's response to quarterly economic fluctuations is systematically slower than Western leaders because his decision framework operates on 5-year cycles, not quarterly cycles. This explains the ~2-year delay in responding to the 2022-23 deflation (Sep 2024 stimulus came late by Western standards but was timed for the FYP closing phase). However, Xi CAN override FYP timing for political emergencies (Dec 2022 zero-COVID exit) — the cycle is a strong attractor, not an absolute constraint."
+      },
+      {
+        "label": "state_sector_dependence",
+        "value": 0.78,
+        "evidence": "Xi's economic policy execution depends on the state sector to a degree that goes beyond preference (state_vs_market_balance_preference 0.28) — it is structural path dependence from the planned economy legacy. Evidence: (1) stimulus transmission: fiscal stimulus flows primarily through SOE channels — infrastructure by CREC/CCCC/CSCEC, strategic industries through national champions (SMIC, COMAC, CRRC), (2) banking: Big Four state banks + policy banks control credit allocation — 'window guidance' from PBOC is effectively credit planning, (3) land system: all urban land is state-owned (1982 Constitution), land sales fund 40-60% of local government revenue — this is state monopoly rent extraction, not market pricing, (4) 'new whole-nation system' for semiconductors and AI is entirely state-directed, (5) even private firms are increasingly penetrated by party committees (mandatory for firms with 100+ employees since 2020). The dual-track system (plan + market) that China adopted under Deng was never fully resolved — state sector still accounts for ~30% of GDP but controls nearly all 'commanding heights' (banking, telecoms, energy, rail, aviation, defense). Even if Xi wanted more market reliance, the institutional infrastructure defaults to state channels."
+      },
+      {
+        "label": "political_commissar_system_control",
+        "value": 0.91,
+        "evidence": "Xi's control of the PLA operates through the political commissar system — a direct inheritance from the Soviet Red Army's komissar institution, adapted by Mao in 1927 ('party branch built on the company'). Every military unit from company level upward has a parallel political officer structure answering to the CMC Political Work Department. Xi's military purge (2023-2026, 100+ generals) is not just removing disloyal commanders — it is rebuilding the entire commissar network to ensure personal loyalty at every level. Evidence: (1) 2015 military reform: General Political Department became CMC Political Work Department, directly under Xi's CMC chairmanship, (2) Rocket Force Political Commissar Xu Zhongbo (appointed 2023) is Xi's personal selection after purging the entire Rocket Force leadership, (3) all Theater Command political commissars are Xi loyalists, (4) Jan 2026 Zhang Youxia purge removed the last figure with independent authority over parts of the political work system. The commissar system means military obedience flows through political channels parallel to command channels — Xi can bypass or override military commanders through their paired commissars. This creates a loyalty insurance mechanism but at the cost of military professionalism (the Soviet Army's catastrophic 1941 performance was partly caused by commissar interference with military decisions)."
+      },
+      {
+        "label": "democratic_centralism_concentration",
+        "value": 0.95,
+        "evidence": "The 'centralism' pole of democratic centralism has reached its historical extreme under Xi — exceeding even Mao's formal institutional concentration (Mao operated through informal charismatic authority and mass movements rather than institutional centralization). Evidence: (1) 'Two Establishes' written into Party Constitution at 20th Congress (2022): establishing Xi's core status and Xi Jinping Thought as guiding ideology, (2) 'Two Safeguards': maintaining Xi's core status and CPC Central Committee authority became the core of political discipline, (3) Politburo Standing Committee transformed from collective decision-making body to implementation body for Xi's will — 2022 PBSC is entirely Xi loyalists with no independent power base, (4) Xi chairs ALL key commissions: Central Comprehensively Deepening Reform Commission, Central Financial and Economic Affairs Commission, Central National Security Commission, Central Cyberspace Affairs Commission, Central Military Commission, (5) 'First Agenda Item' system: every party committee meeting at every level must begin with studying Xi's latest instructions, (6) Premier Li Qiang operates as pure executor — contrast with Li Keqiang who retained some independent voice. For comparison: Deng era democratic centralism concentration approximately 0.50-0.60 (Standing Committee counterbalance), Hu Jintao era approximately 0.40 ('nine dragons managing water'). Xi has pushed concentration beyond what the institutional design was meant to support."
+      },
+      {
+        "label": "route_struggle_framing",
+        "value": 0.72,
+        "evidence": "Xi has partially restored the Leninist 'route struggle' framing where policy disagreements are treated as existential political conflicts rather than normal governance debates. Evidence: (1) 'Two Establishes' effectively defines all policy disagreement as opposition to Xi's 'core' status — a route/line issue, (2) 2024 CCDI work report uses 'political problems intertwined with economic problems' — a modern variant of route struggle discourse that criminalizes policy disagreement, (3) anti-corruption cases routinely label defendants as 'political two-faced persons' — elevating corruption to route error, (4) Xi Jinping Thought embedded in all education and training — disagreeing with specific policies = not upholding Xi Jinping Thought = route problem. However, Xi has NOT fully returned to Mao-era route struggle intensity (0.95+): some technical economic policy debate persists in academic journals, think tanks retain limited space for heterodox analysis (though shrinking), and the term 'route struggle' itself is not officially revived. The framing operates more through implication and self-censorship than explicit declaration — which may actually be more effective at suppressing dissent."
+      },
+      {
+        "label": "party_above_state",
+        "value": 0.94,
+        "evidence": "Party supremacy over state institutions has reached its highest level in PRC history under Xi — arguably exceeding even the Mao era (when party institutions themselves were destroyed during the Cultural Revolution, replaced by ad hoc 'revolutionary committees'). Evidence: (1) 2018 Party-State institutional reform: multiple government functions absorbed into party organs — Central Foreign Affairs Commission absorbed foreign policy, Central Commission for Comprehensive Law-Based Governance absorbed judicial affairs, (2) State Council (government) systematically weakened — Premier Li Keqiang marginalized on economic policy, Li Qiang even more explicitly an executor, (3) NPC remains rubber stamp (0.07 oversight score), (4) local governance: 'party committee standing committee meetings' decide all major issues before 'government executive meetings' formally approve them, (5) financial regulation: Central Financial Commission (party body, established 2023) now oversees the former CBIRC and CSRC (state bodies), (6) Wang Yi serves simultaneously as Politburo member, Central Foreign Affairs Office director, and Foreign Minister — commanding state apparatus from party authority, (7) military: CMC is a PARTY body, not a state body — PLA answers to the party, not the government. This is the defining structural feature of a Leninist party-state that Western political analysis frequently underweights: the entire state apparatus is a subsidiary of the party, not the other way around."
+      }
+    ]
+  },
+  "red_lines": [
+    {
+      "id": "RL001",
+      "name": "cpc_regime_survival_threat",
+      "condition": "Any domestic political movement, elite defection, or organized opposition that threatens CPC control of the state apparatus",
+      "forced_action": "immediate_comprehensive_suppression_regardless_of_economic_cost",
+      "confidence": 0.99,
+      "evidence": "Tiananmen (1989 — before Xi's tenure) established the template. Hong Kong 2019-20: 6 months of tolerance, then NSL imposed despite $50B+ economic cost and permanent damage to international financial hub status. Xinjiang: massive internment campaign despite $1T+ in trade sanctions and reputation cost. Tibet: continuous suppression despite tourism and trade costs. Zero-COVID continued despite $1.5T+ economic cost until social unrest (Nov 2022 white paper protests) — then reversed. The pattern is absolute: regime survival overrides all economic optimization. No economic cost has been too high when regime is threatened.",
+      "priority": 1
+    },
+    {
+      "id": "RL002",
+      "name": "taiwan_military_reunification_timeline_trigger",
+      "condition": "Taiwan declaring formal independence OR US military deployment to Taiwan for permanent basing OR internal legitimacy crisis requiring nationalist achievement before 2027 Party Congress",
+      "forced_action": "military_action_or_full_economic_blockade_regardless_of_economic_cost",
+      "confidence": 0.94,
+      "evidence": "Xi has repeatedly stated Taiwan independence 'will never be allowed.' Military exercises Aug 2022 (post-Pelosi) showed willingness to conduct unprecedented military demonstration. Xi has told military to be ready for Taiwan by 2027 (multiple intelligence assessments). CRITICAL UPDATE 2026-01: The Jan 2026 purge of Zhang Youxia fundamentally changes Taiwan calculus. Zhang was the LAST person in the military hierarchy with the authority, experience (1979 Sino-Vietnamese War veteran), and political standing to push back on a Taiwan decision. With Zhang gone, CMC has no internal brake. Combined factors: (1) 2027 21st Party Congress — Xi needs a legitimacy narrative for unprecedented 4th term, economic performance alone may not suffice if deflation/slow growth continues, (2) military purge may actually be PREPARATION not disruption — removing generals who would resist or delay, replacing with unconditionally obedient commanders, (3) US distracted by Iran aftermath and Venezuela occupation — strategic window, (4) Trump's transactional nature — might trade Taiwan for trade concessions (unlike Biden's strategic clarity). COUNTER-ARGUMENT: purged military may lack competence for complex amphibious operation. But Xi may not care about operational perfection if political necessity is overwhelming. Revised confidence from 0.91 to 0.94.",
+      "priority": 1
+    },
+    {
+      "id": "RL003",
+      "name": "territorial_integrity_core_claim",
+      "condition": "International recognition of any change in status of Tibet, Xinjiang, Inner Mongolia as Chinese territory, or challenge to South China Sea nine-dash line",
+      "forced_action": "immediate_economic_coercion_diplomatic_rupture_and_military_posture_escalation",
+      "confidence": 0.96,
+      "evidence": "Norway salmon ban (4 years) after Nobel Prize to Liu Xiaobo. Lithuania severed diplomatic relations after Taiwan representative office. Multiple countries face Chinese economic coercion for Tibet/Xinjiang statements. South Korea THAAD resulted in $8B+ economic retaliation. Xi has demonstrated zero tolerance for territorial concession — the coercion is automatic, proportional to the perceived offense severity, and maintained until public reversal by offending party.",
+      "priority": 2
+    },
+    {
+      "id": "RL004",
+      "name": "systemic_financial_collapse",
+      "condition": "Bank runs on major state banks, interbank market freeze, or financial panic threatening social stability",
+      "forced_action": "unlimited_state_support_regardless_of_moral_hazard",
+      "confidence": 0.94,
+      "evidence": "Huarong Asset Management bailout 2021 (state-adjacent, $22B+). Rural bank crisis Henan 2022 — initially froze deposits then partially compensated. Small bank mergers to prevent visible failures. The distinction: private developers (Evergrande) = allowed to fail; state-adjacent entities = bailed out; state banks = cannot fail under any circumstances. Xi views bank runs as social stability threat (Tiananmen started partly from economic grievances including 1988-89 inflation). Major state bank failure would trigger this red line at highest possible cost.",
+      "priority": 2
+    },
+    {
+      "id": "RL005",
+      "name": "social_stability_mass_unrest",
+      "condition": "Nationwide protests or multi-city coordination of social unrest, particularly involving urban middle class",
+      "forced_action": "rapid_policy_reversal_plus_security_crackdown_simultaneously",
+      "confidence": 0.87,
+      "evidence": "Zero-COVID reversal Nov-Dec 2022: Urumqi fire protests Nov 24, white paper protests in 20+ cities Nov 25-28, zero-COVID abandoned within 2 weeks. This is the clearest evidence: even Xi's highest-conviction policy (zero-COVID as system superiority proof) was reversed under mass social pressure. The response is both reversal AND crackdown — activists involved in white paper protests were detained weeks after zero-COVID ended. Policy reversal + security response is the dual response to this red line.",
+      "priority": 2
+    },
+    {
+      "id": "RL006",
+      "name": "us_advanced_technology_blockade_escalation",
+      "condition": "US extending chip export controls to cover all Chinese entities including domestic fabs, or alliance coordination to cut off China from all advanced technology",
+      "forced_action": "accelerated_domestic_capability_investment_plus_economic_counter_measures_against_us_dependencies",
+      "confidence": 0.85,
+      "evidence": "Oct 2022 US chip export controls triggered: (1) acceleration of SMIC investment, (2) expansion of semiconductor national fund, (3) export controls on gallium/germanium (2023), graphite (2023), rare earths in response. The pattern: each US technology restriction → Chinese domestic investment acceleration + counter-restriction on China-controlled materials. Xi treats semiconductor blockade as existential national security threat — the response curve is steep and automatic.",
+      "priority": 3
+    },
+    {
+      "id": "RL007",
+      "name": "elite_political_coalition_fracture",
+      "condition": "Evidence of organized elite opposition within CPC Politburo Standing Committee or major military faction challenging Xi's leadership",
+      "forced_action": "preemptive_anti_corruption_purge_of_rivals_and_consolidation_of_loyal_appointments",
+      "confidence": 0.89,
+      "evidence": "Anti-corruption campaign launched immediately in Nov 2012 and has continued throughout all three terms — removing Bo Xilai, Zhou Yongkang, Guo Boxiong, Xu Caihou, Sun Zhengcai (each a potential rival or rival's patron). Rocket Force purge 2023 (Li Yuchao removed amid corruption investigation). 20th Party Congress (Oct 2022): unprecedented selection of loyal proteges over senior technocrats. Xi's consolidation is continuous and preemptive — he removes potential rivals before opposition can crystallize. The economic cost of political purges (organizational disruption, decision-making paralysis) is accepted.",
+      "priority": 1
+    },
+    {
+      "id": "RL008",
+      "name": "gdp_growth_below_4pct_sustained",
+      "condition": "GDP growth falling below 4% for 2+ consecutive quarters without recovery trajectory",
+      "forced_action": "major_stimulus_package_deployment_overriding_flood_stimulus_aversion",
+      "confidence": 0.78,
+      "evidence": "2022 GDP was 3% — the lowest since 1970s ex-COVID. Xi responded with: 23-point property support, infrastructure acceleration, end of zero-COVID (partly economic). Sep-Oct 2024 stimulus package (largest since COVID) came after GDP risked missing 5% target. The evidence suggests Xi's flood-stimulus aversion has an emergency override at approximately 4% growth — below this, political legitimacy risk from unemployment and discontent exceeds the risk of debt accumulation. The threshold is not precisely 4% but in that range.",
+      "priority": 3
+    },
+    {
+      "id": "RL009",
+      "name": "food_price_hyperinflation",
+      "condition": "Food prices rising more than 20% year-on-year, threatening urban food affordability",
+      "forced_action": "strategic_reserve_release_price_controls_import_expansion_regardless_of_trade_policy_consistency",
+      "confidence": 0.92,
+      "evidence": "Chinese history: 1988-89 food price inflation contributed directly to Tiananmen protests. 2010-11 food price spike triggered policy response (reserve releases, price controls). Xi has personally emphasized food security repeatedly — grain reserve expansion, farmland protection. China abandoned soybean purchase Phase One deal commitments when domestic pork prices and pig feed costs spiked. Xi would override trade policy, diplomatic commitments, and flood-stimulus aversion to address food inflation — the 1959-61 famine memory and 1989 history make this a hard constraint.",
+      "priority": 2
+    },
+    {
+      "id": "RL010",
+      "name": "military_disloyalty_or_coup_risk",
+      "condition": "Evidence of military commanders building independent power base, refusing rotation orders, or establishing unauthorized communication channels with foreign militaries",
+      "forced_action": "immediate_purge_of_suspected_commanders_plus_reorganization_of_command_structure",
+      "confidence": 0.99,
+      "evidence": "UPDATED 2026-01: The most extreme military purge in PRC history reached its peak on Jan 24, 2026 — CMC Vice Chairman Zhang Youxia (习近平的二号人物, father Zhang Zongxun was comrade of Xi's father Xi Zhongxun — this is princelings purging princelings) and Joint Staff Chief Liu Zhenli both arrested. Zhang was intercepted by security personnel on Jan 19 en route to a Central Party School meeting; residence searched, son detained. Liberation Army Daily accused them of 'seriously trampling the CMC Chairman responsibility system.' RESULT: CMC left with only ONE general (Zhang Shengmin) still serving alongside Xi. 100+ senior officers purged since 2022, dozens of key positions vacant — 'leadership vacuum' unprecedented since Cultural Revolution. Previous purges: 2023 Rocket Force (Li Yuchao), Defense Minister Li Shangfu disappeared Aug 2023. 2014-2015 Xu Caihou + Guo Boxiong (two CMC Vice Chairmen). 2015 military reform reorganized 7 regions → 5 theater commands. Xi took Commander-in-Chief title. Military disloyalty is THE existential threat — whoever controls PLA controls China. Revised confidence from 0.95 to 0.99.",
+      "priority": 1
+    },
+    {
+      "id": "RL011",
+      "name": "personal_power_consolidation_threat",
+      "condition": "Any institutional, factional, or procedural challenge to Xi's personal authority — including attempts to enforce collective leadership norms, reinstate term limits, or promote alternative leadership candidates",
+      "forced_action": "preemptive_elimination_of_threat_source_through_anti_corruption_or_organizational_restructuring",
+      "confidence": 0.97,
+      "evidence": "CORE INSIGHT: Xi's priority hierarchy is personal power > faction > party > nation. Evidence chain: (1) Term limit removal (Mar 2018) — sacrificed institutional norm for personal continuity, (2) 20th Party Congress (Oct 2022) — broke all precedent by stacking Standing Committee with personal loyalists, publicly humiliating Hu Jintao's removal symbolized triumph of personal over collective, (3) Li Keqiang's marginalization — the Premier's economic authority was systematically stripped in favor of Xi-chaired leading groups, (4) Anti-corruption is wielded selectively — Xi allies (e.g., Cai Qi) face no investigation despite similar profiles to purged officials, (5) Ideological apparatus ('Xi Jinping Thought') serves personality cult, not party ideology. This is the single most important structural parameter: Xi will sacrifice party institutional health for personal power retention. The CPC under Xi is increasingly a personal vehicle, not a collective institution.",
+      "priority": 1
+    }
+  ],
+  "decision_priority_hierarchy": {
+    "description": "Xi's actual decision priority when multiple objectives conflict — revealed by observed choices, not official statements",
+    "hierarchy": [
+      {"rank": 1, "label": "personal_power_preservation", "weight": 0.99, "evidence": "Term limit removal, Standing Committee stacking, personality cult — all prioritize personal rule over institutional norms"},
+      {"rank": 2, "label": "faction_loyalty_network", "weight": 0.40, "evidence": "Xi has deliberately weakened factional politics compared to Jiang/Hu eras — his 'faction' is personal loyalty, not traditional patronage network. Zhijiang New Army members are elevated but can be discarded (Li Shangfu)"},
+      {"rank": 3, "label": "cpc_regime_survival", "weight": 0.85, "evidence": "Party survival is critical but ONLY because Xi's personal power depends on it. If Xi could maintain power without the party apparatus, the party would be sacrificed — but this is practically impossible, so party survival is a derived priority"},
+      {"rank": 4, "label": "national_welfare", "weight": 0.50, "evidence": "National welfare matters only insofar as it supports regime legitimacy. Zero-COVID showed Xi will accept massive national economic damage for political objectives. Hong Kong showed international economic standing is sacrificed for political control. However, complete economic collapse would threaten regime, so there is a floor below which national welfare cannot fall"}
+    ],
+    "conflict_resolution_examples": [
+      "Hong Kong 2019-20: personal authority (cannot appear weak) > national welfare (financial hub destroyed) — chose NSL",
+      "Zero-COVID exit Dec 2022: regime survival (白纸运动 white paper protests Nov 24-28 in 20+ cities threatened to escalate into Tiananmen-scale crisis) > personal prestige (zero-COVID was Xi's signature policy, abandoning it = admitting failure). Xi reversed his highest-conviction policy within 2 weeks because street protests crossed the regime survival red line. This is THE clearest evidence that regime survival > personal prestige, though both rank above national welfare",
+      "Anti-corruption targeting: personal power (remove rivals) > party institutional health (organizational disruption, decision paralysis from fear). Officials are more afraid of being purged than of making policy mistakes, causing systematic policy implementation failures",
+      "Tech crackdown 2020-21: personal power (eliminate Jack Ma as independent power center) > national welfare ($1T+ market cap destroyed, innovation chilled). Then reversed when economic damage threatened legitimacy"
+    ]
+  },
+  "post_cutoff_events_2025_2026": [
+    {
+      "date": "2025-10-23",
+      "event": "Fourth Plenum of the 20th Central Committee concluded. Only 168 of 205 full Central Committee members attended — an unprecedented proportion had been purged or fallen into political trouble since the Committee was formed in October 2022.",
+      "impact": "Lowest CC attendance percentage since the Cultural Revolution era. Signals the ongoing elite instability and the depth of the purge wave. Key decisions: 15th Five-Year Plan (2026-2030) framework adopted emphasizing 'self-reliance and strength in science and technology'; Zhang Shengmin elevated to CMC Vice Chairman replacing purged He Weidong; multiple CMC members including Miao Hua and Lin Xiangyang formally removed. Some analysts (Vision Times) described the plenum as signaling 'Xi's weakened grip as military and party reassert control', though official framing was Xi consolidating authority."
+    },
+    {
+      "date": "2025-10-2026-12",
+      "event": "GDP deceleration across 2025: Q1 +5.4% YoY → Q2 +5.2% → Q3 +4.8% → Q4 +4.5%. Full-year 2025 GDP: exactly 5.0% (hit official target). Total GDP: 140.19 trillion yuan (surpassed 140 trillion yuan threshold). CPI: 0.0% for full year (technically avoided deflation, but massively missed ~2% target). PPI: -2.6% (fourth consecutive year of factory-gate deflation).",
+      "impact": "Quarterly deceleration pattern confirms structural demand weakness. Deflation psychology embeds further. Xi faces mounting pressure as third-term legitimacy requires economic performance. Net exports contributed 1.6pp to growth — trade front-loading ahead of US tariffs inflated early 2025 strength. Vanke (once China's largest homebuilder) narrowly avoided default in December 2025 on 2 billion yuan bond, projected 2025 net loss: 82 billion yuan (~$11.8B USD). Real estate investment first 10 months 2025: -14.7%. New home sales 2025: -8% (fifth consecutive year of negative growth). Home prices down 20%+ from 2021 peak. DeepSeek AI was a rare positive legitimacy signal — China's AI capability narrative was reinforced, with DeepSeek R1 topping US App Store January 27, 2025 and sending shockwaves through Western AI investment thesis."
+    },
+    {
+      "date": "2026-01-19",
+      "event": "CMC Vice Chairman Zhang Youxia intercepted and arrested en route to Central Party School meeting. Residence searched, son detained.",
+      "impact": "Xi's #2 in military removed. Zhang's father was Xi's father's comrade — this is princelings purging princelings. Signals no one is safe regardless of personal/family ties."
+    },
+    {
+      "date": "2026-01-24",
+      "event": "Official announcement: Zhang Youxia and Joint Staff Chief Liu Zhenli under investigation for 'serious violations of discipline and law'. Accused of 'trampling CMC Chairman responsibility system'.",
+      "impact": "CMC left with only 1 general (Zhang Shengmin) alongside Xi. 100+ senior officers purged since 2022. Dozens of key positions vacant. Worst leadership vacuum since Cultural Revolution. Joint Staff Department Chief (equivalent to US Chairman of Joint Chiefs) position now VACANT — PLA operational planning apparatus has no confirmed head."
+    },
+    {
+      "date": "2026-02-26",
+      "event": "Further purge wave announced (The Diplomat: 'China's February 26 Military Purge: The Domino Effect'). Continues the cascade of military purges.",
+      "impact": "The domino effect is now reaching frontline units opposite Taiwan (notably the 73rd Group Army). He Weidong, Miao Hua, and former Eastern Theater Command Commander Lin Xiangyang all came from that formation. The Taiwan-facing command structure has been severely disrupted. CSIS February 2026 report: 'Scale of Xi's military purges could hinder China's ability to fight.' China's military delegation at the 2026 Two Sessions (March) notably missing a deputy leader — purge continues."
+    },
+    {
+      "date": "2026-03-05",
+      "event": "Two Sessions 2026: GDP target set at 4.5-5% for 2026. Defense budget: 1.91 trillion yuan ($277B), +7% YoY (11th consecutive year of single-digit growth). Fiscal deficit maintained at 4% of GDP. 15th Five-Year Plan (2026-2030) officially presented to legislature.",
+      "impact": "GDP target of 4.5-5% represents a de facto acknowledgment that the previous 5% target is becoming harder to maintain as structural headwinds (property, deflation, demographics) intensify. Defense budget $277B continues the militarization trajectory despite CMC leadership vacuum. Five-Year Plan framing: technology self-reliance as overarching theme; eight priority areas from December 2025 CEWC including expanding domestic demand, fostering innovation, and preventing key-sector risks. DeepSeek cited as evidence of China's AI self-reliance capability — 'new quality productive forces' narrative reinforced."
+    }
+  ],
+  "behavioral_parameter_revisions_2025_2026": {
+    "military_purge_intensity": {"original": null, "revised": 0.98, "reason": "Purging own #2 (Zhang Youxia, a princeling ally) is unprecedented. No parallel in any modern state."},
+    "personal_power_consolidation_speed": {"original": null, "revised": 0.97, "reason": "CMC effectively reduced to Xi alone. Military decision-making completely centralized."},
+    "trust_radius": {"original": null, "revised": 0.05, "reason": "If Zhang Youxia (family friend, fellow princeling, CMC Vice Chairman) can be purged, Xi trusts essentially no one. The loyalty requirement is absolute submission, not alliance."},
+    "military_readiness_vs_loyalty_tradeoff": {"original": null, "revised": 0.35, "reason": "Accepting massive leadership vacuum and command disruption shows Xi prioritizes loyalty over military readiness. HOWEVER: alternative interpretation — purge IS preparation, removing obstacles to Taiwan action. Zhang Youxia was the last person who could say 'not ready'. Two competing models should be tested."},
+    "taiwan_action_probability_2026_2027": {"original": null, "revised": 0.70, "reason": "DOMAIN EXPERT ANALYSIS — DICTATOR'S TRAP MODEL: Xi has no safe exit. He broke all Deng-era succession norms (term limits, collective leadership, mutual non-prosecution among Standing Committee). Therefore peaceful retirement = political annihilation (he himself set the precedent by purging predecessors' allies). Therefore he MUST secure 4th term at 2027 21st Party Congress. Normal political maneuvering may be insufficient — even a rubber-stamp NPC has elastic limits for a 4th term without extraordinary justification. He cannot purge the entire NPC+CMC+CPPCC — already at institutional breaking point. ONLY VIABLE OPTION: invoke wartime status, which suspends normal political processes and makes continued rule automatic. Only militarily viable target that also serves the 'national rejuvenation' narrative = Taiwan. Zhang Youxia (last person with authority to veto) removed Jan 2026. This is NOT a strategic military decision — it is a political survival decision. The probability is high not because Taiwan invasion is strategically wise, but because Xi has no other path to survival. Historical parallels: Galtieri (Falklands 1982), Saddam (Kuwait 1990), Putin (Ukraine 2022) — all driven by internal political necessity, not external strategic logic. Key uncertainty: TIMING (before or during 2027 Congress) and FORM (blockade vs full invasion vs limited strike). Two sub-scenarios preserved: (A) Xi finds non-military path to 4th term → probability drops to ~0.25, (B) Xi cannot secure 4th term without crisis → probability rises to ~0.80+"},
+    "information_environment_control_priority": {"original": 0.95, "revised": 0.98, "reason": "User domain expert assessment: should be higher. Information control is Xi's core competency from decades of party apparatus work."}
+  },
+  "information_fidelity": 0.41,
+  "information_fidelity_reasoning": "Xi's information environment is substantially compromised compared to democratic leaders. Multiple compounding factors: (1) PRINCIPAL-AGENT DISTORTION: Local officials systematically report favorable data to avoid penalties — GDP smoothing, youth unemployment suspended, COVID case counts manipulated. Li Keqiang's 2007 Keqiang Index comment (preferring electricity/rail/loans over official GDP) was made precisely because he knew official data was unreliable. (2) ANTI-CORRUPTION CHILLING: The campaign has made officials afraid to report negative developments — reporting problems risks being associated with problems. 'Lazy officials' who avoid difficult decisions also avoid delivering difficult news. (3) SYCOPHANCY GRADIENT: As Xi's power has become more absolute, the incentive to deliver flattering assessments has increased. No official benefits from delivering bad news. (4) CENSORSHIP SELF-APPLICATION: Xi's information environment is shaped by the same censorship apparatus that controls public discourse — negative economic trends, social discontent, policy failures are systematically underreported in the internal channels as well as public ones. (5) COUNTER-MEASURES (partial): Xi conducts 'xuefang' (research visits) to grassroots levels to bypass official filtration. Special information channels exist. Xi reads international economic analyses. CASS and DRC provide some independent analysis. These partially compensate — hence 0.41 rather than lower. (6) COMPARED TO POWELL (0.94): Xi operates with roughly half the information quality. Key gaps: true GDP growth (probably 0.5-2pp lower than official), true unemployment (youth unemployment at 21%+ vs 13% official when reinstated), true financial system stress (LGFV debt extent unknown even to PBOC), true social sentiment (protests suppressed before data collection). (7) GEOPOLITICAL BLIND SPOT: Xi's assessment of US/Western resolve has been consistently miscalibrated — underestimated sanctions response to Russia, underestimated US bipartisan support for chip controls, misjudged Xi Jinping thought's international reception. These foreign policy information failures reflect limited feedback from international sources.",
+  "special_notes": [
+    "1. REGIME SURVIVAL AS FIRST PRINCIPLE: Xi's decision function is fundamentally different from democratic leaders. Every economic decision is filtered through a prior question: 'Does this threaten CPC survival?' If yes, economic optimization is abandoned. If no, economic considerations apply. This creates a distinctive two-tier decision process that no pure economic model can capture. The simulation must implement this as a priority interrupt: regime_survival_threat = True → output = suppression regardless of economic_vector. 2. INFORMATION BUBBLE CORRECTION: Xi's information_fidelity of 0.41 means the simulation should apply a systematic correction: when modeling Xi's decisions, his perceived economic state may differ from actual economic state by: (a) GDP overstated by 0.5-2.0pp (apply downward correction to Xi's perceived GDP), (b) unemployment understated by 3-5pp (apply upward correction), (c) financial stress understated (LGFV stress, bank NPL ratios — apply upward correction). Xi makes decisions based on his distorted perception, not ground truth. 3. POLICY OSCILLATION PATTERN: Xi's economic policies show a consistent pattern — aggressive announcement, overzealous implementation, economic damage accumulates, quiet modulation (rarely explicit reversal). The oscillation period is roughly 18-36 months. The simulation should model this as a mean-reversion dynamic: extreme policy values (very high crackdown intensity, very low stimulus) tend to revert toward moderate values after 6-12 quarters when economic costs are unacceptable. 4. POLITICAL CALENDAR SYNCHRONIZATION: Xi's economic decisions are synchronized with CPC political calendar. Key trigger dates: National People's Congress (March, annual — budget/policy targets), Fifth Plenary Session (October, every 5 years — Five-Year Plan), Party Congress (October, every 5 years — major political realignment). Large stimulus packages tend to cluster before/during these events. 5. LEGITIMACY PRODUCTION FUNCTION: Xi's regime legitimacy rests on three pillars: (a) economic performance (GDP growth, employment), (b) national dignity and sovereignty, (c) social stability. When one pillar is weakened (e.g., economic slowdown), Xi compensates by strengthening others (nationalist rhetoric, anti-corruption campaign, territorial assertion). This cross-pillar substitution means economic weakness may paradoxically lead to MORE aggressive foreign/territorial policy — a non-obvious behavioral signature the simulation must capture. 6. TIME HORIZON ASYMMETRY: Xi operates on a 2049 centenary horizon, not electoral cycles. This creates a systematic difference from democratic leaders: Xi accepts short-term economic pain (zero-COVID $1.5T, tech crackdown $1T+ in market cap, Evergrande controlled demolition) for long-term structural goals. In Monte Carlo simulation, Xi's discount rate for future economic outcomes should be substantially lower (i.e., higher patience) than any democratic leader. 7. DUAL LEGITIMACY SOURCES: Xi derives legitimacy from both performance (economic results) and ideology (CPC righteousness, national rejuvenation). This means economic failure alone is insufficient to remove him (unlike democratic election) — he can substitute ideological intensity for economic performance. This makes Xi's behavior more stable under economic stress than democratic leaders, but ultimately less stable if both legitimacy sources are simultaneously challenged. 8. TECHNOLOGY SECURITY AS EXISTENTIAL FRAME: Xi frames semiconductor and AI technology gaps as potentially existential — if China cannot develop its own advanced chips, it is permanently dependent on US supply chain that can be cut. This existential framing means technology self-reliance investment is treated more like military spending (non-negotiable, not subject to economic ROI calculation) than like normal industrial policy. In the simulation, technology spending should be modeled as a near-fixed commitment that responds to US restriction intensity, not to GDP growth or stimulus calculus. 9. HISTORICAL TRAUMA SHAPING: Xi's personal history (Cultural Revolution, father's persecution and rehabilitation) creates specific behavioral priors: (a) political chaos destroys everything — stability is paramount, (b) party corruption is real and must be fought — anti-corruption is genuine, (c) economic deprivation is personal memory — food/energy security are visceral priorities, (d) father's rehabilitation shows system can correct itself — faith in CPC system despite its failures. These are deep character factors that create systematic behavioral biases not captured in pure economic models. 10. DICTATOR'S TRAP — THE SINGLE MOST IMPORTANT STRUCTURAL PARAMETER (added via domain expert review, 2026-03): Xi has no safe exit from power. The logical chain: (a) Xi systematically destroyed all Deng-era succession norms — term limits removed 2018, collective leadership replaced by personal rule, Standing Committee mutual non-prosecution convention shattered by purging Zhou Yongkang etc. (b) Therefore, stepping down = facing the same treatment he gave others. Every purged official's faction has scores to settle. There is no 'elder statesman' retirement path because Xi destroyed that institution. (c) Therefore Xi MUST remain in power indefinitely. (d) 3rd term (2022) was already norm-breaking. 4th term (2027) requires even stronger justification. (e) Economic performance alone may be insufficient — deflation, property crisis, youth unemployment all undermine the growth legitimacy narrative. (f) Purging the entire NPC/CMC/CPPCC is at institutional breaking point — 100+ generals already gone, system cannot absorb more. (g) THE ONLY REMAINING OPTION for securing unconditional power continuation: wartime status. Wartime suspends normal political processes, makes leadership continuity automatic, and frames any opposition as treason. (h) The only military target that serves both wartime-status needs AND the 'national rejuvenation' narrative = Taiwan. (i) Zhang Youxia was the last person with the authority, military experience (1979 veteran), and political standing to veto a Taiwan decision. Removed Jan 2026. (j) CONCLUSION: Taiwan action is driven not by strategic military calculus or nationalism, but by PERSONAL POLITICAL SURVIVAL NECESSITY. Xi may be rational enough to know it's a bad military bet, but the alternative (losing power → annihilation) is worse. Historical parallels: Galtieri/Falklands 1982, Saddam/Kuwait 1990, Putin/Ukraine 2022 — all started wars they might lose because NOT fighting meant certain political death. FOR THE SIMULATION: Taiwan scenarios must be modeled as HIGH PROBABILITY events (0.55-0.80 range) in the 2026-2028 window, with the primary driver being Xi's domestic political survival calculus, NOT cross-strait military balance or US deterrence posture. The economic impact of a Taiwan conflict would be the single largest exogenous shock in the simulation — estimated $2-10T global GDP impact depending on form (blockade vs invasion) and duration. 11. LENINIST PARTY-STATE OPERATING SYSTEM (added via Soviet-CPC organizational analysis, 2026-03): Western political science frameworks analyze Xi as an 'autocrat with preferences' — this is accurate but incomplete. Xi operates on a Leninist party-state operating system directly inherited from the Soviet Bolshevik model, and many of his behaviors are structural features of this system rather than personal choices. Key implications for the simulation: (a) ORGANIZATIONAL AMPLIFICATION: Xi's policy signals are transmitted through a Leninist cadre system (Organization Department controls all key appointments) where officials systematically over-implement to demonstrate loyalty. This creates the 'overshoot-pullback' oscillation pattern (tech crackdown, common prosperity, zero-COVID) — the simulation's policy_oscillation model (note 3) should incorporate organizational amplification as the MECHANISM, not just describe the pattern. (b) SYSTEMIC INFORMATION DISTORTION vs PERSONAL INFORMATION BUBBLE: The existing information_fidelity parameter (0.41) captures Xi's personal information environment. But the Leninist system has a STRUCTURAL information distortion layer (information_distortion_systemic: 0.82) that affects EVERY level of governance — each bureaucratic tier beautifies data before passing it upward (the Soviet 'pripiski' phenomenon). This means even if Xi made 'correct' decisions based on his information, execution-level decisions throughout the system are also based on distorted information. The simulation should apply information distortion not just to Xi's decision function but to the entire policy transmission chain. (c) PARTY-ABOVE-STATE ARCHITECTURE: The dual power structure (party committee > government at every level) means economic policy operates through party channels, not government channels. The Premier is an executor, not a co-decision-maker. Financial regulation, industrial policy, and even monetary policy ultimately answer to party bodies (Central Financial Commission since 2023, not the State Council). Western models that treat 'the Chinese government' as a unitary actor miss this — the simulation should model party organs as the decision layer and state organs as the implementation layer. (d) FIVE-YEAR PLAN CYCLE AS DECISION CLOCK: Xi's decision timing is synchronized with the Soviet-inherited Five-Year Plan cycle. Major policy shifts cluster at FYP transitions (2015, 2020, 2025). Quarterly economic fluctuations receive slower response than in democratic systems because Xi's planning horizon is structural, not reactive. The simulation's time model should weight FYP transition years as high-probability windows for major policy discontinuities. (e) COMMISSAR SYSTEM AS MILITARY CONTROL MECHANISM: PLA loyalty is ensured not through the military command chain but through the parallel political commissar system — a direct Soviet inheritance. Xi's 2023-2026 military purge is rebuilding this commissar network for personal loyalty. The completion status of commissar network reconstruction should be modeled as a PRECONDITION variable for Taiwan action probability — when Xi judges the commissar system is reliable, the political prerequisite for military action is met regardless of operational readiness. (f) SUCCESSION CRISIS AS TIME-ACCUMULATING RISK: Unlike democratic systems where succession is institutionalized (elections), Leninist systems have structurally unresolved succession. Xi has destroyed every succession mechanism Deng built. The succession_crisis_risk (0.88) is not static — it increases with each year Xi remains in power without designating a successor. This should be modeled as a monotonically increasing risk function that creates a growing tail risk for systemic instability, independent of Xi's current health or political position. (g) PURGE INSTITUTIONALIZATION AS PERMANENT UNCERTAINTY GENERATOR: Xi's innovation over Stalin and Mao is institutionalized, sustainable, 'legalized' purging through the CCDI/NSC apparatus. This creates PERMANENT uncertainty (14 years and counting, no end in sight) rather than episodic terror. The economic cost is not the purges themselves but the chronic chilling effect — officials afraid to decide, entrepreneurs afraid to invest, foreign capital afraid to enter. This permanent uncertainty premium should be modeled as a constant drag on economic dynamism, not as episodic shocks. (h) WHY WESTERN FRAMEWORKS ARE INSUFFICIENT: Western political economy models assume (i) leaders respond to institutional incentives (elections, term limits, legislative checks) — Xi faces none of these, (ii) information flows are imperfect but correctable — Leninist information distortion is structural and self-reinforcing, (iii) policy is made by government institutions — in a Leninist party-state, the party IS the institution and the government is a subsidiary, (iv) succession is institutionalized — Leninist succession is inherently crisis-prone. Any simulation that models Xi using frameworks designed for democratic or even generic authoritarian leaders will systematically underestimate tail risks and mismodel policy transmission dynamics.",
+    {
+      "id": "SN012",
+      "title": "MILITARY-INDUSTRIAL KINSHIP NETWORK — Xi-Geng Biao-Ren Zhengfei Connection (Verified)",
+      "content": "Xi Jinping served as classified secretary (机要秘书) to Geng Biao (Defense Minister/CMC Secretary-General) from 1979-1982. Geng Biao and Xi Zhongxun (Xi's father) were old comrades from the Shaanxi-Gansu Border Region. During this period, Geng oversaw the disbandment of the PLA Infrastructure Engineering Corps (基建工程兵), which sent ~20,000 soldiers to build Shenzhen. Ren Zhengfei (Huawei founder) served in Unit 22 of this same corps (1974-1983). Ren married Meng Jun, daughter of Sichuan Deputy Governor Meng Dongbo — a classic CCP political marriage (政治联姻). Xi sat at the nexus of this military-to-civilian conversion process at age 26-29. This shared network origin explains Xi's relationship with Huawei better than either 'Xi controls Huawei' or 'military faction independent of Xi' — the reality is a shared institutional lineage where Xi understands and trusts the system because he witnessed its creation.",
+      "evidence": [
+        "Xi as Geng Biao secretary: confirmed by Geng's daughter Geng Yan, Guangming Daily, People's Forum",
+        "Geng-Xi Zhongxun relationship: confirmed, attended each other's family funerals across generations",
+        "Ren Zhengfei in 基建工程兵: confirmed, Unit 22, Liaoyang Chemical Fiber Factory project",
+        "Ren married Meng Dongbo's daughter: confirmed, children took mother's surname Meng (political status marker)",
+        "20000 soldiers to Shenzhen: confirmed by Cambridge China Quarterly (2024) and Made in China Journal (2021)"
+      ],
+      "model_implication": "Revise driver tag on technology dimensions from 'factional_not_personal' to 'shared_network_origin' — Xi and Huawei share the same PLA infrastructure corps lineage through the Geng Biao connection. Xi does not directly control Huawei but has deep institutional familiarity and trust rooted in 1979-1982 formative experience."
+    },
+    {
+      "id": "SN013",
+      "title": "NINGDE-NEW ENERGY POLICY CORRELATION — No Proven Causation but Strong Pattern",
+      "content": "Xi served as Ningde Prefectural Party Secretary 1988-1990 when Ningde was Fujian's poorest prefecture. CATL (宁德时代) was founded in Ningde in 2011 by local native Zeng Yuqun. Xi became General Secretary in 2012. New energy became a national strategic priority post-2015 with massive subsidies. CATL became world's largest EV battery maker. Xi specifically commented on CATL at 2023 Two Sessions. No documented direct causal link exists between Xi's 1988-1990 tenure and CATL's 2011 founding (21-year gap). However: (1) Ningde local officials likely leveraged 'Xi governed here' as political capital for investment attraction, (2) Xi has natural familiarity/favorability toward Ningde from formative career period, (3) New energy policy decisions may be influenced by this network effect. For modeling: Xi's policy preferences correlate strongly with his personal network geography.",
+      "model_implication": "When modeling Xi's industrial policy decisions, factor in geographic/personal network bias — policies disproportionately benefit regions and industries connected to his career history."
+    },
+    {
+      "id": "SN014",
+      "title": "CCP POLITICAL MARRIAGE (政治联姻) — Chinese Modification to Leninist OS",
+      "content": "Unlike the Soviet Communist Party which transmitted power primarily through organizational channels (promotions/purges), the CCP added a kinship/marriage overlay network. Examples: (1) Ren Zhengfei married Meng Jun (daughter of Sichuan Deputy Governor Meng Dongbo) = military technician accessing provincial elite network, (2) Xi Jinping placed as secretary to father's old comrade Geng Biao = revolutionary family 'talent exchange', (3) Extensive intermarriage among Red Second Generation (红二代). This creates a parallel power channel invisible to the formal Organization Department system. The Soviet system lacked this (Bolsheviks were revolutionary intellectuals, not military-regional clan networks). For Xi specifically: his power base combines BOTH formal Leninist organizational control AND informal kinship network — making him harder to dislodge than a purely organizational leader.",
+      "model_implication": "Add 'kinship_network_density' as a modeling factor for CCP leaders. Xi's effective power is the PRODUCT of organizational control × kinship network reach, not just one or the other."
+    }
+  ]
+}

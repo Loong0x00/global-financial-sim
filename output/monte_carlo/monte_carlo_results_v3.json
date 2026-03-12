@@ -1,0 +1,343 @@
+{
+  "version": "v3_shock_adjusted",
+  "timestamp": "2026-03-13",
+  "config": {
+    "n_simulations": 1000000,
+    "max_horizon_months": 48,
+    "n_pca_components": 14,
+    "device": "cuda",
+    "n_clusters": 80,
+    "shock_correlation_discount": 0.7
+  },
+  "shock_analysis": {
+    "oil_shock_magnitude": 0.10106253435640866,
+    "employment_shock_magnitude": 0.053816246146231775,
+    "trade_shock_magnitude": 0.2122068495896488,
+    "confidence_shock_magnitude": 0.444065113148789,
+    "combined_magnitude": 0.35174545411281505,
+    "vs_median_monthly_delta": 2.4523739188672526,
+    "vs_p95_delta": 0.50580594581085
+  },
+  "scenarios": {
+    "Baseline (2025-09 data)": {
+      "crisis_probability_2of3": {
+        "1_months": 0.0,
+        "2_months": 0.0,
+        "3_months": 0.0,
+        "4_months": 5.9e-05,
+        "5_months": 0.000407,
+        "6_months": 0.001693,
+        "7_months": 0.004411,
+        "8_months": 0.009191,
+        "9_months": 0.016364,
+        "10_months": 0.026028,
+        "11_months": 0.038013,
+        "12_months": 0.052525,
+        "13_months": 0.068709,
+        "14_months": 0.086898,
+        "15_months": 0.105713,
+        "16_months": 0.125328,
+        "17_months": 0.145627,
+        "18_months": 0.166363,
+        "19_months": 0.187165,
+        "20_months": 0.207674,
+        "21_months": 0.227907,
+        "22_months": 0.247855,
+        "23_months": 0.267364,
+        "24_months": 0.286428,
+        "25_months": 0.304779,
+        "26_months": 0.323026,
+        "27_months": 0.34053,
+        "28_months": 0.358073,
+        "29_months": 0.375053,
+        "30_months": 0.391678,
+        "31_months": 0.40789,
+        "32_months": 0.42323,
+        "33_months": 0.438447,
+        "34_months": 0.453105,
+        "35_months": 0.467543,
+        "36_months": 0.4817,
+        "37_months": 0.495461,
+        "38_months": 0.509008,
+        "39_months": 0.522151,
+        "40_months": 0.534828,
+        "41_months": 0.547353,
+        "42_months": 0.559739,
+        "43_months": 0.571792,
+        "44_months": 0.583516,
+        "45_months": 0.595164,
+        "46_months": 0.606598,
+        "47_months": 0.617702,
+        "48_months": 0.628482
+      },
+      "key_probabilities": {
+        "6_months": {
+          "any": 0.061599,
+          "two": 0.001693,
+          "all": 1.5e-05
+        },
+        "12_months": {
+          "any": 0.62815,
+          "two": 0.052525,
+          "all": 0.002976
+        },
+        "24_months": {
+          "any": 0.996427,
+          "two": 0.286428,
+          "all": 0.029789
+        },
+        "36_months": {
+          "any": 0.999998,
+          "two": 0.4817,
+          "all": 0.069623
+        },
+        "48_months": {
+          "any": 1.0,
+          "two": 0.628482,
+          "all": 0.128165
+        }
+      },
+      "elapsed_seconds": 2.2
+    },
+    "Hormuz Only (+40% oil)": {
+      "crisis_probability_2of3": {
+        "1_months": 0.0,
+        "2_months": 0.0,
+        "3_months": 0.0,
+        "4_months": 6.9e-05,
+        "5_months": 0.000477,
+        "6_months": 0.001718,
+        "7_months": 0.004373,
+        "8_months": 0.009096,
+        "9_months": 0.016459,
+        "10_months": 0.025988,
+        "11_months": 0.038002,
+        "12_months": 0.052531,
+        "13_months": 0.068972,
+        "14_months": 0.086957,
+        "15_months": 0.106024,
+        "16_months": 0.125822,
+        "17_months": 0.146014,
+        "18_months": 0.166474,
+        "19_months": 0.186757,
+        "20_months": 0.207368,
+        "21_months": 0.227719,
+        "22_months": 0.247699,
+        "23_months": 0.267361,
+        "24_months": 0.286178,
+        "25_months": 0.304696,
+        "26_months": 0.322987,
+        "27_months": 0.340849,
+        "28_months": 0.358156,
+        "29_months": 0.375138,
+        "30_months": 0.391812,
+        "31_months": 0.407668,
+        "32_months": 0.423241,
+        "33_months": 0.438565,
+        "34_months": 0.453523,
+        "35_months": 0.467887,
+        "36_months": 0.481841,
+        "37_months": 0.495745,
+        "38_months": 0.509204,
+        "39_months": 0.522291,
+        "40_months": 0.535257,
+        "41_months": 0.547711,
+        "42_months": 0.560109,
+        "43_months": 0.572107,
+        "44_months": 0.584126,
+        "45_months": 0.595836,
+        "46_months": 0.60718,
+        "47_months": 0.618365,
+        "48_months": 0.629408
+      },
+      "key_probabilities": {
+        "6_months": {
+          "any": 0.062486,
+          "two": 0.001718,
+          "all": 7e-06
+        },
+        "12_months": {
+          "any": 0.627865,
+          "two": 0.052531,
+          "all": 0.003078
+        },
+        "24_months": {
+          "any": 0.996596,
+          "two": 0.286178,
+          "all": 0.030166
+        },
+        "36_months": {
+          "any": 1.0,
+          "two": 0.481841,
+          "all": 0.070198
+        },
+        "48_months": {
+          "any": 1.0,
+          "two": 0.629408,
+          "all": 0.128446
+        }
+      },
+      "elapsed_seconds": 2.1
+    },
+    "Full Shock (Hormuz + NFP + Tariff + Confidence)": {
+      "crisis_probability_2of3": {
+        "1_months": 0.0,
+        "2_months": 0.0,
+        "3_months": 0.0,
+        "4_months": 0.000242,
+        "5_months": 0.001286,
+        "6_months": 0.003735,
+        "7_months": 0.008117,
+        "8_months": 0.014876,
+        "9_months": 0.023931,
+        "10_months": 0.035474,
+        "11_months": 0.049018,
+        "12_months": 0.064762,
+        "13_months": 0.08222,
+        "14_months": 0.100795,
+        "15_months": 0.120362,
+        "16_months": 0.140924,
+        "17_months": 0.161685,
+        "18_months": 0.182127,
+        "19_months": 0.202733,
+        "20_months": 0.222709,
+        "21_months": 0.242901,
+        "22_months": 0.262577,
+        "23_months": 0.281965,
+        "24_months": 0.300524,
+        "25_months": 0.318815,
+        "26_months": 0.336688,
+        "27_months": 0.354114,
+        "28_months": 0.371082,
+        "29_months": 0.387582,
+        "30_months": 0.403571,
+        "31_months": 0.419374,
+        "32_months": 0.434638,
+        "33_months": 0.449364,
+        "34_months": 0.464001,
+        "35_months": 0.478137,
+        "36_months": 0.492049,
+        "37_months": 0.505636,
+        "38_months": 0.518634,
+        "39_months": 0.531463,
+        "40_months": 0.544223,
+        "41_months": 0.556567,
+        "42_months": 0.568661,
+        "43_months": 0.580475,
+        "44_months": 0.592165,
+        "45_months": 0.60362,
+        "46_months": 0.614749,
+        "47_months": 0.625708,
+        "48_months": 0.636477
+      },
+      "key_probabilities": {
+        "6_months": {
+          "any": 0.115309,
+          "two": 0.003735,
+          "all": 1.9e-05
+        },
+        "12_months": {
+          "any": 0.694872,
+          "two": 0.064762,
+          "all": 0.003478
+        },
+        "24_months": {
+          "any": 0.997605,
+          "two": 0.300524,
+          "all": 0.030779
+        },
+        "36_months": {
+          "any": 0.999998,
+          "two": 0.492049,
+          "all": 0.070888
+        },
+        "48_months": {
+          "any": 1.0,
+          "two": 0.636477,
+          "all": 0.129287
+        }
+      },
+      "elapsed_seconds": 2.1
+    },
+    "Worst Case (Full Shock \u00d7 1.5)": {
+      "crisis_probability_2of3": {
+        "1_months": 0.0,
+        "2_months": 0.0,
+        "3_months": 9.5e-05,
+        "4_months": 0.001026,
+        "5_months": 0.003503,
+        "6_months": 0.007881,
+        "7_months": 0.0147,
+        "8_months": 0.024099,
+        "9_months": 0.035951,
+        "10_months": 0.049994,
+        "11_months": 0.066004,
+        "12_months": 0.083727,
+        "13_months": 0.102558,
+        "14_months": 0.12227,
+        "15_months": 0.142592,
+        "16_months": 0.163026,
+        "17_months": 0.183683,
+        "18_months": 0.204271,
+        "19_months": 0.224628,
+        "20_months": 0.244665,
+        "21_months": 0.264181,
+        "22_months": 0.283405,
+        "23_months": 0.302006,
+        "24_months": 0.320294,
+        "25_months": 0.338184,
+        "26_months": 0.355516,
+        "27_months": 0.372593,
+        "28_months": 0.389088,
+        "29_months": 0.405075,
+        "30_months": 0.420847,
+        "31_months": 0.436122,
+        "32_months": 0.45102,
+        "33_months": 0.465791,
+        "34_months": 0.480027,
+        "35_months": 0.493859,
+        "36_months": 0.507231,
+        "37_months": 0.520396,
+        "38_months": 0.533455,
+        "39_months": 0.545877,
+        "40_months": 0.558072,
+        "41_months": 0.570171,
+        "42_months": 0.581818,
+        "43_months": 0.593265,
+        "44_months": 0.604516,
+        "45_months": 0.615578,
+        "46_months": 0.626374,
+        "47_months": 0.636889,
+        "48_months": 0.647369
+      },
+      "key_probabilities": {
+        "6_months": {
+          "any": 0.210407,
+          "two": 0.007881,
+          "all": 3.2e-05
+        },
+        "12_months": {
+          "any": 0.781796,
+          "two": 0.083727,
+          "all": 0.004247
+        },
+        "24_months": {
+          "any": 0.99877,
+          "two": 0.320294,
+          "all": 0.031894
+        },
+        "36_months": {
+          "any": 1.0,
+          "two": 0.507231,
+          "all": 0.071992
+        },
+        "48_months": {
+          "any": 1.0,
+          "two": 0.647369,
+          "all": 0.130338
+        }
+      },
+      "elapsed_seconds": 2.1
+    }
+  }
+}

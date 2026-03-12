@@ -1,0 +1,17 @@
+{
+  "note": "Full results printed to stdout during run. JSON save fixed.",
+  "config": {
+    "economies": [
+      "us",
+      "jp",
+      "eu",
+      "uk"
+    ],
+    "n_series": 121,
+    "excluded": [
+      "CN",
+      "RU",
+      "all_leaders"
+    ]
+  }
+}

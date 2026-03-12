@@ -1,0 +1,2426 @@
+{
+  "us_cn": {
+    "source": "US Census Bureau / USTR",
+    "data": [
+      {
+        "year": 2000,
+        "us_exports_to_cn": 16.3,
+        "us_imports_from_cn": 100.1,
+        "total": 116.4,
+        "trade_pct_gdp_us": 1.136,
+        "trade_pct_gdp_cn": 9.62
+      },
+      {
+        "year": 2001,
+        "us_exports_to_cn": 19.2,
+        "us_imports_from_cn": 102.3,
+        "total": 121.5,
+        "trade_pct_gdp_us": 1.148,
+        "trade_pct_gdp_cn": 9.067,
+        "yoy_change_pct": 4.38
+      },
+      {
+        "year": 2002,
+        "us_exports_to_cn": 22.1,
+        "us_imports_from_cn": 125.2,
+        "total": 147.3,
+        "trade_pct_gdp_us": 1.346,
+        "trade_pct_gdp_cn": 10.02,
+        "yoy_change_pct": 21.23
+      },
+      {
+        "year": 2003,
+        "us_exports_to_cn": 28.4,
+        "us_imports_from_cn": 152.4,
+        "total": 180.8,
+        "trade_pct_gdp_us": 1.578,
+        "trade_pct_gdp_cn": 10.892,
+        "yoy_change_pct": 22.74
+      },
+      {
+        "year": 2004,
+        "us_exports_to_cn": 34.7,
+        "us_imports_from_cn": 196.7,
+        "total": 231.4,
+        "trade_pct_gdp_us": 1.895,
+        "trade_pct_gdp_cn": 11.806,
+        "yoy_change_pct": 27.99
+      },
+      {
+        "year": 2005,
+        "us_exports_to_cn": 41.8,
+        "us_imports_from_cn": 243.5,
+        "total": 285.3,
+        "trade_pct_gdp_us": 2.188,
+        "trade_pct_gdp_cn": 12.459,
+        "yoy_change_pct": 23.29
+      },
+      {
+        "year": 2006,
+        "us_exports_to_cn": 55.2,
+        "us_imports_from_cn": 287.8,
+        "total": 343.0,
+        "trade_pct_gdp_us": 2.484,
+        "trade_pct_gdp_cn": 12.473,
+        "yoy_change_pct": 20.22
+      },
+      {
+        "year": 2007,
+        "us_exports_to_cn": 65.2,
+        "us_imports_from_cn": 321.5,
+        "total": 386.7,
+        "trade_pct_gdp_us": 2.676,
+        "trade_pct_gdp_cn": 10.893,
+        "yoy_change_pct": 12.74
+      },
+      {
+        "year": 2008,
+        "us_exports_to_cn": 71.5,
+        "us_imports_from_cn": 337.8,
+        "total": 409.3,
+        "trade_pct_gdp_us": 2.782,
+        "trade_pct_gdp_cn": 8.917,
+        "yoy_change_pct": 5.84
+      },
+      {
+        "year": 2009,
+        "us_exports_to_cn": 69.6,
+        "us_imports_from_cn": 296.4,
+        "total": 366.0,
+        "trade_pct_gdp_us": 2.538,
+        "trade_pct_gdp_cn": 7.176,
+        "yoy_change_pct": -10.58
+      },
+      {
+        "year": 2010,
+        "us_exports_to_cn": 91.9,
+        "us_imports_from_cn": 364.9,
+        "total": 456.8,
+        "trade_pct_gdp_us": 3.047,
+        "trade_pct_gdp_cn": 7.501,
+        "yoy_change_pct": 24.81
+      },
+      {
+        "year": 2011,
+        "us_exports_to_cn": 104.1,
+        "us_imports_from_cn": 399.3,
+        "total": 503.4,
+        "trade_pct_gdp_us": 3.239,
+        "trade_pct_gdp_cn": 6.668,
+        "yoy_change_pct": 10.2
+      },
+      {
+        "year": 2012,
+        "us_exports_to_cn": 110.6,
+        "us_imports_from_cn": 425.6,
+        "total": 536.2,
+        "trade_pct_gdp_us": 3.31,
+        "trade_pct_gdp_cn": 6.286,
+        "yoy_change_pct": 6.52
+      },
+      {
+        "year": 2013,
+        "us_exports_to_cn": 121.7,
+        "us_imports_from_cn": 440.4,
+        "total": 562.1,
+        "trade_pct_gdp_us": 3.35,
+        "trade_pct_gdp_cn": 5.874,
+        "yoy_change_pct": 4.83
+      },
+      {
+        "year": 2014,
+        "us_exports_to_cn": 123.7,
+        "us_imports_from_cn": 468.5,
+        "total": 592.2,
+        "trade_pct_gdp_us": 3.38,
+        "trade_pct_gdp_cn": 5.651,
+        "yoy_change_pct": 5.35
+      },
+      {
+        "year": 2015,
+        "us_exports_to_cn": 115.9,
+        "us_imports_from_cn": 483.2,
+        "total": 599.1,
+        "trade_pct_gdp_us": 3.288,
+        "trade_pct_gdp_cn": 5.417,
+        "yoy_change_pct": 1.17
+      },
+      {
+        "year": 2016,
+        "us_exports_to_cn": 115.8,
+        "us_imports_from_cn": 462.6,
+        "total": 578.4,
+        "trade_pct_gdp_us": 3.091,
+        "trade_pct_gdp_cn": 5.15,
+        "yoy_change_pct": -3.46
+      },
+      {
+        "year": 2017,
+        "us_exports_to_cn": 129.9,
+        "us_imports_from_cn": 505.5,
+        "total": 635.4,
+        "trade_pct_gdp_us": 3.252,
+        "trade_pct_gdp_cn": 5.162,
+        "yoy_change_pct": 9.85
+      },
+      {
+        "year": 2018,
+        "us_exports_to_cn": 120.3,
+        "us_imports_from_cn": 539.5,
+        "total": 659.8,
+        "trade_pct_gdp_us": 3.214,
+        "trade_pct_gdp_cn": 4.75,
+        "yoy_change_pct": 3.84
+      },
+      {
+        "year": 2019,
+        "us_exports_to_cn": 106.4,
+        "us_imports_from_cn": 452.2,
+        "total": 558.6,
+        "trade_pct_gdp_us": 2.614,
+        "trade_pct_gdp_cn": 3.912,
+        "yoy_change_pct": -15.34
+      },
+      {
+        "year": 2020,
+        "us_exports_to_cn": 124.5,
+        "us_imports_from_cn": 435.4,
+        "total": 559.9,
+        "trade_pct_gdp_us": 2.68,
+        "trade_pct_gdp_cn": 3.804,
+        "yoy_change_pct": 0.23
+      },
+      {
+        "year": 2021,
+        "us_exports_to_cn": 151.1,
+        "us_imports_from_cn": 506.4,
+        "total": 657.5,
+        "trade_pct_gdp_us": 2.819,
+        "trade_pct_gdp_cn": 3.708,
+        "yoy_change_pct": 17.43
+      },
+      {
+        "year": 2022,
+        "us_exports_to_cn": 153.8,
+        "us_imports_from_cn": 536.8,
+        "total": 690.6,
+        "trade_pct_gdp_us": 2.712,
+        "trade_pct_gdp_cn": 3.845,
+        "yoy_change_pct": 5.03
+      },
+      {
+        "year": 2023,
+        "us_exports_to_cn": 147.8,
+        "us_imports_from_cn": 427.2,
+        "total": 575.0,
+        "trade_pct_gdp_us": 2.102,
+        "trade_pct_gdp_cn": 3.232,
+        "yoy_change_pct": -16.74
+      },
+      {
+        "year": 2024,
+        "us_exports_to_cn": 143.5,
+        "us_imports_from_cn": 438.9,
+        "total": 582.4,
+        "trade_pct_gdp_us": 2.024,
+        "trade_pct_gdp_cn": 3.143,
+        "yoy_change_pct": 1.29
+      }
+    ],
+    "decoupling_trend": {
+      "status": "significant_decoupling",
+      "peak_year": 2022,
+      "peak_total_bn": 690.6,
+      "latest_year": 2024,
+      "latest_total_bn": 582.4,
+      "decline_from_peak_pct": -15.7,
+      "avg_yoy_growth_pre_2018": 11.01,
+      "avg_yoy_growth_post_2018": -0.61,
+      "trade_gdp_ratio_trend_pct": 78.2
+    }
+  },
+  "us_eu": {
+    "source": "IMF DOTS / Eurostat (EU27 approximation)",
+    "data": [
+      {
+        "year": 2000,
+        "us_exports_to_eu": 165.0,
+        "us_imports_from_eu": 220.0,
+        "total": 385.0,
+        "trade_pct_gdp_us": 3.756,
+        "trade_pct_gdp_eu": 4.529
+      },
+      {
+        "year": 2001,
+        "us_exports_to_eu": 158.0,
+        "us_imports_from_eu": 212.0,
+        "total": 370.0,
+        "trade_pct_gdp_us": 3.497,
+        "trade_pct_gdp_eu": 4.302,
+        "yoy_change_pct": -3.9
+      },
+      {
+        "year": 2002,
+        "us_exports_to_eu": 143.0,
+        "us_imports_from_eu": 218.0,
+        "total": 361.0,
+        "trade_pct_gdp_us": 3.3,
+        "trade_pct_gdp_eu": 3.845,
+        "yoy_change_pct": -2.43
+      },
+      {
+        "year": 2003,
+        "us_exports_to_eu": 151.0,
+        "us_imports_from_eu": 241.0,
+        "total": 392.0,
+        "trade_pct_gdp_us": 3.421,
+        "trade_pct_gdp_eu": 3.544,
+        "yoy_change_pct": 8.59
+      },
+      {
+        "year": 2004,
+        "us_exports_to_eu": 172.0,
+        "us_imports_from_eu": 272.0,
+        "total": 444.0,
+        "trade_pct_gdp_us": 3.636,
+        "trade_pct_gdp_eu": 3.527,
+        "yoy_change_pct": 13.27
+      },
+      {
+        "year": 2005,
+        "us_exports_to_eu": 186.0,
+        "us_imports_from_eu": 302.0,
+        "total": 488.0,
+        "trade_pct_gdp_us": 3.742,
+        "trade_pct_gdp_eu": 3.539,
+        "yoy_change_pct": 9.91
+      },
+      {
+        "year": 2006,
+        "us_exports_to_eu": 211.0,
+        "us_imports_from_eu": 325.0,
+        "total": 536.0,
+        "trade_pct_gdp_us": 3.881,
+        "trade_pct_gdp_eu": 3.654,
+        "yoy_change_pct": 9.84
+      },
+      {
+        "year": 2007,
+        "us_exports_to_eu": 247.0,
+        "us_imports_from_eu": 356.0,
+        "total": 603.0,
+        "trade_pct_gdp_us": 4.173,
+        "trade_pct_gdp_eu": 3.615,
+        "yoy_change_pct": 12.5
+      },
+      {
+        "year": 2008,
+        "us_exports_to_eu": 271.0,
+        "us_imports_from_eu": 367.0,
+        "total": 638.0,
+        "trade_pct_gdp_us": 4.337,
+        "trade_pct_gdp_eu": 3.49,
+        "yoy_change_pct": 5.8
+      },
+      {
+        "year": 2009,
+        "us_exports_to_eu": 220.0,
+        "us_imports_from_eu": 281.0,
+        "total": 501.0,
+        "trade_pct_gdp_us": 3.474,
+        "trade_pct_gdp_eu": 3.047,
+        "yoy_change_pct": -21.47
+      },
+      {
+        "year": 2010,
+        "us_exports_to_eu": 239.0,
+        "us_imports_from_eu": 319.0,
+        "total": 558.0,
+        "trade_pct_gdp_us": 3.722,
+        "trade_pct_gdp_eu": 3.29,
+        "yoy_change_pct": 11.38
+      },
+      {
+        "year": 2011,
+        "us_exports_to_eu": 269.0,
+        "us_imports_from_eu": 364.0,
+        "total": 633.0,
+        "trade_pct_gdp_us": 4.073,
+        "trade_pct_gdp_eu": 3.45,
+        "yoy_change_pct": 13.44
+      },
+      {
+        "year": 2012,
+        "us_exports_to_eu": 265.0,
+        "us_imports_from_eu": 381.0,
+        "total": 646.0,
+        "trade_pct_gdp_us": 3.988,
+        "trade_pct_gdp_eu": 3.743,
+        "yoy_change_pct": 2.05
+      },
+      {
+        "year": 2013,
+        "us_exports_to_eu": 262.0,
+        "us_imports_from_eu": 387.0,
+        "total": 649.0,
+        "trade_pct_gdp_us": 3.868,
+        "trade_pct_gdp_eu": 3.616,
+        "yoy_change_pct": 0.46
+      },
+      {
+        "year": 2014,
+        "us_exports_to_eu": 276.0,
+        "us_imports_from_eu": 418.0,
+        "total": 694.0,
+        "trade_pct_gdp_us": 3.961,
+        "trade_pct_gdp_eu": 3.729,
+        "yoy_change_pct": 6.93
+      },
+      {
+        "year": 2015,
+        "us_exports_to_eu": 272.0,
+        "us_imports_from_eu": 427.0,
+        "total": 699.0,
+        "trade_pct_gdp_us": 3.836,
+        "trade_pct_gdp_eu": 4.733,
+        "yoy_change_pct": 0.72
+      },
+      {
+        "year": 2016,
+        "us_exports_to_eu": 270.0,
+        "us_imports_from_eu": 418.0,
+        "total": 688.0,
+        "trade_pct_gdp_us": 3.677,
+        "trade_pct_gdp_eu": 4.617,
+        "yoy_change_pct": -1.57
+      },
+      {
+        "year": 2017,
+        "us_exports_to_eu": 283.0,
+        "us_imports_from_eu": 434.0,
+        "total": 717.0,
+        "trade_pct_gdp_us": 3.669,
+        "trade_pct_gdp_eu": 4.573,
+        "yoy_change_pct": 4.22
+      },
+      {
+        "year": 2018,
+        "us_exports_to_eu": 318.0,
+        "us_imports_from_eu": 487.0,
+        "total": 805.0,
+        "trade_pct_gdp_us": 3.921,
+        "trade_pct_gdp_eu": 4.291,
+        "yoy_change_pct": 12.27
+      },
+      {
+        "year": 2019,
+        "us_exports_to_eu": 337.0,
+        "us_imports_from_eu": 515.0,
+        "total": 852.0,
+        "trade_pct_gdp_us": 3.987,
+        "trade_pct_gdp_eu": 4.656,
+        "yoy_change_pct": 5.84
+      },
+      {
+        "year": 2020,
+        "us_exports_to_eu": 272.0,
+        "us_imports_from_eu": 439.0,
+        "total": 711.0,
+        "trade_pct_gdp_us": 3.404,
+        "trade_pct_gdp_eu": 3.979,
+        "yoy_change_pct": -16.55
+      },
+      {
+        "year": 2021,
+        "us_exports_to_eu": 364.0,
+        "us_imports_from_eu": 498.0,
+        "total": 862.0,
+        "trade_pct_gdp_us": 3.696,
+        "trade_pct_gdp_eu": 4.295,
+        "yoy_change_pct": 21.24
+      },
+      {
+        "year": 2022,
+        "us_exports_to_eu": 376.0,
+        "us_imports_from_eu": 553.0,
+        "total": 929.0,
+        "trade_pct_gdp_us": 3.649,
+        "trade_pct_gdp_eu": 5.414,
+        "yoy_change_pct": 7.77
+      },
+      {
+        "year": 2023,
+        "us_exports_to_eu": 368.0,
+        "us_imports_from_eu": 559.0,
+        "total": 927.0,
+        "trade_pct_gdp_us": 3.388,
+        "trade_pct_gdp_eu": 5.055,
+        "yoy_change_pct": -0.22
+      },
+      {
+        "year": 2024,
+        "us_exports_to_eu": 360.0,
+        "us_imports_from_eu": 545.0,
+        "total": 905.0,
+        "trade_pct_gdp_us": 3.145,
+        "trade_pct_gdp_eu": 4.771,
+        "yoy_change_pct": -2.37
+      }
+    ],
+    "decoupling_trend": {
+      "status": "stable_or_growing",
+      "peak_year": 2022,
+      "peak_total_bn": 929.0,
+      "latest_year": 2024,
+      "latest_total_bn": 905.0,
+      "decline_from_peak_pct": -2.6,
+      "avg_yoy_growth_pre_2018": 4.1,
+      "avg_yoy_growth_post_2018": 4.0,
+      "trade_gdp_ratio_trend_pct": -16.3
+    }
+  },
+  "us_jp": {
+    "source": "US Census Bureau",
+    "data": [
+      {
+        "year": 2000,
+        "us_exports_to_jp": 65.3,
+        "us_imports_from_jp": 146.5,
+        "total": 211.8,
+        "trade_pct_gdp_us": 2.066,
+        "trade_pct_gdp_jp": 4.331
+      },
+      {
+        "year": 2001,
+        "us_exports_to_jp": 57.6,
+        "us_imports_from_jp": 126.5,
+        "total": 184.1,
+        "trade_pct_gdp_us": 1.74,
+        "trade_pct_gdp_jp": 4.281,
+        "yoy_change_pct": -13.08
+      },
+      {
+        "year": 2002,
+        "us_exports_to_jp": 51.4,
+        "us_imports_from_jp": 121.4,
+        "total": 172.8,
+        "trade_pct_gdp_us": 1.58,
+        "trade_pct_gdp_jp": 4.194,
+        "yoy_change_pct": -6.14
+      },
+      {
+        "year": 2003,
+        "us_exports_to_jp": 52.1,
+        "us_imports_from_jp": 118.0,
+        "total": 170.1,
+        "trade_pct_gdp_us": 1.484,
+        "trade_pct_gdp_jp": 3.875,
+        "yoy_change_pct": -1.56
+      },
+      {
+        "year": 2004,
+        "us_exports_to_jp": 54.2,
+        "us_imports_from_jp": 129.6,
+        "total": 183.8,
+        "trade_pct_gdp_us": 1.505,
+        "trade_pct_gdp_jp": 3.944,
+        "yoy_change_pct": 8.05
+      },
+      {
+        "year": 2005,
+        "us_exports_to_jp": 55.4,
+        "us_imports_from_jp": 138.0,
+        "total": 193.4,
+        "trade_pct_gdp_us": 1.483,
+        "trade_pct_gdp_jp": 4.063,
+        "yoy_change_pct": 5.22
+      },
+      {
+        "year": 2006,
+        "us_exports_to_jp": 59.6,
+        "us_imports_from_jp": 148.2,
+        "total": 207.8,
+        "trade_pct_gdp_us": 1.505,
+        "trade_pct_gdp_jp": 4.587,
+        "yoy_change_pct": 7.45
+      },
+      {
+        "year": 2007,
+        "us_exports_to_jp": 62.7,
+        "us_imports_from_jp": 145.5,
+        "total": 208.2,
+        "trade_pct_gdp_us": 1.441,
+        "trade_pct_gdp_jp": 4.606,
+        "yoy_change_pct": 0.19
+      },
+      {
+        "year": 2008,
+        "us_exports_to_jp": 66.6,
+        "us_imports_from_jp": 139.3,
+        "total": 205.9,
+        "trade_pct_gdp_us": 1.4,
+        "trade_pct_gdp_jp": 4.085,
+        "yoy_change_pct": -1.1
+      },
+      {
+        "year": 2009,
+        "us_exports_to_jp": 51.2,
+        "us_imports_from_jp": 96.0,
+        "total": 147.2,
+        "trade_pct_gdp_us": 1.021,
+        "trade_pct_gdp_jp": 2.815,
+        "yoy_change_pct": -28.51
+      },
+      {
+        "year": 2010,
+        "us_exports_to_jp": 60.5,
+        "us_imports_from_jp": 120.3,
+        "total": 180.8,
+        "trade_pct_gdp_us": 1.206,
+        "trade_pct_gdp_jp": 3.139,
+        "yoy_change_pct": 22.83
+      },
+      {
+        "year": 2011,
+        "us_exports_to_jp": 66.2,
+        "us_imports_from_jp": 128.8,
+        "total": 195.0,
+        "trade_pct_gdp_us": 1.255,
+        "trade_pct_gdp_jp": 3.166,
+        "yoy_change_pct": 7.85
+      },
+      {
+        "year": 2012,
+        "us_exports_to_jp": 70.0,
+        "us_imports_from_jp": 146.4,
+        "total": 216.4,
+        "trade_pct_gdp_us": 1.336,
+        "trade_pct_gdp_jp": 3.451,
+        "yoy_change_pct": 10.97
+      },
+      {
+        "year": 2013,
+        "us_exports_to_jp": 65.2,
+        "us_imports_from_jp": 138.6,
+        "total": 203.8,
+        "trade_pct_gdp_us": 1.215,
+        "trade_pct_gdp_jp": 3.95,
+        "yoy_change_pct": -5.82
+      },
+      {
+        "year": 2014,
+        "us_exports_to_jp": 67.0,
+        "us_imports_from_jp": 134.0,
+        "total": 201.0,
+        "trade_pct_gdp_us": 1.147,
+        "trade_pct_gdp_jp": 4.144,
+        "yoy_change_pct": -1.37
+      },
+      {
+        "year": 2015,
+        "us_exports_to_jp": 62.5,
+        "us_imports_from_jp": 131.1,
+        "total": 193.6,
+        "trade_pct_gdp_us": 1.063,
+        "trade_pct_gdp_jp": 4.41,
+        "yoy_change_pct": -3.68
+      },
+      {
+        "year": 2016,
+        "us_exports_to_jp": 63.3,
+        "us_imports_from_jp": 132.2,
+        "total": 195.5,
+        "trade_pct_gdp_us": 1.045,
+        "trade_pct_gdp_jp": 3.974,
+        "yoy_change_pct": 0.98
+      },
+      {
+        "year": 2017,
+        "us_exports_to_jp": 67.6,
+        "us_imports_from_jp": 136.5,
+        "total": 204.1,
+        "trade_pct_gdp_us": 1.045,
+        "trade_pct_gdp_jp": 4.191,
+        "yoy_change_pct": 4.4
+      },
+      {
+        "year": 2018,
+        "us_exports_to_jp": 75.0,
+        "us_imports_from_jp": 142.6,
+        "total": 217.6,
+        "trade_pct_gdp_us": 1.06,
+        "trade_pct_gdp_jp": 4.317,
+        "yoy_change_pct": 6.61
+      },
+      {
+        "year": 2019,
+        "us_exports_to_jp": 74.4,
+        "us_imports_from_jp": 143.6,
+        "total": 218.0,
+        "trade_pct_gdp_us": 1.02,
+        "trade_pct_gdp_jp": 4.258,
+        "yoy_change_pct": 0.18
+      },
+      {
+        "year": 2020,
+        "us_exports_to_jp": 64.1,
+        "us_imports_from_jp": 119.5,
+        "total": 183.6,
+        "trade_pct_gdp_us": 0.879,
+        "trade_pct_gdp_jp": 3.747,
+        "yoy_change_pct": -15.78
+      },
+      {
+        "year": 2021,
+        "us_exports_to_jp": 75.0,
+        "us_imports_from_jp": 134.5,
+        "total": 209.5,
+        "trade_pct_gdp_us": 0.898,
+        "trade_pct_gdp_jp": 4.182,
+        "yoy_change_pct": 14.11
+      },
+      {
+        "year": 2022,
+        "us_exports_to_jp": 80.3,
+        "us_imports_from_jp": 148.3,
+        "total": 228.6,
+        "trade_pct_gdp_us": 0.898,
+        "trade_pct_gdp_jp": 5.404,
+        "yoy_change_pct": 9.12
+      },
+      {
+        "year": 2023,
+        "us_exports_to_jp": 79.6,
+        "us_imports_from_jp": 143.1,
+        "total": 222.7,
+        "trade_pct_gdp_us": 0.814,
+        "trade_pct_gdp_jp": 5.29,
+        "yoy_change_pct": -2.58
+      },
+      {
+        "year": 2024,
+        "us_exports_to_jp": 78.0,
+        "us_imports_from_jp": 140.5,
+        "total": 218.5,
+        "trade_pct_gdp_us": 0.759,
+        "trade_pct_gdp_jp": 5.369,
+        "yoy_change_pct": -1.89
+      }
+    ],
+    "decoupling_trend": {
+      "status": "stable_or_growing",
+      "peak_year": 2022,
+      "peak_total_bn": 228.6,
+      "latest_year": 2024,
+      "latest_total_bn": 218.5,
+      "decline_from_peak_pct": -4.4,
+      "avg_yoy_growth_pre_2018": 0.39,
+      "avg_yoy_growth_post_2018": 1.4,
+      "trade_gdp_ratio_trend_pct": -63.3
+    }
+  },
+  "us_kr": {
+    "source": "US Census Bureau",
+    "data": [
+      {
+        "year": 2000,
+        "us_exports_to_kr": 27.9,
+        "us_imports_from_kr": 40.3,
+        "total": 68.2,
+        "trade_pct_gdp_us": 0.665,
+        "trade_pct_gdp_kr": 11.759
+      },
+      {
+        "year": 2001,
+        "us_exports_to_kr": 22.2,
+        "us_imports_from_kr": 35.2,
+        "total": 57.4,
+        "trade_pct_gdp_us": 0.543,
+        "trade_pct_gdp_kr": 10.83,
+        "yoy_change_pct": -15.84
+      },
+      {
+        "year": 2002,
+        "us_exports_to_kr": 22.6,
+        "us_imports_from_kr": 35.6,
+        "total": 58.2,
+        "trade_pct_gdp_us": 0.532,
+        "trade_pct_gdp_kr": 9.541,
+        "yoy_change_pct": 1.39
+      },
+      {
+        "year": 2003,
+        "us_exports_to_kr": 24.1,
+        "us_imports_from_kr": 37.2,
+        "total": 61.3,
+        "trade_pct_gdp_us": 0.535,
+        "trade_pct_gdp_kr": 9.015,
+        "yoy_change_pct": 5.33
+      },
+      {
+        "year": 2004,
+        "us_exports_to_kr": 26.3,
+        "us_imports_from_kr": 46.2,
+        "total": 72.5,
+        "trade_pct_gdp_us": 0.594,
+        "trade_pct_gdp_kr": 9.539,
+        "yoy_change_pct": 18.27
+      },
+      {
+        "year": 2005,
+        "us_exports_to_kr": 27.6,
+        "us_imports_from_kr": 43.8,
+        "total": 71.4,
+        "trade_pct_gdp_us": 0.548,
+        "trade_pct_gdp_kr": 7.933,
+        "yoy_change_pct": -1.52
+      },
+      {
+        "year": 2006,
+        "us_exports_to_kr": 32.5,
+        "us_imports_from_kr": 45.8,
+        "total": 78.3,
+        "trade_pct_gdp_us": 0.567,
+        "trade_pct_gdp_kr": 7.752,
+        "yoy_change_pct": 9.66
+      },
+      {
+        "year": 2007,
+        "us_exports_to_kr": 34.7,
+        "us_imports_from_kr": 47.6,
+        "total": 82.3,
+        "trade_pct_gdp_us": 0.57,
+        "trade_pct_gdp_kr": 7.348,
+        "yoy_change_pct": 5.11
+      },
+      {
+        "year": 2008,
+        "us_exports_to_kr": 34.8,
+        "us_imports_from_kr": 48.1,
+        "total": 82.9,
+        "trade_pct_gdp_us": 0.564,
+        "trade_pct_gdp_kr": 8.29,
+        "yoy_change_pct": 0.73
+      },
+      {
+        "year": 2009,
+        "us_exports_to_kr": 28.6,
+        "us_imports_from_kr": 39.2,
+        "total": 67.8,
+        "trade_pct_gdp_us": 0.47,
+        "trade_pct_gdp_kr": 7.533,
+        "yoy_change_pct": -18.21
+      },
+      {
+        "year": 2010,
+        "us_exports_to_kr": 38.8,
+        "us_imports_from_kr": 48.9,
+        "total": 87.7,
+        "trade_pct_gdp_us": 0.585,
+        "trade_pct_gdp_kr": 8.046,
+        "yoy_change_pct": 29.35
+      },
+      {
+        "year": 2011,
+        "us_exports_to_kr": 43.5,
+        "us_imports_from_kr": 56.6,
+        "total": 100.1,
+        "trade_pct_gdp_us": 0.644,
+        "trade_pct_gdp_kr": 8.342,
+        "yoy_change_pct": 14.14
+      },
+      {
+        "year": 2012,
+        "us_exports_to_kr": 42.3,
+        "us_imports_from_kr": 58.9,
+        "total": 101.2,
+        "trade_pct_gdp_us": 0.625,
+        "trade_pct_gdp_kr": 8.295,
+        "yoy_change_pct": 1.1
+      },
+      {
+        "year": 2013,
+        "us_exports_to_kr": 41.7,
+        "us_imports_from_kr": 62.2,
+        "total": 103.9,
+        "trade_pct_gdp_us": 0.619,
+        "trade_pct_gdp_kr": 7.931,
+        "yoy_change_pct": 2.67
+      },
+      {
+        "year": 2014,
+        "us_exports_to_kr": 44.5,
+        "us_imports_from_kr": 69.6,
+        "total": 114.1,
+        "trade_pct_gdp_us": 0.651,
+        "trade_pct_gdp_kr": 8.092,
+        "yoy_change_pct": 9.82
+      },
+      {
+        "year": 2015,
+        "us_exports_to_kr": 43.5,
+        "us_imports_from_kr": 71.8,
+        "total": 115.3,
+        "trade_pct_gdp_us": 0.633,
+        "trade_pct_gdp_kr": 8.355,
+        "yoy_change_pct": 1.05
+      },
+      {
+        "year": 2016,
+        "us_exports_to_kr": 42.3,
+        "us_imports_from_kr": 69.9,
+        "total": 112.2,
+        "trade_pct_gdp_us": 0.6,
+        "trade_pct_gdp_kr": 7.901,
+        "yoy_change_pct": -2.69
+      },
+      {
+        "year": 2017,
+        "us_exports_to_kr": 48.3,
+        "us_imports_from_kr": 71.2,
+        "total": 119.5,
+        "trade_pct_gdp_us": 0.612,
+        "trade_pct_gdp_kr": 7.81,
+        "yoy_change_pct": 6.51
+      },
+      {
+        "year": 2018,
+        "us_exports_to_kr": 56.3,
+        "us_imports_from_kr": 74.3,
+        "total": 130.6,
+        "trade_pct_gdp_us": 0.636,
+        "trade_pct_gdp_kr": 7.593,
+        "yoy_change_pct": 9.29
+      },
+      {
+        "year": 2019,
+        "us_exports_to_kr": 56.5,
+        "us_imports_from_kr": 77.5,
+        "total": 134.0,
+        "trade_pct_gdp_us": 0.627,
+        "trade_pct_gdp_kr": 8.121,
+        "yoy_change_pct": 2.6
+      },
+      {
+        "year": 2020,
+        "us_exports_to_kr": 51.2,
+        "us_imports_from_kr": 76.0,
+        "total": 127.2,
+        "trade_pct_gdp_us": 0.609,
+        "trade_pct_gdp_kr": 7.756,
+        "yoy_change_pct": -5.07
+      },
+      {
+        "year": 2021,
+        "us_exports_to_kr": 65.8,
+        "us_imports_from_kr": 93.2,
+        "total": 159.0,
+        "trade_pct_gdp_us": 0.682,
+        "trade_pct_gdp_kr": 8.785,
+        "yoy_change_pct": 25.0
+      },
+      {
+        "year": 2022,
+        "us_exports_to_kr": 65.2,
+        "us_imports_from_kr": 115.0,
+        "total": 180.2,
+        "trade_pct_gdp_us": 0.708,
+        "trade_pct_gdp_kr": 10.79,
+        "yoy_change_pct": 13.33
+      },
+      {
+        "year": 2023,
+        "us_exports_to_kr": 65.6,
+        "us_imports_from_kr": 114.7,
+        "total": 180.3,
+        "trade_pct_gdp_us": 0.659,
+        "trade_pct_gdp_kr": 10.544,
+        "yoy_change_pct": 0.06
+      },
+      {
+        "year": 2024,
+        "us_exports_to_kr": 64.5,
+        "us_imports_from_kr": 112.0,
+        "total": 176.5,
+        "trade_pct_gdp_us": 0.613,
+        "trade_pct_gdp_kr": 10.028,
+        "yoy_change_pct": -2.11
+      }
+    ],
+    "decoupling_trend": {
+      "status": "stable_or_growing",
+      "peak_year": 2023,
+      "peak_total_bn": 180.3,
+      "latest_year": 2024,
+      "latest_total_bn": 176.5,
+      "decline_from_peak_pct": -2.1,
+      "avg_yoy_growth_pre_2018": 3.93,
+      "avg_yoy_growth_post_2018": 6.16,
+      "trade_gdp_ratio_trend_pct": -7.8
+    }
+  },
+  "cn_eu": {
+    "source": "IMF DOTS / Eurostat",
+    "data": [
+      {
+        "year": 2000,
+        "cn_exports_to_eu": 38.2,
+        "cn_imports_from_eu": 35.6,
+        "total": 73.8,
+        "trade_pct_gdp_cn": 6.099,
+        "trade_pct_gdp_eu": 0.868
+      },
+      {
+        "year": 2001,
+        "cn_exports_to_eu": 41.0,
+        "cn_imports_from_eu": 39.0,
+        "total": 80.0,
+        "trade_pct_gdp_cn": 5.97,
+        "trade_pct_gdp_eu": 0.93,
+        "yoy_change_pct": 8.4
+      },
+      {
+        "year": 2002,
+        "cn_exports_to_eu": 48.2,
+        "cn_imports_from_eu": 42.2,
+        "total": 90.4,
+        "trade_pct_gdp_cn": 6.15,
+        "trade_pct_gdp_eu": 0.963,
+        "yoy_change_pct": 13.0
+      },
+      {
+        "year": 2003,
+        "cn_exports_to_eu": 60.2,
+        "cn_imports_from_eu": 53.0,
+        "total": 113.2,
+        "trade_pct_gdp_cn": 6.819,
+        "trade_pct_gdp_eu": 1.024,
+        "yoy_change_pct": 25.22
+      },
+      {
+        "year": 2004,
+        "cn_exports_to_eu": 79.0,
+        "cn_imports_from_eu": 64.0,
+        "total": 143.0,
+        "trade_pct_gdp_cn": 7.296,
+        "trade_pct_gdp_eu": 1.136,
+        "yoy_change_pct": 26.33
+      },
+      {
+        "year": 2005,
+        "cn_exports_to_eu": 103.0,
+        "cn_imports_from_eu": 73.0,
+        "total": 176.0,
+        "trade_pct_gdp_cn": 7.686,
+        "trade_pct_gdp_eu": 1.276,
+        "yoy_change_pct": 23.08
+      },
+      {
+        "year": 2006,
+        "cn_exports_to_eu": 130.0,
+        "cn_imports_from_eu": 83.0,
+        "total": 213.0,
+        "trade_pct_gdp_cn": 7.745,
+        "trade_pct_gdp_eu": 1.452,
+        "yoy_change_pct": 21.02
+      },
+      {
+        "year": 2007,
+        "cn_exports_to_eu": 160.0,
+        "cn_imports_from_eu": 98.0,
+        "total": 258.0,
+        "trade_pct_gdp_cn": 7.268,
+        "trade_pct_gdp_eu": 1.547,
+        "yoy_change_pct": 21.13
+      },
+      {
+        "year": 2008,
+        "cn_exports_to_eu": 178.0,
+        "cn_imports_from_eu": 110.0,
+        "total": 288.0,
+        "trade_pct_gdp_cn": 6.275,
+        "trade_pct_gdp_eu": 1.575,
+        "yoy_change_pct": 11.63
+      },
+      {
+        "year": 2009,
+        "cn_exports_to_eu": 152.0,
+        "cn_imports_from_eu": 98.0,
+        "total": 250.0,
+        "trade_pct_gdp_cn": 4.902,
+        "trade_pct_gdp_eu": 1.521,
+        "yoy_change_pct": -13.19
+      },
+      {
+        "year": 2010,
+        "cn_exports_to_eu": 197.0,
+        "cn_imports_from_eu": 131.0,
+        "total": 328.0,
+        "trade_pct_gdp_cn": 5.386,
+        "trade_pct_gdp_eu": 1.934,
+        "yoy_change_pct": 31.2
+      },
+      {
+        "year": 2011,
+        "cn_exports_to_eu": 230.0,
+        "cn_imports_from_eu": 157.0,
+        "total": 387.0,
+        "trade_pct_gdp_cn": 5.126,
+        "trade_pct_gdp_eu": 2.109,
+        "yoy_change_pct": 17.99
+      },
+      {
+        "year": 2012,
+        "cn_exports_to_eu": 245.0,
+        "cn_imports_from_eu": 164.0,
+        "total": 409.0,
+        "trade_pct_gdp_cn": 4.795,
+        "trade_pct_gdp_eu": 2.37,
+        "yoy_change_pct": 5.68
+      },
+      {
+        "year": 2013,
+        "cn_exports_to_eu": 255.0,
+        "cn_imports_from_eu": 170.0,
+        "total": 425.0,
+        "trade_pct_gdp_cn": 4.441,
+        "trade_pct_gdp_eu": 2.368,
+        "yoy_change_pct": 3.91
+      },
+      {
+        "year": 2014,
+        "cn_exports_to_eu": 278.0,
+        "cn_imports_from_eu": 185.0,
+        "total": 463.0,
+        "trade_pct_gdp_cn": 4.418,
+        "trade_pct_gdp_eu": 2.488,
+        "yoy_change_pct": 8.94
+      },
+      {
+        "year": 2015,
+        "cn_exports_to_eu": 298.0,
+        "cn_imports_from_eu": 175.0,
+        "total": 473.0,
+        "trade_pct_gdp_cn": 4.277,
+        "trade_pct_gdp_eu": 3.202,
+        "yoy_change_pct": 2.16
+      },
+      {
+        "year": 2016,
+        "cn_exports_to_eu": 312.0,
+        "cn_imports_from_eu": 173.0,
+        "total": 485.0,
+        "trade_pct_gdp_cn": 4.319,
+        "trade_pct_gdp_eu": 3.255,
+        "yoy_change_pct": 2.54
+      },
+      {
+        "year": 2017,
+        "cn_exports_to_eu": 333.0,
+        "cn_imports_from_eu": 195.0,
+        "total": 528.0,
+        "trade_pct_gdp_cn": 4.289,
+        "trade_pct_gdp_eu": 3.367,
+        "yoy_change_pct": 8.87
+      },
+      {
+        "year": 2018,
+        "cn_exports_to_eu": 359.0,
+        "cn_imports_from_eu": 215.0,
+        "total": 574.0,
+        "trade_pct_gdp_cn": 4.132,
+        "trade_pct_gdp_eu": 3.06,
+        "yoy_change_pct": 8.71
+      },
+      {
+        "year": 2019,
+        "cn_exports_to_eu": 362.0,
+        "cn_imports_from_eu": 210.0,
+        "total": 572.0,
+        "trade_pct_gdp_cn": 4.006,
+        "trade_pct_gdp_eu": 3.126,
+        "yoy_change_pct": -0.35
+      },
+      {
+        "year": 2020,
+        "cn_exports_to_eu": 383.0,
+        "cn_imports_from_eu": 202.0,
+        "total": 585.0,
+        "trade_pct_gdp_cn": 3.974,
+        "trade_pct_gdp_eu": 3.274,
+        "yoy_change_pct": 2.27
+      },
+      {
+        "year": 2021,
+        "cn_exports_to_eu": 472.0,
+        "cn_imports_from_eu": 236.0,
+        "total": 708.0,
+        "trade_pct_gdp_cn": 3.993,
+        "trade_pct_gdp_eu": 3.528,
+        "yoy_change_pct": 21.03
+      },
+      {
+        "year": 2022,
+        "cn_exports_to_eu": 509.0,
+        "cn_imports_from_eu": 240.0,
+        "total": 749.0,
+        "trade_pct_gdp_cn": 4.17,
+        "trade_pct_gdp_eu": 4.365,
+        "yoy_change_pct": 5.79
+      },
+      {
+        "year": 2023,
+        "cn_exports_to_eu": 480.0,
+        "cn_imports_from_eu": 225.0,
+        "total": 705.0,
+        "trade_pct_gdp_cn": 3.963,
+        "trade_pct_gdp_eu": 3.844,
+        "yoy_change_pct": -5.87
+      },
+      {
+        "year": 2024,
+        "cn_exports_to_eu": 465.0,
+        "cn_imports_from_eu": 220.0,
+        "total": 685.0,
+        "trade_pct_gdp_cn": 3.697,
+        "trade_pct_gdp_eu": 3.611,
+        "yoy_change_pct": -2.84
+      }
+    ],
+    "decoupling_trend": {
+      "status": "stable_or_growing",
+      "peak_year": 2022,
+      "peak_total_bn": 749.0,
+      "latest_year": 2024,
+      "latest_total_bn": 685.0,
+      "decline_from_peak_pct": -8.5,
+      "avg_yoy_growth_pre_2018": 12.82,
+      "avg_yoy_growth_post_2018": 4.11,
+      "trade_gdp_ratio_trend_pct": -39.4
+    }
+  },
+  "cn_jp": {
+    "source": "IMF DOTS / China Customs",
+    "data": [
+      {
+        "year": 2000,
+        "cn_exports_to_jp": 41.7,
+        "cn_imports_from_jp": 41.5,
+        "total": 83.2,
+        "trade_pct_gdp_cn": 6.876,
+        "trade_pct_gdp_jp": 1.701
+      },
+      {
+        "year": 2001,
+        "cn_exports_to_jp": 45.0,
+        "cn_imports_from_jp": 42.8,
+        "total": 87.8,
+        "trade_pct_gdp_cn": 6.552,
+        "trade_pct_gdp_jp": 2.042,
+        "yoy_change_pct": 5.53
+      },
+      {
+        "year": 2002,
+        "cn_exports_to_jp": 48.5,
+        "cn_imports_from_jp": 53.5,
+        "total": 102.0,
+        "trade_pct_gdp_cn": 6.939,
+        "trade_pct_gdp_jp": 2.476,
+        "yoy_change_pct": 16.17
+      },
+      {
+        "year": 2003,
+        "cn_exports_to_jp": 59.4,
+        "cn_imports_from_jp": 74.2,
+        "total": 133.6,
+        "trade_pct_gdp_cn": 8.048,
+        "trade_pct_gdp_jp": 3.043,
+        "yoy_change_pct": 30.98
+      },
+      {
+        "year": 2004,
+        "cn_exports_to_jp": 73.5,
+        "cn_imports_from_jp": 94.4,
+        "total": 167.9,
+        "trade_pct_gdp_cn": 8.566,
+        "trade_pct_gdp_jp": 3.603,
+        "yoy_change_pct": 25.67
+      },
+      {
+        "year": 2005,
+        "cn_exports_to_jp": 84.0,
+        "cn_imports_from_jp": 100.5,
+        "total": 184.5,
+        "trade_pct_gdp_cn": 8.057,
+        "trade_pct_gdp_jp": 3.876,
+        "yoy_change_pct": 9.89
+      },
+      {
+        "year": 2006,
+        "cn_exports_to_jp": 91.6,
+        "cn_imports_from_jp": 115.7,
+        "total": 207.3,
+        "trade_pct_gdp_cn": 7.538,
+        "trade_pct_gdp_jp": 4.576,
+        "yoy_change_pct": 12.36
+      },
+      {
+        "year": 2007,
+        "cn_exports_to_jp": 102.1,
+        "cn_imports_from_jp": 134.0,
+        "total": 236.1,
+        "trade_pct_gdp_cn": 6.651,
+        "trade_pct_gdp_jp": 5.223,
+        "yoy_change_pct": 13.89
+      },
+      {
+        "year": 2008,
+        "cn_exports_to_jp": 116.1,
+        "cn_imports_from_jp": 150.2,
+        "total": 266.3,
+        "trade_pct_gdp_cn": 5.802,
+        "trade_pct_gdp_jp": 5.284,
+        "yoy_change_pct": 12.79
+      },
+      {
+        "year": 2009,
+        "cn_exports_to_jp": 97.9,
+        "cn_imports_from_jp": 130.9,
+        "total": 228.8,
+        "trade_pct_gdp_cn": 4.486,
+        "trade_pct_gdp_jp": 4.375,
+        "yoy_change_pct": -14.08
+      },
+      {
+        "year": 2010,
+        "cn_exports_to_jp": 121.0,
+        "cn_imports_from_jp": 176.7,
+        "total": 297.7,
+        "trade_pct_gdp_cn": 4.888,
+        "trade_pct_gdp_jp": 5.168,
+        "yoy_change_pct": 30.11
+      },
+      {
+        "year": 2011,
+        "cn_exports_to_jp": 148.3,
+        "cn_imports_from_jp": 194.6,
+        "total": 342.9,
+        "trade_pct_gdp_cn": 4.542,
+        "trade_pct_gdp_jp": 5.567,
+        "yoy_change_pct": 15.18
+      },
+      {
+        "year": 2012,
+        "cn_exports_to_jp": 151.6,
+        "cn_imports_from_jp": 177.8,
+        "total": 329.4,
+        "trade_pct_gdp_cn": 3.862,
+        "trade_pct_gdp_jp": 5.254,
+        "yoy_change_pct": -3.94
+      },
+      {
+        "year": 2013,
+        "cn_exports_to_jp": 150.3,
+        "cn_imports_from_jp": 162.3,
+        "total": 312.6,
+        "trade_pct_gdp_cn": 3.266,
+        "trade_pct_gdp_jp": 6.058,
+        "yoy_change_pct": -5.1
+      },
+      {
+        "year": 2014,
+        "cn_exports_to_jp": 149.4,
+        "cn_imports_from_jp": 163.3,
+        "total": 312.7,
+        "trade_pct_gdp_cn": 2.984,
+        "trade_pct_gdp_jp": 6.447,
+        "yoy_change_pct": 0.03
+      },
+      {
+        "year": 2015,
+        "cn_exports_to_jp": 135.8,
+        "cn_imports_from_jp": 143.3,
+        "total": 279.1,
+        "trade_pct_gdp_cn": 2.524,
+        "trade_pct_gdp_jp": 6.358,
+        "yoy_change_pct": -10.75
+      },
+      {
+        "year": 2016,
+        "cn_exports_to_jp": 129.3,
+        "cn_imports_from_jp": 145.7,
+        "total": 275.0,
+        "trade_pct_gdp_cn": 2.449,
+        "trade_pct_gdp_jp": 5.589,
+        "yoy_change_pct": -1.47
+      },
+      {
+        "year": 2017,
+        "cn_exports_to_jp": 137.2,
+        "cn_imports_from_jp": 165.8,
+        "total": 303.0,
+        "trade_pct_gdp_cn": 2.461,
+        "trade_pct_gdp_jp": 6.222,
+        "yoy_change_pct": 10.18
+      },
+      {
+        "year": 2018,
+        "cn_exports_to_jp": 147.2,
+        "cn_imports_from_jp": 180.2,
+        "total": 327.4,
+        "trade_pct_gdp_cn": 2.357,
+        "trade_pct_gdp_jp": 6.496,
+        "yoy_change_pct": 8.05
+      },
+      {
+        "year": 2019,
+        "cn_exports_to_jp": 143.2,
+        "cn_imports_from_jp": 171.8,
+        "total": 315.0,
+        "trade_pct_gdp_cn": 2.206,
+        "trade_pct_gdp_jp": 6.152,
+        "yoy_change_pct": -3.79
+      },
+      {
+        "year": 2020,
+        "cn_exports_to_jp": 142.6,
+        "cn_imports_from_jp": 175.1,
+        "total": 317.7,
+        "trade_pct_gdp_cn": 2.158,
+        "trade_pct_gdp_jp": 6.484,
+        "yoy_change_pct": 0.86
+      },
+      {
+        "year": 2021,
+        "cn_exports_to_jp": 165.8,
+        "cn_imports_from_jp": 205.6,
+        "total": 371.4,
+        "trade_pct_gdp_cn": 2.095,
+        "trade_pct_gdp_jp": 7.413,
+        "yoy_change_pct": 16.9
+      },
+      {
+        "year": 2022,
+        "cn_exports_to_jp": 172.9,
+        "cn_imports_from_jp": 184.5,
+        "total": 357.4,
+        "trade_pct_gdp_cn": 1.99,
+        "trade_pct_gdp_jp": 8.449,
+        "yoy_change_pct": -3.77
+      },
+      {
+        "year": 2023,
+        "cn_exports_to_jp": 157.4,
+        "cn_imports_from_jp": 162.0,
+        "total": 319.4,
+        "trade_pct_gdp_cn": 1.795,
+        "trade_pct_gdp_jp": 7.587,
+        "yoy_change_pct": -10.63
+      },
+      {
+        "year": 2024,
+        "cn_exports_to_jp": 152.0,
+        "cn_imports_from_jp": 165.8,
+        "total": 317.8,
+        "trade_pct_gdp_cn": 1.715,
+        "trade_pct_gdp_jp": 7.808,
+        "yoy_change_pct": -0.5
+      }
+    ],
+    "decoupling_trend": {
+      "status": "growth_slowdown",
+      "peak_year": 2021,
+      "peak_total_bn": 371.4,
+      "latest_year": 2024,
+      "latest_total_bn": 317.8,
+      "decline_from_peak_pct": -14.4,
+      "avg_yoy_growth_pre_2018": 8.67,
+      "avg_yoy_growth_post_2018": 1.02,
+      "trade_gdp_ratio_trend_pct": -75.1
+    }
+  },
+  "cn_kr": {
+    "source": "IMF DOTS / Korea Customs",
+    "data": [
+      {
+        "year": 2000,
+        "cn_exports_to_kr": 11.3,
+        "cn_imports_from_kr": 23.2,
+        "total": 34.5,
+        "trade_pct_gdp_cn": 2.851,
+        "trade_pct_gdp_kr": 5.948
+      },
+      {
+        "year": 2001,
+        "cn_exports_to_kr": 12.5,
+        "cn_imports_from_kr": 23.4,
+        "total": 35.9,
+        "trade_pct_gdp_cn": 2.679,
+        "trade_pct_gdp_kr": 6.774,
+        "yoy_change_pct": 4.06
+      },
+      {
+        "year": 2002,
+        "cn_exports_to_kr": 15.5,
+        "cn_imports_from_kr": 28.6,
+        "total": 44.1,
+        "trade_pct_gdp_cn": 3.0,
+        "trade_pct_gdp_kr": 7.23,
+        "yoy_change_pct": 22.84
+      },
+      {
+        "year": 2003,
+        "cn_exports_to_kr": 20.1,
+        "cn_imports_from_kr": 43.1,
+        "total": 63.2,
+        "trade_pct_gdp_cn": 3.807,
+        "trade_pct_gdp_kr": 9.294,
+        "yoy_change_pct": 43.31
+      },
+      {
+        "year": 2004,
+        "cn_exports_to_kr": 27.8,
+        "cn_imports_from_kr": 62.2,
+        "total": 90.0,
+        "trade_pct_gdp_cn": 4.592,
+        "trade_pct_gdp_kr": 11.842,
+        "yoy_change_pct": 42.41
+      },
+      {
+        "year": 2005,
+        "cn_exports_to_kr": 35.1,
+        "cn_imports_from_kr": 76.8,
+        "total": 111.9,
+        "trade_pct_gdp_cn": 4.886,
+        "trade_pct_gdp_kr": 12.433,
+        "yoy_change_pct": 24.33
+      },
+      {
+        "year": 2006,
+        "cn_exports_to_kr": 44.5,
+        "cn_imports_from_kr": 89.8,
+        "total": 134.3,
+        "trade_pct_gdp_cn": 4.884,
+        "trade_pct_gdp_kr": 13.297,
+        "yoy_change_pct": 20.02
+      },
+      {
+        "year": 2007,
+        "cn_exports_to_kr": 56.1,
+        "cn_imports_from_kr": 104.5,
+        "total": 160.6,
+        "trade_pct_gdp_cn": 4.524,
+        "trade_pct_gdp_kr": 14.339,
+        "yoy_change_pct": 19.58
+      },
+      {
+        "year": 2008,
+        "cn_exports_to_kr": 73.9,
+        "cn_imports_from_kr": 112.2,
+        "total": 186.1,
+        "trade_pct_gdp_cn": 4.054,
+        "trade_pct_gdp_kr": 18.61,
+        "yoy_change_pct": 15.88
+      },
+      {
+        "year": 2009,
+        "cn_exports_to_kr": 53.7,
+        "cn_imports_from_kr": 102.4,
+        "total": 156.1,
+        "trade_pct_gdp_cn": 3.061,
+        "trade_pct_gdp_kr": 17.344,
+        "yoy_change_pct": -16.12
+      },
+      {
+        "year": 2010,
+        "cn_exports_to_kr": 68.8,
+        "cn_imports_from_kr": 138.4,
+        "total": 207.2,
+        "trade_pct_gdp_cn": 3.402,
+        "trade_pct_gdp_kr": 19.009,
+        "yoy_change_pct": 32.74
+      },
+      {
+        "year": 2011,
+        "cn_exports_to_kr": 82.9,
+        "cn_imports_from_kr": 162.7,
+        "total": 245.6,
+        "trade_pct_gdp_cn": 3.253,
+        "trade_pct_gdp_kr": 20.467,
+        "yoy_change_pct": 18.53
+      },
+      {
+        "year": 2012,
+        "cn_exports_to_kr": 87.7,
+        "cn_imports_from_kr": 168.7,
+        "total": 256.4,
+        "trade_pct_gdp_cn": 3.006,
+        "trade_pct_gdp_kr": 21.016,
+        "yoy_change_pct": 4.4
+      },
+      {
+        "year": 2013,
+        "cn_exports_to_kr": 91.2,
+        "cn_imports_from_kr": 183.1,
+        "total": 274.3,
+        "trade_pct_gdp_cn": 2.866,
+        "trade_pct_gdp_kr": 20.939,
+        "yoy_change_pct": 6.98
+      },
+      {
+        "year": 2014,
+        "cn_exports_to_kr": 100.3,
+        "cn_imports_from_kr": 190.1,
+        "total": 290.4,
+        "trade_pct_gdp_cn": 2.771,
+        "trade_pct_gdp_kr": 20.596,
+        "yoy_change_pct": 5.87
+      },
+      {
+        "year": 2015,
+        "cn_exports_to_kr": 101.4,
+        "cn_imports_from_kr": 174.5,
+        "total": 275.9,
+        "trade_pct_gdp_cn": 2.495,
+        "trade_pct_gdp_kr": 19.993,
+        "yoy_change_pct": -4.99
+      },
+      {
+        "year": 2016,
+        "cn_exports_to_kr": 93.7,
+        "cn_imports_from_kr": 158.6,
+        "total": 252.3,
+        "trade_pct_gdp_cn": 2.247,
+        "trade_pct_gdp_kr": 17.768,
+        "yoy_change_pct": -8.55
+      },
+      {
+        "year": 2017,
+        "cn_exports_to_kr": 102.8,
+        "cn_imports_from_kr": 178.0,
+        "total": 280.8,
+        "trade_pct_gdp_cn": 2.281,
+        "trade_pct_gdp_kr": 18.353,
+        "yoy_change_pct": 11.3
+      },
+      {
+        "year": 2018,
+        "cn_exports_to_kr": 109.2,
+        "cn_imports_from_kr": 204.2,
+        "total": 313.4,
+        "trade_pct_gdp_cn": 2.256,
+        "trade_pct_gdp_kr": 18.221,
+        "yoy_change_pct": 11.61
+      },
+      {
+        "year": 2019,
+        "cn_exports_to_kr": 111.0,
+        "cn_imports_from_kr": 173.6,
+        "total": 284.6,
+        "trade_pct_gdp_cn": 1.993,
+        "trade_pct_gdp_kr": 17.248,
+        "yoy_change_pct": -9.19
+      },
+      {
+        "year": 2020,
+        "cn_exports_to_kr": 112.5,
+        "cn_imports_from_kr": 172.7,
+        "total": 285.2,
+        "trade_pct_gdp_cn": 1.938,
+        "trade_pct_gdp_kr": 17.39,
+        "yoy_change_pct": 0.21
+      },
+      {
+        "year": 2021,
+        "cn_exports_to_kr": 148.9,
+        "cn_imports_from_kr": 213.5,
+        "total": 362.4,
+        "trade_pct_gdp_cn": 2.044,
+        "trade_pct_gdp_kr": 20.022,
+        "yoy_change_pct": 27.07
+      },
+      {
+        "year": 2022,
+        "cn_exports_to_kr": 162.5,
+        "cn_imports_from_kr": 193.1,
+        "total": 355.6,
+        "trade_pct_gdp_cn": 1.98,
+        "trade_pct_gdp_kr": 21.293,
+        "yoy_change_pct": -1.88
+      },
+      {
+        "year": 2023,
+        "cn_exports_to_kr": 164.8,
+        "cn_imports_from_kr": 170.5,
+        "total": 335.3,
+        "trade_pct_gdp_cn": 1.885,
+        "trade_pct_gdp_kr": 19.608,
+        "yoy_change_pct": -5.71
+      },
+      {
+        "year": 2024,
+        "cn_exports_to_kr": 158.0,
+        "cn_imports_from_kr": 175.0,
+        "total": 333.0,
+        "trade_pct_gdp_cn": 1.797,
+        "trade_pct_gdp_kr": 18.92,
+        "yoy_change_pct": -0.69
+      }
+    ],
+    "decoupling_trend": {
+      "status": "growth_slowdown",
+      "peak_year": 2021,
+      "peak_total_bn": 362.4,
+      "latest_year": 2024,
+      "latest_total_bn": 333.0,
+      "decline_from_peak_pct": -8.1,
+      "avg_yoy_growth_pre_2018": 14.27,
+      "avg_yoy_growth_post_2018": 3.06,
+      "trade_gdp_ratio_trend_pct": -37.0
+    }
+  },
+  "us_ru": {
+    "source": "US Census Bureau / IMF DOTS",
+    "data": [
+      {
+        "year": 2000,
+        "us_exports_to_ru": 2.1,
+        "us_imports_from_ru": 10.0,
+        "total": 12.1,
+        "trade_pct_gdp_us": 0.118,
+        "trade_pct_gdp_ru": 4.654
+      },
+      {
+        "year": 2001,
+        "us_exports_to_ru": 2.7,
+        "us_imports_from_ru": 6.3,
+        "total": 9.0,
+        "trade_pct_gdp_us": 0.085,
+        "trade_pct_gdp_ru": 2.903,
+        "yoy_change_pct": -25.62
+      },
+      {
+        "year": 2002,
+        "us_exports_to_ru": 2.4,
+        "us_imports_from_ru": 6.8,
+        "total": 9.2,
+        "trade_pct_gdp_us": 0.084,
+        "trade_pct_gdp_ru": 2.629,
+        "yoy_change_pct": 2.22
+      },
+      {
+        "year": 2003,
+        "us_exports_to_ru": 2.5,
+        "us_imports_from_ru": 8.6,
+        "total": 11.1,
+        "trade_pct_gdp_us": 0.097,
+        "trade_pct_gdp_ru": 2.581,
+        "yoy_change_pct": 20.65
+      },
+      {
+        "year": 2004,
+        "us_exports_to_ru": 3.0,
+        "us_imports_from_ru": 11.9,
+        "total": 14.9,
+        "trade_pct_gdp_us": 0.122,
+        "trade_pct_gdp_ru": 2.525,
+        "yoy_change_pct": 34.23
+      },
+      {
+        "year": 2005,
+        "us_exports_to_ru": 3.9,
+        "us_imports_from_ru": 15.3,
+        "total": 19.2,
+        "trade_pct_gdp_us": 0.147,
+        "trade_pct_gdp_ru": 2.526,
+        "yoy_change_pct": 28.86
+      },
+      {
+        "year": 2006,
+        "us_exports_to_ru": 4.7,
+        "us_imports_from_ru": 19.8,
+        "total": 24.5,
+        "trade_pct_gdp_us": 0.177,
+        "trade_pct_gdp_ru": 2.475,
+        "yoy_change_pct": 27.6
+      },
+      {
+        "year": 2007,
+        "us_exports_to_ru": 7.4,
+        "us_imports_from_ru": 19.3,
+        "total": 26.7,
+        "trade_pct_gdp_us": 0.185,
+        "trade_pct_gdp_ru": 2.054,
+        "yoy_change_pct": 8.98
+      },
+      {
+        "year": 2008,
+        "us_exports_to_ru": 9.3,
+        "us_imports_from_ru": 26.7,
+        "total": 36.0,
+        "trade_pct_gdp_us": 0.245,
+        "trade_pct_gdp_ru": 2.169,
+        "yoy_change_pct": 34.83
+      },
+      {
+        "year": 2009,
+        "us_exports_to_ru": 5.4,
+        "us_imports_from_ru": 18.2,
+        "total": 23.6,
+        "trade_pct_gdp_us": 0.164,
+        "trade_pct_gdp_ru": 1.934,
+        "yoy_change_pct": -34.44
+      },
+      {
+        "year": 2010,
+        "us_exports_to_ru": 5.9,
+        "us_imports_from_ru": 25.7,
+        "total": 31.6,
+        "trade_pct_gdp_us": 0.211,
+        "trade_pct_gdp_ru": 2.079,
+        "yoy_change_pct": 33.9
+      },
+      {
+        "year": 2011,
+        "us_exports_to_ru": 8.3,
+        "us_imports_from_ru": 34.6,
+        "total": 42.9,
+        "trade_pct_gdp_us": 0.276,
+        "trade_pct_gdp_ru": 2.093,
+        "yoy_change_pct": 35.76
+      },
+      {
+        "year": 2012,
+        "us_exports_to_ru": 10.7,
+        "us_imports_from_ru": 29.3,
+        "total": 40.0,
+        "trade_pct_gdp_us": 0.247,
+        "trade_pct_gdp_ru": 1.81,
+        "yoy_change_pct": -6.76
+      },
+      {
+        "year": 2013,
+        "us_exports_to_ru": 11.2,
+        "us_imports_from_ru": 27.2,
+        "total": 38.4,
+        "trade_pct_gdp_us": 0.229,
+        "trade_pct_gdp_ru": 1.677,
+        "yoy_change_pct": -4.0
+      },
+      {
+        "year": 2014,
+        "us_exports_to_ru": 10.8,
+        "us_imports_from_ru": 23.7,
+        "total": 34.5,
+        "trade_pct_gdp_us": 0.197,
+        "trade_pct_gdp_ru": 1.675,
+        "yoy_change_pct": -10.16
+      },
+      {
+        "year": 2015,
+        "us_exports_to_ru": 7.1,
+        "us_imports_from_ru": 16.4,
+        "total": 23.5,
+        "trade_pct_gdp_us": 0.129,
+        "trade_pct_gdp_ru": 1.728,
+        "yoy_change_pct": -31.88
+      },
+      {
+        "year": 2016,
+        "us_exports_to_ru": 5.8,
+        "us_imports_from_ru": 14.5,
+        "total": 20.3,
+        "trade_pct_gdp_us": 0.108,
+        "trade_pct_gdp_ru": 1.586,
+        "yoy_change_pct": -13.62
+      },
+      {
+        "year": 2017,
+        "us_exports_to_ru": 7.0,
+        "us_imports_from_ru": 17.4,
+        "total": 24.4,
+        "trade_pct_gdp_us": 0.125,
+        "trade_pct_gdp_ru": 1.554,
+        "yoy_change_pct": 20.2
+      },
+      {
+        "year": 2018,
+        "us_exports_to_ru": 6.6,
+        "us_imports_from_ru": 22.0,
+        "total": 28.6,
+        "trade_pct_gdp_us": 0.139,
+        "trade_pct_gdp_ru": 1.723,
+        "yoy_change_pct": 17.21
+      },
+      {
+        "year": 2019,
+        "us_exports_to_ru": 5.8,
+        "us_imports_from_ru": 22.3,
+        "total": 28.1,
+        "trade_pct_gdp_us": 0.131,
+        "trade_pct_gdp_ru": 1.663,
+        "yoy_change_pct": -1.75
+      },
+      {
+        "year": 2020,
+        "us_exports_to_ru": 4.1,
+        "us_imports_from_ru": 16.5,
+        "total": 20.6,
+        "trade_pct_gdp_us": 0.099,
+        "trade_pct_gdp_ru": 1.392,
+        "yoy_change_pct": -26.69
+      },
+      {
+        "year": 2021,
+        "us_exports_to_ru": 6.4,
+        "us_imports_from_ru": 29.7,
+        "total": 36.1,
+        "trade_pct_gdp_us": 0.155,
+        "trade_pct_gdp_ru": 2.028,
+        "yoy_change_pct": 75.24
+      },
+      {
+        "year": 2022,
+        "us_exports_to_ru": 1.5,
+        "us_imports_from_ru": 14.5,
+        "total": 16.0,
+        "trade_pct_gdp_us": 0.063,
+        "trade_pct_gdp_ru": 0.714,
+        "yoy_change_pct": -55.68
+      },
+      {
+        "year": 2023,
+        "us_exports_to_ru": 0.8,
+        "us_imports_from_ru": 4.5,
+        "total": 5.3,
+        "trade_pct_gdp_us": 0.019,
+        "trade_pct_gdp_ru": 0.285,
+        "yoy_change_pct": -66.88
+      },
+      {
+        "year": 2024,
+        "us_exports_to_ru": 0.5,
+        "us_imports_from_ru": 3.2,
+        "total": 3.7,
+        "trade_pct_gdp_us": 0.013,
+        "trade_pct_gdp_ru": 0.183,
+        "yoy_change_pct": -30.19
+      }
+    ],
+    "decoupling_trend": {
+      "status": "severe_decoupling_sanctions",
+      "peak_year": 2011,
+      "peak_total_bn": 42.9,
+      "latest_year": 2024,
+      "latest_total_bn": 3.7,
+      "decline_from_peak_pct": -91.4,
+      "avg_yoy_growth_pre_2018": 7.1,
+      "avg_yoy_growth_post_2018": -12.68,
+      "trade_gdp_ratio_trend_pct": -89.0
+    }
+  },
+  "eu_ru": {
+    "source": "Eurostat / IMF DOTS",
+    "data": [
+      {
+        "year": 2000,
+        "eu_exports_to_ru": 22.7,
+        "eu_imports_from_ru": 63.8,
+        "total": 86.5,
+        "trade_pct_gdp_eu": 1.018,
+        "trade_pct_gdp_ru": 33.269
+      },
+      {
+        "year": 2001,
+        "eu_exports_to_ru": 25.0,
+        "eu_imports_from_ru": 62.0,
+        "total": 87.0,
+        "trade_pct_gdp_eu": 1.012,
+        "trade_pct_gdp_ru": 28.065,
+        "yoy_change_pct": 0.58
+      },
+      {
+        "year": 2002,
+        "eu_exports_to_ru": 28.0,
+        "eu_imports_from_ru": 58.0,
+        "total": 86.0,
+        "trade_pct_gdp_eu": 0.916,
+        "trade_pct_gdp_ru": 24.571,
+        "yoy_change_pct": -1.15
+      },
+      {
+        "year": 2003,
+        "eu_exports_to_ru": 33.0,
+        "eu_imports_from_ru": 66.0,
+        "total": 99.0,
+        "trade_pct_gdp_eu": 0.895,
+        "trade_pct_gdp_ru": 23.023,
+        "yoy_change_pct": 15.12
+      },
+      {
+        "year": 2004,
+        "eu_exports_to_ru": 42.0,
+        "eu_imports_from_ru": 84.0,
+        "total": 126.0,
+        "trade_pct_gdp_eu": 1.001,
+        "trade_pct_gdp_ru": 21.356,
+        "yoy_change_pct": 27.27
+      },
+      {
+        "year": 2005,
+        "eu_exports_to_ru": 56.0,
+        "eu_imports_from_ru": 112.0,
+        "total": 168.0,
+        "trade_pct_gdp_eu": 1.218,
+        "trade_pct_gdp_ru": 22.105,
+        "yoy_change_pct": 33.33
+      },
+      {
+        "year": 2006,
+        "eu_exports_to_ru": 72.0,
+        "eu_imports_from_ru": 143.0,
+        "total": 215.0,
+        "trade_pct_gdp_eu": 1.466,
+        "trade_pct_gdp_ru": 21.717,
+        "yoy_change_pct": 27.98
+      },
+      {
+        "year": 2007,
+        "eu_exports_to_ru": 89.0,
+        "eu_imports_from_ru": 146.0,
+        "total": 235.0,
+        "trade_pct_gdp_eu": 1.409,
+        "trade_pct_gdp_ru": 18.077,
+        "yoy_change_pct": 9.3
+      },
+      {
+        "year": 2008,
+        "eu_exports_to_ru": 105.0,
+        "eu_imports_from_ru": 180.0,
+        "total": 285.0,
+        "trade_pct_gdp_eu": 1.559,
+        "trade_pct_gdp_ru": 17.169,
+        "yoy_change_pct": 21.28
+      },
+      {
+        "year": 2009,
+        "eu_exports_to_ru": 65.0,
+        "eu_imports_from_ru": 115.0,
+        "total": 180.0,
+        "trade_pct_gdp_eu": 1.095,
+        "trade_pct_gdp_ru": 14.754,
+        "yoy_change_pct": -36.84
+      },
+      {
+        "year": 2010,
+        "eu_exports_to_ru": 86.0,
+        "eu_imports_from_ru": 160.0,
+        "total": 246.0,
+        "trade_pct_gdp_eu": 1.45,
+        "trade_pct_gdp_ru": 16.184,
+        "yoy_change_pct": 36.67
+      },
+      {
+        "year": 2011,
+        "eu_exports_to_ru": 108.0,
+        "eu_imports_from_ru": 199.0,
+        "total": 307.0,
+        "trade_pct_gdp_eu": 1.673,
+        "trade_pct_gdp_ru": 14.976,
+        "yoy_change_pct": 24.8
+      },
+      {
+        "year": 2012,
+        "eu_exports_to_ru": 123.0,
+        "eu_imports_from_ru": 213.0,
+        "total": 336.0,
+        "trade_pct_gdp_eu": 1.947,
+        "trade_pct_gdp_ru": 15.204,
+        "yoy_change_pct": 9.45
+      },
+      {
+        "year": 2013,
+        "eu_exports_to_ru": 120.0,
+        "eu_imports_from_ru": 206.0,
+        "total": 326.0,
+        "trade_pct_gdp_eu": 1.816,
+        "trade_pct_gdp_ru": 14.236,
+        "yoy_change_pct": -2.98
+      },
+      {
+        "year": 2014,
+        "eu_exports_to_ru": 103.0,
+        "eu_imports_from_ru": 183.0,
+        "total": 286.0,
+        "trade_pct_gdp_eu": 1.537,
+        "trade_pct_gdp_ru": 13.883,
+        "yoy_change_pct": -12.27
+      },
+      {
+        "year": 2015,
+        "eu_exports_to_ru": 73.0,
+        "eu_imports_from_ru": 136.0,
+        "total": 209.0,
+        "trade_pct_gdp_eu": 1.415,
+        "trade_pct_gdp_ru": 15.368,
+        "yoy_change_pct": -26.92
+      },
+      {
+        "year": 2016,
+        "eu_exports_to_ru": 72.0,
+        "eu_imports_from_ru": 118.0,
+        "total": 190.0,
+        "trade_pct_gdp_eu": 1.275,
+        "trade_pct_gdp_ru": 14.844,
+        "yoy_change_pct": -9.09
+      },
+      {
+        "year": 2017,
+        "eu_exports_to_ru": 86.0,
+        "eu_imports_from_ru": 145.0,
+        "total": 231.0,
+        "trade_pct_gdp_eu": 1.473,
+        "trade_pct_gdp_ru": 14.713,
+        "yoy_change_pct": 21.58
+      },
+      {
+        "year": 2018,
+        "eu_exports_to_ru": 85.0,
+        "eu_imports_from_ru": 168.0,
+        "total": 253.0,
+        "trade_pct_gdp_eu": 1.349,
+        "trade_pct_gdp_ru": 15.241,
+        "yoy_change_pct": 9.52
+      },
+      {
+        "year": 2019,
+        "eu_exports_to_ru": 80.0,
+        "eu_imports_from_ru": 145.0,
+        "total": 225.0,
+        "trade_pct_gdp_eu": 1.23,
+        "trade_pct_gdp_ru": 13.314,
+        "yoy_change_pct": -11.07
+      },
+      {
+        "year": 2020,
+        "eu_exports_to_ru": 70.0,
+        "eu_imports_from_ru": 95.0,
+        "total": 165.0,
+        "trade_pct_gdp_eu": 0.923,
+        "trade_pct_gdp_ru": 11.149,
+        "yoy_change_pct": -26.67
+      },
+      {
+        "year": 2021,
+        "eu_exports_to_ru": 89.0,
+        "eu_imports_from_ru": 158.0,
+        "total": 247.0,
+        "trade_pct_gdp_eu": 1.231,
+        "trade_pct_gdp_ru": 13.876,
+        "yoy_change_pct": 49.7
+      },
+      {
+        "year": 2022,
+        "eu_exports_to_ru": 50.0,
+        "eu_imports_from_ru": 110.0,
+        "total": 160.0,
+        "trade_pct_gdp_eu": 0.932,
+        "trade_pct_gdp_ru": 7.143,
+        "yoy_change_pct": -35.22
+      },
+      {
+        "year": 2023,
+        "eu_exports_to_ru": 35.0,
+        "eu_imports_from_ru": 48.0,
+        "total": 83.0,
+        "trade_pct_gdp_eu": 0.453,
+        "trade_pct_gdp_ru": 4.462,
+        "yoy_change_pct": -48.12
+      },
+      {
+        "year": 2024,
+        "eu_exports_to_ru": 30.0,
+        "eu_imports_from_ru": 42.0,
+        "total": 72.0,
+        "trade_pct_gdp_eu": 0.38,
+        "trade_pct_gdp_ru": 3.564,
+        "yoy_change_pct": -13.25
+      }
+    ],
+    "decoupling_trend": {
+      "status": "severe_decoupling_sanctions",
+      "peak_year": 2012,
+      "peak_total_bn": 336.0,
+      "latest_year": 2024,
+      "latest_total_bn": 72.0,
+      "decline_from_peak_pct": -78.6,
+      "avg_yoy_growth_pre_2018": 8.12,
+      "avg_yoy_growth_post_2018": -10.73,
+      "trade_gdp_ratio_trend_pct": -62.7
+    }
+  },
+  "cn_ru": {
+    "source": "IMF DOTS / China Customs",
+    "data": [
+      {
+        "year": 2000,
+        "cn_exports_to_ru": 5.8,
+        "cn_imports_from_ru": 5.2,
+        "total": 11.0,
+        "trade_pct_gdp_cn": 0.909,
+        "trade_pct_gdp_ru": 4.231
+      },
+      {
+        "year": 2001,
+        "cn_exports_to_ru": 6.0,
+        "cn_imports_from_ru": 5.6,
+        "total": 11.6,
+        "trade_pct_gdp_cn": 0.866,
+        "trade_pct_gdp_ru": 3.742,
+        "yoy_change_pct": 5.45
+      },
+      {
+        "year": 2002,
+        "cn_exports_to_ru": 6.8,
+        "cn_imports_from_ru": 5.9,
+        "total": 12.7,
+        "trade_pct_gdp_cn": 0.864,
+        "trade_pct_gdp_ru": 3.629,
+        "yoy_change_pct": 9.48
+      },
+      {
+        "year": 2003,
+        "cn_exports_to_ru": 9.3,
+        "cn_imports_from_ru": 7.3,
+        "total": 16.6,
+        "trade_pct_gdp_cn": 1.0,
+        "trade_pct_gdp_ru": 3.86,
+        "yoy_change_pct": 30.71
+      },
+      {
+        "year": 2004,
+        "cn_exports_to_ru": 10.1,
+        "cn_imports_from_ru": 12.1,
+        "total": 22.2,
+        "trade_pct_gdp_cn": 1.133,
+        "trade_pct_gdp_ru": 3.763,
+        "yoy_change_pct": 33.73
+      },
+      {
+        "year": 2005,
+        "cn_exports_to_ru": 13.2,
+        "cn_imports_from_ru": 15.9,
+        "total": 29.1,
+        "trade_pct_gdp_cn": 1.271,
+        "trade_pct_gdp_ru": 3.829,
+        "yoy_change_pct": 31.08
+      },
+      {
+        "year": 2006,
+        "cn_exports_to_ru": 15.8,
+        "cn_imports_from_ru": 17.6,
+        "total": 33.4,
+        "trade_pct_gdp_cn": 1.215,
+        "trade_pct_gdp_ru": 3.374,
+        "yoy_change_pct": 14.78
+      },
+      {
+        "year": 2007,
+        "cn_exports_to_ru": 28.5,
+        "cn_imports_from_ru": 19.7,
+        "total": 48.2,
+        "trade_pct_gdp_cn": 1.358,
+        "trade_pct_gdp_ru": 3.708,
+        "yoy_change_pct": 44.31
+      },
+      {
+        "year": 2008,
+        "cn_exports_to_ru": 33.0,
+        "cn_imports_from_ru": 23.8,
+        "total": 56.8,
+        "trade_pct_gdp_cn": 1.237,
+        "trade_pct_gdp_ru": 3.422,
+        "yoy_change_pct": 17.84
+      },
+      {
+        "year": 2009,
+        "cn_exports_to_ru": 17.5,
+        "cn_imports_from_ru": 21.3,
+        "total": 38.8,
+        "trade_pct_gdp_cn": 0.761,
+        "trade_pct_gdp_ru": 3.18,
+        "yoy_change_pct": -31.69
+      },
+      {
+        "year": 2010,
+        "cn_exports_to_ru": 29.6,
+        "cn_imports_from_ru": 25.8,
+        "total": 55.4,
+        "trade_pct_gdp_cn": 0.91,
+        "trade_pct_gdp_ru": 3.645,
+        "yoy_change_pct": 42.78
+      },
+      {
+        "year": 2011,
+        "cn_exports_to_ru": 38.9,
+        "cn_imports_from_ru": 40.3,
+        "total": 79.2,
+        "trade_pct_gdp_cn": 1.049,
+        "trade_pct_gdp_ru": 3.863,
+        "yoy_change_pct": 42.96
+      },
+      {
+        "year": 2012,
+        "cn_exports_to_ru": 44.1,
+        "cn_imports_from_ru": 44.1,
+        "total": 88.2,
+        "trade_pct_gdp_cn": 1.034,
+        "trade_pct_gdp_ru": 3.991,
+        "yoy_change_pct": 11.36
+      },
+      {
+        "year": 2013,
+        "cn_exports_to_ru": 49.6,
+        "cn_imports_from_ru": 39.6,
+        "total": 89.2,
+        "trade_pct_gdp_cn": 0.932,
+        "trade_pct_gdp_ru": 3.895,
+        "yoy_change_pct": 1.13
+      },
+      {
+        "year": 2014,
+        "cn_exports_to_ru": 53.7,
+        "cn_imports_from_ru": 41.6,
+        "total": 95.3,
+        "trade_pct_gdp_cn": 0.909,
+        "trade_pct_gdp_ru": 4.626,
+        "yoy_change_pct": 6.84
+      },
+      {
+        "year": 2015,
+        "cn_exports_to_ru": 34.8,
+        "cn_imports_from_ru": 33.3,
+        "total": 68.1,
+        "trade_pct_gdp_cn": 0.616,
+        "trade_pct_gdp_ru": 5.007,
+        "yoy_change_pct": -28.54
+      },
+      {
+        "year": 2016,
+        "cn_exports_to_ru": 37.3,
+        "cn_imports_from_ru": 32.2,
+        "total": 69.5,
+        "trade_pct_gdp_cn": 0.619,
+        "trade_pct_gdp_ru": 5.43,
+        "yoy_change_pct": 2.06
+      },
+      {
+        "year": 2017,
+        "cn_exports_to_ru": 42.9,
+        "cn_imports_from_ru": 41.2,
+        "total": 84.1,
+        "trade_pct_gdp_cn": 0.683,
+        "trade_pct_gdp_ru": 5.357,
+        "yoy_change_pct": 21.01
+      },
+      {
+        "year": 2018,
+        "cn_exports_to_ru": 47.9,
+        "cn_imports_from_ru": 59.1,
+        "total": 107.0,
+        "trade_pct_gdp_cn": 0.77,
+        "trade_pct_gdp_ru": 6.446,
+        "yoy_change_pct": 27.23
+      },
+      {
+        "year": 2019,
+        "cn_exports_to_ru": 49.7,
+        "cn_imports_from_ru": 61.1,
+        "total": 110.8,
+        "trade_pct_gdp_cn": 0.776,
+        "trade_pct_gdp_ru": 6.556,
+        "yoy_change_pct": 3.55
+      },
+      {
+        "year": 2020,
+        "cn_exports_to_ru": 50.6,
+        "cn_imports_from_ru": 57.2,
+        "total": 107.8,
+        "trade_pct_gdp_cn": 0.732,
+        "trade_pct_gdp_ru": 7.284,
+        "yoy_change_pct": -2.71
+      },
+      {
+        "year": 2021,
+        "cn_exports_to_ru": 67.6,
+        "cn_imports_from_ru": 79.3,
+        "total": 146.9,
+        "trade_pct_gdp_cn": 0.829,
+        "trade_pct_gdp_ru": 8.253,
+        "yoy_change_pct": 36.27
+      },
+      {
+        "year": 2022,
+        "cn_exports_to_ru": 76.1,
+        "cn_imports_from_ru": 114.1,
+        "total": 190.2,
+        "trade_pct_gdp_cn": 1.059,
+        "trade_pct_gdp_ru": 8.491,
+        "yoy_change_pct": 29.48
+      },
+      {
+        "year": 2023,
+        "cn_exports_to_ru": 110.9,
+        "cn_imports_from_ru": 129.1,
+        "total": 240.0,
+        "trade_pct_gdp_cn": 1.349,
+        "trade_pct_gdp_ru": 12.903,
+        "yoy_change_pct": 26.18
+      },
+      {
+        "year": 2024,
+        "cn_exports_to_ru": 115.0,
+        "cn_imports_from_ru": 135.0,
+        "total": 250.0,
+        "trade_pct_gdp_cn": 1.349,
+        "trade_pct_gdp_ru": 12.376,
+        "yoy_change_pct": 4.17
+      }
+    ],
+    "decoupling_trend": {
+      "status": "partial_sanctions_impact",
+      "peak_year": 2024,
+      "peak_total_bn": 250.0,
+      "latest_year": 2024,
+      "latest_total_bn": 250.0,
+      "decline_from_peak_pct": 0.0,
+      "avg_yoy_growth_pre_2018": 15.02,
+      "avg_yoy_growth_post_2018": 17.74,
+      "trade_gdp_ratio_trend_pct": 48.4
+    }
+  },
+  "_metadata": {
+    "description": "Bilateral trade flows between major economies for decoupling analysis",
+    "generated": "2026-03-12T12:06:23.631986",
+    "units": "USD billions",
+    "pairs": [
+      "us_cn",
+      "us_eu",
+      "us_jp",
+      "us_kr",
+      "cn_eu",
+      "cn_jp",
+      "cn_kr",
+      "us_ru",
+      "eu_ru",
+      "cn_ru"
+    ],
+    "notes": [
+      "EU approximated by aggregate EU27/EU28 figures from Eurostat/IMF DOTS",
+      "trade_pct_gdp_X = bilateral trade total as % of country X GDP",
+      "yoy_change_pct = year-over-year percentage change in total bilateral trade",
+      "Decoupling analysis splits at 2018 (US-China trade war onset)",
+      "Russia pairs show sanctions impact post-2022"
+    ]
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "leader": "George W. Bush",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "Presidential term: Jan 20 2001 – Jan 20 2009 (two terms). Economic events: EGTRRA 2001 tax cut, JGTRRA 2003 tax cut, 9/11 economic aftermath, 2001-2002 recession, 2003-2007 expansion, 2007-2009 housing/financial crisis, TARP Oct 2008, Emergency Economic Stabilization Act",
+    "Military/foreign policy: Afghanistan War Oct 2001 – present (launched under Bush), Iraq War Mar 2003 – Dec 2011, 'War on Terror' doctrine, DHS creation 2002, PATRIOT Act 2001, Abu Ghraib scandal 2004, Katrina federal response 2005",
+    "Primary sources: Bush memoir 'Decision Points' (2010), Dick Cheney 'In My Time' (2011), Condoleezza Rice 'No Higher Honor' (2011), Hank Paulson 'On the Brink' (2010 — detailed 2008 crisis account), Ben Bernanke 'The Courage to Act' (2015)",
+    "Background: Yale BA 1968, Harvard Business School MBA 1975 (only MBA president), Texas Air National Guard 1968-1973, Arbusto Energy (oil company, failed) 1977-84, Harken Energy (board) 1986-90, Texas Rangers co-owner 1989-1994, Texas Governor 1995-2000",
+    "Key analytical sources: Bob Woodward 'Bush at War' (2002), 'Plan of Attack' (2004), 'State of Denial' (2006), 'The War Within' (2008) — four-volume series based on extensive access; Ron Suskind 'The Price of Loyalty' (2004, O'Neill account); Thomas Ricks 'Fiasco' (2006)"
+  ],
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector for George W. Bush, compiled from his full two-term presidency (Jan 2001 – Jan 2009). Bush underwent the most dramatic behavioral transformation of any modern president: entered office as a compassionate-conservative domestic reformer focused on education and tax cuts, and within eight months was transformed by 9/11 into a wartime commander-in-chief for whom all other policy was subordinated to national security. Economic policy was largely delegated — to Cheney on tax cuts, Paulson/Bernanke on the 2008 crisis — while Bush focused on the War on Terror. His presidency's economic legacy is dominated by two bookends: the 2001/2003 tax cuts that launched a deficit era, and the 2008 financial crisis response (TARP, auto bailout) that he executed despite ideological opposition to government intervention. Decision style: gut instinct + advisor delegation, not data-driven. Information fidelity: 0.76 — multiple first-person accounts from cabinet members, four Woodward volumes, Bush's own memoir, but the internal decision calculus is less documented than Greenspan or Powell.",
+    "dimensions": 43,
+    "vectors": [
+
+      {
+        "label": "post_911_transformation_completeness",
+        "value": 0.97,
+        "evidence": "9/11 was not just a policy shift for Bush — it was a complete personality and priority reorientation. Before 9/11: focused on NCLB education reform, tax cuts, avoiding 'nation building.' After: Bush Doctrine of pre-emptive war, 'you're either with us or against us,' Afghanistan in 6 weeks, Iraq planning began immediately. Bob Woodward's 'Bush at War' documents the transformation in real time. Bush himself later wrote 'my presidency will be defined by the response to 9/11.' The speed and completeness of the transformation (within hours of the attack, per multiple accounts, his entire decision framework shifted) is remarkable and highly relevant for simulation: 9/11 is not just a policy event in Bush's case but a behavioral phase transition."
+      },
+      {
+        "label": "gut_instinct_decision_style",
+        "value": 0.87,
+        "evidence": "Bush's decision style was explicitly non-analytical and instinct-driven, which he described positively. 'I trust my gut' was a genuine self-description, not a rhetorical pose. Multiple advisors describe him making major decisions quickly (Afghanistan intervention, Iraq) without extended deliberation or genuine examination of alternatives. His MBA training from Harvard Business School did not translate into structured decision frameworks — he had absorbed the confidence-projection aspects of HBS without the analytical rigor. This gut-instinct style was most consequential in the Iraq decision: the intelligence review process was structured to confirm a conclusion (WMD/regime change) rather than genuinely evaluate evidence."
+      },
+      {
+        "label": "advisor_delegation_economic_policy",
+        "value": 0.88,
+        "evidence": "Bush delegated economic policy more completely than almost any recent president. Tax cuts: Dick Cheney was the primary architect — Bush's main condition was 'make them big.' Financial crisis 2008: Hank Paulson was given enormous latitude to design TARP, Ben Bernanke drove Fed response. Paul O'Neill (first Treasury Secretary) wrote in 'Price of Loyalty' that Bush rarely engaged with economic details, would often not ask questions in briefings. John Snow (second Treasury Secretary) had a similar minimal relationship. Contrast with Bill Clinton who famously obsessed over economic policy details. Bush's engagement increased in 2008 (the crisis demanded presidential decisiveness on TARP) but his economic contributions were largely authorizing others' plans."
+      },
+      {
+        "label": "supply_side_tax_cut_ideology",
+        "value": 0.88,
+        "evidence": "Bush was a genuine supply-side tax cut believer, not just a political operator. EGTRRA 2001: top rate 39.6%→35%, estate tax phase-out, expanded child credit, marriage penalty reduction. Total 10-year cost: ~$1.35T. JGTRRA 2003: dividend and capital gains rates cut to 15% (bipartisan economists considered the most economically defensible piece). The tax cuts survived recession, 9/11, and two wars without serious reconsideration. Even as deficits ballooned from $127B surplus (FY2001) to $455B deficit (FY2008), Bush never proposed rolling back the tax cuts. His supply-side conviction was deep and consistent — Paul O'Neill's accounts of trying to argue against the 2003 cuts being ignored are illustrative."
+      },
+      {
+        "label": "fiscal_deficit_tolerance",
+        "value": 0.85,
+        "evidence": "Bush's combination of tax cuts + two wars + prescription drug benefit (Medicare Part D, $1.2T estimated 10-year cost at passage) produced the largest peacetime fiscal deterioration since Reagan. FY2001 surplus $127B → FY2004 deficit $413B → FY2008 deficit $455B → FY2009 deficit $1.4T (including TARP and recession effects). This trajectory was not accidental or emergency-driven — it was the predictable outcome of deliberate tax cut policy plus wartime spending. Cheney's famous comment to O'Neill: 'Reagan proved deficits don't matter.' Bush apparently accepted this view. The only restraint came from Congressional Republicans in some fiscal years, not from Bush himself."
+      },
+      {
+        "label": "war_decision_certainty_maintenance",
+        "value": 0.91,
+        "evidence": "Once Bush committed to a military course, he almost never publicly questioned it. Afghanistan: decided within days of 9/11, maintained consistent support throughout. Iraq: committed by fall 2002 (possibly earlier per Woodward), never wavered publicly even as WMD evidence proved false, Abu Ghraib occurred, casualty toll rose. The 'Decider' self-description (2006) was genuine — he delegated military tactics to commanders but maintained strategic commitment. His certainty maintenance was partly personality (hates self-doubt), partly political (reversals would be portrayed as weakness), and partly genuine conviction. The 2007 'surge' decision was an exception: he overrode military recommendations to increase troops in Iraq, showing he could also make independent military decisions."
+      },
+      {
+        "label": "iraq_war_authority_delegation_to_cheney",
+        "value": 0.79,
+        "evidence": "Dick Cheney's influence on the Iraq War decision was disproportionate — he was the most powerful VP in American history. His access (attended all principals meetings, had intelligence briefings rivaling CIA director's access), his advocacy (took ambiguous intelligence on WMD and presented it as certain), and his relationships (Rumsfeld at Defense was his former mentor) gave him unusual leverage over a president who trusted gut instinct over analytical review. Multiple senior officials (Powell, Rice, Tenet) have documented Cheney's dominance in the Iraq decision process. Bush made the final decision but the framing he received was largely Cheney-controlled."
+      },
+      {
+        "label": "compassionate_conservatism_domestic_priority",
+        "value": 0.65,
+        "evidence": "Before 9/11, Bush had a genuine domestic reform agenda under 'compassionate conservatism.' No Child Left Behind (NCLB 2001) was bipartisan education reform with Kennedy support. Faith-based initiatives, community services. Post-9/11, these priorities were subordinated to security. The Medicare Part D prescription drug benefit (2003) was his major domestic second-term initiative — largest Medicare expansion since 1965, notably without pay-for mechanism (pure deficit spending). Bush was willing to spend on domestic programs but his domestic agenda was not ideologically consistent: tax cuts + education spending + prescription drug expansion + war spending = no coherent fiscal framework."
+      },
+      {
+        "label": "crisis_response_approval_seeking",
+        "value": 0.73,
+        "evidence": "Bush's crisis responses were heavily influenced by approval ratings in ways that weren't always visible. Post-9/11 approval spike (90%) created a false sense of political capital that enabled Iraq. Katrina approval collapse (Aug-Sep 2005) represented a lasting reputational wound he never recovered from. The 2006 midterm Democratic landslide forced the Rumsfeld firing and Iraq strategy reassessment. Unlike Trump (who used stock market as approval proxy), Bush tracked traditional approval polls and his political team (Rove) was deeply invested in them. However, he maintained the Iraq commitment even through approval declines, suggesting conviction sometimes overrode approval-seeking."
+      },
+      {
+        "label": "federal_emergency_management_failure",
+        "value": 0.22,
+        "evidence": "Low score = failed at emergency management. Katrina (August 2005) exposed deep dysfunction in Bush's federal emergency management. FEMA Director Michael Brown ('Brownie, you're doing a heck of a job') was unqualified and the response was catastrophically slow. The federal failure was partly structural (DHS reorganization had degraded FEMA's capabilities), partly staffing (political appointees over competent managers), and partly Bush's personal disengagement (flew over New Orleans rather than landing). Katrina permanently altered public assessment of Bush's competence, reducing his political capacity for the remainder of his term. This contrasts with his post-9/11 response, suggesting he performed better in iconic security emergencies than complex domestic disasters."
+      },
+      {
+        "label": "2008_financial_crisis_ideological_override",
+        "value": 0.88,
+        "evidence": "Bush's handling of the 2008 financial crisis represents his most significant economic decision — and it required overriding his ideological opposition to government intervention. TARP ($700B Troubled Asset Relief Program) was signed October 3, 2008, after an extraordinary political crisis (first House vote failed, stock market fell 777 points in a day, second vote passed). Bush's statement: 'I have a choice between being a free market advocate in normal times and doing what's necessary to protect the economy in a crisis.' He explicitly acknowledged the ideological contradiction and prioritized economic stability over ideology. This is the clearest example of his pragmatism overriding his stated philosophy when stakes were high enough."
+      },
+      {
+        "label": "tarp_decision_authorization_speed",
+        "value": 0.82,
+        "evidence": "When Paulson and Bernanke presented Bush with the choice of authorizing TARP or potentially facing a second Great Depression, Bush authorized rapidly. Paulson's 'On the Brink' describes the September 2008 meetings: Bush was frightened by the economic risks but gave Paulson broad authority to design and implement the program. He did not micromanage the design (Paulson and Bernanke drove that), but he provided rapid political cover and Congressional arm-twisting. His speed was notable — he moved from ideological opposition to government intervention to authorization of the largest peacetime government intervention in financial markets within weeks."
+      },
+      {
+        "label": "auto_industry_bailout_reluctance",
+        "value": 0.58,
+        "evidence": "Bush was more reluctant on the auto industry bailout than on TARP. In December 2008, Congress refused to pass the auto bailout legislation, and Bush faced the choice of using TARP funds to bail out GM and Chrysler, or letting them go bankrupt (estimated 1-3 million jobs at risk). He authorized $17.4B in bridge loans using TARP authority, explicitly stating this was to prevent 'chaotic unwinding' during the transition period, punting the structural decision to Obama. His reluctance was genuine — this was corporate bailout for manufacturing, not financial system stabilization — but he ultimately acted to prevent near-term catastrophe."
+      },
+      {
+        "label": "intelligence_information_processing_bias",
+        "value": 0.28,
+        "evidence": "Low score = poor information processing. Bush's handling of pre-Iraq intelligence represents a systematic failure of information processing. The intelligence community was not unanimous on WMD — the October 2002 NIE contained significant dissents (State Department INR, for example). The infamous 'slam dunk' Tenet comment (about WMD evidence certainty) was apparently taken as confirmation Bush wanted. The President's Daily Brief 'Bin Ladin Determined to Strike in US' (August 6, 2001) was not acted upon. Multiple post-mortems (9/11 Commission, Iraq WMD Commission) confirmed systematic processing failures. Bush's instinct-driven decision style, combined with Cheney's intelligence architecture, created conditions where confirming evidence was sought and disconfirming evidence was minimized."
+      },
+      {
+        "label": "nation_building_doctrine_reversal",
+        "value": 0.65,
+        "evidence": "Bush entered office explicitly opposing nation-building ('I don't think our troops ought to be used for what's called nation-building' — 2000 presidential debate). After 9/11, he authorized the largest US nation-building exercises since Vietnam (Afghanistan, Iraq). The reversal was complete and was not publicly acknowledged as such. The nation-building ambitions (democracy in the Middle East as transformational foreign policy) became the public justification after WMD were not found. The gap between Bush's pre-9/11 anti-nation-building position and his post-9/11 nation-building execution was enormous and reflects the completeness of his post-9/11 behavioral transformation."
+      },
+      {
+        "label": "pre_emptive_war_doctrine_commitment",
+        "value": 0.89,
+        "evidence": "The 'Bush Doctrine' of pre-emptive/preventive war was genuinely held and not just post-hoc rationalization. NSS 2002 explicitly articulated the right to strike before threats materialized. Bush believed the 9/11 lesson was that waiting for clear evidence of attack was too late — 'we cannot wait for final proof, the smoking gun that could come in the form of a mushroom cloud.' This framework justified Iraq by definition: even uncertain WMD evidence plus hostile regime = preventive action justified. The doctrine was genuine (applied in decision-making, not just rhetoric) and consequential (no other modern president has maintained this doctrine operationally)."
+      },
+      {
+        "label": "troop_surge_2007_independent_judgment",
+        "value": 0.79,
+        "evidence": "The 2007 Iraq troop surge was one of Bush's most independent decisions and contradicted his normal deference to military advice. In late 2006, the Joint Chiefs were largely opposed to a surge, preferring withdrawal or transition. The Baker-Hamilton Iraq Study Group (bipartisan) recommended diplomacy and drawdown. Bush overrode both the military and the bipartisan advice, approved a surge of 30,000 additional troops, and replaced the Iraq commander with General Petraeus. His decision was driven by his refusal to 'lose' in Iraq and his belief that the status quo was untenable. The surge is widely credited with reducing violence, though the political reconciliation goals were not achieved."
+      },
+      {
+        "label": "deregulation_financial_sector_passivity",
+        "value": 0.77,
+        "evidence": "Bush continued Clinton-era financial deregulation trajectory and did nothing to implement mortgage market regulation despite growing warning signals. SEC 2004 net capital rule relaxation allowed investment bank leverage to rise to 30-40:1. OCC 2003-2004 preemption of state predatory lending laws (removing state-level mortgage protections). No action on derivatives regulation. His Treasury and OFHEO (Fannie/Freddie regulator) proposals for stricter GSE oversight (2003, 2004) were defeated by Congress, including by members of his own party with Fannie/Freddie lobbying backing. His passivity was not entirely chosen — Congressional resistance was real — but his administration's priority was clear: financial deregulation, not regulation."
+      },
+      {
+        "label": "energy_independence_rhetoric_vs_policy",
+        "value": 0.55,
+        "evidence": "Bush made energy independence a rhetorical priority ('America is addicted to oil' — 2006 SOTU) but his actual energy policy prioritized fossil fuel development and production. EPACT 2005 expanded drilling and nuclear but included minimal efficiency or renewable provisions. He declined to raise CAFE standards until late in his term. His Texas oil industry background shaped his instinctive preferences. The SOTU rhetoric was an acknowledgment of the political problem but the policy response was conventional pro-fossil-fuel, reflecting the gap between his rhetoric and his actual industry alignment."
+      },
+      {
+        "label": "no_child_left_behind_bipartisan_willingness",
+        "value": 0.78,
+        "evidence": "NCLB (January 2002) was Bush's most significant bipartisan domestic achievement and demonstrated a genuine willingness to work across party lines on his pre-9/11 domestic agenda. He worked directly with Ted Kennedy on the legislation and made concessions to pass it. The NCLB example shows Bush had bipartisan capacity when he wanted to use it — which makes his post-9/11 partisan polarization (supported by Rove's 'base mobilization' electoral strategy) more clearly a choice than a constraint."
+      },
+      {
+        "label": "economic_briefing_engagement",
+        "value": 0.38,
+        "evidence": "Low score. Bush's engagement with economic briefings was minimal by the accounts of multiple Treasury officials. Paul O'Neill ('Price of Loyalty'): described Bush sitting through economic briefings without asking questions or engaging analytically — 'like a blind man in a room full of deaf people.' John Snow and Hank Paulson had similarly limited personal relationships with Bush on economics compared to the Clinton-Rubin relationship or Obama's economic council engagement. Bush's economic decisions were almost entirely delegated to his economic team with minimal engagement in the analytical process. The exception was 2008: when Bernanke and Paulson presented systemic collapse scenarios, Bush engaged directly and asked clarifying questions."
+      },
+      {
+        "label": "tax_cuts_paid_for_constraint",
+        "value": 0.20,
+        "evidence": "Very low score = no effective constraint. Despite both major tax cut packages (2001, 2003) using reconciliation procedures with sunset provisions precisely because permanent tax cuts required 60 Senate votes (demonstrating awareness of deficit constraints), Bush made no serious attempt to offset their costs. The 2001 cuts were explicitly presented as a way to 'return the surplus to the people' — by 2002-2003, when the surplus had become a deficit due to recession, 9/11 spending, and the cuts themselves, no reassessment occurred. The deficit exploded from $127B surplus to $413B deficit with no course correction. Only Congress (Republicans!) occasionally imposed some spending restraint that Bush did not push."
+      },
+      {
+        "label": "wartime_economic_management",
+        "value": 0.52,
+        "evidence": "Bush's wartime economic management was historically unusual — he cut taxes during wartime, contrary to WWII and Korean War precedents. The Iraq War (~$2T over full duration) was financed entirely by borrowing, not by wartime tax increases or spending cuts elsewhere. This decision (supported by Cheney's deficit-doesn't-matter view) was consequential: it produced structural deficits that continued long after Bush left office. By the standards of historical wartime presidents who maintained fiscal discipline during conflicts, Bush's wartime fiscal management scores very low. His reasoning: tax cuts stimulate growth, and growth helps pay for war — the supply-side logic applied to wartime financing."
+      },
+      {
+        "label": "personal_loyalty_premium",
+        "value": 0.82,
+        "evidence": "Bush placed extremely high value on personal loyalty in appointments. 'Brownie' (Michael Brown at FEMA): loyalty appointment without competence qualification. Alberto Gonzales (Attorney General): Bush's personal lawyer elevated to AG without judicial or prosecutorial background. Karl Rove as political advisor given enormous policy influence. His loyalty premium was similar to Trump's but less extreme — he did eventually accept Rumsfeld's resignation (2006) and made some competence-based replacements, which Trump rarely did. The loyalty premium contributed to Katrina's mismanagement (FEMA) and DOJ politicization (Gonzales)."
+      },
+      {
+        "label": "medicare_part_d_ideological_departure",
+        "value": 0.72,
+        "evidence": "Medicare Part D (2003 MMA) was Bush's most significant domestic second-term achievement and represented a genuine departure from Republican fiscal conservatism. Creating a new entitlement program without a pay-for mechanism contradicted stated Republican principles. The program passed narrowly (220-215 in the House, with the vote kept open for 3 hours to allow arm-twisting — itself controversial). CBO initial estimate: $395B over 10 years; actual cost was higher. Bush's motivation: expand Republican appeal to seniors, reduce vulnerability on healthcare. It demonstrates his willingness to override fiscal ideology for political benefit in domestic policy, similar to his TARP override."
+      },
+      {
+        "label": "international_coalition_building_willingness",
+        "value": 0.62,
+        "evidence": "Bush's approach to coalition building varied significantly by operation. Afghanistan: genuine 'coalition of the willing' with NATO invoking Article 5, broad international support. Iraq: much narrower coalition ('coalition of the willing' was largely US, UK, Australia, Poland) after failing to get UN authorization; France/Germany opposition was publicly denigrated. His coalition-building willingness was conditional on the coalition supporting his pre-determined objective — genuine multilateral deliberation that might modify the objective was resisted. Score reflects real coalition effort on Afghanistan but unilateralism in Iraq when UN process might have constrained his decision."
+      },
+      {
+        "label": "political_legacy_consciousness",
+        "value": 0.81,
+        "evidence": "Bush was conscious of historical legacy from early in his presidency — 'he wanted to be a consequential president' per multiple biographers. Post-presidency, he has consistently declined to criticize successors (even Trump, who was elected by attacking Bush's record). His memoir 'Decision Points' is unusually candid about mistakes (Abu Ghraib, WMD intelligence failure acknowledged). His legacy consciousness shaped his Iraq surge decision: better to be judged right by history than popular in the moment. The legacy awareness is visible in his willingness to make unpopular decisions (TARP, surge) that he believed would be vindicated historically."
+      },
+      {
+        "label": "china_trade_policy_engagement",
+        "value": 0.65,
+        "evidence": "Bush maintained engagement-oriented China policy consistent with the 1990s consensus. Permanent Normal Trade Relations with China had already passed (2000, Clinton era) and China joined WTO in 2001. Bush's China approach: strategic competitor (his 2001 framing) but managed through diplomacy and trade engagement. He did not escalate tariffs or currency manipulation accusations despite growing trade deficit. His focus on post-9/11 terrorism and Iraq meant China was managed as a secondary issue by his economic team. The main China economic dispute of his era (currency undervaluation) was handled through treasury-level discussions, not presidential-level confrontation."
+      },
+      {
+        "label": "wall_street_banker_class_alignment",
+        "value": 0.71,
+        "evidence": "Despite his Texas populist image, Bush's economic instincts aligned with Wall Street and the banking class. His Harvard Business School education, Texas oil industry background, and fundraising base (financial sector was a major donor class) produced policies consistently favorable to finance: Sarbanes-Oxley despite business community pressure to weaken it (one exception — he signed it after Enron/WorldCom), tax cuts favoring capital income (dividend/capital gains at 15%), financial deregulation continuation, and ultimately TARP to protect the financial system. His alignment was behavioral (where the policies landed) more than explicit advocacy."
+      },
+      {
+        "label": "immigration_reform_failure",
+        "value": 0.60,
+        "evidence": "Bush genuinely supported comprehensive immigration reform and pushed for it twice (2006, 2007), unusual for a Republican president. His Texas background gave him both personal comfort with Hispanic communities and awareness of agricultural/construction labor dependencies. The Comprehensive Immigration Reform Act (2007) failed due to Republican base opposition despite his personal advocacy. The immigration failure illustrates the limits of his political capital after Katrina, Iraq, and the 2006 midterms — he couldn't deliver his own party on an issue he personally supported. Score reflects genuine support (high) moderated by politically constrained execution (low)."
+      },
+      {
+        "label": "financial_crisis_early_warning_engagement",
+        "value": 0.32,
+        "evidence": "Low score. The Bush administration had multiple advance warnings of the housing/financial risks that were not acted upon. Sheila Bair (FDIC) repeatedly raised subprime mortgage concerns. Bernanke's pre-chairmanship work raised some signals. OCC consumer protection director Comptroller Hawke raised predatory lending concerns. These were processed through an administration framework that prioritized financial innovation and deregulation, not risk identification. The structural reasons for the 2008 crisis (leverage, securitization, unregulated derivatives, Fannie/Freddie) were visible in the data by 2005-2006. The administration did not engage with the risk signals in a way that could have mitigated the eventual crisis."
+      },
+      {
+        "label": "congress_relationship_management",
+        "value": 0.70,
+        "evidence": "Bush's Congressional relationships were effective in his first term and deteriorated in his second. 2001-2004: passed major tax cuts, PATRIOT Act, AUMF, Iraq AUMF, NCLB with generally good management of Republican majorities. 2005-2008: Katrina, Iraq deterioration, immigration failure, and 2006 Democratic midterm landslide severely constrained his Congressional relationships. The TARP passage (October 2008) was a Congressional management success — he arm-twisted enough votes after the first failure — but his general legislative capacity in the second term was severely reduced. His relationship style was more transactional (Rove's political operation) than relationship-driven (LBJ-style)."
+      },
+      {
+        "label": "free_trade_orthodox_commitment",
+        "value": 0.81,
+        "evidence": "Bush maintained orthodox free trade positions throughout his presidency. CAFTA 2005, Australia FTA 2004, South Korea FTA 2007, Colombia FTA negotiations. He did impose steel tariffs in 2002 (Section 201) but removed them in 2003 when WTO ruled against them — the reversal itself showed respect for the rules-based trade order. His free trade positions contrasted with both Pat Buchanan Republicans and union Democrats. The FTAs he negotiated were modest in scope but consistent in direction. His USTR (Zoellick, then Portman, then Schwab) had genuine latitude to pursue multilateral Doha negotiations, which ultimately failed for reasons beyond Bush's control."
+      },
+      {
+        "label": "black_swan_probability_underestimation",
+        "value": 0.23,
+        "evidence": "Low score = consistently underestimated low-probability extreme events. Bush underestimated three major low-probability high-impact events: 9/11 (despite August 2001 PDB warnings), Katrina's impact on New Orleans levees (despite advance scenarios), and the 2008 financial crisis depth (Bernanke and Paulson had to walk him through Lehman weekend scenarios). His instinct-driven decision style was not well-suited to probabilistic risk assessment. He tended to think in binary terms (threat exists / doesn't exist, war / no war) rather than probability distributions. This systematic underestimation of tails is a critical behavioral parameter for simulation."
+      },
+      {
+        "label": "evangelical_christian_worldview_policy",
+        "value": 0.72,
+        "evidence": "Bush's evangelical Christian faith was a genuine decision-making input, not just political branding. Faith-based initiatives: direct policy expression of religious values. Stem cell research limitation (Aug 2001 — first national address on a domestic policy topic, restricted federal funding for new embryonic stem cell lines). AIDS/HIV PEPFAR ($15B): driven partly by religious conviction about Africa (huge humanitarian success). Opposition to same-sex marriage (constitutional amendment push). Iraq War framing: multiple accounts of Bush using religious language in decision-making ('God wants freedom'). The faith was operational in his decision framework in ways that had material policy consequences."
+      },
+      {
+        "label": "press_freedom_attitude",
+        "value": 0.55,
+        "evidence": "Bush had a combative but conventionally bounded relationship with the press. He was not systematically hostile to press freedom institutions (unlike Trump) but his administration was secretive about Iraq intelligence, detained journalists under some circumstances, and the Valerie Plame leak affair showed willingness to retaliate against critics. His press conferences were managed carefully. Cheney's operation was particularly press-hostile. Score reflects conventional presidential press friction, not systematic institutional hostility."
+      },
+      {
+        "label": "dollar_policy_benign_neglect",
+        "value": 0.61,
+        "evidence": "Bush's Treasury maintained the traditional 'strong dollar policy' rhetoric while in practice allowing the dollar to depreciate substantially. Dollar fell from ~120 (USDX) in 2001 to ~73 by 2008 — a 40% decline — with no policy response. This benign neglect served multiple purposes: a weaker dollar supported US export competitiveness (helping manufacturing workers Bush rhetorically championed), reduced the real cost of foreign-held US debt, and was necessary given the current account deficit. His Treasury (Snow, Paulson) maintained the verbal strong dollar commitment while policy was indifferent to exchange rates."
+      },
+      {
+        "label": "torture_policy_authorization",
+        "value": 0.78,
+        "evidence": "Bush authorized 'enhanced interrogation techniques' (waterboarding, sleep deprivation, stress positions) through OLC memos (2002, 2003) and explicitly acknowledged this publicly in 2008 ('damn right'). The authorization demonstrated his conviction that post-9/11 threats justified departing from conventional norms. He was not passive in this authorization — multiple accounts show he sought explicit legal cover (the OLC memos) and personally engaged with the program. This represents his 'gut instinct' decision style applied to a domain where instinct led to internationally condemned outcomes."
+      },
+      {
+        "label": "exit_strategy_iraq_long_term_commitment",
+        "value": 0.35,
+        "evidence": "Low score = poor exit strategy planning. The Iraq invasion was launched without a serious post-conflict stabilization plan. Army War College and State Department planning for post-invasion Iraq was overridden by Rumsfeld's 'light footprint' doctrine. L. Paul Bremer's CPA decisions (de-Baathification, disbanding the Iraqi army) — backed by Rumsfeld and implicitly by Bush — created conditions for insurgency. Bush's commitment was to 'win' but the definition of winning was unclear for years. The lack of exit strategy is a historical critique Bush has acknowledged partially, attributing it primarily to execution failures rather than planning failures."
+      },
+      {
+        "label": "bilateral_meetings_personal_relationship_diplomacy",
+        "value": 0.76,
+        "evidence": "Bush used personal relationship diplomacy extensively. 'I looked into Putin's eyes and saw his soul' (2001 — later regretted). Blair relationship: closest post-9/11 alliance. Saudi royal family relationships (cultivated partly through Bush family ties). Mexican president Fox relationship (pre-9/11 immigration focus). Bush believed in personal presidential relationships as a genuine diplomatic tool. This relational approach worked with Blair, worked reasonably with Saudi Arabia, and catastrophically failed with Putin (whom he fundamentally misread). The confidence in his personal judgment of people ('soul-seeing') was overextended."
+      },
+      {
+        "label": "prescription_drug_benefit_expansion",
+        "value": 0.77,
+        "evidence": "Medicare Part D was a genuine and unexpected expansion of the welfare state by a Republican president. The program has operated largely successfully and benefited tens of millions of seniors. It represented Bush's 'compassionate conservative' instinct applied to healthcare — helping people through market mechanisms (private drug plans) but with government subsidies. The ideological contradiction (expanding entitlements) was overridden by political calculation (senior vote + legacy consideration) and by genuine belief that seniors shouldn't choose between drugs and food."
+      },
+      {
+        "label": "sarbanes_oxley_enforcement",
+        "value": 0.69,
+        "evidence": "Bush signed Sarbanes-Oxley (2002) despite business community opposition, responding to Enron/WorldCom accounting scandals. The legislation created real corporate governance requirements and the PCAOB. His signing was driven by political necessity (mid-term elections approaching, public outrage at corporate fraud) rather than ideological commitment to financial regulation. He later described it as one of the more burdensome regulations his administration created. This is an example of crisis-driven regulatory action overriding his default deregulatory preferences — a pattern that appears again with TARP in 2008."
+      },
+      {
+        "label": "information_fidelity_score",
+        "value": 0.76,
+        "evidence": "Multiple first-person accounts from direct participants: Paul O'Neill (Treasury), Hank Paulson (Treasury), Ben Bernanke (Fed), Condoleezza Rice (NSC/State), Colin Powell (State), Bob Woodward's four volumes based on direct interviews. Bush's own memoir 'Decision Points' is candid about some errors. The main gaps: Bush's internal deliberative process was not analytical/documented in the way Greenspan's was; the instinct-driven style produces fewer written records; some decisions (CIA interrogation program) remain partly classified."
+      }
+
+    ]
+  },
+  "red_lines": [
+    {
+      "id": "RL001",
+      "name": "another_major_terrorist_attack_on_us_soil",
+      "condition": "Successful large-scale terrorist attack on American territory, especially with mass casualties",
+      "forced_action": "immediate_military_response_authorization_and_emergency_powers_expansion",
+      "confidence": 0.97,
+      "evidence": "9/11 triggered the fastest and most complete presidential behavioral transformation in modern history. Within days: AUMF passed, CIA enhanced interrogation authorized, Afghanistan planning begun. The pattern was clear: Bush processed massive security failure as requiring massive military response. A second attack would have triggered even more extreme response given the political context of 'allowing it to happen twice.' His entire post-9/11 identity was built on not letting it happen again.",
+      "priority": 1
+    },
+    {
+      "id": "RL002",
+      "name": "financial_system_collapse_imminent",
+      "condition": "Credible expert warning of imminent collapse of US financial system with cascading economic effects",
+      "forced_action": "authorize_massive_government_intervention_regardless_of_ideology",
+      "confidence": 0.90,
+      "evidence": "TARP demonstrated that when Bernanke and Paulson presented credible collapse scenarios, Bush would override his free-market ideology and authorize intervention at any scale. His TARP statement ('I've abandoned free market principles to save the free market system') was an explicit acknowledgment of this red line. The intervention willingness was conditional on expert credibility — Bernanke and Paulson had it; Bush trusted them. Without that credibility, he would not have acted.",
+      "priority": 2
+    },
+    {
+      "id": "RL003",
+      "name": "iraq_military_collapse",
+      "condition": "Iraqi security forces collapsing and US military experiencing rapid defeat",
+      "forced_action": "surge_troops_and_escalate_military_commitment",
+      "confidence": 0.88,
+      "evidence": "The 2006-2007 Iraq deterioration (Anbar province near-collapse, sectarian civil war elements) triggered the surge decision against military and bipartisan advice. Bush's red line: 'losing' Iraq was not acceptable. He would rather escalate against advice than accept defeat. This red line was stronger than any political cost — he maintained the surge commitment through 2006 midterm losses and sub-35% approval ratings.",
+      "priority": 3
+    },
+    {
+      "id": "RL004",
+      "name": "nuclear_weapon_acquisition_by_rogue_state",
+      "condition": "Credible intelligence that a hostile state is on verge of nuclear weapons acquisition",
+      "forced_action": "consider_pre_emptive_military_action",
+      "confidence": 0.82,
+      "evidence": "Bush's pre-emptive war doctrine (NSS 2002) was explicitly created around this scenario. His Iraq intervention rationale was primarily this red line being triggered (even though the intelligence was wrong). His response to North Korea's nuclear test (2006) was notably restrained — suggesting the red line required combination of WMD capability + hostile state + limited diplomatic alternatives. The Iran nuclear issue was managed diplomatically in his term but military options were kept on the table.",
+      "priority": 4
+    }
+  ],
+  "biographical_context": {
+    "birth_year": 1946,
+    "career_background": "oil_businessman_sports_team_owner_texas_governor",
+    "key_formative_experiences": [
+      "Bush family legacy + Vietnam-era TANG service (inherited political capital and privilege consciousness)",
+      "Failed oil business (Arbusto, Harken) — business failure without lasting personal consequence (wealthy family backstop)",
+      "Texas Rangers co-ownership 1989-94 (first successful business, used political connections to get Arlington stadium tax deal)",
+      "Texas Governor 1995-2000 (bipartisan legislative skill with Democratic legislature, competence-based reputation)",
+      "9/11 attacks (complete identity transformation, defined entire presidency)"
+    ],
+    "decision_style": "gut_instinct_plus_trusted_advisor_delegation",
+    "information_fidelity": 0.76,
+    "tenure_start": "2001-01-20",
+    "tenure_end": "2009-01-20",
+    "tenure_years": 8
+  },
+  "simulation_notes": {
+    "backtesting_period": "2001-2009",
+    "phase_transition_event": "9/11 creates a sharp behavioral discontinuity — pre-9/11 Bush and post-9/11 Bush should be modeled as two distinct parameter sets connected by the 9/11 trigger event",
+    "key_economic_events_for_tda": [
+      "2001 recession + 9/11 combined shock (June 2001 – November 2001 recession)",
+      "2001-2003 tax cut + war spending fiscal expansion",
+      "2002-2006 housing bubble expansion period (Bush administration passivity)",
+      "2007-2008 housing crash and financial crisis",
+      "September-October 2008 TARP emergency period"
+    ],
+    "delegation_model_note": "For simulation, Bush's economic decisions should model the actual decision-makers: Cheney on fiscal policy, Greenspan/Bernanke on monetary policy, Paulson on 2008 crisis. Bush provides authorization and political cover; the technical decisions were made by delegates.",
+    "tda_backtesting_significance": "Bush's presidency covers the construction and initial deflation of the housing bubble — the central topological transition in early 21st century economic history. His decisions (tax cuts, deregulation passivity, wartime deficit spending) shaped the bubble's trajectory. TARP represents a sharp state-space discontinuity: government intervention in financial markets at a scale not seen since the New Deal."
+  }
+}

@@ -1,0 +1,470 @@
+{
+  "leader": "Volodymyr Zelenskyy",
+  "role": "President of Ukraine (2019-present)",
+  "level": 1,
+  "compiled_by": "claude-opus-4-6",
+  "compiled_date": "2026-03-13",
+  "compilation_sources": [
+    "Public speeches, press conferences, and social media addresses 2019-2026",
+    "2019 presidential campaign and Servant of the People TV series (2015-2019)",
+    "Trump-Zelenskyy 'perfect phone call' July 2019 and first impeachment saga",
+    "Full-scale Russian invasion response timeline Feb 2022 onward",
+    "Western aid negotiations: US ($150bn+ cumulative), EU, UK bilateral frameworks",
+    "Feb 28, 2025 White House confrontation with Trump/Vance over minerals deal",
+    "20-point peace plan unveiled December 24, 2025",
+    "NATO membership abandonment statement December 14, 2025",
+    "Paris Declaration: France-UK-Ukraine security guarantee framework January 6, 2026",
+    "Trump-Zelenskyy Mar-a-Lago meetings December 2025",
+    "Yermak resignation and corruption scandal November 2025",
+    "Budanov appointment as chief of staff December 2025",
+    "Martial law extensions (18 consecutive 90-day renewals through May 2026)",
+    "Tymoshenko opposition resurgence and 'narrow-minded dictator' accusation January 2026",
+    "Domestic approval rating trajectory: 84% (2022) -> 60% (2024) -> 57-67% (2025)",
+    "Kvartal 95 production company history and entertainment career 2003-2018",
+    "Freedom House Ukraine reports 2022-2025",
+    "Chatham House, ICG, Atlantic Council analysis of Zelenskyy domestic politics 2025-2026"
+  ],
+  "background": {
+    "born": "1978-01-25",
+    "origin": "Kryvyi Rih, Ukrainian SSR, Soviet Union (Russian-speaking Jewish family)",
+    "career_path": "Law degree (Kryvyi Rih Institute of Economics, never practiced) -> KVN comedy competitions -> Kvartal 95 comedy troupe founder/star (2003-2018) -> Won Ukraine's Dancing with the Stars (2006) -> Servant of the People TV series star/producer (2015-2019, played fictional Ukrainian president) -> Founded Servant of the People political party (2018) -> Won presidential election with 73.22% runoff (2019) -> Wartime president (2022-present)",
+    "formative_experiences": "Russian-speaking Jewish comedian from industrial eastern Ukraine who became the symbol of Ukrainian national resistance. The entertainment career is not incidental — it trained him in audience reading, emotional communication, and narrative construction that proved directly applicable to wartime leadership. The 'perfect phone call' with Trump (Jul 2019) was his first geopolitical crisis, teaching him that US support is transactional and conditional. Feb 24, 2022 'I need ammunition, not a ride' was the defining moment: transformed from a struggling peacetime president (30% approval pre-invasion) to a global wartime icon. His survival in the first 72 hours — when Western intelligence expected Kyiv to fall — was both personally courageous and strategically decisive.",
+    "decision_style_origin": "Entertainment industry: read the audience, control the narrative, time the emotional beat. Unlike career politicians or military leaders, Zelenskyy's instincts are performative in the best sense — he understands that in modern warfare, the information front IS a front. His negotiating style is public-facing: he makes his case to Western publics over the heads of their governments. This worked spectacularly in 2022-2023 but has diminishing returns as 'Ukraine fatigue' sets in. The comedian's core skill — making people feel something — is his primary strategic asset and his primary vulnerability (it depends on audience attention)."
+  },
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector for Volodymyr Zelenskyy compiled from 7 years of governance (2019-2026), with emphasis on the wartime period (2022-present). Unique profile: a comedian-turned-wartime-leader whose primary strategic asset is Western public sympathy rather than military or economic power. His behavior matrix must capture the tension between performative charisma (depreciating asset) and hard negotiating reality (territorial compromise, aid dependency, domestic legitimacy erosion). The Feb 2025 White House blowup, Dec 2025 NATO/territorial concessions, and Jan 2026 Paris security framework represent the critical inflection points in his strategic evolution from 'no compromise' to 'managed retreat.'",
+    "dimensions": 86,
+    "vectors": [
+      {
+        "label": "personal_charisma_effectiveness",
+        "value": 0.82,
+        "evidence": "Feb 24, 2022 'I need ammunition, not a ride' — single most effective wartime communication of 21st century. Nightly video addresses from Kyiv during siege created unprecedented personal bond with global audience. Address to US Congress (Dec 2022): standing ovation, direct Churchillian comparison. Address to UK Parliament (Mar 2022): first foreign leader to address Westminster since Churchill. Pew Research 2025: median 45% confidence across 25 countries (85% Sweden, but only 19% Greece). The charisma is real and was the primary driver of $150bn+ Western military aid. However: effectiveness peaked 2022-2023, now declining — 'Ukraine fatigue' is measurable in polling and aid trajectories."
+      },
+      {
+        "label": "charisma_decay_rate",
+        "value": 0.42,
+        "evidence": "Domestic: 84% approval (Mar 2022) -> 60% (late 2024) -> 57-67% (2025), roughly -8 points/year. International: 2022 was 'Ukraine everywhere' in Western media; by 2025 coverage normalized. Gallup Jul 2025: stabilized at 67% domestic approval — decay appears to be slowing but not reversing. Key decay drivers: (1) war exhaustion, (2) corruption scandals (Yermak Nov 2025), (3) no visible path to victory, (4) Trump's hostility reduces US media sympathy, (5) competing global crises (Middle East, US domestic). Value 0.42 represents moderate decay — significant but he retains majority support, unlike most wartime leaders after 3+ years. Decay would accelerate sharply if he signs a deal perceived as capitulation."
+      },
+      {
+        "label": "western_media_mastery",
+        "value": 0.91,
+        "evidence": "Zelenskyy is the most media-savvy world leader since Obama, possibly since Reagan. Specific skills: (1) iPhone-filmed nightly addresses — intimacy + authenticity + low production value = trust. (2) Tailored messages for each parliament (referenced Pearl Harbor for US, Blitz for UK, Berlin Wall for Germany). (3) Social media native — Instagram/Telegram/X used as primary diplomatic tools. (4) Knows when to show vulnerability vs. strength. (5) Wardrobe as communication: olive T-shirt = 'I'm at war while you're in suits.' (6) Video call appearances at Davos, G7, UN — leveraged physical absence as emotional amplifier. The actor training is directly visible: pacing, pauses, eye contact with camera are professional-grade."
+      },
+      {
+        "label": "media_narrative_control_vs_reality_gap",
+        "value": 0.58,
+        "evidence": "The gap between Zelenskyy's public narrative and ground reality has widened since 2023. 2022: narrative ('Ukraine is winning') roughly matched reality (successful defense, Kherson liberation). 2023: narrative ('counteroffensive will succeed') diverged from reality (minimal territorial gains, heavy casualties). 2024-2025: narrative ('just need more weapons') increasingly disconnected from military reality (manpower shortage, Russian numerical advantage, fortified lines). Dec 2025 peace plan represents forced narrative correction — acknowledging territorial loss he previously said was unacceptable. The credibility cost of this gap is real but manageable because Western publics pay limited attention to military details."
+      },
+      {
+        "label": "military_dependency_on_west",
+        "value": 0.92,
+        "evidence": "Ukraine's military capability is overwhelmingly dependent on Western support: $150bn+ cumulative US military aid (Biden era), EU €50bn+ package, UK bilateral agreements. Specific dependencies: (1) Air defense (Patriot, NASAMS, IRIS-T — all Western). (2) Artillery ammunition (155mm NATO standard, EU pledged 1M rounds/year). (3) Armor (Leopard 2, Challenger 2, Bradley, Stryker). (4) Air power (F-16s delivered 2024). (5) Intelligence (US/UK real-time satellite, signals intelligence). (6) Training (NATO standardization ongoing). Without Western aid, Ukraine's military would degrade to 2014-era capability within 6-12 months. US aid suspended Mar 2025 under Trump; Europe increased 67% but cannot fully replace US-specific capabilities (Patriot, ATACMS, intelligence)."
+      },
+      {
+        "label": "european_aid_substitution_confidence",
+        "value": 0.55,
+        "evidence": "After US suspended military aid (Mar 2025), Europe stepped up: Germany planned €11.55bn for 2026, overall European aid rose 67% above 2022-2024 average. Kiel Institute tracker shows total aid volume 'largely stable' in 2025 despite US withdrawal. However: Europe cannot replace US-specific capabilities (advanced air defense, real-time intelligence, ATACMS-class precision strike, strategic airlift). EU decision-making is slower (unanimity requirements). Individual European states face domestic political pressure (AfD in Germany, Le Pen in France). Zelenskyy's confidence in European substitution is partial — sufficient for defense but not for offensive operations or credible deterrence without US umbrella."
+      },
+      {
+        "label": "territorial_compromise_willingness",
+        "value": 0.52,
+        "evidence": "Evolution: 2022 ('not one inch'), 2023 ('restore 1991 borders'), 2024 (quiet signals of flexibility), Dec 2025 (explicit: 'we stand where we stand' = accept current front lines). The 20-point plan (Dec 24, 2025) proposes freezing at current lines with free economic zone in Donbas + referendum on territorial changes. This represents a massive shift from Zelenskyy's public position of 2022-2024. Key constraint: any territorial concession requires a Ukrainian referendum (Zelenskyy's own requirement, politically necessary to share blame). Willingness is higher than publicly stated — the Dec 2025 position is itself a negotiating anchor, not a final position. True floor is probably current battle lines minus Crimea."
+      },
+      {
+        "label": "crimea_negotiability",
+        "value": 0.22,
+        "evidence": "Zelenskyy ruled out recognizing Crimea as Russian: 'This is our territory, the territory of the people of Ukraine' (Apr 22, 2025). Warned against playing into Putin's 'game' on Crimea. US Paris proposal included de jure recognition of Russian Crimea — Zelenskyy and Europeans strongly opposed. Trump publicly attacked Zelenskyy for refusing to cede Crimea, calling it 'prolonging the killing field.' Zelenskyy's position: Crimea is legally Ukrainian but its recovery via military force is unrealistic; diplomatic framework (international tribunal, future negotiations, non-recognition of annexation) is the fallback. True negotiability is higher than public rhetoric — he may accept de facto Russian control with Ukrainian de jure claim preserved (the 'Taiwan model' for Crimea). Value 0.22: very low willingness to formally cede, but higher willingness to defer/freeze."
+      },
+      {
+        "label": "donbas_negotiability",
+        "value": 0.58,
+        "evidence": "Dec 2025 peace plan explicitly proposed: freeze at current lines + free economic zone in Donetsk + demilitarized zone + international monitoring force. This is a massive concession — Russia controls ~60% of Donetsk and ~95% of Luhansk oblasts. Zelenskyy's 'we stand where we stand' formulation applies primarily to Donbas. Key demands: (1) demilitarization of buffer zone, (2) international force presence, (3) eventual referendum. Russia demands full withdrawal from all of Donetsk oblast — gap remains. Zelenskyy is more willing to compromise on Donbas than Crimea because (1) Donbas was partially lost since 2014 (sunk cost), (2) industrial heartland is destroyed, (3) population largely displaced. Value reflects explicit willingness to negotiate but insistence on Ukrainian sovereignty framework."
+      },
+      {
+        "label": "trump_relationship_management",
+        "value": 0.35,
+        "evidence": "History of failure: (1) Jul 2019 'perfect phone call' — Zelenskyy was pressured to investigate Biden, became pawn in US domestic politics. (2) Feb 28, 2025 White House meeting — devolved into shouting match, Trump/Vance accused Zelenskyy of ingratitude, Zelenskyy left early, joint presser cancelled. (3) Trump publicly called Zelenskyy 'prolonger of killing field' and claimed 4% approval (false — actually 57%+). (4) Dec 2025 Mar-a-Lago meetings — 'projected optimism' but no breakthroughs. Zelenskyy's problem: he cannot flatter Trump effectively because (a) his public persona is built on moral authority, which is incompatible with the sycophancy Trump demands, and (b) Ukrainian interests fundamentally conflict with Trump's desire for a quick 'deal' regardless of terms. Budanov replacement of Yermak (Dec 2025) was partly to find someone who could manage Trump differently."
+      },
+      {
+        "label": "trump_leverage_vulnerability",
+        "value": 0.87,
+        "evidence": "Trump holds near-total leverage over Zelenskyy: (1) US military aid is the single largest source (suspended Mar 2025, Congress approved only $400M for 2026-27 vs. $60bn+ Biden era). (2) US intelligence sharing is irreplaceable. (3) Trump can legitimize Russian territorial gains by recognizing them. (4) Trump controls whether frozen Russian assets ($100bn+) go to Ukraine reconstruction. (5) Trump's public attacks damage Zelenskyy's international brand. Zelenskyy's counter-leverage: (1) European sympathy, (2) minerals deal (gives Trump economic interest in Ukraine), (3) Ukrainian public's refusal to accept Putin's terms makes a bad deal politically impossible. But the asymmetry is extreme — Trump can cripple Ukraine's war effort unilaterally."
+      },
+      {
+        "label": "minerals_deal_as_leverage_tool",
+        "value": 0.61,
+        "evidence": "The US-Ukraine minerals deal (draft Feb 25, 2025, signed later in modified form) was Zelenskyy's attempt to create a transactional hook for Trump: give the US access to Ukraine's rare earth/critical minerals in exchange for security guarantees. Strategic logic: make Ukraine economically valuable to Trump personally/politically, since moral arguments about sovereignty don't resonate. Partial success: the deal was eventually signed (after the Feb 28 blowup) and did create ongoing US economic interest. But Trump explicitly rejected tying security guarantees to the minerals deal, limiting its leverage value. The deal also faces domestic Ukrainian criticism as 'selling the country's resources for uncertain promises.'"
+      },
+      {
+        "label": "domestic_opposition_tolerance",
+        "value": 0.38,
+        "evidence": "Zelenskyy has systematically constrained domestic opposition using wartime powers: (1) Banned 11 opposition parties (including pro-Russian ones, but also others) in 2022. (2) Martial law prevents elections since Feb 2022, extended 18 times through May 2026. (3) NABU/SAPO independence undermined — Zelenskyy signed law reducing anti-corruption bodies' autonomy. (4) Media consolidation: 'United News' telethon replaced independent broadcasting. (5) Tymoshenko accused him of orchestrating corruption charges to bar her from future elections. (6) Kyiv Independent editorial: 'dark hour for Ukrainian democracy.' Counter-evidence: legitimate wartime security concerns justify some restrictions; approval remains majority. But pattern shows wartime powers being used beyond strict necessity."
+      },
+      {
+        "label": "wartime_power_concentration",
+        "value": 0.72,
+        "evidence": "Zelenskyy has concentrated power significantly since Feb 2022: (1) Martial law = no elections, extended 18 consecutive times. (2) Yermak was de facto second-in-command, controlling access to Zelenskyy and key negotiations (until forced resignation Nov 2025). (3) Replaced Yermak with Budanov (intelligence chief) — military-intelligence figure as top civilian advisor signals further securitization. (4) Media controlled via wartime 'United News' platform. (5) Servant of the People party majority slipping (from 227 to fragmented), but martial law prevents parliamentary challenge. (6) Freedom House: Ukraine's freedom score declined. Compared to Putin (0.94): Zelenskyy's concentration is moderate and partially justified by genuine existential threat, but trajectory is concerning for post-war Ukraine."
+      },
+      {
+        "label": "election_willingness_under_pressure",
+        "value": 0.33,
+        "evidence": "Zelenskyy said he was 'ready to hold elections in 60-90 days' (Dec 9, 2025) if Western allies ensured security — but immediately attached conditions that make this practically impossible: (1) requires legal/constitutional changes to martial law provisions, (2) requires allied security guarantee during election period, (3) 5-8 million displaced Ukrainians and occupied territory population cannot vote. Trump has pressured for elections to legitimize any peace deal; Zelenskyy uses conditional willingness as diplomatic tool while knowing conditions are unmet. Chatham House analysis: 'reshuffle aims to neutralize political rivals' ahead of any potential election. True willingness is low — elections risk his power in a war-weary country with rising opposition."
+      },
+      {
+        "label": "nato_membership_insistence",
+        "value": 0.25,
+        "evidence": "Massive evolution: 2022-2024 Zelenskyy insisted NATO membership was non-negotiable security guarantee. Dec 14, 2025: explicitly abandoned NATO bid, calling it a 'concession by Kyiv.' Accepted alternative: Article 5-like bilateral security guarantees from US + UK + France + 'coalition of the willing' (35 countries). The Paris Declaration (Jan 6, 2026) formalized this: France/UK pledge troops post-ceasefire, US-led monitoring mechanism. Zelenskyy described this as equivalent to NATO protection. Reality: bilateral guarantees are far weaker than NATO Article 5 (no automatic collective response, depends on individual states' political will). But NATO membership was never realistic given Russian red line and US/German reluctance. Value 0.25 reflects near-total abandonment of NATO insistence."
+      },
+      {
+        "label": "eu_integration_commitment",
+        "value": 0.88,
+        "evidence": "EU membership remains Zelenskyy's primary integration goal: 20-point peace plan (Dec 2025) includes 'Ukraine will become a member of the EU within a clearly defined timeframe.' EU candidate status granted Jun 2022 (fastest-ever decision). Accession negotiations opened Jun 2024. EU membership is more achievable than NATO (no Russian veto equivalent, no territorial dispute requirement in same way). Zelenskyy frames EU membership as the 'civilizational choice' that justifies the war's sacrifices — making Ukraine permanently European rather than in Russia's sphere. Domestic support for EU membership is ~80%+. This is the one strategic goal that has not been compromised in negotiations."
+      },
+      {
+        "label": "paris_security_framework_reliance",
+        "value": 0.71,
+        "evidence": "Paris Declaration (Jan 6, 2026): Macron, Starmer, Zelenskyy signed framework for post-ceasefire security. Key terms: (1) France/UK deploy 'several thousand' troops to military hubs across Ukraine. (2) US-led truce monitoring mechanism. (3) Protected facilities for weapons/equipment. (4) Legally binding obligation to assist if Russia attacks again. (5) 35-country 'coalition of the willing.' Zelenskyy's reliance on this framework is high but tempered by skepticism: (a) Kremlin rejects any NATO-country forces in Ukraine, (b) US commitment under Trump is unreliable, (c) France/UK troop numbers are modest vs. Russian conventional capability. This is a partial substitute for NATO, not an equivalent. Zelenskyy treats it as best available option."
+      },
+      {
+        "label": "information_warfare_capability",
+        "value": 0.89,
+        "evidence": "Ukraine's information warfare has been the most successful of any non-superpower in modern history: (1) 'Ghost of Kyiv,' 'Snake Island,' 'I need ammunition' — narrative construction in real-time during invasion. (2) Zelenskyy's nightly addresses became global event. (3) Open-source intelligence (OSINT) community mobilized: Bellingcat, geo-locators became force multipliers. (4) Ukrainian social media strategy: humanize soldiers, document Russian atrocities (Bucha), ridicule Russian military failures. (5) Bayraktar TB2 drone footage as propaganda (song went viral). (6) Counter-Russian disinformation: rapid rebuttal capability. Zelenskyy personally is the apex of this capability — his communication skills make him the single most effective information warfare asset Ukraine possesses."
+      },
+      {
+        "label": "personal_survival_vs_national",
+        "value": 0.62,
+        "evidence": "Zelenskyy offered to 'leave office in exchange for peace and NATO' (Feb 23, 2025) — suggesting willingness to sacrifice personal power for national outcome. However: (1) this offer was made when it was politically costless (NATO membership was unrealistic). (2) Wartime power concentration suggests personal power preservation is significant. (3) Election reluctance contradicts the self-sacrifice narrative. (4) Yermak corruption scandal suggests inner circle prioritized personal enrichment. (5) Anti-corruption body neutering protects political allies. The Feb 2022 'I need ammunition' moment was genuinely courageous — he stayed when evacuation was offered. But the longer the war goes, the more personal survival and national interest diverge. A peace deal that saves Ukraine but loses him power is a real possibility he may resist."
+      },
+      {
+        "label": "negotiation_skill_international",
+        "value": 0.68,
+        "evidence": "Mixed record: (1) Success: mobilized $150bn+ in Western aid through emotional/moral appeals — unprecedented for a non-NATO country. (2) Success: managed complex multi-lateral framework (US/EU/UK/NATO) despite divergent interests. (3) Failure: Feb 2025 White House blowup — lost temper with Trump, walked out, damaged relationship at critical moment. (4) Partial success: 20-point plan shows growing realism but concessions may be premature (gave away NATO leverage before getting firm commitment). (5) Weakness: relies on public pressure rather than backroom dealing — works with democracies but fails with autocrats. (6) The minerals deal was clever conceptually but poorly executed (Trump saw it as tribute, not partnership). Negotiation style: public-facing, emotional, principled — effective for mobilization, less so for deal-making."
+      },
+      {
+        "label": "risk_tolerance_military",
+        "value": 0.63,
+        "evidence": "Zelenskyy approved several high-risk military operations: (1) Kherson counteroffensive (Nov 2022) — success. (2) Kursk incursion into Russia (Aug 2024) — bold surprise, ultimately unsustainable but demonstrated offensive capability. (3) 2023 counteroffensive — approved despite Western skepticism, failed to achieve breakthrough. (4) Long-range strikes into Russia with Western weapons — pushed for ATACMS/Storm Shadow authorization, eventually obtained. Risk tolerance is moderate-high: willing to gamble on operations that could shift the political narrative, even when military advisors are cautious. The comedian's instinct for the dramatic moment sometimes overrides military calculus."
+      },
+      {
+        "label": "ally_management_skill",
+        "value": 0.64,
+        "evidence": "Zelenskyy manages a complex alliance network with mixed results: (1) US (Biden era): excellent — personal rapport, frequent calls, aid flow. (2) US (Trump era): poor — Feb 2025 blowup, public confrontations. (3) UK: excellent — strongest European relationship, Johnson/Sunak/Starmer all supportive. (4) France: good — Macron initially tried mediating with Putin (annoyed Zelenskyy) but became firmly committed by 2025. (5) Germany: difficult — Scholz slow on weapons, constant pressure needed. (6) Poland: strained — grain export disputes 2023, nationalistic friction. (7) Zelenskyy's approach: gratitude mixed with constant pressure for more — this works with sympathetic leaders but irritates transactional ones (Trump). Skill is high in retail diplomacy but weak in managing the Trump relationship specifically."
+      },
+      {
+        "label": "comedian_to_wartime_leader_transformation",
+        "value": 0.88,
+        "evidence": "One of the most dramatic personal transformations in modern political history. Pre-invasion Zelenskyy (2019-2022): struggling president with declining polls (30% by late 2021), corruption allegations against inner circle, no clear policy agenda, dismissed as lightweight by Western intelligence. Post-invasion Zelenskyy: global symbol of democratic resistance, compared to Churchill, addressed every major Western parliament, personally directed military strategy, maintained social cohesion under bombardment. The transformation was genuine — he could have fled and chose to stay. But the transformation is incomplete: the skills that made him a great wartime communicator (emotion, narrative, performance) are not the same skills needed for peace negotiations (patience, compromise, transactional realism). The current challenge is a second transformation: from wartime leader to peace negotiator."
+      },
+      {
+        "label": "public_communication_frequency_intensity",
+        "value": 0.95,
+        "evidence": "Zelenskyy has maintained nightly video addresses since Feb 24, 2022 — over 1,100 consecutive addresses by Mar 2026. No other world leader in history has maintained this communication cadence. Each address: 5-15 minutes, filmed on iPhone in Kyiv bunker/office, Ukrainian + English/subtitled versions. Content: frontline updates, civilian casualties, gratitude to allies, policy announcements. The addresses serve multiple functions: (1) proof of life/presence in Kyiv, (2) direct communication bypassing media filters, (3) emotional connection with domestic and international audience, (4) agenda-setting for next day's news cycle. The discipline and consistency are extraordinary — actor training made this sustainable."
+      },
+      {
+        "label": "emotional_appeal_over_rational_argument",
+        "value": 0.76,
+        "evidence": "Zelenskyy's primary persuasion mode is emotional/moral rather than rational/strategic: (1) Congressional address: showed war footage, invoked Pearl Harbor/9-11 analogy. (2) Bucha visit: walked through massacre site on camera. (3) Addresses emphasize children killed, families destroyed, civilian infrastructure hit. (4) Framing: 'democracy vs. autocracy,' 'freedom vs. tyranny.' This is highly effective for mobilizing public opinion and opening wallets. Less effective for: (a) Trump, who responds to transactional logic, (b) Global South, which sees a European war as hypocritical (given Western indifference to their conflicts), (c) long-term sustainability (emotional fatigue sets in). The reliance on emotion is both his greatest strength and his key vulnerability."
+      },
+      {
+        "label": "jewish_identity_strategic_deployment",
+        "value": 0.41,
+        "evidence": "Zelenskyy's Jewish heritage has been strategically relevant: (1) Directly countered Putin's 'denazification' narrative — 'How can I be a Nazi? My grandfather fought in the Soviet army against Nazis.' (2) Address to Israeli Knesset (Mar 2022) — invoked Holocaust parallel (controversial but effective). (3) Three of his great-uncles were killed in the Holocaust — personal connection to genocide narrative. (4) His Jewish identity is genuine but was not a major part of his public persona pre-2022. Post-invasion it became a powerful counter-narrative tool. Value is moderate: strategically useful but not central to his political identity (unlike Netanyahu for Israel)."
+      },
+      {
+        "label": "russian_language_background_complexity",
+        "value": 0.48,
+        "evidence": "Zelenskyy is a native Russian speaker from Kryvyi Rih who learned Ukrainian for the presidency. His Russian-speaking background creates a complex dynamic: (1) Pre-2022 it was a political vulnerability — nationalists questioned his commitment to Ukrainian identity. (2) Post-2022 it became an asset — 'even Russian-speakers choose Ukraine over Russia.' (3) He has switched to Ukrainian for all official communication since invasion. (4) The language journey mirrors Ukraine's national trajectory: from Russian-influenced to assertively Ukrainian. (5) It complicates Putin's narrative that Ukraine is artificially separated from Russia. (6) Domestically, it broadened his base beyond western Ukrainian nationalists to eastern/southern Ukraine."
+      },
+      {
+        "label": "inner_circle_management_quality",
+        "value": 0.42,
+        "evidence": "Zelenskyy's inner circle has been a persistent weakness: (1) Andriy Yermak: chief of staff, became de facto shadow PM, controlled all access to Zelenskyy, implicated in $100M energy corruption scandal, forced to resign Nov 28, 2025. (2) Tymur Mindich: Zelenskyy's former business partner, alleged mastermind of corruption scheme, fled country. (3) Kvartal 95 associates in government positions raised nepotism concerns. (4) Multiple ministers replaced amid corruption investigations 2023-2025. (5) Budanov appointment (Dec 2025) as Yermak replacement: intelligence chief as civilian gatekeeper — unusual and potentially securitizing. The entertainment-industry inner circle that won the election proved poorly suited for wartime governance. Corruption scandals have damaged Zelenskyy's moral authority — his primary strategic asset."
+      },
+      {
+        "label": "corruption_scandal_damage_to_brand",
+        "value": 0.61,
+        "evidence": "The Yermak/Mindich corruption scandal (Nov 2025) directly damaged Zelenskyy's core brand — moral authority. (1) $100M energy infrastructure corruption while soldiers die — politically toxic. (2) Trump used corruption allegations to justify reducing aid ('why send money if they steal it?'). (3) Tymoshenko's 'narrow-minded dictator' attack gained traction. (4) Western donors face domestic opposition: 'Ukraine is corrupt, aid is wasted.' (5) Zelenskyy's response (firing Yermak, appointing Budanov) was swift but insufficient to restore trust. (6) Anti-corruption body neutering (NABU/SAPO law) makes it worse — looks like cover-up. The scandal doesn't destroy him (wartime rally effect persists) but it erodes the moral high ground that distinguishes Ukraine's cause from a generic territorial dispute."
+      },
+      {
+        "label": "budanov_appointment_securitization",
+        "value": 0.67,
+        "evidence": "Kyrylo Budanov's appointment as Presidential Office head (Dec 2, 2025) represents a significant shift: replacing a civilian political operator (Yermak) with the former head of Defence Intelligence (HUR). Implications: (1) Intelligence community now controls presidential access — military-security establishment gains power. (2) Budanov is personally popular with Ukrainian military and public (built reputation on bold operations). (3) He may manage Trump differently than Yermak — military-to-military rapport possible. (4) Risk: intelligence officers as political gatekeepers can further securitize the state. (5) Budanov's appointment was partly anti-corruption signal (military discipline vs. civilian sleaze) and partly Trump management strategy. Chatham House analysis: 'aims to neutralize political rivals and account for Trump's unpredictability.'"
+      },
+      {
+        "label": "servant_of_the_people_party_cohesion",
+        "value": 0.48,
+        "evidence": "Servant of the People (SotP) holds 227 of 450 Rada seats — bare majority, now fragmenting. (1) Party was built around Zelenskyy's personal brand, not ideology — unity depends on his popularity. (2) As approval declines, MPs defect or act independently. (3) Tymoshenko's 25-seat Batkivshchyna party votes became 'increasingly essential' — Zelenskyy losing ability to pass legislation unilaterally. (4) Martial law prevents elections that could replace disloyal MPs. (5) No party congress or leadership contest since invasion. (6) Many SotP MPs are Kvartal 95 associates or personal loyalists with no independent political base. The party is a vehicle, not an institution — its cohesion tracks Zelenskyy's personal standing one-to-one."
+      },
+      {
+        "label": "tymoshenko_opposition_threat_level",
+        "value": 0.47,
+        "evidence": "Yulia Tymoshenko has re-emerged as primary opposition figure: (1) Called Zelenskyy a 'narrow-minded dictator' (Jan 2026). (2) Accused him of fabricating corruption charges to bar her from presidential race. (3) Her 25 Rada seats give her swing-vote power. (4) She has brand recognition and political infrastructure from 2004-2014 era. (5) Polling for next presidential election (hypothetical): Zelenskyy leads but Tymoshenko and Zaluzhny are competitive. Threat level is moderate: Tymoshenko is a known quantity with limited ceiling (she lost to Poroshenko in 2014), but she articulates war-weariness sentiment. Real threat to Zelenskyy is Zaluzhny (former army commander), not Tymoshenko."
+      },
+      {
+        "label": "zaluzhny_political_threat_awareness",
+        "value": 0.72,
+        "evidence": "General Valerii Zaluzhny was dismissed as Commander-in-Chief (Feb 2024) and appointed ambassador to UK — a classic 'promote to exile' move. Zaluzhny was immensely popular with military and public (often polled higher than Zelenskyy). His Nov 2023 Economist article ('the war is at a stalemate') publicly contradicted Zelenskyy's optimistic narrative. Zelenskyy replaced him with Syrskyi (less popular, more compliant). Zaluzhny as UK ambassador is far from Ukrainian politics but could return if elections are called. Zelenskyy is highly aware of the Zaluzhny threat — the dismissal was a pre-emptive political move disguised as military restructuring."
+      },
+      {
+        "label": "military_strategy_civilian_control_tension",
+        "value": 0.59,
+        "evidence": "Zelenskyy has maintained civilian control over military strategy but with increasing friction: (1) 2022: Zelenskyy's decision to defend Kyiv (against some advice to retreat west) proved correct. (2) 2023: pushed for counteroffensive despite military skepticism about readiness. (3) Zaluzhny dismissal (Feb 2024): military commander publicly disagreed with presidential narrative. (4) Kursk incursion (Aug 2024): reportedly Zelenskyy-driven decision for political/diplomatic impact. (5) Syrskyi appointment: chosen partly for compliance. The pattern: Zelenskyy makes strategic decisions with political logic (narrative impact, Western perception) that sometimes conflicts with military optimization. This is not unusual for democratic wartime leaders (Churchill did similar) but creates risk when political needs diverge from military reality."
+      },
+      {
+        "label": "refugee_diaspora_political_management",
+        "value": 0.44,
+        "evidence": "5-8 million Ukrainians displaced externally, ~6 million internally. Political implications: (1) Diaspora cannot easily vote — any election would exclude millions. (2) Refugees in Poland/Germany/Czech Republic create bilateral political dynamics. (3) 'Brain drain' of educated/young Ukrainians threatens post-war recovery. (4) Zelenskyy uses diaspora as argument against elections ('millions can't participate'). (5) Refugee fatigue in host countries feeds anti-Ukraine sentiment. (6) Male mobilization laws (no exit for men 18-60) created resentment. Zelenskyy's management of the refugee dimension is reactive rather than strategic — it's primarily used as political shield against election demands."
+      },
+      {
+        "label": "mobilization_domestic_tension",
+        "value": 0.64,
+        "evidence": "Ukraine's mobilization is a growing domestic flashpoint: (1) Apr 2024 mobilization law lowered draft age from 27 to 25, tightened exemptions. (2) Draft evasion is widespread — border crossing attempts, bribery of officials. (3) Social media full of videos of aggressive military recruitment in public spaces. (4) Rural and lower-income Ukrainians disproportionately mobilized (class dimension). (5) Zelenskyy faces impossible trade-off: more troops needed but forced mobilization erodes public support. (6) Manpower shortage is Ukraine's single biggest military constraint by 2025 — more Western weapons don't help without soldiers to operate them. Zelenskyy avoids publicly discussing casualty numbers or mobilization difficulties — a rare topic where his communication instinct is avoidance rather than engagement."
+      },
+      {
+        "label": "economic_management_wartime",
+        "value": 0.51,
+        "evidence": "Ukraine's wartime economy: GDP fell 29% in 2022, recovered partially in 2023-2024 but remains ~20% below pre-war level. Zelenskyy's economic role: (1) Delegated macro to PM Shmyhal and NBU (National Bank of Ukraine). (2) Focused on securing foreign financial aid ($60bn requested for 2026). (3) Energy infrastructure repeatedly destroyed by Russian strikes — massive economic drag. (4) Defense spending dominates budget (>50%). (5) Inflation managed via NBU independence (better than Russia's wartime performance). (6) Grain export corridors: diplomatic achievement (Black Sea deal, alternative routes). Economic management is adequate but not Zelenskyy's strength — he's a communicator, not an economist. The real economic story is dependency: Ukraine's budget deficit is covered by Western grants and loans."
+      },
+      {
+        "label": "energy_infrastructure_vulnerability_response",
+        "value": 0.56,
+        "evidence": "Russia's systematic targeting of Ukraine's energy infrastructure (from Oct 2022 onward) is the greatest civilian threat. Zelenskyy's response: (1) Massive push for Western air defense systems (Patriot, NASAMS, IRIS-T). (2) Decentralized energy production (small generators, solar). (3) EU energy grid integration (completed 2022). (4) International fundraising for infrastructure repair. (5) The $100M corruption scandal was precisely about energy infrastructure reconstruction funds — undermining the response. By winter 2025-26, Ukraine's energy grid was operating at ~60% pre-war capacity. Zelenskyy's framing: Russian energy attacks as 'genocide by cold' — effective for Western sympathy but inadequate as actual infrastructure strategy."
+      },
+      {
+        "label": "nuclear_plant_negotiation_priority",
+        "value": 0.78,
+        "evidence": "Zaporizhzhia Nuclear Power Plant (ZNPP) — Europe's largest, occupied by Russia since Mar 2022 — is a key negotiating point. In the 20-point plan, the plant's status is one of two unresolved provisions (along with territory). Zelenskyy's position: ZNPP must return to Ukrainian control or international administration. Russia uses it as: (1) nuclear hostage (threat of meltdown), (2) bargaining chip, (3) power source for occupied territory. IAEA has maintained observers but cannot enforce safety standards. For Zelenskyy, ZNPP is both a practical necessity (6GW capacity = major energy source) and symbolic — returning it would be a tangible 'win' from negotiations."
+      },
+      {
+        "label": "peace_deal_referendum_requirement",
+        "value": 0.77,
+        "evidence": "Zelenskyy has repeatedly stated that any territorial changes require a Ukrainian referendum. This serves multiple purposes: (1) Democratic legitimacy for painful concessions. (2) Political cover — 'the people decided, not me.' (3) Delays final resolution (referendum requires legislation, campaign period, security arrangements). (4) Creates leverage in negotiations — 'I can't accept this, my people won't vote for it.' (5) Genuine democratic principle — fundamental territorial changes should be popular. Risk: if referendum rejects a deal Zelenskyy negotiated, it destroys his political position. If it passes, it legitimizes territorial loss. Either way, the referendum requirement shows Zelenskyy understands he cannot personally bear the political cost of concession."
+      },
+      {
+        "label": "twenty_point_plan_strategic_coherence",
+        "value": 0.65,
+        "evidence": "The 20-point plan (Dec 24, 2025) is Zelenskyy's most comprehensive peace framework: Key provisions: (1) Full non-aggression pact. (2) Armed forces remain 800,000. (3) Article 5-like guarantees from US/NATO/EU. (4) EU membership in defined timeframe. (5) Ceasefire monitoring via space-based/unmanned systems. (6) Peace Council chaired by Trump. (7) Sanctions snap-back if Russia violates. Two unresolved points: territory (12) and critical infrastructure/ZNPP (14). Strategic coherence is moderate: the plan is a realistic negotiating position but (a) requires Russian acceptance (unlikely), (b) relies on Trump chairing a peace council (uncertain commitment), (c) 800K army size is a red line Russia won't accept. It's a negotiating document, not a realistic end state."
+      },
+      {
+        "label": "ceasefire_line_freeze_willingness",
+        "value": 0.68,
+        "evidence": "Zelenskyy's Dec 2025 formulation: 'today a fair possible option is we stand where we stand.' This accepts freezing the conflict at current battle lines, meaning Russia retains ~18% of Ukrainian territory. Evolution: from '1991 borders or nothing' to 'current lines + guarantees.' The freeze is more acceptable to Zelenskyy than formal territorial cession because: (1) it doesn't legally recognize Russian sovereignty over occupied territory, (2) it can be framed as 'temporary' (like Korea/Cyprus), (3) it preserves the legal claim for future generations. The formulation carefully avoids the word 'cession' — 'freeze' implies future resolution, 'cede' implies permanence."
+      },
+      {
+        "label": "war_fatigue_management_domestic",
+        "value": 0.55,
+        "evidence": "After 4+ years of full-scale war, Ukrainian society shows significant fatigue: (1) Approval dropped from 84% to 57-67% — substantial but he retains majority. (2) Mobilization resistance growing. (3) 'Normal life' impossible — constant blackouts, air raid sirens, refugee displacement. (4) Economic hardship (20% GDP below pre-war). (5) Casualty toll accumulating (exact figures classified but estimated 100,000+ military casualties). Zelenskyy manages fatigue through: (a) nightly addresses (routine = stability), (b) blaming Russia rather than discussing costs, (c) EU membership promise as light at end of tunnel, (d) avoiding casualty discussions. His management is adequate but not innovative — he's running on the original 2022 rally-round-the-flag energy, which is finite."
+      },
+      {
+        "label": "casualty_transparency_avoidance",
+        "value": 0.82,
+        "evidence": "Ukrainian military casualties are classified and Zelenskyy refuses to discuss them publicly. Estimated 100,000-200,000 military casualties (killed and wounded) by various Western estimates. This information suppression serves: (1) Operational security (legitimate). (2) Maintaining morale ('we're winning' narrative). (3) Protecting Zelenskyy politically (true cost would shock population). (4) Preventing Russia from assessing damage accurately. Western allies have also cooperated in not publicizing casualty estimates. The avoidance is understandable but creates a credibility risk: when accurate numbers eventually emerge (post-war), the gap between narrative and reality could be devastating to Zelenskyy's legacy."
+      },
+      {
+        "label": "western_solidarity_cultivation_skill",
+        "value": 0.84,
+        "evidence": "Zelenskyy has been extraordinarily effective at maintaining Western solidarity: (1) Personalized addresses to every major parliament. (2) Strategic use of atrocity evidence (Bucha, Mariupol). (3) Gratitude + pressure balance — thanks allies while always asking for more. (4) Made Ukraine's cause a personal moral test for Western leaders ('history will judge'). (5) Successfully navigated complex EU/NATO bureaucracy as outsider. (6) Built direct relationships with key leaders (Johnson, Biden, Macron, Scholz). Skill is high but has limits: (a) solidarity fatigues over time, (b) Trump era broke the model, (c) Global South remains largely indifferent, (d) each ask must be bigger than the last to maintain momentum."
+      },
+      {
+        "label": "global_south_engagement_failure",
+        "value": 0.23,
+        "evidence": "Zelenskyy has largely failed to win Global South support: (1) Africa, Latin America, Asia mostly abstain or vote against Ukraine at UN. (2) India (largest democracy) maintains Russia relationship. (3) South Africa, Brazil joined BRICS with Russia. (4) China provides diplomatic cover for Russia. (5) Global South critique: 'Western hypocrisy — where was this energy for Iraq, Palestine, Yemen?' (6) Zelenskyy's 2023 peace summit formula was boycotted/ignored by most non-Western states. (7) Grain corridor collapse hurt African food security — but blamed on both sides. Zelenskyy's emotional/moral communication style was calibrated for Western democratic audiences and has almost zero traction in non-Western contexts."
+      },
+      {
+        "label": "zelensky_pre_invasion_governance_quality",
+        "value": 0.35,
+        "evidence": "Pre-invasion (2019-2022) Zelenskyy was a struggling president: (1) Won on anti-corruption platform but delivered little reform. (2) Approval fell from 73% (election) to ~30% by late 2021. (3) Pandora Papers (Oct 2021) revealed offshore holdings — damaging for anti-corruption candidate. (4) Kolomoisky (oligarch who funded Kvartal 95/Servant of the People) relationship raised corruption concerns. (5) COVID response mediocre. (6) Economic growth modest. (7) Donbas peace process stalled. (8) Cabinet reshuffles frequent, lacking clear direction. The pre-invasion record suggests that without the war, Zelenskyy would have been a one-term president. The war transformed a mediocre peacetime leader into a historic wartime figure."
+      },
+      {
+        "label": "oligarch_relationship_management",
+        "value": 0.45,
+        "evidence": "Zelenskyy's oligarch relationships are a liability: (1) Ihor Kolomoisky: funded 1+1 TV which broadcast Servant of the People, widely seen as Zelenskyy's patron. Kolomoisky eventually arrested for fraud (Sep 2023) — possibly to signal independence, possibly under Western pressure. (2) Rinat Akhmetov: Ukraine's richest man, controls steel/energy — relationship pragmatic. (3) Zelenskyy signed law limiting oligarch influence (Nov 2021) but enforcement weak. (4) Wartime nationalization of some assets (Akhmetov's energy company). (5) The Kvartal 95 inner circle's wealth accumulation suggests entertainment-industry ethics rather than clean governance. Zelenskyy is neither oligarch-captured nor oligarch-free — he's navigating the system rather than reforming it."
+      },
+      {
+        "label": "personal_courage_under_fire",
+        "value": 0.91,
+        "evidence": "Zelenskyy's personal courage is documented and genuine: (1) Feb 24-26, 2022: stayed in Kyiv when Russian paratroopers attempted to seize Hostomel airport 15km away. US offered evacuation — he refused ('I need ammunition, not a ride'). (2) Multiple assassination attempts reported (at least 3 in first week, per Ukrainian intelligence). (3) Continues to operate from Kyiv despite regular missile strikes. (4) Has visited frontline positions multiple times. (5) His family initially remained in Ukraine (wife Olena became separate diplomatic asset). The courage is not performative — he genuinely risked his life in Feb 2022 and continues to do so. This personal courage is the foundation of his moral authority and the single biggest reason Western support materialized at the scale it did."
+      },
+      {
+        "label": "olena_zelenska_diplomatic_asset",
+        "value": 0.58,
+        "evidence": "First Lady Olena Zelenska has become an independent diplomatic force: (1) Addressed US Congress (Jul 2022) — rare for a foreign first lady. (2) Time Person of the Year 2022 (shared with Zelenskyy). (3) Met with Jill Biden, Queen Consort Camilla, other leaders' spouses. (4) Focus: humanitarian dimension, children's welfare, mental health. (5) She provides a complementary narrative: while Zelenskyy speaks to the military/political dimension, Olena humanizes the civilian cost. (6) Her restraint and dignity contrast with the combative political sphere. Value is moderate — she's an asset but not a primary negotiating tool. Her diplomacy operates in a parallel soft-power channel."
+      },
+      {
+        "label": "historical_analogy_awareness_churchill",
+        "value": 0.72,
+        "evidence": "Zelenskyy is acutely aware of and plays into the Churchill parallel: (1) Addresses to Westminster explicitly echoed Churchillian rhetoric. (2) 'We shall fight on the beaches' equivalence in 'we are here, we are not leaving.' (3) However: Churchill had the British Empire, the Royal Navy, and (eventually) the US entering the war. Zelenskyy has no independent military capability — the analogy flatters but misleads. (4) The more accurate historical parallel may be Finland's Winter War (1939-40): brave resistance, Western sympathy, ultimate territorial concession for survival. Zelenskyy's awareness of this parallel is uncertain — publicly he maintains Churchill framing, but the Dec 2025 peace plan suggests he's privately moved to the Finland model."
+      },
+      {
+        "label": "negotiation_position_evolution_rate",
+        "value": 0.67,
+        "evidence": "Zelenskyy's negotiating position has evolved dramatically: Feb 2022: no talks while under attack. Apr 2022: Istanbul talks (territorial discussions, ultimately collapsed). 2023: 10-point 'peace formula' (maximalist — full withdrawal, war crimes tribunal). 2024: quiet signals of flexibility. Dec 2025: 20-point plan dropping NATO, accepting line freeze, proposing Donbas free zone. This represents massive movement in 3 years. Rate of concession accelerated sharply in late 2025, driven by: (1) Trump pressure, (2) US aid suspension, (3) military stalemate, (4) corruption scandal weakening domestic position. The risk: moving too fast signals desperation and encourages Russia to hold out for more."
+      },
+      {
+        "label": "snap_back_sanctions_reliance",
+        "value": 0.73,
+        "evidence": "The 20-point plan relies heavily on sanctions snap-back as enforcement mechanism: if Russia violates the agreement, all global sanctions are reinstated. Zelenskyy frames this as the economic deterrent that substitutes for military deterrence (no NATO). Strengths: sanctions did cause real damage to Russia in 2022. Weaknesses: (1) snap-back requires political will — will a future US/EU leadership actually reimpose? (2) Russia has spent 2022-2025 sanctions-proofing its economy (China pivot, parallel imports). (3) European energy independence from Russia reduces future sanctions leverage. (4) Enforcement mechanism is only as strong as the weakest link in the coalition."
+      },
+      {
+        "label": "us_frozen_assets_leverage",
+        "value": 0.66,
+        "evidence": "~$300bn in Russian sovereign assets are frozen in Western jurisdictions (mostly Euroclear in Belgium). The 20-point plan includes using $100bn of frozen assets for US-led Ukraine reconstruction (US gets 50% of profits). Zelenskyy's leverage: (1) These assets are Ukraine's strongest non-military bargaining chip. (2) Trump has economic interest in this arrangement. (3) EU has already begun using interest (~€3bn/year) for Ukraine. Limitations: (1) Legal challenges to outright confiscation. (2) Precedent concerns (other countries with Western assets). (3) Russia demands full return as precondition for any deal. The assets are a significant but depreciating leverage tool — Russia is adjusting to life without them."
+      },
+      {
+        "label": "coalition_of_the_willing_framework_trust",
+        "value": 0.59,
+        "evidence": "The 35-country 'coalition of the willing' (formed around Paris Declaration, Jan 2026) is Zelenskyy's NATO substitute. Trust level is moderate because: (1) 35 countries is impressive in number but varies wildly in capability. (2) France and UK are the only countries pledging actual troops. (3) No formal Article 5 equivalent — each country decides individually whether to respond. (4) Trump's US is nominally supportive but unreliable. (5) Russia explicitly rejects any NATO-country forces in Ukraine. (6) Historical precedent for 'coalitions of the willing' (Iraq 2003) suggests participation is politically contingent and may evaporate. Zelenskyy needs this framework but knows it's a weaker guarantee than NATO."
+      },
+      {
+        "label": "space_based_monitoring_ceasefire_innovation",
+        "value": 0.57,
+        "evidence": "The 20-point plan includes 'space-based unmanned monitoring' of the ceasefire line — a novel approach. Rationale: (1) Human monitors can be killed/obstructed (as in Donbas OSCE mission). (2) Satellite/drone monitoring is continuous, tamper-resistant, and generates objective evidence. (3) US/NATO satellite capability makes this technically feasible. (4) Reduces need for large ground monitoring force (which Russia opposes). Zelenskyy's innovation here shows adaptation — learning from the failure of the 2014-15 Minsk agreements where OSCE monitors were systematically blocked. Whether Russia would accept being monitored from space is another question."
+      },
+      {
+        "label": "800k_army_size_insistence",
+        "value": 0.71,
+        "evidence": "The 20-point plan specifies 800,000 peacetime armed forces — a massive military for a European country (France has 205K, UK 150K, Germany 180K). This is Zelenskyy's hedge against unreliable security guarantees: if the coalition of the willing fails, Ukraine needs independent deterrence. Implications: (1) Extremely expensive for Ukraine's economy. (2) Would require continued Western arms supply. (3) Russia views this as a threat (current Russian army ~1.2M). (4) Signal that Zelenskyy expects the peace to be fragile. (5) Creates a permanent mobilization society. The insistence on this number reflects deep skepticism about external security guarantees — Zelenskyy trusts Ukraine's own army more than any alliance promise."
+      },
+      {
+        "label": "minsk_agreements_lesson_internalized",
+        "value": 0.85,
+        "evidence": "The Minsk I (2014) and Minsk II (2015) agreements are Zelenskyy's negative template: (1) Both were signed under duress. (2) Neither was enforced — Russia violated continuously. (3) OSCE monitoring was ineffective. (4) Germany/France (guarantors) did nothing when violations occurred. (5) Merkel later admitted Minsk was designed to 'buy time for Ukraine to strengthen' — confirming the agreements were never meant to work. Zelenskyy's insistence on: strong enforcement mechanisms, snap-back sanctions, actual troop deployments, and space-based monitoring all reflect Minsk lessons. His deepest fear: signing a peace deal that becomes another Minsk — a pause for Russia to rearm and attack again."
+      },
+      {
+        "label": "personal_wealth_accumulation_vulnerability",
+        "value": 0.43,
+        "evidence": "Pandora Papers (Oct 2021) revealed Zelenskyy owned offshore companies and luxury property in London. Pre-presidency wealth from Kvartal 95 entertainment company estimated at $20-30M. The wealth is modest compared to Ukrainian oligarchs but problematic for an anti-corruption candidate. Post-invasion: (1) wealth becomes largely irrelevant to public perception (wartime hero effect), (2) but provides ammunition for domestic opponents and Russian propaganda, (3) Mindich corruption scandal links to Zelenskyy's pre-political business circle. Vulnerability is moderate: not a primary threat but contributes to narrative erosion if corruption becomes the dominant frame."
+      },
+      {
+        "label": "kolomoisky_patron_distance_management",
+        "value": 0.62,
+        "evidence": "Ihor Kolomoisky, billionaire owner of 1+1 TV (which broadcast Servant of the People), was widely considered Zelenskyy's political patron. Distancing strategy: (1) Zelenskyy denied being Kolomoisky's puppet but relationship was transparent. (2) Oligarch law (Nov 2021) partially targeted Kolomoisky. (3) Kolomoisky arrested for fraud/embezzlement (Sep 2023, sentenced to ~15 years) — the strongest possible distancing signal. (4) PrivatBank nationalization (2016, before Zelenskyy) dispute with Kolomoisky continued under Zelenskyy. The arrest may be genuine anti-corruption or may be politically motivated (showing independence to Western allies) — both readings serve Zelenskyy's interests."
+      },
+      {
+        "label": "wartime_narrative_construction_skill",
+        "value": 0.93,
+        "evidence": "Zelenskyy is the most skilled wartime narrative constructor since Churchill: (1) 'I need ammunition, not a ride' — instantly iconic, established the 'David vs Goliath' frame. (2) Nightly addresses built a serial narrative — each night a new chapter. (3) Bucha massacre (Apr 2022): Zelenskyy's personal visit and emotional response made it a global atrocity story. (4) Snake Island ('Russian warship, go f*** yourself') — Zelenskyy approved the narrative even before facts were confirmed. (5) Bayraktar drone footage + Turkish folk song = military propaganda as entertainment. (6) Each Western parliament address was customized with local historical references. The narrative skill is his core competency — it converts Ukrainian suffering into Western military aid."
+      },
+      {
+        "label": "social_media_native_advantage",
+        "value": 0.87,
+        "evidence": "Zelenskyy is a true social media native: (1) Instagram: 20M+ followers, used for personal/behind-the-scenes content. (2) Telegram: primary channel for nightly addresses and urgent communications. (3) Twitter/X: official diplomatic communication. (4) TikTok: Ukrainian forces' content strategy created a 'cool army' brand. (5) The entertainment background means Zelenskyy understands content creation intuitively — framing, timing, emotional beats. (6) His team produces content at professional broadcast quality on smartphone budgets. (7) Bypasses traditional media gatekeepers entirely — direct-to-audience model. This is a structural advantage over Putin (who operates through state TV) and over traditional politicians who use social media as an afterthought."
+      },
+      {
+        "label": "performer_authenticity_paradox",
+        "value": 0.69,
+        "evidence": "Zelenskyy embodies a paradox: he is simultaneously performing and authentic. (1) The olive T-shirt is a costume choice (he could wear suits) — but it's also genuinely what he wears. (2) The nightly addresses are professionally structured — but the exhaustion in his face is real. (3) The emotional appeals are calculated for effect — but the emotion is genuine (his country is being destroyed). (4) The Churchill comparisons are cultivated — but the personal courage underlying them is real. This paradox is actually an advantage: audiences sense both the craft and the sincerity, and the combination is more compelling than either alone. The risk: if the craft becomes visible without sincerity (e.g., corruption scandal), the entire edifice collapses."
+      },
+      {
+        "label": "frontline_state_psychology_management",
+        "value": 0.61,
+        "evidence": "Ukraine lives under constant existential threat — missile strikes, blackouts, air raid sirens daily. Zelenskyy must manage a population in permanent crisis: (1) Normalization strategy: encouraging 'normal life' between attacks. (2) Infrastructure repair speed (power restored hours after strikes). (3) Education continuation (online schooling). (4) Culture as resistance (Eurovision, cultural events). (5) Humor as coping mechanism (Ukrainian meme culture about war). (6) Avoiding panic while maintaining urgency. This is an extraordinary psychological management challenge with no modern precedent (Israel's experience is closest but smaller scale). Zelenskyy's entertainment background helps — he understands mood management for mass audiences."
+      },
+      {
+        "label": "grain_corridor_diplomatic_achievement",
+        "value": 0.66,
+        "evidence": "The Black Sea Grain Initiative (Jul 2022 - Jul 2023, then alternative corridors) was a significant diplomatic achievement: (1) Ukraine is a top-5 global grain exporter. (2) Russian blockade threatened global food crisis. (3) Turkey-mediated deal was Zelenskyy's first major diplomatic success outside Western alliance. (4) When Russia withdrew (Jul 2023), Ukraine established alternative corridors via Romania/Danube. (5) Grain exports are Ukraine's primary source of non-aid foreign currency. (6) However: grain export disputes with Poland (cheap Ukrainian grain undercut Polish farmers) damaged a key alliance. The grain corridor shows Zelenskyy can operate in multilateral, non-Western diplomatic contexts when economic interests align."
+      },
+      {
+        "label": "kursk_incursion_risk_appetite",
+        "value": 0.72,
+        "evidence": "The Aug 2024 Ukrainian incursion into Russia's Kursk region was the boldest military operation of the war: (1) First foreign invasion of Russian soil since WWII. (2) Achieved complete surprise — Russian forces were unprepared. (3) Captured ~100 sq km of Russian territory. (4) Strategic purpose: create bargaining chip ('we hold your territory too'), demonstrate offensive capability, boost morale. (5) Military risk: diverted troops from Donbas defense. (6) Diplomatic risk: could have triggered Russian escalation. (7) Ultimately unsustainable — most territory lost by early 2025. The operation was likely Zelenskyy-driven (political logic) rather than military-driven (operational logic). It showed his willingness to take dramatic risks for narrative/diplomatic impact."
+      },
+      {
+        "label": "red_line_communication_credibility",
+        "value": 0.39,
+        "evidence": "Zelenskyy has stated multiple red lines that were subsequently crossed or abandoned: (1) 'No territorial concessions' → Dec 2025: accepts line freeze. (2) 'NATO membership is non-negotiable' → Dec 2025: drops NATO bid. (3) 'Crimea is Ukrainian and non-negotiable' → now discusses 'diplomatic framework' for Crimea. (4) 'No elections during war' → Dec 2025: 'ready in 60-90 days.' Each concession was forced by circumstances (Trump pressure, military stalemate, aid dependency). The pattern means Putin and Trump both know Zelenskyy's red lines are negotiable given sufficient pressure. This reduces his credibility in future negotiations but reflects genuine strategic adjustment rather than bad faith."
+      },
+      {
+        "label": "legitimacy_post_election_expiry",
+        "value": 0.56,
+        "evidence": "Zelenskyy's presidential term officially ended May 20, 2024 (5-year term from May 2019). He remains in office under martial law provisions that extend presidential authority during wartime. Russia exploits this: Putin and Lavrov question Zelenskyy's 'legitimacy' to negotiate. Domestically: most Ukrainians accept the martial law extension, but opposition (Tymoshenko) uses it to challenge his mandate. Internationally: most Western governments accept the constitutional basis, but Trump has pressured for elections to 'legitimize' any peace deal. The legitimacy gap is a real but manageable vulnerability — it becomes critical only if a large domestic opposition coalition forms."
+      },
+      {
+        "label": "nuclear_rhetoric_deterrence_invocation",
+        "value": 0.47,
+        "evidence": "Zelenskyy has repeatedly invoked nuclear threats to secure Western support: (1) 'If Ukraine falls, Russia threatens NATO with nuclear weapons' framing. (2) Zaporizhzhia NPP as nuclear hostage — Zelenskyy amplified this threat to maximum. (3) Referenced Budapest Memorandum (1994): Ukraine gave up nuclear weapons in exchange for security guarantees that proved worthless. (4) Implicit message: 'if you don't protect non-nuclear states, nuclear proliferation becomes rational.' The nuclear dimension is one of Zelenskyy's most effective Western lobbying tools — it frames Ukraine as a global security issue, not just a regional conflict. The Budapest Memorandum argument is intellectually powerful and genuinely concerning for non-proliferation framework."
+      },
+      {
+        "label": "budapest_memorandum_betrayal_narrative",
+        "value": 0.81,
+        "evidence": "The 1994 Budapest Memorandum — where Ukraine surrendered the world's third-largest nuclear arsenal in exchange for security assurances from US, UK, and Russia — is Zelenskyy's most powerful historical argument. Usage: (1) 'We gave up nuclear weapons trusting your guarantees. You failed us.' (2) Implies: if Ukraine falls, no country will ever denuclearize again. (3) Creates moral obligation specifically for US and UK (signatories). (4) Zelenskyy has used this argument in virtually every Western parliament address. (5) It is factually and logically correct — the memorandum was violated by a signatory (Russia) and the other signatories (US/UK) did not respond with force. This narrative is one of the strongest cards in Zelenskyy's hand."
+      },
+      {
+        "label": "peace_council_trump_chairing_skepticism",
+        "value": 0.52,
+        "evidence": "The 20-point plan proposes a 'Peace Council chaired by President Trump' to monitor implementation. This is a deliberate ego stroke — giving Trump ownership of the 'greatest deal in history.' Zelenskyy's calculation: (1) If Trump chairs the council, he has personal stake in its success. (2) Trump wants to be seen as peacemaker — this fulfills that desire. (3) Risk: Trump's attention span is limited — he may lose interest after the photo op. (4) Risk: Russia won't accept a Trump-chaired council. (5) Risk: future US presidents may not honor Trump-era commitments. Zelenskyy is trying to convert Trump's ego from a threat into an asset — clever but uncertain."
+      },
+      {
+        "label": "free_economic_zone_donbas_innovation",
+        "value": 0.54,
+        "evidence": "The Dec 2025 plan proposes converting disputed Donbas territory into a 'free economic zone' — demilitarized, internationally administered, economically open. This concept attempts to resolve the sovereignty question without resolving it: (1) Ukraine claims sovereignty. (2) Russia has physical control. (3) Economic zone avoids binary sovereignty assignment. (4) Precedent: Hong Kong (economic zone within different political system), Berlin (divided city with special status). Limitations: (1) Russia has no incentive to accept economic zone with international oversight. (2) Population displaced — who lives there? (3) Enforcement requires international will. It's a creative diplomatic concept but likely unacceptable to Russia."
+      },
+      {
+        "label": "article5_equivalent_insistence",
+        "value": 0.79,
+        "evidence": "Zelenskyy demands security guarantees that 'mirror Article 5' — automatic collective response to future Russian attack. The Paris Declaration (Jan 2026) partially delivers: (1) France/UK pledge troops. (2) US backs monitoring mechanism. (3) Legal binding obligation. But critical differences from actual NATO Article 5: (1) No automatic trigger — each country decides individually. (2) 35-country coalition lacks NATO's integrated command structure. (3) US commitment under Trump is uncertain. (4) No nuclear umbrella equivalent. Zelenskyy accepts these differences publicly but his insistence on 'Article 5-like' language shows he understands the gap and is trying to minimize it through framing."
+      },
+      {
+        "label": "strategic_patience_vs_urgency_balance",
+        "value": 0.44,
+        "evidence": "Zelenskyy faces an impossible timing dilemma: (1) Urgency: US aid suspended, Trump hostile, war exhaustion growing, military situation deteriorating. (2) Patience: bad deal now is permanent; waiting for Trump to leave office (2029) might yield better terms with new US president. (3) The Dec 2025 acceleration of concessions suggests urgency is winning. (4) Counter-argument: Russia is also exhausted, and delaying could improve Ukraine's position if European aid continues scaling. (5) Zelenskyy's entertainment instinct is for the dramatic moment — patience is not his natural mode. Value reflects current urgency bias, driven primarily by Trump pressure and military reality."
+      },
+      {
+        "label": "personal_brand_vs_institutional_building",
+        "value": 0.31,
+        "evidence": "Zelenskyy's leadership is almost entirely personal-brand-based rather than institutional: (1) Servant of the People party has no ideology beyond Zelenskyy. (2) No institutional reform legacy (pre-invasion). (3) Wartime institutions (United News, martial law powers) are personality-dependent. (4) Inner circle was personal loyalists (Kvartal 95 associates), not institutional professionals. (5) Budanov appointment is first institutional-quality personnel decision. (6) No succession planning — if Zelenskyy is removed, there is no clear institutional mechanism for continuity. This is the entertainment-industry model: the star IS the brand. It creates extraordinary effectiveness while the star shines but leaves nothing when they exit."
+      },
+      {
+        "label": "post_war_political_survival_probability",
+        "value": 0.38,
+        "evidence": "Historical pattern: wartime leaders lose power after the war (Churchill 1945, George H.W. Bush 1992). Zelenskyy faces: (1) Any peace deal will be perceived as partial defeat by some. (2) Corruption scandals will metastasize when wartime solidarity fades. (3) Zaluzhny could run as 'the real war hero.' (4) Tymoshenko positions as 'anti-corruption' alternative. (5) Displaced/bereaved families may blame Zelenskyy for insufficient results. (6) Economic rebuilding is thankless — slow and corruption-prone. (7) His skill set (communication, performance) is less relevant in peacetime. Counter-factors: (a) genuine historical legacy as war leader, (b) EU membership process as ongoing achievement, (c) if peace terms are acceptable, he gets credit. Probability of surviving first post-war election: low to moderate."
+      },
+      {
+        "label": "comedian_instinct_timing_judgment",
+        "value": 0.74,
+        "evidence": "Comedy requires precise timing — and Zelenskyy has repeatedly demonstrated this in political contexts: (1) Feb 2022: staying in Kyiv when it could have been captured — perfect timing for maximum impact. (2) Nightly addresses started on night one — immediately established the pattern. (3) Snake Island story: released immediately as morale booster. (4) Kherson liberation: Zelenskyy visited personally within days — seized the narrative. (5) Dec 2025 peace plan release: timed for Christmas Eve (Western media cycle maximum). (6) Counter-examples: Feb 2025 White House blowup was a timing failure — should have absorbed the insult and maintained the relationship. The comedian's sense of timing is generally excellent for public moments but occasionally fails in private diplomatic settings."
+      },
+      {
+        "label": "decision_making_under_existential_threat",
+        "value": 0.78,
+        "evidence": "Zelenskyy's decision-making quality under extreme stress: (1) Feb 24-28, 2022: perfect — stayed, rallied nation, secured Western support. (2) Kherson counteroffensive authorization: correct, achieved liberation. (3) Zaluzhny dismissal: politically smart but militarily questionable. (4) Kursk incursion: bold but questionable strategic value. (5) 2023 counteroffensive: authorized despite insufficient forces — overly optimistic. (6) Dec 2025 concessions: pragmatically correct but potentially premature. Pattern: best under acute existential pressure (first weeks), degrades somewhat during attritional phase where no single decision is dramatic enough for the 'comedian instinct' to guide."
+      },
+      {
+        "label": "russian_language_intelligence_advantage",
+        "value": 0.53,
+        "evidence": "Zelenskyy's fluent Russian provides a unique intelligence advantage: (1) Can directly consume Russian media, propaganda, and political discourse without translation. (2) Understands Russian cultural reference frames and negotiating tactics. (3) Can read Putin's public statements in original Russian (nuances lost in translation). (4) Pre-invasion, his Kvartal 95 show was popular in Russia — he understands Russian audience psychology. (5) This background informed his information warfare strategy: he knows what messages penetrate Russian information space. Counter: this advantage is mainly analytical, not tactical — it helps him understand Russia but doesn't help in direct negotiations where the power asymmetry dominates."
+      },
+      {
+        "label": "infrastructure_resilience_leadership",
+        "value": 0.62,
+        "evidence": "Ukraine's infrastructure has shown remarkable resilience under systematic destruction: (1) Energy grid repeatedly repaired after Russian strikes — often within hours. (2) Internet maintained via Starlink (Musk donation, later complicated relationship). (3) Rail network kept running throughout war (critical for supply logistics). (4) Grain export routes rerouted after Black Sea blockade. (5) Government services digitized (Diia app — digital governance platform). Zelenskyy's role: (a) secured Starlink, (b) internationalized infrastructure protection narrative, (c) delegated technical management to competent officials. Not his direct achievement but his leadership created the conditions for institutional resilience."
+      },
+      {
+        "label": "musk_starlink_relationship_complexity",
+        "value": 0.44,
+        "evidence": "Elon Musk provided Starlink terminals to Ukraine early in the war — critical for military communications. The relationship deteriorated: (1) Musk allegedly disabled Starlink near Crimea to prevent Ukrainian attacks on Russian fleet (Oct 2022). (2) Musk publicly proposed a 'peace plan' favorable to Russia (Oct 2022) — Zelenskyy responded sharply. (3) Musk became closer to Trump/Republican positions. (4) Ukraine now depends on Starlink but cannot control it. (5) This exemplifies Zelenskyy's broader vulnerability: dependency on actors whose interests may diverge from Ukraine's. The Musk relationship demonstrates that Zelenskyy's charm offensive has limits with tech billionaires who have their own geopolitical agendas."
+      },
+      {
+        "label": "wartime_economic_dependency_ratio",
+        "value": 0.86,
+        "evidence": "Ukraine's wartime budget is roughly 50% externally funded: defense minister stated 2026 war costs = $120bn, of which $60bn must come from partners. (1) Direct military aid: $150bn+ cumulative from West. (2) Budget support: EU €50bn package (2024-2027). (3) IMF program: $15.6bn. (4) Frozen Russian assets interest: ~€3bn/year. (5) Ukraine's own tax revenue covers domestic governance but not war costs. This level of dependency means Zelenskyy cannot reject Western peace demands — the country would literally run out of ammunition and money within months. Every diplomatic concession is ultimately driven by this dependency ratio."
+      },
+      {
+        "label": "reconstruction_narrative_forward_looking",
+        "value": 0.58,
+        "evidence": "Zelenskyy increasingly frames Ukraine's future through reconstruction: (1) Lugano Conference (Jul 2022): launched reconstruction planning while still at war. (2) Ukraine Recovery Conference (London, Jun 2023). (3) Minerals deal: partly about reconstruction funding. (4) EU accession: economic development frame. (5) Estimated reconstruction cost: $500bn-1tn. (6) Zelenskyy positions reconstruction as investment opportunity, not just aid. This forward-looking narrative serves to: (a) give Western taxpayers a return-on-investment story, (b) shift discourse from war to future, (c) attract private capital. Weakness: reconstruction requires peace, which requires concessions Zelenskyy is reluctant to make."
+      },
+      {
+        "label": "generational_identity_post_soviet",
+        "value": 0.71,
+        "evidence": "Zelenskyy (born 1978) represents the first post-Soviet generation of Ukrainian leaders: (1) No Communist Party membership (unlike Kuchma, Kravchuk). (2) Grew up in independent Ukraine's formative chaos. (3) Built career in private sector (entertainment), not government. (4) Ukrainian identity formed through popular culture, not political ideology. (5) Russian-speaking but Ukrainian-identifying — the generational norm. (6) His election (2019) over Poroshenko represented generational change: entertainment-era leader vs. oligarch-era politician. This generational identity means he has no nostalgia for the Soviet/Russian framework and genuinely sees Ukraine's future as European — making territorial concessions psychologically easier than for older Ukrainians who remember these regions as 'theirs.'"
+      },
+      {
+        "label": "adaptability_learning_rate",
+        "value": 0.76,
+        "evidence": "Zelenskyy has demonstrated significant learning/adaptation: (1) Pre-invasion mediocre president → wartime leader in 72 hours. (2) Entertainment communicator → military strategy participant. (3) Maximalist peace position → realistic negotiator (2022-2025 evolution). (4) Pro-NATO zealot → pragmatic bilateral security seeker. (5) Trump relationship: adapted after Feb 2025 blowup (Budanov appointment as bridge). (6) Corruption response: rapid Yermak dismissal, institutional reset. Learning rate is high for public communication and strategic positioning; slower for institutional reform and internal governance. The comedian's core skill — reading the room — makes him naturally adaptive."
+      }
+    ]
+  }
+}

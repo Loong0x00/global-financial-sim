@@ -1,0 +1,228 @@
+{
+  "timestamp": "2026-03-13",
+  "config": {
+    "n_simulations": 50000,
+    "max_horizon_months": 36,
+    "n_pca_components": 14,
+    "crisis_k_neighbors": 8,
+    "noise_scale": 0.15,
+    "n_economic_series": 543,
+    "n_months_history": 657,
+    "state_matrix_shape": [
+      657,
+      491
+    ]
+  },
+  "current_state": {
+    "month": "2025-09-01",
+    "pca_vector": [
+      8.748567140202137,
+      -1.3050055499092301,
+      3.1472967375299983,
+      1.3794960547007413,
+      -1.5072241872044463,
+      -1.150093728334804,
+      -0.6001509119721199,
+      0.3895012296528718,
+      -0.6499545694110712,
+      -0.15459732142338392,
+      0.06829024842173852,
+      0.31199297821585276,
+      0.4307407338047941,
+      -0.9951152093120489
+    ],
+    "nearest_crisis_distance": 2.697719096199822,
+    "crisis_threshold": 1.6034668645484969,
+    "in_crisis_zone": false
+  },
+  "crisis_probability_curve": {
+    "1_months": 0.0,
+    "2_months": 0.0,
+    "3_months": 0.0,
+    "4_months": 0.0,
+    "5_months": 0.0,
+    "6_months": 0.0,
+    "7_months": 0.0,
+    "8_months": 0.0,
+    "9_months": 0.0,
+    "10_months": 0.0,
+    "11_months": 0.0,
+    "12_months": 0.0,
+    "13_months": 0.0,
+    "14_months": 0.0,
+    "15_months": 0.0,
+    "16_months": 0.0,
+    "17_months": 0.0,
+    "18_months": 0.0,
+    "19_months": 0.0,
+    "20_months": 0.0,
+    "21_months": 0.0,
+    "22_months": 0.0,
+    "23_months": 0.0,
+    "24_months": 0.0,
+    "25_months": 0.0,
+    "26_months": 0.0,
+    "27_months": 0.0,
+    "28_months": 0.0,
+    "29_months": 0.0,
+    "30_months": 0.0,
+    "31_months": 0.0,
+    "32_months": 0.0,
+    "33_months": 0.0,
+    "34_months": 0.0,
+    "35_months": 0.0,
+    "36_months": 0.0
+  },
+  "key_probabilities": {
+    "3_months": 0.0,
+    "6_months": 0.0,
+    "12_months": 0.0,
+    "18_months": 0.0,
+    "24_months": 0.0,
+    "36_months": 0.0
+  },
+  "crisis_similarity": {
+    "Oil Crisis 1973-74": {
+      "distance": 16.048187507766382,
+      "radius": 0.66859811066645,
+      "ratio": 24.002741335553214
+    },
+    "Volcker Shock 1980-82": {
+      "distance": 15.215431897796948,
+      "radius": 0.9633469526313713,
+      "ratio": 15.79434268851546
+    },
+    "Black Monday 1987": {
+      "distance": 14.207966647495574,
+      "radius": 0.39826779747986324,
+      "ratio": 35.67440485371891
+    },
+    "Japan Bubble 1990-92": {
+      "distance": 13.455597143110262,
+      "radius": 1.3272165570689731,
+      "ratio": 10.138207718584841
+    },
+    "Asian Crisis 1997-98": {
+      "distance": 11.815936027716209,
+      "radius": 1.1067068795145403,
+      "ratio": 10.67666267051606
+    },
+    "Dot-com Crash 2000-02": {
+      "distance": 11.076300690727575,
+      "radius": 2.709707842624254,
+      "ratio": 4.087636503277261
+    },
+    "GFC 2007-09": {
+      "distance": 8.095864691118758,
+      "radius": 3.343259029570844,
+      "ratio": 2.421548740169851
+    },
+    "Euro Debt Crisis 2010-12": {
+      "distance": 7.313801415538898,
+      "radius": 1.8858736410625498,
+      "ratio": 3.8782033198248183
+    },
+    "Commodity Crash 2014-16": {
+      "distance": 5.765147753209709,
+      "radius": 1.8626190273113423,
+      "ratio": 3.0951835392402267
+    },
+    "Trade War 2018-19": {
+      "distance": 4.737471714080012,
+      "radius": 1.4587172591438249,
+      "ratio": 3.247697032707085
+    },
+    "COVID 2020": {
+      "distance": 5.135340055741041,
+      "radius": 1.4109979505866892,
+      "ratio": 3.639509223670935
+    },
+    "Inflation Crisis 2022": {
+      "distance": 3.046402071943377,
+      "radius": 1.002057906504265,
+      "ratio": 3.040145736258817
+    }
+  },
+  "crisis_type_distribution": {
+    "Inflation Crisis 2022": 0.99972,
+    "COVID 2020": 0.00028
+  },
+  "bootstrap_confidence_intervals": {
+    "5th_percentile": {
+      "1_months": 0.0,
+      "2_months": 0.0,
+      "3_months": 0.0,
+      "4_months": 0.0,
+      "5_months": 0.0,
+      "6_months": 0.0,
+      "7_months": 0.0,
+      "8_months": 0.0,
+      "9_months": 0.0,
+      "10_months": 0.0,
+      "11_months": 0.0,
+      "12_months": 0.0,
+      "13_months": 0.0,
+      "14_months": 0.0,
+      "15_months": 0.0,
+      "16_months": 0.0,
+      "17_months": 0.0,
+      "18_months": 0.0,
+      "19_months": 0.0,
+      "20_months": 0.0,
+      "21_months": 0.0,
+      "22_months": 0.0,
+      "23_months": 0.0,
+      "24_months": 0.0,
+      "25_months": 0.0,
+      "26_months": 0.0,
+      "27_months": 0.0,
+      "28_months": 0.0,
+      "29_months": 0.0,
+      "30_months": 0.0,
+      "31_months": 0.0,
+      "32_months": 0.0,
+      "33_months": 0.0,
+      "34_months": 0.0,
+      "35_months": 0.0,
+      "36_months": 0.0
+    },
+    "95th_percentile": {
+      "1_months": 0.0,
+      "2_months": 0.0,
+      "3_months": 0.0,
+      "4_months": 0.0,
+      "5_months": 0.0,
+      "6_months": 0.0,
+      "7_months": 0.0,
+      "8_months": 0.0,
+      "9_months": 0.0,
+      "10_months": 0.0,
+      "11_months": 0.0,
+      "12_months": 0.0,
+      "13_months": 0.0,
+      "14_months": 0.0,
+      "15_months": 0.0,
+      "16_months": 0.0,
+      "17_months": 0.0,
+      "18_months": 0.0,
+      "19_months": 0.0,
+      "20_months": 0.0,
+      "21_months": 0.0,
+      "22_months": 0.0,
+      "23_months": 0.0,
+      "24_months": 0.0,
+      "25_months": 0.0,
+      "26_months": 0.0,
+      "27_months": 0.0,
+      "28_months": 0.0,
+      "29_months": 0.0,
+      "30_months": 0.0,
+      "31_months": 0.0,
+      "32_months": 0.0,
+      "33_months": 0.0,
+      "34_months": 0.0,
+      "35_months": 0.0,
+      "36_months": 0.0
+    }
+  }
+}

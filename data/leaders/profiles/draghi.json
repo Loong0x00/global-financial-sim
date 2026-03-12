@@ -1,0 +1,438 @@
+{
+  "leader": "Mario Draghi",
+  "role": "President, European Central Bank (Nov 2011 – Oct 2019)",
+  "level": 1,
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "ECB Governing Council decisions 2011-2019 (96 meetings)",
+    "'Whatever it takes' speech, Lancaster House London, Jul 26, 2012",
+    "OMT (Outright Monetary Transactions) technical features announcement, Sep 6, 2012",
+    "Negative deposit rate decision Jun 5, 2014 (-0.10%)",
+    "QE/PSPP (Public Sector Purchase Programme) announcement Jan 22, 2015",
+    "Comprehensive measures package Jun 5, 2014 (first negative rate, TLTROs, ABS purchases)",
+    "Greek crisis: Emergency Liquidity Assistance decisions 2015 (Feb-Jul)",
+    "Draghi ECB farewell speech Oct 28, 2019",
+    "Bank of Italy governorship 2006-2011 (pre-ECB background)",
+    "Goldman Sachs MD/Vice Chairman 2002-2005",
+    "World Bank, Bank for International Settlements, FSB chairs"
+  ],
+  "background": {
+    "born": "1947-09-03",
+    "origin": "Rome, Italy",
+    "career_path": "MIT PhD economics (1976, thesis under Modigliani) → World Bank (1985-1990) → Director General Italian Treasury (1991-2001, oversaw Italy's euro entry) → Goldman Sachs MD/Vice Chairman (2002-2005) → Bank of Italy Governor (2006-2011) → ECB President (2011-2019) → Italian Prime Minister (2021-2022)",
+    "formative_experiences": "Italian Treasury 1991-2001: managed Italian public debt through extraordinary crisis (lira crisis 1992, exit from ERM, subsequent euro entry qualification). This period instilled that Italy is permanently one crisis away from debt spiral — and that credibility can substitute for reserves. Goldman Sachs: learned market mechanics from inside — understands exactly how sovereign debt traders think, what triggers speculative attacks, and how to wrong-foot them. MIT under Modigliani: rigorous macro foundations including the importance of expectations in policy effectiveness.",
+    "decision_style_origin": "Italian pragmatism in German-designed institution. Draghi understood that the ECB's German-written mandate (price stability only, no OMO/QE traditions) was legally and politically constraining, but that carefully designed programs with the right legal framing could achieve the necessary economic effects. His most famous actions (OMT, negative rates, QE) were each crafted to be technically defensible within the mandate while achieving outcomes that German hawks considered violations of it."
+  },
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector for Mario Draghi as ECB President 2011-2019. Covers the euro area sovereign debt crisis (2011-2013), comprehensive easing package (2014-2015), QE implementation (2015-2018), and gradual normalization attempt (2018-2019). The defining characteristic: Draghi achieved more with words (OMT: never used, yet stabilized markets) than most central bankers achieve with actions. His behavior combines Italian political flexibility with technical ECB orthodoxy — always finding the maximum action possible within the mandate's boundaries.",
+    "dimensions": 81,
+    "vectors": [
+      {
+        "label": "verbal_intervention_potency",
+        "value": 0.98,
+        "evidence": "'Whatever it takes' speech (Jul 26, 2012, Global Investment Conference, London): single sentence 'Within our mandate, the ECB is ready to do whatever it takes to preserve the euro. And believe me, it will be enough.' Immediate effect: Italian 10-year spread to German Bund fell from 640bp to 470bp within days. Spanish spread fell from 650bp to 450bp. By end of 2012 both countries had stabilized without ECB purchasing a single bond. This is the single most cost-effective central bank communication in history — zero balance sheet expansion, maximum market impact. Draghi understood that credibility, once established, allows pure communication to do the work of action."
+      },
+      {
+        "label": "omt_credibility_by_design_not_action",
+        "value": 0.96,
+        "evidence": "OMT (Outright Monetary Transactions) announced Sep 6, 2012: ECB would buy unlimited sovereign bonds of countries under EFSF/ESM program. Design choices that ensured it would never need activation: (1) 'Unlimited' commitment — too costly to test. (2) Conditionality (ESM program) — political commitment required from issuer country. (3) Senior creditor status waived — aligned incentives with private holders. (4) Sterilized operations — addressed German inflation concern. Result: OMT was never activated (as of 2026). Yet it permanently ended the 'redenomination risk' (risk of euro breakup) that had been causing spreads to spike. A program that achieved its objectives through pure design without ever being used."
+      },
+      {
+        "label": "german_opposition_management",
+        "value": 0.83,
+        "evidence": "Jens Weidmann (Bundesbank) opposed OMT — dissented formally. Opposed negative rates. Opposed QE. Draghi's approach: (1) Build supermajority — never needed German vote. ECB Governing Council has 25 members; Germany is one vote. (2) Legal bulletproofing — obtained ECJ opinion supporting OMT (Jun 2015). (3) Inflation cover — all easing was framed within mandate (price stability at risk of deflation). (4) Sequencing — each step was justified by mandate, making opposition appear anti-mandate rather than anti-expansion. Draghi never directly confronted Weidmann — he simply outmaneuvered him structurally."
+      },
+      {
+        "label": "negative_interest_rate_pioneering",
+        "value": 0.91,
+        "evidence": "ECB deposit facility rate cut to -0.10% (Jun 5, 2014): first major central bank to implement negative rates on reserves. Further cuts: -0.20% (Sep 2014), -0.30% (Dec 2015), -0.40% (Mar 2016). Rationale: conventional tools exhausted (refi rate at 0.05%), must push into unconventional territory to achieve inflation mandate. Mechanism: penalize banks for holding excess reserves → stimulate lending. Effect: partial — banks passed cost to corporate clients, limited pass-through to retail (political constraint). Legacy: established that effective lower bound is not zero but negative, changing central banking globally (BoJ, SNB followed)."
+      },
+      {
+        "label": "qe_implementation_against_structural_resistance",
+        "value": 0.89,
+        "evidence": "APP (Asset Purchase Programme) announced Jan 22, 2015: €60bn/month purchases, expanded to €80bn/month (Mar 2016). Total purchases under Draghi: ~€2.6 trillion. Legal obstacles overcome: ECB Treaty prohibitions on monetary financing required: (1) Issue limit (33% per ISIN, later contested). (2) Capital key purchases (proportional to ECB capital shares — meant most purchases were German/French bonds). (3) Purchases only on secondary market. Political opposition: 5 of 25 council members consistently opposed. German constitutional court (Karlsruhe) challenged legality — ECJ overruled. QE was the single most contested decision in ECB history, implemented over sustained opposition from the largest member state."
+      },
+      {
+        "label": "deflation_risk_sensitivity",
+        "value": 0.87,
+        "evidence": "QE was triggered when euro area HICP inflation hit -0.2% (Dec 2014) — Draghi's declared threshold was 'price stability at risk of deflation.' Negative rates triggered when CPI at 0.5% (Jun 2014), below 2% target but positive — showing forward-looking concern about deflation trajectory, not just realized deflation. Consistently communicated that below-target inflation was asymmetric risk on downside (anchored deflation expectations more dangerous than temporary inflation overshoot). This is distinctly different from Fed dual mandate — Draghi treated below-2% as near-equivalent risk to above-2%."
+      },
+      {
+        "label": "forward_guidance_innovation",
+        "value": 0.84,
+        "evidence": "Jul 4, 2013: First ECB forward guidance ('expect key ECB interest rates to remain at present or lower levels for an extended period of time'). This broke ECB tradition of never pre-committing ('we never pre-commit' had been official policy). Innovation over Fed model: ECB guidance was state-contingent (outcome-based) not calendar-based, which Draghi argued was more credible because it was mechanical and rule-like. Mar 2016: strengthened guidance to rates 'remaining at present or lower levels for an extended and, in any case, well past the horizon of net asset purchases.' Time and state-contingent simultaneously — more flexible than Fed."
+      },
+      {
+        "label": "italian_spread_firefighter_motivation",
+        "value": 0.79,
+        "evidence": "Italy's sovereign debt (€2.3tn, world's 3rd largest) was the systemic risk that could not be contained by EFSF/ESM (too large for bailout). Draghi's personal knowledge of Italian debt dynamics (directed Treasury 1991-2001) gave him visceral understanding of how quickly Italian spreads could spiral. The 'whatever it takes' speech came specifically at a point when Italian spreads had reached 640bp and Italian banks faced margin calls on collateralized bond holdings — Draghi had calculated exactly how close the system was to cascade failure. His actions in 2012 were not abstract policy — they were crisis management informed by deep personal experience."
+      },
+      {
+        "label": "greek_crisis_ela_management",
+        "value": 0.71,
+        "evidence": "Emergency Liquidity Assistance (ELA) to Greek banks: ECB allowed ELA to increase from €60bn (Jan 2015) to €89bn (Jul 2015) during Syriza/Varoufakis standoff. Feb 11, 2015: ECB suspended waiver on Greek government bonds as collateral (forcing banks to rely on more expensive ELA). Jun 28, 2015: ECB froze ELA at €89bn after Greek referendum call — precipitated capital controls. Jul 6, 2015: No increase after 61.3% 'No' vote — maximum pressure moment. Jul 20, 2015: Resumed ELA after deal — ELA became explicit political leverage. Draghi managed ELA as a precision tool: enough to prevent system collapse, not enough to allow political defection from adjustment program."
+      },
+      {
+        "label": "greek_grexit_line_holding",
+        "value": 0.78,
+        "evidence": "Draghi consistently maintained that Grexit was irreversible (no provision for euro exit in Treaty) and must be prevented — but did not offer the unconditional support that Varoufakis sought. The ELA freeze Jul 2015 was the decisive move: it forced capital controls and bank closure within days, demonstrating to Greek population the immediate cost of ECB non-cooperation. This is arguably the most coercive ECB action ever taken — using financial plumbing to generate domestic political pressure on an elected government. Draghi framed it as 'rule-following' (ELA requires positive solvency assessment) but timing and magnitude were clearly political."
+      },
+      {
+        "label": "mandate_boundary_stretching",
+        "value": 0.88,
+        "evidence": "Three major decisions each required creative mandate interpretation: (1) OMT: sovereign bond purchases restricted by Treaty's monetary financing prohibition — Draghi argued conditionality made it compatible. (2) Negative rates: no explicit prohibition but unprecedented; argued within conventional rate-setting authority. (3) QE/APP: directly contested as monetary financing — Draghi argued secondary market purchases and issue limits distinguished it. Each decision was legally defensible but each also pushed the boundary of what prior ECB presidents would have considered within mandate. Draghi's approach: the mandate is the inflation target, and any tool technically compatible with the treaty that achieves the target is authorized."
+      },
+      {
+        "label": "communication_precision_under_pressure",
+        "value": 0.92,
+        "evidence": "The 'whatever it takes' phrase was carefully chosen: (1) 'Within our mandate' — legal cover against court challenges. (2) 'Whatever it takes' — unlimited commitment. (3) 'To preserve the euro' — systemic framing, not country-specific. (4) 'And believe me, it will be enough' — personal credibility pledge. Four phrases, each load-bearing. Contrast with Trichet's failures: his Nov 2010 'I am fiercely proud of the fact that we, the Governing Council, have decided all decisions by consensus' was read as indecision. Draghi understood that ambiguity is dangerous in a credibility crisis — precision is protective."
+      },
+      {
+        "label": "rate_hike_error_2011_acknowledgment_implicit",
+        "value": 0.65,
+        "evidence": "Draghi inherited ECB that had raised rates twice in 2011 (Apr: +25bp to 1.25%; Jul: +25bp to 1.50%) under Trichet — a historic policy error with the euro area already in debt crisis. Draghi's first action (Nov 3, 2011, literally first meeting as ECB President): cut 25bp to 1.25%. Second meeting (Dec 2011): cut another 25bp to 1.00%. The immediate reversal implicitly acknowledged the 2011 hike error. Draghi never publicly criticized Trichet, but the speed of reversal was unmistakable. This established his pattern: pragmatism over institutional face-saving."
+      },
+      {
+        "label": "ltro_liquidity_provision_size",
+        "value": 0.82,
+        "evidence": "Two 3-year LTROs (Dec 2011: €489bn; Feb 2012: €529.5bn) = €1.018tn total. Largest liquidity operation in ECB history at that time. Purpose: prevent European bank runs by providing unlimited 3-year funding against broad collateral. Effect: banks used funds to buy sovereign bonds (Italian/Spanish), creating carry trade that compressed spreads temporarily. Known as 'Draghi's bazooka before the bazooka' — preceded OMT but used different mechanism (lending to banks vs. buying bonds directly). Risk: potential for banks to become more sovereign-bond dependent, increasing doom loop. Accepted as lesser evil."
+      },
+      {
+        "label": "tltro_use_for_transmission_improvement",
+        "value": 0.76,
+        "evidence": "TLTROs (Targeted Long-Term Refinancing Operations): Jun 2014 (€400bn allotment, rates linked to lending volumes). TLTRO II (Mar 2016, rate as low as deposit rate -0.40% if banks lend sufficiently). Design principle: not just provide liquidity, but condition terms on actual credit provision to real economy — addressing fragmented monetary transmission in periphery countries. Banks in Italy/Spain paying 1.50% on loans while German banks paid 0.50% = broken transmission. TLTROs tried to repair without explicit fiscal transfers (politically impossible)."
+      },
+      {
+        "label": "redenomination_risk_elimination",
+        "value": 0.94,
+        "evidence": "The specific market risk that OMT targeted was 'redenomination risk' — the spread component reflecting probability of a country leaving the euro and repaying debt in devalued local currency. By making OMT unlimited, credible, and technically non-conditional on credit events, Draghi eliminated the convertibility risk premium. JPMorgan and Citigroup quantified the redenomination component as 150-200bp of Italian spreads in mid-2012 — this was the portion OMT eliminated without purchasing a single bond. This was the exact mechanism Draghi had designed: price the option so high that shorting the euro becomes irrational."
+      },
+      {
+        "label": "political_noise_filtering",
+        "value": 0.77,
+        "evidence": "German constitutional court challenge (2014-2015): Karlsruhe referred OMT to ECJ as potentially ultra vires — Draghi did not modify OMT structure in response, waited for ECJ. Italian political chaos (Berlusconi crisis 2011, multiple government changes): ECB did not adjust Italian ELA or collateral policy based on political events per se. French elections (2012, 2017): no ECB adjustment. Greek elections (2015): ELA management was decision-rule based (solvency assessment), not politically reactive. The major exception: conditionality requirements (EFSM/ESM programs) did incorporate political conditions — but these were explicit program requirements, not ad hoc reactions."
+      },
+      {
+        "label": "asset_purchase_sequencing_discipline",
+        "value": 0.81,
+        "evidence": "CBPP (Covered Bond Purchase Programme, Oct 2011: €16bn, small pilot). CBPP2 (Nov 2011: €16bn, another pilot). ABSPP (Asset Backed Securities, Sep 2014: to unlock SME lending). PSPP (Sovereign bonds, Jan 2015: €60bn/month). CSPP (Corporate bonds, Mar 2016: €10bn/month). Each step was sequenced to: (1) expand political consensus (start with less controversial assets), (2) demonstrate transmission mechanism improvement (covered bonds → SME ABS → sovereign → corporate). The sequencing was designed to arrive at sovereign QE with maximum legal cover and minimum German opposition — each previous step established precedent."
+      },
+      {
+        "label": "goldman_sachs_market_mechanism_knowledge",
+        "value": 0.83,
+        "evidence": "2002-2005 Goldman Sachs experience gave Draghi unique insight: understands how sovereign desk traders set positions, what triggers stop-losses, how speculative attacks are constructed and unwound. The 'whatever it takes' speech's effectiveness was partly due to its phrasing triggering massive short-covering (negative carry on Italian/Spanish short positions became untenable when ECB backstop was credible). Draghi knew exactly which market mechanisms he was targeting. Goldman also gave him: understanding of 'basis' in sovereign spreads, how redenomination risk is priced, and how to communicate in language that markets (not just academic economists) understand."
+      },
+      {
+        "label": "inflation_overshoot_tolerance",
+        "value": 0.48,
+        "evidence": "ECB's mandate is symmetric 2% target — but Draghi consistently treated below-2% as greater risk than modest above-2%. QE continued until Draghi's departure even as inflation recovered to ~1.5-1.7% (near target). Halted net purchases Dec 2018 but maintained full reinvestment and near-zero rates. Draghi never explicitly stated tolerance for above-2% overshoot (unlike later Lagarde/Fed average inflation targeting). But his persistence with accommodation even as deflation risk faded implied asymmetric preference for not tightening prematurely. This is lower than Powell's eventual inflation tolerance but higher than Bundesbank tradition."
+      },
+      {
+        "label": "euro_area_fragmentation_concern",
+        "value": 0.88,
+        "evidence": "ECB's transmission mechanism depends on rates being comparable across the euro area. Pre-OMT: Italian mortgage rates 5-6%, German mortgage rates 3-4% — same central bank rate, different transmission = broken monetary policy. Every major Draghi decision was motivated by repairing fragmentation, not just setting aggregate rates. OMT: targeted spread compression. TLTROs: targeted at banks in high-spread countries. Capital key deviation: PSPP purchases weighted toward periphery relative to capital key. This is the unique complexity of ECB vs. Fed/BoE — Draghi had to simultaneously run monetary policy AND address structural divergence between 19 different fiscal authorities."
+      },
+      {
+        "label": "conditionality_enforcement_willingness",
+        "value": 0.74,
+        "evidence": "OMT conditionality: explicitly required ESM/EFSF program with fiscal conditions. Never compromised this: Ireland, Portugal, Spain completed their programs with full conditionality enforcement. Greece: maintained adjustment program requirements through six successive government changes. ELA freeze Jul 2015: direct enforcement action. Counter-example: PSPP capital key deviations showed flexibility when fragmentation tool was needed. The conditionality enforcement pattern: hard on sovereign access conditions (programs), flexible on purchase modalities (operational). Not a contradiction — the purchase flexibility is the carrot, program conditionality is the stick."
+      },
+      {
+        "label": "institutional_communication_mastery",
+        "value": 0.89,
+        "evidence": "ECB press conferences: Draghi introduced structured communication (opening statement + Q&A) that became template. Language evolution: 'we never pre-commit' (Trichet) → 'rates at present or lower for extended period' (Draghi Jul 2013) → 'well past the horizon of net asset purchases' (Draghi Mar 2016). Each phrase change was calibrated for market impact. Famous 'introductory remarks' parsing: financial markets employed dedicated teams to analyze Draghi press conference for adjective changes. He raised ECB communication from academic monetary policy discussion to market-moving event — by design."
+      },
+      {
+        "label": "fiscal_policy_complementarity_advocacy",
+        "value": 0.72,
+        "evidence": "Consistent throughout tenure: monetary policy cannot do the job alone; fiscal policy (particularly investment) needed. Jun 2014: 'Now is the time to ensure that this demand for reform is actually reflected in reform implementation.' Aug 2014 (Jackson Hole): explicitly called for EU fiscal expansion — 'AAA-rated countries should use fiscal space.' Jun 2015: called for 'fiscal stance appropriate for the euro area as a whole.' 2019 farewell: 'Monetary policy has been able to preserve the euro but it cannot return the euro area to full potential — that needs a different macroeconomic policy mix.' This advocacy was consistent but largely ignored by European fiscal authorities."
+      },
+      {
+        "label": "structural_reform_conditionality_messaging",
+        "value": 0.68,
+        "evidence": "ECB mandate does not include structural reforms — but Draghi consistently linked monetary accommodation to expectation of structural reform implementation. Jun 2014: monetary package announced alongside structural reform demand. The implicit message: ECB buys time (low rates/QE), governments use the time for reform, otherwise the ECB support is wasted. Countries that received most accommodation (Italy, France, Spain) largely did not undertake reforms — reducing the long-run effectiveness of ECB policy. Draghi could not enforce this — it was moral suasion, not conditionality."
+      },
+      {
+        "label": "euro_exchange_rate_sensitivity",
+        "value": 0.62,
+        "evidence": "Euro/dollar rate influenced ECB policy direction but was never the primary driver. EUR/USD at 1.38 (May 2014): Draghi publicly noted exchange rate as 'increasingly important for price stability' — rare direct reference. Jun 2014 package partly targeting euro depreciation to boost inflation via import prices. EUR/USD fell from 1.38 to 1.05 by early 2015 (QE announcement effect). Counter: refused to directly target exchange rate (Treaty constraint). The mechanism: interest rate differentials and QE → currency depreciation as transmission channel, not explicit target."
+      },
+      {
+        "label": "financial_stability_secondary_to_price_stability",
+        "value": 0.63,
+        "evidence": "Negative rates and QE created known financial stability risks: (1) Bank profitability compression (negative deposit rate). (2) Asset price bubbles (house prices in Germany, Netherlands). (3) Search-for-yield in riskier assets. Draghi consistently acknowledged these risks but subordinated them to the primary mandate. Argument: financial stability tools (macroprudential) are separate from monetary policy; ECB has macroprudential tools; therefore price stability mandate should not be compromised for financial stability. But macroprudential tools were not consistently used, leaving financial stability concerns partially unaddressed."
+      },
+      {
+        "label": "normalization_attempt_2018_premature",
+        "value": 0.57,
+        "evidence": "Jun 2018: Announced halving of QE to €15bn/month, end of net purchases Dec 2018, rate hike guidance for 'after summer 2019.' Evidence this was premature: euro area growth decelerated sharply in 2018-2019 (from 2.5% to 1.2%), Italian political crisis (Lega/M5S May 2018 threatened fiscal expansion). Draghi had to repeatedly delay the rate hike guidance. By Sep 2019 (last meeting), delivered: 10bp deposit rate cut to -0.50%, tiering, restart of QE at €20bn/month indefinitely — full reversal of normalization. The 2018 normalization attempt closely mirrors ECB's 2011 rate hike error."
+      },
+      {
+        "label": "tiering_for_bank_profitability",
+        "value": 0.71,
+        "evidence": "Sep 2019 (last meeting): Introduced two-tier reserve system — exempted 6x minimum reserve requirements from negative deposit rate. This was an explicit acknowledgment that negative rates damaged bank profitability (side effect of policy). Tiering reduced the net cost to banks of negative rates by ~€4bn/year. Draghi had resisted tiering for 5 years (arguing it would reduce the stimulus effect), then introduced it at the moment of departure — suggesting he understood the trade-off earlier but introduced it as a parting gift to his successor (Lagarde) to make negative rates more durable."
+      },
+      {
+        "label": "ecb_as_eurozone_survival_guarantor",
+        "value": 0.93,
+        "evidence": "The conceptual leap Draghi made that Trichet did not: the ECB has an implicit role as eurozone survival guarantor because the euro cannot function without a lender of last resort. This is not in the Treaty, but Draghi operationalized it through OMT (sovereign lender of last resort) and bank liquidity provision (banking lender of last resort). The argument: price stability is impossible if the euro disintegrates; therefore preserving the euro is necessary to achieve the mandate; therefore unlimited backstop is within mandate. This circular logic is legally contested but practically effective — no one successfully challenged it because it worked."
+      },
+      {
+        "label": "personal_risk_taking_for_institutional_outcome",
+        "value": 0.86,
+        "evidence": "The 'whatever it takes' speech was delivered without full Governing Council authorization. Draghi gave the speech at a private investment conference before the formal OMT decision (which came 6 weeks later at the Sep 6 Governing Council meeting). If the speech had not stabilized markets, or if the Council had failed to endorse OMT, Draghi's credibility would have been destroyed. He bet his personal and institutional reputation on a one-sentence speech. This is the single highest personal-risk action in modern central banking — it worked, which is why it's celebrated rather than condemned."
+      },
+      {
+        "label": "academic_economics_vs_market_pragmatism_balance",
+        "value": 0.78,
+        "evidence": "MIT doctorate (Modigliani dissertation: 'Essays on the Theory of Economic Growth') provides rigorous theoretical framework. Goldman Sachs experience provides market mechanism understanding. Bank of Italy governorship provides institutional management. Result: Draghi was uniquely positioned to be both theoretically coherent (DSGE model justifications for each decision) and market-savvy (understanding how traders would react). His press conference language worked simultaneously in academic central banking discourse AND Bloomberg terminals — a rare combination. Trichet was more academic than market-savvy; Weidmann more academic than pragmatic."
+      },
+      {
+        "label": "inflation_forecast_weight_in_decisions",
+        "value": 0.85,
+        "evidence": "ECB staff projections were central to all major decisions. Dec 2014 projections showing inflation at 0.7% for 2015 (vs 2% target) were the formal trigger for QE announcement in Jan 2015. Draghi consistently cited 'ECB staff projections' as objective evidence for actions. Counter-evidence: projections were consistently wrong (over-forecasting inflation recovery) — yet Draghi continued to base forward guidance on them rather than outcomes. This created a credibility gap: rates on hold 'for extended period' was extended multiple times as projections failed to materialize. The forecast-dependency is structurally similar to the 'transitory inflation' error of 2021-2022."
+      },
+      {
+        "label": "dissent_management_within_council",
+        "value": 0.76,
+        "evidence": "Major dissents: Weidmann (Bundesbank) dissented on OMT, QE, negative rates — consistently outvoted. Lautenschlaeger (German ECB board member) resigned Oct 2019 over QE restart. Knot (Netherlands), Nowotny (Austria), Hansson (Estonia) dissented on various easing steps. Draghi's approach: build a supermajority, never require unanimous consent, frame decisions as mandate-compliance rather than policy preferences. This is structurally different from Fed (consensus-seeking) or BoE (MPC votes published). ECB Governing Council decisions were harder to manage due to 25 members from 19 countries, requiring active coalition management."
+      },
+      {
+        "label": "legacy_whatever_it_takes_cementation",
+        "value": 0.97,
+        "evidence": "The three-word phrase 'whatever it takes' became the most cited monetary policy statement in history. Google Scholar citations: 5,000+ academic papers. Used as template for: Fed's 2020 unlimited QE announcement, BoE's 2020 response, ECB's PEPP (Lagarde's COVID response), IMF's 2020 emergency facilities. Draghi's successor Lagarde (Mar 2020) explicitly tried to invoke this legacy ('We are ready to do everything') but failed on first attempt. The legacy is not just the phrase but the principle: when existential threats to monetary union emerge, credible unlimited backstops are more effective than bounded programs."
+      },
+      {
+        "label": "interest_rate_cycle_position_sensitivity",
+        "value": 0.78,
+        "evidence": "Draghi inherited ECB at 1.5% (Oct 2011), cut to 0% refi rate by Mar 2016, ended tenure with -0.50% deposit rate and QE ongoing. The entire Draghi era was one sustained easing cycle. His sensitivity to cycle position: cut rates at first meeting (inherited overtightened conditions), never hiked despite above-target growth in 2017-2018 (anticipated fragility). The one normalization attempt (2018) was reversed within 9 months. This reveals asymmetric loss function: cost of premature tightening exceeds cost of continued accommodation."
+      },
+      {
+        "label": "ecb_balance_sheet_expansion_willingness",
+        "value": 0.89,
+        "evidence": "ECB balance sheet under Draghi: €2.3tn (Nov 2011) → €4.7tn (Oct 2019). Net increase ~€2.4tn = 23% euro area GDP. Compared to peers: Fed expanded 4.5x (2008-2015), BoE 5x. ECB expansion was smaller in ratio terms partly due to longer delay before QE (started 2015 vs Fed 2008). Within ECB norms, this was unprecedented — ECB balance sheet had barely grown under Trichet. Willingness to expand balance sheet was the precondition for all other Draghi-era innovations: LTRO, OMT, QE all required willingness to let the balance sheet grow without sterilization constraints."
+      },
+      {
+        "label": "sovereign_bank_doom_loop_management",
+        "value": 0.82,
+        "evidence": "The sovereign-bank doom loop was the core systemic risk in 2011-2012: (1) Banks hold sovereign bonds as 'safe' assets. (2) Sovereign spreads rise → bond prices fall → bank capital depleted. (3) Banks need bailouts → sovereign debt rises → spreads rise further. Draghi's three-tool approach: LTROs (liquidity for banks), OMT (cap on sovereign spreads), Banking Union proposal (transfer bank resolution to European level). None fully broke the doom loop (Banking Union remained incomplete) but OMT addressed the 'expectation' component. European banks' sovereign exposure to periphery countries fell from €1.5tn (2012) to €0.6tn (2019) — bank deleveraging helped but doom loop structural fix incomplete."
+      },
+      {
+        "label": "periphery_vs_core_divergence_sensitivity",
+        "value": 0.84,
+        "evidence": "Draghi consistently monitored intra-euro spread differentials as primary indicator of policy effectiveness. Italian-German 10y spread: 575bp (Jul 2011 peak) → 120bp (end 2018). Spanish-German: 600bp → 100bp same period. Tracked credit conditions: SME lending rates in Italy/Spain converged from 2-3% above Germany to 0.5-1% above by 2018. Never declared success: 'fragmentation risks remain' was used through his tenure. PSPP purchase deviations from capital key were the operational expression of this sensitivity — bought more periphery bonds than strictly required to address divergence."
+      },
+      {
+        "label": "ecb_staff_forecast_vs_market_signal_weighting",
+        "value": 0.68,
+        "evidence": "Draghi relied heavily on ECB staff projections for forward guidance (rates at 'present or lower levels' for 'extended period' was formally conditional on projections). However, market signals also influenced him: (1) Jul 2012 speech was a response to market conditions, not staff projection. (2) Nov 2023 tightening pause: explicitly cited financial conditions (bond yields doing tightening) — market signal. (3) Tiering introduction: response to bank stock prices (market signal of profitability stress). The weighting: projections for the base case, market signals for the tail/emergency responses. Staff projections carried higher weight in normal times."
+      },
+      {
+        "label": "term_limit_and_departure_discipline",
+        "value": 0.71,
+        "evidence": "ECB President mandate: single non-renewable 8-year term. Draghi served Nov 2011 – Oct 31, 2019 (full term). No attempt to extend, no political positioning for continuation. Farewell speech Oct 28, 2019: explicitly called on successors to maintain accommodation, restarted QE and cut rates at final meeting to ensure smooth transition. Departure discipline is significant: Draghi had the institutional credibility and political support to potentially seek extension or special arrangement, but adhered strictly to the institutional structure. This institutional fidelity reinforces the ECB's credibility — the institution is larger than any individual."
+      },
+      {
+        "label": "italian_prime_minister_parallel",
+        "value": 0.69,
+        "evidence": "Feb 2021 – Jul 2022: Draghi became Italian Prime Minister — the first time an ECB President subsequently became a head of government. The appointment reflected: (1) Italy's political dysfunction (5th PM in 10 years), (2) Draghi's personal credibility with markets and EU partners, (3) Explicit mandate to manage Italy's €200bn+ NGEU Recovery Fund allocation. Resigned Jul 2022 when coalition collapsed. The PM experience is relevant for modeling Draghi: he understands fiscal policy constraints from both sides (central banker watching governments, government leader watching central bank). This bilateral experience is unique among major central bankers."
+      },
+      {
+        "label": "deflation_japan_analogy_fear",
+        "value": 0.81,
+        "evidence": "Draghi repeatedly invoked Japan's 'lost decade' (1990s-2000s deflation trap) as the scenario ECB must prevent. Jun 2014 press conference: explicitly mentioned Japan comparison in justifying negative rates. Aug 2014 Jackson Hole speech: analyzed how deflationary expectations become self-fulfilling. The Japan analogy informed (1) urgency of crossing the 0% rate floor, (2) importance of QE announcement before deflation fully materialized, (3) tolerance for prolonged accommodation even after improvement. Whether the Japan analogy was accurate for euro area is debated — euro area had different institutional causes — but it was the motivating framework."
+      },
+      {
+        "label": "international_coordination_g20_imf",
+        "value": 0.63,
+        "evidence": "Draghi chaired Financial Stability Board (FSB) 2011-2011 (just before ECB appointment), giving him G20-level view of interconnected financial risks. ECB-Fed swap lines: Draghi maintained and used dollar swap facilities (European banks needed dollar funding). Coordinated with Fed in forward guidance methodology (mutual learning). G20 2015 Shanghai accord (informal): major central banks agreed to avoid competitive devaluations — Draghi honored despite pressure to depreciate euro more aggressively. IMF coordination: ECB-IMF-EU Troika in Greece/Ireland/Portugal programs, where Draghi represented ECB interests (later became contentious regarding IMF's multiplier research critique of austerity)."
+      },
+      {
+        "label": "bank_of_italy_supervisory_experience",
+        "value": 0.74,
+        "evidence": "Bank of Italy Governor 2006-2011: oversaw Italian banking supervision including 2008-2009 crisis. Italian banks entered the global financial crisis in better shape than US/UK/German banks (BdI had maintained relatively strict lending standards under Draghi). This was not luck — Draghi had tightened supervisory standards at BoI from 2006. The ECB SSM (Single Supervisory Mechanism) design 2012-2014 reflected Draghi's view that banking supervision needs to be at ECB level to break sovereign-bank doom loop. His supervisory background directly informed the banking union architecture he advocated."
+      },
+      {
+        "label": "cpi_target_symmetric_vs_ceiling",
+        "value": 0.72,
+        "evidence": "Pre-Draghi ECB: 2% was treated as ceiling ('below but close to 2%'). Draghi shifted toward symmetric interpretation: below-2% is as unacceptable as above-2%. Evidence: maintained QE with HICP at 1.7% (2018-2019) — well within previous interpretation of 'close to 2%.' Strategy review (formally completed under Lagarde Jul 2021) made symmetry explicit, but Draghi had operationalized it years earlier. The symmetry shift was essential for justifying extended accommodation — without it, 1.7% inflation would have been declared a success and tightening would have begun."
+      },
+      {
+        "label": "speech_location_and_timing_strategy",
+        "value": 0.67,
+        "evidence": "The 'whatever it takes' speech was given at a private investment conference in London (Global Investment Conference, Lancaster House, Jul 26, 2012), not at a formal ECB policy meeting. This location choice was strategic: (1) Audience was exactly the market participants most relevant (institutional investors, hedge funds). (2) Not bound by ECB press conference protocol. (3) Allowed Draghi to make a personal credibility commitment separate from the Governing Council (which had not yet voted on OMT). Similarly, Aug 2014 Jackson Hole speech (academic conference) was used to announce policy direction before formal Council approval — using off-site venues to communicate more freely than formal settings allow."
+      },
+      {
+        "label": "eurosystem_governance_innovation",
+        "value": 0.61,
+        "evidence": "Several ECB governance innovations under Draghi: (1) Press conference after every policy meeting replaced ad hoc communications. (2) Publication of Governing Council accounts (minutes, Apr 2015 — first time ECB published meeting records). (3) Annual ECB Forum at Sintra (started 2014): ECB's version of Jackson Hole, creating platform for influential policy speeches. (4) Accountability hearings at European Parliament: Draghi upgraded these from formalities to substantive dialogues. Each innovation increased transparency and ECB's democratic accountability — addressing the 'democratic deficit' criticism of ECB's power expansion under crisis conditions."
+      },
+      {
+        "label": "inflation_forecast_revision_speed",
+        "value": 0.73,
+        "evidence": "ECB staff projections under Draghi: consistently over-forecasted inflation recovery. 2015 projection: HICP to reach 1.5% in 2016 (actual: 0.2%). 2016 projection: HICP 1.3% in 2017 (actual: 1.5%, narrowly correct). 2017 projection: HICP 1.5% in 2019 (actual: 1.2%). The systematic over-forecasting meant forward guidance ('rates until end of 2019') was repeatedly pushed out — which itself reduced inflation expectations. Draghi's response: continued adding accommodation when projections missed downside, rather than revising the forecasting model. This forecast-action feedback loop is a potential source of policy error that his tenure avoided only because accommodation was never harmful."
+      },
+      {
+        "label": "banking_union_advocacy",
+        "value": 0.76,
+        "evidence": "Banking Union (SSM + SRM + EDIS): Draghi was its most consistent advocate. SSM (Single Supervisory Mechanism): ECB took over supervision of 120 significant euro area banks (Nov 2014). SRM (Single Resolution Mechanism): resolution authority for failing banks. EDIS (European Deposit Insurance): never completed due to German opposition. Draghi's argument: you cannot have a single monetary policy with 19 different banking regulatory regimes — transmission will always be fragmented. Banking Union was the structural complement to OMT: OMT addressed sovereign fragmentation, Banking Union addressed bank fragmentation. EDIS remaining incomplete is the lasting institutional failure of the Draghi era."
+      },
+      {
+        "label": "market_expectation_management_timing",
+        "value": 0.85,
+        "evidence": "Draghi mastered the pre-meeting communication strategy: leak/signal to journalists 1-2 weeks before meeting to test market reaction, then calibrate actual decision based on response. The 'Draghi put' emerged from this pattern: markets knew that if they priced in ECB action, Draghi would deliver it. Jan 2015 QE: signaled through Jan 2 sources, confirmed Jan 22. Mar 2016 comprehensive package: signaled through press reports Feb 25, delivered Mar 10 (even larger than leaked). The market pre-signaling allowed Draghi to test political feasibility (if markets rallied on leak, council members faced political cost of contradicting). Communication as pre-negotiation tool."
+      },
+      {
+        "label": "helicopter_money_refusal",
+        "value": 0.63,
+        "evidence": "Multiple proposals for ECB 'helicopter money' (direct monetary transfer to citizens) during Draghi era — proposed by Adair Turner, Jordi Gali, others. Draghi: consistently declined to comment as within ECB's mandate. Analysis: helicopter money would directly bypass the bank credit channel (which was broken in periphery) and stimulate demand without balance sheet expansion constraints. Draghi acknowledged the theoretical merit but dismissed as 'legally complex' and 'outside mandate.' The real constraint: helicopter money requires fiscal coordination (who receives, how much) which requires a pan-European fiscal authority that does not exist. The ECB cannot be a fiscal authority under any legal interpretation."
+      },
+      {
+        "label": "2012_spain_sovereign_stress_management",
+        "value": 0.79,
+        "evidence": "Jun 2012: Spain formally requested €100bn banking sector bailout (Bankia nationalization). Spanish 10-year spread: 540bp over Germany. July 2012: ECB did not respond immediately — allowing pressure to build before 'whatever it takes' speech (Jul 26). The sequencing is notable: Draghi let the crisis visibly worsen through June-July before intervening with the speech. This may have been strategic: a more severe crisis provided greater political legitimacy for OMT. Or it may have been that the political preparations (briefing council members, legal analysis, US Treasury consultation) required time. Either way, the 6-week gap between Spain bailout request and 'whatever it takes' speech maximized the speech's credibility."
+      },
+      {
+        "label": "asset_quality_review_aqr_transparency",
+        "value": 0.74,
+        "evidence": "Oct 2014: ECB conducted comprehensive assessment of 130 major euro area banks (Asset Quality Review + stress test). Results: 25 banks failed, €25bn aggregate capital shortfall. This was the first honest assessment of European bank balance sheets — prior national supervisors had been too lenient (Spanish cajas, Italian savings banks, German Landesbanken). The AQR revealed €136bn of additional non-performing loans beyond what had been disclosed. Banks had 9 months to raise capital. This exercise, conducted before ECB took over formal supervision (SSM Nov 2014), established ECB supervisory credibility. Draghi's willingness to publish negative results (rather than bury them) was essential for banking union credibility."
+      },
+      {
+        "label": "ireland_portugal_program_success",
+        "value": 0.76,
+        "evidence": "Ireland: entered EU/IMF program Nov 2010 (€85bn). Exited Dec 2013 — ahead of schedule. 10-year yields: peak 14.2% (Jul 2011) → 3.5% (exit). Ireland successfully implemented banking recapitalization and fiscal adjustment. Portugal: entered May 2011 (€78bn). Exited May 2014. 10-year yields: peak 16.5% → 4.5%. Both programs succeeded because: (1) ECB liquidity support during program period. (2) Fiscal adjustment was implemented (unlike Greece). (3) Economy was export-competitive when exchange rate adjusted (internal devaluation). These successes validated the ECB-IMF-EU Troika model in a way that the Greek program did not — Draghi used them as evidence that the framework could work."
+      },
+      {
+        "label": "unconventional_policy_precedent_setting",
+        "value": 0.88,
+        "evidence": "Every major Draghi innovation was unprecedented for ECB and set institutional precedent: (1) Negative rates — first major economy; set template for BoJ (2016), SNB expansion. (2) QE with capital key deviation (PSPP) — institutionalized flexible purchases. (3) OMT conditional backstop — institutionalized as TPI under Lagarde. (4) TLTRO conditionality — institutionalized in TLTRO III and PELTRO. (5) Forward guidance — institutionalized as standard ECB practice. None of these existed when Draghi started (Nov 2011). Each innovation expanded the ECB's toolkit. By his departure, ECB had a full unconventional policy toolkit comparable to Fed — a transformation from the severely constrained institution he inherited."
+      },
+      {
+        "label": "eurozone_governance_reform_advocacy",
+        "value": 0.69,
+        "evidence": "Draghi consistently argued that the eurozone's institutional architecture was incomplete and that this amplified crises. Key proposals: (1) Common safe asset (not eurobonds, but some form of common instrument). (2) European finance minister with genuine fiscal capacity. (3) Completing banking union (EDIS). (4) Capital markets union to reduce bank-dependency. None of these were implemented during his tenure. The gap between what Draghi said was needed and what European political consensus allowed is precisely why he had to do so much through monetary policy alone — compensating for fiscal governance failures with monetary tools."
+      },
+      {
+        "label": "ecj_legal_challenge_navigation",
+        "value": 0.82,
+        "evidence": "German Federal Constitutional Court (BVerfG) referred OMT to ECJ as potentially ultra vires (violating ECB mandate) — unprecedented judicial challenge to ECB action. Draghi's legal strategy: (1) Ensured ECJ preliminary ruling process would take time (18+ months). (2) OMT never activated (removing 'standing' to challenge). (3) ECJ ruling Jun 2015: OMT compatible with EU law, with conditions. (4) BVerfG: accepted ECJ ruling (with reservations). The legal navigation was masterful — OMT was challenged but never struck down, and the legal clarification actually strengthened the program's credibility by confirming legality. PSPP later challenged (2020 BVerfG ruling) but on different grounds."
+      },
+      {
+        "label": "negative_rate_bank_profitability_tradeoff",
+        "value": 0.72,
+        "evidence": "Negative deposit rates imposed on excess reserves: ECB estimated direct cost to banks €8bn/year (pre-tiering). German banking associations were the most vocal opponents. Bank profitability: euro area bank ROE fell from 6.8% (2014) to 4.1% (2018). Draghi's response: (1) Argued low rates were caused by structurally low growth, not ECB policy. (2) Pointed to reduced credit losses (fewer NPLs) as offsetting profitability gain. (3) Introduced tiering only at departure (Sep 2019). The profitability-versus-stimulus tradeoff was the central tension of negative rates. Draghi maintained them because the aggregate stimulus effect (on investment, consumption via wealth effect) exceeded the bank profitability cost — a view supported by subsequent research."
+      },
+      {
+        "label": "structural_reform_deadline_failure",
+        "value": 0.59,
+        "evidence": "The most consistent failure of Draghi's tenure: governments did not use the time bought by ECB accommodation to implement structural reforms. France: labor market reform attempted but failed (El Khomri law 2016 protests). Italy: labor market reform (Jobs Act 2015) partial success, but structural competitiveness unchanged. Spain: partial success (2012-2013 labor reform under external pressure). Germany: did not use fiscal space for investment. The 'Draghi doctrine' — we buy time, you implement reforms — failed because democratic governments had no incentive to impose short-term pain when ECB accommodation removed the market pressure that forced it. This is the fundamental contradiction of central bank activism: it reduces the incentive for the structural changes it is supposed to enable."
+      },
+      {
+        "label": "2016_helicopter_money_april_meeting",
+        "value": 0.67,
+        "evidence": "Apr 7, 2016 press conference: journalist asked about helicopter money. Draghi: 'we have not discussed it.' This was technically accurate but notable — it meant the ECB had explicitly not placed helicopter money on the agenda even at the moment of maximum easing (Mar 2016 package). The explicit non-discussion is itself a policy signal: there are tools ECB will not consider regardless of conditions. This creates a known constraint: markets know ECB will exhaust conventional and unconventional asset purchases before considering helicopter money (fiscal instrument disguised as monetary). The boundary between fiscal and monetary policy is the one limit Draghi consistently maintained."
+      },
+      {
+        "label": "negative_real_rate_extended_period",
+        "value": 0.77,
+        "evidence": "Euro area real interest rates (nominal minus inflation): negative from approximately 2012 through Draghi's full tenure. Negative real rates reached -2% to -3% in some periods (nominal at 0%, inflation at 2-3%). This is the most prolonged period of negative real rates in euro area history. Effect on asset prices: significant — house prices in Germany, Netherlands, Austria rose 30-60% during Draghi era (search for yield). Effect on sovereign debt: governments could borrow at negative real cost, reducing urgency of fiscal adjustment. Draghi was aware of asset price effects but prioritized inflation mandate over asset price concerns (consistent with ECB mandate)."
+      },
+      {
+        "label": "us_treasury_coordination_transatlantic",
+        "value": 0.68,
+        "evidence": "Transatlantic central bank coordination under Draghi: maintained Fed swap lines (used heavily 2020 though that was post-Draghi by 6 months). Jackson Hole coordination: regular signaling at Jackson Hole about ECB direction, using Fed's conference as global platform. Treasury Secretary coordination: Draghi had direct communication channels with Geithner, Lew, Mnuchin about exchange rate and spillover concerns. G7 finance ministers/central bank governors: monthly calls plus annual summit. The coordination was real but not binding — ECB and Fed diverged significantly 2013-2016 (Fed tightening, ECB easing) without diplomatic conflict, because both sides understood the domestic mandate primacy."
+      },
+      {
+        "label": "covered_bond_purchase_programme_pilot",
+        "value": 0.64,
+        "evidence": "CBPP1 (Oct 2009, under Trichet but Draghi was aware as BdI governor): €60bn covered bond purchases. CBPP2 (Nov 2011, Draghi's first program): €16.4bn (well below €40bn mandate — market was too small). CBPP3 (Sep 2014): open-ended, eventually €290bn+. The CBPP history is instructive: each iteration was larger, more comprehensive, and established legal/operational precedent for the subsequent sovereign QE. Draghi's genius: use covered bonds (universally accepted as high-quality) as the entry point, then expand the asset class scope. The sequencing minimized political opposition at each step by starting with the least controversial assets."
+      },
+      {
+        "label": "euro_area_growth_and_employment_improvement",
+        "value": 0.75,
+        "evidence": "Euro area outcomes under Draghi: unemployment fell from 12.1% (Apr 2013 peak) to 7.3% (Oct 2019 — 11-year low). GDP growth: returned from -0.5% (2013) to +2.5% (2017), averaged 1.8% 2014-2018. Inflation: remained stubbornly below target (averaged 0.8% 2013-2019) despite all accommodation. The employment improvement is the clearest success metric — 10 million jobs created 2013-2019. The inflation failure is the primary policy metric failure — never durably reached 2% target. Whether this represents ECB policy failure or structural factors (globalization, demographics, productivity) is contested, but Draghi consistently acknowledged the below-target inflation as the primary benchmark."
+      },
+      {
+        "label": "ecb_independence_from_political_pressure",
+        "value": 0.87,
+        "evidence": "Draghi never publicly commented on individual country elections, governments, or fiscal decisions. ECB Governing Council decisions: presented as technical mandate compliance, not political choices. German elections (2013, 2017): no ECB communication adjustment. Italian elections (2013 hung parliament, 2018 populist M5S-Lega coalition): no adjustment. French elections (2012, 2017): no adjustment. Only exception: conditionality requirements for OMT (ESM program requirement) involved ECB in implicit government policy assessment. Draghi handled this by making conditionality explicit and rule-based rather than discretionary — the ECB's role was conditional acceptance, not evaluation. No central banker in a multi-country context has better maintained institutional independence from individual country politics."
+      },
+      {
+        "label": "pspp_capital_key_and_risk_sharing",
+        "value": 0.72,
+        "evidence": "PSPP (Public Sector Purchase Programme) key design choice: 80% of purchases conducted by national central banks (NCBs) in their own sovereign bonds; 20% by ECB (with full risk sharing). German objection was specifically to risk sharing — they did not want to be liable for Italian bonds going bad. Draghi's solution: limit shared risk to 20%, allow NCBs to bear their own country risk for 80%. This reduced mutualization of risk while maintaining the overall stimulus effect. The compromise was criticized as inefficient (risk sharing is actually desirable in optimal currency area theory) but was the political cost of German participation. Draghi accepted this structural inefficiency to build sufficient coalition."
+      },
+      {
+        "label": "quantitative_easing_transmission_evidence",
+        "value": 0.71,
+        "evidence": "ECB research on PSPP transmission: estimates 0.5-1.5 percentage point GDP boost over 3 years (Altavilla, Carboni, Motto 2015). Sovereign spreads compression: 50-100bp across periphery. Bank lending rates in periphery: fell 1-2% 2015-2018. Euro depreciation: 15-20% vs. dollar 2014-2015, adding 0.5-1% to inflation via import prices. Evidence of what did NOT work: inflation consistently missed target despite all accommodation. Counter-factual (no PSPP): ECB models estimated deflation was possible without intervention. The QE effectiveness evidence supports QE preventing worse outcomes while acknowledging it failed to durably achieve the 2% target — a common finding across all QE programs globally."
+      },
+      {
+        "label": "ecb_governing_council_voting_structure",
+        "value": 0.68,
+        "evidence": "ECB Governing Council: 6 ECB Executive Board members (permanent vote) + 19 NCB governors (rotating voting rights for 19 countries; 5 largest 4 votes each year, 14 smaller 11 votes each year). Total voting members at any meeting: ~21. This structure was designed for 12-18 members, is over-burdened for 19. Draghi benefited from the voting rotation: Germany was not always voting when key decisions were made. By building a coalition of smaller countries (who each bear more crisis risk relative to their size), Draghi could consistently outvote Germany-Austria-Netherlands opposition. The institutional structure made Draghi's policy activism possible."
+      },
+      {
+        "label": "2014_comprehensive_package_design",
+        "value": 0.78,
+        "evidence": "Jun 5, 2014 package: (1) Refi rate cut 10bp to 0.15%. (2) Deposit rate cut to -0.10% (first negative). (3) Marginal lending rate cut 35bp. (4) Fixed-rate full allotment extended. (5) TLTRO announced (€400bn). (6) ABSPP preparation. (7) Suspension of SMP sterilization. Multiple instruments deployed simultaneously. The multi-instrument approach was designed to: (1) Achieve larger aggregate effect than any single instrument. (2) Force markets to price in a sustained policy commitment. (3) Address different transmission channels simultaneously (rate cut → retail lending; negative rate → bank excess reserves; TLTRO → targeted SME lending; ABS → securitization). The June 2014 package is the template for the 'bazooka approach' — overwhelming force applied simultaneously."
+      },
+      {
+        "label": "pspp_gilt_spread_and_safe_haven_dynamics",
+        "value": 0.65,
+        "evidence": "QE created unintended dynamics: German Bund yields went negative (-0.6% at peak 2016), while periphery sovereign spreads fell. This compressed the 'riskless rate' for euro area pricing of all assets. Side effect: investors forced to move up the risk curve (corporate bonds, real estate, equities) to achieve any positive yield. Asset price inflation in Germany/Netherlands/Austria: house prices rose 40-60% 2015-2019. Draghi acknowledged these side effects but argued they were a necessary consequence of the primary mandate objective. The safe-haven dynamics also created a 'savings glut' feedback: low rates reduced returns for pension funds → demand for still-lower risk assets → further rate compression."
+      },
+      {
+        "label": "ecb_research_publication_transparency",
+        "value": 0.67,
+        "evidence": "ECB Working Paper series: 2,000+ papers under Draghi era. ECB Economic Bulletin (replacing Monthly Bulletin 2014): bi-weekly publication. Economic Perspectives: new occasional paper series. The ECB under Draghi became a major economics research institution, not just a policy body. This served multiple purposes: (1) Provided intellectual justification for unconventional policies. (2) Attracted high-quality economists to ECB staff. (3) Generated external research on ECB policies (independent evaluation). (4) Built ECB credibility in academic economics community — important for legitimacy of ECB policy pronouncements. The research transparency is part of the institutional credibility strategy."
+      },
+      {
+        "label": "euro_area_supply_side_limitations_recognition",
+        "value": 0.72,
+        "evidence": "Draghi consistently acknowledged that monetary policy cannot address supply-side deficiencies: structural unemployment (France, Italy, Spain have rigid labor markets), productivity slowdown (advanced economies post-2008), hysteresis (long-term unemployment reduces skill and labor force attachment). Jackson Hole 2014: 'Unemployment in the euro area has substantial structural characteristics.' His prescription: 'supply-side policies must be implemented to improve the euro area's growth potential.' The supply-side limitation recognition was also self-protective: if ECB misses its inflation target, supply-side factors (not ECB inadequacy) provide the explanation. This is intellectually honest but politically convenient."
+      },
+      {
+        "label": "ireland_bail_in_versus_bailout_precedent",
+        "value": 0.62,
+        "evidence": "Nov 2010: ECB under Trichet pressured Ireland not to impose losses on bondholders (including substantial German/French bank holdings) as condition for EFSF support. This decision was overturned in 2012-2013 for Cyprus (depositors above €100k bailed in). Draghi was not directly responsible for the 2010 Ireland decision but did preside over the Cyprus bail-in precedent (2013). The bail-in precedent was: (1) Legally correct (depositors are unsecured creditors). (2) Economically damaging (triggered capital flight from Southern European banks briefly). (3) Institutionally important (established that unlimited ECB/ESM support does not mean unlimited protection for bank creditors). Draghi's role: accepted bail-in framework while using OMT to prevent sovereign contagion from bank bail-ins."
+      },
+      {
+        "label": "ecb_as_international_standard_setter",
+        "value": 0.68,
+        "evidence": "Post-Draghi-era ECB innovations became global central banking standards: (1) Symmetric inflation target — Fed adopted average inflation targeting 2020 (less formal). (2) Negative rates — BoJ -0.10% 2016, SNB -0.75%. (3) Forward guidance as standard — all major central banks adopted. (4) Multi-instrument packages — Fed's March 2020 response was a Draghi-style comprehensive package. (5) Tiering — BoJ adopted in 2016. Draghi's technical innovations were exported globally. This is unusual — ECB typically imported Fed innovations (fed funds targeting preceded refi rate). Under Draghi, the influence direction partially reversed: ECB innovated, others followed."
+      },
+      {
+        "label": "exchange_rate_policy_indirect_management",
+        "value": 0.64,
+        "evidence": "ECB has no formal exchange rate objective (unlike SNB or Riksbank). Treaty: exchange rate is 'of common concern' but ECB formally targets price stability only. Draghi's practice: referenced exchange rate as inflation input (May 2014: noted appreciation was adding 0.5pp deflation pressure). Never directly targeted EUR/USD but calibrated policy to achieve exchange rate outcomes. EUR/USD fell from 1.38 to 1.05 over 2014-2015 — an 24% depreciation that contributed significantly to inflation returning from -0.2% to 1.2%. The indirect management worked more effectively than direct management would have (which would have triggered US Treasury 'currency manipulator' concerns)."
+      },
+      {
+        "label": "pepp_design_credit_to_lagarde",
+        "value": 0.58,
+        "evidence": "Draghi's PEPP design work: impossible to assess directly (he departed Oct 2019, PEPP announced Mar 2020 under Lagarde). However: Draghi-era analysis on flexible purchase programmes was extensive (ECB Working Papers on sovereign spread management). The TPI (Lagarde's anti-fragmentation instrument) is a direct descendant of OMT, reflecting institutional continuity. The ECB's institutional memory is strong — Draghi's team members (Fabio Panetta, others) remained through Lagarde's tenure, carrying forward the operational knowledge. Draghi's indirect contribution to PEPP design is measurable through the institutional infrastructure he built."
+      },
+      {
+        "label": "hawkish_members_of_governing_council_management",
+        "value": 0.73,
+        "evidence": "Identified hawkish council members (Bundesbank + allies): Weidmann (Germany), Knot (Netherlands), Nowotny (Austria), Hansson (Estonia), Villeroy (France — swing voter). Draghi's coalition management: (1) Never needed unanimity — majority sufficed. (2) Pre-briefed key members before decisions. (3) Allowed dissenters to express views publicly without undercutting decisions. (4) Framed all decisions as mandate-compliance, not policy choice — making opposition appear anti-mandate. (5) Used Sintra/Jackson Hole speeches to establish intellectual framework before formal council vote. The result: over 8 years, Draghi passed every major policy he wanted (OMT, negative rates, QE, TLTRO II, CSPP) despite persistent hawkish opposition."
+      },
+      {
+        "label": "term_in_office_compared_to_trichet",
+        "value": 0.66,
+        "evidence": "ECB presidents: Duisenberg (1998-2003): ERM2/euro launch, dot-com, Trichet (2003-2011): Lehman crisis, first euro sovereign debt crisis, two rate hikes mid-crisis. Draghi (2011-2019): completed the job Trichet's hikes made necessary. Comparison: Trichet's two rate hikes in 2011 are now viewed as the greatest ECB policy error — Draghi corrected this within 2 meetings. Trichet's tenure ended in ECB credibility crisis; Draghi's began in credibility crisis and ended with ECB credibility restored. The sequence is instructive for modeling: ECB starts Draghi era in the tail of a predecessor's error, meaning the initial trajectory was partially pre-determined."
+      },
+      {
+        "label": "2019_draghi_report_competitiveness_legacy",
+        "value": 0.69,
+        "evidence": "Apr 2024 (post-ECB, post-PM): Draghi published 'The Future of European Competitiveness' report commissioned by European Commission — 400 pages, comprehensive analysis of EU economic underperformance. Key finding: EU needs €800bn/year additional investment to close productivity gap with US and compete with China. Recommended: EU common debt issuance, deepening Capital Markets Union, harmonizing energy prices. This post-ECB work reveals his genuine view of what the ECB era was trying to accomplish: buying time for structural transformation that never arrived. The competitiveness report is the intellectual completion of the 'we buy time, you reform' thesis — now proposed as a structural program rather than a monetary exhortation."
+      },
+      {
+        "label": "smp_securities_markets_programme_precursor",
+        "value": 0.62,
+        "evidence": "SMP (Securities Markets Programme, May 2010 – Sep 2012): ECB bought sovereign bonds of Ireland, Greece, Portugal, Spain, Italy during crisis — €218bn total. Discontinued at Draghi's first meeting (Nov 2011, then gradually ran off). SMP was sterilized (ECB drained equivalent liquidity via deposit auctions). Draghi inherited €218bn of SMP holdings, which created institutional precedent for sovereign bond purchases. OMT (2012) replaced SMP with unlimited conditional program — the key upgrade was: (1) unlimited commitment, (2) conditionality replacing arbitrary limits, (3) senior creditor waiver. SMP is thus the stepping stone that made OMT institutionally and legally feasible — Draghi built on existing precedent."
+      }
+    ]
+  }
+}

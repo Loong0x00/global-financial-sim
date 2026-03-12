@@ -1,0 +1,25 @@
+{
+  "version": "v4b_attribution",
+  "scenarios": {
+    "No Leaders": {
+      "crisis_2of3_48mo": 0.636894,
+      "crisis_3of3_48mo": 0.128512,
+      "taiwan_triggered_pct": 0.0
+    },
+    "Trump Only": {
+      "crisis_2of3_48mo": 0.928664,
+      "crisis_3of3_48mo": 0.323466,
+      "taiwan_triggered_pct": 0.0
+    },
+    "Xi Only": {
+      "crisis_2of3_48mo": 0.917506,
+      "crisis_3of3_48mo": 0.447734,
+      "taiwan_triggered_pct": 0.6818220019340515
+    },
+    "Trump + Xi": {
+      "crisis_2of3_48mo": 0.984168,
+      "crisis_3of3_48mo": 0.69254,
+      "taiwan_triggered_pct": 0.6975060105323792
+    }
+  }
+}

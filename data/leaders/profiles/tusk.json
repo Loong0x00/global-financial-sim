@@ -1,0 +1,219 @@
+{
+  "leader": "Donald Tusk",
+  "role": "Prime Minister of Poland (2007-2014, 2023-present); President of the European Council (2014-2019); President of European People's Party (2019-2022)",
+  "level": 2,
+  "compiled_by": "claude-opus-4-6",
+  "compiled_date": "2026-03-13",
+  "compilation_sources": [
+    "Polish government defense budget documents and NATO spending reports 2023-2026",
+    "NATO Defence Expenditure reports 2014-2025",
+    "EU Council records and European Council presidency archives 2014-2019",
+    "Poland-Ukraine bilateral agreements and military aid documentation 2022-2026",
+    "Eastern Shield border fortification program documentation",
+    "Polish judicial reform legislation and Constitutional Tribunal proceedings 2024-2026",
+    "Weimar Triangle joint declarations 2024-2026",
+    "Polish presidential election 2025 documentation and impact analysis",
+    "RAND Corporation, Wilson Center, Atlantic Council analysis papers on Poland 2024-2026",
+    "Congressional Research Service Poland report (Jul 2025)",
+    "Human Rights Watch World Report 2026 Poland chapter",
+    "Notes From Poland, ECFR, Warsaw Institute security analyses"
+  ],
+  "background": {
+    "born": "1957-04-22",
+    "origin": "Gdańsk, Poland",
+    "career_path": "Solidarity movement activist (1980s, Gdańsk — birthplace of Solidarity) → Historian/academic (University of Gdańsk) → Senator (1997-2001) → Deputy Speaker of Senate → Civic Platform (PO) co-founder and leader (2003-2014) → Prime Minister first term (2007-2014, Poland's longest-serving post-1989 PM) → President of European Council (2014-2019, oversaw Brexit negotiations, Ukraine crisis, migration crisis) → EPP President (2019-2022) → Returned to Poland, led opposition → Prime Minister second term (2023-present, defeated PiS after 8 years)",
+    "formative_experiences": "Grew up in Gdańsk — the city where WWII began (Westerplatte, 1939) and where Solidarity was born (1980). Grandfather Józef Tusk fought in Wehrmacht (conscripted from Free City of Danzig) — a family history that made Tusk particularly sensitive to the complexity of Polish-German relations and was weaponized by PiS as 'German agent' attack. The European Council presidency (2014-2019) gave him unmatched understanding of EU institutional mechanics from inside — he literally chaired the meetings where Ukraine/sanctions/Brexit decisions were made. His return to Polish politics in 2023 was driven by conviction that PiS was destroying Poland's European anchor.",
+    "decision_style_origin": "Combines EU institutional mastery (5 years chairing European Council — knows every leader, every procedure, every pressure point) with Polish patriotic-defensive instinct rooted in Gdańsk's history. Decision-making reflects dual identity: European statesman who thinks in institutional frameworks AND Polish leader from the city where both the war and the resistance began. Pragmatic centrist who has shifted rightward on migration and defense in response to geopolitical reality. Not ideological — adapts positions to threats. The Solidarity heritage means he genuinely believes in collective resistance to authoritarian aggression."
+  },
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector for Donald Tusk compiled from his second term as Polish PM (Dec 2023-present) plus the institutional memory of his European Council presidency (2014-2019) and first PM term (2007-2014). Tusk's unique position: the most experienced EU institutional operator currently leading a major member state, governing a frontline NATO country that has become the alliance's largest relative defense spender. His behavior matrix captures the transformation of Poland from PiS-era EU rebel to the most hawkish anti-Russia voice in Europe, the tension between democratic restoration and security imperatives, and the challenge of managing a hostile president (Nawrocki) who blocks judicial reform.",
+    "dimensions": 37,
+    "vectors": [
+      {
+        "label": "russia_threat_perception",
+        "value": 0.96,
+        "evidence": "Tusk has stated 'We are living in the most critical moment since the end of World War II.' Poland's historical trauma: partitioned/occupied by Russia for centuries (1795-1918, 1939-1989). Katyn massacre (1940): 22,000 Polish officers murdered by NKVD. Tusk personally experienced Soviet-dominated Poland through his youth. As PM: 'The Polish national interest requires unequivocal and lasting support for Ukraine in its defence against Russian aggression.' Withdrew from Anti-Personnel Mine Ban Treaty (Feb 2026) specifically to mine eastern border against Russia. Ordered €2bn anti-drone barrier on eastern border. Russia threat perception is not political positioning — it is existential conviction rooted in centuries of Polish experience."
+      },
+      {
+        "label": "ukraine_support_maximalism",
+        "value": 0.92,
+        "evidence": "Poland 2022-2024: spent €40bn (1.9% GDP) on defense and humanitarian aid for Ukraine, including refugee costs. Served as main logistics hub — 80% of Western military donations transited through Poland. Tusk: 'Poland will be lead country on logistics for Ukraine peace deal' (Jan 2026 Paris talks). Accepted 1.5-2 million Ukrainian refugees (largest number in EU). Military aid: transferred MiG-29s, PT-91 tanks, artillery, ammunition. However: draws clear line at direct military involvement — 'Poland will not send soldiers to Ukraine under any scenario.' Support is maximum short of combat participation. The maximalism is driven by security calculation (if Ukraine falls, Poland is next) not just solidarity."
+      },
+      {
+        "label": "defense_spending_commitment",
+        "value": 0.97,
+        "evidence": "2024: 3.9% GDP on defense. 2025: 4.7% GDP — highest in NATO (surpassing US at ~3.4%). 2026 budget: 4.8% GDP, 200bn PLN (~€46bn), highest in NATO by GDP share. Equipment spending: 54.4% of defense budget devoted to new equipment (highest in NATO). Major acquisitions: 180 K2 tanks from South Korea ($6.7bn, total fleet ~1,100 tanks — more than Germany+France+UK+Italy combined), 486 HIMARS launchers, F-35 fighters, Patriot missile systems, Korean FA-50 fighters, AW149 helicopters. Poland is building the largest conventional military in Europe. The spending is financed partly by debt (Balkan Insight Mar 2026: 'running on borrowed money'), creating long-term fiscal sustainability questions."
+      },
+      {
+        "label": "defense_spending_fiscal_sustainability_risk",
+        "value": 0.68,
+        "evidence": "Poland's military boom financed partly by borrowing: public debt rising from 49% to projected 56% GDP (2023-2026). Budget deficit widening despite claims of 2026 deficit reduction. Atlantic Council (2025): 'Poland doesn't have to choose between defense spending and growth — if it makes the right reforms.' But reforms are politically difficult. The 4.8% GDP defense spending is economically ambitious for a country with GDP per capita at ~70% EU average. Sustainability depends on: (1) Continued economic growth (3-4% annually). (2) EU fund absorption (Poland is largest cohesion fund recipient). (3) Avoiding recession. If growth stalls, the military budget becomes a fiscal trap."
+      },
+      {
+        "label": "eu_institutional_mastery",
+        "value": 0.95,
+        "evidence": "Five years as European Council President (2014-2019): chaired every summit, managed Brexit negotiations (appointed Barnier), coordinated Russia sanctions response, managed migration crisis. Knows every EU leader personally, understands every Treaty provision, knows which pressure points work. This institutional knowledge is unique among current EU heads of government — no other leader has chaired the institution. Practical impact: Tusk can navigate EU mechanisms to Poland's advantage in ways PiS never could. Secured unfreezing of EU funds frozen under PiS rule-of-law proceedings. Rebuilt Poland's influence from pariah to core member within months. The institutional mastery is his single greatest strategic asset."
+      },
+      {
+        "label": "us_relationship_management_trump_era",
+        "value": 0.78,
+        "evidence": "Poland under Tusk manages Trump through strategic purchases: F-35 fighter jets, Patriot systems, HIMARS — billions in US defense contracts. Proposed 'Fort Trump' concept (originated under Duda/PiS but principle maintained). Poland is one of the few NATO allies Trump cannot credibly criticize on burden-sharing (4.7% GDP exceeds US spending ratio). The purchase strategy: buy American weapons to maintain US commitment to Polish security, regardless of who occupies the White House. Tusk's personal relationship with Trump is less warm than Duda's (Trump visited Warsaw 2017, praised PiS) — but Tusk compensates with transactional value (defense purchases, hosting US troops)."
+      },
+      {
+        "label": "trump_management_strategic_purchasing",
+        "value": 0.83,
+        "evidence": "Poland's defense procurement explicitly serves diplomatic purpose: buying American locks in US commitment. $6bn Patriot purchase (2018, maintained under Tusk). F-35 acquisition (32 aircraft, ~$4.6bn). HIMARS (486 launchers — largest order outside US). Total US defense purchases 2018-2026: ~$20bn+. The procurement strategy has bipartisan US support — defense industry lobbying ensures Congressional support for Poland regardless of presidential politics. Tusk understands that in Trump's transactional worldview, countries that buy American products get better treatment. Poland is Trump-proof through purchasing power."
+      },
+      {
+        "label": "nato_eastern_flank_advocacy",
+        "value": 0.93,
+        "evidence": "Tusk leads push for permanent NATO force posture on eastern flank. Eastern Shield program: fortifications along Belarus/Kaliningrad borders (bunkers, minefields, anti-tank barriers, logistics hubs in every eastern border municipality). Withdrew from Ottawa Convention (anti-personnel mine treaty) in Feb 2026 to enable border mining within 48 hours of threat. €2bn anti-drone barrier funded partly by EU. Hosts US Army V Corps forward HQ. NATO Enhanced Forward Presence: Polish territory hosts multinational battlegroup. Tusk's advocacy: 'Poland must be ready for increased threat from Russia' (Kyiv Post). The eastern flank commitment is not aspirational — Poland is physically fortifying its border at a pace not seen in Europe since the Cold War."
+      },
+      {
+        "label": "migration_policy_pragmatic_hardline",
+        "value": 0.76,
+        "evidence": "Despite being a liberal/centrist, Tusk has taken hardline migration positions: (1) Told von der Leyen 'Poland will not implement the Migration Pact' (Feb 2025). (2) Suspended asylum processing on Belarus border (citing hybrid warfare). (3) Eastern border zone: shoot-to-warn authorized for border guards. (4) Ukrainian refugees: maintained welcome but increasingly discussed return timelines. The hardline stance reflects: (1) Belarus hybrid warfare reality (Lukashenko organized migrant flows as weapon). (2) Electoral necessity (PiS set the Overton window on migration). (3) Security framing (migration = Russian/Belarusian destabilization tool). Tusk's migration position would be considered far-right in Western Europe but is centrist in Polish political context."
+      },
+      {
+        "label": "german_relationship_complex",
+        "value": 0.64,
+        "evidence": "Polish-German relations under Tusk are improved from PiS era but structurally complex. Historical baggage: WWII reparations (PiS demanded €1.3tn, Tusk quietly shelved but cannot formally renounce). Nord Stream: Germany's gas pipeline bypassed Poland and strengthened Russian leverage — deeply resented across Polish political spectrum. Tusk's grandfather's Wehrmacht service: weaponized by PiS as 'German agent' attack. Positive: Weimar Triangle (France-Germany-Poland) revived. Bilateral treaty with France finalized. However: Tusk criticizes Germany for insufficient defense spending and slow Ukraine support. Merz's election (2025) improved dynamics (CDU more hawkish than Scholz SPD). The relationship is functional but Poland fundamentally distrusts German strategic judgment on Russia."
+      },
+      {
+        "label": "judicial_reform_reversal_blocked",
+        "value": 0.71,
+        "evidence": "PiS (2015-2023) packed Constitutional Tribunal, politicized judiciary, controlled National Council of Judiciary (KRS). Tusk's restoration agenda: reverse PiS judicial capture, restore judicial independence, comply with EU rule-of-law requirements to unlock frozen funds. Key obstacle: President Nawrocki (PiS-backed, won May 2025 election) vetoes judicial reform legislation. KRS term expires May 2026 — government plans new appointments under existing law. Constitutional Tribunal: impasse (government considers packed tribunal illegitimate, tribunal considers government reforms unconstitutional). Human Rights Watch 2026: 'Poland's constitutional crisis remains unresolved.' The judicial reform is Tusk's most frustrating domestic failure — blocked by institutional veto points PiS embedded before losing power."
+      },
+      {
+        "label": "nawrocki_presidential_obstruction",
+        "value": 0.79,
+        "evidence": "Karol Nawrocki (PiS-backed) won presidential election May 2025, replacing Duda. Polish president has significant powers: vetoes legislation, appoints military commanders, represents Poland in EU Council alongside PM. Nawrocki blocks: judicial reform bills, constitutional changes, some defense appointments. The cohabitation creates paralysis on domestic reform while foreign/defense policy continues (president and PM must cooperate on NATO/military). Tusk's response: focus energy on areas presidential veto cannot reach (defense procurement, EU negotiations, foreign policy) while waiting for 2030 presidential election. The obstruction is the main structural constraint on Tusk's governance — mirrors France's cohabitation periods but with higher stakes."
+      },
+      {
+        "label": "european_army_defense_integration_advocacy",
+        "value": 0.82,
+        "evidence": "Tusk: 'Europe must believe we are a global power and achieve defence independence' (Mar 2025). Advocates European defence industrial base, joint procurement, coordinated military planning. Bilateral treaty with France includes defense cooperation. Supports EU defense fund expansion. However: Tusk's European defense vision differs from Macron's in key ways — Poland insists on NATO primacy (not EU replacing NATO), US involvement remains essential, eastern flank priority non-negotiable. The advocacy is driven by pragmatic concern: if Trump withdraws US support, Europe must have fallback. Poland's massive military buildup gives credibility to its defense integration advocacy — unlike Germany or France, Poland is actually spending the money."
+      },
+      {
+        "label": "anti_orban_stance",
+        "value": 0.88,
+        "evidence": "Tusk's return to Polish politics ended the PiS-Fidesz mutual protection pact that had shielded both from EU enforcement. Poland no longer blocks Article 7 proceedings against Hungary. Tusk publicly criticizes Orbán's Russia alignment and EU sabotage. Poland actively supports EU measures to counter Hungarian vetoes (workaround mechanisms, enhanced cooperation, etc.). The anti-Orbán stance is both principled (Tusk is genuinely pro-EU) and strategic (Poland's credibility in EU depends on distance from Orbán). The PiS-Fidesz breakup is one of the most consequential structural shifts in EU internal politics since 2010 — removes Hungary's last major shield."
+      },
+      {
+        "label": "pis_legacy_management",
+        "value": 0.72,
+        "evidence": "PiS governed 2015-2023: captured judiciary, state media, created parallel institutional structures. Tusk must simultaneously: (1) Reverse PiS institutional capture (judicial reform, media reform). (2) Not appear as political revenge (rule of law, not retribution). (3) Maintain PiS voter base engagement (migration hardline, defense spending signal continuity on security). (4) Navigate PiS-appointed president's vetoes. Key challenge: state media (TVP) reformed but contentious — PiS claims government censorship, EU observes improvement. The PiS legacy is a minefield: too aggressive reversal risks democratic backsliding accusations; too cautious risks entrenching PiS's institutional damage."
+      },
+      {
+        "label": "coalition_management_fragile",
+        "value": 0.65,
+        "evidence": "Tusk leads three-party coalition: Civic Coalition (PO, center-right), Third Way (Poland 2050 + PSL, centrist), New Left (Lewica, social democratic). Coalition tensions: Third Way and New Left disagree on social policy (abortion, LGBTQ rights, church-state relations). Coalition agreement holds on foreign policy/defense (consensus) but strains on domestic reforms. PSL (agrarian party) within Third Way is socially conservative — blocks progressive social legislation. The coalition's unity depends on external threat (Russia) and shared anti-PiS identity. If either fades, centrifugal forces strengthen. However: no realistic alternative governing majority exists, which enforces coalition discipline."
+      },
+      {
+        "label": "information_fidelity_from_advisors",
+        "value": 0.82,
+        "evidence": "Tusk has extensive personal networks across EU institutions (5 years as Council President), Polish intelligence services, and NATO structures. Multiple information channels: Polish military intelligence (which has been highly effective on Ukraine intelligence), EU diplomatic network, bilateral intelligence sharing with US/UK. Unlike Orbán or Putin, Tusk operates in a democratic system with free media, opposition scrutiny, and allied intelligence sharing. Information quality is high. Primary blind spot: domestic political dynamics (the Nawrocki presidential loss suggests some misjudgment of PiS's enduring voter base, or inability to transfer anti-PiS sentiment to presidential race)."
+      },
+      {
+        "label": "ukraine_peace_process_role",
+        "value": 0.79,
+        "evidence": "Jan 2026 Paris talks: Tusk announced Poland will be 'lead country on logistics' for any Ukraine peace deal. This reflects Poland's geographic and logistical reality: 535km border with Ukraine, served as primary transit hub for military aid. Tusk emphasizes this role 'will not involve the presence of Polish troops in Ukraine under any scenario.' The peace process role positions Poland as essential to any settlement — guarantees Poland a seat at the table for decisions affecting its security. Tusk's red line: no peace deal that rewards Russian aggression or leaves Russia in position to threaten Poland. Any deal that doesn't address Russian capability (not just intent) is unacceptable."
+      },
+      {
+        "label": "eastern_shield_border_fortification",
+        "value": 0.89,
+        "evidence": "Eastern Shield program: comprehensive fortification of Poland's eastern border with Belarus and Kaliningrad exclave. Components: (1) Anti-tank barriers and minefields. (2) Logistics hubs in every eastern border municipality. (3) Road/bridge infrastructure for rapid military deployment. (4) €2bn anti-drone barrier network (EU-funded). (5) Mine manufacturing capability (can mine borders within 48 hours of threat). (6) Surveillance/sensor networks. The program represents the most significant border fortification in Europe since the Cold War. It signals that Poland prepares for direct conventional threat, not merely supports Ukraine. The fortification changes NATO's defense posture: Poland becomes a hardened fortress rather than an open plain."
+      },
+      {
+        "label": "arms_industry_renaissance",
+        "value": 0.77,
+        "evidence": "Poland is rebuilding domestic defense industry: PGZ (Polish Armaments Group) expanding production capacity. Joint ventures with South Korea (K2 tank production in Poland, FA-50 assembly). Ammunition production expansion (significant supplier to Ukraine). Anti-mine manufacturing resumed (post-Ottawa Convention withdrawal). The industrial strategy: start with license production of Korean systems, gradually increase Polish content, build domestic R&D capability. Long-term goal: Poland as major European defense industrial base. Current reality: still heavily dependent on imports (Korean, American) but trajectory is toward self-sufficiency in key systems."
+      },
+      {
+        "label": "belarus_hybrid_warfare_response",
+        "value": 0.84,
+        "evidence": "Belarus (under Lukashenko, with Russian backing) organized migrant flows to Polish border as hybrid warfare (2021-ongoing). Poland's response under PiS: border wall, pushbacks (controversial, human rights concerns). Under Tusk: maintained hard border, enhanced surveillance, authorized use-of-force protocols, framed as national security issue (not migration). Key narrative shift: 'these are not refugees, this is a weaponized attack by a hostile state.' EU backed Poland's framing (exception from migration pact requirements). The Belarus border is Tusk's justification for both migration hardline and defense buildup — it demonstrates Russia/Belarus using non-military tools to destabilize NATO's eastern flank."
+      },
+      {
+        "label": "historical_memory_politics",
+        "value": 0.71,
+        "evidence": "Polish historical memory is a live political issue. Tusk navigates multiple historical narratives: (1) WWII: Poland as victim (Nazi and Soviet occupation). (2) Solidarity: Poland as democracy champion. (3) Katyn: Russian atrocity, never fully acknowledged by Moscow. (4) Holocaust: complex (Poles as both victims and, in some cases, perpetrators — politically explosive). PiS passed controversial Holocaust law (2018) that Tusk opposed. Tusk's grandfather's Wehrmacht service: used by PiS to delegitimize him. Historical memory directly shapes current policy: Russia threat is not abstract — it is lived national trauma transmitted across generations. This distinguishes Polish Russia policy from Western European approaches."
+      },
+      {
+        "label": "transatlantic_bridge_ambition",
+        "value": 0.81,
+        "evidence": "Tusk positions Poland as bridge between US and EU, particularly valuable when Trump-EU relations are strained. Poland's credibility: (1) Spends more on defense than any other NATO ally (% GDP). (2) Buys massive amounts of US weapons. (3) Hosts US troops. (4) Provides real intelligence value on Russia. (5) Is the logistics hub for Ukraine support. This makes Poland indispensable to both Washington and Brussels — unlike most EU countries that must choose between US and EU priorities, Poland's security posture aligns both. The bridge role is contingent on Russia threat remaining paramount — if threat recedes, Poland's leverage diminishes."
+      },
+      {
+        "label": "nuclear_power_energy_security",
+        "value": 0.73,
+        "evidence": "Poland pursuing first nuclear power plants: Westinghouse AP1000 reactors (government decision 2022, maintained under Tusk). Site: Żarnowiec/Lubiatowo-Kopalino (Baltic coast). Timeline: construction expected to start 2026-2027, operational by 2035. Also pursuing Korean KHNP APR1400 as second plant. Nuclear motivation: energy independence from Russian gas, coal phase-out (Poland is EU's largest coal consumer), climate commitments. The nuclear program is consensus across Polish political spectrum — rare bipartisan agreement. It represents long-term energy security strategy complementing the defense-driven relationship with US (Westinghouse) and South Korea (KHNP)."
+      },
+      {
+        "label": "economic_growth_model_eu_integration",
+        "value": 0.77,
+        "evidence": "Poland's economic success: GDP grew from $170bn (2004 EU accession) to $810bn (2025). EU cohesion funds: Poland received ~€200bn since 2004 (largest recipient). Tusk's economic strategy: maximize EU fund absorption, attract FDI through educated workforce and competitive costs, integrate into European supply chains. GDP growth averaging 4-5% until 2020, recovering post-COVID. However: defense spending at 4.8% GDP creates fiscal pressure. Public debt rising. Risk: if EU funds diminish (2028 budget negotiations) while defense spending remains high, economic model faces structural adjustment. Poland is outgrowing its cohesion fund eligibility — transition to net contributor will be painful."
+      },
+      {
+        "label": "climate_energy_transition_reluctant",
+        "value": 0.55,
+        "evidence": "Poland is EU's most coal-dependent economy (~65% of electricity from coal in 2023). Silesian coal mining regions are politically important (50,000+ miners). Tusk supports nuclear as transition path but has slowed coal phase-out relative to EU Fit-for-55 ambitions. Polish farmers protested EU Green Deal agricultural requirements (2024). The tension: Poland wants EU membership benefits but resists EU climate mandates that threaten coal-dependent regions. Tusk manages this by: (1) Supporting nuclear (long-term). (2) Negotiating transition period extensions in Brussels. (3) Framing energy security (Russian gas independence) as higher priority than climate timeline. This is his most domestically constrained policy area."
+      },
+      {
+        "label": "catholic_church_secularization_navigation",
+        "value": 0.58,
+        "evidence": "Poland remains Europe's most Catholic country (~85% nominal, ~35% weekly attendance). The Church's political influence declined significantly: abuse scandals, backing of PiS's conservative social policies alienated younger voters. Tusk's coalition includes both social conservatives (PSL) and progressives (New Left) — must balance. Abortion: Poland has near-total ban (PiS-era Constitutional Tribunal ruling 2020). Tusk promised liberalization but coalition lacks votes. Same-sex partnerships: no progress. The Church question constrains domestic social policy but has limited impact on foreign/defense policy — the behavioral matrix's relevant dimension is that social conservatism cannot be traded for security policy flexibility."
+      },
+      {
+        "label": "intelligence_sharing_ukraine_effectiveness",
+        "value": 0.86,
+        "evidence": "Polish intelligence (ABW, SKW) has been highly effective in Ukraine context. Poland's geographic proximity, linguistic similarity, diaspora connections, and intelligence infrastructure make it a primary intelligence partner. Polish intelligence reportedly provided critical early warnings about Russian invasion timing (2022). Post-invasion: Poland's role in signals intelligence, logistics coordination, and border security intelligence is reportedly among the most valuable NATO contributions. This intelligence effectiveness gives Poland disproportionate influence in NATO decision-making — countries that provide intelligence get more say. It also means Tusk's Russia threat assessments are based on exceptionally good intelligence, not political hyperbole."
+      },
+      {
+        "label": "weimar_triangle_revival",
+        "value": 0.74,
+        "evidence": "Weimar Triangle (France-Germany-Poland): created 1991, dormant under PiS. Tusk revived it immediately after taking office (Dec 2023). Joint declarations on Ukraine, defense, EU reform. Bilateral treaty with France (signed 2024): defense cooperation, cultural exchange, strategic partnership. The Weimar Triangle gives Poland a seat at the Franco-German engine that drives EU policy. Under PiS, Poland was excluded from EU's inner circle. Tusk's return restored Poland to the core group. The revival is strategic: Poland needs France and Germany to support eastern flank priorities, and France/Germany need Poland's military credibility to make European defense real."
+      },
+      {
+        "label": "kaczyński_pis_political_opposition_management",
+        "value": 0.73,
+        "evidence": "PiS remains Poland's main opposition with ~30-35% support. Kaczyński (age 76) retains party leadership but declining health/influence. PiS's Nawrocki won presidency (May 2025) — demonstrates PiS remains electorally competitive. Tusk's challenge: PiS controls key veto points (presidency, some judiciary) and maintains loyal voter base (rural, elderly, religious conservative). PiS narrative: Tusk is 'German agent,' 'Brussels puppet,' 'destroying Polish sovereignty.' Tusk's counter: prosecute PiS corruption (Pegasus scandal, visa scandal) while avoiding appearance of political persecution. The Tusk-Kaczyński rivalry is the defining cleavage of Polish politics since 2005 — it maps onto broader EU/Atlantic vs. nationalist/sovereigntist division."
+      },
+      {
+        "label": "cyber_hybrid_defense_investment",
+        "value": 0.79,
+        "evidence": "Poland faces persistent Russian/Belarusian hybrid threats: cyberattacks on government systems, disinformation campaigns, organized migration flows, GPS spoofing near borders. Response: (1) National Cyber Security Centre expansion. (2) Partnership with NATO CCDCOE (Tallinn). (3) Anti-drone barrier (€2bn). (4) Social media monitoring for Russian disinformation. (5) Border surveillance technology (thermal imaging, radar). The hybrid defense investment reflects understanding that Russia's threat is not purely military — the 'grey zone' between peace and war is where daily confrontation occurs. Poland's eastern border is the most active hybrid warfare front in NATO."
+      },
+      {
+        "label": "solidarity_legacy_moral_authority",
+        "value": 0.75,
+        "evidence": "Tusk's political identity is rooted in Gdańsk's Solidarity movement. This provides moral authority: Poland overthrew communism through workers' resistance — supporting Ukraine's resistance to Russian imperialism is a natural continuation. The Solidarity legacy shapes Tusk's international messaging: Poland as defender of freedom against authoritarian aggression. It also provides domestic legitimacy for defense spending: 'we know what Russian domination means, we will never accept it again.' The legacy is not just symbolic — it creates genuine ideological commitment to supporting besieged democracies that distinguishes Polish policy from mere strategic calculation."
+      },
+      {
+        "label": "risk_appetite_defense_bold_domestic_cautious",
+        "value": 0.72,
+        "evidence": "Tusk displays asymmetric risk appetite: bold on defense/foreign policy (4.8% GDP spending, mine treaty withdrawal, eastern fortification), cautious on domestic reform (slow judicial reform, avoided abortion reform confrontation, gradual PiS institution reversal). The asymmetry reflects: (1) Defense/foreign policy has consensus (even PiS cannot oppose anti-Russia defense). (2) Domestic reform faces institutional vetoes (president, captured courts). (3) Coalition fragility constrains social policy. Tusk prioritizes the domain where he can act decisively (security) and manages the domain where he is constrained (domestic reform). This is rational but means PiS's institutional legacy persists longer than supporters hoped."
+      },
+      {
+        "label": "polish_diaspora_diplomatic_leverage",
+        "value": 0.66,
+        "evidence": "10+ million Polish diaspora worldwide, concentrated in US (10M+ Polish Americans), UK (1M+), Germany. Polish-American lobby: historically influential in US politics (key swing voters in Michigan, Pennsylvania, Wisconsin). Tusk leverages diaspora for: (1) US Congressional support for Poland (bipartisan). (2) UK post-Brexit bilateral relationship. (3) Soft power amplification. The diaspora is less politically mobilizable than it was during Solidarity era, but Polish-American identity in swing states gives Poland disproportionate influence in US domestic politics — a factor Tusk understands and cultivates through strategic engagements with Polish-American communities."
+      },
+      {
+        "label": "personal_political_survival_instinct",
+        "value": 0.81,
+        "evidence": "Tusk's career demonstrates exceptional political survival: lost PM position (2014) by ascending to EU presidency. Survived 8 years of PiS attacks while abroad. Returned to Poland and won 2023 election at age 66. Navigating hostile president since May 2025. The survival instinct manifests as: (1) Knowing when to retreat (took EU presidency when PiS was rising). (2) Knowing when to return (returned when PiS was weakened). (3) Maintaining networks during exile (EU/EPP connections). (4) Adaptive positioning (shifted right on migration when political landscape demanded it). Tusk is not ideologically rigid — he adapts to win, which is why he has been the most consequential Polish politician of the post-1989 era."
+      },
+      {
+        "label": "munitions_production_ukraine_supply",
+        "value": 0.80,
+        "evidence": "Poland has become a significant ammunition supplier to Ukraine. Polish ammunition factories (Mesko, PGZ subsidiaries) expanded production lines for 155mm shells, mortar rounds, and small arms ammunition. Poland reportedly provided more ammunition to Ukraine than some larger NATO allies. The supply effort serves dual purpose: (1) Direct Ukraine military support. (2) Rebuilding Polish defense industrial capacity that atrophied post-Cold War. The ammunition dimension is critical because shell shortages have been Ukraine's primary operational constraint — Poland's role in alleviating this is strategically disproportionate to its economic size."
+      },
+      {
+        "label": "european_commission_influence",
+        "value": 0.78,
+        "evidence": "Tusk's European Council presidency gave him relationships with two generations of EU Commissioners. Poland under Tusk has regained influence in Commission decision-making that was lost under PiS. Key levers: (1) EPP membership (Tusk's PO is EPP member, Commission President von der Leyen is EPP). (2) EU budget negotiations (Poland as largest cohesion fund recipient has strong interest in budget outcomes). (3) Defense industrial policy (Poland's spending makes it key stakeholder in EU defense procurement initiatives). (4) Eastern Partnership policy (Poland leads on EU eastern neighborhood). The Commission influence is structural: Tusk understands the institution, has the relationships, and Poland's defense credibility gives weight to its positions."
+      }
+    ]
+  }
+}

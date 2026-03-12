@@ -1,0 +1,404 @@
+{
+  "description": "Compressed transition periods where short-term Japanese PMs are aggregated into period-level parameter sets. These represent political/economic contexts rather than individual leader behavior matrices. Each period covers 2-8 PMs with aggregate behavior parameters. Used as period-level nodes in the simulation when individual PM precision is not available or necessary.",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_note": "Behavior parameters represent consensus/central tendency of the period's policy environment. Individual variance within period is noted in evidence strings. Values are 0-1 scale consistent with individual leader matrices.",
+  "periods": [
+    {
+      "period_name": "post_oil_crisis_stabilization",
+      "period_zh": "石油危机后稳定期",
+      "date_range": ["1974-12", "1982-11"],
+      "leaders": [
+        {"name": "Miki Takeo", "term": "1974-12 to 1976-12", "faction": "Miki faction (smallest)", "note": "Clean politics reformer, Lockheed investigation"},
+        {"name": "Fukuda Takeo", "term": "1976-12 to 1978-12", "faction": "Fukuda faction (Seiwa-kai origin)", "note": "Fiscal hawk, Fukuda Doctrine ASEAN"},
+        {"name": "Ohira Masayoshi", "term": "1978-12 to 1980-06", "faction": "Kochikai", "note": "Died in office during 1980 election campaign"},
+        {"name": "Suzuki Zenko", "term": "1980-07 to 1982-11", "faction": "Kochikai", "note": "Unintentional PM, low-profile, resigned voluntarily"}
+      ],
+      "period_context": "Post-1973 oil shock adjustment. Japan's high-growth era definitively ended. Transition from 10%+ growth to 4-5% stable growth. LDP in power throughout but severely constrained by: (1) oil price doubling → inflation risk, (2) Tanaka money politics scandal destroying LDP legitimacy, (3) global stagflation environment, (4) emerging trade friction with US. This period achieved Japan's remarkable transition to energy-efficient, knowledge-intensive economy — arguably the most successful structural adjustment in 20th century economic history.",
+      "aggregate_parameters": {
+        "fiscal_conservatism": {
+          "value": 0.78,
+          "evidence": "Fukuda Takeo was a genuine fiscal hawk — ran Finance Ministry for years, believed in balanced budgets. Ohira proposed consumption tax (1979) but failed electorally. All four PMs resisted the Tanaka-era expansionary instincts. General account expenditure growth decelerated substantially. Bond-dependency ratio peaked ~35% in 1979 but the trajectory was toward reduction."
+        },
+        "inflation_control_priority": {
+          "value": 0.85,
+          "evidence": "Post-1973 hyperinflation (24.5% in 1974) left permanent scars. BoJ under Morinaga and Maekawa tightened aggressively 1974-1975 — policy discount rate reached 9%. The political cost of inflation (contributed to Tanaka's resignation) made all successor PMs prioritize price stability above demand management. Japan's inflation was brought down faster than any other OECD country from the oil shock."
+        },
+        "us_alliance_dependence": {
+          "value": 0.82,
+          "evidence": "All four PMs maintained Yoshida Doctrine fundamentals — maximize economic growth under US security umbrella. Defense spending held at 1% GDP cap (set 1976). Fukuda Doctrine (1977): Japan would not become military power, would build Southeast Asian economic ties. US trade friction growing but managed bilaterally within alliance framework. Japan's foreign policy remained firmly US-anchored."
+        },
+        "trade_surplus_management": {
+          "value": 0.52,
+          "evidence": "Japan's trade surpluses expanded as energy-intensive industries shifted to knowledge-intensive. Automobiles and electronics exports surged. VERs (voluntary export restraints) on steel, TVs, automobiles negotiated to manage US friction. Management was bilateral and reactive rather than proactive surplus reduction. The structural origins of Japan's trade surplus (high savings, export orientation) were not addressed."
+        },
+        "industrial_restructuring_support": {
+          "value": 0.85,
+          "evidence": "MITI's management of the post-oil-shock industrial restructuring was the economic achievement of this period. Orderly capacity reduction in energy-intensive industries (petrochemicals, steel, aluminum smelting, textiles) via MITI-managed cartel arrangements. Investment directed toward energy-efficient production and knowledge-intensive industries. The 'recession cartels' enabled soft landings. Simultaneously, energy efficiency investment was world-leading — Japan's energy intensity fell faster than any major economy."
+        },
+        "energy_efficiency_investment": {
+          "value": 0.92,
+          "evidence": "Japan's energy efficiency improvement 1973-1985 was extraordinary — GDP per unit of energy fell by approximately 40% relative to OECD peers. Companies invested massively in energy-saving technologies driven by high energy costs. Government incentive programs and guidance accelerated this. By the 1980s, Japan was running massive trade surpluses partly because energy-efficient products (cars, electronics) were globally competitive."
+        },
+        "miti_industrial_policy_activism": {
+          "value": 0.88,
+          "evidence": "MITI at peak power and effectiveness during this period. VLSI (Very Large Scale Integration) Project 1976-1980: coordinated R&D across Fujitsu, Hitachi, NEC, Toshiba for semiconductor technology. Fifth Generation Computer Project. 'Structurally depressed industries' legislation enabling managed contraction. MITI's industrial guidance in this period is textbook developmental state operation."
+        },
+        "lhp_political_legitimacy": {
+          "value": 0.52,
+          "evidence": "LDP's political legitimacy was severely damaged by Tanaka/Lockheed scandal. Miki attempted clean politics but was politically weak. 1976 election: LDP lost Lower House majority for first time (needed independent cooperation). Gradually recovered under Fukuda/Ohira but public trust remained lower than high-growth era. The social contract — LDP delivers growth, public accepts LDP rule — was strained as growth rate declined."
+        },
+        "financial_system_stability": {
+          "value": 0.75,
+          "evidence": "The 'convoy system' — MoF never allowing a major bank to fail — was at its height. Small bank failures absorbed by MoF-arranged mergers. No major financial instability in this period. But the system was fundamentally unreformed — this stability would become fragility in the 1990s when bad loans accumulated from bubble."
+        },
+        "social_cohesion_maintenance": {
+          "value": 0.80,
+          "evidence": "Despite growth deceleration, Japan maintained social cohesion through: (1) company-based employment system keeping unemployment very low despite major industrial restructuring, (2) income equalization through Tanaka-era welfare expansion being maintained, (3) wage growth keeping pace with productivity. The relatively equal income distribution of this period compared well with other OECD countries. Social unrest from economic adjustment was minimal."
+        },
+        "boj_anti_inflation_independence": {
+          "value": 0.72,
+          "evidence": "BoJ under Morinaga Teiichiro was more aggressive on inflation control than LDP politicians wanted — discount rate hike to 9% in 1973-74. Maekawa Haruo (BoJ governor 1979-1984) conducted tighter policy than government would have preferred during second oil shock. De facto BoJ independence on inflation was higher than formal institutional structure suggested — MoF coordination maintained but inflation priority real."
+        },
+        "asia_engagement_depth": {
+          "value": 0.72,
+          "evidence": "Fukuda Doctrine (Aug 1977): Japan declared it would not be a military power, would build heart-to-heart ties with ASEAN including Indochina (despite Vietnam War aftermath), and act as bridge between ASEAN and Indochina. Official Development Assistance (ODA) expanded massively — Japan became world's largest ODA donor by early 1980s. ASEAN engagement was the major foreign policy initiative of this period."
+        },
+        "political_reform_pressure": {
+          "value": 0.65,
+          "evidence": "Miki Takeo (1974-1976) came in on a 'clean politics' mandate post-Tanaka — pursued Political Funds Control Law reforms, backed Lockheed investigation (unusual for LDP PM to pursue corruption investigation of predecessor). Subsequent PMs were less reform-oriented. The structural money politics of LDP was challenged rhetorically but not fundamentally reformed. Reform pressure was real but insufficient."
+        },
+        "domestic_demand_vs_export": {
+          "value": 0.45,
+          "evidence": "Japan's growth engine shifted from domestic investment (high-growth era) toward export-led growth in this period. The high savings rate and export surplus grew. US pressure to expand domestic demand was resisted. The export orientation that would create severe trade friction in the 1980s was hardening in this period."
+        },
+        "nuclear_power_expansion": {
+          "value": 0.82,
+          "evidence": "Post-oil shock, Japan accelerated nuclear power expansion as energy security response. Nuclear capacity grew from ~3GW (1973) to ~15GW (1982). All four PMs supported nuclear expansion. The political consensus for nuclear power was at its strongest in this period — safety concerns existed but were managed. Energy security overwhelmingly dominated the debate."
+        },
+        "china_normalization_follow_through": {
+          "value": 0.78,
+          "evidence": "Tanaka's 1972 normalization was followed by the Japan-China Treaty of Peace and Friendship (Aug 1978 — Fukuda). Trade and investment expanded rapidly. Japan became China's leading source of ODA. All four PMs maintained and developed China relationship. Japan-China economic relationship was the fastest-growing bilateral relationship of the period — and Japan was exporting its production technology to China's state-owned enterprises."
+        },
+        "vietnam_southeast_asia_engagement": {
+          "value": 0.70,
+          "evidence": "Fukuda Doctrine explicitly included Indochina (Vietnam, Cambodia, Laos) in Japan's ASEAN engagement despite US-Vietnam hostility. Japan was one of the first major OECD countries to normalize relations with unified Vietnam. This independent regional engagement was notable — Japan acting independently of US posture in Southeast Asia."
+        },
+        "second_oil_shock_management": {
+          "value": 0.80,
+          "evidence": "Second oil shock (1979 Iranian Revolution) was managed significantly better than 1973: (1) energy efficiency investments meant lower impact per unit of GDP, (2) BoJ tightened faster, (3) no commodity hoarding panic, (4) Ohira/Suzuki maintained fiscal discipline. Japan's handling of second oil shock was cited internationally as superior adjustment model."
+        },
+        "productivity_improvement_trend": {
+          "value": 0.88,
+          "evidence": "This period saw Japan's highest total factor productivity growth — the export industries that survived oil shock rationalization became world-competitive. Toyota Production System, just-in-time manufacturing, quality circles. Japan's automobile quality surpassed US/European competitors. Electronics (Sony Walkman 1979, Fujitsu/NEC computers) established global competitiveness. The productivity improvement was not government-mandated but government-facilitated."
+        }
+      }
+    },
+    {
+      "period_name": "bubble_collapse_political_chaos",
+      "period_zh": "泡沫崩溃与政治混乱期",
+      "date_range": ["1987-11", "1996-01"],
+      "leaders": [
+        {"name": "Takeshita Noboru", "term": "1987-11 to 1989-06", "faction": "Takeshita faction (Tanaka split)", "note": "Recruit scandal, consumption tax 3% (Apr 1989)"},
+        {"name": "Uno Sosuke", "term": "1989-06 to 1989-08", "faction": "Tanaka/Takeshita-aligned", "note": "Two months, sex scandal"},
+        {"name": "Kaifu Toshiki", "term": "1989-08 to 1991-11", "faction": "Miki faction", "note": "Gulf War $13B check-book diplomacy; clean image"},
+        {"name": "Miyazawa Kiichi", "term": "1991-11 to 1993-08", "faction": "Kochikai", "note": "Bubble collapse management; PKO legislation; 1993 no-confidence vote"},
+        {"name": "Hosokawa Morihiro", "term": "1993-08 to 1994-04", "faction": "Japan New Party (opposition coalition)", "note": "First non-LDP PM in 38 years, political reform"},
+        {"name": "Hata Tsutomu", "term": "1994-04 to 1994-06", "faction": "Renewal Party", "note": "2 months minority government"},
+        {"name": "Murayama Tomiichi", "term": "1994-06 to 1996-01", "faction": "Japan Socialist Party", "note": "Socialist PM in LDP-JSP coalition, Hanshin earthquake"}
+      ],
+      "period_context": "Eight and a half years covering the peak of the asset bubble (under Takeshita), the bubble's collapse (1990-1991), political earthquake (1993 LDP loses power for first time in 38 years), and the tumultuous 1993-1996 coalition governments including Japan's first Socialist PM since 1948. The bad loan problem began accumulating silently as real estate and equity values fell. Political instability prevented decisive economic policy. 1995 Kobe earthquake (Jan) and Aum Shinrikyo subway attack (Mar) added governance crises.",
+      "aggregate_parameters": {
+        "bubble_monetary_policy_error": {
+          "value": 0.05,
+          "evidence": "BoJ under Mieno Yasushi kept rates too low through 1987-1989 (post-Plaza easing), then hiked aggressively from 1989-1990 (discount rate 2.5%→6%). This boom-bust monetary cycle — too loose during bubble inflation, too tight during collapse — was the single largest policy error of the period. Not one of the PMs effectively challenged or corrected BoJ's procyclical behavior."
+        },
+        "bad_loan_recognition_speed": {
+          "value": 0.18,
+          "evidence": "Throughout this period, the true scale of bank bad loans from the bubble's collapse was systematically obscured. MoF's 'convoy system' encouraged regulatory forbearance. Banks used accounting tricks to delay recognition. Official estimates of bad loans in 1993-1995 were in the ¥40-50T range; actual total eventually exceeded ¥100T. No PM in this period forced genuine bad loan recognition — the problem was allowed to fester."
+        },
+        "fiscal_stimulus_hesitancy": {
+          "value": 0.55,
+          "evidence": "Multiple stimulus packages were announced (Miyazawa packages totaling ¥10T+) but implementation was slow and mixed with accounting gimmicks (counting existing spending as new). Real new stimulus was smaller than headline numbers. Political instability (1993-1996 revolving door) prevented sustained fiscal policy. The stimulus was insufficient for the scale of the balance-sheet recession."
+        },
+        "political_instability": {
+          "value": 0.90,
+          "evidence": "1993: LDP loses power for first time in 38 years after no-confidence vote over political reform. 1993-1996: Five different PMs (Hosokawa, Hata, Murayama, then LDP returns). Coalition arithmetic constantly shifting. Hosokawa resigned over political funds issues (Apr 1994 — ironic for clean-government PM). Hata's minority government lasted 2 months. Murayama (Socialist) in LDP-JSP-Sakigake coalition was a surreal ideological reversal. Policy coherence suffered severely."
+        },
+        "political_reform_legislation": {
+          "value": 0.78,
+          "evidence": "The political earthquake of 1993 produced genuine political reform: Hosokawa government enacted electoral system reform (1994) — changing Lower House to mixed member majoritarian from pure PR/multi-member districts. This was the most significant electoral reform in postwar Japan, aimed at reducing money politics by creating more competition. The reform ultimately contributed to PM rotation/stronger PM power over the next two decades."
+        },
+        "gulf_war_check_book_diplomacy": {
+          "value": 0.42,
+          "evidence": "Japan's response to 1991 Gulf War — providing $13B but no military participation — was globally criticized as 'check-book diplomacy' without strategic engagement. The trauma of this criticism drove Japan's subsequent UN PKO legislation (1992 — Kaifu government) allowing JSDF participation in UN peacekeeping. Japan's inability to participate militarily was seen domestically as strategic humiliation."
+        },
+        "consumption_tax_introduction": {
+          "value": 0.75,
+          "evidence": "Takeshita government introduced consumption tax at 3% (Apr 1989) after Ohira had tried and failed in 1979. This was a significant fiscal achievement — broadening Japan's tax base from income tax dependency. Takeshita paid political price (Recruit scandal combined with unpopular tax to destroy his government), but the consumption tax framework was established and proved durable."
+        },
+        "semiconductor_trade_war": {
+          "value": 0.55,
+          "evidence": "US-Japan Semiconductor Agreement (1986) — continued through this period. Japan's semiconductor market share targets caused bilateral friction. DRAM price manipulation accusations. By mid-1990s, Korean and Taiwanese competitors were emerging. Japan's semiconductor leadership was eroding. Government/industry response was insufficient to maintain competitiveness against cost competition."
+        },
+        "bubble_peak_land_equity": {
+          "value": 0.95,
+          "evidence": "At the bubble's peak (1989-1990), Tokyo real estate values exceeded the entire US property market. Nikkei reached 38,915 (Dec 1989). Land prices in Tokyo's Chiyoda ward were $93,000/sq meter. These absurd valuations reflected post-Plaza monetary easing + financial deregulation + corporate cross-shareholding. No policy actor — PM, MoF, BoJ — effectively pricked the bubble while it was inflating."
+        },
+        "hanshin_earthquake_response": {
+          "value": 0.45,
+          "evidence": "Hanshin-Awaji earthquake (Jan 17, 1995, 6,400 deaths) under Murayama revealed severe institutional failure. JSDF deployment delayed 3 days (Murayama, ideologically anti-military Socialist, hesitated). Kobe city government failed to coordinate. NGO/volunteer response was far more effective than government. The disaster exposed Japan's emergency response institutional weakness — a diagnosis that influenced subsequent reforms."
+        },
+        "aum_shinrikyo_attack_response": {
+          "value": 0.52,
+          "evidence": "Aum Shinrikyo subway attack (Mar 20, 1995) — sarin gas, 13 killed, 50+ severely injured — under Murayama. The response was relatively effective (rapid evacuation, medical response). Investigation eventually broke Aum. But prior warning signs (1994 Matsumoto attack, pre-crime information) had been missed. Intelligence/law enforcement failure acknowledged. Anti-conspiracy legislation became a political issue."
+        },
+        "lhp_system_breakdown_1993": {
+          "value": 0.85,
+          "evidence": "The 1955 System (LDP one-party dominance with JSP as permanent opposition) ended in 1993. Multiple LDP splinter parties formed (Renewal Party, Harbinger Party, Japan New Party). The opposition coalition government was inherently unstable but ended LDP's claim to permanent mandate. When LDP returned (via LDP-JSP-Sakigake coalition), it was a fundamentally different political landscape. The factional money-politics system that had sustained LDP was delegitimized."
+        },
+        "corporate_restructuring_delay": {
+          "value": 0.22,
+          "evidence": "Japanese corporations were slow to restructure in response to bubble collapse. Cross-shareholding maintained (reciprocal equity holdings). Excess employment maintained (corporate welfare). Bad loans allowed to roll over (banks wanted to avoid bankruptcy declarations). Main bank system provided implicit guarantees delaying market exit. This delay in creative destruction prolonged the adjustment and contributed to the lost decade. No government pushed corporate restructuring during this period."
+        },
+        "foreign_direct_investment_resistance": {
+          "value": 0.28,
+          "evidence": "Japan's keiretsu system (cross-shareholding, main bank relationships) effectively blocked foreign acquisition of Japanese firms even as asset prices fell dramatically. Foreign investors who attempted M&A faced cultural/legal/shareholder resistance. Inbound FDI remained at ~0.6% of GDP — far below other OECD countries. The bubble collapse should have enabled foreign capital recapitalization but structural barriers prevented it."
+        },
+        "pko_legislation_security_expansion": {
+          "value": 0.70,
+          "evidence": "UN PKO Cooperation Law (1992 — Kaifu/Miyazawa): Japan could send JSDF to UN peacekeeping operations with strict conditions (ceasefire in place, Japan invited, neutrality maintained, use of force only for self-protection). First PKO deployment Cambodia (UNTAC, 1992-1993). Gulf War criticism as catalyst. This was a significant, if cautious, expansion of Japan's security role — the first departure from purely non-military foreign engagement."
+        },
+        "economic_policy_lost_decade_origin": {
+          "value": 0.15,
+          "evidence": "The 1991-1996 period is the origin of Japan's 'lost decade' (later extended to two decades). The policy errors were: (1) insufficient fiscal stimulus for the scale of balance-sheet recession, (2) zero bad loan recognition forcing zombie banks to continue operating, (3) BoJ tightening too aggressively into the asset price collapse, (4) political instability preventing sustained policy. The cost of these errors — in lost GDP, deflation, youth unemployment — was enormous."
+        },
+        "yen_strength_shock": {
+          "value": 0.60,
+          "evidence": "Yen appreciated from 130/dollar (1991) to 80/dollar (Apr 1995) — the strongest in postwar history. This 'endaka' shock severely damaged export competitiveness and contributed to deflationary pressure. Government and BoJ eventually intervened (coordinated with US in Aug 1995 to weaken yen). The yen's strength reflected capital flows, bubble deflation, and Japan's current account surplus persistence."
+        },
+        "social_welfare_system_strain": {
+          "value": 0.62,
+          "evidence": "Aging society + economic slowdown + consumption tax introduction + unemployment beginning to rise (slowly — still only 3.5% in 1996 but visible trend). Social welfare spending growing as demographics deteriorated. The fiscal math of aging Japan was becoming undeniable but politically difficult to address — either tax revenue had to rise or benefits had to fall."
+        }
+      }
+    },
+    {
+      "period_name": "pre_koizumi_stagnation",
+      "period_zh": "小泉前停滞期",
+      "date_range": ["1998-07", "2001-04"],
+      "leaders": [
+        {"name": "Obuchi Keizo", "term": "1998-07 to 2000-04", "faction": "Tanaka/Takeshita/Obuchi faction", "note": "Died in office; major fiscal stimulus packages; bank recapitalization finally"},
+        {"name": "Mori Yoshiro", "term": "2000-04 to 2001-04", "faction": "Seiwa-kai (Fukuda/Abe faction predecessor)", "note": "Gaffe-prone; approval 9% at lowest; IT strategy"}
+      ],
+      "period_context": "The aftermath of Hashimoto's 1997 policy errors and the banking crisis. Obuchi executed the bank recapitalization that Hashimoto had refused. Japan's deflation became embedded. BoJ initiated zero interest rate policy (Feb 1999) and the first QE (Mar 2001 — last month of Mori tenure). Fiscal expansion was massive but with BoJ at zero bound, monetary and fiscal policy lost traction. Obuchi's sudden death (stroke Apr 2000, died May 2000) disrupted policy continuity. Mori's tenure was characterized by political embarrassment (multiple gaffes) and low legitimacy, setting the stage for Koizumi's 'reform with no sacred cows' mandate.",
+      "aggregate_parameters": {
+        "bank_recapitalization_execution": {
+          "value": 0.72,
+          "evidence": "Obuchi government finally passed what Hashimoto refused: ¥60T in public funds framework for bank recapitalization (Oct 1998). Long-Term Credit Bank nationalized (Oct 1998), Nippon Credit Bank nationalized (Dec 1998). This was the decisive intervention that prevented a systemic banking collapse. Obuchi accepted the political cost of 'bailing out banks' that Hashimoto had refused. The 1998-1999 recapitalization was essential but years too late — the damage to the real economy had already accumulated."
+        },
+        "fiscal_stimulus_scale": {
+          "value": 0.85,
+          "evidence": "Multiple large supplementary budgets: ¥24T (Nov 1998), ¥18T (Nov 1999). Total fiscal stimulus over Obuchi's tenure was among the largest peacetime stimulus efforts in OECD history relative to GDP. However, the stimulus was partly public works (LDP construction pork) rather than targeted demand management. The fiscal multiplier was low as consumers and businesses continued to deleverage. Debt-to-GDP ratio rose sharply."
+        },
+        "zero_interest_rate_policy": {
+          "value": 0.88,
+          "evidence": "BoJ's Zero Interest Rate Policy (ZIRP, Feb 1999): policy rate set to zero for first time in history ('until deflationary concerns are dispelled'). BoJ lifted ZIRP prematurely (Aug 2000) despite still-deflationary conditions — and reversed it (Feb 2001) within months. This premature exit from ZIRP under Mori was a significant policy error. QE followed in Mar 2001."
+        },
+        "deflation_entrenchment": {
+          "value": 0.20,
+          "evidence": "CPI entered negative territory in 1999 and remained negative/near-zero through early 2000s. The deflationary spiral — falling prices → delayed purchases → weaker demand → further falling prices — was becoming entrenched. No combination of fiscal and monetary policy broke the deflationary psychology during this period. The deflation would persist until Abenomics 2013-2014. Value represents effectiveness of anti-deflation policy (low = ineffective)."
+        },
+        "it_strategy_investment": {
+          "value": 0.72,
+          "evidence": "Mori government's IT Basic Law (Jan 2001) and IT Strategy Council's 'e-Japan' plan — ambitious 5-year broadband rollout and e-government target. Japan's broadband penetration subsequently became world-leading (ADSL/fiber rollout 2001-2005). The IT strategy was one of Mori's few substantive policy achievements despite low political legitimacy."
+        },
+        "political_legitimacy_crisis": {
+          "value": 0.10,
+          "evidence": "Mori's approval rating fell to 9% (Jun 2000 — the lowest in postwar history to that point) after multiple gaffes: (1) delayed golf game response to Ehime Maru submarine collision (Feb 2001, 9 dead), (2) 'Japan is a divine nation centered on the emperor' speech, (3) sleeping during Japan-US phone call. He was protected from LDP ouster by lack of obvious successor until Koizumi emerged. Value represents political legitimacy level (very low)."
+        },
+        "obuchi_sudden_death_disruption": {
+          "value": 0.30,
+          "evidence": "Obuchi suffered a stroke (Apr 1, 2000) and died May 14, 2000. His death disrupted the ongoing fiscal stabilization program. He had been managing a Liberal-New Komeito-Conservative coalition and had achieved the banking recapitalization. His death was a significant political disruption that contributed to policy incoherence under Mori. Value represents policy continuity quality (low = disrupted)."
+        },
+        "construction_pork_fiscal_waste": {
+          "value": 0.82,
+          "evidence": "Obuchi's massive stimulus packages were heavily weighted toward public works — roads, bridges ('bridges to nowhere'), public facilities. The LDP construction state was still running in full. Fiscal multiplier was low because much spending went to politically directed construction with limited productivity impact. The waste in public works was internationally noted and contributed to Japan's fiscal deterioration without equivalent economic benefit."
+        },
+        "bad_loan_progress_incremental": {
+          "value": 0.38,
+          "evidence": "After the 1998 recapitalization framework, bad loan disposal began but slowly. Banks used the public funds to shore up capital but were slow to write off loans. Financial Supervisory Agency (FSA) tightened inspections but major banks still had significant undisclosed bad loans. The full Takenaka shock that would force genuine cleanup was still 2-3 years away. Progress was incremental and insufficient."
+        },
+        "north_korea_engagement_kdj": {
+          "value": 0.65,
+          "evidence": "Korean 'Sunshine Policy' under Kim Dae-jung (1998-2003) affected Japan-North Korea context. Japan participated in KEDO (Korean Peninsula Energy Development Organization) providing nuclear reactors. Japan-North Korea bilateral normalization talks began. The Clinton administration's US-DPRK framework — which the Mori government had to navigate — was the diplomatic environment before Bush's 'axis of evil' (2002) reset the agenda."
+        },
+        "us_alliance_continuity": {
+          "value": 0.80,
+          "evidence": "US-Japan alliance maintained through Obuchi and Mori tenures. Both premiers attended G8 summits. Security guidelines implementation (1997 framework) continued. The alliance was not under fundamental stress in this period — no major friction comparable to trade war era. The main diplomatic drama was North Korea and the Okinawa base review (ongoing from Hashimoto era)."
+        },
+        "lhp_coalition_politics": {
+          "value": 0.62,
+          "evidence": "Obuchi built a three-party coalition (LDP + New Komeito + Liberal Party/Ozawa Ichiro). Coalition with New Komeito was the beginning of a durable LDP-Komeito alliance that would persist through Abe era. Komeito brought its Soka Gakkai organizational base. The coalition arithmetic required managing Komeito's pacifist instincts against security policy expansion desires."
+        },
+        "economic_reform_structural": {
+          "value": 0.35,
+          "evidence": "Structural reform was largely absent in this period — Obuchi was focused on crisis management (banking recapitalization, stimulus) and Mori on political survival. The Japan that Koizumi inherited in Apr 2001 was characterized by: zombie banks still surviving despite 1998 recapitalization, deflation entrenched, massive public debt from stimulus packages, and structural microeconomic problems (retail distribution, agriculture, construction) unaddressed."
+        },
+        "population_working_age_peak": {
+          "value": 0.40,
+          "evidence": "Japan's working-age population peaked around 1995 and began declining. The demographic headwind was becoming measurable in labor market statistics. Potential GDP growth rate was visibly declining — not just cyclically but structurally. Immigration policy was not adapted to address this (would not be seriously addressed until Abe). The demographic trajectory that would make 'normal' growth unachievable was already locked in."
+        }
+      }
+    },
+    {
+      "period_name": "post_koizumi_revolving_door",
+      "period_zh": "小泉后旋转门时期",
+      "date_range": ["2006-09", "2012-12"],
+      "leaders": [
+        {"name": "Abe Shinzo (1st term)", "term": "2006-09 to 2007-09", "faction": "Seiwa-kai", "note": "Resigned citing health/political scandals; constitutional revision agenda"},
+        {"name": "Fukuda Yasuo", "term": "2007-09 to 2008-09", "faction": "Fukuda faction (Seiwa-kai)", "note": "Resigned citing political ineffectiveness; global financial crisis beginning"},
+        {"name": "Aso Taro", "term": "2008-09 to 2009-08", "faction": "Aso faction", "note": "Global financial crisis management; 2009 LDP landslide defeat"},
+        {"name": "Hatoyama Yukio", "term": "2009-09 to 2010-06", "faction": "Democratic Party of Japan", "note": "DPJ first PM; Okinawa promise broken; resigned"},
+        {"name": "Kan Naoto", "term": "2010-06 to 2011-09", "faction": "DPJ", "note": "Fukushima nuclear disaster (Mar 2011); resigned under pressure"},
+        {"name": "Noda Yoshihiko", "term": "2011-09 to 2012-12", "faction": "DPJ", "note": "Consumption tax increase to 10% promised; lost 2012 election to Abe"}
+      ],
+      "period_context": "Six Prime Ministers in six years — the peak of Japan's revolving door. Three LDP PMs (Abe 1st, Fukuda, Aso) lost power due to political failures and the Global Financial Crisis. Three DPJ PMs (Hatoyama, Kan, Noda) held power 2009-2012 but were unable to translate their historic victory into durable governance — culminating in the Fukushima nuclear disaster and economic mismanagement. The period ended with Abe's decisive return in December 2012.",
+      "aggregate_parameters": {
+        "policy_continuity": {
+          "value": 0.18,
+          "evidence": "Six PMs in six years made sustained policy implementation impossible. Each PM entered with an agenda and left before achieving it. Abe 1st: constitutional revision abandoned. Fukuda: inconclusive. Aso: GFC management disrupted by election defeat. Hatoyama: Futenma broken promise destroyed him. Kan: Fukushima consumed everything. Noda: forced into early election. No multi-year program was implemented to completion."
+        },
+        "global_financial_crisis_response": {
+          "value": 0.68,
+          "evidence": "Japan's GFC response (under Aso primarily) was large in scale: ¥75T in stimulus packages announced, bank capital injection framework. Japan's financial sector was less directly exposed than US/Europe (no significant subprime holdings) — but export sector was devastated (exports fell 50% YoY by 2009). GDP fell ~8% from peak. The fiscal response was substantial if inefficient. Aso's response was better than the headline electoral defeat suggested."
+        },
+        "fukushima_nuclear_crisis": {
+          "value": 0.25,
+          "evidence": "March 11, 2011: Tohoku earthquake (Mw 9.0) + tsunami + Fukushima Daiichi meltdown — triple disaster. Kan government's response: (1) initial information management was poor (TEPCO withholding information), (2) Kan personally intervened in on-site management (controversial), (3) evacuation zones expanded over time. Recovery: 20,000 died (tsunami), Fukushima contamination zone, nuclear program suspended. Kan announced 'zero nuclear' policy. The disaster exposed deep institutional governance failures. Value represents response quality (low = poor)."
+        },
+        "djp_governance_failure": {
+          "value": 0.28,
+          "evidence": "DPJ's 2009 historic victory (308/480 seats) was followed by three PMs in three years and return to LDP in 2012. Key failures: (1) Hatoyama broke Okinawa promise (moved Futenma outside Okinawa) within months of taking office, destroying credibility. (2) DPJ's 'manifest democracy' (policy cabinet without bureaucratic support) failed to leverage state capacity. (3) Bureaucratic resistance to DPJ policy direction. (4) Fukushima consumed Kan. (5) Noda called election on consumption tax issue and lost badly. DPJ proved structurally incapable of sustained governance."
+        },
+        "yen_appreciation_acute": {
+          "value": 0.25,
+          "evidence": "Yen appreciated to 75/dollar (Oct 2011) — post-Fukushima safe-haven flows + risk-off from Eurozone crisis + BoJ's refusal to act boldly. This 'super-endaka' devastated export competitiveness and contributed to manufacturers accelerating overseas relocation. Noda government's MoF intervention was insufficient. The yen finally began depreciating only after Abe's election victory signaled future aggressive monetary easing (Nov-Dec 2012). Value represents yen management effectiveness (low = ineffective)."
+        },
+        "deflation_persistence": {
+          "value": 0.15,
+          "evidence": "Japan remained in deflation throughout this period (brief exception during commodity price spike 2008). CPI was negative or near-zero 2007-2012. BoJ maintained ZIRP but refused to adopt bold unconventional easing (balance sheet expansion was modest). DPJ government accepted deflation as structural rather than addressable by policy. The deflationary mindset was deeply entrenched. Value represents success in fighting deflation (very low = still deflationary)."
+        },
+        "us_japan_alliance_strain_hatoyama": {
+          "value": 0.42,
+          "evidence": "Hatoyama's campaign promise to move Futenma airbase 'outside Okinawa, if possible outside Japan' was a direct challenge to the US base agreement. He spent 8 months pursuing this before accepting the existing agreement — having destroyed his own credibility and damaged US-Japan alliance trust in the process. The DPJ government generally wanted a more 'equal' US relationship, which was interpreted in Washington as distancing. Alliance was under its greatest stress since 1960 Security Treaty."
+        },
+        "aso_gfc_fiscal_response": {
+          "value": 0.72,
+          "evidence": "Aso Taro's GFC response (Oct 2008 - Aug 2009) was actually substantive: ¥10T+ real fiscal stimulus, bank capital measures, targeted programs for unemployment and SME financing. Japan's banking system did not collapse (unlike Lehman-exposed institutions elsewhere). Unemployment rose to 5.7% but recovered faster than US/Europe. Aso's policies were reasonable but he was politically destroyed by election timing (he had waited too long to call the election while his approval ratings collapsed)."
+        },
+        "earthquake_tsunami_reconstruction": {
+          "value": 0.62,
+          "evidence": "Post-3.11 reconstruction: Kan and Noda governments established reconstruction agencies, passed large supplementary budgets (¥26T total), and managed the extraordinary complexity of rebuilding the Tohoku coast. The reconstruction was slow (bureaucratic, land use issues, regulatory complexity) but not catastrophically mismanaged. Japan's institutional capacity for post-disaster reconstruction, while imperfect, prevented secondary humanitarian catastrophe."
+        },
+        "lhp_factional_management": {
+          "value": 0.32,
+          "evidence": "Within LDP, the factional system that had sustained long PM tenures (Tanaka 2yr, Nakasone 5yr, Koizumi 5yr) was broken. Post-Koizumi electoral system changes (proportional representation expansion, weaker party machine) meant PMs could not build stable factional coalitions. Each LDP PM in this period was destroyed by combination of: policy failures, media criticism, and factional rivals withdrawing support within months."
+        },
+        "nuclear_power_post_fukushima": {
+          "value": 0.30,
+          "evidence": "All nuclear reactors eventually shut down for safety inspections (last offline May 2012 — Japan was nuclear-free for a period). DPJ governments adopted 'nuclear-free society' direction. This created an energy crisis — LNG imports surged, trade surplus turned to deficit (2012 first time since 1981). The economic cost of nuclear phase-out was approximately 3.5 trillion yen/year in additional fuel imports. Noda government approved some restarts before the 2012 election. Value represents policy coherence on energy (low = chaotic)."
+        },
+        "abenomics_premonition": {
+          "value": 0.70,
+          "evidence": "The failures of this period — especially yen appreciation, deflation persistence, and DPJ governance — created the political and intellectual environment for Abenomics. Abe's 2012 campaign explicitly promised unconventional monetary easing, fiscal flexibility, and structural reform. The 'what we definitely cannot do' lessons (yen appreciation to 75, deflation, revolving-door PM) were clear from this period. Abenomics was a direct policy response to the 2006-2012 failures."
+        },
+        "china_senkaku_tension": {
+          "value": 0.55,
+          "evidence": "Senkaku Islands tension: Chinese fishing boat collision with JCG vessel (Sep 2010) — Kan government initially arrested captain then released him under apparent Chinese pressure. Japanese government purchase of Senkaku islands from private owner (Sep 2012 — Noda) triggered massive anti-Japanese protests in China and PLA naval activities. The nationalization decision (intended to prevent Tokyo Governor Ishihara from buying them more provocatively) backfired diplomatically. China-Japan territorial tension accelerated."
+        },
+        "consumption_tax_noda_promise": {
+          "value": 0.68,
+          "evidence": "Noda government enacted consumption tax increase (3%→8% Apr 2014, then 10%) with a commitment to call an election after passage — he honored the commitment. This was a significant political sacrifice: passing the unpopular tax increase against DPJ internal resistance and then calling the election he knew he would lose. It set the framework for Abe to eventually implement the increases (with multiple delays)."
+        },
+        "media_politics_communication": {
+          "value": 0.35,
+          "evidence": "None of the six PMs were effective media communicators. Fukuda was competent but uncharismatic. Aso was gaffe-prone (misread kanji — embarrassing for a PM). Hatoyama was well-meaning but incompetent in execution. Kan was conflict-driven but unable to build consensus. Noda was honest and competent but lacked political appeal. After Koizumi's theatrical brilliance, all these PMs looked inadequate. Media management was uniformly poor."
+        }
+      }
+    },
+    {
+      "period_name": "post_abe_transition",
+      "period_zh": "安倍后过渡期",
+      "date_range": ["2020-09", "2024-10"],
+      "leaders": [
+        {"name": "Suga Yoshihide", "term": "2020-09 to 2021-10", "faction": "Non-factional / former Abe camp", "note": "COVID management; vaccine rollout; digital reform; resigned citing COVID fatigue"},
+        {"name": "Kishida Fumio (covered separately)", "term": "2021-10 to 2024-10", "note": "See kishida_fumio.json for full profile"},
+        {"name": "Ishiba Shigeru (current as of 2026-03)", "term": "2024-10 to present", "faction": "Ishiba faction (regional development)", "note": "Unexpectedly won LDP presidential race; minority government"}
+      ],
+      "period_context": "Post-Abe era: the longest-serving PM in Japanese history resigned Aug 28, 2020. The period is characterized by: (1) COVID management varying quality, (2) continuation of Abe's security and economic legacy without the political master who created it, (3) political funds scandal 2023-2024 that destroyed LDP's majority and credibility, (4) BoJ's gradual normalization from Abenomics ultra-loose monetary policy, (5) increasing assertiveness on defense/security (defense doubling under Kishida), (6) Ishiba's minority government navigating LDP's weakened position. For Kishida full profile see kishida_fumio.json.",
+      "aggregate_parameters": {
+        "covid_vaccine_rollout": {
+          "value": 0.62,
+          "evidence": "Japan's COVID vaccine rollout: initially very slow (started Feb 2021, months behind US/UK/EU — only 1% vaccinated by Mar 2021) due to regulatory approval delays and bureaucratic process. Suga government accelerated dramatically — reached 80% vaccination rate by Oct 2021. Mobile vaccination centers, mass vaccination sites at stadiums. The acceleration was remarkable. However the initial slowness was worse than peer countries. Value represents average quality of vaccination execution."
+        },
+        "covid_economic_response": {
+          "value": 0.68,
+          "evidence": "COVID economic response packages totaled ¥300T (headline) across Abe, Suga, and Kishida — equivalent to 50%+ of GDP in announced measures (though real additional spending was much smaller). Employment subsidy (Koyo Chosei Josei-kin) maintained employment surprisingly well — unemployment peaked at only 3.0% despite deep recession. Tourism support schemes (GoTo Travel) were politically controversial (launched during COVID waves). COVID response was large in scale, mixed in targeting."
+        },
+        "suga_digital_reform": {
+          "value": 0.72,
+          "evidence": "Suga established Digital Agency (Sep 2021) — addressing Japan's notorious administrative paper-form obsession and digital lag. My Number (national ID) card promotion. Administrative procedure digitization. Suga identified Japan's digital backwardness (fax machines in ministries, hanko (seal) requirements) as a fundamental competitive weakness. Digital Agency establishment was a genuine structural reform achievement of his short tenure."
+        },
+        "suga_carrier_reform": {
+          "value": 0.75,
+          "evidence": "Suga forced Japan's mobile telecom carriers (NTT Docomo, au/KDDI, SoftBank) to reduce mobile data/voice prices — prices fell 30-40% through competitive pressure and government guidance. This was a pro-consumer regulatory intervention that was unusual in Japan's cozy carrier oligopoly. Low consumer prices for mobile services were a genuine welfare improvement."
+        },
+        "lhp_political_funds_scandal": {
+          "value": 0.08,
+          "evidence": "LDP political funds scandal (Nov 2023 exposed): Abe faction (Seiwa-kai) systematically created off-book funds by failing to report kickbacks from political fundraising events. Total undisclosed funds: approximately ¥1B+. Kishida disbanded his own faction (Jan 2024). Multiple Diet members investigated, some indicted. LDP lost Upper House by-elections. Oct 2024 Lower House election: LDP-Komeito coalition lost majority — first time since 2009. The scandal was the worst political corruption revelation since Lockheed (1976). Value represents ethical/governance quality (very low)."
+        },
+        "boj_normalization_trajectory": {
+          "value": 0.65,
+          "evidence": "BoJ under Ueda Kazuo (Apr 2023): Jul 2023 YCC relaxation (0.5%→1% cap), Oct 2023 further relaxation, Mar 2024 ended NIRP (first rate hike since 2007, policy rate +0.1%), Jul 2024 hiked to 0.25%. This was the beginning of the end of Abenomics monetary framework. Normalization was cautious and communication was careful (market crash risk from too-rapid normalization was real — global 'yen carry trade' unwind risk). Aug 2024 yen carry trade partial unwind was a preview of this risk."
+        },
+        "ishiba_minority_government": {
+          "value": 0.42,
+          "evidence": "Ishiba Shigeru won LDP presidency in Sep 2024 upset (defeating Sanae Takaichi in runoff). Called snap election, LDP-Komeito lost majority (261→215 seats, Oct 2024). First minority LDP government in decades. Ishiba's priority: fiscal reform (consumption tax discussion), defense spending continuation, semiconductor policy continuation, rural revitalization. Governing with minority required opposition party bill-by-bill negotiation — similar to 1993-1994 instability dynamic. Value represents political stability (low = fragile minority)."
+        },
+        "defense_spending_continuation": {
+          "value": 0.82,
+          "evidence": "Kishida's defense spending doubling commitment (Dec 2022) — continued under Ishiba despite minority government constraints. Defense budget increases on schedule. Counter-strike capability acquisition proceeding. JSDF-US interoperability expansion. The security policy direction established by Abe/Kishida appears durable across LDP leaders regardless of factional differences — it has become embedded in Japan's strategic consensus."
+        },
+        "semiconductor_tsmc_rapidus": {
+          "value": 0.78,
+          "evidence": "TSMC Kumamoto Fab 1 completed (Feb 2024) ahead of schedule. Fab 2 announced. Rapidus advanced semiconductor (IBM technology partnership, 2nm target by 2027) continued with government support despite skepticism about feasibility. The semiconductor industrial policy trajectory continued under Ishiba — cross-party support for strategic industrial investment in semiconductors was solid."
+        },
+        "abenomics_monetary_legacy": {
+          "value": 0.55,
+          "evidence": "The decade of Abenomics QQE/NIRP/YCC left a complex legacy: (1) ended deflation (inflation now 2-3%), (2) inflated asset prices (Nikkei to 40,000+ in 2024 pre-correction), (3) massive BoJ balance sheet (~130% GDP), (4) yen weak (structural consequence of yield differential), (5) government debt 250%+ GDP. The normalization problem — how to exit without financial disruption — is a dominant policy challenge for the post-Abe period. Abe's monetary legacy cannot be easily reversed."
+        },
+        "us_alliance_trump_second_term": {
+          "value": 0.68,
+          "evidence": "Trump's second term (Jan 2025) posed alliance management challenges: demands for higher host nation support, criticism of Japan's trade surplus, skepticism about multilateral security commitments. Ishiba's relationship with Trump was less personal than Abe's 'Ron-Yasu'-style relationship. Japan offered investment in US as partial offset (Honda, Toyota, etc. US investment). Alliance was maintained but on less personally durable terms than Abe era."
+        },
+        "yen_normalization": {
+          "value": 0.58,
+          "evidence": "Yen gradually appreciating from 160/dollar (2024 peak weakness) toward 140-145 range as BoJ normalized and Fed cut rates. The yen carry trade partial unwind (Aug 2024 — triggered by BoJ rate hike surprise) was a preview of potential financial instability from normalization. Policy coordination between BoJ normalization pace and government borrowing needs was delicate. Yen management under Ishiba was navigating normalization without triggering financial stability events."
+        },
+        "nuclear_restart_continuation": {
+          "value": 0.75,
+          "evidence": "Post-Kishida nuclear policy: continued restart pathway, new build in principle authorized by GX legislation. Post-Abe political environment generally supportive of nuclear as energy security + decarbonization solution. LDP's minority government constraint did not block nuclear policy — Nippon Ishin (opposition party) was supportive. Number of operating reactors continued increasing in 2024-2025."
+        },
+        "china_strategic_competition": {
+          "value": 0.72,
+          "evidence": "Japan's semiconductor export controls aligned with US (Oct 2023, Mar 2024 expansions — covering advanced chipmaking equipment for China). Quad engagement continued. FOIP framework. Taiwan Strait statements increasingly direct. Economic interdependence ($300B+ bilateral trade) maintained strategic constraints. Ishiba was actually somewhat more skeptical of US-dependent security architecture than Abe/Kishida — he had proposed an 'Asian NATO' concept — but in practice maintained the established framework."
+        },
+        "womenomics_progress": {
+          "value": 0.55,
+          "evidence": "Female labor force participation continued rising (72%+ by 2023). Board representation improving slowly (target 30% by 2025 was not fully met). Gender pay gap remained among the largest in OECD. Childcare expansion under Kishida increased coverage. Structural change in Japanese work culture was incremental — 'unconscious bias' and career track systems maintained barriers. Progress but falling short of Abe-era aspirational targets."
+        }
+      }
+    }
+  ]
+}

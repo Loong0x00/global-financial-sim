@@ -1,0 +1,351 @@
+{
+  "leader": "Tony Blair",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "Prime Minister 1997-05-02 to 2007-06-27 (10 years, Labour majority governments)",
+    "Shadow Home Secretary 1992-1994, Labour leader 1994-2007",
+    "Key policy events: New Labour 1997 manifesto, Bank of England independence May 1997, Good Friday Agreement April 1998, Kosovo air campaign 1999, Sierra Leone intervention 2000, 9/11 response 2001, Afghanistan invasion 2001, Iraq War 2003 (with Bush), Hutton Inquiry 2003, 2005 London bombings, Northern Ireland power sharing restored 2007",
+    "Economic policy: Gordon Brown as Chancellor — fiscal rules (Golden Rule + Sustainable Investment Rule), PFI/PPP expansion, NHS/education spending surge 1999-2007, financial deregulation continuation, light-touch FSA regulatory framework",
+    "Third Way intellectual framework: Anthony Giddens 'Beyond Left and Right', Clinton DLC 'New Democrats' model, Demos think tank, modernisation of Clause IV 1995",
+    "Personal background: Edinburgh University law, barrister, Fettes College (Scottish private school), Christian faith, strong communication instincts from courtroom advocacy and media training",
+    "Academic/analytical sources: Andrew Rawnsley (Servants of the People, 2001; The End of the Party, 2010), Peter Mandelson (The Third Man, 2010), Alastair Campbell diaries, Cabinet Office Iraq dossier inquiry, Chilcot Iraq Inquiry report 2016 (2.6 million words)"
+  ],
+  "behavior_matrix": {
+    "description": "Level 2 behavior matrix compiled for Tony Blair, UK Prime Minister 1997-2007. Ten-year tenure covers: New Labour electoral coalition management, Bank of England independence, Northern Ireland Good Friday Agreement, Kosovo and Sierra Leone humanitarian interventions, post-9/11 Afghanistan, Iraq War 2003 (the defining and ultimately fatal decision), domestic public service reform via PFI and private sector partnership, and the Brownite/Blairite factional war that dominated the second and third terms. Blair's decision model is shaped by barrister's training (advocacy, persuasion, building the case), Christian moral conviction (humanitarian interventionism), triangulation politics inherited from Clinton, and genuine belief in Anglo-American alliance as a force for global good. The Iraq War split his legacy: Chilcot (2016) concluded the decision to go to war was premature and based on flawed intelligence, but Blair maintains it was right. His economic legacy is complicated: he presided over a decade of growth but enabled the light-touch FSA regulatory framework and PFI structures that contributed to post-2008 fiscal problems.",
+    "dimensions": 52,
+    "vectors": [
+      {
+        "label": "third_way_ideological_positioning",
+        "value": 0.88,
+        "evidence": "Blair's core political identity is Third Way — neither old Left (nationalisation, trade union power) nor Thatcherite Right (pure market). Modernised Labour by removing Clause IV (common ownership commitment) in 1995 against significant party resistance. Embraced markets but with active state role in public services. Anthony Giddens was the intellectual godfather. Policy manifestations: independence for Bank of England (market credibility), PFI for NHS/schools (private sector efficiency), minimum wage (Labour value), windfall tax on utilities (regulatory intervention). The Third Way was genuine ideological conviction, not pure triangulation — Blair believed markets and social justice were compatible."
+      },
+      {
+        "label": "electoral_coalition_management",
+        "value": 0.92,
+        "evidence": "Blair was the supreme electoral strategist of his generation. 1997 landslide: 418 seats (largest Labour majority ever), winning middle England for first time in 18 years. 2001 re-election: 413 seats. 2005: 355 seats (reduced majority but still won post-Iraq). Ruthlessly disciplined message management under Alastair Campbell. Focused on 'swing voter in marginal constituencies' as north star. The Clause IV reform was a calculated signal to Middle England. The 'tough on crime, tough on the causes of crime' formulation was designed to neutralise a Tory advantage. Electoral calculation was baked into every major decision."
+      },
+      {
+        "label": "media_communication_mastery",
+        "value": 0.90,
+        "evidence": "Blair's barrister training gave him exceptional ability to construct and communicate persuasive narratives. Key demonstrations: Princess Diana death response ('people's princess', 1997) — spontaneous but perfectly pitched; Kosovo humanitarian intervention case-building; Iraq WMD dossier presentation (later the focus of Hutton inquiry). Alastair Campbell was his enforcer, but the communication instinct was Blair's own. Early internet-era politician who grasped broadcast media fundamentals. The 'rose garden' relationship with Bush press conferences was choreographed but genuine. His greatest communication failure: 2003 Iraq — the case was overstated and the Hutton inquiry revealed the pressure on intelligence services."
+      },
+      {
+        "label": "us_uk_special_relationship_priority",
+        "value": 0.93,
+        "evidence": "Blair placed the Anglo-American alliance at the absolute centre of UK foreign policy, to a degree that even traditional Atlanticists found excessive. With Clinton: genuine ideological alignment (Third Way / New Democrats), Kosovo and Bosnia cooperation. With Bush post-9/11: despite ideological distance, Blair committed immediately and unconditionally — 'we stand shoulder to shoulder.' His calculation: UK influence is maximised by being America's closest ally ('the price of influence is support'). This logic led directly to Iraq 2003. Chilcot found Blair committed to Bush personally ('I will be with you, whatever') before cabinet or parliamentary debate. The special relationship priority was the lens through which every foreign policy decision was filtered."
+      },
+      {
+        "label": "humanitarian_interventionism_belief",
+        "value": 0.88,
+        "evidence": "Blair is the primary architect of the 'Blair Doctrine' — the case for humanitarian military intervention to prevent genocide and protect civilians. Chicago speech April 1999 (during Kosovo): laid out conditions for legitimate intervention including humanitarian catastrophe, failure of diplomatic options, military viability. Sierra Leone 2000: UK troops deployed to save democratically elected government from RUF rebels — widely regarded as a clear success. Kosovo 1999: NATO air campaign against Milosevic without UN Security Council authorisation (Russia/China veto). These interventions preceded Iraq and were genuinely successful. Blair extended the doctrine to Iraq — but Iraq lacked several of his own Chicago criteria (no clear humanitarian emergency on the scale of Kosovo/Sierra Leone)."
+      },
+      {
+        "label": "iraq_war_commitment_irreversibility",
+        "value": 0.95,
+        "evidence": "Iraq 2003 is the defining decision of Blair's premiership. By early 2002 Blair had privately committed to Bush — Chilcot confirmed the 'I will be with you, whatever' note of July 2002. Despite: 1 million person London march (Feb 2003, largest UK protest ever), Cabinet opposition (Robin Cook resigned), 139 Labour MPs rebelling, second UN resolution failing. Blair's political survival required Parliament vote (March 2003) — he won 412-149 but only with Conservative support. The decision was irreversible once made: reversing would have destroyed the special relationship and Blair's personal credibility. Post-war management was catastrophically poor — no plan for post-invasion Iraq, no WMD found. Chilcot 2016: 'invasion was not a last resort.'"
+      },
+      {
+        "label": "northern_ireland_patient_diplomacy",
+        "value": 0.85,
+        "evidence": "The Good Friday Agreement (April 1998) is Blair's most unambiguously positive legacy. Invested enormous personal time — flew to Belfast multiple times, personally negotiated final details. The GFA required: persuading Sinn Fein to accept partition (for now), unionists to share power with republicans, decommissioning of IRA weapons, prisoner releases (politically toxic), and cross-border bodies. Mo Mowlam was Secretary of State but Blair's personal engagement in final hours was critical. The agreement held through subsequent crises. Power sharing restored 2007 (with Paisley and McGuinness — the 'chuckle brothers'). Blair's skill: keeping both sides at the table through multiple breakdowns. Contrasts with his Iraq failure — Northern Ireland showed his diplomacy at its best."
+      },
+      {
+        "label": "gordon_brown_institutional_rivalry",
+        "value": 0.75,
+        "evidence": "The Blair-Brown relationship was the central dysfunctional axis of New Labour governance. The 'Granita deal' (1994 restaurant meeting): Brown reportedly agreed not to contest Labour leadership in exchange for Blair's commitment to hand over after two terms and give Brown control of economic policy. The deal was never honoured as Blair interpreted it. Brown controlled the Treasury as a semi-autonomous power base — he could and did block Blair initiatives (ID cards, foundation hospitals phasing). The rivalry consumed enormous political energy, leaked constantly, and undermined both men. By 2005-2007 Blairite/Brownite factions were openly at war. Blair's delayed resignation announcements were partly about not giving Brown the gift of time. Score reflects the depth of the structural conflict, not mutual personal hatred (more complex)."
+      },
+      {
+        "label": "public_service_reform_via_private_sector",
+        "value": 0.82,
+        "evidence": "Blair genuinely believed private sector disciplines could improve NHS and schools without privatising them. Key mechanisms: PFI/PPP (Private Finance Initiative — private sector builds hospitals/schools, government pays lease over 25-30 years), foundation hospitals (semi-autonomous trusts), academy schools (private sponsors, freed from LEA control), internal markets in NHS. Results: NHS waiting times fell dramatically 1997-2007, school standards improved on metrics. But PFI created 'hidden debt' — off-balance-sheet obligations that became severe problems post-2008 (hospitals paying £11bn in PFI fees annually for £6bn of assets). Light-touch FSA regulation of financial sector was another New Labour market-friendly choice that Blair supported — directly contributing to 2008 vulnerability."
+      },
+      {
+        "label": "financial_deregulation_continuation",
+        "value": 0.72,
+        "evidence": "New Labour explicitly continued and deepened Thatcher's financial liberalisation. FSA created 1997 was designed as 'light-touch' regulator — this was deliberate policy to keep London as global financial centre. Blair and Brown competed to reassure City that Labour was safe. Gordon Brown's pre-2008 boasts of 'ending boom and bust' were enabled by Blair's political support for the framework. The City's contribution to UK tax revenues (corporation tax, financial sector employment, income tax on bonuses) created a captured political economy — questioning financial sector regulation risked losing a major revenue base. Chilcot and post-2008 analysis shows Blair was aware of regulatory gaps but political calculation overcame precautionary instinct."
+      },
+      {
+        "label": "eu_integration_ambivalence",
+        "value": 0.55,
+        "evidence": "Blair's EU position was internally contradictory throughout his tenure. Genuine European (spoke French, understood EU as UK's strategic frame). But: failed to join the euro (Brown blocked with 5 economic tests, Blair did not fight hard enough), failed to hold promised referendum on euro, failed to hold promised referendum on EU Constitution (2005 — postponed after French/Dutch rejection made it moot). Did secure positive outcomes: UK Presidency 2005, EU enlargement to Eastern Europe (strongly backed), Common Foreign and Security Policy development. The euro decision was the one where Blair's Europeanism most clearly failed — partly because Brown's veto was politically unchallengeable, partly because Blair prioritised US alliance over EU integration. Score of 0.55 reflects genuine pro-EU sentiment constrained by political calculation."
+      },
+      {
+        "label": "bank_of_england_independence_legacy",
+        "value": 0.92,
+        "evidence": "Granting Bank of England operational independence on interest rates (May 1997, first week in office) was Blair and Brown's most consequential economic decision and one of the boldest first acts of any UK government. Transferred interest rate setting from Chancellor to Monetary Policy Committee. Demonstrated Labour's credibility on inflation and monetary stability — directly addressed the 'soft on inflation' perception that had cost Labour votes since 1970s. The decision was Brown's in execution but Blair's political authority was essential. Created a decade of low-inflation stability that Blair rightly claimed credit for. The irony: BoE independence removed one lever of political intervention just as financial sector risks were building."
+      },
+      {
+        "label": "fiscal_rule_adherence",
+        "value": 0.70,
+        "evidence": "New Labour's 'Golden Rule' (borrow only to invest over the cycle) and 'Sustainable Investment Rule' (net debt below 40% GDP) were Brown's creation but Blair's political commitment. In practice: rules were adhered to in early years (fiscal consolidation 1997-2000), then bent as spending commitments grew post-2001. Brown's redefinition of the 'economic cycle' was criticised as rule-bending. Blair was aware of the fiscal loosening but did not challenge Brown in his domain. By 2007 the structural deficit was larger than it appeared — post-2008 crisis exposed that UK finances were not as robust as claimed. Score reflects genuine initial commitment that eroded over time."
+      },
+      {
+        "label": "spin_and_perception_management_priority",
+        "value": 0.88,
+        "evidence": "New Labour's 'spin' culture under Alastair Campbell was real and corrosive. Key episodes: Mandelson's multiple resignations (Hinduja passports, home loan scandal), Jo Moore 'good day to bury bad news' email on 9/11, the 'sexing up' of the Iraq dossier ('45 minutes' claim). The Hutton Inquiry found the BBC reporting on dossier inaccurate but the underlying reality — intelligence officials under political pressure — was accurate. The spin culture derived from Blair's core belief that perception management was essential to maintaining political support for otherwise unpopular reforms. But it created a credibility deficit that Iraq detonated. By 2003-2005 Blair was referred to as 'Teflon Tony' losing its original positive meaning."
+      },
+      {
+        "label": "christian_moral_framework_in_policy",
+        "value": 0.72,
+        "evidence": "Blair's Anglican faith (converting to Catholicism on leaving office) was a genuine driver of his humanitarian interventionism. 'I just think it's right' — his ethical conviction framework was more explicit than most British politicians. The 'we are all our brothers' keeper' rhetoric on Africa, the Make Poverty History campaign, debt relief at G8 Gleneagles 2005 ($40bn debt cancellation), PEPFAR support. The interventionism doctrine has a clear Christian just war tradition lineage. But faith-based conviction also made Blair resistant to empirical feedback — once convinced morally, evidence against became insufficient to reverse. This psychological trait applied to Iraq as much as to Northern Ireland."
+      },
+      {
+        "label": "intelligence_community_relationship",
+        "value": 0.55,
+        "evidence": "The Iraq dossier episode revealed a dysfunctional relationship between Blair's political needs and intelligence community integrity. The September 2002 dossier included the '45-minute claim' (WMD deployable in 45 minutes) which intelligence analysts considered unreliable. The Joint Intelligence Committee chair John Scarlett was under pressure to 'sex up' the dossier. Dr David Kelly (GCHQ scientist) died after being outed as the BBC's source for claims the dossier was embellished. Hutton found the dossier was not 'sexed up' in the narrow sense but criticised the process. The episode damaged UK intelligence credibility internationally and Blair's credibility domestically. Score of 0.55 reflects ability to work with intelligence services (Northern Ireland, Kosovo successful) but willingness to bend processes when politically convenient."
+      },
+      {
+        "label": "africa_development_commitment",
+        "value": 0.78,
+        "evidence": "Africa was one of Blair's genuine moral commitments beyond political calculation. Commission for Africa 2005 (chaired by Blair), Gleneagles G8 2005 (debt cancellation, aid commitments), Sierra Leone intervention 2000. Post-PM: Africa Governance Initiative, working directly with African governments on governance capacity. The aid commitments at Gleneagles were partly delivered — $50bn by 2010 commitment was 80% met. The motivation was genuine Christian/humanitarian conviction, and the post-PM career reinforced that it was not purely political positioning."
+      },
+      {
+        "label": "parliamentary_management_skill",
+        "value": 0.80,
+        "evidence": "Blair was an exceptional parliamentary performer — Prime Minister's Questions was his stage. The 2003 Iraq debate is the most striking example: faced with the biggest parliamentary rebellion in Labour history (139 rebels), he gave a speech that persuaded enough Labour MPs and relied on Conservative support to win 412-149. His skills: ability to defuse hecklers, pivot from defence to attack, use humour strategically, construct the emotional as well as intellectual case. Lost effectiveness after 2003 — by 2005-2006 PMQs showed wear. The 2007 final PMQs was a genuine farewell performance that even opponents applauded. Parliamentary craft was intrinsic to his barrister training."
+      },
+      {
+        "label": "transatlantic_vs_european_tension",
+        "value": 0.68,
+        "evidence": "Blair's core strategic tension: he wanted UK to be the bridge between America and Europe, giving UK influence in both directions. Reality: Iraq destroyed his European credibility (Chirac/Schroeder axis opposed war strongly). French-German 'old Europe' vs 'new Europe' (Rumsfeld framing that Blair inadvertently endorsed by supporting US). Post-Iraq Blair could not play the bridge role. This was structurally the same problem as every UK PM — the 'special relationship' with US and 'heart of Europe' cannot be simultaneously maximised. Blair failed to resolve this tension any better than predecessors, despite genuine effort."
+      },
+      {
+        "label": "decision_reversal_resistance",
+        "value": 0.82,
+        "evidence": "Once Blair made a major commitment, he was psychologically resistant to reversal. Iraq: committed by July 2002 and never reversed despite: no WMD, no post-war plan, 1 million protestors, Cabinet resignations. PFI: maintained even as evidence of cost problems emerged. The barrister mindset — having made the case, you defend it. This is distinct from stubbornness; it reflects genuine belief that reversal signals weakness and destroys negotiating credibility. The contrast with Northern Ireland: patient, willing to restart, adapt, rebuild — because he had not yet 'won.' Iraq was different because he had committed personally and publicly to Bush."
+      },
+      {
+        "label": "public_services_investment_willingness",
+        "value": 0.85,
+        "evidence": "After a cautious first term (inheriting Conservative spending plans 1997-1999), Blair unleashed the largest sustained increase in public spending in UK peacetime history. NHS funding: 1997 £35bn → 2007 £90bn (above-inflation real terms). Education similar trajectory. The 2002 Budget (Brown) included explicit NHS spending rise funded by 1% NI increase. Blair publicly backed raising taxes for NHS — a decisive break with Thatcher-era framing. The spending surge achieved real improvements (waiting times, GCSE results, hospital capacity). But it also created a structural fiscal position that was vulnerable to any revenue shock — 2008 revealed this."
+      },
+      {
+        "label": "party_management_vs_governing_tension",
+        "value": 0.70,
+        "evidence": "Blair's relationship with the Labour Party was always uneasy — he transformed it to win elections but the party never fully trusted him. Unions: minimum wage was the concession, but union power within Labour was structurally reduced. Left: foundation hospitals, academy schools, PFI, Iraq all produced internal revolts. The 2003 rebellion was 139 MPs. By 2005-2006, 'Blair must go' campaigns from Labour MPs were constant. Resigned under internal pressure in 2007 rather than being pushed. His management: discipline early (1994-2001), then increasingly heavy-handed whipping, then breakdown. Contrast with Brown who had Labour Party loyalty but no popular mandate."
+      },
+      {
+        "label": "coalition_building_multilateral",
+        "value": 0.78,
+        "evidence": "Blair was genuinely skilled at multilateral coalition building — when he tried. Kosovo: assembled NATO coalition without UN Security Council authorisation. Sierra Leone: bilateral but with UN mandate. Northern Ireland: built London-Dublin-Washington triangle (Clinton's involvement was Blair's diplomatic achievement). But Iraq revealed the limits: the 'Coalition of the Willing' was US + UK + Australia + minor contributors — not a genuine multilateral coalition. The failure to get a second UN resolution (preventing France veto would have required compromising the invasion timeline) was a fundamental strategic error that Blair accepted because the US timeline took priority over coalition legitimacy."
+      },
+      {
+        "label": "legacy_consciousness_decision_driver",
+        "value": 0.82,
+        "evidence": "By third term Blair was visibly concerned with legacy. The rush to Northern Ireland power-sharing restoration (May 2007) before he left — succeeded and was a genuine achievement. Palestine: invested enormous time in Israeli-Palestinian peace process, ultimately unsuccessfully. Africa governance initiative post-PM. The Quartet Middle East Envoy role 2007-2015 (ineffective but legacy-motivated). The legacy consciousness paradoxically made Iraq more difficult to reverse — reversal would have made Iraq the defining failure rather than a complicated chapter. Chilcot 2016 delivered the legacy judgement Blair feared: 'the invasion was not a last resort.'"
+      },
+      {
+        "label": "counter_terrorism_post_911_approach",
+        "value": 0.80,
+        "evidence": "Post-9/11 Blair was among the most committed leaders in the Western world on counter-terrorism. Immediate unconditional solidarity with US. Afghanistan 2001: full UK military commitment. Domestic: Anti-Terrorism Crime and Security Act 2001 (detention without trial for foreign nationals), Prevention of Terrorism Act 2005 (control orders), identity cards proposal (repeatedly blocked). 7/7 London bombings (July 2005): Blair's response was measured but immediately linked to Iraq critics (he rejected the causal connection). The domestic counter-terrorism measures created civil liberties tensions that his government never fully resolved. Score reflects genuine commitment with civil liberties costs."
+      },
+      {
+        "label": "globalization_embrace",
+        "value": 0.85,
+        "evidence": "Blair was a genuine globalisation enthusiast — saw it as opportunity not threat. Speech at 2005 Labour Conference: 'I hear people say we have to stop and debate globalisation. You might as well debate whether autumn should follow summer.' EU enlargement to Eastern Europe (2004): Blair pushed for rapid full accession and refused the temporary work restrictions that Germany and France imposed. Result: 600,000+ Polish and Eastern European workers arrived in UK 2004-2007 (Blair's official estimate had been 15,000) — the demographic reality that fed into Brexit. Blair understood globalisation intellectually but did not adequately model the political economy of displacement effects on lower-skilled UK workers."
+      },
+      {
+        "label": "eu_enlargement_open_door_consequence",
+        "value": 0.88,
+        "evidence": "The 2004 EU enlargement immigration decision was Blair's most consequential unintended legacy. UK, Ireland, and Sweden were the only EU-15 members to grant immediate full free movement to A8 countries (Poland, Czech Republic, etc.) rather than using the transitional restrictions. Blair's rationale: rule-following, pro-enlargement, economic benefits of labour mobility. Actual flows: 600,000+ net migration from A8 2004-2007, far exceeding forecasts. This fuelled anti-immigration sentiment in Labour heartlands that contributed directly to 2016 Brexit. Blair did not cause Brexit but this decision seeded the conditions."
+      },
+      {
+        "label": "iraq_intelligence_failure_complicity",
+        "value": 0.78,
+        "evidence": "Chilcot's key finding: Blair 'was not straight with Cabinet, Parliament, or the public.' Specific dimensions: (1) committed to Bush before Cabinet discussion ('I will be with you, whatever'), (2) presented intelligence as more certain than JIC assessments actually were, (3) '45-minute claim' was a minor tactical WMD reference used as strategic justification, (4) post-war planning was inadequate despite Blair being warned. Blair's position: the intelligence was genuinely believed, Saddam was genuinely dangerous, removing him was right regardless of WMD. The Chilcot judgement was that the intelligence case was not 'beyond doubt' as presented. This dimension captures Blair's willingness to use selective intelligence for political purposes when direction was set."
+      },
+      {
+        "label": "personal_charm_persuasion_tool",
+        "value": 0.90,
+        "evidence": "Blair's personal charm was a political instrument deployed consciously. Evidence: Gerry Adams and David Trimble came to the table partly because of direct personal engagement. Bush relationship — Blair could speak frankly to Bush in ways no other ally could. Murdoch relationship — courted pre-1997, maintained. Clinton relationship — ideological and personal alignment enabled Kosovo coalition. The 'I feel your pain' register inherited from Clinton — Blair's 'People's Princess' statement on Diana's death set the standard for modern political empathy performance. The charm had limits: it worked better in bilateral settings than in diffuse political environments."
+      },
+      {
+        "label": "trade_union_management",
+        "value": 0.62,
+        "evidence": "Blair reduced union power within Labour and in law without provoking open warfare — a delicate balance. Kept most Thatcherite labour market legislation. Minimum wage was the concession (unions wanted it higher than Blair delivered). Union recognition legislation 1999 was a modest gain for unions. Refused to repeal all anti-union laws (secondary action, closed shop). The funding relationship remained: unions still major Labour donors, but Blair worked to reduce their formal party power (OMOV, candidate selection). By 2005-2007 public sector unions increasingly hostile over pensions and PFI. Blair managed the relationship transactionally — kept unions from open revolt while not reversing the structural shift in UK labour relations."
+      },
+      {
+        "label": "scottish_welsh_devolution",
+        "value": 0.82,
+        "evidence": "Scottish Parliament and Welsh Assembly established 1999 — one of Blair's early constitutional achievements. Both via referendums (as promised). The Scottish Parliament design (proportional representation) was an exception to Blair's FPTP preference. Devolution was partly defensive — preventing SNP separatism — and partly genuine constitutional reform. The unintended consequence: devolution empowered the SNP as a credible governing party in Scotland, creating the trajectory toward 2014 independence referendum (50%/50%) and ongoing independence pressure. Blair did not solve the Scottish question; he managed it and created conditions for it to intensify."
+      },
+      {
+        "label": "climate_policy_early_leadership",
+        "value": 0.72,
+        "evidence": "Blair was among the first major Western leaders to treat climate as a top-tier political issue. 2005 G8 Gleneagles: climate was co-equal with Africa on agenda. UK Climate Change Act 2008 (late Blair/early Brown transition) was world-leading legislation. Blair's rhetoric on climate was advanced for 2003-2007. However: continued airport expansion, no carbon tax, PFI infrastructure locking in high-carbon systems. The gap between rhetoric and policy action on climate was significant — score of 0.72 reflects genuine concern but insufficient institutional follow-through."
+      },
+      {
+        "label": "post_pm_commercial_activities",
+        "value": 0.55,
+        "evidence": "Blair's post-PM career became a credibility problem. Tony Blair Associates: advising governments including Kazakhstan (Nazarbayev), Abu Dhabi, Mubarak's Egypt, Kuwait — authoritarian regimes paying large fees. JP Morgan consultancy reportedly $4-5m/year. Mubarak government work led to embarrassment during 2011 Arab Spring. The Africa Governance Initiative was genuine charitable work. The UN Quartet envoy role was unpaid and largely ineffective. The commercial work created a conflict of interest narrative that damaged his credibility as a moral authority on democratic governance. Score reflects the mixed picture — genuine post-PM public service alongside lucrative work for questionable regimes."
+      },
+      {
+        "label": "risk_tolerance_in_foreign_policy",
+        "value": 0.80,
+        "evidence": "Blair consistently took risks in foreign policy that domestic political calculation would have counselled against. Iraq 2003: risked and lost his domestic standing. Sierra Leone 2000: deployed troops in civil war — could have gone badly. Kosovo 1999: no UN authorisation, novel legal doctrine, risk of Russian confrontation. The Chicago doctrine explicitly justified bypassing the UN. This risk tolerance in foreign policy contrasts with his domestic political caution (never challenged Brown on economic policy, avoided politically toxic reforms). Foreign policy was where his moral conviction overrode political calculation; domestic policy was the reverse."
+      },
+      {
+        "label": "information_environment_sensitivity",
+        "value": 0.78,
+        "evidence": "Blair operated in the era of 24-hour news cycle emergence and managed it unusually well (until Iraq). Alastair Campbell's operation was among the most sophisticated political media management systems of its time. Pre-rapid rebuttal, morning briefings, media monitoring. Blair adapted to the internet era's early phase without fully understanding its structural shifts. The spin reputation (by 2001-2003 largely negative) shows the sustainability problem — intense media management creates a credibility debt that compounds. Post-Iraq his media operation became less effective as his personal credibility declined."
+      },
+      {
+        "label": "nhs_waiting_time_improvement_commitment",
+        "value": 0.88,
+        "evidence": "NHS improvement was Blair's most tangible domestic success. The 1997 commitment: 18-week maximum wait by 2008. Progress: average wait fell from 18 months (1997) to 18 weeks (2007). 'Choose and Book' patient choice system. New hospital building via PFI (controversial but delivered infrastructure). By 2007 NHS waiting times were the best in 50 years on most metrics. The mechanism: dramatic spending increase + targets + internal market + private sector competition. Controversial among health economists — targets gamed, PFI costs severe — but the patient experience genuinely improved. This was the New Labour model: public money, private methods, measurable outputs."
+      },
+      {
+        "label": "celebrity_politician_model",
+        "value": 0.85,
+        "evidence": "Blair pioneered the celebrity politician model in UK politics — media-savvy, image-conscious, youth-culture aware. Downing Street as event space ('Cool Britannia' 1997, Oasis/Britpop). Regular appearances in non-political media. Family as political asset (Cherie Blair managed carefully). The 'Bambi' early nickname (later 'Bliar') captured the two phases of the same phenomenon — charm and perceived inauthenticity are twin products of image management at this intensity. This model influenced Cameron and all subsequent UK party leaders."
+      },
+      {
+        "label": "policy_wonkery_depth",
+        "value": 0.60,
+        "evidence": "Blair was not a policy intellectual in the Brown/Miliband sense — he operated at the level of political strategy and narrative rather than policy detail. He understood the political economy of public service reform but relied on advisors for economic and technical detail. Contrast with Brown who obsessed over Treasury detail, or Thatcher who mastered economic theory. Blair's intellectual contributions: foreign policy doctrine (Chicago speech), constitutional reform, and the Third Way concept. He was better at framing questions than answering them at technical depth. Score of 0.60 reflects strategic intelligence with limited technical policy depth."
+      },
+      {
+        "label": "constitutional_reform_appetite",
+        "value": 0.78,
+        "evidence": "First term constitutional reform programme was substantial: Scottish Parliament, Welsh Assembly, Northern Ireland Assembly, Human Rights Act, Freedom of Information Act, House of Lords reform (expulsion of most hereditary peers), London Mayor/GLA. This was the most extensive constitutional reform since 1911. However: Blair's support for these reforms was partly tactical (they were in the manifesto, delivering them demonstrated competence) and he grew more cautious over time (Lords reform was never completed to his proposed 'elected 80%' model)."
+      },
+      {
+        "label": "political_survival_instinct",
+        "value": 0.88,
+        "evidence": "Blair survived more political near-death experiences than any post-war PM. Mandelson scandal (twice), Robin Cook resignation, 139 MP Iraq rebellion, 7/7, David Kelly death, Hutton inquiry, Butler inquiry, continuous Brownite plots. Each time: minimal dwell time on political damage, immediate pivot to next agenda item, refusal to resign unless forced. His announcement (September 2006) to leave within 12 months came only after a coordinated Brownite ministerial letter-writing campaign. Survived 10 years with a governing majority through continuous factional warfare. The political survivor skill was real — but it also enabled him to avoid confronting Iraq's consequences."
+      },
+      {
+        "label": "global_economic_governance_engagement",
+        "value": 0.72,
+        "evidence": "Blair engaged actively with G8/G7 economic governance but his impact was more on development (Africa debt cancellation, PEPFAR support) than on financial regulation. Pre-2008, the financial architecture questions (Basel II, hedge fund regulation, derivatives) were Brown's territory. Blair supported but did not drive the financial deregulation conversations. His G8 contributions: Make Poverty History campaign, climate agenda, Africa Commission. He was not an economist and global financial governance was Brown's domain."
+      },
+      {
+        "label": "middle_east_peace_process_effectiveness",
+        "value": 0.35,
+        "evidence": "Blair invested heavily in Israeli-Palestinian peace and achieved almost nothing. Quartet envoy 2007-2015: the peace process was stagnant throughout his tenure, settlements continued to expand, Hamas won Gaza 2007. His credibility in the Arab world was destroyed by Iraq — he was seen as Bush's lieutenant, not an honest broker. The personal charm that worked bilaterally failed in the context of fundamental interest conflicts. He resigned as Quartet envoy in 2015 amid reports of ineffectiveness. This is Blair's most complete failure — the investment of time was genuine, the result was zero."
+      },
+      {
+        "label": "public_sector_target_culture",
+        "value": 0.80,
+        "evidence": "New Labour's delivery mechanism was explicit public service targets — a specific UK policy innovation. NHS: 4-hour A&E target, 18-week referral-to-treatment, cancer waiting times. Education: SATs targets, school improvement targets. Crime: crime reduction targets. The Delivery Unit in Cabinet Office (Michael Barber) monitored 20+ priority public service targets for Blair personally. Achievement: metrics genuinely improved on the tracked measures. Perverse effects: target gaming (ambulances waiting outside hospitals to meet 4-hour A&E target), teaching to the test, displacement of unmeasured activities."
+      },
+      {
+        "label": "immigration_management_early_failure",
+        "value": 0.38,
+        "evidence": "Blair's government consistently under-forecast immigration impacts. The A8 enlargement 15,000 forecast vs 600,000 actual (2004-2007) was the most significant error. Before 2004, asylum seeker numbers became politically toxic (2001-2003 period) and Blair made 'halving asylum applications in 6 months' promises that were half-delivered. The failure to anticipate Eastern European migration volume was not cynical — the Home Office forecasts were genuinely wrong. But Blair's political communication of immigration — frequently pro-immigration rhetoric to international audiences, insufficient acknowledgement of domestic adjustment costs — created a credibility gap that Brown and Cameron inherited."
+      },
+      {
+        "label": "transactional_moral_reasoning",
+        "value": 0.68,
+        "evidence": "Blair could simultaneously hold strong moral positions on human rights (Africa, Northern Ireland, Kosovo) while pragmatically engaging Gaddafi (2004 Libya deal, weapons for oil), Saudi Arabia (BAE systems corruption case dropped on national security grounds), and Nazarbayev post-PM. The moral framework was real but it operated on a hierarchy: strategic interests (US alliance, London financial centre) and immediate political constraints were exempted from moral scrutiny. Iraq itself fits this pattern — the moral case for removing Saddam was genuine, but the process (pre-committing to Bush, manipulating intelligence, bypassing UN) was not consistent with Blair's own Chicago doctrine criteria."
+      },
+      {
+        "label": "longevity_in_office_management",
+        "value": 0.72,
+        "evidence": "Ten consecutive years as PM — second only to Thatcher's 11.5 years post-war. Managing the physical and political demands of this required exceptional stamina. Blair suffered health scares (heart condition 2003/2004) but maintained governing capacity. By years 8-10 the political energy had shifted to Brown and the effective governing coalition had narrowed. The decision to remain in office through the Brown pressure (2005-2007) was partly about legacy (Northern Ireland, Africa G8) and partly about refusing to be pushed. The handover in June 2007 was orderly — remarkable given the preceding factional war."
+      },
+      {
+        "label": "chilcot_accountability_resistance",
+        "value": 0.82,
+        "evidence": "Post-Chilcot (2016) Blair maintained that the decision to invade Iraq was right, only that the intelligence and post-war planning were wrong. 'I apologise for the fact that the intelligence we received was wrong' — not 'I apologise for the war.' He rejected Chilcot's finding that the invasion was 'not a last resort.' This response was consistent with his general pattern: having made the case, defend it. The psychological mechanism: if Iraq was wrong, then the death of 179 UK service personnel, 134,000+ Iraqi civilians, and the destruction of his own political legacy becomes not just a mistake but a moral catastrophe he caused. Cognitive dissonance resolution requires maintaining the position was right."
+      },
+      {
+        "label": "pfi_fiscal_off_balance_sheet_tolerance",
+        "value": 0.78,
+        "evidence": "PFI expanded massively under Blair: from £5bn committed in 1997 to £55bn by 2007. The fiscal trick: PFI spending does not appear as public sector borrowing — it's treated as a service contract, not a debt. This allowed Blair/Brown to invest in public infrastructure while appearing to meet the Sustainable Investment Rule. The cost: PFI projects typically cost 30-50% more over their lifetime than equivalent public sector procurement. NHS PFI contracts locked in annual payments of £2.4bn (by 2012) for £12bn of assets. Blair understood this was fiscally suboptimal but the political economy — immediate spending without apparent debt — was irresistible. Score of 0.78 reflects deliberate use of accounting structure for political purposes."
+      },
+      {
+        "label": "social_liberalism",
+        "value": 0.82,
+        "evidence": "New Labour's social liberalism was substantial: repeal of Section 28 (anti-gay promotion legislation), Civil Partnerships Act 2004, Human Rights Act 1998, legal status for same-sex couples, abolition of fox hunting, smoking ban in public places. Blair personally was socially liberal though his Christian faith created occasional tensions (he was more cautious on abortion than his party). The social liberal reforms were more durable than his economic legacy — civil partnerships, human rights legislation, smoking ban all survived subsequent Conservative governments."
+      },
+      {
+        "label": "multilateral_institutional_respect",
+        "value": 0.62,
+        "evidence": "Blair had deep respect for multilateral institutions in theory but a track record of bypassing them when convenient. UN: bypassed for Kosovo (NATO bombing without Security Council authorisation), tried to get second resolution for Iraq and failed but invaded anyway. NATO: used as vehicle for Kosovo (success) and Afghanistan (success initially). EU: generally followed rules but the euro question showed willingness to avoid the institutional commitment. His Chicago doctrine explicitly made the case for bypassing the UN when moral necessity required. Score of 0.62 reflects respect in principle, pragmatic override in practice when strategic goals required it."
+      },
+      {
+        "label": "corporate_financial_sector_accommodation",
+        "value": 0.78,
+        "evidence": "New Labour explicitly accommodated and courted the financial sector. Pre-1997: Blair personally met Murdoch, City CEOs, business leaders — signalling Labour was safe for capital. FSA 'light-touch' regulatory design was a conscious choice. Non-dom tax status maintained. Private equity carried interest tax treatment unchanged. City contributed a growing share of UK tax revenue (financial sector GDP share grew from 5% to 8% 1997-2007). This created a feedback loop: City generated tax revenues that funded public spending, making the political economy of financial sector regulation toxic — challenging it would reduce revenues that Blair's public service agenda depended on."
+      },
+      {
+        "label": "personality_driven_foreign_policy",
+        "value": 0.85,
+        "evidence": "Blair's foreign policy was unusually personality-driven, relying on personal relationships and direct engagement over institutional processes. Key examples: the 2002 Crawford Ranch meeting with Bush — two men made the Iraq decision largely before Cabinet/Parliament engagement. The Northern Ireland process: Blair personally flew to Belfast multiple times in critical phases. The Sierra Leone decision: Blair's personal conviction overrode FCO caution. The Gaddafi deal (2004): Blair flew to Tripoli personally to seal the WMD disarmament deal. This made Blair's foreign policy unusually effective when personal relationships functioned and unusually unaccountable when they didn't."
+      },
+      {
+        "label": "post_cold_war_liberal_order_belief",
+        "value": 0.88,
+        "evidence": "Blair was a committed liberal internationalist — believed in the extension of democracy, human rights, and free markets as universal goods. The Chicago 1999 speech was the clearest articulation: humanitarian intervention to protect civilians, promote democracy, support global governance institutions. This was genuine belief, not rhetorical cover. He saw the post-Cold War window as an opportunity to establish a rules-based international order with teeth. Iraq was supposed to be a demonstration of this order working — remove a dictator, establish democracy, send a message to other bad actors. The failure of Iraq discredited the doctrine in practice, though Blair maintains the principle is correct."
+      },
+      {
+        "label": "tolerance_for_policy_ambiguity",
+        "value": 0.65,
+        "evidence": "Blair could hold contradictory positions in sustained tension for political reasons: pro-EU but not joining euro; pro-social justice but pro-City; pro-human rights but selling arms to Saudi Arabia. This tolerance for ambiguity was a political skill (avoiding hard choices that would break coalition) but also a governing weakness (some hard choices were necessary and delayed). Northern Ireland showed high tolerance for process ambiguity — the Agreement left many questions deliberately vague. Iraq showed low tolerance — once direction was set, ambiguity was resolved by political commitment, not evidence."
+      },
+      {
+        "label": "public_trust_trajectory",
+        "value": 0.40,
+        "evidence": "Blair's public trust collapsed after Iraq. Pre-1997: 'Bambi', trust rating +60. 1997-2001: sustained high approval, IRA settlement. 2003: Iraq, trust rating turned negative and never recovered. 2005: won election but with reduced mandate — first PM to win three majorities but with fewer votes than Tory 2001 total. By 2007 approval rating was in mid-20s%. Chilcot 2016 delivered the posthumous political verdict. The trust destruction was structural — the combination of spin culture, Iraq intelligence manipulation, and failure to find WMD created the 'liar' narrative that overshadowed real achievements. Score of 0.40 reflects the terminal state of his public trust by the end of tenure."
+      }
+    ]
+  },
+  "red_lines": [
+    {
+      "id": "RL001",
+      "label": "us_alliance_unconditional_support",
+      "description": "Blair treated the US alliance as a near-unconditional commitment post-9/11. Even when privately disagreeing with US policy, public support was near-automatic. Reversal threshold: essentially infinite within his tenure.",
+      "priority": 0.95
+    },
+    {
+      "id": "RL002",
+      "label": "labour_electoral_survival",
+      "description": "Decisions that threatened Labour's electability triggered full political mobilisation. However, Iraq overrode this red line — Blair chose the alliance over electoral safety.",
+      "priority": 0.88
+    },
+    {
+      "id": "RL003",
+      "label": "city_of_london_financial_stability",
+      "description": "Any policy perceived as threatening London's status as global financial centre was blocked. This included significant financial regulation tightening and excessive union power restoration.",
+      "priority": 0.80
+    },
+    {
+      "id": "RL004",
+      "label": "ira_ceasefire_maintenance",
+      "description": "Northern Ireland peace process: IRA ceasefire was treated as non-negotiable foundation. When threatened, Blair would personally intervene regardless of other commitments.",
+      "priority": 0.90
+    }
+  ],
+  "decision_style": {
+    "primary_mode": "advocacy_persuasion",
+    "description": "Barrister-trained: builds the case, presents to audience, maintains position under cross-examination. More effective at selling a decision than at stress-testing it.",
+    "key_cognitive_biases": [
+      "confirmation_bias_post_commitment",
+      "overconfidence_in_personal_persuasion",
+      "motivated_reasoning_on_us_alliance",
+      "underweighting_implementation_complexity"
+    ],
+    "crisis_response_mode": "personal_engagement_bilateral",
+    "information_fidelity": 0.72
+  },
+  "era_parameters": {
+    "in_office": "1997-05-02 to 2007-06-27",
+    "party": "Labour (New Labour)",
+    "country": "United Kingdom",
+    "key_relationships": [
+      {"name": "Gordon Brown", "type": "chancellor_rivalry", "weight": 0.85},
+      {"name": "Bill Clinton", "type": "ideological_ally", "weight": 0.88},
+      {"name": "George W. Bush", "type": "strategic_partner", "weight": 0.93},
+      {"name": "Alastair Campbell", "type": "communications_chief", "weight": 0.80}
+    ],
+    "defining_events": [
+      "Good Friday Agreement 1998",
+      "Kosovo 1999",
+      "9/11 response 2001",
+      "Iraq War 2003",
+      "Chilcot Inquiry 2016"
+    ]
+  }
+}

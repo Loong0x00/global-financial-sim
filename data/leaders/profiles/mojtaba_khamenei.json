@@ -1,0 +1,482 @@
+{
+  "leader": "Mojtaba Khamenei",
+  "leader_fa": "مجتبی خامنه‌ای",
+  "leader_zh": "穆杰塔巴·哈梅内伊",
+  "compiled_by": "claude-opus-4-6",
+  "compiled_date": "2026-03-13",
+  "data_quality_warning": "PARTIALLY LIMITED DATA — new leader under crisis conditions, but first statement and initial actions now observable. Profile updated from 38D to 58D based on: (1) Mojtaba's March 12 first written statement (read on state TV), (2) Hormuz closure strategy details (drone-based, not naval blockade), (3) IRGC coercion of Assembly of Experts (IranWire exclusive), (4) nuclear site Kuh-e Kolang Gaz construction acceleration, (5) internet blackout data (1% connectivity, 240+ hours), (6) Gulf state drone/missile campaign specifics, (7) $3B+ offshore wealth network (Bloomberg investigation), (8) 2009 Green Movement crackdown role (Basij coordination). Still lower-confidence than established leaders but significantly improved from initial prior-only profile. Parameters for dimensions with direct observational evidence upgraded to CALIBRATED PRIORS; dimensions still based on inference remain WIDE PRIORS.",
+  "compilation_sources": [
+    "CNBC: Five things to know about Iran's new supreme leader Mojtaba Khamenei (March 11, 2026)",
+    "NPR: Iran names Mojtaba Khamenei as supreme leader (March 8, 2026)",
+    "NPR: Iran says its new leader made his 1st address, vowing to keep Strait of Hormuz closed (March 12, 2026)",
+    "Al Jazeera: Iran's Mojtaba Khamenei vows to fight in first statement as supreme leader (March 12, 2026)",
+    "CNN: Analysis: Mojtaba Khamenei's first purported statement as Iran's new Supreme Leader (March 12, 2026)",
+    "CNBC: Strait of Hormuz must remain closed as 'tool to pressure enemy' (March 12, 2026)",
+    "CNN: Iran mine Strait of Hormuz (March 11, 2026)",
+    "Wikipedia: 2026 Strait of Hormuz crisis",
+    "Wikipedia: 2026 Internet blackout in Iran",
+    "Wikipedia: Economic impact of the 2026 Iran war",
+    "Wikipedia: 2026 Iranian Supreme Leader election",
+    "Foreign Policy: Appointment of Mojtaba Khamenei signals regime exhaustion (March 11, 2026)",
+    "Euronews: Mojtaba Khamenei cannot replace his father as IRGC holds all the cards (March 9, 2026)",
+    "IranWire: Exclusive — IRGC Intelligence threatened Experts and their families (March 2026)",
+    "Iran International: Power vs piety — Khamenei Jr inherits legitimacy dilemma (March 11, 2026)",
+    "Iran International: Inside Iran's wartime information blackout (March 9, 2026)",
+    "HRW: Iran Internet Shutdown Violates Rights (March 6, 2026)",
+    "Al-Monitor: Behind Mojtaba Khamenei — How IRGC steers Iran's wartime power structure (March 2026)",
+    "Fortune: Iran's IRGC controls a sprawling business empire (March 2, 2026)",
+    "The National: War, sanctions and crypto — Inside Iran's $7.8bn digital economy (March 10, 2026)",
+    "Bloomberg: Records reveal hidden billions in global wealth tied to Iran's new leader (January 2026)",
+    "J-Post: Records reveal hidden billions linked to Mojtaba Khamenei (March 2026)",
+    "Al Jazeera: Iran targets Gulf nations with missiles, drones as oil prices soar (March 12, 2026)",
+    "CSIS: Unpacking Iran's Drone Campaign in the Gulf (March 2026)",
+    "Al Jazeera: Where are Iran's allies? Why Moscow, Beijing are keeping their distance (March 5, 2026)",
+    "TRT World: Russia and China pledge support to Iran's new Supreme Leader (March 2026)",
+    "SCMP: Why China's ties with Iran will endure despite death of Khamenei (March 2026)",
+    "WION: Pro-nuclear hardliner — What we know about Mojtaba Khamenei (March 2026)",
+    "PBS Frontline Tehran Bureau: The Man in the Shadow — Mojtaba Khamenei (2009)",
+    "IranWire: What Are Mojtaba Khamenei's Religious Qualifications? (2026)",
+    "Axios: Who is Mojtaba Khamenei? Iran's hardline next supreme leader explained (March 8, 2026)",
+    "Atlantic Council: Mojtaba Khamenei not the next radical modernizer (March 2026)",
+    "Chatham House: How will the Iran war affect the global economy? (March 2026)",
+    "IMF World Economic Outlook October 2025: Iran data",
+    "World Bank: Iran economic projections 2025-2026",
+    "Global_2025_2026_update.md: Middle East section",
+    "Trump_2025_2026_update.md: Iran section"
+  ],
+  "behavior_matrix": {
+    "description": "Behavior matrix for Mojtaba Khamenei, Iran's third Supreme Leader, appointed March 9, 2026 (announced March 8). Updated March 13 with observational data from his first statement (March 12), Hormuz strategy, Gulf drone campaign, internet blackout, and IRGC coercion of Assembly of Experts. He assumed power under the most extreme crisis conditions in the Islamic Republic's history: his father was assassinated by US-Israeli forces 10 days prior, Iran is under active military attack, the Strait of Hormuz is effectively closed (traffic at ~0%), oil prices spiked to $110-120/bbl before settling near $94, and the IRGC (his primary power base) is actively fighting. His March 12 first written statement (read on state TV, he has not been seen or heard in person) confirmed: (1) Hormuz stays closed as 'tool to pressure enemy', (2) all US bases in the region must close or will be attacked, (3) studies underway for 'opening other fronts where the enemy is highly vulnerable', (4) demand for reparations. These first observable actions validate the high-escalation prior and allow calibration of several dimensions. Background data also significantly expanded: role in 2009 Green Movement crackdown (coordinated Basij from Supreme Leader's office), Mesbah-Yazdi ideological mentorship, $3B+ offshore wealth network, and IRGC intelligence threats to Assembly of Experts members.",
+    "dimensions": 58,
+    "vectors": [
+      {
+        "label": "revenge_motivation_intensity",
+        "value": 0.95,
+        "evidence": "His father was assassinated by US-Israeli forces 10 days before his appointment. The Islamic Republic's political culture elevates martyrdom and revenge as core values. His appointment speech (if any) and early statements are likely to frame his leadership as completing his father's mission and avenging his death. The 0.95 reflects near-maximum revenge motivation — this is both personal (father killed) and ideological (Supreme Leader of the Islamic Republic martyred by enemies). Key behavioral implication: he will be MORE aggressive than a baseline hardliner in retaliatory actions against US/Israel interests.",
+        "confidence": "high"
+      },
+      {
+        "label": "irgc_alignment_depth",
+        "value": 0.96,
+        "evidence": "The IRGC is both his power base and the primary reason he was selected. The Assembly of Experts chose him not through clerical consensus (he lacks the religious scholarly credentials of Khomeini or even Ali Khamenei at appointment) but through IRGC-backed pressure on the assembly. The IRGC's institutional interests — continuation of the Islamic Republic, revenge against US/Israel, preservation of their economic empire (~$200B assets), continued proxy wars — will strongly shape his decisions. The 0.96 reflects near-complete alignment with IRGC institutional preferences.",
+        "confidence": "high"
+      },
+      {
+        "label": "nuclear_program_continuation",
+        "value": 0.97,
+        "evidence": "The nuclear program's purpose — as deterrent, regime survival guarantee, and geopolitical leverage — has become even more urgently clear from the circumstances of his father's assassination. The lesson is unambiguous: Khomeini's Iran built the nuclear program; Ali Khamenei tried to keep it below the threshold that would trigger regime change; the US/Israel killed Ali Khamenei anyway. Mojtaba's lesson from this sequence: (1) nuclear weapons may be the only guarantee against US-Israeli 'decapitation' strategy, (2) the threshold that triggers regime change has been crossed regardless of nuclear posture. Expect nuclear program acceleration.",
+        "confidence": "high"
+      },
+      {
+        "label": "anti_us_posture_hardness",
+        "value": 0.99,
+        "evidence": "The US killed his father. There is no scenario in which Mojtaba adopts a soft posture toward the US. The Islamic Republic's 'Death to America' framework was always ideological; it is now deeply personal. Any diplomatic channel with the US that existed (however limited under maximum pressure) is effectively closed under his leadership unless the US fundamentally changes its posture (complete withdrawal, removal of sanctions, compensation for strikes). Even pragmatic negotiations over oil export waivers are politically impossible for him in the near term.",
+        "confidence": "very high"
+      },
+      {
+        "label": "israel_posture_hardness",
+        "value": 0.99,
+        "evidence": "Israel co-conducted the strike that killed his father. The Islamic Republic's 'Death to Israel' ideology is now personal. Iran will intensify proxy and direct military pressure on Israel. He will be the most anti-Israel Supreme Leader in terms of active escalation posture — not just rhetoric. Hezbollah reactivation (March 2, 2026), Houthi operations continuation, Hamas remnant support — all will be maintained or increased.",
+        "confidence": "very high"
+      },
+      {
+        "label": "economic_pragmatism_vs_ideology",
+        "value": 0.18,
+        "evidence": "Ali Khamenei occasionally allowed economic pragmatism to moderate ideological posture (JCPOA 2015 being the primary example — he approved the deal despite ideological reservations because the economy was collapsing under 2012-15 sanctions). Mojtaba, taking power in the immediate aftermath of his father's assassination, cannot show any economic pragmatism toward the West without being perceived as surrendering to the forces that killed his father. The 0.18 reflects near-zero economic pragmatism tolerance in the near term (first 6-18 months). This may evolve if economic catastrophe becomes acute, but the political constraints are severe.",
+        "confidence": "medium-high"
+      },
+      {
+        "label": "proxy_war_network_maintenance",
+        "value": 0.97,
+        "evidence": "The IRGC Quds Force-managed proxy network (Hezbollah, Hamas remnants, Houthis, Iraqi militias, Syrian presence) is Iran's primary leverage tool and IRGC institutional mission. Mojtaba will maintain and expand this network as Iran's primary asymmetric deterrent. The proxies are also actively in the fight following his father's death — Hezbollah resumed full strikes on Israel March 2, 2026. He inherits a hot proxy war, not a deterrent posture.",
+        "confidence": "very high"
+      },
+      {
+        "label": "strait_of_hormuz_leverage_use",
+        "value": 0.96,
+        "evidence": "UPDATED March 13: Iran achieved effective FULL closure of Hormuz, not partial restriction as initially estimated. Tanker traffic dropped to ~0% (NPR, CNN). Iran used cheap drones (not naval blockade) to make the strait uninsurable, then reportedly mined it (CNN March 11). IRGC announced 'not a litre of oil' will pass (Al Jazeera). Mojtaba's March 12 first statement confirmed continuation as 'tool to pressure the enemy.' Oil prices spiked $70→$110-120/bbl before settling ~$94. This is the most severe Hormuz disruption in history — 20% of global oil supply effectively cut. The 0.96 (up from 0.88) reflects that Mojtaba has not only used the Hormuz lever but pushed it to maximum — full closure, not graduated restriction. The previous assumption that he would maintain partial restriction to avoid US response was wrong: he went to full closure and the US has not been able to reopen it.",
+        "confidence": "very high"
+      },
+      {
+        "label": "ccp_alignment_with_china",
+        "value": 0.81,
+        "evidence": "China was Iran's largest oil buyer (~$26B/year via shadow fleet) under the maximum pressure sanctions regime. Iran's economic survival under US sanctions is significantly dependent on Chinese purchases at discounted prices. Mojtaba will maintain and likely deepen China alignment — China provides the economic lifeline that keeps the Islamic Republic functioning despite Western sanctions. China also provides diplomatic cover at the UN Security Council (veto). IRGC-linked entities have extensive Chinese business relationships.",
+        "confidence": "medium"
+      },
+      {
+        "label": "russia_alignment_depth",
+        "value": 0.79,
+        "evidence": "Russia-Iran military cooperation deepened significantly during the Russia-Ukraine war (Iran supplying Shahed drones, Russia supplying advanced air defense systems to Iran). This relationship is mutually beneficial and will continue. Russia provides diplomatic cover at UNSC alongside China. The shared anti-Western framework is genuine. Mojtaba will deepen the Russia relationship as part of the 'axis of resistance to US hegemony' strategic framework.",
+        "confidence": "medium"
+      },
+      {
+        "label": "velayat_e_faqih_legitimacy_vulnerability",
+        "value": 0.76,
+        "evidence": "UPDATED March 13: New evidence confirms and worsens the legitimacy deficit. (1) His rank is confirmed as 'hujjat al-Islam' (below ayatollah), same as his father in 1989 but without revolutionary credentials to compensate. (2) IranWire exclusive: IRGC Intelligence directly threatened Assembly of Experts members AND their families to secure his selection. (3) Eight assembly members boycotted the second meeting (March 5). (4) Process was online/opaque — not the traditional deliberative assembly. (5) Iran International: 'not widely recognised within traditional hierarchy of Shi'i scholarship.' (6) Critics invoke the shah comparison: 'clerical version of monarchy.' He did teach Kharij-e Fiqh in Qom for ~20 years, providing some scholarly cover, but this falls far short of Grand Ayatollah status. The 0.76 (up from 0.65) reflects that the coercion evidence and boycott make the legitimacy deficit more concrete and documented than initially assessed. The structural problem remains: legitimacy rests on IRGC enforcement, not genuine clerical consensus.",
+        "confidence": "high"
+      },
+      {
+        "label": "economic_management_capability",
+        "value": 0.25,
+        "evidence": "No known economic management experience. His background is clerical-intelligence-IRGC aligned, not economic technocratic. He has no known involvement in economic policy design. Iran's economic management will de facto rest with President Pezeshkian and the technocratic civil service — Mojtaba will set political constraints (no engagement with sanctioning countries, no nuclear concessions) within which economic policy must operate. The 0.25 reflects very limited personal economic management capability, with policy delegated to subordinates within his political constraints.",
+        "confidence": "medium-low"
+      },
+      {
+        "label": "sanctions_resistance_priority",
+        "value": 0.93,
+        "evidence": "Ali Khamenei's decision calculus on sanctions was: accept economic pain rather than concede on nuclear program or regional policy. Mojtaba will be even less willing to make concessions to sanction-lifters than his father — the killing of his father is a political fact that prevents any normalization with the sanctioning parties. The IRGC is also partially sanctions-proofed through its own oil smuggling networks, Chinese buyers, and diversified asset base. Sanctions resistance as a political stance is near-absolute in the near term.",
+        "confidence": "high"
+      },
+      {
+        "label": "domestic_repression_tolerance",
+        "value": 0.92,
+        "evidence": "The IRGC's domestic repression role (Basij militia, intelligence, prison system) is core to the Islamic Republic's survival. Mojtaba will have zero tolerance for domestic dissent during the war crisis — protests against the regime in the context of external attack would be framed as treason and suppressed maximally. The 2022 Mahsa Amini protests (which deeply shook the regime) will inform his reading: any perceived softness invites escalation. War conditions provide political cover for extreme domestic repression.",
+        "confidence": "high"
+      },
+      {
+        "label": "succession_legitimacy_fragility",
+        "value": 0.72,
+        "evidence": "The speed of his appointment (10 days after his father's death, Assembly of Experts meeting in extraordinary session under wartime conditions) means the normal deliberative process was bypassed. Internal IRGC pressure likely drove the speed. Some factions within the clerical establishment may have preferred a different candidate (Raisi was the expected pre-war succession figure; he died May 2024 in helicopter crash). This fragility means Mojtaba may feel pressure to demonstrate strength (through military escalation, domestic repression, ideological purity) to consolidate authority.",
+        "confidence": "medium"
+      },
+      {
+        "label": "war_escalation_risk_tolerance",
+        "value": 0.84,
+        "evidence": "Inheriting an active war with the US and Israel, Mojtaba faces a critical choice: escalate (continue/intensify strikes, Hormuz closure, proxy activation) or de-escalate (seek ceasefire). His personal revenge motivation, IRGC backing, and legitimacy fragility all push toward escalation rather than de-escalation. A ceasefire that appears to accept his father's assassination without adequate response would be politically devastating. The 0.84 reflects high escalation tolerance — he may not be able to accept a ceasefire that the IRGC views as insufficient.",
+        "confidence": "medium-high"
+      },
+      {
+        "label": "oil_revenue_dependence",
+        "value": 0.83,
+        "evidence": "UPDATED March 13: The paradox has intensified. Oil prices spiked to $110-120/bbl (from $70 pre-war baseline) before settling ~$94. But Iran's own Hormuz closure means its Gulf-route exports are also blocked. Iran's remaining export capacity relies entirely on: (1) overland pipelines to Turkey (limited capacity), (2) shadow fleet routes avoiding Hormuz (limited), (3) Chinese purchases via alternative routes. Meanwhile, Iran's oil infrastructure has sustained significant damage from US-Israeli strikes. World Bank projects GDP contraction -2.8% in 2026; inflation 43%+ (IMF); rial at 1,162,000:1 vs USD. The Hormuz closure is a double-edged sword: it inflicts maximum pain on adversaries but also cuts Iran's own export revenue from the Gulf route. The 0.83 (up from 0.78) reflects increased dependence combined with reduced ability to monetize that dependence under wartime conditions.",
+        "confidence": "medium-high"
+      },
+      {
+        "label": "willingness_to_use_biological_chemical_weapons",
+        "value": 0.31,
+        "evidence": "Iran does not acknowledge chemical/biological weapons possession. Use would trigger overwhelming international response including from China and Russia (crossing a major red line for even Iran's allies). The 0.31 reflects theoretical escalation consideration in extremis — if Iran faced regime-ending conventional military defeat — but very low probability in the current conflict phase. IRGC has the capability and will continue to use conventional military means and proxies before this threshold.",
+        "confidence": "low-medium"
+      },
+      {
+        "label": "nuclear_weapons_development_acceleration",
+        "value": 0.92,
+        "evidence": "The central lesson from his father's assassination: deterrence failed. North Korea is not subject to 'decapitation' strikes because it has nuclear weapons. The Islamic Republic is subject to such strikes because it does not. Mojtaba's IRGC advisors will draw this conclusion explicitly. The Twelve-Day War of June 2025 degraded Iran's nuclear facilities, but did not destroy the program or the knowledge base. Reconstruction and acceleration of the nuclear program is the most likely strategic response to the credibility crisis created by the assassination.",
+        "confidence": "high"
+      },
+      {
+        "label": "irgc_economic_empire_protection",
+        "value": 0.94,
+        "evidence": "The IRGC controls an estimated $200B+ in economic assets: construction, logistics, energy, telecommunications, banking. This empire provides financial independence from the civilian government budget and is the economic basis of IRGC political power. Mojtaba will protect this empire absolutely — any attempt to reform or reduce IRGC economic dominance would be treated as an attack on his primary power base.",
+        "confidence": "high"
+      },
+      {
+        "label": "domestic_economic_reform_tolerance",
+        "value": 0.22,
+        "evidence": "Iran's economy has severe structural problems: 40%+ inflation (2024-2025 estimates), 30%+ youth unemployment, rial at historic lows vs USD, banking system technically insolvent, severe subsidy burden. Reform requires engagement with international institutions (IMF structural adjustment) and potentially concessions on nuclear/regional policy that Mojtaba cannot make in his current political context. The 0.22 reflects very low reform tolerance — structural economic problems will be managed through price controls, IRGC-directed resource allocation, and Chinese support rather than Western-style market reform.",
+        "confidence": "medium"
+      },
+      {
+        "label": "information_environment_control",
+        "value": 0.97,
+        "evidence": "UPDATED March 13: Actual data far exceeds initial estimate. Iran imposed near-total internet blackout from February 28: connectivity at 1% of normal (NetBlocks). 240+ hours of blackout — among the most severe government-imposed nationwide shutdowns on record globally. Iran has spent a third of 2026 offline (including January protest shutdown). International phone calls heavily restricted. Only domestic intranet (National Information Network) functions. Economic cost $35-37M/day acknowledged but accepted. HRW, Amnesty International, Access Now all condemned. Millions of diaspora Iranians have had zero contact with family for 10+ days. The 0.97 (up from 0.91) reflects that information control under Mojtaba is not merely 'very high capacity' but has been pushed to absolute maximum — a level Ali Khamenei never sustained this long. This also creates a severe information fidelity problem for Mojtaba himself: with no independent information flowing, his own intelligence picture becomes even more distorted.",
+        "confidence": "very high"
+      },
+      {
+        "label": "ceasefire_acceptance_conditions",
+        "value": 0.21,
+        "evidence": "For Mojtaba to accept a ceasefire, the conditions would need to include: (1) end to US-Israeli military operations, (2) some form of accountability or recognition of his father's killing as illegal (unrealistic), (3) sanctions relief (also unrealistic given current political environment), and/or (4) recognition of Iran's right to nuclear program. None of these conditions are achievable from US/Israeli side in the near term. The 0.21 reflects very low probability of ceasefire acceptance under current conditions — he will continue the war.",
+        "confidence": "medium"
+      },
+      {
+        "label": "hezbollah_hamas_houthi_proxy_activation",
+        "value": 0.95,
+        "evidence": "All three proxy networks have already reactivated or maintained operations: Hezbollah resumed strikes March 2, 2026 (Lebanon ceasefire broke down). Houthis resumed attacks on shipping after brief ceasefire. Hamas remnants fighting in Gaza. Iraq militias targeting US forces. The activation is already happening — the question is whether Mojtaba will restrain them (as Ali Khamenei occasionally did for tactical reasons) or unleash them. His motivation toward full proxy network activation is very high.",
+        "confidence": "high"
+      },
+      {
+        "label": "martyrdom_ideology_behavioral_constraint",
+        "value": 0.86,
+        "evidence": "Islamic Republic political culture treats martyrdom as honorable and sacrifice for Islam as the highest calling. His father is now being framed as a martyr. This ideological framework reduces the normal political leader's aversion to escalation risk — in the Islamic Republic framework, defeat and death in battle are not political failures but martyrdom victories. This reduces rational deterrence effectiveness against Mojtaba: he may accept military losses that a leader without martyrdom ideology would not accept.",
+        "confidence": "medium"
+      },
+      {
+        "label": "gulf_state_attack_tolerance",
+        "value": 0.76,
+        "evidence": "Iran has already struck infrastructure in 9 Gulf states (Bahrain, Kuwait, Qatar, Saudi Arabia, Oman, UAE, and others) following the US-Israeli strikes. These strikes serve multiple purposes: punish US allies hosting US military bases, demonstrate Iran's reach, raise the cost of supporting US operations. Mojtaba will maintain this multi-vector pressure on Gulf states. The risk: Saudi Arabia, UAE, and Qatar are also key energy producers — their destabilization further elevates oil prices globally, which paradoxically helps Iran's oil revenue in the near term.",
+        "confidence": "medium"
+      },
+      {
+        "label": "succession_born_to_power_effect",
+        "value": 0.68,
+        "evidence": "Being the son of the Supreme Leader creates a specific psychology: (1) his entire life has been shaped by his father's position and worldview, (2) he has never operated in an institutional environment outside the clerical-IRGC power structure, (3) he lacks the lived experience of political adversity (his father struggled and was imprisoned before power; Mojtaba grew up at the pinnacle), (4) this may produce overconfidence in his ability to manage crises and underestimation of external adversaries' capabilities. The 0.68 reflects significant 'born to power' behavioral effects including potential overconfidence and limited perspective-taking on adversary positions.",
+        "confidence": "low-medium"
+      },
+      {
+        "label": "economic_sanctions_impact_on_decisions",
+        "value": 0.58,
+        "evidence": "Iran's economy has been under severe sanctions for 40+ years, with the most intense pressure from 2012 onward. The economy has adapted: shadow oil sales, crypto-based payments, barter arrangements, domestic production substitution. The rial has lost 99%+ of its pre-1979 value. This long history of sanctions means the IRGC-clerical establishment has developed tolerance for sanctions pain — they know the system can survive. The 0.58 reflects moderate impact of sanctions on decision-making — they matter but do not determine behavior.",
+        "confidence": "medium"
+      },
+      {
+        "label": "china_dependency_awareness",
+        "value": 0.74,
+        "evidence": "China's purchases of Iranian oil at discounted prices (~$50-60/bbl vs market) have been critical to the Islamic Republic's economic survival under maximum pressure. Mojtaba is aware of this dependency but has limited alternatives. China leverages this dependency for favorable terms (and to prevent Iran from taking actions that would disrupt China's Gulf state relations, particularly with Saudi Arabia). The 0.74 reflects awareness of and concern about dependency — he will seek to diversify but cannot rapidly reduce China dependence.",
+        "confidence": "medium"
+      },
+      {
+        "label": "theological_hardline_posture",
+        "value": 0.88,
+        "evidence": "IRGC-aligned leaders consistently hold hardline theological positions: mandatory hijab enforcement, strict Islamic law application, anti-secularism. The 2022 Mahsa Amini protests were sparked by morality police enforcement. Mojtaba's IRGC backing means he will not reverse the hardline social policies that his father defended. During wartime, theological hardline posture will be used to frame the conflict as a religious war (Islam vs Zionism/imperialism) — strengthening IRGC's ideological legitimacy for sacrifice.",
+        "confidence": "high"
+      },
+      {
+        "label": "foreign_policy_decision_centralization",
+        "value": 0.93,
+        "evidence": "The Supreme Leader in Iran controls foreign policy absolutely — the President, Foreign Minister, and Parliament have advisory roles but not decision authority on major foreign policy decisions. Mojtaba inherits this institutional arrangement and will use it. Key decisions: Hormuz closure/opening, proxy activation levels, nuclear program pacing, China/Russia diplomatic positioning — all are his to make unilaterally within the IRGC advisory framework.",
+        "confidence": "high"
+      },
+      {
+        "label": "long_term_survival_strategy",
+        "value": 0.61,
+        "evidence": "Mojtaba's long-term survival depends on: (1) ending or stabilizing the current military conflict on terms he can present as not a defeat, (2) consolidating IRGC and Assembly of Experts support, (3) managing the economy well enough to prevent mass revolt, (4) eventually building the nuclear deterrent that protects against repeat assassination attempts. None of these are easy given current conditions. The 0.61 reflects moderate confidence in survival strategy — he faces severe challenges but also has institutional support (IRGC coercive capacity) that makes near-term removal difficult.",
+        "confidence": "low"
+      },
+      {
+        "label": "populist_economic_narrative",
+        "value": 0.72,
+        "evidence": "The Islamic Republic has always combined religious ideology with populist economic narrative: anti-imperialism, resource nationalism, rejection of Western exploitation. Mojtaba will deploy this narrative intensively — the war with US/Israel will be framed as resistance to economic exploitation as much as religious warfare. Subsidies for basic goods (bread, fuel, medicine) will be maintained as the population-management tool, even at fiscal cost.",
+        "confidence": "medium"
+      },
+      {
+        "label": "environmental_development_priority",
+        "value": 0.15,
+        "evidence": "Iran faces severe environmental problems: Lake Urmia desiccation, water scarcity, air pollution, dust storms. These are largely ignored as policy priorities under both Ali Khamenei and expect to be ignored by Mojtaba. Environmental policy is far down the priority hierarchy during wartime conditions.",
+        "confidence": "medium"
+      },
+      {
+        "label": "cyber_warfare_use",
+        "value": 0.84,
+        "evidence": "Iran has sophisticated cyber warfare capabilities (developed partly in response to Stuxnet). IRGC Cyber Command conducts offensive operations against US, Israeli, Gulf state, and European targets. Under the current conflict, cyber operations will be intensified as an asymmetric response to air superiority disadvantage. Infrastructure attacks (power grids, water systems) and financial system disruption are in Iran's cyber arsenal.",
+        "confidence": "high"
+      },
+      {
+        "label": "martyrdom_framing_of_father",
+        "value": 0.97,
+        "evidence": "Ali Khamenei's death is being framed as martyrdom (شهادت) in Iranian state media. Mojtaba's legitimacy is partly built on being the son of the martyr-Supreme Leader. This framing creates a political obligation: he cannot dishonor his father's martyrdom by accepting unfavorable terms. Every negotiation from a position of perceived weakness risks being characterized as betraying his father's sacrifice. This martyrdom framing significantly constrains his diplomatic flexibility.",
+        "confidence": "very high"
+      },
+      {
+        "label": "regional_hegemony_ambition",
+        "value": 0.81,
+        "evidence": "Iran under the Islamic Republic has pursued regional hegemony — establishing a 'Shia crescent' from Tehran to Beirut through Iraq, Syria, and Lebanon. The Quds Force's proxy network is the instrument of this ambition. Mojtaba will inherit and likely intensify this ambition: his father's assassination by Israel/US demonstrates the cost of regional weakness. Strengthening the proxy network as a regional deterrent is the natural response.",
+        "confidence": "medium-high"
+      },
+      {
+        "label": "political_opposition_tolerance",
+        "value": 0.04,
+        "evidence": "Zero effective political opposition tolerance. Any internal opposition to his leadership during wartime would be suppressed immediately. The 2022 protests were suppressed under normal conditions; wartime provides even stronger pretext for eliminating opposition. Key potential opposition centers: reformist clerics in Qom, liberal elements around Pezeshkian, diaspora media — all will be targeted if they criticize war policy.",
+        "confidence": "high"
+      },
+      {
+        "label": "first_statement_escalation_posture",
+        "value": 0.94,
+        "evidence": "His March 12 first statement (written, read on state TV — he has not appeared in person or spoken on camera) confirmed maximum escalation posture: (1) Hormuz closure continues as 'tool to pressure the enemy', (2) all US military bases in the region 'should close immediately' or 'will be attacked', (3) 'studies have been conducted regarding the opening of other fronts in which the enemy has little experience and is highly vulnerable', (4) demanded reparations from attackers. No diplomatic off-ramp offered. No ceasefire signal. The statement validates the pre-existing high-escalation priors and slightly exceeds them — the 'new fronts' language suggests active planning for escalation beyond current theaters. NPR, Al Jazeera, CNN all report consistent content.",
+        "confidence": "very high"
+      },
+      {
+        "label": "hormuz_closure_strategy_sophistication",
+        "value": 0.87,
+        "evidence": "Iran achieved effective Hormuz closure not through traditional naval blockade (which the US Navy could break) but through a cheap, asymmetric drone strategy. Several drone strikes near the strait caused insurers and shipping companies to declare it unsafe — tanker traffic dropped ~70% immediately, then to effectively zero. Iran also reportedly mined the strait (CNN, March 11). This is strategically sophisticated: the actual military expenditure is minimal (cheap drones), but the economic impact is maximum (20% of global oil supply). The IRGC then announced 'not a litre of oil' will pass. Mojtaba's first statement confirmed continuation. The strategy exploits the insurance/reinsurance industry as a force multiplier — you don't need to sink ships, just make them uninsurable. The 0.87 reflects high strategic sophistication in asymmetric leverage, likely IRGC institutional planning that Mojtaba inherited and endorsed.",
+        "confidence": "high"
+      },
+      {
+        "label": "personal_visibility_avoidance",
+        "value": 0.82,
+        "evidence": "As of March 13, Mojtaba has not been seen or heard in person as Supreme Leader. His first statement was a written message read by a news anchor on state TV. Iran International notes 'Iran's unseen new leader issues first message in writing.' This is unusual — Ali Khamenei made public appearances early in his tenure. Possible explanations: (1) security concerns after his father's assassination — appearing publicly could make him a target, (2) maintaining the 'shadow power' operating style he used for decades, (3) operational security during active war. The 0.82 reflects strong preference for invisibility, consistent with his pre-appointment 'man in the shadow' profile. For the simulation, this means his actual decision-making will be even harder to observe and calibrate than typical leaders.",
+        "confidence": "medium-high"
+      },
+      {
+        "label": "assembly_of_experts_coercion_reliance",
+        "value": 0.85,
+        "evidence": "IranWire exclusive report: IRGC Intelligence directly threatened Assembly of Experts members and their families to secure Mojtaba's selection. The meeting was conducted online (not in-person) on March 3, with a second meeting planned March 5 that 8 members boycotted. The process was opaque — unclear whether physical vote, remote vote, or 'emergency consultation' (Al Jazeera). Iran International confirms IRGC pressured the assembly. Multiple critics noted the dynastic nature ('clerical version of rule of the shah'). This coercive selection mechanism has two simulation implications: (1) his authority rests on IRGC enforcement, not genuine clerical consensus, making him more dependent on IRGC than his father was, (2) the 8 boycotters represent a potential future opposition faction if IRGC power weakens.",
+        "confidence": "high"
+      },
+      {
+        "label": "nuclear_site_hardening_priority",
+        "value": 0.93,
+        "evidence": "After the June 2025 Twelve-Day War damaged Natanz surface facilities, Iran accelerated construction at the underground Kuh-e Kolang Gaz (Pickaxe Mountain) site, tunneled 260-330 feet into the Zagros Mountains just 1.6km south of Natanz. Satellite imagery from February 10, 2026 shows active construction: concrete pouring at western entrance, leveled ground at eastern entrance, reinforced concrete head structure added. The March 2026 US strikes damaged entrance buildings but the underground facility remains intact and inaccessible to conventional weapons. Trump stated Iran has 'a new site for nuclear creation.' The site may be deeper than Fordow (which survived GBU-57 bunker busters). Under Mojtaba, this hardening will accelerate — the lesson is unambiguous: put everything underground beyond reach of US/Israeli strikes.",
+        "confidence": "high"
+      },
+      {
+        "label": "internet_total_blackout_willingness",
+        "value": 0.96,
+        "evidence": "Iran imposed a 'near total' internet blackout starting February 28, with connectivity dropping to 1% of normal levels (NetBlocks). As of March 13, the blackout has lasted 240+ hours — among the most severe government-imposed nationwide internet shutdowns on record globally. Iran has spent a third of 2026 offline (including the earlier January protest shutdown). The blackout cuts international phone calls, social media, VPNs, and global internet. Only Iran's domestic intranet (National Information Network) functions. Economic cost: $35-37 million/day (Iranian Communications Minister and NetBlocks estimates). Despite this cost, the regime maintains the blackout because information control during wartime is existential. The 0.96 reflects near-absolute willingness to impose total communication isolation regardless of economic cost — this is not new behavior for this regime, but the duration and completeness under Mojtaba are unprecedented.",
+        "confidence": "very high"
+      },
+      {
+        "label": "gulf_state_drone_campaign_intensity",
+        "value": 0.91,
+        "evidence": "Iran has conducted a sustained multi-vector drone and missile campaign against Gulf state infrastructure since March 1. Confirmed targets as of March 12: Saudi Arabia (Shaybah oilfield — 7 drones intercepted; embassies district), Bahrain (fuel storage tanks at Bahrain International Airport — smoke over Manama), Kuwait (residential building hit — 2 wounded; airport struck), UAE (1,422 drones and 246 missiles launched toward UAE territory, 1,342 drones and 229 missiles intercepted; Dubai residential building hit; Dubai International Airport — 4 injured). This is not symbolic — it's sustained, large-scale targeting of civilian and energy infrastructure across multiple sovereign nations. The campaign serves dual purpose: punish US-allied Gulf states hosting military bases, and demonstrate Iran's capacity to inflict pain beyond the immediate war zone. The 0.91 reflects very high campaign intensity that Mojtaba has explicitly endorsed in his first statement.",
+        "confidence": "very high"
+      },
+      {
+        "label": "crypto_sanctions_evasion_sophistication",
+        "value": 0.79,
+        "evidence": "IRGC-facilitated crypto addresses received over $3 billion in 2025 (up from $2B in 2024), accounting for 50%+ of all value received by Iranian services by Q4 2025. Iran's total sanctioned-entity crypto flows contributed to a $104 billion global surge in sanctions-busting crypto transactions (Asia Times). Two UK-registered exchanges (Zedcex, Zedxion) functioned as IRGC fund-laundering channels. US DOJ investigating Iran sanctions evasion via Binance. Mojtaba's personal financial agent Ali Ansari has 'circumvented sanctions, laundered money for the IRGC, and financed proxy groups.' Under wartime conditions and with conventional banking channels even more restricted, crypto evasion will intensify. The 0.79 reflects high sophistication in this domain, driven by IRGC institutional capability rather than Mojtaba's personal expertise.",
+        "confidence": "medium-high"
+      },
+      {
+        "label": "personal_offshore_wealth_vulnerability",
+        "value": 0.72,
+        "evidence": "Bloomberg (January 2026) investigation linked Mojtaba to an offshore financial network exceeding $3 billion: high-value real estate in London ($100M+ through shell companies), properties in Dubai, shipping interests, banking relationships, and hospitality assets in Europe. Additional reports cite $300M in gold and diamonds, assets in UAE, Syria, Venezuela, and African countries. Assets structured through intermediaries and layered corporate entities across multiple jurisdictions. He was personally sanctioned by the US in 2019. This wealth creates a vulnerability: (1) Western governments can target and freeze identified assets, (2) the wealth contradicts the Islamic Republic's anti-corruption rhetoric, (3) it creates personal financial interests that may influence policy decisions (e.g., reluctance to antagonize UAE or UK beyond certain thresholds to protect hidden assets). The 0.72 reflects substantial vulnerability but mitigated by asset concealment sophistication.",
+        "confidence": "medium"
+      },
+      {
+        "label": "green_movement_crackdown_experience",
+        "value": 0.89,
+        "evidence": "In 2009, Mojtaba was 'a key figure' in orchestrating the crackdown against Green Movement protesters (PBS Frontline Tehran Bureau). He was believed to have been directly in charge of the paramilitary Basij. National security meetings were relocated to the Office of the Supreme Leader to be personally supervised by Mojtaba. This is the single most important piece of behavioral evidence from before his appointment: he has direct, hands-on experience running a massive domestic repression operation. The 2009 crackdown killed hundreds and imprisoned thousands. This experience means: (1) he knows how to use the Basij as a blunt instrument, (2) he has no psychological hesitation about ordering lethal force against civilians, (3) he has existing command relationships with IRGC/Basij operational leaders from that period. The 0.89 reflects deep, demonstrated crackdown experience — not theoretical, but field-tested.",
+        "confidence": "high"
+      },
+      {
+        "label": "mesbah_yazdi_ideological_extremism",
+        "value": 0.83,
+        "evidence": "Mojtaba studied under Mohammad-Taqi Mesbah-Yazdi in Qom, one of the most ultraconservative clerics in the Islamic Republic's history. Mesbah-Yazdi (died 2021) called for killing Iranian youths who promoted 'Western immorality', opposed democratic participation as un-Islamic, and provided the theological justification for extreme state violence. Axios describes Mojtaba as a 'devotee' heavily informed by Mesbah-Yazdi's views. He is 'among the most hardline of Iranian principlists' with 'close ties to some of the most ideologically extremist clerics.' This ideological formation is significant for the simulation: Mesbah-Yazdi's framework provides religious justification for unlimited violence in defense of the Islamic state. Unlike pragmatic hardliners (who use violence instrumentally), Mesbah-Yazdi-influenced leaders view violence as theologically mandated. The 0.83 reflects strong but not total influence — he is also shaped by IRGC institutional pragmatism.",
+        "confidence": "medium-high"
+      },
+      {
+        "label": "dynastic_legitimacy_deficit",
+        "value": 0.78,
+        "evidence": "Multiple dimensions of legitimacy deficit confirmed: (1) Religious rank: holds 'hujjat al-Islam' (below ayatollah), same problem his father faced in 1989 but arguably worse because Mojtaba lacks Ali Khamenei's revolutionary credentials. (2) Dynastic optics: critics call it 'a clerical version of rule of the shah' — directly invoking the monarchy the 1979 revolution overthrew. (3) Process: IRGC threatened Assembly of Experts members (IranWire exclusive), 8 members boycotted the second meeting, process was online/opaque. (4) Iran International: 'not widely recognised within the traditional hierarchy of Shi'i scholarship as a senior jurist.' (5) He taught Kharij-e Fiqh in Qom for ~20 years, which provides some scholarly credentials but falls far short of Grand Ayatollah status. The deficit is structural — it cannot be resolved through wartime performance alone. Updated from 0.65 to 0.78 based on the coercion evidence and boycott data.",
+        "confidence": "high"
+      },
+      {
+        "label": "china_russia_alliance_deepening_post_succession",
+        "value": 0.84,
+        "evidence": "Both China and Russia immediately recognized Mojtaba's appointment. Putin sent congratulatory telegram pledging 'unwavering solidarity.' China's Foreign Ministry said appointment followed constitutional procedures and 'rejects any external interference.' A Khamenei adviser stated Russia and China are 'among Iran war winners' (Iran International). However, Al Jazeera (March 5) reported 'Moscow, Beijing are keeping their distance' — neither provided military aid or intervened directly. The relationship is transactional: China wants cheap oil, Russia wants anti-Western alignment, both provide UN Security Council cover. Under Mojtaba, Iran will be 'easternised rather than westernised' (RTE analysis). The 0.84 reflects deepening alignment trajectory but acknowledges the gap between rhetorical support and actual military assistance — China and Russia support Iran's resistance but won't fight for it.",
+        "confidence": "medium-high"
+      },
+      {
+        "label": "war_front_expansion_willingness",
+        "value": 0.81,
+        "evidence": "Mojtaba's March 12 first statement explicitly referenced 'studies conducted regarding the opening of other fronts in which the enemy has little experience and is highly vulnerable.' This is not standard defensive rhetoric — it signals active planning for horizontal escalation beyond current theaters (Gulf, Hormuz, Lebanon/Israel, Red Sea). Possible 'new fronts': (1) cyberattacks on US/Israeli critical infrastructure, (2) activation of sleeper cells in Western countries, (3) Shia militia operations in new geographies, (4) attacks on US forces in Africa/Central Asia, (5) maritime operations beyond Hormuz (Indian Ocean, Mediterranean). The statement's specificity ('studies have been conducted') suggests concrete IRGC operational plans exist. The 0.81 reflects high willingness to expand, constrained slightly by the reality that Iran's conventional military capability is degraded by ongoing strikes.",
+        "confidence": "medium-high"
+      },
+      {
+        "label": "reparations_demand_rigidity",
+        "value": 0.76,
+        "evidence": "Mojtaba's first statement demanded reparations from those who attacked Iran. This is diplomatically significant: reparations demands create a negotiating position that is almost impossible for the US/Israel to meet (no precedent for attacking nations paying reparations to the attacked), which means it functions as a de facto rejection of any realistic ceasefire framework. The demand also serves domestic legitimacy — 'we will make them pay' narrative. The 0.76 reflects high rigidity on this demand but acknowledges that it could be quietly dropped in an eventual face-saving ceasefire formula (e.g., 'reconstruction aid' from third parties framed as reparations).",
+        "confidence": "medium"
+      },
+      {
+        "label": "shadow_governance_preference",
+        "value": 0.85,
+        "evidence": "Mojtaba operated for decades as the 'shadow power' or 'gatekeeper' behind his father (PBS Frontline, Gulf News, Al-Monitor). He controlled access to the Supreme Leader, managed IRGC personnel decisions, coordinated intelligence operations, and influenced clerical appointments in Qom — all without formal title or public accountability. His first statement was written, not spoken. He has not appeared publicly. This operating style suggests he may continue to govern through intermediaries and IRGC command structures rather than through the public-facing leadership style of his father (who gave public Friday sermons, met delegations, etc.). For the simulation, this means: (1) his actual decision inputs will be harder to observe, (2) IRGC commanders may appear to be making decisions that are actually Mojtaba's, (3) the principal-agent relationship may be inverted from what it appears — he may be more the IRGC's instrument than its master.",
+        "confidence": "medium-high"
+      },
+      {
+        "label": "economic_catastrophe_tolerance",
+        "value": 0.82,
+        "evidence": "Iran's economy entering the war was already in severe distress: GDP contraction projected -1.7% (2025) and -2.8% (2026) by World Bank; inflation 43%+ (IMF); rial at 1,162,000:1 vs USD; internet blackout costing $35-37M/day; Hormuz closure eliminates oil export revenue from Gulf route. World Bank projects further contraction due to war. Yet Mojtaba's first statement contained zero economic content — no mention of economic relief, subsidies, reconstruction, or economic management. His priority hierarchy is purely military-political. The 0.82 reflects very high tolerance for economic catastrophe — he will accept near-total economic collapse rather than make political concessions. The Iranian population has already endured 40+ years of sanctions-induced economic pain; the regime's repressive capacity allows it to suppress economic grievances.",
+        "confidence": "medium-high"
+      },
+      {
+        "label": "irgc_intelligence_background_depth",
+        "value": 0.88,
+        "evidence": "At age 17, Mojtaba joined the IRGC and reportedly fought in the Habib Battalion during the Iran-Iraq War's final years. He subsequently 'coordinated directly with IRGC commanders and intelligence units, managing sensitive security and political files' (multiple sources). His role in the 2009 crackdown involved direct operational control of Basij from the Supreme Leader's office. IRGC Intelligence threatened Assembly of Experts members on his behalf. Fox News sources describe him as 'more violent, more ideological, and far more dangerous than his father.' Unlike his father — who was a cleric first and only later gained military-security experience — Mojtaba's formative career was within the IRGC intelligence apparatus. This is his 'operating system': not clerical deliberation but intelligence-security command-and-control. The 0.88 reflects deep, career-long IRGC intelligence integration.",
+        "confidence": "high"
+      },
+      {
+        "label": "proxy_network_fragility_awareness",
+        "value": 0.62,
+        "evidence": "Foreign Policy (March 2) reports Iran's proxy network is 'weaker than at any point in the past decade — yet more volatile, more fragmented, and more likely to turn a limited strike into a regional firestorm.' Stimson Center analysis notes structural erosion of proxy network foundations. Brookings and FDD analyses confirm proxies are 'out for themselves' and may not follow centralized Iranian directives as reliably as before. Hezbollah reactivated (March 2) but with depleted capabilities after 2024 losses. Hamas is remnant. Houthis are operationally independent. Iraqi militias have their own political agendas. The question is whether Mojtaba understands this fragility or assumes the proxy network functions as his father left it. The 0.62 reflects moderate awareness — he likely knows the proxies are weaker but may overestimate his ability to command them, especially given his father's death and the succession disruption.",
+        "confidence": "medium"
+      },
+      {
+        "label": "iran_iraq_war_veteran_psychology",
+        "value": 0.71,
+        "evidence": "Mojtaba fought in the Habib Battalion during the final years of the Iran-Iraq War (1980-1988), joining the IRGC at age 17. The Iran-Iraq War shaped an entire generation of IRGC leaders: it normalized massive casualties (Iran suffered ~500,000 killed), established the martyrdom cult as operational doctrine, created deep personal bonds within IRGC networks, and built the 'resistance economy' mentality. Mojtaba's war experience — though in the final stages — means he personally experienced the regime's willingness to accept enormous human costs for ideological objectives. This is not abstract for him: he was there. The 0.71 reflects meaningful but not dominant influence (he was young, his combat exposure was limited compared to senior IRGC commanders who fought the entire war).",
+        "confidence": "medium"
+      }
+    ]
+  },
+  "red_lines": [
+    {
+      "id": "RL001",
+      "name": "regime_overthrow_attempt",
+      "condition": "Any domestic or foreign action targeting the Islamic Republic's governing structure",
+      "forced_action": "maximum_repression_and_military_escalation",
+      "confidence": 0.99,
+      "evidence": "IRGC's core purpose is regime survival. Mojtaba's personal survival = regime survival. Any threat to the regime structure is existential. Wartime conditions justify unlimited repression.",
+      "priority": 1
+    },
+    {
+      "id": "RL002",
+      "name": "nuclear_program_permanent_destruction",
+      "condition": "Military action that permanently destroys Iran's nuclear program capability (including scientific personnel, documentation, and facilities)",
+      "forced_action": "maximum_military_escalation_including_direct_attack_on_israel_and_us_forces",
+      "confidence": 0.94,
+      "evidence": "The nuclear program is now existential — the lesson from his father's assassination is that deterrence without nuclear weapons failed. Any attempt to permanently eliminate the program will trigger the strongest possible military response.",
+      "priority": 1
+    },
+    {
+      "id": "RL003",
+      "name": "hormuz_military_closure_required",
+      "condition": "US-Israeli ground invasion of Iran OR threat to Islamic Republic's territorial existence",
+      "forced_action": "full_strait_of_hormuz_closure_plus_maximum_proxy_activation",
+      "confidence": 0.91,
+      "evidence": "Full Hormuz closure would trigger global energy crisis but is held as existential deterrent option. Would be activated if Iran faces territorial invasion. The IRGC mines scenario is planned and rehearsed.",
+      "priority": 1
+    },
+    {
+      "id": "RL004",
+      "name": "ceasefire_without_honor",
+      "condition": "US/Israel proposing ceasefire terms that require Iran to acknowledge defeat, surrender nuclear rights, or abandon proxies",
+      "forced_action": "reject_and_escalate_proxy_and_direct_operations",
+      "confidence": 0.88,
+      "evidence": "Mojtaba cannot accept terms that dishonor his father's martyrdom. Ceasefire can only be accepted if it is presentable as a strategic victory or at minimum a draw. US/Israeli terms will not meet this threshold in the near term.",
+      "priority": 2
+    }
+  ],
+  "decision_priority_hierarchy": [
+    "1. Islamic Republic regime survival",
+    "2. Revenge for father's assassination (near-term driver)",
+    "3. Nuclear program protection and acceleration",
+    "4. IRGC institutional interests",
+    "5. Strait of Hormuz leverage management",
+    "6. Proxy network activation and management",
+    "7. China/Russia alliance maintenance",
+    "8. Economic survival (oil revenue, domestic subsidy maintenance)",
+    "9. Regional hegemony maintenance",
+    "10. Religious-ideological purity signaling"
+  ],
+  "background": {
+    "name_full": "Mojtaba Khamenei (مجتبی خامنه‌ای)",
+    "born": "1969-09",
+    "birthplace": "Tehran, Iran",
+    "age_at_appointment": 56,
+    "education": [
+      "Qom seminary training under Mesbah-Yazdi, Safi Golpaygani, and Kharazi (from 1989/1999)",
+      "Taught Kharij-e Fiqh (advanced jurisprudence) in Qom seminary for ~20 years (from 2004)",
+      "Holds rank of 'hujjat al-Islam' — below ayatollah, below Grand Ayatollah",
+      "IRGC combat service: Habib Battalion, Iran-Iraq War final years (joined age 17)",
+      "IRGC Intelligence/Security operational experience (details classified)"
+    ],
+    "career_path": "military_intelligence_religious",
+    "career_detail": "Operated as the 'shadow power' and 'gatekeeper' of the Supreme Leader's office for decades. Known as the most influential of Ali Khamenei's six children. Coordinated directly with IRGC commanders and intelligence units, managing sensitive security and political files. Controlled access to the Supreme Leader. Influenced IRGC personnel decisions, intelligence operations, and clerical appointments in Qom. Key operational role: personally supervised the 2009 Green Movement crackdown from the Supreme Leader's office, directly commanding Basij operations. Described by intelligence sources as 'more violent, more ideological, and far more dangerous than his father.' Linked to $3B+ offshore financial network (Bloomberg investigation, Jan 2026) spanning London, Dubai, UAE, Syria, Venezuela, and Africa. Personally sanctioned by US since 2019.",
+    "key_formative_experiences": [
+      "Joined IRGC at age 17, fought in Habib Battalion during Iran-Iraq War final years — normalized massive casualties and martyrdom culture",
+      "Grew up as son of Supreme Leader — entire life lived inside the clerical-IRGC power structure",
+      "Studied under ultraconservative cleric Mesbah-Yazdi in Qom — shaped by most extreme theological-political worldview in the Islamic Republic",
+      "Personally supervised 2009 Green Movement crackdown — hands-on experience commanding lethal domestic repression operations",
+      "No known experience outside Iran or international affairs — entire worldview formed within Islamic Republic ideological bubble",
+      "Experienced the Mahsa Amini protests of 2022 from inside the security apparatus",
+      "Witnessed the June 2025 Twelve-Day War nuclear facility strikes — lesson: conventional deterrence failed, need nuclear weapons",
+      "Father assassinated February 28, 2026 — profound personal trauma + assumption of power under active war conditions",
+      "IRGC Intelligence threatened Assembly of Experts members to secure his appointment — his power rests on coercion from day one"
+    ],
+    "personal_risk_tolerance": "HIGH — confirmed by first statement (March 12) which signaled maximum escalation: full Hormuz closure, threat to all US bases, 'new fronts' language. No deescalation signals. Combined with 2009 crackdown experience (willingness to order lethal force) and Iran-Iraq War combat service."
+  },
+  "information_fidelity": 0.24,
+  "information_fidelity_reasoning": "UPDATED March 13: Revised DOWN from 0.29. The 240-hour near-total internet blackout (connectivity at 1%) means information flowing INTO Iran is now even more restricted than initially estimated. Compounding factors: (1) Iran's already-poor information environment now at historic worst — total internet blackout cuts even elite information channels, (2) wartime fog: military advisors systematically overstate capability and understate losses (standard in all militaries, worse in authoritarian systems), (3) his own limited experience means he lacks calibration to discount distorted intelligence — he has never operated outside Iran, (4) his 'shadow power' operating style means information flows through IRGC intermediaries who filter for what they think he wants to hear, (5) the Mesbah-Yazdi ideological framework provides a pre-existing narrative that may override empirical evidence (theological certainty vs. situational awareness), (6) the internet blackout he ordered also cuts his own regime's ability to monitor international reactions in real-time. The 0.24 reflects that the total information blackout has made an already-bad information environment even worse — he is making war decisions in an information vacuum of his own creation.",
+  "data_confidence_overall": "MEDIUM-LOW — significantly improved from initial 'LOW' assessment. First statement and initial actions provide calibration data for ~15 dimensions (Hormuz strategy, escalation posture, information control, Gulf campaign, visibility preference). Background research fills major gaps (2009 crackdown role, Mesbah-Yazdi mentorship, wealth network, IRGC intelligence career). However, the core uncertainty remains: we have only 4 days of observable behavior as Supreme Leader. Dimensions confirmed by direct observation are now CALIBRATED PRIORS (narrower uncertainty bands). Dimensions based on inference from background data remain WIDE PRIORS. Monte Carlo runs should use tighter distributions for confirmed dimensions and wider distributions for inferred ones.",
+  "special_notes": "1. CRISIS APPOINTMENT EFFECT: Leaders appointed under extreme crisis conditions in the first weeks/months often make decisions that do not reflect their long-term behavioral equilibrium. Mojtaba may be in a 'reactive rage' mode that produces more escalatory behavior than his long-run equilibrium would suggest. His March 12 first statement is consistent with this — maximum escalation, zero off-ramps. The simulation should model a time-varying decay: crisis-elevated parameters gradually converge toward long-run IRGC-hardliner baseline over 6-18 months if the acute military conflict phase ends. 2. IRGC AS PRINCIPAL — CONFIRMED: The IRGC coerced his selection (threatened Assembly of Experts members per IranWire). This confirms the principal-agent dynamic: the IRGC is his patron, not his subordinate. His 'decisions' are better modeled as IRGC institutional output with Mojtaba providing formal authority. If IRGC and Mojtaba diverge, the IRGC can remove him. Euronews insider: 'Mojtaba cannot replace his father — IRGC holds all the cards.' Foreign Policy: his appointment 'signals regime exhaustion' not regime strength. 3. NUCLEAR WEAPONS TIMELINE — ACCELERATING: Kuh-e Kolang Gaz (Pickaxe Mountain) underground site near Natanz actively under construction as of Feb 10 satellite imagery — 260-330 feet underground, potentially deeper than Fordow. March 2026 US strikes damaged entrance buildings but underground facility intact. Trump confirmed 'new site for nuclear creation.' Washington Institute: 'if Mojtaba becomes leader, he and the IRGC might decide Iran should move quickly to obtain nuclear weapons.' Monitor construction progress, IAEA access denials, and enrichment levels as leading indicators. 4. ECONOMIC SECONDARY IMPORTANCE — CONFIRMED BY FIRST STATEMENT: His March 12 statement contained ZERO economic content — no mention of economic relief, inflation, subsidies, or reconstruction. Priority hierarchy is purely military-political. World Bank projects -2.8% GDP in 2026; inflation 43%+; rial 1,162,000:1 vs USD; internet blackout costs $35-37M/day. He accepts all of this as the price of war. 5. LEGITIMACY FRAGILITY CREATES ESCALATION BIAS — CONFIRMED: The coercion evidence (IRGC threats to Assembly members, 8 boycotters) makes this even more acute than initially assessed. He must prove himself through escalation. His first statement was maximally hardline — no moderation, no diplomatic signals. 6. NEW — SHADOW GOVERNANCE MODEL: Unlike his father who gave public sermons and met delegations, Mojtaba has not been seen or heard in person. His first statement was written, read by a news anchor. He is governing as an invisible figure. This 'shadow supreme leader' model has no precedent in the Islamic Republic and creates unique simulation challenges: (1) his actual decision inputs are harder to observe, (2) power dynamics between him and IRGC field commanders are obscured, (3) the population rallies around an abstraction rather than a person. 7. NEW — HORMUZ AS INFORMATION WARFARE: Iran's Hormuz closure strategy is a masterclass in asymmetric leverage — cheap drones made the strait uninsurable, achieving economic effect of a naval blockade at a fraction of the cost. The strategy exploits the global insurance/reinsurance industry as a force multiplier. This suggests IRGC strategic planning sophistication that Mojtaba inherited and endorsed. The simulation should model Hormuz as a continuous variable (0-100% closure) rather than binary, with insurance market dynamics as the transmission mechanism. 8. NEW — WEALTH VULNERABILITY: The $3B+ offshore wealth network (Bloomberg) creates a personal vulnerability that may subtly influence decisions. If Western governments credibly threaten to freeze/seize identified London and Dubai assets, this could be a negotiating lever — though Mojtaba will never publicly acknowledge this vulnerability. 9. NEW — INFORMATION PARADOX: The total internet blackout he ordered to prevent domestic information flow also degrades his own intelligence picture. His information fidelity (0.24) is among the worst of any leader in the simulation. He is making war decisions in an information vacuum of his own creation — a classic dictator trap."
+}

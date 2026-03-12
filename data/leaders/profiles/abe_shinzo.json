@@ -1,0 +1,289 @@
+{
+  "leader": "Abe Shinzo",
+  "leader_zh": "安倍晋三",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "Historical record: Second Abe cabinet 2012-2020 (focus on second term)",
+    "Abenomics three arrows framework Dec 2012",
+    "BoJ under Kuroda: QQE (Apr 2013), negative rates (Jan 2016), YCC (Sep 2016)",
+    "Consumption tax increases: 8% (Apr 2014), 10% (Oct 2019) with multiple delays",
+    "TPP negotiations and CPTPP (2018) after US withdrawal",
+    "Japan Revitalization Strategy (womenomics, corporate governance) 2013-2020",
+    "Collective self-defense reinterpretation (Cabinet Decision Jul 2015)",
+    "COVID-19 initial response Jan-Aug 2020",
+    "First Abe term 2006-2007 (short reference)",
+    "Academic literature: Tobias Harris The Iconoclast: Shinzo Abe and the New Japan"
+  ],
+  "background": {
+    "birth_year": 1954,
+    "education": "Seikei University political science; London School of Economics (brief exchange, no degree)",
+    "career_path": "Political dynasty (father Abe Shintaro FM; maternal grandfather Kishi Nobusuke PM) → Kobe Steel → LDP politician → PM First Term 2006-07 → PM Second Term 2012-2020",
+    "decision_archetype": "Nationalist reformer with economic heterodoxy / dynasty politician with revisionist agenda",
+    "key_experiences": [
+      "Grandson of Kishi Nobusuke (PM, signed US-Japan Security Treaty 1960) — hereditary nationalism",
+      "First term ended in humiliation (resigned 2007 amid political scandals, health issues) — formative failure",
+      "Used 5-year opposition period to develop Abenomics framework with Hamada Koichi and economic advisers",
+      "Physical health (ulcerative colitis) shaped risk of second term — knew window was finite",
+      "Family's deep revision agenda (Kishi legacy of wanting to revise postwar constitution)",
+      "Witnessed LDP's wilderness years 2009-2012 (Democratic Party of Japan government) — confirmed need for strong economic narrative"
+    ],
+    "nickname": "Abe-chan (informal); Three Arrows (economic framework branding)"
+  },
+  "behavior_matrix": {
+    "description": "Behavior vector for Abe Shinzo's second term (2012-2020) — the longest premiership in Japanese history at 7+ years, making him the most consequential Japanese PM of the 21st century. Covers: Abenomics three-arrow framework (bold monetary easing via Kuroda BoJ, fiscal flexibility, structural reform), BoJ's unprecedented QQE/negative rates/YCC policies, political management of consumption tax increases (delayed twice), TPP championing and CPTPP rescue after US withdrawal, Womenomics and corporate governance reform, constitutional revision attempts and collective self-defense reinterpretation, and COVID-19 initial response before health-related resignation. Second term was transformative in monetary policy, mixed in structural reform, and fell short on constitutional revision.",
+    "dimensions": 75,
+    "vectors": [
+      {
+        "label": "monetary_easing_conviction_abenomics",
+        "value": 0.95,
+        "evidence": "Abenomics First Arrow was 'bold monetary easing' — Abe appointed Kuroda Haruhiko (Apr 2013) with explicit mandate to achieve 2% inflation target. QQE doubled monetary base in 2 years. Negative interest rate policy (Jan 2016) — first in Japan's history. Yield curve control (Sep 2016) — capped 10-year JGB at 0%. Abe was committed to monetary reflation as the foundational solution to Japan's deflation, and his BoJ governor appointment and public signaling were consistently aligned with this conviction for 7 years."
+      },
+      {
+        "label": "boj_governor_appointment_strategy",
+        "value": 0.93,
+        "evidence": "Abe passed over traditional BoJ insider candidates to appoint Kuroda Haruhiko (former ADB president, MOF background — but aligned with aggressive easing). He coordinated with Kuroda on the 2% inflation target before appointment. When Kuroda's QQE began missing the inflation target (2014-2015), Abe did not reconsider — he doubled down with negative rates (Jan 2016) and YCC (Sep 2016). The PM-BoJ coordination was the most explicit since postwar occupation, though formally maintained BoJ independence."
+      },
+      {
+        "label": "consumption_tax_political_calculation",
+        "value": 0.72,
+        "evidence": "Consumption tax management showed Abe's political calculation over fiscal orthodoxy: (1) Implemented 5%→8% increase (Apr 2014) on schedule — caused Q2 2014 GDP to collapse (-6.8% annualized). (2) Delayed 8%→10% increase from Oct 2015 to Apr 2017. (3) Delayed again from Apr 2017 to Oct 2019. (4) Finally implemented Oct 2019 at 10% with demand-smoothing measures (lower rate for food, cashback). Each delay was taken against MOF and fiscal hawk pressure when economic data showed vulnerability. He internalized Hashimoto's 1997 lesson."
+      },
+      {
+        "label": "consumption_tax_fiscal_inevitability_acceptance",
+        "value": 0.75,
+        "evidence": "Despite multiple delays, Abe ultimately implemented the 10% consumption tax (Oct 2019) — acknowledging the long-run fiscal arithmetic of Japan's aging society. He accepted tax increase as necessary when political window allowed (Oct 2019: economy was in decent shape before COVID). The 2014 increase at 8% was also implemented despite risks. He was not a fiscal denier — he was a fiscal pragmatist who delayed when macroeconomic conditions were too weak."
+      },
+      {
+        "label": "abenomics_third_arrow_weakness",
+        "value": 0.38,
+        "evidence": "Structural reform (Third Arrow) was Abenomics' weakest component. Japan Revitalization Strategy (2013) listed reforms but implementation was uneven. Labor market dual structure (regular vs non-regular) was not addressed. Agricultural cooperative reform (JA reform) was partial. Corporate governance improved but shareholder returns were modest. Work style reform (reducing overtime) was legislated but cultural change was slow. Deregulation in strategic economic zones was incremental. Third Arrow consistently disappointed relative to First Arrow's boldness and Second Arrow's (fiscal policy) size."
+      },
+      {
+        "label": "womenomics_implementation",
+        "value": 0.68,
+        "evidence": "Abe's 'Womenomics' (coined Oct 2013 — women as Japan's 'most underutilized resource') set targets: women in 30% of leadership positions by 2020 (not achieved). Childcare expansion (400,000 new places by 2017). Parental leave reform. Female labor force participation rate rose from 63% (2012) to 71% (2019) — a genuine increase. However, quality of jobs (many non-regular/part-time), gender pay gap, and boardroom representation fell short of targets. Rhetorical commitment exceeded implementation."
+      },
+      {
+        "label": "corporate_governance_reform",
+        "value": 0.75,
+        "evidence": "Japan Stewardship Code (2014) and Corporate Governance Code (2015) required institutional investors to engage with companies and companies to increase outside directors. ROE (return on equity) improved — average listed company ROE rose from 5% to 8% 2012-2019. Cross-shareholding unwinding accelerated. These market microstructure reforms were genuine and had lasting effects on Japan's equity market quality. Tokyo Stock Exchange compliance campaigns continued beyond Abe's tenure."
+      },
+      {
+        "label": "tpp_cptpp_trade_agenda",
+        "value": 0.88,
+        "evidence": "TPP (Trans-Pacific Partnership): Abe overrode Japan's agricultural protectionist lobby to join negotiations (2013) and reach agreement (Oct 2015). When Trump withdrew US from TPP (Jan 2017), Abe rallied the remaining 11 members to preserve the deal as CPTPP (Comprehensive and Progressive Agreement for TPP, signed Mar 2018). This was a genuine free trade achievement requiring sustained political capital against JA agricultural lobby. Japan-EU EPA (signed Jul 2017) was another trade liberalization achievement."
+      },
+      {
+        "label": "agricultural_liberalization_compromise",
+        "value": 0.55,
+        "evidence": "TPP/CPTPP required some agricultural market opening but Abe protected 'sacred' five categories (rice, wheat, beef/pork, dairy, sugar) through tariff rate quotas and phase-in periods. JA agricultural cooperative reform (2015) was partial — JA Zenchu (central body) lost veto power over prefectural cooperatives but the cooperative system remained intact. He opened more than any predecessor but protected more than free trade theory required."
+      },
+      {
+        "label": "constitutional_revision_ambition",
+        "value": 0.88,
+        "evidence": "Constitutional revision was Abe's personal and dynastic ambition — reversing the Kishi legacy of the 'imposed constitution.' He set 2020 (Olympics year) as target. LDP's constitutional revision draft was developed. Coalition partner Komeito resisted removing Article 9. Abe proposed adding a new paragraph acknowledging JSDF alongside Article 9 (not deleting Article 9 — a pragmatic compromise). He failed to achieve the 2/3 supermajority in Upper House despite coming close (2016, 2019 elections). Constitution unchanged."
+      },
+      {
+        "label": "collective_self_defense_reinterpretation",
+        "value": 0.85,
+        "evidence": "Cabinet Decision (Jul 1, 2015) reinterpreted Article 9 to allow collective self-defense — reversing 60 years of constitutional interpretation without actually amending the constitution. Security Legislation (Sep 2015) enacted over massive opposition protests (Diet surrounded, 120,000 demonstrators). This was the most significant expansion of Japan's security posture in decades. Abe accepted the political cost (approval ratings fell to 35%) for a strategic security transformation."
+      },
+      {
+        "label": "us_alliance_trump_management",
+        "value": 0.90,
+        "evidence": "Abe was the first foreign leader to visit Trump Tower after the 2016 election (Nov 2016). He personally cultivated a close relationship with Trump — golf, matching baseball caps, Mar-a-Lago visits. He managed Trump's threat to withdraw US forces and demand Japan pay 4x the host nation cost through sustained personal relationship management. Abe largely prevented Trump from fundamentally disrupting US-Japan alliance architecture. The personal diplomacy was extraordinary — flying to see Trump multiple times per year."
+      },
+      {
+        "label": "free_open_indo_pacific_concept",
+        "value": 0.88,
+        "evidence": "Abe originated the 'Free and Open Indo-Pacific' concept (2007, first term; relaunched 2016). Quadrilateral Security Dialogue (Quad: US, Japan, Australia, India) was revived under Abe after being dormant since 2007. This represented a fundamental strategic reframing — countering China through coalition of democracies (without explicitly naming China). The FOIP framework became the organizing concept of US and Japanese Indo-Pacific strategy that persisted beyond his tenure."
+      },
+      {
+        "label": "china_containment_strategic",
+        "value": 0.75,
+        "evidence": "Abe's strategic orientation was clearly China-containing: Quad revival, FOIP, strengthening US-Japan alliance, developing Japan's own strike capacity debate. However, unlike Koizumi, Abe also maintained functional economic relations with China when domestically politically possible (visited China in Oct 2018 — first Japanese PM visit in 7 years). His China strategy was strategic competition + economic engagement simultaneously — more sophisticated than simple confrontation."
+      },
+      {
+        "label": "korea_relations_historical",
+        "value": 0.35,
+        "evidence": "Japan-Korea relations deteriorated significantly under Abe over comfort women/forced labor historical issues. The 2015 Comfort Women Agreement (Dec 2015) with Park Geun-hye ('final and irreversible' settlement, ¥1B fund) was later repudiated by Moon Jae-in government. GSOMIA (military intelligence sharing) was almost abrogated by Korea (2019). Trade restrictions imposed (Jul 2019) on semiconductor materials — turning historical disputes into economic conflict. Abe's historical revisionism tendency hardened Korean hostility permanently."
+      },
+      {
+        "label": "revisionist_history_tendency",
+        "value": 0.82,
+        "evidence": "Abe's dynastic revisionist agenda: questions about 'aggression' definition, Yasukuni shrine (though more cautious than Koizumi after China backlash), rehabilitation of Kishi legacy. Abe Statement (Aug 2015, 70th WWII anniversary) carefully worded to include 'remorse' and 'apology' references while not personally apologizing — a diplomatic formula that partially managed the backlash. He consistently wanted to move Japan away from postwar guilt framework."
+      },
+      {
+        "label": "abenomics_macro_reflationary_success",
+        "value": 0.70,
+        "evidence": "Abenomics achieved: (1) yen depreciated from 80 to 125 per dollar (2012-2015) — boosted corporate profits. (2) Nikkei rose from 8,600 (Nov 2012) to 24,000 (2018). (3) Unemployment fell from 4.3% to 2.4% (2020 pre-COVID). (4) Deflation technically ended (CPI occasionally positive). But: (5) 2% inflation target never sustained. (6) Real wages stagnant or declining. (7) Government debt reached 250% GDP. Partial success — financial assets inflated, employment improved, but sustainable reflation not achieved."
+      },
+      {
+        "label": "ycc_yield_curve_control",
+        "value": 0.80,
+        "evidence": "Yield Curve Control (Sep 2016 Kuroda BoJ) — capping 10-year JGB at 0% — was a novel monetary framework that Abe supported to allow continued fiscal spending without bond market vigilantes. YCC meant Japan could run large deficits without rising debt service costs. This enabled the 'second arrow' (fiscal flexibility) to operate indefinitely. The policy eventually created severe distortions (left to Kishida and Ueda to unwind). Abe supported YCC as enabling his political economic model."
+      },
+      {
+        "label": "consumption_tax_2014_mistake_learning",
+        "value": 0.78,
+        "evidence": "Q2 2014 GDP collapse (-6.8% annualized) after Apr 2014 tax increase to 8% was a near-exact rerun of Hashimoto 1997. Abe learned quickly — delayed the next increase twice. He absorbed the lesson that fiscal tightening into a deflationary environment was dangerous even if the tax was structurally necessary. This learning is evidenced by the Oct 2019 implementation which was accompanied by a demand-smoothing package (reduced VAT on food, cashback points system) to prevent a repeat."
+      },
+      {
+        "label": "covid_initial_response",
+        "value": 0.45,
+        "evidence": "COVID-19 initial response (Jan-Aug 2020) was hesitant: (1) Diamond Princess cruise ship quarantine was poorly managed (Feb 2020). (2) State of Emergency declared late (Apr 7, 2020 — vs Korea's early action). (3) Government reliance on 'soft' requests rather than legal enforcement authority. (4) Economic package was massive (¥108 trillion announced) but disbursement was slow. (5) 'Abenomask' — two masks per household distributed — became a symbol of inadequate response. Abe resigned Aug 28, 2020 citing health (ulcerative colitis recurrence). COVID exposed Japan's weak pandemic legal framework."
+      },
+      {
+        "label": "olympism_postponement_decision",
+        "value": 0.65,
+        "evidence": "Tokyo 2020 Olympics postponement (Mar 24, 2020 — agreed with IOC) was executed relatively decisively once COVID trajectory became clear. Abe had initially resisted postponement but accepted the inevitable. The postponement to 2021 was managed cooperatively with IOC. This was one of his cleaner crisis decisions — accepting an unfavorable outcome quickly rather than prolonging denial."
+      },
+      {
+        "label": "population_decline_policy",
+        "value": 0.68,
+        "evidence": "Japan's demographic crisis (falling birth rate, aging society) was a framing priority for Abe — 'a society where all 100 million people can be active' (ichioku sokukatsu). Childcare expansion, elder care labor reform, immigration liberalization (Technical Intern Trainee reform, mid-level skilled worker visa — not called 'immigration' for political reasons). Fertility rate remained below replacement. Immigration scale was insufficient to address demographic challenge. Framed action without solving the problem."
+      },
+      {
+        "label": "structural_reform_agricultural",
+        "value": 0.55,
+        "evidence": "JA (agricultural cooperative) reform (2015): JA Zenchu lost veto authority over local cooperatives, membership in cooperative became voluntary for corporations. This was the most significant agricultural structural reform since SCAP-era land reform. However, rice price support and import quotas were maintained. The reform was real but insufficient to make Japanese agriculture internationally competitive."
+      },
+      {
+        "label": "election_timing_mastery",
+        "value": 0.88,
+        "evidence": "Abe called snap elections strategically 3 times during second term (Dec 2014, Jul 2016 — Upper House, Oct 2017) — always at moments of political advantage. The Oct 2017 election (called when DPJ/Minshinto was fracturing) produced another LDP supermajority. He used elections as political resets to extend his tenure and mandate. His electoral strategizing was among the most sophisticated in LDP history."
+      },
+      {
+        "label": "abe_economics_fiscal_second_arrow",
+        "value": 0.72,
+        "evidence": "Second Arrow (flexible fiscal policy): ¥10+ trillion supplementary budgets were common. The 2013 'emergency economic measures' package was ¥20 trillion total. Infrastructure investment, disaster reconstruction. Abe explicitly rejected Hashimoto-style fiscal hawkery and used fiscal policy counter-cyclically. Government debt rose to 250%+ GDP under his tenure — he accepted the fiscal cost as necessary for reflation and political coalition maintenance."
+      },
+      {
+        "label": "stock_market_as_abenomics_barometer",
+        "value": 0.82,
+        "evidence": "Abe regularly cited the Nikkei as a measure of Abenomics success. When Nikkei fell (2014 China concerns, 2016 China market crash, 2018 trade war), fiscal and monetary response was amplified. When Nikkei rose, political legitimacy of Abenomics was reinforced. GPIF (Government Pension Investment Fund) asset allocation was changed to increase domestic and foreign equity share — effectively using pension funds to support equity markets as a policy instrument."
+      },
+      {
+        "label": "gpif_allocation_change",
+        "value": 0.80,
+        "evidence": "GPIF (¥150 trillion — world's largest pension fund) target equity allocation increased from 24% to 50% (domestic and foreign equities combined) in 2014. This was explicitly criticized as using pension funds to support equity markets. The change also meant GPIF would benefit from Abenomics equity rally — creating alignment of interest between pension beneficiaries and equity market performance. This was a deliberate, controversial, and effective part of the Abenomics machinery."
+      },
+      {
+        "label": "lhp_factional_management",
+        "value": 0.85,
+        "evidence": "Abe managed LDP factions by offering them cabinet and party positions while ensuring his Seiwa-kai faction remained dominant. He survived multiple scandals (Moritomo Gakuen, Kake Gakuen, Sakura wo Miru Kai) through factional management and coalition discipline. Komeito remained a loyal coalition partner through the decade. His LDP management was the most stable in the revolving-door era that preceded him."
+      },
+      {
+        "label": "rule_of_law_erosion_risk",
+        "value": 0.68,
+        "evidence": "Moritomo Gakuen scandal (land sold cheaply to nationalist school connected to Abe's wife) and falsified Finance Ministry documents (2018) raised serious rule of law concerns. Sakura wo Miru Kai (cherry blossom viewing party) use of public funds for supporters. Kake Gakuen veterinary school approval suspected to benefit Abe friend. He survived these scandals through LDP coalition discipline. The scandals suggested personalization of administrative processes beyond normal patronage."
+      },
+      {
+        "label": "monetary_policy_exit_coordination",
+        "value": 0.40,
+        "evidence": "The question of how to exit from YCC/negative rates was deferred under Abe — he did not want monetary tightening that might interrupt the Abenomics recovery narrative. This created a structural problem: QQE/YCC distorted bond markets, reduced bank profitability, and created massive BoJ balance sheet. The exit was left to Kishida (and ultimately Ueda) — Abe consistently prioritized continuation over exit planning. Value represents quality of exit preparation (low = poor preparation for exit)."
+      },
+      {
+        "label": "indo_pacific_security_architecture",
+        "value": 0.88,
+        "evidence": "Abe was the strategic architect of the Indo-Pacific security architecture: FOIP concept, Quad revival, strengthening Japan-Australia-India triangular security relationships, Japan-US-Australia maritime exercises, capacity building assistance for Southeast Asian coast guards. These institutional frameworks outlasted his tenure. The FOIP became US foreign policy doctrine under both Trump (2017) and Biden (2021) — demonstrating Abe's influence on US strategic thinking."
+      },
+      {
+        "label": "nationalism_dynasty_legacy",
+        "value": 0.88,
+        "evidence": "Abe's political identity was shaped by Kishi Nobusuke's legacy — Kishi signed the 1960 US-Japan Security Treaty over massive protests and was forced to resign. Abe's constitutional revision ambition, collective self-defense reinterpretation, and broader nationalist agenda were explicitly about 'completing' Kishi's project. His assassination (Jul 2022, after resignation) while giving a campaign speech revealed the depth of political passion (both his and his opponents') around this dynastic agenda."
+      },
+      {
+        "label": "negative_interest_rates_acceptance",
+        "value": 0.82,
+        "evidence": "Negative Interest Rate Policy (Jan 2016, -0.1% on excess reserves) was Abe's direct instruction to Kuroda when deflation risk re-emerged after oil price collapse. The decision was unprecedented and controversial — penalizing bank reserves. BoJ market reaction was paradoxically yen appreciation (banks sold assets to recoup losses). NIRP caused bank profitability to suffer. Abe accepted these side effects as necessary to maintain the reflation narrative."
+      },
+      {
+        "label": "foreign_direct_investment_promotion",
+        "value": 0.75,
+        "evidence": "Abe set targets for inbound FDI doubling (¥35T by 2020). Created 'Japan is Back' marketing framework for foreign investors. Corporate governance reform (outside directors, ROE improvement) was partly designed to make Japan more investable for foreign capital. Abe addressed foreign investors at Davos and NYSE in ways unprecedented for Japanese PMs. FDI inflows did increase, though from a low base and short of targets."
+      },
+      {
+        "label": "energy_policy_nuclear_restart",
+        "value": 0.72,
+        "evidence": "Abe reversed DPJ's post-Fukushima 'zero nuclear' commitment. His government set nuclear power target at 20-22% of electricity mix by 2030. NRA (Nuclear Regulation Authority) established to conduct independent safety reviews. Reactor restarts began slowly — about 9 reactors restarted by 2020. He accepted the political cost of reversing the post-Fukushima consensus on nuclear phase-out, citing energy security and CO2 reduction rationale."
+      },
+      {
+        "label": "climate_paris_accord",
+        "value": 0.65,
+        "evidence": "Japan participated in Paris Accord (2015) and COP21 framework. However, Japan's reliance on thermal power post-Fukushima (coal imports surged) made CO2 commitments difficult. Japan was frequently criticized at climate COPs for insufficient ambition. Abe signed COP21 but implementation pathway was unclear given energy mix constraints. Climate policy was not a strong second-term priority."
+      },
+      {
+        "label": "economic_resilience_external_shock",
+        "value": 0.70,
+        "evidence": "Abe's tenure included several external economic shocks: 2015-2016 China/oil market turbulence, 2018 US-China trade war, 2019 consumption tax shock, 2020 COVID. Each time, fiscal policy (supplementary budgets), monetary policy (BoJ action), and political stability provided resilience. Japan's GDP volatility was relatively contained despite large shocks. The combination of unlimited monetary easing and flexible fiscal policy created substantial shock absorbers."
+      },
+      {
+        "label": "us_election_2016_adaptation",
+        "value": 0.88,
+        "evidence": "Trump's election (Nov 2016) threatened Abe's entire TPP legacy (Trump had promised withdrawal). Abe flew to New York before inauguration (Nov 18, 2016) — first world leader to meet Trump. He began cultivating the personal relationship immediately. When Trump withdrew from TPP (Jan 23, 2017), Abe pivoted to CPTPP rescue. When Trump demanded trade concessions (auto tariff threats, agricultural market access), Abe managed this through patience and bilateral negotiations. The adaptation to Trump was his most difficult geopolitical challenge and he largely succeeded."
+      },
+      {
+        "label": "abenomics_labor_market_reform_incomplete",
+        "value": 0.40,
+        "evidence": "Work Style Reform (hatarakikata kaikaku) legislation (2018) was supposed to address overtime culture, equal pay for equal work, and regular/non-regular worker gap. Implementation was uneven. The 'equal pay for equal work' provision was watered down. Overtime limits had SME exemptions. Japanese work culture changed marginally. The fundamental dual labor market structure (seniority-based lifetime employment for regular workers, precarity for non-regular) was not reformed. Value represents degree of completion of reform (low = incomplete)."
+      },
+      {
+        "label": "immigration_policy_cautious",
+        "value": 0.52,
+        "evidence": "Abe's government created 'Specified Skilled Worker' visa categories (2019) that allowed more foreign labor inflow without explicitly calling it 'immigration policy' — to manage LDP nationalist base. By 2020, foreign residents in Japan had grown from 2.1M to 2.9M. The expansion was significant but politically managed to avoid triggering anti-immigration backlash. Japan's demographic math requires much larger immigration — Abe opened a door but took only incremental steps through it."
+      },
+      {
+        "label": "political_longevity_record",
+        "value": 0.92,
+        "evidence": "Abe became Japan's longest-serving PM (total 8 years 8 months including first term, second term alone was 7 years 8 months). This longevity enabled policy implementation across multiple electoral cycles — something no other post-Koizumi PM achieved. The longevity itself was a strategic asset: markets, foreign leaders, and domestic actors all calibrated to Abe as a permanent fixture. Policy credibility improved with tenure. His record will shape LDP leadership calculations for decades."
+      },
+      {
+        "label": "economic_nationalism_supply_chain",
+        "value": 0.72,
+        "evidence": "Under Abe (especially 2018-2020), Japan began reshoring/friend-shoring manufacturing as China-Japan tensions grew and supply chain resilience became visible as a concern. Government subsidies for companies moving production from China to Japan or Southeast Asia were introduced (¥220B in 2020 COVID-era supplementary budget). This represented a pre-COVID recognition of supply chain concentration risk that accelerated under COVID and US-China decoupling."
+      },
+      {
+        "label": "north_korea_abductee_position",
+        "value": 0.78,
+        "evidence": "Abe was the political champion of the abductee issue (Japanese citizens kidnapped by North Korea). His first term's political identity was largely built on this issue. In second term, he maintained hardline position — refusing normalization until all abductees were returned — even as bilateral talks stalled. This position aligned with domestic abductee families' advocacy but prevented the pragmatic diplomatic engagement that might have produced partial progress."
+      },
+      {
+        "label": "consumption_tax_4pct_to_8pct_execution",
+        "value": 0.62,
+        "evidence": "Apr 2014 increase from 5% to 8%: GDP collapsed Q2 2014 (-6.8% annualized). Abe had ordered an independent assessment of whether to proceed and received mixed advice. He proceeded and paid the economic cost. This first execution showed commitment to fiscal responsibility (MOF pressure accepted) over pure growth maximization — a different balance than the subsequent delays. The lesson learned was that demand smoothing measures were essential for future increases."
+      },
+      {
+        "label": "snap_election_strategy_2017",
+        "value": 0.88,
+        "evidence": "Oct 2017 snap election: called during DPJ fragmentation (Minshinto splitting, Koike Yuriko forming Kibo no To). Abe dissolved Diet at a moment when opposition was maximally fractured. The result — LDP-Komeito supermajority despite various scandals — demonstrated his mastery of electoral timing. He converted political opposition chaos into a mandate for continued reform. This was his third successful snap election in five years."
+      },
+      {
+        "label": "security_legislation_2015_cost",
+        "value": 0.80,
+        "evidence": "Security legislation (Sep 2015) allowing collective self-defense caused approval ratings to fall from ~50% to ~35% — a significant political cost Abe accepted. Opposition demonstrations (Diet surrounded by 120,000 protesters) were the largest since 1960 Security Treaty. Komeito (coalition partner) required extensive negotiation. But Abe pushed through despite the political cost — demonstrating that on security policy, he would spend political capital that other issues did not motivate."
+      },
+      {
+        "label": "moritomo_kake_scandal_survival",
+        "value": 0.72,
+        "evidence": "Moritomo Gakuen (school land sale at massive discount, possible Abeᵢ connection) and Kake Gakuen (veterinary school approval, PM friend beneficiary) scandals damaged Abe but did not remove him. Finance Ministry officials falsified documents related to Moritomo (revealed Mar 2018, one official committed suicide). Abe survived through LDP coalition discipline, media management, and by not directly admitting responsibility. His survival demonstrated LDP's inability to hold its own leader accountable."
+      },
+      {
+        "label": "abe_era_corporate_profitability",
+        "value": 0.80,
+        "evidence": "Corporate profits rose dramatically under Abenomics: aggregate earnings of Tokyo Stock Exchange listed companies roughly tripled 2012-2019. Yen depreciation boosted export sector earnings. Share buybacks increased. GPIF buying boosted equity market. Corporate governance reform increased shareholder returns. This corporate profit surge was Abenomics' most visible success — though wages lagged, asset owners (corporations, investors) did well. The benefit distribution favored capital over labor."
+      },
+      {
+        "label": "health_resignation_pattern",
+        "value": 0.60,
+        "evidence": "Abe resigned twice (2007 first term, 2020 second term) due to ulcerative colitis. Both resignations came at politically difficult moments but the health explanation provided clean exit rationale. His 2020 resignation was genuine — the condition worsened. The fact that a treatable chronic condition could force out Japan's most powerful PM twice reveals the physical demands and the lack of institutional support for PM health management. His successor Suga was also health-conscious about burnout."
+      },
+      {
+        "label": "russia_northern_territories",
+        "value": 0.58,
+        "evidence": "Abe invested more political capital in Russia relations than any PM since Nakasone: 27 meetings with Putin. Proposed joint economic activities on Northern Territories as path toward peace treaty. However, no territorial progress was achieved. Russia's strategic calculations (China relationship, military doctrine) made territorial concessions impossible regardless of economic incentives. Abe's persistent Russia engagement was ultimately fruitless for the stated goal but maintained bilateral economic ties."
+      }
+    ]
+  }
+}

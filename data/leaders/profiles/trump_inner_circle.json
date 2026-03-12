@@ -1,0 +1,542 @@
+{
+  "collective_agent": "Trump Inner Circle / Family Network",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "profile_type": "network_level_collective",
+  "description": "Network-level behavior profile of the Trump family and key inner circle members modeled as a collective political-economic influence system. NOT individual full profiles — this captures how the network operates as a unified agent shaping US policy, foreign relations, and commercial interests. The network functions as an informal Cabinet-within-the-Cabinet: family members and trusted non-family figures form a decision filter, access gatekeeper, and parallel policy execution channel that operates alongside (and often overrides) the formal government structure.",
+  "key_figures": {
+    "family_core": [
+      {
+        "name": "Jared Kushner",
+        "relation": "Son-in-law (married to Ivanka)",
+        "formal_role_term1": "Senior Advisor to the President (2017-2021), Office of American Innovation lead, Middle East peace envoy",
+        "formal_role_term2": "Private citizen; informal external advisor; Affinity Partners CEO",
+        "primary_domains": ["Middle East diplomacy", "Saudi/Gulf sovereign wealth relationships", "private equity (Affinity Partners)", "Abraham Accords legacy"],
+        "financial_exposure_2026": "Affinity Partners AUM ~$3B+ (PIF $2B + Qatar + UAE + Taiwan's Terry Gou); $137M in management fees from PIF through Aug 2026; $52.5B EA acquisition (2025, with Silver Lake + PIF); Senate Finance Committee investigation for possible unregistered foreign agent status"
+      },
+      {
+        "name": "Ivanka Trump",
+        "relation": "Daughter",
+        "formal_role_term1": "Senior Advisor to the President (2017-2021), workforce development, women's economic empowerment",
+        "formal_role_term2": "Private citizen; no formal WH role; informal personal advisor; Planet Harvest co-founder (food access)",
+        "primary_domains": ["brand/image moderation", "personal telephone access to Trump", "quiet veto on social/optics issues"],
+        "financial_exposure_2026": "Kushner Companies real estate (through Jared), Planet Harvest startup, reduced public financial footprint vs. Term 1"
+      },
+      {
+        "name": "Donald Trump Jr.",
+        "relation": "Son (eldest)",
+        "formal_role_term2": "Private citizen; Trump Media & Technology Group board member; World Liberty Financial co-founder; American Bitcoin co-founder",
+        "primary_domains": ["MAGA base liaison", "crypto/Web3 ventures", "conservative media ecosystem", "hunting/outdoors brand", "Truth Social board oversight"],
+        "financial_exposure_2026": "WLFI holdings; $TRUMP meme coin profits; American Bitcoin (merged with American Data Centers); Trump Media DJT stock (majority held by DJT Revocable Trust)"
+      },
+      {
+        "name": "Eric Trump",
+        "relation": "Son (younger)",
+        "formal_role_term2": "Executive Vice President, Trump Organization; World Liberty Financial co-founder (signed UAE 49% stake deal)",
+        "primary_domains": ["Trump Organization day-to-day operations", "crypto (WLFI)", "golf courses", "real estate development pipeline (22 foreign projects)"],
+        "financial_exposure_2026": "Trump Organization operations across 22 foreign branded projects; WLFI co-founder; signed $500M UAE stake in WLFI pre-inauguration"
+      },
+      {
+        "name": "Melania Trump",
+        "relation": "Wife",
+        "formal_role_term2": "First Lady (limited public schedule vs. Term 1); personal advisor; $MELANIA meme coin issuer (Jan 2025)",
+        "primary_domains": ["personal Trump access control", "protective influence on family image", "selective public appearances"],
+        "financial_exposure_2026": "$MELANIA meme coin trading fees; reduced formal business footprint"
+      },
+      {
+        "name": "Lara Trump",
+        "relation": "Daughter-in-law (married to Eric)",
+        "formal_role_term2": "RNC co-chair (Mar-Dec 2024, resigned Jan 2025); rumored Florida Senate seat candidate 2026; informal party apparatus liaison",
+        "primary_domains": ["Republican Party apparatus access", "media presence (Fox News commentator background)", "party fundraising networks"],
+        "financial_exposure_2026": "Limited direct financial exposure; political influence more than commercial"
+      }
+    ],
+    "key_non_family_inner_circle": [
+      {
+        "name": "Stephen Miller",
+        "role": "White House Deputy Chief of Staff for Policy and Homeland Security Advisor (Jan 2025-)",
+        "primary_domains": ["immigration policy architecture", "executive order drafting", "domestic policy agenda", "federal workforce restructuring"],
+        "influence_type": "policy executor / doctrine architect — loads EOs, enforces ideological consistency across agencies"
+      },
+      {
+        "name": "JD Vance",
+        "role": "Vice President of the United States (Jan 2025-)",
+        "primary_domains": ["foreign policy (realist/restraint lane)", "domestic economic nationalism", "MAGA base connection", "2028 succession positioning"],
+        "influence_type": "honest broker within inner circle; gives Trump unvarnished assessments; shaped as likely successor"
+      },
+      {
+        "name": "Susie Wiles",
+        "role": "White House Chief of Staff (Jan 2025-)",
+        "primary_domains": ["access control to Oval Office", "policy process management", "staff discipline"],
+        "influence_type": "gatekeeper / operational executor — 'pulls the levers of policy and discipline'"
+      },
+      {
+        "name": "Scott Bessent",
+        "role": "Secretary of the Treasury (Jan 2025-)",
+        "primary_domains": ["fiscal policy", "tariff execution", "dollar policy", "debt management"],
+        "influence_type": "economic rationalist within inner circle; defends Trump policy publicly while moderating extremes internally; '3-3-3' framework advocate"
+      },
+      {
+        "name": "Pete Hegseth",
+        "role": "Secretary of Defense (Jan 2025-)",
+        "primary_domains": ["military operations", "DOD purge of DEI/career officers", "media personality to policy executor"],
+        "influence_type": "loyalist executor; politically reliable but operationally controversial (Pentagon leaks)"
+      }
+    ]
+  },
+  "compilation_sources": [
+    "Jared Kushner / Affinity Partners: Senate Finance Committee letters Sep 2024, AGBI Mar 2025 (AUM growth), EA acquisition $52.5B Sep 2025, Popular.info Kushner conflict analysis, The Dispatch fact-check on Saudi $2B",
+    "World Liberty Financial / crypto empire: Wikipedia WLFI, CNN Feb 2026 (UAE 49% stake), Fortune Aug 2025 ($412.5M profit), CBS News Trump family net worth crypto, House Judiciary Committee report, CoinDesk House probe Feb 2026",
+    "Trump meme coin: Fortune Feb 2025 ($100M fees / $2B investor losses), CNBC (764K wallets lost money), Wikipedia $TRUMP",
+    "Trump Organization foreign business: CREW tracker (22 foreign projects), Qatar golf resort Apr 2025, CREW Term 2 corruption report, Center for American Progress Gulf interests analysis",
+    "Stephen Miller: Wikipedia, NPR Mar 2025, NBC News 'untouchable force', WashPost Sep 2025 DC takeover",
+    "JD Vance: CNN Jul 2025 (Iran foreign policy), NPR Mar 2026 (Vance ambitions), ECFR analysis, CNN Mar 2026 (Iran inner circle caution)",
+    "Ivanka Trump: CNN Dec 2024 (done with politics), CNN May 2025 (produce business appearance), Yahoo News appearances",
+    "Lara Trump: Wikipedia, NBC News step-down Dec 2024, CNN (Florida Senate speculation)",
+    "Inner circle access/decision filter: Institut Montaigne analysis, France 24, EESF.info influence groups, factually.co family network 2026"
+  ],
+  "behavior_matrix": {
+    "description": "Network-level behavior vector for the Trump family and inner circle as a collective influence agent. Covers: financial conflict patterns, foreign influence networks, policy access gatekeeping, crypto/media ventures, and how family business interests shape presidential decision-making. 55 dimensions organized into 7 thematic clusters.",
+    "dimensions": 55,
+    "clusters": {
+      "A": "Family Business / Financial Interests (dims 1-10)",
+      "B": "Kushner Middle East Network (dims 11-18)",
+      "C": "Crypto / DeFi Ventures (dims 19-26)",
+      "D": "Media Empire / Truth Social (dims 27-31)",
+      "E": "Policy Influence & Access Gatekeeping (dims 32-41)",
+      "F": "Family Loyalty Dynamics (dims 42-48)",
+      "G": "Foreign Entanglement Patterns (dims 49-55)"
+    },
+    "vectors": [
+
+      {
+        "cluster": "A",
+        "label": "trump_org_foreign_revenue_dependency",
+        "value": 0.82,
+        "evidence": "Trump Organization has 22 active foreign branded projects under development during Term 2 (CREW tracker). Key markets: Saudi Arabia, UAE, Qatar, Oman, India, Indonesia, Serbia. Qatar golf resort deal (Apr 2025) signed mid-term, built by Saudi company. Oman project on government-owned land with official tourism agency as partner. Indonesia hot-mic incident (Oct 2025, Trump apparently discussed Trump Org with Indonesia's president). The foreign revenue exposure is structurally higher in Term 2 than Term 1 — Eric Trump continued signing new international deals while his father held office, exploiting regulatory vacuum from gutted ethics enforcement.",
+        "policy_implication": "Creates systematic tilt toward accommodating Gulf states (Saudi, Qatar, UAE) and India in policy; creates conflict risk when US interests diverge from these countries' interests"
+      },
+      {
+        "cluster": "A",
+        "label": "golf_property_as_diplomacy_venue",
+        "value": 0.78,
+        "evidence": "Trump's 17 golf properties (US: Bedminster, Mar-a-Lago, Doral, Jupiter; International: Turnberry, Doonbeg, Aberdeen, Dubai) function simultaneously as commercial assets and informal diplomatic venues. Mar-a-Lago ('Winter White House') hosted Zelensky meeting Feb 2025, Japanese PM Ishiba, other foreign leaders. Foreign governments and lobbying clients spend at Trump properties to curry favor — CREW documented foreign spending increases Term 2. The golf property network is the physical infrastructure of the family influence system.",
+        "policy_implication": "Foreign leaders who visit Trump properties signal alignment; exclusion from property invitations is a diplomatic signal; Secret Service accommodation charges create ongoing emoluments exposure"
+      },
+      {
+        "cluster": "A",
+        "label": "trump_org_brand_licensing_model",
+        "value": 0.70,
+        "evidence": "Trump Organization's primary Term 2 business model is brand licensing rather than direct ownership — collecting fees for the Trump name on foreign-developed projects. This structure: (1) maximizes foreign revenue while minimizing capital deployment, (2) obscures the financial relationship (partner is the foreign entity, not Trump directly), (3) makes it harder to quantify total foreign income. Eric Trump runs day-to-day operations; the brand licensing model expands the family's global business footprint without equivalent transparency.",
+        "policy_implication": "The licensing model means Trump's financial interest in foreign markets is often less visible than ownership would be, allowing the family to deny direct financial stakes while still profiting from foreign government goodwill"
+      },
+      {
+        "cluster": "A",
+        "label": "emoluments_clause_constraint_effectiveness",
+        "value": 0.08,
+        "evidence": "In Term 2, the emoluments clause (prohibiting foreign payments to sitting presidents) is functionally non-operative as a behavioral constraint. DOJ under Kash Patel/loyalist control will not pursue emoluments cases. Congressional investigations (Senate Finance on Kushner, House probe on WLFI) have no enforcement mechanism without DOJ cooperation. The structural separation between Trump personal assets and Trump Organization (held in trust for sons) provides legal cover that was contested but effective in Term 1 and has been replicated more aggressively in Term 2. Score of 0.08 reflects near-zero behavioral constraint from this constitutional provision.",
+        "policy_implication": "The family can pursue foreign business relationships without meaningful legal constraint, meaning commercial interests will more directly influence policy than in any prior modern administration"
+      },
+      {
+        "cluster": "A",
+        "label": "family_wealth_maximization_during_presidency",
+        "value": 0.88,
+        "evidence": "The Trump family has demonstrated aggressive wealth maximization specifically during Trump's presidency, exploiting the presidential platform. Documented examples: $TRUMP meme coin launched days before inauguration generating $320M+ in fees; $MELANIA coin launched 2 days later; WLFI secured $500M UAE stake 4 days pre-inauguration; Affinity Partners' Kushner collected $157.5M in management fees from Gulf investors by 2026; Trump Media board membership by Don Jr.; 22 foreign Trump Org projects active during term. The scope, speed, and scale of monetization during Term 2 significantly exceeds Term 1.",
+        "policy_implication": "Policy decisions that benefit Gulf states, crypto industry, or real estate deregulation carry a high prior probability of also benefiting the family financially, making causal attribution difficult"
+      },
+      {
+        "cluster": "A",
+        "label": "sons_business_autonomy_cover",
+        "value": 0.72,
+        "evidence": "Eric and Don Jr. operate the family business empire in a nominal 'blind trust' that Trump does not formally manage, providing legal cover while maintaining family alignment of interests. In practice: Eric signed the UAE 49% WLFI stake deal; Don Jr. co-founded WLFI and American Bitcoin; both sons attend Trump Organization deal closings in foreign countries. The formal separation creates plausible deniability for the president while the actual family financial interests remain fully integrated. This mirrors the Term 1 'no new foreign deals' pledge that was subsequently not enforced.",
+        "policy_implication": "When analyzing whether Trump policy was influenced by family financial interests, the 'sons run it separately' defense should be discounted heavily — the interests remain aligned and Trump's awareness of family financial developments is demonstrably high"
+      },
+      {
+        "cluster": "A",
+        "label": "real_estate_deregulation_self_interest",
+        "value": 0.80,
+        "evidence": "Trump's housing/real estate deregulation agenda (zoning, permitting, environmental review rollbacks) directly benefits the Trump Organization's development pipeline. NEPA review acceleration, state zoning pre-emption EOs, reduced environmental impact requirement — all reduce friction and cost for large real estate development projects. The personal financial interest in real estate deregulation is direct and decades-old (Trump complained about regulation costs since 1980s). Unlike some policy areas where the self-interest is indirect, real estate deregulation = direct dollar value to the family business.",
+        "policy_implication": "Real estate deregulation should be modeled as among the highest-confidence Trump policy commitments because both ideological conviction AND financial self-interest align"
+      },
+      {
+        "cluster": "A",
+        "label": "financial_services_crypto_deregulation_self_interest",
+        "value": 0.92,
+        "evidence": "The family's crypto empire (WLFI, TRUMP meme coin, USD1 stablecoin, American Bitcoin) creates a direct financial interest in crypto deregulation. Trump administration actions: Strategic Bitcoin Reserve (EO Mar 2025), SEC dropped multiple crypto enforcement cases, CFTC crypto oversight reduced, stablecoin legislation pushed through Congress (benefiting USD1), OCC chartered crypto banks. The causal chain is explicit — Don Jr. called it helping 'America's national interest' while WLFI's USD1 had $3B+ market cap by Feb 2026. Among all Trump self-interest vectors, crypto deregulation = highest direct financial stake with most traceable policy reward.",
+        "policy_implication": "Crypto regulatory policy is the domain most directly compromised by family financial interests in Term 2 — the conflict of interest is not plausibly deniable and the policy outcome (deregulation) directly correlates with the financial benefit (higher WLFI/coin valuations)"
+      },
+      {
+        "cluster": "A",
+        "label": "emoluments_through_sovereign_wealth_funds",
+        "value": 0.85,
+        "evidence": "The most sophisticated emoluments exposure runs through sovereign wealth fund investments in family vehicles: Saudi PIF → Affinity Partners ($2B, Kushner); Abu Dhabi-linked firm → WLFI (49% stake, $500M); UAE → USD1 stablecoin ($2B Binance deal). These are not direct payments to the president but investments in family-controlled entities by foreign government-controlled funds. The mechanism: foreign sovereign wealth fund provides capital → family entity collects management fees and profit → family net worth increases → president's foreign policy toward that country reflects that financial relationship. Senate Finance Committee identified this pattern explicitly for Kushner; House Judiciary opened probe for WLFI.",
+        "policy_implication": "Saudi Arabia, UAE, Qatar should be modeled as having purchased direct financial leverage over senior US policy decisions through sovereign wealth investments — the $137M+ Kushner receives from PIF through 2026 is the price of that leverage"
+      },
+      {
+        "cluster": "A",
+        "label": "family_business_cycle_presidential_cycle_alignment",
+        "value": 0.90,
+        "evidence": "The family's most significant business deals cluster at the beginning and end of presidential terms, when the value of the presidential platform is highest and enforcement risk is lowest. Pre-inauguration (Jan 2025): $TRUMP coin, UAE WLFI stake, Affinity AUM surge. Mid-term: Qatar golf resort, 22 foreign project pipeline expanding. The implied strategy: load up on monetization events while political capital is highest and regulatory constraints are minimal. This is a structural feature of the family business approach to presidential power, not coincidental timing.",
+        "policy_implication": "Family business monetization events are leading indicators of Trump administration confidence in policy durability — when the family signs new deals, they are implicitly betting that the policy environment they require (crypto deregulation, Gulf relations, real estate deregulation) will persist"
+      },
+
+      {
+        "cluster": "B",
+        "label": "kushner_mbs_relationship_depth",
+        "value": 0.93,
+        "evidence": "Jared Kushner and Saudi Crown Prince Mohammed bin Salman (MBS) have a documented personal relationship that operates across formal and informal channels. During Term 1: WhatsApp direct communication; Kushner vouched for MBS after Khashoggi murder (against CIA conclusion that MBS ordered killing); US-Saudi relationship maintained despite international pressure. Post-WH: PIF invested $2B in Affinity Partners 6 months after Kushner left, widely seen as reward for his protection during the Khashoggi crisis. Term 2: Kushner advises Steve Witkoff (Trump's Middle East envoy) on Arab leader relationships; speaks frequently with MBS; involved in Gaza ceasefire negotiations (Oct 2025). The relationship is arguably the most consequential single foreign personal relationship in the US government.",
+        "policy_implication": "US-Saudi policy is functionally co-managed by a private citizen (Kushner) with a $2B financial dependency on Saudi goodwill. This creates a structural bias toward Saudi accommodation in US Middle East policy that cannot be fully overridden by formal diplomacy channels"
+      },
+      {
+        "cluster": "B",
+        "label": "kushner_abraham_accords_legacy_leveraging",
+        "value": 0.85,
+        "evidence": "Kushner's signature Term 1 achievement (Abraham Accords: UAE, Bahrain, Morocco, Sudan normalizing with Israel, 2020) gives him ongoing diplomatic leverage in Term 2. The expansion efforts (Syria, Lebanon, Saudi Arabia joining — ongoing as of 2025-26) cite Kushner's original framework and relationships. Kazakhstan joined Accords Nov 2025. Trump explicitly credits Kushner for the Accords. Kushner's involvement in Gaza ceasefire (Oct 2025, Sharm el-Sheikh) shows the diplomatic capital translates to active influence. This is durable institutional influence: the Accords framework will outlast the Trump presidency and Kushner remains its architect.",
+        "policy_implication": "Any Middle East diplomatic initiative must go through or around Kushner's network — his relationships with Arab leaders are a non-substitutable resource that gives him informal veto power over initiatives that would antagonize his Gulf partners"
+      },
+      {
+        "cluster": "B",
+        "label": "affinity_partners_gulf_dependency",
+        "value": 0.88,
+        "evidence": "Affinity Partners' business model is structurally dependent on continued Gulf sovereign wealth fund goodwill. PIF ($2B) is the anchor investor with renegotiation/withdrawal rights from Aug 2026 (5-year term). Additional Gulf investors from Qatar and UAE. Senate Finance Committee found no profits returned to investors by 2024, meaning investors are paying $25M/year to PIF with no financial return — the value to PIF is access and influence, not investment returns. This means Kushner's financial survival depends on PIF not withdrawing, which depends on continued favorable US-Saudi relations during his father-in-law's presidency. The dependency is structural and self-reinforcing.",
+        "policy_implication": "Kushner cannot give honest unfavorable policy advice on Saudi Arabia because it would directly threaten his business model. This is not alleged corruption — it is a structural impossibility: no advisor with $2B dependent on Saudi goodwill can provide objective Saudi policy counsel"
+      },
+      {
+        "cluster": "B",
+        "label": "kushner_iran_policy_influence",
+        "value": 0.70,
+        "evidence": "Kushner's Gulf network (particularly MBS) has a strong interest in US-Iran policy — Saudi Arabia and Israel both sought US action against Iran. Popular.info analysis ('The money behind the new Iran War', 2026) specifically examines Kushner's financial network in context of the Iran strike (Feb 28, 2026, killing Khamenei). While direct causal attribution is contested, the structural alignment is clear: Kushner's Gulf investors benefit from US confrontation with Iran (reduces Iranian threat to Saudi/UAE/Israel), and Kushner has influence over Trump's Middle East framing. The Iran strike followed a trajectory consistent with Kushner-MBS-Netanyahu preference alignment.",
+        "policy_implication": "The Khamenei assassination and broader Iran maximum pressure campaign align with the financial interests of Kushner's investment base — Gulf state investors benefit from Iranian regime destabilization regardless of US strategic interest"
+      },
+      {
+        "cluster": "B",
+        "label": "gulf_state_to_us_policy_purchase_mechanism",
+        "value": 0.80,
+        "evidence": "The Gulf state-to-US-policy influence chain operates through multiple simultaneous channels: (1) Kushner Affinity Partners (Saudi PIF $2B → access to Trump family), (2) Trump Organization Gulf projects (Qatar golf resort, Oman resort on government land, UAE projects), (3) WLFI UAE stake (Abu Dhabi-linked firm 49%, $500M), (4) Saudi/UAE investments in Trump-adjacent entities. The combination creates a $5B+ web of financial relationships between the Trump family and Gulf governments. No single payment is provably correlated with a specific policy decision, but the structural dependency makes favorable Gulf policy the path of least financial resistance.",
+        "policy_implication": "For simulation: US-Gulf policy bias should be modeled as a baseline structural tilt, not as a discrete event. The financial exposure is high enough that any administration action that harms Gulf interests requires Trump to consciously override his family's financial incentives — making Gulf-hostile US policy significantly less likely than baseline"
+      },
+      {
+        "cluster": "B",
+        "label": "witkoff_kushner_middle_east_relationship",
+        "value": 0.75,
+        "evidence": "Steve Witkoff is Trump's formal Middle East envoy (Term 2), while Kushner operates as informal advisor. Multiple reports show Kushner advises Witkoff on Arab leader relationships and the two coordinated on the Gaza ceasefire deal (Oct 2025). The formal-informal tandem: Witkoff has the title and official channel, Kushner has the personal relationships and historical credibility. CNN reports they 'worked alongside each other' at Sharm el-Sheikh. This dual-track structure is intentional — Kushner gets influence without the conflicts-of-interest scrutiny that would come with a formal appointment.",
+        "policy_implication": "Witkoff-as-envoy should not be read as 'Kushner replaced' — the actual Middle East decision architecture runs through Kushner-Witkoff jointly, with Kushner providing the Gulf network access that Witkoff lacks"
+      },
+      {
+        "cluster": "B",
+        "label": "saudi_normalization_with_israel_priority",
+        "value": 0.82,
+        "evidence": "Saudi-Israeli normalization is Kushner's primary second-term Middle East objective, as the 'crown jewel' that would crown the Abraham Accords legacy. Trump explicitly said he expects 10 more countries to join Accords post-Saudi. However, Saudi Arabia requires (1) Gaza ceasefire + credible Palestinian state pathway, and (2) civil nuclear enrichment capability. The Gaza ceasefire (Oct 2025) moves toward Saudi's conditions. Trump reportedly dropped the normalization demand as precondition for Saudi nuclear deal, reflecting the complexity. The financial alignment: Saudi normalization would likely be positive for Gulf stability and therefore for Gulf sovereign wealth fund investment returns — directly benefiting Kushner.",
+        "policy_implication": "Saudi normalization is the one Middle East outcome where Kushner's financial and diplomatic interests perfectly converge — making it the highest-intensity item in his informal policy agenda"
+      },
+      {
+        "cluster": "B",
+        "label": "kushner_information_asymmetry_on_gulf",
+        "value": 0.88,
+        "evidence": "Kushner has direct informal communication channels to MBS, UAE leadership, and other Gulf officials that the formal US diplomatic corps lacks. His WhatsApp relationship with MBS predates and runs in parallel to official Saudi-US diplomatic channels. This gives him information the State Department doesn't have and the ability to communicate US private intentions without official commitment. In the simulation context, this means Kushner effectively operates as a shadow foreign minister for Gulf affairs — with a structural conflict of interest that formal diplomats do not have.",
+        "policy_implication": "Signals sent through Kushner channels carry a different credibility weight than formal State/NSC communications — Gulf leaders trust Kushner's private signals more than official US positions because he has financial incentives to maintain Gulf goodwill"
+      },
+
+      {
+        "cluster": "C",
+        "label": "trump_family_crypto_empire_scale",
+        "value": 0.92,
+        "evidence": "By Feb 2026, the Trump family's crypto empire was among the largest of any political family in history: WLFI market cap ~$3B (34th largest crypto), $800M+ in crypto income H1 2025, total family crypto holdings estimated $11.6B (CBS News, House Judiciary report), $320M+ in $TRUMP meme coin trading fees, $MELANIA coin fees. Vehicles: WLFI (Eric+Don Jr. co-founders), American Bitcoin (Don Jr.+Eric, merged with American Data Centers), Strategic Bitcoin Reserve (government-held). The scale makes crypto a primary Trump family financial asset class, not a side venture.",
+        "policy_implication": "The Trump family has more financial stake in crypto market performance than any other asset class — this creates the strongest possible incentive for crypto-friendly regulatory policy, dwarfing all other industry interests the administration serves"
+      },
+      {
+        "cluster": "C",
+        "label": "wlfi_foreign_sovereign_entanglement",
+        "value": 0.87,
+        "evidence": "World Liberty Financial's 49% stake sale to Abu Dhabi-linked Sheikh Tahnoun bin Zayed Al Nahyan (for $500M, signed by Eric Trump 4 days pre-inauguration) created the most direct known financial relationship between the incoming US president's family and a foreign royal. G42 CEO Peng Xiao and general counsel Martin Edelman were placed on WLFI's board without public disclosure. Two weeks after the $2B MGX-Binance USD1 stablecoin deal was revealed, Trump administration approved advanced AI chip sales. Senate Banking Committee and House probe launched Feb 2026. The UAE stake is structurally indistinguishable from a foreign investment in the US presidency itself.",
+        "policy_implication": "UAE policy should be modeled as structurally advantaged in US decision-making — the Abu Dhabi royal family owns 49% of the Trump family's most valuable financial asset. Any US-UAE policy conflict requires Trump to consciously act against his family's largest single investor's interests"
+      },
+      {
+        "cluster": "C",
+        "label": "trump_meme_coin_market_manipulation_risk",
+        "value": 0.72,
+        "evidence": "$TRUMP meme coin dynamics: launched Jan 17 2025 (days before inauguration); 813,294 wallets lost $2B while 58 wallets made $1.1B+; creators earned $320M+ in trading fees. Trump hosted exclusive dinner for top meme coin holders (May 2025). White House denies conflicts but refused to provide details. CNBC: 764,000 small-holder wallets lost money. The 'contest' structure (buy more TRUMP = dinner access) is effectively a pay-for-access scheme using cryptocurrency. The coin's value is directly correlated with Trump's presidency — it rises when Trump is politically powerful and falls when he is weakened, making it a live prediction market on Trump's political health.",
+        "policy_implication": "The $TRUMP coin introduces a novel conflict-of-interest vector: Trump has direct financial incentive to appear strong and effective (coin value rises with perceived presidential power), creating alignment between personal financial interest and political performance signaling"
+      },
+      {
+        "cluster": "C",
+        "label": "usd1_stablecoin_dollar_hegemony_framing",
+        "value": 0.68,
+        "evidence": "Don Jr. and Zach Witkoff publicly framed USD1 as supporting 'dollar hegemony' — the stablecoin is dollar-denominated and requires purchasing US Treasuries as backing. This framing attempts to align family financial interest (USD1 adoption = fees + WLFI value) with national interest (more dollar-denominated global transactions). The $2B MGX-Binance USD1 deal is presented as 'expanding dollar reach.' Whether this framing is sincere or opportunistic, it gives the Trump administration a policy rationale for protecting and promoting USD1 specifically. Warren/Merkley Senate probe targets the Binance connection (terrorism financing history) and the North Korea/Russia sanctions exposure noted in CNBC Nov 2025 report.",
+        "policy_implication": "Stablecoin legislation that protects dollar-denominated stablecoins (like USD1) is simultaneously in the national interest AND the Trump family's financial interest — this convergence makes stablecoin-friendly regulation near-certain regardless of other considerations"
+      },
+      {
+        "cluster": "C",
+        "label": "crypto_regulatory_capture_mechanism",
+        "value": 0.90,
+        "evidence": "The crypto industry spent $119M+ on pro-crypto candidates in the 2024 cycle (Coinbase, a16z, Ripple). Trump received substantial crypto donor support. In exchange, Term 2 actions: Strategic Bitcoin Reserve EO (Mar 2025), SEC dropped enforcement cases against Coinbase/Ripple/Kraken, CFTC deregulation, OCC crypto bank charters, stablecoin legislation favorable to USD1. The Trump family's own crypto holdings make this regulatory capture bidirectional — the family isn't just serving donors, they are themselves beneficiaries of the regulatory loosening. This is a unique case where the policy-setter is also the financial beneficiary of the policy they're setting.",
+        "policy_implication": "Crypto enforcement actions against Trump-affiliated entities (WLFI, $TRUMP) are near-zero probability under this administration. More broadly, any crypto regulation that would reduce token values or stablecoin revenues should be modeled as highly unlikely regardless of systemic risk considerations"
+      },
+      {
+        "cluster": "C",
+        "label": "american_bitcoin_mining_industrial_policy",
+        "value": 0.62,
+        "evidence": "Don Jr. and Eric co-founded American Bitcoin (merged with American Data Centers 2025), a Bitcoin mining operation. This creates family financial interest in: (1) cheap domestic electricity (deregulation of energy markets), (2) favorable US Bitcoin mining environment vs. international competition, (3) Strategic Bitcoin Reserve creating price floor. American Bitcoin = industrial policy self-interest — Trump's energy deregulation and mining-friendly stance benefits the family mining operation directly. The connection between Trump's 'energy dominance' policy (cheap power) and Bitcoin mining economics is direct.",
+        "policy_implication": "Bitcoin mining-favorable policies (cheap electricity, relaxed environmental review of data centers) are aligned with both Trump's energy ideology AND his sons' direct business interests"
+      },
+      {
+        "cluster": "C",
+        "label": "crypto_as_trump_family_pivot_from_banking",
+        "value": 0.75,
+        "evidence": "Eric Trump publicly stated the family moved to crypto 'after we became the most canceled company in the world' — banks refused to service Trump Organization accounts after Jan 6. Don Jr. called banking 'a Ponzi scheme.' The move to crypto was partly driven by being locked out of traditional financial infrastructure. This origin story makes the family's crypto commitment more genuine than pure financial opportunism — it reflects a real grievance against the established financial system that resonates with the MAGA base's anti-establishment sentiment.",
+        "policy_implication": "Trump family crypto advocacy is driven by a mix of financial interest AND genuine grievance against traditional finance — this makes it more ideologically durable than pure self-interest, as it aligns with the base narrative of 'the system being rigged'"
+      },
+      {
+        "cluster": "C",
+        "label": "crypto_policy_trump_market_signal_loop",
+        "value": 0.80,
+        "evidence": "Trump's crypto-related statements directly move crypto markets, and Trump family holdings benefit from those moves. Truth Social posts about Bitcoin, crypto regulation, or Strategic Bitcoin Reserve cause immediate price movements. The 'THIS IS A GREAT TIME TO BUY' post (Apr 9, pre-tariff pause) raised questions about whether Trump uses social media to signal before policy changes, benefiting those with advance information. Applied to crypto: Trump has financial incentive to pump crypto prices via statements because he holds large positions, creating a structural self-dealing loop.",
+        "policy_implication": "Trump crypto-positive statements should be discounted for information content and analyzed as potentially also self-serving market manipulation — not exclusive to either narrative"
+      },
+
+      {
+        "cluster": "D",
+        "label": "truth_social_as_policy_channel_and_asset",
+        "value": 0.88,
+        "evidence": "Truth Social (operated by Trump Media & Technology Group, ticker DJT) serves dual function: (1) Trump's primary policy communication channel (supersedes formal press office), and (2) financial asset (Don Jr. on board, Trump holds majority via DJT Revocable Trust, stock price ~$11 Mar 2026, down from $100+ highs). The financial-communications link: Truth Social's value depends on Trump's political relevance; Trump's policy announcements via Truth Social reinforce its status as the premier channel; each viral political post is simultaneously political messaging and financial value extraction. Stock down ~50% YTD 2026 — reflecting political vulnerability.",
+        "policy_implication": "Trump has financial incentive to use Truth Social as the primary policy channel (it validates the platform's value), creating reinforcing loop between political communication style and family financial interest. DJT stock performance is a real-time sentiment indicator on Trump's political health"
+      },
+      {
+        "cluster": "D",
+        "label": "truth_social_merger_restructuring",
+        "value": 0.55,
+        "evidence": "TMTG announced merger with TAE Technologies (fusion power, Dec 2025, $6B+ all-stock deal) and subsequent Truth Social spin-off into independent public company. The strategy appears to be: (1) diversify TMTG revenue base beyond the structurally loss-making social media platform ($972K revenue, $58.4M net loss, Q3 2025), (2) use Trump political value as platform for broader financial ventures. Truth Social spinoff into separate public company (Texas Ventures Acquisition III) would allow more targeted investment in the political media asset. Score reflects medium confidence — restructuring is announced but execution uncertain.",
+        "policy_implication": "TMTG/Truth Social financial struggles create pressure for Trump to generate political events that pump the stock — controversial announcements that dominate news cycle maintain Truth Social's unique relevance, creating alignment between political drama and family financial interest"
+      },
+      {
+        "cluster": "D",
+        "label": "conservative_media_ecosystem_capture",
+        "value": 0.78,
+        "evidence": "The Trump inner circle's media strategy goes beyond Truth Social: Don Jr. podcasts and MAGA media appearances, Fox News appearances by Lara Trump (former Fox News contributor), Hegseth (former Fox & Friends host), and other loyalists. Trump-friendly conservative media (Breitbart, Daily Wire, OANN) operate as informal communications arms. The Devin Nunes appointment as TMTG CEO reflects the party-media fusion at the top. This conservative media ecosystem is the information environment of the Republican base and functions as a feedback mechanism for what the base wants to hear.",
+        "policy_implication": "Policy positions that generate negative conservative media coverage reach Trump quickly through this ecosystem; positions that conservative media celebrates get reinforced. The media ecosystem is both an output and an input to Trump decision-making"
+      },
+      {
+        "cluster": "D",
+        "label": "don_jr_maga_base_temperature_monitor",
+        "value": 0.82,
+        "evidence": "Donald Trump Jr. serves as the family's MAGA base pulse reader — through his social media presence, podcast, rally appearances, and conversations with grassroots donors and activists. When MAGA base reacted negatively to H-1B visa expansion (Term 2), Don Jr.'s signal was among the early indicators Trump responded to. He has no formal policy role but serves as an informal 'what will the base accept' advisor. His more extreme MAGA positioning (he is often more confrontational than his father) also sets the rhetorical frame for what policies can be presented as MAGA-consistent.",
+        "policy_implication": "Don Jr.'s public statements and podcast content are a leading indicator of base reaction to policy — if he attacks a policy, Trump will hear base opposition quickly. If he defends it enthusiastically, it signals the base can be brought along"
+      },
+      {
+        "cluster": "D",
+        "label": "media_platform_as_access_sale_mechanism",
+        "value": 0.68,
+        "evidence": "The $TRUMP meme coin 'dinner with Trump' access contest (May 2025) is the most explicit example of the media/brand platform being used to sell presidential access. Separately, Truth Social premium accounts, WLFI token purchase giving access to Trump Org financial products — the entire ecosystem converts political notoriety into paying customer bases. This is the digital version of the private Mar-a-Lago membership ($200K/year initiation fee) — the Trump brand has always been about converting status proximity into cash.",
+        "policy_implication": "The pay-for-access mechanism means wealthy foreign and domestic entities can purchase proximity to the president through semi-formal channels (meme coin, Truth Social, Mar-a-Lago membership) without requiring formal lobbying registration"
+      },
+
+      {
+        "cluster": "E",
+        "label": "family_as_decision_filter",
+        "value": 0.85,
+        "evidence": "The Trump inner circle functions as an informal decision filter — not all information and not all people reach the president equally. Key gatekeeping nodes: Susie Wiles (Oval Office access control), Stephen Miller (policy agenda pre-filtering), Melania Trump (personal access). Jared Kushner (phone access on Middle East). The family filter is less formal in Term 2 (Ivanka not in WH), but phone access remains: Ivanka's influence is described as 'always there but never visible publicly.' Term 2 filter is tighter and more ideologically consistent than Term 1 because Term 2 appointments were pre-screened for loyalty, reducing the countervailing influences that existed in Term 1 (Mattis, McMaster, Kelly).",
+        "policy_implication": "Information and proposals that align with family business interests, MAGA base sentiment, and Miller's immigration/nationalist agenda have the highest filter-passage rate. Technocratic or institutionalist advice has the lowest passage rate"
+      },
+      {
+        "cluster": "E",
+        "label": "miller_domestic_policy_architecture",
+        "value": 0.95,
+        "evidence": "Stephen Miller is the single most operationally powerful non-family member of the inner circle in Term 2. As Deputy Chief of Staff for Policy: loaded scores of EOs for Day 1 signing; drafted the immigration enforcement framework (Alien Enemies Act deployment, CBP One termination, mass deportation operations); portfolio expanded from immigration to include foreign policy. NBC News: 'untouchable force in Trump's White House.' NPR Mar 2025: 'closest aides on some of his signature issues.' WashPost Sep 2025: 'running Trump's DC takeover.' Miller has ideological consistency Trump lacks — he provides the intellectual architecture for Trump's instincts.",
+        "policy_implication": "Miller should be modeled as the primary author of domestic policy directives — his ideological framework (immigration as civilizational threat, administrative state as enemy, executive power maximalism) is the blueprint from which specific policies derive. Any domestic policy analysis must route through Miller's preferences"
+      },
+      {
+        "cluster": "E",
+        "label": "vance_honest_broker_function",
+        "value": 0.78,
+        "evidence": "JD Vance occupies a unique role: he is described as someone who 'gives Trump honest assessments when asked' — a rare thing in an inner circle otherwise optimized for sycophancy. His Iran caution (he initially opposed strikes) shows he can voice dissent internally before ultimately falling in line. His foreign policy realism (anti-interventionist background from Hillbilly Elegy era, Iraq War service) creates natural tension with Miller's confrontational nationalism and Kushner's Gulf-aligned interventionism. His 2028 presidential ambitions create incentive to maintain independent credibility.",
+        "policy_implication": "Vance is the most likely internal moderating influence on extreme military/foreign policy decisions — his opposition is a meaningful signal that a decision is at or near the limits of MAGA foreign policy consensus. When Vance publicly defends a policy, it has been cleared through a minimally-adversarial internal process"
+      },
+      {
+        "cluster": "E",
+        "label": "kushner_informal_foreign_policy_override",
+        "value": 0.72,
+        "evidence": "Despite having no formal role, Kushner can effectively override formal State/NSC positions on Gulf affairs through his direct communication with Trump and his relationship network. Multiple reports show Kushner advises Witkoff, speaks frequently with MBS, and was at Sharm el-Sheikh for Gaza ceasefire talks — all without an official appointment that would require Senate confirmation or subject him to ethics rules. The informal channel allows Kushner to shape Middle East policy in ways that benefit his Gulf investors without accountability to the formal policy process.",
+        "policy_implication": "For Middle East policy specifically: the formal channel (Rubio/State, Witkoff/envoy) should be understood as the public-facing output; the actual decision inputs run through Kushner's private network. Divergence between Rubio's public positions and actual US actions is evidence of Kushner channel overriding formal process"
+      },
+      {
+        "cluster": "E",
+        "label": "access_economy_lobbying_through_family",
+        "value": 0.80,
+        "evidence": "The Trump family access economy: lobby through Kushner (Gulf matters), through Don Jr. (MAGA base priorities), through Ivanka (image/moderate concerns), through Eric (Trump Org partners), through Melania (personal/family image). Foreign governments and domestic interests route access attempts through whichever family member aligns with their priority domain. This is formalized in the Mar-a-Lago membership ($200K+), the meme coin dinner contest, WLFI token purchases giving financial relationship proximity. The family is simultaneously the government and a business selling access to itself.",
+        "policy_implication": "Traditional lobbying analysis (K Street spending, PAC contributions) systematically underestimates Trump-era influence purchasing because the family access economy operates through non-traditional channels (crypto token purchases, golf resort partnerships, sovereign wealth investments in family vehicles)"
+      },
+      {
+        "cluster": "E",
+        "label": "wiles_gatekeeper_effectiveness",
+        "value": 0.82,
+        "evidence": "Susie Wiles as Chief of Staff provides structural discipline that was absent in much of Term 1 (Priebus → Kelly → Mulvaney → Meadows succession). She is credited alongside Miller with providing the 'operational backbone' of Term 2. Her effectiveness as gatekeeper: fewer public leaks than Term 1 (until Hegseth Signal group chat leak exposed her and Rubio), more disciplined EO rollout, better advance preparation for policy announcements. Unlike family-circle figures, Wiles is a professional political operative (ran Trump's Florida political operation) whose loyalty is to effective execution.",
+        "policy_implication": "Wiles's effectiveness as gatekeeper means random access to Trump is more constrained in Term 2 — influences must route through her or through family channels. Her preference for operational order creates friction with Trump's instinct for direct improvisation"
+      },
+      {
+        "cluster": "E",
+        "label": "hegseth_pentagon_loyalist_friction",
+        "value": 0.62,
+        "evidence": "Pete Hegseth at DOD exemplifies the Term 2 loyalist appointment pattern: ideologically reliable (Fox & Friends, MAGA media), operationally inexperienced. Multiple Pentagon leaks (the Signal group chat, other personnel conflicts) suggest Hegseth's control of the institution is incomplete. However, his loyalty to Trump's military agenda (purging DEI, expanding military operations, reducing career officer influence) is consistent. The friction: military operations require operational competence alongside political loyalty, and the balance is imperfect.",
+        "policy_implication": "Military decision-making quality in Term 2 is reduced compared to career-officer-influenced processes; however, military decision-making speed and loyalty to presidential direction is higher. The Venezuela and Iran operations showed the tradeoff in practice — politically directed operations with compressed deliberation timelines"
+      },
+      {
+        "cluster": "E",
+        "label": "bessent_economic_rationalism_moderating_role",
+        "value": 0.70,
+        "evidence": "Scott Bessent (Treasury) is the most technically credible economic voice in the inner circle. His '3-3-3' framework (3% growth, 3% deficit/GDP, 3Mb/day oil) provides intellectual structure to Trump's instincts. He publicly defends tariffs but internally advocates for negotiated offramps. He was reportedly a contributor to the Liberation Day 90-day pause decision, providing the market-based argument for stepping back. His macro hedge fund background gives him credibility with markets that translates to political value for Trump (markets trust his statements more than Trump's).",
+        "policy_implication": "Bessent should be monitored as a canary for Trump economic policy limits — if Bessent publicly dissents or resigns, it signals Trump's economic policy has exceeded the threshold even loyal experts can defend. His continued presence signals economic policy stays within some bounds of market functionality"
+      },
+
+      {
+        "cluster": "F",
+        "label": "family_loyalty_hierarchy",
+        "value": 0.95,
+        "evidence": "Within the inner circle, family members have unconditional loyalty status that non-family cannot achieve regardless of performance. Evidence: Ivanka retained influence despite her public departure from formal role; Kushner retains Middle East advisory role despite conflict-of-interest concerns; Don Jr. and Eric operate family business without significant constraints from conflict-of-interest rules. The Trump governing model explicitly mirrors a family business: family is always right, non-family staff are replaceable. Woodward and multiple sources confirm Trump's governing instinct is to trust family over institutional advice.",
+        "policy_implication": "Policies that benefit the family business never face internal opposition from family members — creating an impenetrable bloc against any ethics reform that would restrict family commercial activities. Non-family advisors who criticize family business dealings are at high risk of firing"
+      },
+      {
+        "cluster": "F",
+        "label": "kushner_ivanka_team_coherence",
+        "value": 0.80,
+        "evidence": "Jared Kushner and Ivanka Trump function as a unit in their influence on Trump. Ivanka's emotional access (father-daughter relationship) complements Kushner's policy/business access. Ivanka's moderate branding in Term 1 (women's issues, workforce development) helped maintain donor and institutional support; Kushner's deals generated financial value for the family. In Term 2, they operate as the 'good cop' image management channel — Ivanka's appearances at WH events signal that the administration can maintain a moderated image when needed. Their influence is on optics and foreign policy rather than domestic immigration/culture war.",
+        "policy_implication": "When Ivanka appears publicly at Trump events, it signals an image-management priority is active. When she is absent, the administration is likely in a more confrontational mode where optics management is deprioritized"
+      },
+      {
+        "cluster": "F",
+        "label": "sons_maga_activist_wing_representation",
+        "value": 0.78,
+        "evidence": "Don Jr. and Eric Trump represent the more extreme MAGA activist wing within the family — both publicly take positions more confrontational than their father on various issues (Don Jr. particularly on anti-establishment, anti-media, and populist themes). They also have direct financial alignment with the MAGA base through crypto (Don Jr. promotes Bitcoin, libertarian finance) and Truth Social. This means the 'family filter' on MAGA-facing issues tilts more confrontational than on moderate/business-friendly issues (Ivanka-Kushner territory).",
+        "policy_implication": "Policy proposals that pit MAGA base sentiment against moderate business interests face an internal family split — sons signal base reaction while Ivanka/Kushner signal business/diplomatic reaction. Trump often chooses the more confrontational option because sons' base-alignment instincts reinforce his own"
+      },
+      {
+        "cluster": "F",
+        "label": "melania_protective_veto",
+        "value": 0.52,
+        "evidence": "Melania Trump exercises a narrow but real 'protective veto' on decisions that would severely embarrass the family personally (as opposed to politically). She reportedly had influence on some staffing decisions in Term 1 that affected those who were unkind to Barron Trump. Her reduced public schedule in Term 2 (CNN Jan 2025: 'brimming with plans but limited public role') suggests she is more selective about her interventions. The $MELANIA meme coin launch (2 days after $TRUMP, Jan 2025) indicates she participates in the family financial extraction strategy.",
+        "policy_implication": "Melania's influence is a narrow last-resort check on decisions that would create severe personal/family embarrassment, not a broad policy influence. Her financial participation in crypto ventures reduces the independent 'voice of reason' function she might otherwise play"
+      },
+      {
+        "cluster": "F",
+        "label": "intra_family_competition_succession",
+        "value": 0.45,
+        "evidence": "There are nascent signs of intra-family competition, particularly around the 2028 succession question. JD Vance (not family but closest to de facto heir) vs. implied Trump family interest in Don Jr. as a political successor. Lara Trump's Senate ambitions (Florida 2026) could be foundation for longer political career. Don Jr.'s media/political profile is growing. However, there is no overt intra-family conflict visible as of early 2026 — the family presents a united front publicly. The competition is latent rather than active.",
+        "policy_implication": "Internal competition becomes more visible and relevant after 2026 midterms as 2028 positioning begins in earnest. Until then, family unity on policy presentation is high"
+      },
+      {
+        "cluster": "F",
+        "label": "loyalty_test_formalization",
+        "value": 0.90,
+        "evidence": "Term 2 inner circle members are more explicitly loyalty-tested than Term 1. Pre-appointment vetting included willingness to publicly defend Jan 6 narrative (Kash Patel), willingness to attack career officials (Hegseth), prior MAGA media credibility (multiple appointments). Non-family inner circle members who show independence risk replacement — the Hegseth Pentagon leaks and Vance occasional dissent are tolerated but monitored. The loyalty requirement is absolute for any action that implicates Trump personally or family legally; it is more flexible for policy disagreements that stay internal.",
+        "policy_implication": "The loyalty-screened inner circle produces high policy cohesion but reduced error-correction — bad policies persist longer because no one tells the emperor he has no clothes. The sycophancy trap (from Trump main profile) is amplified by the loyalty-selection mechanism"
+      },
+
+      {
+        "cluster": "G",
+        "label": "gulf_policy_capture_probability",
+        "value": 0.82,
+        "evidence": "Aggregating: Kushner PIF dependency ($2B, $137M fees through 2026), WLFI UAE stake ($500M, 49%), Trump Org Gulf projects (Qatar, Oman, Saudi, UAE), and the general Gulf donor network — the probability that any single significant US-Gulf policy decision is influenced by these financial relationships is high. The mechanism does not require conscious corruption: the family's advisors, investors, and business partners all have Gulf interests, meaning Gulf-favorable advice flows through every channel simultaneously. The 'coincidence' of Gulf-friendly policy and Gulf financial relationships is structurally overdetermined.",
+        "policy_implication": "Assign 0.80+ prior probability that any US decision affecting Gulf state interests (Saudi, UAE, Qatar) will ultimately favor those states' preferences over competing US strategic interests. The Iran strike (Feb 2026) is consistent with Gulf state preferences — it benefited Saudi and Israeli security interests simultaneously"
+      },
+      {
+        "cluster": "G",
+        "label": "russia_entanglement_ambiguity",
+        "value": 0.38,
+        "evidence": "Unlike Gulf entanglement (documented and deep), Russia financial relationships are contested and unclear. Trump's Russiagate investigations (Mueller, Senate Intelligence) found no provable financial conspiracy, though contacts were documented. Trump Organization Russia exposure: Trump Tower Moscow project was planned but never executed. WLFI senators' probe found connections to North Korea and Russia-linked entities in token sales (CNBC Nov 2025). The relationship is ambiguous: Trump's pro-Russia rhetoric coexists with actual (if limited) anti-Russia policy actions. Score of 0.38 reflects: some entanglement risk, not negligible, but far below Gulf levels.",
+        "policy_implication": "Russia policy ambiguity is genuine, not feigned — the financial entanglement is lower than Gulf but the rhetorical/personal admiration for Putin creates inconsistent decision-making that is harder to model"
+      },
+      {
+        "cluster": "G",
+        "label": "china_financial_firewall_maintenance",
+        "value": 0.65,
+        "evidence": "Despite maximal trade confrontation with China, the Trump family has maintained a relative financial firewall from Chinese entanglement. WLFI's G42/UAE investor has Chinese leadership (G42 CEO Peng Xiao) raising secondary concerns, but direct Chinese sovereign investment in family vehicles is not documented at Gulf levels. Trump Org has limited China exposure (vs. extensive Gulf exposure). Don Jr. and Eric have not launched China-targeted crypto vehicles. The WLFI-G42 connection (Peng Xiao on board) introduces some indirect Chinese entanglement through the UAE channel, but it is structurally weaker than the Gulf relationships.",
+        "policy_implication": "The relative financial firewall from China (compared to Gulf) makes Trump's China confrontation more credibly maintained than his Gulf accommodation — the financial incentive structure supports his stated policy position on China in a way it does not on Gulf states"
+      },
+      {
+        "cluster": "G",
+        "label": "india_pakistan_asymmetric_family_interest",
+        "value": 0.60,
+        "evidence": "Trump Organization has significant India exposure (multiple branded projects with Indian developers; Modi-Trump personal relationship reinforced by 'Howdy Modi' 2019, 'Namaste Trump' 2020). India is among the top 3 countries for Trump Org foreign projects. This creates positive financial incentive for US-India relations. Pakistan, by contrast, has minimal Trump family financial exposure. The India tilt in family financial exposure partially explains the administration's India-favorable South Asia orientation.",
+        "policy_implication": "US-India relations should be expected to remain strongly positive regardless of other geopolitical considerations — the combination of Trump-Modi personal relationship and Trump Org India financial exposure creates double reinforcement"
+      },
+      {
+        "cluster": "G",
+        "label": "indonesia_and_emerging_market_exposure",
+        "value": 0.55,
+        "evidence": "Trump Organization has projects in Indonesia (hot-mic incident Oct 2025 where Trump apparently discussed Trump Org business with Indonesia's president); Serbia (government used extraordinary measures for Trump project amid mass protests, culture minister arrested); other emerging markets. The emerging market exposure introduces a diffuse set of smaller financial interests that can create episodic policy distortions — not as structurally determinative as Gulf exposure but creating a background radiation of conflicts.",
+        "policy_implication": "Emerging market policy decisions (Indonesia, Balkans, potentially Central Asia) should be filtered through whether Trump Org has active projects in the relevant country — presence of active Trump Org projects is a moderate predictor of favorable US policy treatment"
+      },
+      {
+        "cluster": "G",
+        "label": "foreign_influence_network_regulation_resistance",
+        "value": 0.88,
+        "evidence": "The inner circle has systematically disabled the regulatory infrastructure that would constrain foreign influence: FARA enforcement (Kushner's unregistered foreign agent concern remains unresolved), emoluments enforcement (DOJ won't pursue), ethics oversight (OGE effectively neutered), Congressional investigation (House majority blocks subpoenas for family), Senate Finance Investigation (Kushner Affinity) has no enforcement mechanism. The simultaneous disabling of multiple oversight mechanisms is not coincidental — it reflects a systematic preference for eliminating foreign influence constraints that would restrict the family's business model.",
+        "policy_implication": "For the duration of Term 2, treat foreign financial influence on US policy as having near-zero structural constraint. The regulatory infrastructure that would normally channel and report such influence has been deliberately dismantled"
+      }
+
+    ]
+  },
+  "red_lines": [
+    {
+      "id": "IC_RL001",
+      "name": "direct_prosecution_of_family_members",
+      "condition": "Credible DOJ/state prosecution of Jared Kushner, Don Jr., Eric Trump, or Ivanka for financial crimes related to business activities",
+      "forced_action": "maximum_institutional_response — DOJ redirection, pardon consideration, full communications apparatus attack on prosecutors",
+      "confidence": 0.95,
+      "evidence": "Trump's personal criminal legal jeopardy red line (main profile RL004) extends to family. The family financial structure (WLFI, Affinity Partners, Trump Org) creates multiple potential prosecution vectors. The loyalty requirement to family is unconditional — prosecution of a family member would trigger a more extreme response than prosecution of a non-family advisor.",
+      "priority": 1
+    },
+    {
+      "id": "IC_RL002",
+      "name": "affinity_partners_pif_withdrawal",
+      "condition": "Saudi PIF threatens withdrawal from Affinity Partners (renegotiation rights kick in Aug 2026) coinciding with US-Saudi policy confrontation",
+      "forced_action": "immediate_us_saudi_policy_accommodation — Kushner back-channel activated, Middle East policy pivots, Saudi demands prioritized",
+      "confidence": 0.82,
+      "evidence": "The Aug 2026 PIF renegotiation window is the most structurally significant financial cliff in Kushner's post-WH career. If PIF withdraws ($2B), Affinity Partners effectively collapses. The financial existential threat to Kushner would produce immediate diplomatic activity to restore Saudi goodwill regardless of the underlying US strategic interest.",
+      "priority": 2
+    },
+    {
+      "id": "IC_RL003",
+      "name": "wlfi_crypto_collapse",
+      "condition": "Major WLFI/USD1 regulatory action by foreign government, or crypto market crash reducing family holdings by >50%",
+      "forced_action": "escalated_crypto_pro_regulation + diplomatic_pressure_on_offending_jurisdiction",
+      "confidence": 0.75,
+      "evidence": "Trump family crypto empire ($11.6B estimated holdings) now constitutes the largest single family asset class. A major crypto regulatory action or market crash would trigger immediate policy response. The mechanism is similar to the stock market red line in the main Trump profile — but applied to crypto.",
+      "priority": 2
+    },
+    {
+      "id": "IC_RL004",
+      "name": "uae_investment_hostile_action",
+      "condition": "Abu Dhabi-linked entities (the 49% WLFI owner) face US sanctions, designation, or regulatory action",
+      "forced_action": "immediate_override_of_regulatory_action — DOJ/Treasury/SEC told to stand down, national security justification manufactured",
+      "confidence": 0.78,
+      "evidence": "UAE royal family owns 49% of the Trump family's most valuable crypto asset. Any regulatory action against G42, Tahnoun bin Zayed, or related entities would directly damage WLFI valuation. The financial incentive to protect this investment is structurally overwhelming.",
+      "priority": 2
+    },
+    {
+      "id": "IC_RL005",
+      "name": "trump_org_foreign_project_termination",
+      "condition": "Foreign government cancels major Trump Organization project (particularly Gulf, India) or imposes sanctions on Trump-branded developments",
+      "forced_action": "diplomatic_pressure_on_offending_government — tariff threats, security assistance suspension, hostile rhetoric",
+      "confidence": 0.70,
+      "evidence": "Trump Org foreign business is growing rapidly in Term 2 (22 projects) and constitutes a major financial interest. Government-to-government pressure in response to project cancellation is consistent with the use of tariff/economic threats to protect US business interests generally — and would be applied even more forcefully when the business interest is Trump's own.",
+      "priority": 3
+    }
+  ],
+  "information_fidelity_network": {
+    "kushner": 0.65,
+    "kushner_note": "High domain expertise in Gulf affairs, but systematically distorted by financial conflicts of interest — provides Gulf-filtered information that benefits his investor relationships",
+    "miller": 0.70,
+    "miller_note": "High policy execution fidelity; low information diversity — filters out information inconsistent with immigration/nationalist ideological framework; accurate within his domain, blind outside it",
+    "vance": 0.78,
+    "vance_note": "Highest honest-broker fidelity of inner circle; willing to voice dissent; realist foreign policy perspective provides genuine alternative information stream",
+    "don_jr_eric": 0.55,
+    "don_jr_eric_note": "Filtered through MAGA media ecosystem and personal financial interests (crypto); provide accurate base sentiment but distorted policy analysis",
+    "wiles": 0.75,
+    "wiles_note": "Operationally reliable; not an ideological filter; focused on process rather than substance; may under-surface strategic risks that aren't immediate process issues",
+    "bessent": 0.80,
+    "bessent_note": "Highest technical economic fidelity in inner circle; macro professional background; willing to provide market reality checks; limited influence on non-economic decisions",
+    "overall_network_fidelity": 0.58,
+    "overall_note": "The Trump inner circle information environment is somewhat better than Trump's personal information fidelity (0.52) because Vance and Bessent provide honest inputs in their domains. However, the systematic Gulf financial conflict (Kushner), ideological filtering (Miller), and crypto self-interest (sons) create structural distortions that pull the network average down. Key blind spot: Gulf foreign policy advice is structurally compromised; crypto policy advice is structurally compromised. Domestic economic analysis (Bessent) and foreign policy realism (Vance) are the best-fidelity channels."
+  },
+  "special_notes": "1. KUSHNER-MBS RELATIONSHIP AS SHADOW FOREIGN POLICY CHANNEL: The Kushner-MBS WhatsApp relationship is arguably the most consequential undisclosed foreign policy channel in the current US government. MBS can communicate US private intentions and receive Saudi demands through Kushner without those communications entering the formal diplomatic record. The $2B PIF investment in Affinity Partners (and $137M in fees through 2026) means this channel is financially bidirectional — MBS is not just communicating with Kushner, he is subsidizing Kushner's business survival. This structural arrangement makes 'independent advice' from Kushner on Gulf affairs a category error: there is no independence. The Iran strike (Feb 2026), Gaza ceasefire (Oct 2025), and Saudi nuclear deal framework all required Kushner's informal endorsement before proceeding. The formal diplomatic record does not capture this. For simulation purposes: on any US decision affecting Saudi/UAE/Israel interests, the Kushner-MBS channel should be modeled as an active input with 0.80+ weight toward Gulf-state preferences.\n\n2. TRUMP ORGANIZATION FOREIGN EXPOSURE AS POLICY DETERMINANT: The 22 active foreign Trump Org projects represent a de facto map of countries where US confrontational policy is structurally more costly for Trump personally. Countries with active Trump projects: Saudi Arabia, UAE, Qatar, Oman, India, Indonesia, Serbia — all are countries where Trump has shown notable policy accommodation relative to stated US strategic interests. The mechanism does not require explicit quid pro quo: when advisors draft policy options for countries with Trump Org exposure, the president's visceral reaction to options that would harm those relationships is systematically less confrontational. The Oct 2025 Indonesia hot-mic incident — apparently discussing Trump Org business with a foreign head of state during an official meeting — illustrates how business interests penetrate official interactions.\n\n3. CRYPTO CONFLICT AS REGULATORY CAPTURE AT THE EXECUTIVE LEVEL: The Trump family crypto empire represents the first case in US history of a sitting president having multi-billion-dollar financial stakes in the exact industry he is simultaneously deregulating. The Strategic Bitcoin Reserve, SEC enforcement rollback, stablecoin legislation, and CFTC crypto deregulation all occurred while WLFI grew from startup to $3B market cap and family crypto holdings reached $11.6B. The distinction from normal regulatory capture: traditional regulatory capture involves industry influencing regulators through lobbying and revolving door. In this case, the president's family IS the industry being regulated, and the policy-setter and beneficiary are the same person. This is not an asymmetric information problem (the president doesn't know about his sons' financial interests) — it is transparent, acknowledged, and defended as legal by the administration. For simulation: crypto deregulation is as certain as any policy this administration pursues because the financial incentive is the clearest and largest.\n\n4. FAMILY AS DECISION FILTER — WHAT REACHES TRUMP AND WHAT DOESN'T: The inner circle's gatekeeping function means certain categories of information and advice structurally do not reach Trump: (a) advice that would restrict family commercial activities (filtered by family loyalty), (b) advice that contradicts Miller's immigration/nationalist framework (filtered by Miller before reaching policy agenda), (c) advice that would antagonize Gulf states (filtered by Kushner's financial dependency), (d) market/economic reality that contradicts Trump's preferred narrative (filtered by sycophantic media environment). What consistently DOES reach Trump: MAGA base temperature signals (Don Jr., conservative media ecosystem), market data (direct TV/ticker monitoring), positive announcements (Wiles manages the positive news flow), and Vance/Bessent honest assessments in their specific domains. The net effect: Trump's decision function is systematically exposed to upside information and shielded from downside information in domains where family financial interests are at stake.\n\n5. NETWORK COHERENCE VS. TERM 1: The Trump inner circle network is more coherent and aligned in Term 2 than Term 1. Term 1 had genuine internal factions (Bannon vs. Kushner; Mattis/McMaster restraining military; Kelly imposing process discipline against Trump's instincts; Mnuchin moderating tariff extremes). Term 2 inner circle is ideologically pre-filtered: everyone accepted the MAGA framework before appointment. The result: faster decision execution, higher policy coherence, but dramatically reduced error correction. The Venezuela invasion and Iran strike both reflected this pattern — military options that Term 1 advisors (Mattis, McMaster) would have blocked were executed without significant internal resistance in Term 2. The network coherence amplifies Trump's behavioral tendencies rather than moderating them.\n\n6. SUCCESSION POSITIONING AS LATENT DESTABILIZER: The 2028 succession question introduces a latent but growing competitive dynamic within the network. JD Vance (most likely successor given VP position), Don Jr. (family choice), Lara Trump (potential Senate career) all have long-term political interests that diverge from maximizing Trump's short-term power. Vance's occasional honest-broker independence is partly strategic for his own 2028 credibility. This competition is currently suppressed by Trump's continued dominant position, but will become more active after midterms (2026) and accelerate through 2027-2028. The simulation should model this as a latent internal coherence risk that activates as Trump's term-end approaches.\n\n7. DUAL FINANCIAL EXTRACTION STRATEGY — FAMILY VS. DONORS: The Trump inner circle operates two simultaneous financial extraction strategies: (A) Direct family extraction — crypto coins, WLFI, Affinity Partners, Trump Org projects — using the presidential platform to generate family wealth. (B) Donor class service — crypto industry, Wall Street deregulation, energy sector, real estate deregulation — delivering policy benefits to the donor coalition that funded the 2024 campaign. These strategies usually align (Gulf donors + Gulf financial relationships, crypto donors + crypto family interests) but can occasionally conflict (MAGA base vs. Wall Street interests, immigration enforcement vs. tech industry H-1B preferences). When they conflict, the family direct extraction strategy appears to take precedence over donor class service — consistent with Trump's preference for personal gain over institutional relationship-building."
+}

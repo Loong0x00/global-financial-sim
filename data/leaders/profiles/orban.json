@@ -1,0 +1,244 @@
+{
+  "leader": "Viktor Orbán",
+  "role": "Prime Minister of Hungary (1998-2002, 2010-present)",
+  "level": 2,
+  "compiled_by": "claude-opus-4-6",
+  "compiled_date": "2026-03-13",
+  "compilation_sources": [
+    "EU Council voting records and veto history 2010-2026",
+    "Hungarian government official statements and policy documents",
+    "EU-Hungary rule of law proceedings and Article 7 documentation",
+    "Hungary-Russia energy agreements and diplomatic timeline",
+    "Hungary-China Belt and Road and investment agreements 2013-2026",
+    "Transparency International corruption rankings 2010-2026",
+    "Reporters Without Borders press freedom index 2010-2026",
+    "Fidesz party media acquisition timeline and KESMA foundation documentation",
+    "Hungarian National Consultation (VOKS) results 2015-2025",
+    "Carnegie Endowment, CEPA, Jacques Delors Centre analysis papers 2024-2026",
+    "Trump-Orbán bilateral meeting records and CPAC appearances",
+    "EU frozen funds documentation and compliance deadlines"
+  ],
+  "background": {
+    "born": "1963-05-31",
+    "origin": "Székesfehérvár, Hungary",
+    "career_path": "Anti-communist youth activist (Fidesz founder, 1988) → Member of Parliament (1990) → Fidesz party leader (1993, pivoted party from liberal to conservative) → Prime Minister first term (1998-2002, lost re-election) → Opposition leader (2002-2010, rebuilt Fidesz as right-wing populist machine) → Prime Minister second term (2010-present, constitutional supermajority × 4 consecutive elections)",
+    "formative_experiences": "1989 Heroes' Square speech demanding Soviet troop withdrawal — the defining moment that launched his political career at age 26. Soros scholarship to Oxford (1989) — later turned Soros into his primary political villain. 2002 election defeat after single term as PM — this loss fundamentally changed him from a liberal democrat to a power-consolidation strategist who would never allow electoral vulnerability again. The 2002-2010 opposition years were spent building a parallel institutional infrastructure (media, think tanks, business networks) that would ensure permanent dominance once regained.",
+    "decision_style_origin": "Political street fighter who learned from 2002 defeat that democratic institutions are tools to be captured, not constraints to be respected. Combines Machiavellian institutional capture (media, courts, election system) with populist mobilization (national consultations, anti-immigration campaigns). Treats EU membership as a resource extraction mechanism — maximizing EU funds while minimizing EU constraints. Every policy decision filters through a single question: does this help Fidesz maintain supermajority?"
+  },
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector for Viktor Orbán compiled from 16 years of continuous governance (2010-2026). Orbán's unique position in global politics: an EU/NATO member state leader who systematically undermines both organizations from within while depending on them economically. His behavior matrix captures the fundamental tension between EU resource dependency and anti-EU political positioning, the dual alignment with both Putin and Trump, and the systematic construction of an 'illiberal democracy' model that has inspired right-wing movements globally. The April 2026 election represents the first serious electoral threat to his 16-year dominance.",
+    "dimensions": 42,
+    "vectors": [
+      {
+        "label": "eu_veto_weapon_use",
+        "value": 0.94,
+        "evidence": "Systematic weaponization of EU unanimity requirement since 2015. Key vetoes: blocked EU migrant quota system (2015-2016), blocked EU statement on South China Sea (2016), blocked EU-NATO joint declaration (2017), repeatedly blocked EU sanctions on China over Hong Kong (2020-2021), vetoed Ukraine aid packages (2022-2023, eventually released after side deals), vetoed €50bn Ukraine aid (Dec 2023, overcome by creative legal mechanism), double veto on €90bn Ukraine loan AND 20th Russia sanctions package (Feb 2026, triggered by Druzhba pipeline dispute), blocked Ukraine/Moldova EU accession negotiations repeatedly. No EU geopolitical decision related to Ukraine has escaped Hungarian blackmail since Feb 2022. The veto is Orbán's single most powerful instrument — converts a small country (10M population, 1% of EU GDP) into a systemically important actor."
+      },
+      {
+        "label": "eu_veto_extraction_negotiation_skill",
+        "value": 0.88,
+        "evidence": "Orbán rarely maintains vetoes indefinitely — he uses them to extract concessions. Dec 2023 €50bn Ukraine aid: vetoed, then stepped out of the room allowing other 26 to proceed after receiving assurances on frozen EU funds. EU sanctions renewals: extracted exemptions for Hungarian energy imports (Druzhba pipeline crude, Paks nuclear fuel). Each veto follows a pattern: block → demand side payment → release with concessions. The pattern is transparent to all EU members but difficult to counter because Treaty change requires unanimity (which Hungary would also veto). Feb 2026 double veto represents escalation: linked diesel exports to Ukraine as 'countermeasure,' adding economic coercion to political blocking."
+      },
+      {
+        "label": "russia_alignment_depth",
+        "value": 0.82,
+        "evidence": "Paks II nuclear power plant: €12.5bn Russian-financed expansion (signed 2014, construction ongoing). Gazprom long-term gas contract: renewed 2021 for 15 years, bypassing Ukraine transit via TurkStream/Serbia route. Orbán visited Moscow (Feb 1, 2022) — 23 days before Russia's full invasion of Ukraine. Refused to allow weapons transit to Ukraine through Hungarian territory. Blocked EU oil embargo initially (May 2022, secured Druzhba exemption). 'Peace mission' to Moscow (Jul 2024) without EU mandate, met Putin directly. Consistently frames Russia as 'not a threat' to Hungary. However: did not formally oppose NATO Article 5, voted for initial sanctions packages (after extracting exemptions), did not recognize Crimea. The alignment is deep but calibrated to avoid crossing lines that would trigger EU Article 7 voting rights suspension."
+      },
+      {
+        "label": "putin_relationship_personal_depth",
+        "value": 0.78,
+        "evidence": "Regular bilateral meetings 2010-2022 (annual average 2-3 meetings). Putin-Orbán relationship predates 2010: Orbán's first term (1998-2002) already saw pragmatic engagement. Paks II deal (2014) sealed during Crimea crisis when all other EU leaders were distancing from Moscow — Orbán moved closer. Joint press conferences: Orbán consistently avoided criticizing Putin personally. Post-2022: maintained communication channels when most EU leaders cut contact. Jul 2024 'peace mission' to Moscow: unauthorized by EU, met Putin for 2+ hours. Orbán is the only EU head of government to have met Putin face-to-face after Feb 2022 (excluding Macron's early 2022 attempts). The relationship is genuinely personal, not just transactional."
+      },
+      {
+        "label": "trump_alignment_ideological_personal",
+        "value": 0.91,
+        "evidence": "First EU leader to endorse Trump (2016). Multiple CPAC appearances (2022 Budapest CPAC, 2022 Dallas CPAC — standing ovation). Mar-a-Lago visit (Mar 2024) — one of first foreign leaders to visit Trump post-indictment. Orbán publicly declared 'Make America Great Again' compatible with his vision. Trump publicly praised Orbán as 'strong leader' and 'smart.' After Trump's 2024 re-election, Orbán was among first leaders invited to White House. Ideological alignment: anti-immigration, anti-'woke,' Christian nationalism, skepticism of multilateral institutions. Orbán's EU veto strategy became more aggressive after Trump's return — emboldened by having a sympathetic US president who pressures EU from outside while Orbán pressures from inside."
+      },
+      {
+        "label": "ukraine_hostility_active",
+        "value": 0.87,
+        "evidence": "Blocked or delayed every major EU Ukraine support package since 2022. Vetoed Ukraine EU accession framework (claimed 'admitting a country at war drags us into war with Russia'). VOKS 2025 national consultation: Orbán claimed '2 million votes stopped Ukraine's EU accession.' Blocked use of frozen Russian assets for Ukraine reparations (Dec 2025: told CNBC 'the proposal has been killed'). Suspended Hungarian diesel exports to Ukraine as 'countermeasure' (Feb 2026). Blocked military aid transit through Hungarian territory. Maintained ethnic Hungarian minority in Transcarpathia as diplomatic lever against Kyiv. The hostility exceeds what Russia alignment alone would predict — there is genuine ideological opposition to Ukrainian Euro-Atlantic integration."
+      },
+      {
+        "label": "european_unity_sabotage_systematic",
+        "value": 0.89,
+        "evidence": "Orbán's strategy is not merely non-cooperation but active sabotage of EU collective action. EU foreign policy statements: vetoed joint positions on China, Israel, Ukraine repeatedly. 'Peacock dance' strategy: appearing to comply while undermining substance. EU Council presidency (Jul-Dec 2024): used rotating presidency to conduct unauthorized 'peace mission' diplomacy, meeting Putin and Xi without EU mandate. Promoted 'sovereignty' doctrine against EU supranational authority. Funded Euroskeptic parties across EU (connections to Le Pen, Salvini, Wilders, AfD). Created Patriots for Europe parliamentary group (2024) as vehicle for anti-EU coordination. Carnegie Endowment (2025): recommended suspending Hungary's voting rights as only remaining option."
+      },
+      {
+        "label": "migration_hardline_pioneer",
+        "value": 0.93,
+        "evidence": "2015 border fence construction: first EU leader to physically close borders during migrant crisis. 'Stop Brussels' campaign (2017). 'Stop Soros' legislation (2018): criminalized NGO assistance to migrants. Constitutional amendment: 'Hungary shall not be a country of immigration.' National consultation on immigration (multiple rounds, 2015-2023): used as domestic mobilization tool. Orbán framed migration as civilizational threat (Christianity vs. Islam) years before it became mainstream European discourse. By 2024-2025, Orbán's position had been largely adopted by mainstream EU: Italy (Albania deal), Denmark (Rwanda-style plans), Poland (border suspension), even Germany tightened. Orbán claims vindication: 'Europe is coming to us, we were right all along.'"
+      },
+      {
+        "label": "illiberal_democracy_model_export",
+        "value": 0.85,
+        "evidence": "2014 Tusványos speech: 'The new state we are building in Hungary is an illiberal state, a non-liberal state.' Explicitly cited Singapore, Russia, Turkey, China as models. The 'illiberal democracy' concept became a global brand: studied by right-wing movements in Poland (PiS), Italy (Meloni pre-2022), Brazil (Bolsonaro), Israel (Netanyahu judicial reform), India (Modi). Orbán positioned Budapest as the intellectual capital of the global right: CPAC Budapest, Mathias Corvinus Collegium (MCC) think tank network (€1.7bn endowment from state funds). The model's core: maintain electoral form while capturing all institutions (media, courts, universities, civil service, business) to ensure permanent power."
+      },
+      {
+        "label": "media_control_monopoly",
+        "value": 0.91,
+        "evidence": "Fidesz-aligned entities control approximately 80% of Hungarian media market. KESMA (Central European Press and Media Foundation, 2018): 476 media outlets donated by oligarchs into a single foundation — competition authority declared 'no review needed' (Orbán exemption by decree). State advertising: directed almost exclusively to Fidesz-aligned media, starving independent outlets. RTL Klub (last major independent TV): sold to Fidesz-allied businessman (2023). Reporters Without Borders ranking: Hungary fell from 23rd (2010) to 67th (2025). EU Commission opened infringement procedure for media freedom violations only in Dec 2025 — 15 years after capture began. The media monopoly is the foundation of Orbán's system: controls narrative, marginalizes opposition, manufactures consent for anti-EU/pro-Russia positions."
+      },
+      {
+        "label": "corruption_tolerance_systemic",
+        "value": 0.88,
+        "evidence": "Transparency International: Hungary ranks as most corrupt EU member state. Orbán's son-in-law István Tiborcz: became one of Hungary's richest men through EU-funded contracts. Lőrinc Mészáros (childhood friend): net worth grew from near-zero to €1.5bn+ through government contracts — 'the luckiest man in Hungary.' EU anti-fraud office (OLAF): found systematic irregularities in Hungarian EU fund usage. €18bn in EU funds frozen due to rule-of-law concerns (2022-2026). Hungary forfeited over €1bn by missing compliance deadlines. The corruption is not a bug but a feature: state resources distributed to loyalists create an economic dependency network that reinforces political loyalty. NER (National Cooperation System) is the formal framework."
+      },
+      {
+        "label": "china_pragmatic_engagement_deep",
+        "value": 0.86,
+        "evidence": "Hungary-China 'all-weather comprehensive strategic partnership' (2024) — Beijing's highest diplomatic tier. Belt and Road: Budapest-Belgrade railway (Chinese-financed, €2.1bn Hungarian section). CATL battery gigafactory (€7.3bn, largest single foreign investment in Hungarian history). BYD electric vehicle plant (Szeged, announced 2023). Huawei European logistics hub in Budapest. Hungary attracted more Chinese capital 2022-2024 than Germany, France, UK combined. Orbán attended 2023 Belt and Road Forum in Beijing — only EU leader present. Vetoed EU statements criticizing China on Hong Kong, Xinjiang, South China Sea. Foreign Minister Szijjártó: 'Hungary proudly serves as primary European destination for Chinese capital.' When asked if Hungary would decouple from China under Trump pressure: 'Definitely not.'"
+      },
+      {
+        "label": "china_trump_tension_management",
+        "value": 0.62,
+        "evidence": "Orbán's deepest strategic dilemma: Trump and Xi are his two most important patrons, but they are adversaries. Trump's anti-China trade war and tech decoupling directly threatens Hungary's Chinese investment pipeline. Trump administration 2025: CEPA described Orbán as 'Xi's European pet.' Trump's Secretary of State Rubio: publicly criticized Hungary's China ties. Deputy FM Magyar's response: 'Definitely not' on decoupling from China. Orbán's strategy: compartmentalize relationships (political alignment with Trump, economic alignment with Xi), hope neither forces a binary choice. Risk: if Trump demands concrete anti-China actions as price of political support, Orbán faces impossible choice between ideological patron (Trump) and economic patron (Xi)."
+      },
+      {
+        "label": "nato_commitment_actual_vs_nominal",
+        "value": 0.35,
+        "evidence": "Hungary is a NATO member since 1999 but has lowest military spending in the alliance (~1.5% GDP, well below 2% minimum). Blocked NATO-Ukraine cooperation at multiple summits. Refused weapons transit to Ukraine through Hungarian territory. Did not deploy troops to NATO eastern flank in meaningful numbers. Blocked Sweden's NATO accession for 18 months (2022-2024, last to ratify). Orbán's NATO strategy mirrors his EU strategy: maintain membership (security guarantee) while minimizing obligations and blocking collective action that contradicts his pro-Russia alignment. NATO commitment is nominal — Hungary is a free-rider that uses alliance membership as protection while undermining alliance purpose."
+      },
+      {
+        "label": "domestic_political_dominance_fidesz",
+        "value": 0.82,
+        "evidence": "Four consecutive supermajority victories (2010, 2014, 2018, 2022) — each with 2/3+ parliamentary seats. Electoral system redesigned after 2010 to favor Fidesz (gerrymandering, ethnic Hungarian diaspora voting rights, media monopoly advantage). Opposition fragmented until 2022 (6-party coalition experiment failed). However: 2025-2026 represents first serious threat. Péter Magyar's TISZA party: polling near 50% among decided voters, Fidesz below 40%. Economic grievances (cumulative 50%+ inflation since 2020, highest in EU), corruption fatigue, and Magyar's personal charisma created viable challenge. April 2026 election: Fidesz faces potential defeat for first time in 16 years. But: Fidesz controls media, election administration, judiciary — structural advantages may override polling disadvantage."
+      },
+      {
+        "label": "eu_funding_dependency_paradox",
+        "value": 0.87,
+        "evidence": "Hungary is a massive net recipient of EU funds: received €4-6bn/year in cohesion/agricultural funds (4-6% of GDP). EU funds constitute ~40% of Hungarian public investment. Orbán's political economy model depends on distributing EU funds through loyalist networks (NER). Yet Orbán's anti-EU rhetoric and rule-of-law violations led to €18bn in frozen funds. The paradox: Orbán needs EU money to sustain the patronage system that keeps him in power, but his behavior provokes the EU to withhold funds. Partial solution: Chinese investment replacing frozen EU funds (CATL, BYD). But Chinese investment creates jobs, not patronage rents — different political economy function. The funding freeze is the EU's most effective pressure tool."
+      },
+      {
+        "label": "judicial_capture_completeness",
+        "value": 0.84,
+        "evidence": "Constitutional Court: packed after 2010 (expanded from 11 to 15 members, Fidesz nominated all new judges). Fundamental Law (new constitution, 2012): replaced democratic constitution, entrenched Fidesz positions. Judicial appointments: National Judicial Office headed by Fidesz-allied Tünde Handó (2012-2019), then restructured to maintain control. EU Article 7.1 triggered (Sep 2018) for systematic rule-of-law violations — proceedings never completed (requires unanimity, Poland blocked for years under PiS). Curia (Supreme Court): chief justice appointed by Fidesz supermajority. Prosecution: chief prosecutor Péter Polt (Fidesz ally since 2010) — never prosecuted any Fidesz corruption case. The judicial capture is near-complete but faces EU pressure through conditionality mechanism."
+      },
+      {
+        "label": "energy_dependency_russia_structural",
+        "value": 0.79,
+        "evidence": "Hungary depends on Russia for ~65% of natural gas and ~80% of oil (via Druzhba pipeline). Paks nuclear plant (Russian-built) provides ~50% of electricity; Paks II expansion (Rosatom) will increase dependency. Long-term Gazprom contract (2021, 15 years): locked in Russian gas via TurkStream route bypassing Ukraine. Hungary was exempted from EU Russian oil embargo specifically because of Druzhba dependency. The energy dependency is partly structural (landlocked geography, legacy infrastructure) and partly chosen (Orbán actively deepened it with Paks II and the 2021 gas contract when alternatives existed). Energy dependency creates genuine national interest alignment with Russia (cheap energy) beyond ideological affinity."
+      },
+      {
+        "label": "national_consultation_populist_tool",
+        "value": 0.81,
+        "evidence": "National consultations (Nemzeti Konzultáció): government-sent questionnaires to all households with leading questions. Topics: immigration (2015), 'Stop Brussels' (2017), 'Stop Soros' (2017), COVID response (2020), child protection/'anti-LGBTQ' (2021), sanctions/energy (2022), Ukraine/EU (VOKS 2025). Purpose: manufacture 'democratic mandate' for predetermined policies, mobilize Fidesz base, bypass parliamentary debate. VOKS 2025: Orbán claimed 2 million responses as mandate to block Ukraine's EU accession. The consultations have no legal force — they are pure political theater that creates the appearance of popular legitimacy for Orbán's positions on EU/migration/Russia."
+      },
+      {
+        "label": "economic_nationalism_selective",
+        "value": 0.72,
+        "evidence": "Orbán promotes 'economic patriotism' selectively: Hungarian companies get preference in government procurement, NER-linked businesses receive state contracts. BUT: simultaneously welcomes Chinese (CATL, BYD, Huawei), Korean (Samsung battery plant), German (Audi, Mercedes in Hungary) foreign investment with massive subsidies. The selectivity: foreign investment that creates jobs and dependency on Orbán (through permits, subsidies, regulatory treatment) is welcome. Foreign investment that empowers independent actors (Western NGOs, independent media) is blocked. Economic nationalism is a tool for patronage control, not genuine protectionism."
+      },
+      {
+        "label": "anti_soros_campaign_instrumentalization",
+        "value": 0.86,
+        "evidence": "George Soros: Orbán's former benefactor (Soros scholarship funded his Oxford study in 1989). Transformed Soros into primary political villain starting 2015. 'Stop Soros' legislation (2018): criminalized NGO assistance to asylum seekers. Central European University (Soros-founded): forced out of Budapest to Vienna (2019). Soros conspiracy narrative: Soros as 'puppet master' controlling immigration, EU, opposition — antisemitic dog-whistle. The anti-Soros campaign serves multiple functions: (1) Domestic enemy mobilization. (2) Anti-immigration framing. (3) Anti-EU narrative ('Brussels = Soros'). (4) Discrediting civil society/NGOs. The instrumentalization of a personal benefactor for political gain reveals Orbán's purely transactional view of relationships."
+      },
+      {
+        "label": "eu_institutional_exploitation_mastery",
+        "value": 0.87,
+        "evidence": "Orbán has mastered EU institutional mechanics better than most pro-EU leaders: understands exactly where unanimity is required (sanctions, foreign policy, accession) vs. qualified majority (budget conditionality). Exploits Treaty provisions that were designed for good-faith cooperation. EU Council presidency (Jul-Dec 2024): used procedural control for unauthorized diplomatic missions. Knows Article 7 suspension requires unanimity minus one (impossible as long as any ally exists). Learned from PiS-Poland experience: mutual protection pact (Hungary blocks Article 7 for Poland, Poland reciprocates) worked until PiS lost power in 2023. Post-2023: lost Polish protection, now more vulnerable — compensates with Trump alignment and escalated veto threats."
+      },
+      {
+        "label": "ethnic_hungarian_minority_leverage",
+        "value": 0.71,
+        "evidence": "2-3 million ethnic Hungarians live outside Hungary (Romania, Slovakia, Serbia, Ukraine). 2010 citizenship law: granted Hungarian citizenship to diaspora ethnic Hungarians (including voting rights — they overwhelmingly vote Fidesz). Transcarpathian Hungarians in Ukraine: used as diplomatic lever against Kyiv. Blocked Ukraine NATO integration citing Hungarian minority language rights issues (2017-2022). Szeklerland (Romania): Fidesz supports autonomy claims, creating friction with Bucharest. The ethnic minority card serves dual purpose: (1) Domestic mobilization (national pride). (2) Foreign policy leverage (veto justification). It is Orbán's oldest political tool — Fidesz was originally founded around Hungarian national identity."
+      },
+      {
+        "label": "christian_nationalism_branding",
+        "value": 0.79,
+        "evidence": "Fundamental Law (2012): 'God bless the Hungarians' preamble, Christianity as national identity foundation. 'Family protection' constitutional amendments: marriage = man and woman, gender = sex at birth (2020). Anti-LGBTQ legislation (2021): banned 'promotion' of homosexuality to minors. Demographic policy: massive family subsidies (4+ children = lifetime income tax exemption). Budapest hosts international Christian conservative events. The religious branding serves political function: differentiates from 'godless Brussels,' aligns with US evangelical-conservative movement (CPAC connection), provides moral framework for anti-immigration stance ('defending Christian civilization'). Actual religiosity of Orbán and inner circle is secondary to political utility."
+      },
+      {
+        "label": "information_fidelity_from_advisors",
+        "value": 0.58,
+        "evidence": "Orbán's inner circle has narrowed over 16 years. Key figures: Antal Rogán (cabinet minister, propaganda chief), Gergely Gulyás (chief of staff), Balázs Orbán (political director, no relation). Independent voices systematically excluded. Academic/think tank ecosystem (MCC, Századvég) captured and aligned. However: Orbán maintains genuine engagement with EU institutional dynamics (necessity for veto strategy) and reads international press. Information quality is better than Putin's (smaller country, EU integration provides external reality checks) but worse than democratic leaders (sycophancy, captured media feedback loop). The 2026 election polling shock (TISZA competitive) may indicate information bubble on domestic political reality."
+      },
+      {
+        "label": "risk_appetite_calculated_brinkmanship",
+        "value": 0.76,
+        "evidence": "Orbán consistently pushes EU confrontation to the edge but knows the institutional limits. Has never been subjected to Article 7 voting rights suspension (would be catastrophic — loss of veto). Calibrates provocations: blocks actions temporarily, then releases after extracting concessions. Feb 2026 double veto: most aggressive move yet, but includes implicit off-ramp (Druzhba pipeline dispute resolution). The brinkmanship has worked for 16 years because EU lacks effective enforcement mechanisms. Risk: post-PiS Poland no longer provides protective cover. If TISZA wins April 2026, Hungary loses all protection simultaneously."
+      },
+      {
+        "label": "western_democratic_norms_rejection",
+        "value": 0.78,
+        "evidence": "Orbán explicitly rejects liberal democratic model since 2014 Tusványos speech. Rule-of-law attacks: judicial capture, media monopoly, NGO criminalization, academic freedom restrictions (CEU forced out). However: maintains formal democratic procedures (elections held, opposition allowed to run, no political prisoners in the traditional sense). The distinction: Orbán does not abolish democracy — he hollows it out. Elections exist but media monopoly and gerrymandering ensure Fidesz advantage. Courts exist but judges are captured. Civil society exists but NGOs are 'foreign agents.' This is more sophisticated than crude authoritarianism and harder for EU to counter."
+      },
+      {
+        "label": "balkans_influence_expansion",
+        "value": 0.68,
+        "evidence": "Hungary actively cultivates influence in Western Balkans: Serbia (Vučić is closest Orbán ally outside EU), North Macedonia, Bosnia (Republika Srpska entity). Opposes Kosovo recognition. Supports Serbia's EU accession path while Serbia maintains Russia ties. MCC (Mathias Corvinus Collegium): opened campuses in Brussels and expanding in Balkans. The Balkans strategy: create a pro-Orbán bloc in EU accession pipeline that would strengthen his position once these countries join. Serbia as buffer: if Serbia joins EU, it would likely align with Hungary on Russia/China votes. Short-term: influence without formal institutional power. Long-term: reshaping EU's internal balance."
+      },
+      {
+        "label": "inflation_economic_mismanagement",
+        "value": 0.73,
+        "evidence": "Hungarian inflation peaked at 25.7% (Jan 2023) — highest in EU. Cumulative price increase since 2020: over 50%. Interest rates peaked at 13% (Sep 2022-Mar 2024). Forint depreciated 30% vs EUR (2020-2023). GDP growth stalled: 2023 recession (-0.9%). Causes: (1) Pre-election spending spree (2021-2022). (2) Energy price shock amplified by Russian dependency. (3) Weak currency from capital outflows. (4) EU funds freeze reduced public investment. Orbán blamed Brussels and sanctions — but Hungary's inflation exceeded all EU peers, suggesting domestic policy failure. The economic pain is the primary driver of TISZA's rise and the 2026 electoral threat."
+      },
+      {
+        "label": "election_system_manipulation",
+        "value": 0.82,
+        "evidence": "Post-2010 electoral system redesign: (1) Mixed system favoring largest party (93 single-member districts + 106 party list seats). (2) Gerrymandering of district boundaries. (3) Diaspora voting (mail-in for ethnic Hungarians abroad — overwhelmingly Fidesz). (4) Campaign finance opacity (state resources used for Fidesz campaigns). (5) Media monopoly provides massive in-kind advantage. OSCE election observation missions 2014-2022: consistently noted 'uneven playing field' while technically 'competitive.' The system is designed so Fidesz can win supermajority with 49-53% of votes. TISZA's challenge: must win by large enough margin to overcome structural disadvantage."
+      },
+      {
+        "label": "university_academic_freedom_suppression",
+        "value": 0.77,
+        "evidence": "Central European University (CEU): forced out of Budapest to Vienna (2018-2019) through 'Lex CEU' targeting Soros-founded institutions. Hungarian Academy of Sciences: research network stripped and transferred to government-controlled body (2019). University governance reform (2021): 'foundation model' transferred public universities to private foundations run by Fidesz allies (Corvinus University → Maecenas foundation chaired by former Fidesz minister). MCC (Mathias Corvinus Collegium): received €1.7bn in state assets — became Fidesz's ideological training ground. Academic freedom suppression serves two functions: eliminate independent critical voices, create pipeline of ideologically aligned future elites."
+      },
+      {
+        "label": "pandemic_response_opportunism",
+        "value": 0.74,
+        "evidence": "COVID response: (1) Emergency powers law (Mar 2020): rule by decree, indefinite duration — most extreme in EU. (2) Sputnik V and Sinopharm approved (Hungary first EU country to use non-EMA-approved vaccines). (3) Early reopening to boost economy before 2022 election. (4) Used pandemic to accelerate institutional capture. The pandemic demonstrated Orbán's pattern: use crisis as opportunity for power expansion. Emergency decree authority far exceeded what public health required. Chinese/Russian vaccine purchases deepened bilateral relationships. Economic recovery was prioritized over public health for electoral reasons."
+      },
+      {
+        "label": "personal_power_vs_institutional_loyalty",
+        "value": 0.89,
+        "evidence": "Orbán's relationship to institutions is purely instrumental. EU: member when it pays, saboteur when it constrains. NATO: member for security guarantee, underminer when collective action required. Hungarian constitution: rewritten to entrench personal power. Fidesz itself: transformed from liberal youth movement to personal vehicle — Orbán is the party, the party is Orbán. Courts: captured. Media: monopolized. Universities: privatized to allies. The only institution Orbán genuinely respects is the one he has built: the NER (National Cooperation System) — a patronage network centered on personal loyalty to him."
+      },
+      {
+        "label": "succession_vulnerability",
+        "value": 0.72,
+        "evidence": "No clear successor identified within Fidesz. Orbán has systematically eliminated potential rivals within the party (László Kövér sidelined to Speaker role, Zsolt Semjén as decorative deputy PM). The system is personality-dependent: without Orbán, the NER patronage network lacks a coordinator. April 2026 election: if Fidesz loses, transition could be chaotic — 16 years of institutional capture makes orderly opposition takeover extremely difficult (who controls state media? who are the judges? where are the files?). If Fidesz wins: Orbán (age 63) could govern indefinitely, but no succession plan exists. The system's fragility mirrors other personalist regimes."
+      },
+      {
+        "label": "péter_magyar_tisza_threat_response",
+        "value": 0.78,
+        "evidence": "Péter Magyar (former Fidesz insider, ex-husband of former Justice Minister Varga Judit) emerged as opposition leader in early 2024. TISZA party: polling near 50% among decided voters vs. Fidesz below 40% by early 2026. Magyar's advantage: former insider credibility (knows the system), personal charisma, social media bypassing state media monopoly. Orbán's response: (1) State media attacks (personal scandals, alleged domestic violence). (2) Legal pressure (investigations). (3) Economic pressure on Magyar's supporters. (4) Framing as 'Soros agent.' But: traditional Fidesz tactics may be less effective against a former insider who can credibly say 'I've seen the corruption from inside.' The April 2026 election is Orbán's most serious electoral test since 2002."
+      },
+      {
+        "label": "sanctions_evasion_complicity",
+        "value": 0.69,
+        "evidence": "Hungary's unique position as EU member with Russia alignment creates sanctions evasion opportunities. Hungarian OTP Bank: continued operating in Russia longer than other EU banks. Energy exemptions: Druzhba pipeline crude continues flowing, Paks nuclear fuel continues arriving. Hungarian companies: alleged re-export of sanctioned goods through Hungary to Russia (EU investigations ongoing). Orbán does not openly defy sanctions (would be illegal under EU law) but creates regulatory environment that enables maximum leakage. The complicity is structural rather than explicit — Hungary is the weakest link in the EU sanctions regime."
+      },
+      {
+        "label": "israel_hungary_alliance_pragmatic",
+        "value": 0.71,
+        "evidence": "Orbán-Netanyahu personal alliance: shared anti-Soros narrative, shared anti-immigration rhetoric, shared hostility to liberal international order. Hungary blocked EU criticism of Israeli settlements (2016-2023). Moved to recognize Jerusalem. Pro-Israel voting at UN. The alliance is strategic: (1) Netanyahu provides cover against antisemitism accusations (critical given anti-Soros campaign's antisemitic undertones). (2) Israeli technology partnerships (NSO Group/Pegasus spyware — used to surveil Hungarian journalists). (3) Shared geopolitical worldview (civilizational conflict framing). Post-Oct 7 2023: Hungary was among most vocal EU defenders of Israel."
+      },
+      {
+        "label": "visegrad_group_fragmentation_post_pis",
+        "value": 0.67,
+        "evidence": "Visegrad Group (V4: Hungary, Poland, Czech Republic, Slovakia): formerly Orbán's key institutional alliance within EU. PiS-Fidesz axis (2015-2023): mutual Article 7 blocking, shared anti-migration stance, shared illiberal governance model. Tusk's return (Dec 2023): destroyed V4 as anti-EU bloc. Poland shifted from Orbán's closest ally to one of his harshest critics. Czech Republic (under Fiala, then post-2025): maintained distance from Orbán. Slovakia (Fico): only remaining V4 ally, but Fico's own political instability limits value. Loss of PiS-Poland protection is the single most consequential structural shift for Orbán since 2010 — makes him far more vulnerable to EU enforcement."
+      },
+      {
+        "label": "constitutional_entrenchment_difficulty_of_reversal",
+        "value": 0.85,
+        "evidence": "Fidesz used 16 years of supermajority to entrench policies in constitution and cardinal laws (requiring 2/3 majority to change). Key entrenchments: (1) Fundamental Law (constitution) requires 2/3 to amend. (2) Cardinal laws on media, elections, judiciary require 2/3. (3) Budget Council (Fidesz-appointed) can veto budgets. (4) State media (MTVA): governance structure requires 2/3 to reform. (5) University foundation boards: self-perpetuating, appointed by Fidesz. Even if TISZA wins 2026, without supermajority it cannot undo Orbán's institutional capture. This is the 'authoritarian insurance policy' — designed to constrain any successor government."
+      },
+      {
+        "label": "demographic_family_policy_nationalist",
+        "value": 0.74,
+        "evidence": "Hungary's family policy: among most generous in EU. 4+ children: lifetime income tax exemption for mothers. Subsidized housing for families. IVF publicly funded. Home purchase support (CSOK) for families with children. Fertility rate: rose slightly (1.23 → 1.56, 2011-2021) but still below replacement. The policy combines genuine pronatalism with nationalist ideology: explicitly framed as alternative to immigration ('we don't want immigrants, we want Hungarian babies'). Economic cost: ~2-3% of GDP annually. The policy is popular across political spectrum (TISZA would likely maintain it). It is Orbán's most successful domestic policy by any measure."
+      },
+      {
+        "label": "economic_model_eu_transfer_dependency",
+        "value": 0.76,
+        "evidence": "Hungary's economic model: manufacturing export hub (German automotive: Audi Győr, Mercedes Kecskemét, BMW Debrecen) + EU transfer recipient + FDI magnet (low taxes, weak labor protections). Corporate tax: 9% (EU's lowest). FDI stock: ~€100bn. The model works but is fundamentally dependent on external transfers: EU cohesion funds AND foreign investment. Orbán adds Chinese investment as third pillar (CATL, BYD). The model's political vulnerability: EU can freeze funds (already happening), Trump can pressure on China investment, German auto industry can relocate. Triple dependency creates structural fragility masked by short-term growth."
+      },
+      {
+        "label": "domestic_surveillance_pegasus",
+        "value": 0.75,
+        "evidence": "Pegasus spyware (NSO Group, Israel): Hungary confirmed as customer (2021 Pegasus Project revelations). Targets: investigative journalists (Direkt36), opposition politicians, lawyers, businessman. Hungarian government initially denied, then admitted purchase as 'standard law enforcement tool.' EU Parliament Pegasus inquiry (2022-2023): Hungary was least cooperative member state. The surveillance reveals: Orbán does not merely control media through ownership — he actively monitors and potentially blackmails independent actors. Combined with prosecution service capture (Péter Polt), creates comprehensive control over information environment."
+      }
+    ]
+  }
+}

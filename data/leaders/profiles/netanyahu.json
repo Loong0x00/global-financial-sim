@@ -1,0 +1,482 @@
+{
+  "leader": "Benjamin Netanyahu",
+  "leader_he": "בנימין נתניהו",
+  "leader_zh": "本雅明·内塔尼亚胡",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "Term 1 (1996-07 to 1999-07): Wye River Memorandum 1998, economic liberalization, Hebron Protocol 1997",
+    "Finance Minister (2003-2005): Major neoliberal reform package — privatization, pension reform, welfare cuts, accelerated growth",
+    "Term 2-4 (2009-2021): Gaza wars (Cast Lead 2008-09, Pillar of Defense 2012, Protective Edge 2014, Guardian of the Walls 2021), Iran containment strategy, Abraham Accords 2020, JCPOA opposition, US Congressional speech 2015",
+    "Term 5 (2022-present): October 7 Hamas attack and Gaza War 2023-present, judicial overhaul crisis 2023, Ben Gvir/Smotrich coalition dependency, Khamenei assassination operation November 2025 planning, execution February 28 2026 (joint US-Israel Operation Lion's Roar), ceasefire/hostage negotiations, corruption trial cross-examination 2025, presidential pardon request November 2025",
+    "Background: MIT BSc Architecture + MSc Business Management; BCG Boston 1976-1978 (colleague of Mitt Romney); Rim Industries Marketing Director 1978-1982; Israeli embassy Washington DC (served under moshe arens); UN Ambassador 1984-1988; deputy foreign minister, housing minister, foreign minister, opposition leader stints",
+    "Corruption trial: Case 1000 (gifts from billionaires Milchan/Packer, ~$200K), Case 2000 (Yedioth Ahronoth favorable coverage deal), Case 4000 (Bezeq/Walla regulatory quid-pro-quo). Cross-examination began June 2025. Pardon request submitted November 2025 without admission of guilt — legally unprecedented and likely unacceptable under Israeli law. No verdict reached as of March 2026.",
+    "Academic/analytical sources: Anshel Pfeffer 'Bibi' biography; Dan Margalit commentary; Congressional Research Service Israel major issues report; Foreign Policy analysis 'Why Israel's Netanyahu Waited Until Now to Strike Iran' (March 2026)"
+  ],
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector for Benjamin Netanyahu, Israel's longest-serving prime minister. He has governed during more Israeli military conflicts than any other PM, while simultaneously surviving a decade of criminal prosecution. His behavior is uniquely shaped by a 'survival trap' parallel to Xi Jinping's — he cannot safely leave office because the moment he does, the corruption trial proceeds unimpeded, potentially resulting in imprisonment. This creates a structural incentive to maintain power by any means, including war prolongation, coalition hostage-taking, and judicial system manipulation. His MIT-BCG economic background gives him a market-fluent worldview rare among Israeli politicians, but his decisions since 2022 have been overwhelmingly shaped by personal political survival rather than economic optimization. The 2023-2026 period has seen a fundamental behavioral shift: from a calculating risk-manager to a survival-at-all-costs actor who has used war as a political instrument and co-orchestrated the assassination of a foreign head of state.",
+    "dimensions": 62,
+    "vectors": [
+
+      {
+        "label": "political_survival_primacy",
+        "value": 0.97,
+        "evidence": "Netanyahu's single most consistent behavioral trait since 2019 is the subordination of all other considerations to personal political survival. The corruption charges (Cases 1000, 2000, 4000) create an existential incentive: losing the prime ministership = conviction becomes far more likely. This drive has: (1) caused him to form a coalition with the most extreme right-wing partners in Israeli history (Ben Gvir, Smotrich) despite his own more moderate instincts on settlements, (2) led him to prolong the Gaza war past military necessity to avoid coalition collapse, (3) triggered a judicial overhaul attempt in 2023 that nearly caused civil war in Israel, (4) led to the unprecedented corruption pardon request (November 2025). The 0.97 reflects near-total behavioral capture by survival logic — only genuine existential military threats to Israel occasionally override it."
+      },
+      {
+        "label": "war_as_political_survival_tool",
+        "value": 0.88,
+        "evidence": "The Gaza war (October 7 2023 - present) has functioned as Netanyahu's primary political instrument. Evidence: (1) October 7 itself, while a catastrophic intelligence failure on his watch, provided an immediate political reset — public anger at his government was redirected outward. (2) He has repeatedly obstructed ceasefire negotiations at moments when they would have collapsed the war cabinet and returned domestic politics to his corruption trial and coalition crises. (3) His expansion of the war to Lebanon (late 2024) and the Iran strikes (June 2025 Twelve-Day War, then February 2026 Khamenei assassination) kept the country in 'wartime PM' mode where challenging him appears unpatriotic. (4) Foreign Policy (March 2026): 'If Netanyahu and Trump's objective was to fit an Iran war into a window of time where they could operate mostly unchecked, the safest bet was spring and summer of 2026, if only for electoral reasons.' (5) He has simultaneously used war to delay elections, which are scheduled for October 27, 2026, and now potentially being brought forward to June/July 2026 to leverage the Iran war boost."
+      },
+      {
+        "label": "coalition_hostage_dynamic",
+        "value": 0.85,
+        "evidence": "Netanyahu is structurally held hostage by coalition partners Ben Gvir (Otzma Yehudit, National Security Minister) and Smotrich (Religious Zionism, Finance Minister), whose combined 13 Knesset seats are essential to the government's 64-seat majority. Without them, the government falls and elections are triggered. These partners are more extreme than Netanyahu on settlements, Gaza re-occupation, and Palestinian rights — they have repeatedly threatened to resign over any ceasefire or hostage deal, and over budget issues. The dynamic: Netanyahu cannot fire them (which the High Court has ordered him to explain why he hasn't done regarding Ben Gvir), nor can he override them on policy without risking coalition collapse. This hostage-holder relationship has dragged his government rightward beyond his own preferences, particularly on Gaza endgame and West Bank annexation."
+      },
+      {
+        "label": "ben_gvir_constraint_tolerance",
+        "value": 0.78,
+        "evidence": "Netanyahu tolerates Ben Gvir's extremism far beyond what he would normally accept because Ben Gvir's 6 seats are essential. Evidence of constraint: (1) High Court ordered Netanyahu to explain why he hasn't fired Ben Gvir as National Security Minister — Netanyahu has delayed, showing his awareness that firing him collapses the government. (2) Ben Gvir has obstructed humanitarian aid, made inflammatory visits to Temple Mount, and threatened Arab communities — all of which Netanyahu quietly supports or does nothing to stop because coalition stability is paramount. (3) Ben Gvir resigned from cabinet briefly in January 2025 over ceasefire, then returned when given concessions. Tolerance level = high but not unconditional."
+      },
+      {
+        "label": "smotrich_economic_constraint",
+        "value": 0.72,
+        "evidence": "Finance Minister Smotrich controls budget policy and has used this leverage to push ideological priorities: settlement expansion funding, settler protection forces, reduced Arab community funding. Smotrich's party was projected to fall below the Knesset threshold in March 2026 polls, creating an incentive for him to either force elections while he can still participate, or extract maximum policy concessions while in government. He threatened to call elections if the 2026 budget wasn't passed — the budget deadline of late March 2026 is a critical governance stress point."
+      },
+      {
+        "label": "iran_obsession_lifetime",
+        "value": 0.95,
+        "evidence": "Iran has been Netanyahu's defining foreign policy cause since his first term. He has: (1) given a famous 2015 US Congressional speech opposing Obama's JCPOA, describing Iran as an existential threat, (2) authorized the Mossad 'vault heist' (2018) stealing Iran's nuclear archive, (3) regularly briefed that Iran is 'months away' from a nuclear weapon since the 1990s, (4) personally planned the assassination of Ali Khamenei starting November 2025 — initially intended as a solo Israeli operation, later coordinated with Trump, (5) executed the June 2025 Twelve-Day War with strikes on Natanz nuclear facilities and ballistic missile program, (6) followed with the February 28 2026 US-Israeli joint operation (Operation Lion's Roar) that killed Khamenei. The Defense Minister Katz confirmed that Netanyahu personally set the goal of killing Khamenei in November 2025. This is the culmination of a decades-long personal mission."
+      },
+      {
+        "label": "iran_nuclear_threat_perception",
+        "value": 0.98,
+        "evidence": "Netanyahu genuinely believes (not merely claims for political effect) that a nuclear-armed Iran represents an existential threat to Israel comparable to the Holocaust. This belief is reinforced by: his father Benzion Netanyahu's historiography of Jewish persecution, the October 7 massacre (showing what enemies can do without nuclear deterrence), and Iran's explicit stated goal of eliminating Israel. The perception has driven every major Israeli foreign policy move under Netanyahu: JCPOA opposition, Stuxnet (authorized under previous PMs but continued), archive heist, Twelve-Day War, Khamenei assassination. The 0.98 reflects near-maximum perceived threat — this is not negotiable for him."
+      },
+      {
+        "label": "us_relationship_mastery",
+        "value": 0.93,
+        "evidence": "Netanyahu is the most skilled foreign leader at navigating US domestic politics in the modern era. His tools: (1) AIPAC and evangelical Christian Zionist networks, which give him effective veto power over US politicians who cross him, (2) direct relationships with US Christian right leadership (Hagee, etc.), (3) Congress bypass strategy — he goes over presidents' heads to Congress when needed (historic 2015 speech against Obama), (4) Republican Party alignment — has cultivated Republicans so thoroughly that his relationship with Democratic administrations is structurally adversarial, (5) Trump relationship management: the two have a uniquely transactional bond — Trump gets Israeli credibility and Netanyahu gets military support and protection. In 2026, Trump publicly urged Israel's president to pardon Netanyahu."
+      },
+      {
+        "label": "trump_relationship_depth_2025_2026",
+        "value": 0.91,
+        "evidence": "The Trump-Netanyahu relationship in Term 2 is the closest since the Reagan-Begin era. Evidence: (1) Trump publicly urged Israel's President Herzog to grant Netanyahu a pardon, calling the case 'political', (2) Trump and Netanyahu jointly planned and executed the Khamenei assassination (US provided CIA location intelligence, Israel provided strike aircraft), (3) Trump called Netanyahu to praise the strikes and declared Iran policy as joint US-Israel project, (4) Multiple White House visits in 2025-2026, (5) Trump publicly hailed the death of 'evil' Khamenei alongside Netanyahu. The relationship is mutually transactional: Trump gets to look tough on Iran, Netanyahu gets military backup he could not have achieved alone and political protection for his legal situation."
+      },
+      {
+        "label": "democratic_institutional_manipulation",
+        "value": 0.82,
+        "evidence": "Netanyahu's 2023 judicial overhaul was the most radical attempt to weaken Israel's democratic institutions in its history — it sought to give the Knesset the power to override Supreme Court decisions with a simple majority, effectively removing judicial review. The initiative was driven primarily by the need to protect himself from conviction and to enable Ben Gvir/Smotrich's agenda. After mass protests (the largest in Israeli history, with active-duty reservists refusing service), he partially backed down. He has continued to resist High Court orders (e.g., the Ben Gvir firing order) and has used state mechanisms to delay his corruption trial wherever possible."
+      },
+      {
+        "label": "calculated_risk_taking_threshold",
+        "value": 0.80,
+        "evidence": "Netanyahu has a reputation as a 'procrastinator who acts boldly when forced' — he delays decisions, seeking maximum intelligence and consensus before acting, then acts decisively. Examples: (1) He delayed the Gaza ground invasion after October 7 for weeks to organize forces and international legitimacy, (2) He spent months planning the Khamenei assassination (November 2025 planning, June 2025 Twelve-Day War as intermediate step, February 2026 execution), (3) He has a pattern of building incrementally toward dramatic actions that appear sudden but were long-prepared. The BCG consulting background is visible: he thinks in strategic frameworks and decision matrices before acting. However, when cornered (survival trap), the procrastination drops and he acts."
+      },
+      {
+        "label": "media_manipulation_intensity",
+        "value": 0.88,
+        "evidence": "Netanyahu is Israel's most skilled media operator by a wide margin. His tools: (1) Case 2000 literally involved a deal to exchange favorable Yedioth Ahronoth coverage for competitive regulatory advantage — he has treated media as an instrument to be managed transactionally since the 1990s, (2) His official social media accounts in multiple languages (Hebrew, English, Arabic) are among the most active of any world leader, (3) He frames every political attack on him as 'the left', 'the elites', 'the media' attacking him — the same populist victim narrative Trump uses, (4) He has direct relationships with Sheldon Adelson-linked Likud-friendly newspapers (Israel Hayom is effectively a Likud mouthpiece), (5) His press conferences and statements are crafted for maximum impact on US Jewish and evangelical audiences, not just Israeli ones."
+      },
+      {
+        "label": "military_operational_boldness",
+        "value": 0.87,
+        "evidence": "Despite the procrastinator reputation, Netanyahu has authorized more dramatic military operations than any other Israeli PM: (1) Multiple multi-day operations in Gaza across his tenures, (2) Orchestrated the 2018 Iran nuclear archive 'vault heist' in Tehran, (3) Authorized the June 2025 Twelve-Day War that struck Natanz directly — something all previous PMs refused to do, (4) Co-planned and authorized the assassination of Ali Khamenei, Supreme Leader of Iran — unprecedented in modern history, (5) Operation Lion's Roar (February 2026) involving 30+ bombs and Blue Sparrow ALBMs on Tehran. His military boldness has increased dramatically since 2023, consistent with the survival trap (the riskier he gets, the harder it is for anyone to depose him during wartime)."
+      },
+      {
+        "label": "economic_policy_pro_market_orientation",
+        "value": 0.85,
+        "evidence": "Netanyahu's economic record is genuinely impressive — his MIT-BCG background translated into effective reform. As Finance Minister (2003-2005): slashed budget deficits, privatized state companies, reduced welfare dependency, reformed pensions, cut corporate tax rates. Result: Israel avoided the 2008 crisis almost entirely (having already cleaned up its banking sector) and saw sustained GDP growth. As PM: championed Israel's high-tech sector (Start-Up Nation), promoted FDI, maintained sound fiscal policy (pre-Gaza war). His economic instincts are firmly supply-side: low taxes, private sector-led growth, deregulation. However, the Gaza war has destroyed fiscal discipline — military spending plus economic disruption has blown out the deficit severely."
+      },
+      {
+        "label": "tech_sector_cultivation",
+        "value": 0.82,
+        "evidence": "Netanyahu has deliberately cultivated Israel's technology sector as both economic engine and diplomatic tool. The 'Start-Up Nation' brand is partly his creation. Tools: (1) visa facilitation for tech workers, (2) R&D tax incentives, (3) direct engagement with Silicon Valley (multiple visits, relationships with tech CEOs), (4) cybersecurity sector promotion (Unit 8200 graduates creating global companies), (5) Abraham Accords 2020 were partly motivated by tech/investment access for Gulf states — UAE/Bahrain get Israeli cyber and tech, Israel gets regional normalization. His MIT background means he genuinely understands tech industry economics in a way most PMs do not."
+      },
+      {
+        "label": "fiscal_discipline_pre_war",
+        "value": 0.78,
+        "evidence": "Before October 7, Netanyahu maintained a reputation for fiscal discipline unusual for Israeli governments. The post-2003 reforms established institutional memory for deficit control. However, the Gaza war has ended this entirely: 2024 defense spending surged, economic disruption reduced tax revenues, and the combination has pushed Israel's deficit to levels not seen in decades. The war-induced fiscal deterioration was predictable and accepted — survival politics override economic caution."
+      },
+      {
+        "label": "fiscal_discipline_post_war",
+        "value": 0.32,
+        "evidence": "Since October 7 2023, fiscal discipline has collapsed. Israel's deficit expanded sharply in 2024 as defense spending surged and economic activity contracted (particularly in southern and northern regions). Smotrich as Finance Minister has simultaneously demanded high military spending and ideological budget priorities (settlement funding, Haredi exemptions). The late March 2026 budget deadline is a coalition crisis point — failure to pass the budget triggers automatic dissolution and elections."
+      },
+      {
+        "label": "settlement_expansion_genuine_support",
+        "value": 0.62,
+        "evidence": "Netanyahu's personal position on settlements is more moderate than Ben Gvir/Smotrich — his historic record as PM shows occasional settlement freezes when US pressure was intense (10-month freeze in 2009-2010 under Obama pressure). However, since 2022, the coalition dependency on settler-movement-backed parties has driven accelerated settlement expansion. Netanyahu has largely acquiesced to Smotrich's West Bank settlement budget increases. His genuine position is closer to 'settlement expansion is fine if it doesn't cost diplomatically' — opportunistic rather than ideological."
+      },
+      {
+        "label": "west_bank_annexation_support",
+        "value": 0.55,
+        "evidence": "Netanyahu's position on formal West Bank annexation has evolved opportunistically. He promised annexation in 2020 to appease the right, then delayed it when the Abraham Accords were contingent on its suspension. Under the current coalition, Smotrich is pushing for de facto annexation through administrative incorporation. Netanyahu accepts this drift when it's domestically convenient and internationally low-cost. He would resist full formal annexation if it genuinely threatened the Abraham Accords framework or a US-brokered deal."
+      },
+      {
+        "label": "two_state_solution_genuine_support",
+        "value": 0.12,
+        "evidence": "Netanyahu has repeatedly rejected a two-state solution in practice, even while occasionally using the language in international contexts. His 2023 policy presentation publicly showed a 'Greater Israel' map without a Palestinian state. He has said that a Palestinian state would be a 'terrorist state.' His 2024 Gaza strategy has made the conditions for a Palestinian state more remote than at any point in the peace process history. The 0.12 reflects near-zero genuine support — it is occasionally a rhetorical tool for international audiences but not a policy intention."
+      },
+      {
+        "label": "hostage_deal_prioritization",
+        "value": 0.58,
+        "evidence": "Netanyahu has faced a fundamental tension between hostage deal completion and coalition survival. Ben Gvir/Smotrich threatened to collapse the government if any ceasefire involved significant concessions. Netanyahu has repeatedly appeared to sabotage deals that Israeli negotiators and the families of hostages believed were reachable. The ceasefire that was eventually implemented included Phase 1 and 2 stages; he accepted Phase 1 (which included initial hostage returns) but the transition to Phase 2 has been contested. The 0.58 reflects genuine but constrained concern for hostages — subordinated to coalition survival when the two conflict."
+      },
+      {
+        "label": "information_quality_self_assessment",
+        "value": 0.72,
+        "evidence": "Unlike many autocratic-adjacent leaders, Netanyahu retains genuine intellectual engagement with complex information. His MIT education and BCG training gave him analytical habits — he reads briefings, engages with intelligence assessments, and can process strategic complexity. However: (1) he is surrounded by a personal court that filters information for political palatability, (2) the survival trap creates systematic filtering of any information that complicates his coalition management, (3) his October 7 intelligence failure suggests his security information environment had significant problems. The 0.72 reflects above-average information quality for a survival-mode politician but below his potential given his intellectual background."
+      },
+      {
+        "label": "AIPAC_congressional_leverage",
+        "value": 0.90,
+        "evidence": "Netanyahu's ability to leverage the American-Israel lobby apparatus exceeds any foreign leader's influence on US domestic politics. Evidence: (1) His 2015 Congress speech was arranged with Republican leadership without notifying the White House — unprecedented breach of protocol — and was successful because AIPAC could not be publicly opposed by most Democrats, (2) Multiple US politicians have lost primary races after crossing Netanyahu on Israel-related votes, (3) He has cultivated evangelical Christian Zionist networks (Hagee, Robertson) that provide a second political channel independent of Jewish community groups, (4) Under Trump 2.0, this leverage is amplified because the pro-Israel evangelical base IS the MAGA base — maximally aligned. The 0.90 reflects the most powerful foreign leverage over US politics by any individual."
+      },
+      {
+        "label": "evangelical_christian_network_cultivation",
+        "value": 0.85,
+        "evidence": "Netanyahu was among the first Israeli PMs to systematically cultivate evangelical Christian Zionist networks as a US political base. He has appeared at major evangelical conferences, given speeches framed in Biblical terms, and actively maintained relationships with evangelical leaders. This is strategically brilliant: it gives him a US political support base that is numerically much larger than the Jewish-American community, that is disproportionately Republican, and that does not have the same concerns about Israeli-Palestinian rights that secular Jewish-Americans increasingly express."
+      },
+      {
+        "label": "obama_administration_adversarial_relationship",
+        "value": 0.90,
+        "evidence": "The Netanyahu-Obama relationship was the most adversarial US-Israel relationship in modern history. Key episodes: (1) Biden-Obama settlement confrontation 2010 (Biden visited, Netanyahu announced new East Jerusalem settlement construction simultaneously), (2) 2015 Congress speech — went over Obama's head to Republican Congress on Iran, (3) Multiple open microphone moments where both leaders expressed personal contempt, (4) Netanyahu's barely concealed support for Romney (2012) and later Trump (2016). The hostility was both ideological (JCPOA vs. Netanyahu's Iran hawkishness) and personal."
+      },
+      {
+        "label": "biden_administration_relationship",
+        "value": 0.48,
+        "evidence": "The Netanyahu-Biden relationship was complex: Biden was personally supportive of Israel but increasingly frustrated with Netanyahu's Gaza conduct. Biden provided military aid while publicly criticizing civilian casualties. The relationship deteriorated severely in 2024 as civilian death tolls mounted, international court proceedings began (ICJ, ICC), and Biden faced domestic political pressure. Netanyahu was reportedly described in the most unflattering terms by US senior officials in private. The relationship was transactional survival for Netanyahu and an electoral liability for Biden."
+      },
+      {
+        "label": "international_law_constraints_sensitivity",
+        "value": 0.22,
+        "evidence": "Netanyahu has demonstrated near-indifference to international law constraints when they conflict with strategic objectives. Evidence: (1) He is reportedly under ICC arrest warrant for alleged war crimes in Gaza (issued 2024), (2) He has authorized military operations with civilian casualty levels that generated ICJ proceedings, (3) He co-planned and executed the assassination of a foreign head of state (Khamenei), which violates international law norms regardless of the circumstances, (4) The judicial overhaul attempted to remove Israel's domestic legal accountability mechanisms. The 0.22 reflects that international law is a consideration that affects PR management but not operational decisions."
+      },
+      {
+        "label": "personal_risk_tolerance",
+        "value": 0.82,
+        "evidence": "Netanyahu's risk tolerance has increased substantially since 2022. The survival trap logic: the higher the risk he takes, the harder it becomes to remove him during a crisis he's managing. This creates a perverse incentive to escalate toward danger. Pre-Gaza war: moderate risk tolerance with careful preparation. Post-October 7: authorized the Lebanon operation despite risk of regional escalation, the Twelve-Day War against Iran (which could have triggered nuclear response), and the Khamenei assassination (which did trigger a major regional war). He appears to have concluded that the maximum risk to his personal freedom comes from the corruption trial, not from military escalation — creating a risk calculus that is counterintuitive from a conventional PM perspective."
+      },
+      {
+        "label": "corruption_trial_existential_pressure",
+        "value": 0.96,
+        "evidence": "The three corruption cases (1000, 2000, 4000) collectively involve bribery, fraud, and breach of trust charges that could result in imprisonment. Netanyahu's cross-examination began June 2025 — 70+ hearings — and is still ongoing in Case 4000. He requested a presidential pardon in November 2025 (reportedly over 100 pages, personal letter from Netanyahu), but under Israeli law, a pardon requires an admission of guilt which he refuses. This creates a no-exit situation: he cannot get a pardon without admitting guilt, he cannot stop the trial without being PM, and he cannot be certain of acquittal. The conviction probability has been assessed by legal commentators as moderate to high particularly on Case 4000. The existential pressure from this trial shapes every other behavioral parameter."
+      },
+      {
+        "label": "populist_victim_narrative",
+        "value": 0.85,
+        "evidence": "Netanyahu has constructed a political identity around being persecuted by 'the left', 'the elites', 'the media', 'the legal establishment', and 'the deep state' — virtually identical to the Trump victim-narrative playbook. His description of the corruption trial as a 'political witch hunt' mirrors Trump's language precisely (the two men appear to have cross-pollinated these narrative frameworks). This narrative is domestically effective: his Likud poll numbers actually improved during the Iran war boost despite ongoing corruption proceedings."
+      },
+      {
+        "label": "procrastination_then_decisive_action",
+        "value": 0.82,
+        "evidence": "Netanyahu's documented decision style: delays, consults extensively, seeks maximum information, avoids commitment — then acts decisively when forced by circumstances. His former aides describe an endless cycle of meetings, deliberations, and delayed decisions that drives advisors to frustration, followed by sudden bold action. This pattern appeared in: (1) Gaza ground operation delay post-October 7, (2) Khamenei assassination planning (months of preparation, initially planned for mid-2026, brought forward due to Iranian domestic protests making the target accessible), (3) His judicial overhaul — pushed slowly then had to back down when the reaction was instant and overwhelming. The BCG consulting methodology is visible: extensive analysis paralysis, then decisive action."
+      },
+      {
+        "label": "blame_deflection_october_7",
+        "value": 0.88,
+        "evidence": "Netanyahu has systematically deflected blame for the October 7 intelligence failure despite serving as PM and having presided over the security apparatus. His strategy: (1) blame the IDF (specifically Galant and the generals), (2) blame 'the system' and 'the intelligence community', (3) claim he was not warned, (4) point to the army's political opponents among his coalition critics as having weakened the military (the judicial overhaul protest by IDF reservists). Polls show Israelis largely hold him responsible, but he has resisted forming a state commission of inquiry which would examine his personal responsibility."
+      },
+      {
+        "label": "religious_nationalist_alignment",
+        "value": 0.58,
+        "evidence": "Netanyahu is not himself a deeply religious man (MIT-BCG secular background) but has cultivated the religious nationalist constituency as his core coalition partner for decades. His use of Biblical language and Jewish historical imagery is strategic rather than personal. He has given the ultra-Orthodox (Haredi) community unprecedented political power (military service exemptions, education subsidies) in exchange for their Knesset votes. The religious-nationalist alliance is a political marriage of convenience for him — he needs their votes, they need his political protection."
+      },
+      {
+        "label": "haredi_military_exemption_accommodation",
+        "value": 0.80,
+        "evidence": "The Haredi military service exemption has been a core demand of Netanyahu's coalition partners. Despite Supreme Court rulings requiring equal military service and public anger over IDF casualty disparities during the Gaza war (where secular Israelis fight and die while Haredi men receive exemptions), Netanyahu has repeatedly refused to implement a draft for the ultra-Orthodox. The Haredi parties' 7 seats are essential to the coalition, making this a hostage-holder situation. This issue has been a primary driver of the 2026 budget crisis — Haredi parties demand the exemption be formalized into law while secular coalition partners resist."
+      },
+      {
+        "label": "gaza_endgame_strategy_clarity",
+        "value": 0.22,
+        "evidence": "Unusually for a leader of Netanyahu's strategic sophistication, he has no clear or stated Gaza endgame strategy. This appears intentional: any clear strategy either (a) returns Gaza to Palestinian Authority (unacceptable to Ben Gvir/Smotrich), (b) allows Hamas remnants to persist (defeats the war's stated objective), or (c) establishes Israeli permanent occupation (internationally untenable). The ambiguity preserves coalition coherence — Ben Gvir/Smotrich get to believe annexation is coming, moderate coalition supporters get to believe a two-state solution remains possible, and no decision is made that collapses the coalition. This strategic vagueness is itself a survival tactic."
+      },
+      {
+        "label": "ceasefire_obstruction_pattern",
+        "value": 0.75,
+        "evidence": "Multiple instances where negotiations were near completion and Netanyahu introduced new conditions or appeared to personally sabotage agreements. Israeli negotiating teams and US mediators have reportedly been frustrated by last-minute condition additions. The motive is transparent: any durable ceasefire ends the wartime political context that protects him. Ben Gvir/Smotrich will leave the coalition if there's a ceasefire with significant concessions. The obstruction serves both coalition survival and general war-prolongation strategy."
+      },
+      {
+        "label": "abraham_accords_achievement_weight",
+        "value": 0.88,
+        "evidence": "The 2020 Abraham Accords (normalization with UAE, Bahrain, Sudan, Morocco) represent Netanyahu's most significant diplomatic achievement. He values them highly and uses them as proof of his 'peace through strength' doctrine. The accords demonstrated that Arab-Israeli normalization was achievable without resolving the Palestinian issue — a strategic insight Netanyahu had been pursuing for years. The accords also showed his ability to work with Trump transactionally: Trump got a diplomatic win, Israel got normalization. The Saudi normalization process (ongoing before October 7, then suspended) was his primary diplomatic priority."
+      },
+      {
+        "label": "saudi_normalization_strategic_priority",
+        "value": 0.86,
+        "evidence": "Before October 7, Netanyahu's primary strategic diplomatic goal was Saudi-Israeli normalization — which would represent the ultimate Abraham Accords expansion and fundamentally reshape Middle East security architecture. It was reportedly close to completion in mid-2023. October 7 forced its suspension. Post-Gaza war, it remains a stated goal but has become dramatically more complicated given Saudi domestic politics and Palestinian rights requirements."
+      },
+      {
+        "label": "election_timing_manipulation",
+        "value": 0.83,
+        "evidence": "Israeli PMs have significant ability to time elections through budget decisions and coalition management. Netanyahu has used this systematically. Current situation (March 2026): elections were scheduled for October 27, 2026 per normal cycle. The Iran war has created an opportunity for Netanyahu to call early elections (June/July 2026) to leverage his security boost before the war's costs become apparent, his corruption trial resumes fully, or the coalition fractures on the budget. Defense Minister Gamliel explicitly said the 2026 elections will likely be brought forward to allow Netanyahu bloc to leverage the war. This election-timing manipulation is a textbook Netanyahu maneuver."
+      },
+      {
+        "label": "security_vs_economy_prioritization",
+        "value": 0.88,
+        "evidence": "When security and economic imperatives conflict, Netanyahu consistently prioritizes security. The Gaza war has caused enormous economic damage: tourism collapsed, northern Galilee effectively evacuated, reserve duty disrupted private sector, defense spending exploded. Despite the economic costs, he has maintained the military campaign. His economic credentials (Finance Minister reform) make this more notable — he understands the costs he is imposing but accepts them as politically necessary."
+      },
+      {
+        "label": "opposition_demonization",
+        "value": 0.82,
+        "evidence": "Netanyahu's political communication consistently frames the opposition not as legitimate political adversaries but as enemies of Israel, traitors, leftist elites, or foreign-funded subversives. This zero-sum political frame has deepened Israel's already significant social divisions. His most vocal critics — former military chiefs, intelligence officials, Supreme Court justices — are characterized as part of 'the deep state' attempting a 'coup.' The effect has been to delegitimize institutional oversight precisely of the institutions most relevant to his corruption case."
+      },
+      {
+        "label": "iran_war_political_boost",
+        "value": 0.84,
+        "evidence": "The June 2025 Twelve-Day War and the February 2026 Khamenei assassination have provided Netanyahu with significant political boosts. Poll data: Netanyahu's Likud enjoyed a poll boost amid the Iran war, with his personal approval ratings improving significantly. However, the 'Likud bloc is no closer to a majority' — meaning even with the boost, he faces a competitive electoral environment. The war boost follows a well-documented pattern: Israeli PMs almost always see approval ratings rise during security operations. Netanyahu's repeated use of military operations suggests he has internalized this political feedback loop."
+      },
+      {
+        "label": "press_freedom_tolerance",
+        "value": 0.42,
+        "evidence": "Netanyahu has a documented history of attempting to manipulate media through ownership (Case 2000, Case 4000 involve media regulatory quid pro quos), through public pressure on hostile outlets, and through cultivating friendly media (Israel Hayom). He is not at the level of authoritarian press suppression, but he has repeatedly used political pressure, regulatory threats, and economic incentives to influence coverage. The Cases demonstrate he was willing to trade policy for favorable coverage — a fundamental breach of press freedom norms."
+      },
+      {
+        "label": "judicial_independence_respect",
+        "value": 0.25,
+        "evidence": "The 2023 judicial overhaul (which would have eliminated Supreme Court authority to review legislation) was the most direct attack on Israeli judicial independence by any PM. Netanyahu's stated justification was preventing judicial overreach; the structural effect would have been eliminating oversight of his government and indirectly his corruption case. Mass protests (200,000+, IDF reserve pilot refusals) forced a partial retreat, but the intent was clear. He has continued to resist specific High Court orders (Ben Gvir firing, etc.) and has used his coalition to pack judicial selection bodies."
+      },
+      {
+        "label": "military_intelligence_institutional_trust",
+        "value": 0.58,
+        "evidence": "Netanyahu's relationship with the military and intelligence establishment has been ambivalent. He respects their operational capabilities (and has used them for his most dramatic actions — Mossad heist, Khamenei assassination) but distrust their independence and political views. Multiple former IDF chiefs and Mossad heads have publicly criticized him. He has clashed repeatedly with Defense Minister Galant over Gaza strategy. The October 7 failure has created a fundamental breakdown in trust between the PM and the security establishment on questions of Gaza management."
+      },
+      {
+        "label": "corruption_trial_delay_tactics",
+        "value": 0.88,
+        "evidence": "Netanyahu has employed every available legal and political tactic to delay his corruption trial: (1) argued being PM requires attention that prevents adequate trial preparation, (2) sought to change the judges, (3) attempted to pass legislation that would have halted proceedings against a sitting PM, (4) requested a presidential pardon, (5) sought to introduce new evidence that 'exculpatory evidence was suppressed' in Case 4000 (a witness testified to this effect in 2025, potentially unraveling the case). The cross-examination that began June 2025 has already taken 70+ hearings."
+      },
+      {
+        "label": "dictator_trap_similarity_to_xi",
+        "value": 0.86,
+        "evidence": "The structural parallel between Netanyahu's situation and Xi Jinping's 'dictator's trap' is analytically powerful: both leaders have made moves (Xi: eliminating term limits and rivals; Netanyahu: judicial overhaul and coalition dependency) that have made peaceful departure from power effectively impossible. For Netanyahu: the corruption charges mean that leaving power likely means prosecution and potentially prison. Therefore, maintaining power by any means — including war, coalition hostage-taking, judicial system manipulation — becomes existentially necessary. Unlike Xi, the mechanism is democratic and legal rather than Communist Party control, but the behavioral result is similar: a leader who cannot safely exit and therefore escalates continuously to remain in power."
+      },
+      {
+        "label": "pro_market_economic_ideology",
+        "value": 0.88,
+        "evidence": "Netanyahu's economic philosophy is consistently pro-market, low-tax, pro-privatization supply-side economics. As Finance Minister 2003-2005, he made the deepest neoliberal reforms in Israeli history. As PM, he consistently championed FDI attraction, tech sector growth, and fiscal discipline (pre-war). His BCG background gives him genuine economic analysis capability — he understands incentive structures, capital allocation, and market dynamics in a way most politicians do not. He has called himself the 'economic minister of Israel' on multiple occasions."
+      },
+      {
+        "label": "welfare_state_skepticism",
+        "value": 0.75,
+        "evidence": "The 2003-2005 Finance Minister Netanyahu was famous for cutting welfare spending significantly, arguing that dependency on state transfers reduces labor market participation. He reduced child allowances (which had the perverse effect of being a major Haredi population subsidy — a move he later reversed under coalition pressure). His economic ideology genuinely favors work incentives over transfer payments, though the Haredi coalition dependency has forced massive inconsistency on this point."
+      },
+      {
+        "label": "israel_as_start_up_nation_brand",
+        "value": 0.83,
+        "evidence": "Netanyahu has consistently promoted Israel's tech sector as a core national identity and diplomatic tool. The 'Start-Up Nation' brand is disproportionately his creation. He has used it to: (1) attract FDI, (2) sell the Abraham Accords (UAE wanted access to Israeli cyber/tech), (3) build relationships with tech industry globally, (4) create an economic narrative that competes with the security-conflict narrative Israel is often seen through. His personal engagement with tech investors and Silicon Valley executives has been systematic."
+      },
+      {
+        "label": "red_sea_houthi_threat_response",
+        "value": 0.72,
+        "evidence": "The Houthi attacks on Red Sea shipping (targeting Israeli-linked vessels 2023-2025) were a major economic threat to Israel. Netanyahu coordinated with the US on Houthi response operations. However, he was also aware that the Houthi campaign had the political effect of demonstrating Iran's proxy reach — which supported his case for more aggressive Iran direct action. The threat has been partially managed through US operations and the broader Iran escalation."
+      },
+      {
+        "label": "relationship_with_us_jewish_diaspora",
+        "value": 0.79,
+        "evidence": "Netanyahu's relationship with American Jewish diaspora is complex and deteriorating on the political left while strengthening on the right. Many liberal American Jews (a majority of the community) have been increasingly alienated by his government's Gaza conduct, judicial overhaul, and settlement expansion. Orthodox and conservative American Jews remain strongly supportive. His political strategy has implicitly deprioritized liberal Jewish opinion while maximizing evangelical and Orthodox Jewish political leverage — a bet that has worked politically but has accelerated the liberal Jewish community's distancing from Likud-Israel."
+      },
+      {
+        "label": "nuclear_deterrence_israel_policy",
+        "value": 0.92,
+        "evidence": "Netanyahu maintains Israel's policy of nuclear ambiguity while understanding that the deterrent exists. He has been more willing than any predecessor to take military action against potential nuclear proliferators (Iran strikes). The Twelve-Day War (June 2025) was specifically framed as preventing Iran from crossing the nuclear threshold. His entire Iran strategy is organized around preventing the one scenario — Iranian nuclear capability — that he believes could overcome Israel's conventional military superiority."
+      },
+      {
+        "label": "coalition_management_skill",
+        "value": 0.88,
+        "evidence": "Netanyahu is Israel's most skilled coalition builder by any measure — he has maintained governments through the most difficult conditions (war, judicial crisis, budget confrontations, partner party extremism). His tools: private side deals with coalition partners, selective policy concessions, appointment of allies to key ministries, budget carve-outs for constituency interests. The current coalition has survived despite constant Ben Gvir/Smotrich threats to resign, an ongoing war, a corruption trial, and a budget crisis — a testament to his coalition management skill even in extraordinary adversity."
+      },
+      {
+        "label": "decision_reversibility_preference",
+        "value": 0.72,
+        "evidence": "Netanyahu shows a strong preference for decisions that can be reversed or reframed if they become politically untenable. Settlement announcements can be delayed or reframed. Ceasefire positions can shift. Military operation framing can change. This reversibility preference is consistent with his procrastination-then-action style: he delays to preserve reversibility until forced to commit. Notable exception: the Khamenei assassination is irreversible — a clear indication that when he commits, he commits absolutely."
+      },
+      {
+        "label": "bilateral_us_coordination_on_iran",
+        "value": 0.95,
+        "evidence": "The Khamenei assassination required unprecedented US-Israel bilateral coordination: US provided CIA location intelligence, Israel provided strike aircraft. The operation was reportedly planned starting November 2025 with a select group of officials, initially as a solo Israeli operation, then modified to require US involvement. This represents the deepest US-Israel military operational coordination in history — deeper even than the 1967 or 1973 wars. The 0.95 reflects that on Iran, Netanyahu's primary strategic tool is US-Israel joint action."
+      },
+      {
+        "label": "post_war_election_strategy",
+        "value": 0.87,
+        "evidence": "Netanyahu's electoral strategy for 2026 is transparent: use the Iran war boost to call elections at the peak of his security credibility, before the war's costs (economic damage, international isolation, corruption trial) reassert themselves. Elections potentially moved to June/July 2026 instead of October 27. Poll data: Likud boosted by Iran war but bloc not yet at majority — suggesting he needs to time elections precisely. The elections will be fundamentally about whether the security narrative can overcome the corruption narrative, the judicial overhaul backlash, and economic deterioration."
+      },
+      {
+        "label": "personal_wealth_and_lifestyle",
+        "value": 0.65,
+        "evidence": "Cases 1000 involved ~$200K in cigars and champagne received from billionaires — a relatively modest amount compared to corruption in other countries but significant for Israeli legal standards. The cases reveal a leader accustomed to luxury lifestyle subsidized by wealthy donors. This personal financial dependency on donors is a behavioral factor: it creates relationships of obligation to specific wealthy individuals that can influence policy (the Cases describe regulatory quid-pro-quos)."
+      },
+      {
+        "label": "russia_relationship_neutrality",
+        "value": 0.68,
+        "evidence": "Netanyahu has maintained a carefully neutral relationship with Russia since 2022 despite pressure to support Ukraine. Israel has close ties with both Russia and Ukraine — large Russian-Jewish diaspora, Israel-Russia deconfliction in Syria, and now the Iran war complicates the equation (Russia is aligned with Iran). Netanyahu has avoided providing military aid to Ukraine and maintained backchannel with Putin, though this has been under increased strain post-Iran strikes."
+      },
+      {
+        "label": "iran_sanctions_maximum_pressure_support",
+        "value": 0.93,
+        "evidence": "Netanyahu has been the most consistent global advocate for maximum economic pressure on Iran. He has lobbied every US administration for tighter sanctions, opposed every diplomatic opening (JCPOA 2015, Obama's outreach, Biden's attempted JCPOA revival), and pushed for sanctions enforcement through Congress when executive branch was reluctant. Under Trump 2.0, maximum pressure was reimposed, which Netanyahu strongly supported."
+      },
+      {
+        "label": "china_relationship_management",
+        "value": 0.62,
+        "evidence": "Israel under Netanyahu has had a complex relationship with China — significant economic ties (Chinese infrastructure investment in Haifa port, tech cooperation) that the US has pressed Israel to limit. Netanyahu has tried to maintain both relationships, but US pressure (particularly under Trump) has required some Chinese FDI restrictions. He values Chinese economic engagement but cannot afford to alienate the US relationship. The tension has grown as US-China confrontation intensified."
+      },
+      {
+        "label": "decision_centralization",
+        "value": 0.87,
+        "evidence": "Netanyahu runs a highly centralized decision-making structure: key decisions are made by himself and a small inner circle, with formal ministers often bypassed. His war cabinet (established post-October 7) gave the appearance of broader consultation but he maintained effective veto and directional control. The Khamenei assassination planning was described as involving 'a select group of officials' — not the full cabinet. His procrastination style combined with centralized decision authority means that decisions are made slowly but then implemented without broad institutional buy-in."
+      }
+
+    ]
+  },
+  "red_lines": [
+    {
+      "id": "RL001",
+      "name": "personal_imprisonment_conviction",
+      "condition": "Losing the prime ministership to a point where conviction in corruption cases appears imminent and unavoidable",
+      "forced_action": "any_available_means_to_maintain_or_regain_power_including_constitutional_crisis",
+      "confidence": 0.95,
+      "evidence": "Netanyahu has already demonstrated willingness to push Israel toward constitutional crisis (judicial overhaul 2023) to protect himself from prosecution. If facing imminent conviction while out of power, he would exhaust every legal, political, and media tool available. He cannot accept imprisonment as an outcome — this is the hardest of hard constraints. The existential threat of prison, combined with his political skill, creates a very dangerous potential for constitutional crisis if electoral loss appears imminent.",
+      "priority": 1
+    },
+    {
+      "id": "RL002",
+      "name": "iran_nuclear_weapons_threshold",
+      "condition": "Iran achieves sufficient fissile material for a nuclear weapon OR credible intelligence of imminent weaponization",
+      "forced_action": "immediate_military_action_regardless_of_international_or_coalition_politics",
+      "confidence": 0.94,
+      "evidence": "Netanyahu has stated publicly and privately that he will prevent Iran from crossing the nuclear threshold by whatever means necessary. The June 2025 Twelve-Day War was executed partly on this basis. He has been willing to act even without US backing (though preferred with US support). The Khamenei assassination is consistent with a strategy of destroying Iran's strategic command rather than just its nuclear facilities. This red line is genuine and has been demonstrated operationally.",
+      "priority": 1
+    },
+    {
+      "id": "RL003",
+      "name": "coalition_collapse_mid_war",
+      "condition": "Ben Gvir AND Smotrich simultaneously resign from the coalition during a period of military conflict, triggering automatic elections",
+      "forced_action": "maximum_concessions_to_retain_coalition_partners_and_delay_elections",
+      "confidence": 0.88,
+      "evidence": "Netanyahu cannot afford elections at a moment of his choosing — he needs maximum control over timing. If both far-right partners resign during a period when his poll numbers are below what he needs, it is existentially threatening. He will offer maximal policy concessions (settlement expansion, Haredi draft exemptions, Gaza occupation) rather than allow the coalition to collapse at an unfavorable moment. Ben Gvir's brief resignation in January 2025 demonstrated this dynamic — concessions were made to bring him back.",
+      "priority": 1
+    },
+    {
+      "id": "RL004",
+      "name": "existential_military_threat_to_israel",
+      "condition": "Military threat assessed as existential to Israel's survival (nuclear attack, massive coordinated assault)",
+      "forced_action": "unrestricted_military_response_including_all_available_options",
+      "confidence": 0.97,
+      "evidence": "This red line overrides even survival politics — a genuine existential military threat produces maximum response. Netanyahu's entire Iran strategy is built around preventing this scenario from ever arising. Israel's doctrine of existential response is not Netanyahu-specific but is fully endorsed and has been operationalized under his leadership more actively than any predecessor.",
+      "priority": 1
+    },
+    {
+      "id": "RL005",
+      "name": "major_hostile_ceasefire_terms",
+      "condition": "Ceasefire terms that require formal recognition of Palestinian state, full withdrawal to 1967 borders, or formal Hamas political role",
+      "forced_action": "reject_and_use_coalition_pressure_to_continue_military_operations",
+      "confidence": 0.90,
+      "evidence": "Netanyahu and his coalition partners would view such terms as political suicide. He has defined the war objectives as total Hamas elimination and no return to pre-October-7 status quo. Terms that formalize the opposite would collapse his coalition immediately and likely end his political career. The red line is both personal (coalition survival) and genuine (his strategic vision for the region).",
+      "priority": 2
+    },
+    {
+      "id": "RL006",
+      "name": "us_israel_relationship_rupture",
+      "condition": "US cuts military aid, imposes sanctions on Israeli officials, or explicitly withdraws security guarantees",
+      "forced_action": "maximum_diplomatic_effort_and_potential_policy_modification_to_restore_relationship",
+      "confidence": 0.85,
+      "evidence": "The US relationship is Israel's strategic foundation — without it, Israel cannot sustain military operations at current scale, cannot have diplomatic cover at the UN, and loses its primary deterrent against regional coalitions. Netanyahu understands this structurally (MIT-BCG strategic thinking). If the US relationship were genuinely threatened at the structural level, he would modify behavior to restore it. The Biden pressure on Gaza (which came close to this threshold) produced some (limited) policy modifications on humanitarian access.",
+      "priority": 2
+    },
+    {
+      "id": "RL007",
+      "name": "high_court_forced_coalition_collapse",
+      "condition": "Israeli Supreme Court issues enforceable order requiring action that immediately collapses the coalition (e.g., mandatory Ben Gvir firing with contempt enforcement)",
+      "forced_action": "constitutional_crisis_defiance_or_managed_coalition_restructuring",
+      "confidence": 0.80,
+      "evidence": "Netanyahu defied the High Court order to explain why he hasn't fired Ben Gvir (submitted deadline responses but has not acted). If the court moves to contempt enforcement, he faces a choice: defiance (constitutional crisis) or managed coalition restructuring. His track record (2023 judicial overhaul) suggests he prefers defiance until forced. But the Iran war boost may give him enough political capital to restructure without Ben Gvir if necessary — Ben Gvir's value is highest when Netanyahu's poll numbers are weakest.",
+      "priority": 3
+    }
+  ],
+  "decision_priority_hierarchy": [
+    "1. Personal political survival (avoiding conviction and imprisonment) — overrides most other considerations",
+    "2. Coalition maintenance (preserving the Knesset majority that keeps him in power)",
+    "3. Iran nuclear prevention (genuine lifetime strategic mission, coincides with survival politics)",
+    "4. Israel's existential military security (not just political but genuine commitment)",
+    "5. US relationship preservation (structural dependency acknowledged intellectually)",
+    "6. Electoral timing optimization (maximize odds of electoral victory)",
+    "7. Corruption trial management (delay, discredit, pardon-seek)",
+    "8. Economic management (genuine interest but subordinated to above when they conflict)",
+    "9. Palestinian/Gaza endgame (no clear genuine preference — determined by coalition arithmetic)",
+    "10. International legitimacy (considered but routinely sacrificed for items 1-4)"
+  ],
+  "background": {
+    "name_full": "Benjamin (Bibi) Netanyahu (בנימין נתניהו)",
+    "born": "1949-10-21",
+    "birthplace": "Tel Aviv, British Mandatory Palestine (now Israel)",
+    "age_at_compilation": 76,
+    "education": [
+      "MIT: BSc Architecture (1972-1975)",
+      "MIT: MSc Business Management (Sloan School, 1975-1976)",
+      "Admitted to MIT Political Science doctoral program (did not complete)"
+    ],
+    "career_path": "military → private sector → diplomat → politician",
+    "career_detail": "IDF special forces (Sayeret Matkal, elite unit) 1967-1972 including Operation Isotope (Sabena Airlines hostage rescue) 1972. BCG Boston consultant 1976-1978 (colleague of Mitt Romney). Marketing Director Rim Industries Jerusalem 1978-1982. Israeli Embassy Washington DC as Deputy Chief of Mission. UN Ambassador 1984-1988. Deputy Foreign Minister, Housing Minister, Finance Minister, Party Leader, PM (multiple terms 1996-1999, 2009-2021, 2022-present).",
+    "formative_experiences": [
+      "Sayeret Matkal service — elite unit, participated in real hostage rescue operations, understands military risk-taking firsthand",
+      "BCG consulting — rational strategic analysis, BCG matrix, 'how to win' competitive strategy frameworks absorbed at a formative career stage",
+      "Brother Yonatan killed leading Operation Entebbe hostage rescue 1976 — profound personal trauma, shapes his view of terrorist threat and the necessity of military response",
+      "MIT under the shadow of 1967 and 1973 wars — acute awareness of Israeli vulnerability shapes his security worldview",
+      "UN Ambassador — master class in international politics, rhetorical combat, managing adversarial international institutions",
+      "Watching the Netanyahu family's financial precarity and his father Benzion's career frustrations — shapes his populist 'elites vs real people' narrative and also his personal ambition",
+      "1993 Oslo Accords opposition — he campaigned against Oslo as a fatal mistake, which shaped his subsequent career as the anti-Oslo politician",
+      "October 7 2023 — the greatest security failure in his tenure, under his watch, creating both existential political pressure and a survival-mode behavioral shift"
+    ],
+    "family": {
+      "father": "Benzion Netanyahu — historian specializing in the Spanish Inquisition and Jewish persecution, deeply influenced Netanyahu's worldview on existential threats to Jewish people",
+      "brother": "Yonatan Netanyahu — killed at Entebbe 1976, has been commemorated annually at the site, profoundly shapes Netanyahu's view of military heroism and sacrifice",
+      "wife": "Sara Netanyahu — highly controversial figure in Israeli politics, accused of misuse of public funds (separately convicted of fraud 2020), politically influential on staffing decisions"
+    },
+    "personal_risk_tolerance": "HIGH — Elevated further by survival trap dynamics. Demonstrated by: Khamenei assassination planning, Twelve-Day War, judicial overhaul despite mass protests. Will accept risks that most democratic leaders would not when personal survival is at stake."
+  },
+  "information_fidelity": 0.71,
+  "information_fidelity_reasoning": "Netanyahu's information environment is above average for a survival-mode politician. His MIT-BCG background gives him genuine analytical capability and a habit of engaging with primary sources rather than only filtered summaries. He reads intelligence briefings carefully (Mossad director is reportedly one of his closest relationships). Deductions from baseline: (1) POLITICAL FILTERING: His inner circle filters information for political palatability — advisors who tell him difficult truths (like Galant warning about October 7 risk) have been marginalized or removed, (2) CORRUPTION DEFENSE BIAS: Any information that bears on his corruption cases is processed through a survival filter, (3) COALITION CALCULUS DISTORTION: Information about Gaza/West Bank policy is systematically distorted by needing to satisfy Ben Gvir/Smotrich simultaneously with international audiences, requiring constant cognitive dissonance management. Positive factors: (a) Extensive intelligence briefings from IDF/Mossad/Shin Bet — highest quality security intelligence available, (b) His own analytical background — he can challenge analysts in ways most politicians cannot, (c) Long international network including direct relationships with most world leaders — informal information channels are excellent. The October 7 failure suggests his security information environment had serious problems in that specific area, but his Iran intelligence (facilitating the archive heist, the nuclear facility strikes, the Khamenei location for assassination) has been remarkably accurate. Net 0.71 — above-average but significantly compromised by survival politics filtering.",
+  "post_cutoff_events_2025_2026": [
+    {
+      "date": "2025-06",
+      "event": "Twelve-Day War (Operation Rising Lion) — strikes on Natanz nuclear facility, nuclear scientists, ballistic missile program",
+      "impact": "First direct Israeli strike on Iran's main enrichment facility. Damaged but did not destroy nuclear program. Political boost domestically. Triggered Iranian retaliation and the 9-month escalation cycle leading to Khamenei assassination."
+    },
+    {
+      "date": "2025-11",
+      "event": "Netanyahu requests presidential pardon from Isaac Herzog; simultaneously, Netanyahu personally sets goal of assassinating Khamenei in small group meeting",
+      "impact": "Dual track: corruption defense (pardon attempt) and Iran offense (Khamenei assassination planning). Shows both defensive survival tactics and offensive strategic ambition operating simultaneously."
+    },
+    {
+      "date": "2025-11",
+      "event": "Corruption trial cross-examination continues into Case 4000; witness testimony alleges suppression of exculpatory evidence",
+      "impact": "Potential unraveling of Case 4000, which is the strongest case. If this witness's testimony is credited, it could significantly weaken the prosecution. Netanyahu's legal team is exploiting this actively."
+    },
+    {
+      "date": "2026-01",
+      "event": "High Court orders Netanyahu to explain why he has not fired Ben Gvir as National Security Minister; coalition crisis over budget deadline",
+      "impact": "Constitutional confrontation between Netanyahu's government and the Supreme Court. If he defies a contempt order, it triggers a constitutional crisis. Budget failure by late March 2026 triggers automatic elections."
+    },
+    {
+      "date": "2026-02-28",
+      "event": "US-Israel joint Operation Lion's Roar kills Ali Khamenei in Tehran (CIA location intelligence + Israeli Blue Sparrow ALBMs + 30+ bombs)",
+      "impact": "The culmination of Netanyahu's lifetime Iran mission. Co-planned with Trump starting November 2025. Initially a solo Israeli operation, modified to require US involvement. Unprecedented: assassination of a sitting head of state of a major regional power. Political boost in Israel. Started the current Iran war phase."
+    },
+    {
+      "date": "2026-03",
+      "event": "Israeli elections potentially moved to June/July 2026 from October 27, 2026, to leverage Iran war boost. Likud poll numbers improved but bloc still short of majority.",
+      "impact": "Netanyahu's electoral window calculation: use the Iran war security narrative before it fades or before economic costs of war become dominant. His entire political survival plan depends on winning the 2026 election to maintain immunity from corruption conviction."
+    }
+  ],
+  "behavioral_parameter_revisions_2025_2026": {
+    "military_operational_boldness": {"original": null, "revised": 0.87, "reason": "Twelve-Day War + Khamenei assassination = the most dramatic military operations in Israeli history, both planned and executed under Netanyahu"},
+    "iran_obsession_lifetime": {"original": null, "revised": 0.95, "reason": "The Khamenei assassination is the culmination of a 30-year stated mission — now operationally demonstrated"},
+    "war_as_political_survival_tool": {"original": null, "revised": 0.88, "reason": "Gaza war + Iran war demonstrate systematic use of military conflict for political survival — operational confirmation of the hypothesis"},
+    "coalition_hostage_dynamic": {"original": null, "revised": 0.85, "reason": "High Court forced Ben Gvir confrontation, budget crisis, and continued tolerance of extremist partners despite personal legal exposure confirms the hostage dynamic is structural not temporary"},
+    "international_law_constraints_sensitivity": {"original": null, "revised": 0.22, "reason": "ICC arrest warrant + Khamenei assassination + Gaza operation scale = near-complete indifference to international legal constraints when strategic priorities require it"}
+  },
+  "special_notes": "1. THE SURVIVAL TRAP PARALLEL TO XI JINPING: Netanyahu's most important behavioral characteristic is the dictator's trap variant: he has made moves (judicial overhaul, coalition dependency on extremists, prolonged war) that have made peaceful exit from power increasingly impossible. Unlike Xi, the mechanism is legal (criminal prosecution rather than party purge threat), but the behavioral result is structurally identical — a leader who cannot safely leave office, creating an infinite escalation incentive. For the simulation: Netanyahu's decisions should be modeled with a persistent survival-override parameter that elevates risk tolerance dramatically above what a normal democratic PM would accept. Every major decision should be filtered through 'does this help or hurt my ability to stay in power?' before other considerations are applied. 2. LIFETIME IRAN MISSION: The Khamenei assassination is not a recent decision — it is the culmination of a 30+ year strategic mission. Netanyahu has been warning about Iranian existential threat since his first term (1996). The BCG-trained strategic thinker in him recognized that proxy containment would eventually fail and direct decapitation of Iran's theocratic leadership was the ultimate solution to the Iranian threat. The Trump alliance gave him the US cover he needed to execute what Israel could not do alone (the CIA location intelligence was essential). For the simulation: on Iran-related decisions, Netanyahu's behavior is not primarily driven by survival politics but by a genuine decades-long strategic vision — distinguish Iran decisions from all other decisions. 3. COALITION AS BEHAVIORAL CONSTRAINT: The Ben Gvir/Smotrich constraints mean that Netanyahu's actual policy positions on Gaza, West Bank, and Palestinian rights are systematically to the right of his genuine preferences. He is not himself a settler ideologue (MIT secularist background) but acts as one due to coalition dependency. For the simulation: his domestic policy on Palestinian issues should be modeled as a constrained optimization between his genuine moderate instincts and his coalition partners' extreme demands, with the coalition constraint typically winning. 4. THE OCTOBER 7 BEHAVIORAL INFLECTION: October 7 2023 was the most significant behavioral shift in Netanyahu's career. Before: careful, procrastinating, risk-managing PM who avoided major military escalations. After: authorized the longest and most destructive Gaza campaign in Israeli history, expanded to Lebanon, then attacked Iran's nuclear facilities, then planned and executed the assassination of Iran's supreme leader — in sequence, over 2.5 years. The scale and pace of military escalation post-October 7 suggest a fundamental behavioral regime change, analogous to Trump's second-term regime change in the global Trump.json analysis. The mechanism: October 7 both (a) discredited him personally (the intelligence failure is on his watch), forcing him to demonstrate compensatory military toughness, and (b) created a wartime context where political challenge is labeled as unpatriotic, giving him more room to act. For the simulation: pre- and post-October-7 should be modeled as different behavioral regimes. 5. MIT-BCG VS. SURVIVAL POLITICIAN TENSION: Netanyahu contains two distinct behavioral agents in tension. (A) The MIT-BCG strategic analyst: reads carefully, thinks in competitive strategy frameworks, understands second-order effects, models adversary responses, values data. (B) The survival politician: acts to protect himself from legal jeopardy, manages coalition arithmetic hour-by-hour, uses media manipulation as first resort. When these two agents agree (Iran strategic action), the result is the most carefully planned and executed operation in Israeli history (Twelve-Day War, Khamenei assassination). When they conflict (Gaza endgame), the survival politician wins and the result is strategic incoherence. The simulation should flag which agent is driving each decision domain. 6. ELECTORAL CALENDAR AS BEHAVIORAL MODULATOR: Unlike Trump (no reelection constraint in second term), Netanyahu faces a hard electoral constraint — the October 2026 elections (possibly moved earlier to June/July 2026) mean every decision is filtered through its electoral impact. His behavior will systematically modulate toward decisions that maximize electoral appeal in the 6 months before election day. For the simulation: introduce an electoral_proximity variable that strengthens populist/security-focused decisions and weakens economically-painful-but-necessary decisions as elections approach. 7. TRUMP ALIGNMENT DURABILITY: The current Trump-Netanyahu alignment is closer than any prior US-Israel relationship. The mutual transactional benefit: Trump gets Iran kills and evangelical base reinforcement, Netanyahu gets military cover and political protection. This alignment is durable as long as: (a) Trump needs the evangelical base's support, (b) Netanyahu can provide strategic successes that Trump can claim credit for. Risk factors: Trump's economic volatility (if the Iran war costs push US into recession, Trump might blame Netanyahu), Smotrich demands that cross US redlines on Palestinian rights, or Netanyahu electoral loss. The simulation should model the alliance durability as conditional on both leaders' domestic political needs remaining aligned."
+}

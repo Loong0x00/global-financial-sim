@@ -1,0 +1,219 @@
+{
+  "leader": "Giorgia Meloni",
+  "role": "Prime Minister of Italy (Oct 2022-present); Leader of Fratelli d'Italia (2014-present)",
+  "level": 2,
+  "compiled_by": "claude-opus-4-6",
+  "compiled_date": "2026-03-13",
+  "compilation_sources": [
+    "Italian government policy documents and parliamentary records 2022-2026",
+    "EU Council and European Council meeting records 2022-2026",
+    "Italy-US bilateral statements and Trump-Meloni meeting records 2025",
+    "NATO defense spending reports and Italian military commitments",
+    "Italy-China diplomatic timeline: BRI withdrawal and IMEC pivot",
+    "Italian fiscal policy: DEF documents, EU Stability Pact compliance",
+    "Albania migration deal documentation and ECJ rulings",
+    "Tunisia migration cooperation agreements",
+    "Fratelli d'Italia party evolution and coalition agreements",
+    "ECFR, Hudson Institute, Atlantic Council, Decode39 analysis papers 2024-2026",
+    "Foreign Policy, Jacobin, Open The Magazine assessments 2025-2026",
+    "Italian bond yield spread data and Eurostat fiscal projections"
+  ],
+  "background": {
+    "born": "1977-01-15",
+    "origin": "Rome, Italy",
+    "career_path": "Youth activist in MSI (Movimento Sociale Italiano, neo-fascist party, age 15, 1992) → Alleanza Nazionale (post-fascist party under Fini) → Youngest-ever Italian cabinet minister (Youth Minister at 31, Berlusconi IV government, 2008-2011) → Founded Fratelli d'Italia (2012, from AN remnants when Fini's party collapsed) → Grew FdI from 2% (2013) to 26% (2022, largest party) → Prime Minister (Oct 2022, Italy's first female PM, leading right-wing coalition with Salvini's Lega and Forza Italia)",
+    "formative_experiences": "Grew up in Garbatella, a working-class Roman neighborhood — absent father (left when she was 1), raised by single mother. This background creates authentic populist credential rare among European leaders. Joined MSI at 15: the post-fascist political tradition shaped her early worldview (national identity, anti-communism, skepticism of supranational institutions). BUT: Fratelli d'Italia's transformation under her leadership deliberately distanced from fascist legacy (embraced Atlanticism, recognized Israel, condemned antisemitism). The pivotal transformation: pre-election Meloni (anti-EU, anti-NATO, anti-establishment rhetoric) vs. post-election Meloni (pragmatic Atlanticist, EU engagement, Ukraine support). The transition was so rapid it suggests the anti-establishment rhetoric was always tactical rather than ideological.",
+    "decision_style_origin": "Combines Italian political survival instinct (every PM must manage coalition fragility, Italy averages 1.2 years per government) with post-fascist movement discipline (Fratelli d'Italia is one of the few Italian parties with genuine grassroots organization). Decision-making is pragmatic to the point of cynicism: whatever works to stay in power while maintaining international credibility. The single-mother working-class background creates genuine empathy with economic anxiety that distinguishes her from typical European conservative elites. She is not an ideologue — she is a survivor who adapted her positions to the demands of governance."
+  },
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector for Giorgia Meloni compiled from 3+ years of governance (Oct 2022-present). Meloni's unique position in European politics: the most important swing vote among right-wing leaders, bridging the gap between populist nationalism (Orbán, Le Pen, Salvini) and the Euro-Atlantic establishment (von der Leyen, Macron, Scholz). Her pre-election to post-election transformation is the defining feature of her political profile — the largest ideological pivot of any major European leader in the 2020s. The behavior matrix captures this duality: genuine right-wing instincts constrained by Italy's fiscal reality, EU dependency, and transatlantic necessity.",
+    "dimensions": 37,
+    "vectors": [
+      {
+        "label": "pre_vs_post_election_ideological_shift",
+        "value": 0.88,
+        "evidence": "Pre-election Meloni (2012-2022): campaigned against Euro ('a failed experiment'), praised Orbán's model, appeared at VOX (Spanish far-right) rallies, criticized NATO, questioned EU sanctions on Russia. Post-election Meloni (Oct 2022-present): immediate phone call with Zelenskyy, affirmed NATO commitment, maintained all Russia sanctions, became von der Leyen's key right-wing ally, first EU leader invited to Trump White House (Apr 2025). The shift was so complete that European establishment leaders who feared her election now praise her. FdI went from 'threat to European order' to 'anchor of Italian stability.' The pivot reveals: pre-election rhetoric was tactical populism; governing reality forced pragmatism. Italy's fiscal constraints (137% debt/GDP) leave zero margin for anti-EU experiments."
+      },
+      {
+        "label": "ukraine_support_surprising_firmness",
+        "value": 0.79,
+        "evidence": "Italy under Meloni has provided 8 military aid packages to Ukraine (2022-2026), including SAMP/T air defense systems (among most advanced Western systems deployed). Meloni: 'what is at stake is not only the dignity, freedom and independence of Ukraine, but the security of Europe.' Maintained sanctions on Russia despite Italian economic costs (energy prices, lost Russian trade). The firmness is 'surprising' because: (1) Meloni's pre-election stance was ambiguous on Russia. (2) Salvini (coalition partner) is openly pro-Putin. (3) Italian public opinion is less pro-Ukraine than Northern European countries. (4) Italy had significant Russia economic ties (ENI gas contracts, luxury goods exports). The Ukraine support is the clearest evidence that governing Meloni is fundamentally different from campaigning Meloni."
+      },
+      {
+        "label": "russia_policy_post_invasion_reversal",
+        "value": 0.76,
+        "evidence": "Pre-2022: Meloni's party had connections to Russian political networks (Lega more so, but FdI also). Meloni praised Putin's 'defense of Christian values' (2014). Post-Feb 2022: complete reversal. Maintained all EU sanctions, provided military aid, supported G7 coordination on Russia. However: drew clear line at direct military involvement — 'Italy does not intend to send soldiers to Ukraine.' The reversal is genuine but has limits: Italy supports Ukraine's defense but is more open to negotiated settlement than Poland or Baltics. Meloni's pragmatism means she will support Ukraine as long as it serves Italy's alliance positioning — but would pivot to peace talks faster than hawkish allies if a credible deal emerged."
+      },
+      {
+        "label": "eu_pragmatic_engagement_from_hostility",
+        "value": 0.82,
+        "evidence": "Pre-election: Meloni's party voted against Next Generation EU recovery fund (€200bn for Italy — the largest allocation). Once in office: fully engaged with EU institutions, negotiated revised Stability Pact, accessed recovery funds, positioned Italy as key EU player. On EU reform: 'we will not accept paying more to receive less' — defends CAP and Cohesion Policy while opposing new EU taxes. The transformation: from 'EU is destroying Italy' to 'Italy must shape EU from inside.' The pragmatism is forced by arithmetic: Italy receives more from EU than it contributes, and Italian sovereign debt requires ECB backstop (TPI program). Anti-EU rhetoric cannot survive contact with Italy's bond market."
+      },
+      {
+        "label": "trump_relationship_ideological_bridge",
+        "value": 0.84,
+        "evidence": "First EU leader to visit Trump White House (Apr 2025). Trump publicly praised Meloni as central EU figure and anti-immigration champion. Ideological affinity: anti-woke, anti-immigration, skepticism of multilateral climate commitments, Christian conservative values. Strategic value: Meloni positions herself as Trump's preferred European interlocutor — the 'bridge' between MAGA America and European establishment. However: alignment has limits. Italy has significant trade deficit with US (~$40bn), making it vulnerable to Trump tariffs. Italy's defense spending (~1.5% GDP) is below NATO 2% target — embarrassing given Trump's burden-sharing demands. The relationship is personal (Meloni-Trump chemistry visible) but structurally constrained by trade/defense gaps."
+      },
+      {
+        "label": "trump_eu_bridge_builder_role",
+        "value": 0.78,
+        "evidence": "Meloni's star has risen precisely because she can talk to both Trump and von der Leyen. Hudson Institute (2025): 'Meloni's star has risen in Europe. Will it help guide President Trump?' She is the only European leader who: (1) Has personal rapport with Trump. (2) Maintains credibility with EU mainstream. (3) Is ideologically conservative enough that Trump trusts her. The bridge role gives Italy outsized diplomatic influence — Italy as G7 member, EU founding state, and Trump's preferred European interlocutor becomes essential for any transatlantic negotiation. Risk: if forced to choose between Trump and EU on trade/tariffs, the bridge collapses."
+      },
+      {
+        "label": "migration_policy_africa_deals",
+        "value": 0.87,
+        "evidence": "Migration is Meloni's signature policy domain. Tunisia deal (Jul 2023): €150M+ to Tunisia for migration management (criticized as funding authoritarian Saïed regime). Albania deal (Nov 2023): processing centers in Albania for migrants rescued in international waters — most radical migration externalization in EU history. Italy issued 500,000 visas for non-EU workers (2025) — contradicting anti-immigration rhetoric but addressing labor market needs. ECJ ruling (Aug 2025): questioned Italy's 'safe countries' list, temporarily blocking Albania centers. Meloni: 'when migration pact comes into effect in 2026, centres will operate as they should have.' Led informal coalition of 15 EU states on 'innovative migration solutions.' The migration policy is Meloni's most globally influential contribution — her approach is being studied/copied by Denmark, Netherlands, UK, Germany."
+      },
+      {
+        "label": "migration_rhetoric_vs_reality_gap",
+        "value": 0.72,
+        "evidence": "Pre-election promise: 'naval blockade' of Mediterranean migration routes. Reality: no naval blockade implemented. Pre-election: zero tolerance for irregular arrivals. Reality: 2023 saw record irregular arrivals (157,000+), declining in 2024-2025 but still significant. Pre-election: deport all irregular migrants. Reality: deportation rate unchanged from predecessor governments. The Albania deal is more symbolic than operational — processed only hundreds while tens of thousands arrive. 500,000 legal worker visas issued simultaneously. The gap reveals Italy's structural reality: economy needs immigrant labor (aging population, declining workforce), but political base demands anti-immigration posture. Meloni navigates by providing symbolic toughness (Albania, Tunisia deals) while quietly maintaining labor immigration."
+      },
+      {
+        "label": "fiscal_constraint_reality",
+        "value": 0.91,
+        "evidence": "Italy's public debt: 137.4% GDP projected for 2026 (second highest in EU after Greece). Annual interest payments: ~€80bn (~3.5% GDP). Budget deficit: reduced from 7.2% (2023) to target <3% (2026) — significant achievement. Bond yield spread vs. Germany: narrowed under Meloni (positive market signal). EU Stability Pact compliance: mandatory under new fiscal rules. GDP growth: 0.4-0.8% projected for 2026 (among lowest in EU). Meloni warned staff that 2026 will be 'much worse than 2025.' The fiscal constraint is the dominant force in Italian policymaking: no room for tax cuts, limited room for spending increases, defense spending cannot reach NATO 2% without cutting elsewhere. Every policy decision is filtered through 'can we afford this without triggering a bond market crisis?'"
+      },
+      {
+        "label": "coalition_management_fragility",
+        "value": 0.71,
+        "evidence": "Coalition partners: Salvini's Lega (pro-Russia, anti-EU, populist) and Forza Italia (Berlusconi's legacy, now led by Tajani, moderate center-right). Italian coalitions average 1.2 years — Meloni at 3+ years is already exceptional. Tensions: Salvini pushes for pro-Russia stance and fiscal expansion (flat tax), Meloni resists both. Berlusconi's death (Jun 2023) removed the coalition's elder statesman and created Forza Italia leadership vacuum (Tajani less charismatic). Meloni's advantage: FdI is by far the largest coalition partner (26% vs. Lega 8%, FI 8%) — she dominates. The coalition survives because: (1) No alternative right-wing coalition possible. (2) Meloni's popularity insulates her. (3) Early elections would destroy Lega/FI. Foreign Policy (Oct 2025): 'enviable political shape, economy improved, popularity high.'"
+      },
+      {
+        "label": "salvini_management_containment",
+        "value": 0.75,
+        "evidence": "Matteo Salvini (Lega leader, Deputy PM/Infrastructure Minister): openly pro-Putin, praised Putin as 'one of the best statesmen,' wore Putin t-shirt. Salvini pushes for sanctions lifting, closer Russia ties, fiscal expansion. Meloni contains Salvini by: (1) Giving him infrastructure ministry (high visibility, limited foreign policy impact). (2) Maintaining firm Ukraine/NATO line that Salvini cannot override as junior partner. (3) Letting Salvini's polling decline (Lega: 17% 2019 → 8% 2025) reduce his leverage. (4) FdI's growth absorbs former Lega voters. The Salvini dynamic is the primary internal political constraint on Meloni's foreign policy — she must maintain coalition while overriding Salvini's pro-Russia instincts."
+      },
+      {
+        "label": "china_policy_shift_bri_exit",
+        "value": 0.83,
+        "evidence": "Italy was the only G7 country to join China's Belt and Road Initiative (BRI, 2019, under Conte government). Meloni withdrew (Dec 2023), citing: lack of tangible economic benefits, security risks, China's Hong Kong suppression, Taiwan claims, Uyghur discrimination, China's Ukraine war stance. Simultaneously embraced India-Middle East-Europe Economic Corridor (IMEC) as BRI alternative. The withdrawal was diplomatically significant: Italy's BRI membership had been Beijing's biggest European trophy. Meloni's exit signaled definitive G7 alignment over Chinese economic inducements. Post-withdrawal: maintained bilateral trade with China (~€70bn annually) while limiting strategic sector access. The China pivot aligns with Trump's priorities and earns Washington credibility."
+      },
+      {
+        "label": "transatlantic_priority_over_europe",
+        "value": 0.77,
+        "evidence": "Meloni's foreign policy hierarchy: US/NATO > EU > bilateral. First foreign trip as PM: Brussels (EU/NATO), then Washington. First Trump-era trip: White House (Apr 2025). G7 Puglia summit (Jun 2024): hosted, positioned Italy as transatlantic anchor. The Atlanticist priority reflects: (1) Italian security dependence on US/NATO. (2) Personal Trump relationship as diplomatic asset. (3) Italy's Mediterranean position makes NATO naval cooperation essential. However: transatlantic priority creates tension with EU autonomy advocates (Macron). Meloni's challenge: maintain US priority while not alienating EU majority. So far has managed this better than expected — but Trump tariffs or NATO burden-sharing pressure could force a choice."
+      },
+      {
+        "label": "domestic_reform_limited_ambition",
+        "value": 0.56,
+        "evidence": "Meloni's domestic reform agenda is modest: 'premierato' (direct election of PM) — constitutional reform to strengthen executive (stalled). Judicial reform: separation of prosecution and judiciary (contested). Tax reform: limited due to fiscal constraints. Labor market: no significant changes. Bureaucratic reform: minimal. The limited ambition reflects: (1) Fiscal constraints eliminate spending-dependent reforms. (2) Coalition tensions limit scope. (3) Italian institutional complexity (bicameral parliament, regional governments, constitutional court) makes reform slow. (4) Meloni's political capital is invested in foreign policy positioning, not domestic transformation. Italy under Meloni is stable but not reforming — stability is the reform."
+      },
+      {
+        "label": "energy_policy_diversification",
+        "value": 0.74,
+        "evidence": "Italy was heavily dependent on Russian gas (pre-2022: ~40% of gas imports from Russia). Diversification under Draghi (accelerated under Meloni): Algeria, Libya, Azerbaijan, LNG terminals (2 new FSRUs operational). By 2025: Russian gas share below 5%. ENI (Italian energy major) expanded African partnerships: Mozambique LNG, Egyptian gas, Algerian pipeline expansion. Meloni's 'Mattei Plan' for Africa: Italian-led development/energy partnership with African nations (named after ENI founder). The energy diversification is one of Italy's most successful post-2022 policy achievements — faster than Germany, France. Mediterranean geography provides natural advantage for LNG and pipeline diversification."
+      },
+      {
+        "label": "mattei_plan_africa_engagement",
+        "value": 0.69,
+        "evidence": "Italy-Africa Mattei Plan (Jan 2024): €5.5bn investment package for African energy, agriculture, education, health partnerships. Named after Enrico Mattei (ENI founder who built Italian-Arab energy relationships in 1950s). Focus countries: Tunisia, Libya, Mozambique, Algeria, Ethiopia, Kenya. The plan serves multiple objectives: (1) Energy diversification (African gas/renewables). (2) Migration management (development as root cause approach). (3) Italian influence in Africa (competing with French/Chinese presence). (4) G7 development credibility. Criticism: funding modest relative to Chinese/EU programs; migration component prioritizes containment over development. The Mattei Plan is aspirational but gives Meloni a positive Africa narrative beyond migration enforcement."
+      },
+      {
+        "label": "right_wing_credibility_as_bridge",
+        "value": 0.86,
+        "evidence": "Meloni's most unique political asset: she is credibly right-wing (post-fascist party tradition, anti-immigration, social conservative) AND credibly pro-Western/pro-EU (NATO commitment, Ukraine support, fiscal discipline). This dual credibility makes her the essential bridge figure: (1) Can speak to Orbán/Le Pen/VOX in their language, then translate to EU mainstream. (2) Can reassure Trump that 'Europe has strong leaders,' then reassure EU that 'Trump can be managed.' (3) Can model that right-wing governance doesn't require EU/NATO sabotage (counter-Orbán example). ECR (European Conservatives and Reformists) party group leadership: Meloni chose ECR over Orbán's Patriots for Europe — strategic distance from EU wreckers while maintaining right-wing identity."
+      },
+      {
+        "label": "ecr_vs_patriots_strategic_positioning",
+        "value": 0.79,
+        "evidence": "After 2024 European elections, Meloni faced choice: join Orbán's Patriots for Europe group (larger, more radical) or maintain ECR leadership (smaller, more moderate right). Chose ECR — strategic signal that she is right-wing but not anti-EU. ECR includes Polish PiS (post-2023 in opposition) and other 'constructive right' parties. Patriots for Europe: Orbán, Le Pen, Salvini — the wrecking crew. Meloni's choice defines her political positioning: conservative reformer within the system, not revolutionary against it. This positioning is essential for her bridge role and for Italy's credibility."
+      },
+      {
+        "label": "mediterranean_security_focus",
+        "value": 0.76,
+        "evidence": "Italy's geographic position makes Mediterranean security a primary concern: (1) Libya instability (Italian energy interests, migration route). (2) Tunisia cooperation (migration management). (3) Eastern Mediterranean (Cyprus gas, Turkey tensions). (4) Red Sea/Suez (Houthi attacks on shipping threatened Italian trade). Italy contributed to EU ASPIDES naval mission (Red Sea). Italian Navy: significant Mediterranean presence. Meloni frames Italy as the 'Mediterranean gateway' to Europe — this geographic identity drives both migration policy (Italy as front line) and energy policy (pipeline/LNG hub). The Mediterranean focus distinguishes Italian strategic priorities from Northern European/Baltic focus on Russia."
+      },
+      {
+        "label": "bond_market_discipline_awareness",
+        "value": 0.93,
+        "evidence": "Italy's sovereign debt (~€2.9tn) means bond market reaction constrains all policy. BTP-Bund spread: widened to 250bp during 2022 political crisis, narrowed to ~120bp under Meloni. The spread narrowing is Meloni's most important economic achievement — reduces Italy's borrowing costs by billions annually. Maintaining market confidence requires: (1) Fiscal discipline (deficit reduction). (2) No anti-EU rhetoric that triggers spread widening. (3) Cooperation with ECB/EU institutional framework. (4) Avoiding political instability. The bond market effectively vetoes anti-EU policies: any credible threat to exit Euro or defy EU fiscal rules would trigger spread explosion, debt spiral, and government collapse (see: UK Liz Truss mini-budget 2022). Meloni learned this lesson from observation — it explains her post-election pragmatism more than any ideological conversion."
+      },
+      {
+        "label": "defense_spending_inadequacy",
+        "value": 0.42,
+        "evidence": "Italy's defense spending: ~1.5% GDP (2025), well below NATO 2% target. Italy pledged to reach 2% but no credible timeline exists. Fiscal constraints (137% debt/GDP) make significant defense spending increases nearly impossible without: (1) Cutting other spending (politically difficult). (2) Raising taxes (politically impossible). (3) Increasing deficit (EU fiscal rules prevent this). Trump's burden-sharing pressure creates diplomatic embarrassment: Meloni is Trump's preferred European leader but cannot deliver on his primary demand. Compared to Poland (4.8% GDP): Italy's defense spending is a structural weakness. The defense gap is the most obvious tension between Meloni's Atlanticist positioning and Italy's fiscal reality."
+      },
+      {
+        "label": "demographic_crisis_immigration_paradox",
+        "value": 0.78,
+        "evidence": "Italy's demographic crisis: fertility rate 1.24 (EU's lowest), population projected to decline from 59M to 48M by 2070. Workforce shrinking ~150,000/year. Care economy: aging population requires immigrant caregivers (badanti). Agriculture: dependent on immigrant labor. Construction, hospitality: same. Meloni's government issued 500,000 legal work visas for non-EU workers (2025) — contradicting anti-immigration rhetoric. The paradox: Italy's economy needs immigrants, Italy's politics demands anti-immigration posture. Meloni manages this by: distinguishing 'legal' (work visas, quietly expanded) from 'illegal' (boats, loudly opposed). The demographic-immigration paradox is Italy's defining structural challenge — no solution exists that satisfies both economic need and political demand."
+      },
+      {
+        "label": "vatican_relationship_pragmatic",
+        "value": 0.65,
+        "evidence": "Meloni navigates complex Vatican relationship: Pope Francis is progressive on migration, climate, social justice — areas where Meloni is conservative. However: Meloni's social conservatism (family values, opposition to surrogacy, Christian identity rhetoric) aligns with traditional Catholic teaching. Italy banned international surrogacy (2024, Meloni government) — aligned with Vatican position. The Vatican relationship is managed through: selective alignment (family policy) while avoiding confrontation (migration, climate). Italy's unique position: Vatican is physically located in Italy, making Church-state relations an ever-present domestic factor that no other European leader faces."
+      },
+      {
+        "label": "southern_italy_economic_divide",
+        "value": 0.63,
+        "evidence": "Italy's north-south economic divide is persistent: southern GDP per capita at 55-60% of northern levels. Meloni's FdI draws significant support from southern Italy. 'Autonomia differenziata' (differentiated autonomy) law: gives northern regions more fiscal autonomy — Lega's pet project that risks widening north-south gap. Meloni supported it as coalition compromise but faces backlash from southern voters. EU cohesion funds: critical for southern development but conditional on reform delivery. The north-south divide constrains all Italian economic policy and creates permanent coalition tension between Lega (northern interests) and FdI (national party with southern base)."
+      },
+      {
+        "label": "information_fidelity_from_advisors",
+        "value": 0.75,
+        "evidence": "Meloni operates in a democratic system with free media, parliamentary opposition, and alliance intelligence sharing. Key advisors: Gianni Letta (Berlusconi-era diplomat, informal advisor), Alfredo Mantovano (undersecretary, intelligence oversight), Antonio Tajani (Foreign Minister, experienced EU politician). Information channels: Italian intelligence services (AISE/AISI), NATO sharing, bilateral US intelligence relationship. Quality is generally good — democratic system provides corrective mechanisms. Blind spots: (1) Southern Italy governance opacity. (2) Libya situation (complex, multiple factions). (3) Coalition partner activities (Salvini's Russia connections not fully transparent to PM office)."
+      },
+      {
+        "label": "personal_popularity_asset",
+        "value": 0.79,
+        "evidence": "Meloni's personal approval ratings consistently exceed FdI party support: personal approval ~45-50%, FdI party ~28-30% (2025). She is Italy's most popular leader since early Berlusconi. Source of popularity: (1) Perceived competence (stability, no crises). (2) International stature (G7, Trump relationship, EU credibility). (3) Authentic working-class background (rare in Italian politics). (4) First female PM symbolism. (5) Not being Salvini (whose erratic behavior contrasts with Meloni's discipline). The personal popularity gives her political capital that constrains both coalition partners and opposition. It is her primary political resource — if popularity fades, the coalition structure becomes fragile."
+      },
+      {
+        "label": "green_deal_skepticism_pragmatic",
+        "value": 0.71,
+        "evidence": "Meloni frames climate policy as 'pragmatism vs. dogmatism': (1) Opposed EU ICE vehicle ban (2035 phase-out) — demanded technological neutrality. (2) Pushed for biofuels inclusion alongside EVs (protecting Italian automotive supply chain). (3) Supported nuclear energy reconsideration (Italy banned nuclear in 1987 referendum, Meloni exploring reversal). (4) Criticized Fit-for-55 pace as economically destructive. However: did not withdraw from Paris Agreement or EU Green Deal framework. The climate skepticism serves multiple audiences: domestic industry (FIAT/Stellantis), Trump relationship (shared climate skepticism), Italian consumers (energy price concerns). Meloni's climate position is among the most conservative in EU but operates within the system rather than rejecting it."
+      },
+      {
+        "label": "judicial_reform_separation_of_powers",
+        "value": 0.61,
+        "evidence": "Meloni's judicial reform: separation of judges and prosecutors into distinct career tracks (currently unified in Italy). Rationale: prosecutors have too much power, can pursue politically motivated investigations (Berlusconi was target of decades of prosecution). Opposition: magistrates' association strongly opposes, claims it weakens judicial independence. The reform is partly principled (structural reform argument has merit) and partly political (Berlusconi coalition legacy, protecting right-wing politicians from prosecution). Constitutional reform ('premierato' — direct PM election) stalled but would fundamentally change Italian governance. Both reforms reflect Meloni's attempt to strengthen executive power in a system designed to prevent it."
+      },
+      {
+        "label": "post_fascist_legacy_management",
+        "value": 0.73,
+        "evidence": "FdI's roots in MSI (Movimento Sociale Italiano, founded by Mussolini loyalists 1946) create permanent vulnerability. Meloni has systematically distanced FdI: (1) Recognized Israel, condemned antisemitism. (2) Attended Holocaust memorials. (3) Called fascism 'anti-democratic' (but stopped short of comprehensive repudiation). (4) Removed most overtly neo-fascist figures from senior positions. However: FdI still uses MSI's flame symbol in party logo. Party members occasionally caught making fascist salutes or statements. The legacy is managed rather than resolved — Meloni calculates that explicit repudiation would alienate base voters while current ambiguity is tolerable to international partners who value her strategic cooperation."
+      },
+      {
+        "label": "ecb_dependency_monetary_policy",
+        "value": 0.87,
+        "evidence": "Italy is the Eurozone member most dependent on ECB policy: (1) TPI (Transmission Protection Instrument): ECB's backstop against Italian spread widening — exists specifically because of Italy risk. (2) ECB rate hikes 2022-2024: each 25bp increase costs Italy ~€5bn annually in higher debt service. (3) QT (quantitative tightening): reduces ECB Italian bond holdings, increasing market pricing pressure. Meloni cannot criticize ECB without risking market reaction. Any Italian government that threatens Euro membership faces immediate spread crisis. The ECB dependency is the ultimate constraint: it makes anti-EU/anti-Euro policies literally unaffordable. This structural reality, more than ideology, explains Meloni's post-election pragmatism."
+      },
+      {
+        "label": "libya_strategic_interest",
+        "value": 0.70,
+        "evidence": "Libya is Italy's most important bilateral relationship in Africa: (1) Energy: ENI operates major Libyan gas/oil fields, pipeline to Sicily. (2) Migration: Libya is primary departure point for Mediterranean crossings. (3) Historical: former Italian colony (1911-1943), complex legacy. (4) Security: Libyan instability directly threatens Italian interests. Italy maintains relationships with both Libyan factions (Tripoli GNA, eastern Haftar). Meloni's Libya policy: stabilize enough to manage migration and energy, without taking sides in internal conflict. Recent controversy: Italian intelligence operative arrested in Libya for spying (2025), creating diplomatic tension. Libya is the domain where Italy's migration, energy, and security interests all converge."
+      },
+      {
+        "label": "g7_hosting_diplomatic_visibility",
+        "value": 0.77,
+        "evidence": "Italy hosted G7 Puglia summit (Jun 2024): Meloni chaired, invited African leaders (Mattei Plan showcase), managed Ukraine/Gaza tensions, coordinated China tech competition response. The hosting elevated Meloni's international stature: she was the chair when key decisions on Russia sanctions, AI governance, and African development were made. G7 membership gives Italy structural great-power status that its economic weight alone would not justify (Italy's GDP < France, Germany, UK). Meloni leverages G7 position plus Trump relationship to punch above Italy's economic weight in global diplomacy."
+      },
+      {
+        "label": "antisemitism_distance_israel_alignment",
+        "value": 0.74,
+        "evidence": "Given FdI's MSI roots, Israel relationship is strategically essential for legitimacy. Meloni visited Israel, condemned Hamas attack (Oct 7, 2023), maintained strong pro-Israel stance. Italy voted against some UN resolutions critical of Israel. The Israel alignment serves: (1) Distancing from antisemitic far-right legacy. (2) Alignment with US/Trump policy. (3) Mediterranean security partnership. (4) Domestic Jewish community reassurance. Post-Oct 7: Meloni was among EU's most pro-Israel voices. The alignment is genuine but also strategically necessary — any whiff of antisemitism from FdI would be politically devastating given MSI history."
+      },
+      {
+        "label": "surrogacy_ban_social_conservatism",
+        "value": 0.76,
+        "evidence": "International surrogacy ban (2024): Italy criminalized surrogacy conducted abroad by Italian citizens — most restrictive surrogacy law in EU. Targeted primarily at same-sex male couples (cannot have biological children without surrogacy). The ban reflects Meloni's social conservatism: 'children are not products to be bought.' Consistent with: opposition to adoption by same-sex couples, defense of 'traditional family,' Vatican alignment on bioethics. The surrogacy ban is Meloni's most ideologically driven domestic policy — reveals genuine social conservative convictions beneath pragmatic governance. It is the policy domain where pre-election and post-election Meloni show least divergence."
+      },
+      {
+        "label": "stellantis_industrial_policy_challenge",
+        "value": 0.67,
+        "evidence": "Stellantis (FIAT-Chrysler-Peugeot merger): Italy's largest manufacturer, headquarters moved to Netherlands (2021), production shifting to lower-cost countries. Italian auto production fell from 1.8M vehicles (1990s) to <500k (2023). Meloni pressured Stellantis to maintain Italian production: (1) Threatened to withdraw subsidies. (2) Demanded EV production in Italian plants. (3) Pushed for EU technological neutrality (biofuels alongside EVs to protect existing supply chain). Stellantis CEO Tavares resigned (Dec 2024), creating uncertainty. The automotive crisis exemplifies Italy's industrial policy challenge: cannot force multinational to produce in Italy, but losing auto production devastates communities and supply chains."
+      },
+      {
+        "label": "personal_brand_working_class_authenticity",
+        "value": 0.81,
+        "evidence": "Meloni's biography — single mother from working-class Garbatella, absent father, self-made career — is rare among European leaders. This background: (1) Creates genuine connection with economically anxious voters (not aristocratic/technocratic). (2) Makes her harder to attack as 'elitist.' (3) Differentiates from Salvini (privileged Milanese), Berlusconi (billionaire), Renzi (Florentine technocrat). (4) Her daughter Ginevra (born 2016) reinforces 'working mother' brand. The personal brand is her most powerful domestic political asset: Italian voters relate to her economic struggle in ways they cannot relate to typical political class. It insulates her from economic hardship criticism — 'she understands what ordinary people face.'"
+      },
+      {
+        "label": "risk_appetite_foreign_bold_domestic_cautious",
+        "value": 0.70,
+        "evidence": "Like Tusk, Meloni shows asymmetric risk appetite. Foreign policy: bold moves (BRI withdrawal, Trump bridge role, Albania migration deal, Ukraine support against base expectations). Domestic policy: cautious (limited structural reform, no fiscal adventurism, bond market deference). The asymmetry reflects: (1) Foreign policy success enhances personal brand at low fiscal cost. (2) Domestic reform risks coalition breakdown or market reaction. (3) Italian institutional complexity makes domestic change harder than diplomatic positioning. Meloni invests political capital where returns are highest (international credibility) and avoids domains where costs are highest (fiscal/institutional reform). This is rational political economy, not lack of ambition."
+      }
+    ]
+  }
+}

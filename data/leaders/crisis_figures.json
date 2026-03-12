@@ -1,0 +1,1440 @@
+{
+  "description": "Crisis key figures — non-leader individuals who significantly shaped economic outcomes during specific crises",
+  "crises": {
+    "asian_financial_crisis_1997": {
+      "period": "1997-07 to 1998-12",
+      "figures": [
+        {
+          "name": "George Soros",
+          "name_zh": "乔治·索罗斯",
+          "role_at_time": "Chairman, Quantum Fund",
+          "organization": "Quantum Fund / Soros Fund Management",
+          "actions": [
+            {
+              "date": "1997-05",
+              "action": "Initiated large short positions against the Thai baht through forward contracts and currency swaps",
+              "impact": "Accelerated pressure on the Bank of Thailand's currency peg, depleting foreign reserves",
+              "magnitude": "high"
+            },
+            {
+              "date": "1997-07",
+              "action": "Continued baht short selling as Thailand was forced to float the baht on July 2, 1997",
+              "impact": "Baht immediately devalued ~20%; triggered contagion across Southeast Asian currencies",
+              "magnitude": "high"
+            },
+            {
+              "date": "1997-08",
+              "action": "Extended speculative attacks to Malaysian ringgit, Philippine peso, and Indonesian rupiah",
+              "impact": "Regional currency collapse; ASEAN economies lost years of growth",
+              "magnitude": "high"
+            },
+            {
+              "date": "1997-08",
+              "action": "Attempted to short the Hong Kong dollar; HKMA deployed reserves to defend the peg",
+              "impact": "HK stock market fell sharply; HKMA ultimately successfully defended the peg at considerable cost",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Hungarian-American billionaire investor and philanthropist. Built the Quantum Fund into one of the world's most successful hedge funds using macro trading strategies. Had previously broken the Bank of England in 1992 (Black Wednesday) earning $1B in a single day.",
+          "behavioral_note": "Soros became the public face of speculative currency attacks during the crisis. Mahathir Mohamad directly accused him of destroying Southeast Asian economies. Soros argued he was exploiting fundamentally unsound pegs that would have broken regardless. The episode crystallized the debate on capital account liberalization and the vulnerability of emerging market pegs."
+        },
+        {
+          "name": "Mahathir Mohamad",
+          "name_zh": "马哈蒂尔·穆罕默德",
+          "role_at_time": "Prime Minister of Malaysia",
+          "organization": "Government of Malaysia",
+          "actions": [
+            {
+              "date": "1997-07",
+              "action": "Publicly attacked George Soros at ASEAN summit, calling currency trading 'unnecessary, unproductive and immoral'",
+              "impact": "Framed the crisis as an attack by Western speculators; galvanized domestic political support but rattled foreign investors",
+              "magnitude": "medium"
+            },
+            {
+              "date": "1997-08",
+              "action": "Continued public attacks on Soros and hedge funds at IMF/World Bank annual meeting in Hong Kong",
+              "impact": "Malaysia signaled it would resist IMF-style austerity; differentiated Malaysia's crisis response from Thailand/Korea",
+              "magnitude": "medium"
+            },
+            {
+              "date": "1998-09",
+              "action": "Imposed capital controls pegging ringgit at 3.80/USD and restricting offshore ringgit trading; simultaneously dismissed Finance Minister Anwar Ibrahim",
+              "impact": "Isolated Malaysia from IMF conditionality; short-term foreign capital outflow panic but stabilized the currency and allowed interest rate cuts",
+              "magnitude": "high"
+            },
+            {
+              "date": "1998-09",
+              "action": "Rejected IMF assistance package entirely, pursuing independent recovery path",
+              "impact": "Malaysia recovered as fast or faster than IMF-program countries; unorthodox policy was vindicated over 1999-2000",
+              "magnitude": "high"
+            }
+          ],
+          "background": "Longest-serving Malaysian PM (1981-2003, returned 2018-2020). Economic modernizer who built Malaysia's export manufacturing base. Known for 'Look East' policy and outspoken nationalism. Strong developmentalist ideology, skeptical of Western financial orthodoxy.",
+          "behavioral_note": "Mahathir's capital controls were universally condemned by Western economists and the IMF at the time as economic heresy that would isolate Malaysia. Instead, Malaysia recovered without the social devastation of Thailand or Indonesia. His approach was later partially vindicated by IMF research. The episode became a landmark case study in heterodox crisis management."
+        },
+        {
+          "name": "Zhu Rongji",
+          "name_zh": "朱镕基",
+          "role_at_time": "Premier of the State Council of China",
+          "organization": "Government of the People's Republic of China",
+          "actions": [
+            {
+              "date": "1997-07",
+              "action": "Publicly pledged that China would not devalue the renminbi despite the regional currency collapse",
+              "impact": "Prevented a second round of competitive devaluations; anchor of regional stability during the worst phase of contagion",
+              "magnitude": "high"
+            },
+            {
+              "date": "1997-10",
+              "action": "Reiterated no-devaluation commitment at major international forums despite China's export competitiveness suffering",
+              "impact": "Maintained confidence in regional financial architecture; earned China enormous diplomatic credibility",
+              "magnitude": "high"
+            },
+            {
+              "date": "1998-01",
+              "action": "Announced fiscal stimulus package and accelerated SOE reform to offset export drag from RMB non-devaluation",
+              "impact": "China maintained ~7.8% GDP growth in 1998 while neighbors contracted; softened regional fallout",
+              "magnitude": "high"
+            },
+            {
+              "date": "1998-06",
+              "action": "Supervised restructuring of Guangdong International Trust and Investment Corp (GITIC) default, allowing it to fail rather than bail out",
+              "impact": "Signaled China would impose market discipline on state entities; set precedent for financial reform",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Engineer and economist, mayor of Shanghai 1988-1991, economic czar under Jiang Zemin. Architect of China's late-1990s economic reforms including SOE restructuring, banking system cleanup, and WTO accession preparation. Known for directness and technocratic rigor.",
+          "behavioral_note": "The no-devaluation pledge was a major sacrifice in terms of Chinese export competitiveness at a moment when it would have been economically rational to devalue. The political decision elevated China's regional standing dramatically and established China as a responsible stakeholder in the international financial system — a narrative China has leveraged ever since."
+        },
+        {
+          "name": "Michel Camdessus",
+          "name_zh": "米歇尔·康德苏",
+          "role_at_time": "Managing Director, International Monetary Fund",
+          "organization": "International Monetary Fund",
+          "actions": [
+            {
+              "date": "1997-08",
+              "action": "Assembled $17.2B rescue package for Thailand with strict austerity conditionality (fiscal surplus requirement, high interest rates, 56 finance company closures)",
+              "impact": "Thailand entered severe recession; unemployment surged; social unrest intensified",
+              "magnitude": "high"
+            },
+            {
+              "date": "1997-11",
+              "action": "Orchestrated $43B rescue package for Indonesia with sweeping structural reform conditions including removal of Suharto family business monopolies",
+              "impact": "IMF conditions politically destabilized Suharto government; social unrest intensified; Suharto fell May 1998",
+              "magnitude": "high"
+            },
+            {
+              "date": "1997-12",
+              "action": "Assembled $57B rescue package for South Korea — largest IMF program in history to that point; imposed financial sector restructuring and labor market flexibility",
+              "impact": "Korea entered severe recession in 1998 but recovered rapidly; mass corporate restructuring and banking reform",
+              "magnitude": "high"
+            },
+            {
+              "date": "1998-01",
+              "action": "Photographed with arms crossed standing over Suharto signing the IMF agreement in Jakarta",
+              "impact": "Photo became iconic symbol of IMF condescension and humiliation of sovereign governments; permanently damaged IMF's public image in the developing world",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "French civil servant and economist, IMF Managing Director 1987-2000. Former Governor of the Banque de France. Represented the Washington Consensus orthodoxy of fiscal discipline, open capital accounts, and structural adjustment.",
+          "behavioral_note": "Camdessus became the human face of IMF austerity during the crisis. The conditionality programs were later extensively criticized — even within the IMF — for being too harsh, imposing excessive fiscal contraction in countries already in recession, and for including politically motivated structural conditions beyond financial stabilization. The Indonesia program in particular is seen as a cautionary tale about overreach."
+        },
+        {
+          "name": "Robert Rubin",
+          "name_zh": "罗伯特·鲁宾",
+          "role_at_time": "United States Secretary of the Treasury",
+          "organization": "U.S. Department of the Treasury",
+          "actions": [
+            {
+              "date": "1997-07",
+              "action": "Coordinated US bilateral financial contributions alongside IMF programs for Thailand and Indonesia",
+              "impact": "US provided political legitimacy and additional financial backstop to IMF rescue packages",
+              "magnitude": "medium"
+            },
+            {
+              "date": "1997-11",
+              "action": "Organized US contribution to Korean bailout, pushing hard for IMF involvement over bilateral support",
+              "impact": "Prevented Korean default; US companies and banks with Korean exposure were protected",
+              "magnitude": "high"
+            },
+            {
+              "date": "1998-06",
+              "action": "Coordinated G7 yen support operation with Japan to halt the yen's slide to 147/USD",
+              "impact": "Yen rebounded; reduced contagion risk to remaining Asian economies and emerging markets",
+              "magnitude": "high"
+            },
+            {
+              "date": "1998-09",
+              "action": "Organized Federal Reserve-facilitated Long-Term Capital Management (LTCM) bailout — $3.6B private sector recapitalization",
+              "impact": "Prevented systemic financial crisis from LTCM's $1.25 trillion in derivative positions unwinding disorderly",
+              "magnitude": "high"
+            }
+          ],
+          "background": "Former Co-Chairman of Goldman Sachs. Treasury Secretary 1995-1999. Strong believer in fiscal discipline and open capital markets. Architect of the 'strong dollar policy.' Wall Street credibility enabled rapid market response.",
+          "behavioral_note": "Rubin championed the 'Wall Street-Treasury complex' approach to crisis management — prioritizing financial market stabilization and maintaining open capital accounts. Critics argue his promotion of capital account liberalization in the 1990s contributed to the crisis conditions. His LTCM management showed a pragmatic willingness to bend rules for systemic risk prevention."
+        },
+        {
+          "name": "Stanley Fischer",
+          "name_zh": "斯坦利·费希尔",
+          "role_at_time": "First Deputy Managing Director, International Monetary Fund",
+          "organization": "International Monetary Fund",
+          "actions": [
+            {
+              "date": "1997-08",
+              "action": "Designed and negotiated the technical conditionality programs for Thailand, Indonesia, and Korea rescue packages",
+              "impact": "Set the economic adjustment terms that triggered recessions across the three countries",
+              "magnitude": "high"
+            },
+            {
+              "date": "1997-10",
+              "action": "Publicly defended IMF program design, arguing fiscal contraction and high interest rates were necessary to restore confidence",
+              "impact": "Stiffened IMF institutional stance; delayed reconsideration of overly harsh conditions",
+              "magnitude": "medium"
+            },
+            {
+              "date": "1998-06",
+              "action": "Acknowledged some IMF programs had been excessively tight and began revising conditionality downward as crisis worsened",
+              "impact": "Partial easing of austerity; internal IMF reassessment of crisis management doctrine began",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Israeli-American economist, MIT professor. IMF First Deputy 1994-2001, later Governor of Bank of Israel 2005-2013, Fed Vice Chair 2014-2017. One of the most technically accomplished macroeconomists of his generation. Mentor to Ben Bernanke, Mario Draghi, and others.",
+          "behavioral_note": "Fischer bore significant operational responsibility for the design of IMF programs. His later partial recantation on program harshness was intellectually honest but came late. His subsequent career showed willingness to use unconventional tools at the Bank of Israel — a notable evolution from Washington Consensus orthodoxy."
+        },
+        {
+          "name": "Joseph Stiglitz",
+          "name_zh": "约瑟夫·斯蒂格利茨",
+          "role_at_time": "Chief Economist and Senior Vice President, World Bank",
+          "organization": "World Bank",
+          "actions": [
+            {
+              "date": "1997-09",
+              "action": "Publicly criticized IMF's high-interest-rate prescription for Asian crisis countries as contractionary and counterproductive",
+              "impact": "Created rare public rift between World Bank and IMF; gave intellectual cover to governments resisting IMF terms",
+              "magnitude": "medium"
+            },
+            {
+              "date": "1998-01",
+              "action": "Published critique of capital account liberalization, arguing IMF had pushed premature opening that enabled the crisis",
+              "impact": "Provided academic framework for Mahathir's capital controls and broader emerging market skepticism of IMF prescriptions",
+              "magnitude": "high"
+            },
+            {
+              "date": "1999-11",
+              "action": "Published widely-read article 'The Insider: What I Learned at the World Economic Crisis' in The New Republic, detailing IMF policy failures",
+              "impact": "Major reputational damage to IMF; accelerated post-crisis institutional reflection; contributed to Camdessus resignation environment",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Nobel laureate (2001) economist. Columbia University professor. World Bank Chief Economist 1997-2000. Specialist in information asymmetry, market failure, and development economics. Later wrote 'Globalization and Its Discontents' (2002).",
+          "behavioral_note": "Stiglitz's public dissent from inside the international financial institution system was extraordinary — World Bank economists simply did not openly criticize the IMF. His willingness to go public made him a hero to critics of the Washington Consensus and ultimately led to his departure from the World Bank. His critiques have been largely vindicated by subsequent IMF self-assessments."
+        },
+        {
+          "name": "Eisuke Sakakibara",
+          "name_zh": "榊原英資",
+          "role_at_time": "Vice Minister of Finance for International Affairs, Japan ('Mr. Yen')",
+          "organization": "Japanese Ministry of Finance",
+          "actions": [
+            {
+              "date": "1997-06",
+              "action": "Proposed Asian Monetary Fund (AMF) — a $100B regional fund to provide crisis assistance without IMF conditionality",
+              "impact": "AMF proposal rejected by US and IMF as undermining their authority; but planted seed for later Chiang Mai Initiative",
+              "magnitude": "high"
+            },
+            {
+              "date": "1997-09",
+              "action": "Conducted yen intervention operations as yen weakened sharply, threatening further Asian contagion",
+              "impact": "Temporary yen stabilization; bought time for crisis management",
+              "magnitude": "medium"
+            },
+            {
+              "date": "1998-06",
+              "action": "Coordinated with US Treasury on joint yen/dollar intervention as yen approached 147/USD",
+              "impact": "Sharp yen rebound; reduced deflationary pressure on Asian trading partners",
+              "magnitude": "high"
+            },
+            {
+              "date": "1998-10",
+              "action": "Announced Miyazawa Initiative — $30B bilateral assistance package for Asian crisis countries",
+              "impact": "Provided alternative to IMF funding with fewer political conditions; Japan positioned as regional financial anchor",
+              "magnitude": "high"
+            }
+          ],
+          "background": "Career MOF bureaucrat, widely known as 'Mr. Yen' for his influence over currency markets. Served as Vice Minister for International Affairs 1997-1999. Known for blunt interventions and willingness to challenge US financial dominance in Asia.",
+          "behavioral_note": "Sakakibara's AMF proposal was the most ambitious institutional initiative of the crisis period and represented Japan's bid for regional financial leadership. Its rejection by Washington demonstrated the limits of Asian monetary cooperation at the time, though it directly inspired the Chiang Mai Initiative Multilateralization (CMIM) created in the crisis aftermath."
+        },
+        {
+          "name": "Chavalit Yongchaiyudh",
+          "name_zh": "差瓦立·永猜裕",
+          "role_at_time": "Prime Minister of Thailand",
+          "organization": "Government of Thailand",
+          "actions": [
+            {
+              "date": "1997-05",
+              "action": "Authorized Bank of Thailand to defend the baht peg using forward contracts, depleting foreign reserves covertly",
+              "impact": "Thailand's effective reserves were much lower than reported; exposed the futility of the defense and deepened eventual crisis",
+              "magnitude": "high"
+            },
+            {
+              "date": "1997-07",
+              "action": "Presided over float of the baht on July 2, 1997, ending the peg after reserves were exhausted",
+              "impact": "Triggered the Asian financial crisis contagion; baht fell ~20% on float day",
+              "magnitude": "high"
+            },
+            {
+              "date": "1997-08",
+              "action": "Accepted IMF rescue package with harsh conditionality; 58 finance companies suspended",
+              "impact": "Mass financial sector failures; economic contraction; political legitimacy of government collapsed",
+              "magnitude": "high"
+            },
+            {
+              "date": "1997-11",
+              "action": "Resigned as Prime Minister amid economic crisis",
+              "impact": "Political instability during the worst phase of the crisis; succession uncertainty worsened market sentiment briefly",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Former Thai Army Commander-in-Chief turned politician. Prime Minister May 1996-November 1997. His government inherited an overheating economy with a large current account deficit and a fragile banking sector exposed to real estate. Limited economic management experience.",
+          "behavioral_note": "Chavalit's government made two critical errors: defending an indefensible peg too long (depleting reserves that could have funded adjustment), and accepting IMF conditions so broad they shattered financial confidence. His resignation mid-crisis created a leadership vacuum. The episode illustrated how political instability and technocratic failure compounded the economic shock."
+        }
+      ]
+    },
+    "global_financial_crisis_2008": {
+      "period": "2007-08 to 2009-06",
+      "figures": [
+        {
+          "name": "Henry 'Hank' Paulson",
+          "name_zh": "亨利·保尔森",
+          "role_at_time": "United States Secretary of the Treasury",
+          "organization": "U.S. Department of the Treasury",
+          "actions": [
+            {
+              "date": "2008-03",
+              "action": "Facilitated JPMorgan acquisition of Bear Stearns at $2/share (later revised to $10) with $30B Fed backstop on toxic assets",
+              "impact": "Prevented Bear Stearns bankruptcy; established 'too big to fail' precedent for broker-dealers",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-07",
+              "action": "Announced 'bazooka' authority to backstop Fannie Mae and Freddie Mac — 'if you have a bazooka in your pocket and people know it, you may not have to use it'",
+              "impact": "Temporary stabilization; the 'bazooka' metaphor became ironic when forced to use it weeks later",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2008-09",
+              "action": "Placed Fannie Mae and Freddie Mac into conservatorship (September 7); wiped out common and preferred shareholders",
+              "impact": "Stabilized $5.4T in mortgage guarantees; shocked preferred shareholders including many banks and foreign central banks",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-09",
+              "action": "Decided not to rescue Lehman Brothers during the September 12-14 weekend; Lehman filed for bankruptcy September 15",
+              "impact": "Triggered global financial panic; money market funds 'broke the buck'; commercial paper markets froze; Dow fell 504 points",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-09",
+              "action": "Authorized $85B AIG bailout (September 16) — reversed the Lehman let-it-fail decision within 24 hours",
+              "impact": "Prevented AIG CDS counterparty cascade; Goldman Sachs and other AIG counterparties received full par value payouts",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-09",
+              "action": "Proposed $700B Troubled Asset Relief Program (TARP) in 3-page memo to Congress",
+              "impact": "Initial House rejection caused largest single-day Dow drop to that point; eventual passage stabilized bank funding",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-10",
+              "action": "Pivoted TARP from buying toxic assets to direct equity injections into banks; convened 9 major bank CEOs and told them to accept capital",
+              "impact": "Recapitalized major US banks; ended acute phase of banking system distress",
+              "magnitude": "high"
+            }
+          ],
+          "background": "Goldman Sachs CEO 1999-2006. Treasury Secretary 2006-2009. Investment banker background, limited prior experience with macroeconomic policy. Known for high energy and difficulty with public communication (reportedly went temporarily mute when briefing Nancy Pelosi on the crisis).",
+          "behavioral_note": "Paulson's decision to let Lehman fail — after rescuing Bear Stearns and later AIG — was the single most consequential and contested crisis management decision. He later said he lacked legal authority to save Lehman, though this was disputed. The inconsistency (Bear and AIG saved, Lehman not) created catastrophic uncertainty about government backstops and triggered the panic phase of the crisis."
+        },
+        {
+          "name": "Timothy Geithner",
+          "name_zh": "蒂莫西·盖特纳",
+          "role_at_time": "President, Federal Reserve Bank of New York (2003-2009); then US Treasury Secretary (2009-2013)",
+          "organization": "Federal Reserve Bank of New York / U.S. Department of the Treasury",
+          "actions": [
+            {
+              "date": "2008-03",
+              "action": "As NY Fed President, structured the Bear Stearns rescue and JPMorgan acquisition over a single weekend",
+              "impact": "Saved Bear Stearns from disorderly failure; established crisis intervention template",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-09",
+              "action": "Participated in the Lehman Brothers weekend negotiations; argued for finding a buyer but could not structure a deal",
+              "impact": "Lehman filed for bankruptcy; Geithner later said the Fed lacked legal authority to backstop a Lehman rescue without a solvent acquiring firm",
+              "magnitude": "high"
+            },
+            {
+              "date": "2009-02",
+              "action": "As Treasury Secretary, unveiled the Financial Stability Plan — vague on details; market reacted with severe disappointment",
+              "impact": "Dow fell 382 points on announcement day; 'foam the runway for the banks' criticism intensified",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2009-05",
+              "action": "Designed and implemented the bank stress tests (Supervisory Capital Assessment Program — SCAP); published results May 7",
+              "impact": "Stress test results restored investor confidence; banks raised $75B in private capital; marked the end of acute banking crisis",
+              "magnitude": "high"
+            },
+            {
+              "date": "2009-03",
+              "action": "Launched Public-Private Investment Program (PPIP) for toxic assets — a public subsidy structure to attract private buyers",
+              "impact": "Limited direct impact but signaled government commitment to clearing bank balance sheets",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Career government economist. Treasury Department 1988-2001, rising to Undersecretary for International Affairs. NY Fed President from 2003. No private sector background. Close relationships with Wall Street but not from it.",
+          "behavioral_note": "Geithner's approach was consistently 'save the financial system first, worry about fairness later.' He prioritized ending systemic panic over homeowner relief or banker accountability. His 'foam the runway' comment — helping banks absorb mortgage losses gradually rather than forcing immediate recognition — crystallized the perception that the crisis response favored banks over Main Street."
+        },
+        {
+          "name": "Richard 'Dick' Fuld",
+          "name_zh": "理查德·富尔德",
+          "role_at_time": "Chairman and Chief Executive Officer, Lehman Brothers",
+          "organization": "Lehman Brothers Holdings Inc.",
+          "actions": [
+            {
+              "date": "2007-09",
+              "action": "Publicly dismissed concerns about Lehman's mortgage exposure as overblown; refused to raise equity capital while markets remained accessible",
+              "impact": "Missed the window to recapitalize; increased Lehman's vulnerability when funding markets deteriorated",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-03",
+              "action": "After Bear Stearns collapse, rejected calls to dramatically reduce leverage and sell toxic assets; maintained Lehman's commercial real estate positions",
+              "impact": "Lehman remained $30-40B overexposed to commercial real estate at inflated valuations",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-06",
+              "action": "Reported $2.8B Q2 loss but resisted calls to sell the firm or raise capital at dilutive prices; ousted CFO Erin Callan and COO Joseph Gregory",
+              "impact": "Management turbulence worsened investor confidence; short sellers intensified pressure",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-09",
+              "action": "Rejected acquisition offers from Korea Development Bank and Bank of America at prices he considered too low; Barclays deal collapsed due to UK regulatory objection",
+              "impact": "Lehman filed Chapter 11 on September 15, 2008 — largest bankruptcy in US history at the time ($613B in debt)",
+              "magnitude": "high"
+            }
+          ],
+          "background": "Joined Lehman as a commercial paper trader in 1969. CEO from 1994. Built Lehman from near-bankruptcy after the 1994 bond market crisis into a major investment bank. Aggressive, competitive personality. Earned $484M total compensation 2000-2008. Known internally as 'the Gorilla.'",
+          "behavioral_note": "Fuld's refusal to sell or recapitalize Lehman was partly ego-driven — he had rescued Lehman once before and believed he could do so again. His rejection of the Korea Development Bank deal at $6.40/share (when Lehman was trading at $14) proved particularly fateful. The Lehman failure became the single event most commonly cited as triggering the global panic phase."
+        },
+        {
+          "name": "Jamie Dimon",
+          "name_zh": "杰米·戴蒙",
+          "role_at_time": "Chairman and Chief Executive Officer, JPMorgan Chase",
+          "organization": "JPMorgan Chase & Co.",
+          "actions": [
+            {
+              "date": "2008-03",
+              "action": "Agreed to acquire Bear Stearns for $2/share (later revised to $10) with $30B Fed guarantee on toxic assets",
+              "impact": "Prevented Bear Stearns disorderly collapse; JPMorgan absorbed Bear's prime brokerage and trading operations at bargain price",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-09",
+              "action": "Agreed to acquire Washington Mutual's banking operations for $1.9B in FDIC-facilitated deal",
+              "impact": "Prevented WaMu's insured depositor run from spreading; JPMorgan gained $307B in WaMu assets",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-10",
+              "action": "Accepted $25B TARP injection under Paulson's forced recapitalization; publicly stated JPMorgan did not need it",
+              "impact": "JPMorgan's participation gave political cover to weaker banks accepting TARP; maintained stigma reduction",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2009-06",
+              "action": "Repaid $25B TARP early — first major bank to do so",
+              "impact": "Signaled JPMorgan's relative strength; created competitive pressure on other banks to repay; removed government oversight",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Former President of Citigroup under Sandy Weill until 1998 firing. CEO of Bank One 2000-2004, then merged into JPMorgan. Known for risk management obsession. Had built JPMorgan into one of the most defensively positioned major banks entering the crisis.",
+          "behavioral_note": "Dimon emerged from the crisis as arguably the most powerful banker in the world. His willingness to be the crisis buyer of distressed institutions (Bear, WaMu) was both opportunistic and stabilizing. JPMorgan's superior risk management entering the crisis was partly luck (avoided worst subprime) and partly discipline. The crisis cemented Dimon's status as the preeminent US banker for the following decade."
+        },
+        {
+          "name": "Lloyd Blankfein",
+          "name_zh": "劳尔德·贝兰克梵",
+          "role_at_time": "Chairman and Chief Executive Officer, Goldman Sachs",
+          "organization": "Goldman Sachs Group Inc.",
+          "actions": [
+            {
+              "date": "2007-12",
+              "action": "Disclosed Goldman had hedged its mortgage exposure through short positions — profited from the mortgage collapse while selling CDOs to clients",
+              "impact": "Goldman was profitable in 2007-2008; raised questions about conflicts of interest in underwriting products it was simultaneously shorting",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-09",
+              "action": "Converted Goldman from investment bank to bank holding company (September 21), gaining access to Fed discount window",
+              "impact": "Stabilized Goldman's funding structure; effectively ended the independent investment bank model on Wall Street",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-09",
+              "action": "Accepted Warren Buffett's $5B preferred stock investment plus launched $5B public offering at $123/share",
+              "impact": "Buffett's imprimatur restored Goldman's market credibility; prevented further stock collapse",
+              "magnitude": "high"
+            },
+            {
+              "date": "2009-11",
+              "action": "Told the Times of London he was a banker 'doing God's work'",
+              "impact": "Comment became symbol of Wall Street's perceived moral detachment post-bailout; generated severe public and political backlash",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Joined Goldman Sachs as a gold salesman in 1981. CEO from 2006. Led the firm's expansion into principal investing and proprietary trading. Known for intelligence and bluntness.",
+          "behavioral_note": "Goldman's crisis behavior crystallized the moral hazard debate. The firm received $12.9B from AIG's government bailout (as a CDS counterparty at par), accepted $10B TARP, converted to bank holding company for regulatory benefits — then paid record bonuses in 2009. The 'doing God's work' comment became the defining soundbite of Wall Street arrogance during the bailout era."
+        },
+        {
+          "name": "Warren Buffett",
+          "name_zh": "沃伦·巴菲特",
+          "role_at_time": "Chairman and CEO, Berkshire Hathaway",
+          "organization": "Berkshire Hathaway Inc.",
+          "actions": [
+            {
+              "date": "2008-09",
+              "action": "Invested $5B in Goldman Sachs preferred stock with 10% dividend and warrants at $115/share (September 23)",
+              "impact": "Buffett's endorsement stabilized Goldman's stock and signaled that a credible long-term investor saw value; broad market rallied",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-10",
+              "action": "Invested $3B in General Electric preferred stock with 10% dividend",
+              "impact": "GE Capital funding concerns eased; broader signal that blue-chip industrials were investable",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2008-10",
+              "action": "Published 'Buy American. I Am.' op-ed in New York Times",
+              "impact": "Major psychological boost for retail investors; provided public counternarrative to panic selling at the market trough",
+              "magnitude": "high"
+            },
+            {
+              "date": "2009-03",
+              "action": "Appeared extensively on CNBC defending capitalism and calling for decisive government action on bank balance sheets",
+              "impact": "Buffett's media presence during the crisis served as an informal confidence anchor for retail investors",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "CEO of Berkshire Hathaway since 1970. Built record through value investing and acquisition of insurance companies. One of the world's most trusted financial voices. Folksy public communication style concealing sophisticated financial engineering.",
+          "behavioral_note": "Buffett's interventions in Goldman and GE were structured to give Berkshire extremely favorable terms (10% preferred dividends, cheap warrants) — ostensibly altruistic crisis stability moves that also turned out to be extraordinarily profitable. The Goldman warrants alone netted Berkshire over $3B in profit. His public communications during the crisis served a genuine stabilizing function for retail investor sentiment."
+        },
+        {
+          "name": "Angelo Mozilo",
+          "name_zh": "安杰洛·莫兹洛",
+          "role_at_time": "Co-founder and Chief Executive Officer, Countrywide Financial",
+          "organization": "Countrywide Financial Corporation",
+          "actions": [
+            {
+              "date": "2005-06",
+              "action": "Aggressively expanded Countrywide's subprime and option ARM lending; captured 20%+ of US mortgage origination market",
+              "impact": "Countrywide became the largest US mortgage lender; flooded the market with questionable loan products",
+              "magnitude": "high"
+            },
+            {
+              "date": "2006-09",
+              "action": "Wrote internal email (later made public) describing Countrywide's Pay-Option ARM product as 'the most dangerous product in existence'",
+              "impact": "Email became central exhibit in fraud investigations — evidence of knowing origination of toxic loans while publicly promoting them",
+              "magnitude": "high"
+            },
+            {
+              "date": "2007-08",
+              "action": "Countrywide drew down entire $11.5B bank credit line as wholesale funding froze; required emergency equity investment from Bank of America",
+              "impact": "First major visible crack in mortgage origination business; triggered broader run on mortgage-related paper",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-01",
+              "action": "Bank of America acquired Countrywide for $4B (stock had been worth $24B); Mozilo departed with $87M exit package",
+              "impact": "BofA absorbed Countrywide's toxic mortgage exposure — would eventually cost BofA $40B+ in settlements and legal costs",
+              "magnitude": "high"
+            },
+            {
+              "date": "2010-10",
+              "action": "Settled SEC fraud charges for $67.5M without admitting wrongdoing",
+              "impact": "Largest settlement against an individual in SEC history at that point; no criminal charges filed",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Son of a Bronx butcher. Co-founded Countrywide in 1969 with David Loeb. Built it from a small mortgage company into the largest US mortgage lender. Sold approximately $140M in Countrywide stock in the months before its collapse through pre-arranged 10b5-1 plans.",
+          "behavioral_note": "Mozilo became the most visible individual symbol of the subprime crisis — the CEO who knowingly sold dangerous products to borrowers while personally cashing out. His internal emails showing awareness of loan quality problems while publicly promoting the products became damning evidence. His escape from criminal prosecution while ordinary homeowners faced foreclosure crystallized public rage about accountability disparities in the crisis response."
+        },
+        {
+          "name": "Barney Frank",
+          "name_zh": "巴尼·弗兰克",
+          "role_at_time": "Chairman, House Financial Services Committee",
+          "organization": "United States House of Representatives",
+          "actions": [
+            {
+              "date": "2008-09",
+              "action": "Helped negotiate and pass Emergency Economic Stabilization Act (TARP) after initial House rejection on September 29; brokered compromise additions",
+              "impact": "TARP passage on October 3, 2008; $700B financial rescue authorized",
+              "magnitude": "high"
+            },
+            {
+              "date": "2009-06",
+              "action": "Released draft of the Wall Street Reform and Consumer Protection Act with Senate Banking Chair Chris Dodd",
+              "impact": "Dodd-Frank became the most sweeping financial regulation since Glass-Steagall; created CFPB, Volcker Rule, OTC derivatives clearing requirements",
+              "magnitude": "high"
+            },
+            {
+              "date": "2010-07",
+              "action": "Dodd-Frank Act signed into law (July 21, 2010)",
+              "impact": "Restructured US financial regulation; enhanced systemic risk oversight; limited bank proprietary trading",
+              "magnitude": "high"
+            }
+          ],
+          "background": "Massachusetts Democratic Congressman 1981-2013. Known as one of the most intellectually forceful legislators on financial matters. House Financial Services Committee Chair 2007-2011. Came out as gay in 1987, the first sitting member of Congress to do so voluntarily.",
+          "behavioral_note": "Frank bore some responsibility for resisting tighter Fannie/Freddie oversight before the crisis. His post-crisis response in shaping Dodd-Frank represented an attempt at structural reform that went well beyond the Paulson/Geithner preference for stability-first. The act bearing his name remains the defining post-crisis regulatory framework despite subsequent partial rollbacks under the 2018 Economic Growth Act."
+        },
+        {
+          "name": "Sheila Bair",
+          "name_zh": "希拉·贝尔",
+          "role_at_time": "Chairman, Federal Deposit Insurance Corporation",
+          "organization": "Federal Deposit Insurance Corporation (FDIC)",
+          "actions": [
+            {
+              "date": "2007-10",
+              "action": "Proposed loan modification guidelines for servicers to systematically modify troubled subprime mortgages — a pre-crisis intervention attempt",
+              "impact": "Largely ignored by Treasury and servicers at the time; later recognized as prescient",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2008-07",
+              "action": "Managed IndyMac Bank failure ($32B assets) — largest bank failure since the savings and loan crisis; invoked systemic risk exception for uninsured deposits",
+              "impact": "Demonstrated FDIC capacity to handle large failures; lines at IndyMac branches alarmed the public but all deposits were ultimately protected",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-09",
+              "action": "Guaranteed all FDIC-member bank senior debt and non-interest bearing transaction accounts through the Temporary Liquidity Guarantee Program (TLGP)",
+              "impact": "Stopped bank funding runs; allowed banks to issue debt during the panic; extraordinary expansion of FDIC's traditional role",
+              "magnitude": "high"
+            },
+            {
+              "date": "2009-02",
+              "action": "Publicly and internally argued for more aggressive homeowner relief as condition of bank assistance; overruled by Geithner and Summers",
+              "impact": "Homeowner relief remained minimal; foreclosure crisis persisted through 2012, with Bair's dissent later vindicated",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Republican appointee (by George W. Bush) as FDIC Chair 2006-2011. Prior career in financial regulation and academia. Known for independence from both parties and willingness to challenge Wall Street priorities.",
+          "behavioral_note": "Bair was uniquely positioned as both a crisis manager (FDIC handled 25 bank failures in 2008, 140 in 2009) and an internal critic of the bank-first approach. Her advocacy for homeowner relief over bank protection put her in direct conflict with Geithner at Treasury. Her memoir 'Bull by the Horns' provides the most candid insider account of the intra-government fault lines during crisis management."
+        },
+        {
+          "name": "Alistair Darling",
+          "name_zh": "阿利斯泰尔·达林",
+          "role_at_time": "Chancellor of the Exchequer, United Kingdom",
+          "organization": "HM Treasury, United Kingdom",
+          "actions": [
+            {
+              "date": "2007-09",
+              "action": "Authorized Bank of England emergency liquidity support for Northern Rock; announced government guarantee of all Northern Rock deposits",
+              "impact": "Britain's first bank run in 150 years halted; government on the hook for £87B in liabilities",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-02",
+              "action": "Nationalized Northern Rock after no private buyer could be found",
+              "impact": "First UK bank nationalization since the 1970s; set template for government bank takeovers",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-10",
+              "action": "Announced £500B UK bank recapitalization plan — government would take equity stakes in banks (not just make loans) in exchange for capital injections",
+              "impact": "Paulson copied the equity injection model for TARP within days; RBS and Lloyds/HBOS became majority government-owned",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-11",
+              "action": "Presented Pre-Budget Report with £20B fiscal stimulus — cutting VAT temporarily and bringing forward capital spending",
+              "impact": "UK took an early Keynesian stimulus approach; helped buffer recession depth; later attacked as insufficient by opposition",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Labour politician. Chancellor of the Exchequer 2007-2010. Inherited office just as the crisis was erupting. Reportedly told by PM Gordon Brown he would be moved after one year. Known for calm demeanor under extreme pressure. His memoirs describe being told the UK banking system was 'hours from collapse' in October 2008.",
+          "behavioral_note": "Darling's equity injection model for bank recapitalization — requiring government ownership stakes rather than just loans — was more aggressive and structurally sounder than the original US TARP asset-purchase model. Paulson adopted the UK model within days of its announcement. Darling has received less historical credit than deserved for this key policy innovation of the global crisis response."
+        },
+        {
+          "name": "Nicolas Sarkozy",
+          "name_zh": "尼古拉·萨科齐",
+          "role_at_time": "President of France; President of the European Union Council (H2 2008)",
+          "organization": "Government of France / European Union Council Presidency",
+          "actions": [
+            {
+              "date": "2008-10",
+              "action": "Convened emergency EU summit on October 12, 2008; coordinated €1.87T European bank support package with unified guarantee and recapitalization commitments",
+              "impact": "Prevented disorderly fragmentation of European crisis response; established EU-wide bank support framework",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-11",
+              "action": "Co-organized G20 Washington Summit (November 15) — first leaders-level G20 meeting; argued for new 'Bretton Woods' financial regulation architecture",
+              "impact": "Elevated G20 to premier global economic forum, displacing G8; launched framework for coordinated global regulatory reform",
+              "magnitude": "high"
+            },
+            {
+              "date": "2008-10",
+              "action": "Personally brokered agreement between Angela Merkel and Gordon Brown on unified European bank support approach, overcoming German initial resistance to guarantees",
+              "impact": "European response became more coordinated; reduced risk of competitive devaluation or unilateral national bailouts fragmenting the single market",
+              "magnitude": "high"
+            }
+          ],
+          "background": "French President 2007-2012. Conservative (UMP) but interventionist on economic matters. Former Finance Minister. Known for hyperactive diplomacy and desire for a high-profile international role.",
+          "behavioral_note": "Sarkozy's French EU Presidency (July-December 2008) coincided exactly with the crisis peak, and he used it aggressively to push for coordinated European action. His call for a new global financial architecture was more ambitious than what was achieved, but the G20 elevation proved durable. His crisis diplomacy was broadly seen as effective despite stylistic excess."
+        },
+        {
+          "name": "Zhou Xiaochuan",
+          "name_zh": "周小川",
+          "role_at_time": "Governor, People's Bank of China",
+          "organization": "People's Bank of China",
+          "actions": [
+            {
+              "date": "2008-09",
+              "action": "Cut benchmark lending rates three times in September-October 2008 and reduced reserve requirement ratios multiple times",
+              "impact": "Eased domestic credit conditions; supported Chinese economic activity as export demand collapsed",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2008-11",
+              "action": "Coordinated monetary accommodation alongside State Council's announcement of 4 trillion yuan stimulus package",
+              "impact": "Massive credit expansion — Chinese bank lending nearly doubled in 2009; prevented Chinese growth collapse",
+              "magnitude": "high"
+            },
+            {
+              "date": "2009-03",
+              "action": "Published essay calling for reform of the international reserve currency system away from the US dollar toward an expanded SDR role",
+              "impact": "Major intellectual challenge to dollar hegemony at moment of US financial credibility weakness; shaped subsequent reserve currency debates",
+              "magnitude": "high"
+            }
+          ],
+          "background": "Technocratic economist. PBOC Governor 2002-2018 — longest-serving central bank governor among major economies. PhD from University of California. Known for sophistication and reformist instincts, particularly on exchange rate flexibility.",
+          "behavioral_note": "Zhou's reserve currency essay at the height of the crisis was unusually bold for a Chinese official — a direct critique of US dollar dominance published in English, clearly intended for international audiences. It represented China's most direct use of the crisis to advance its international monetary agenda. The 4 trillion yuan stimulus program he accommodated monetarily was the largest counter-cyclical fiscal intervention in history at the time."
+        },
+        {
+          "name": "Wen Jiabao",
+          "name_zh": "温家宝",
+          "role_at_time": "Premier of the State Council of China",
+          "organization": "Government of the People's Republic of China",
+          "actions": [
+            {
+              "date": "2008-11",
+              "action": "Announced 4 trillion yuan ($586B) economic stimulus package — investment in infrastructure, housing, social welfare, and rural development",
+              "impact": "China maintained 9% GDP growth in 2009; became the largest single contributor to global growth recovery; created demand for commodities that cushioned Australia, Brazil, and resource exporters",
+              "magnitude": "high"
+            },
+            {
+              "date": "2009-01",
+              "action": "Davos speech called for increased global economic governance reform and criticized 'reckless pursuit of profit' in Western finance",
+              "impact": "Positioned China as responsible global actor; enhanced soft power at moment of Western credibility weakness",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2009-03",
+              "action": "Expressed 'worry' about safety of China's $1.4T in US Treasury holdings — first time a Chinese leader publicly questioned dollar asset safety",
+              "impact": "Treasury yields moved; signaled China's leverage over US fiscal position; accelerated discussions about reserve diversification",
+              "magnitude": "high"
+            }
+          ],
+          "background": "Geological engineer by training. Premier 2003-2013. Known for populist image and appearances at disaster sites. Managed China through SARS (2003), Sichuan earthquake (2008), and the global financial crisis. Often called 'Grandpa Wen' for his accessible public communication style.",
+          "behavioral_note": "The 4 trillion yuan stimulus was the decisive act that prevented the 2008 crisis from becoming a global depression. China's counter-cyclical spending when Western governments were constrained by political dysfunction or fiscal limits was the single most consequential economic policy response of the crisis period. It also created the infrastructure investment excess and local government debt that became China's structural problem of the following decade."
+        }
+      ]
+    },
+    "us_china_trade_war_2018_2019": {
+      "period": "2018-01 to 2020-01",
+      "figures": [
+        {
+          "name": "Robert Lighthizer",
+          "name_zh": "罗伯特·莱特希泽",
+          "role_at_time": "United States Trade Representative",
+          "organization": "Office of the United States Trade Representative",
+          "actions": [
+            {
+              "date": "2018-01",
+              "action": "Initiated Section 201 tariffs on solar panels and washing machines — first escalatory trade action of the Trump era",
+              "impact": "Signaled departure from WTO-first trade policy; solar panel installation costs increased for US market",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2018-03",
+              "action": "Launched Section 301 investigation into China's intellectual property and technology transfer practices",
+              "impact": "Legal and policy foundation for all subsequent China tariffs; framed trade conflict as IP/technology rather than just trade balance",
+              "magnitude": "high"
+            },
+            {
+              "date": "2018-06",
+              "action": "Imposed 25% tariffs on $50B in Chinese goods (Lists 1 and 2)",
+              "impact": "China retaliated with equivalent tariffs on US agriculture; US soybean exports to China collapsed; farm belt severely affected",
+              "magnitude": "high"
+            },
+            {
+              "date": "2018-09",
+              "action": "Imposed 10% tariffs on $200B in Chinese goods (List 3, later escalated to 25% in May 2019)",
+              "impact": "Broadened coverage to consumer goods; inflationary pressure on US importers; global supply chain disruption accelerated",
+              "magnitude": "high"
+            },
+            {
+              "date": "2020-01",
+              "action": "Signed Phase One trade deal with China — China committed to $200B in additional US purchases over two years",
+              "impact": "Partial de-escalation; China never met purchase commitments; structural issues (subsidies, IP, state enterprises) left unresolved",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Trade lawyer and former Reagan-era USTR deputy. Negotiated against Japanese auto imports in the 1980s. Strong believer in managed trade and reciprocity. One of the few Trump economic advisors with deep technical expertise and a coherent long-term theory of trade. Known as a China hawk with strategic patience.",
+          "behavioral_note": "Lighthizer was the intellectual architect of the tariff strategy in a way that Trump was not — he had a coherent theory of trade based on reciprocity and the need to counter Chinese economic practices that predated Trump by decades. His approach was more strategic and process-oriented than Navarro's ideological hawkishness. Most serious trade analysts, regardless of political orientation, view Lighthizer as the decisive figure rather than Trump in structuring the actual policy."
+        },
+        {
+          "name": "Peter Navarro",
+          "name_zh": "彼得·纳瓦罗",
+          "role_at_time": "Director, White House National Trade Council; Director, Office of Trade and Manufacturing Policy",
+          "organization": "White House",
+          "actions": [
+            {
+              "date": "2018-03",
+              "action": "Publicly undermined Treasury Secretary Mnuchin's market-calming statements by saying tariff negotiations were not on hold",
+              "impact": "Markets fell; reinforced perception of intra-administration incoherence on trade policy",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2018-06",
+              "action": "Called Canadian PM Justin Trudeau a 'back-stabber' after G7 communiqué dispute — escalated trade conflict with US allies simultaneously with China fight",
+              "impact": "Damaged US-Canada relations; complicated broader trade strategy by opening multiple fronts simultaneously",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2019-05",
+              "action": "Reportedly persuaded Trump to reject a near-complete US-China deal in May 2019, derailing negotiations",
+              "impact": "Trade war escalated significantly; markets dropped 5%+ in May 2019; delayed resolution by approximately 8 months",
+              "magnitude": "high"
+            },
+            {
+              "date": "2018-09",
+              "action": "Repeatedly claimed publicly that tariffs were paid by China rather than US consumers — official US trade war narrative despite contrary economic evidence",
+              "impact": "Empirically incorrect framing became official policy narrative; obscured the cost distribution debate",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Economics PhD (Harvard). UC Irvine professor. Author of 'Death by China' (2011) and other anti-China economic books. Had never held government office before joining Trump White House in 2017. Four-time unsuccessful candidate for San Diego City Council.",
+          "behavioral_note": "Navarro's policy influence was consistently destructive to negotiated resolution while being a net contributor to escalatory pressure. His derailing of the May 2019 near-deal is his most consequential act. Most trade economists viewed his analytical claims as deeply flawed. His personality conflicts with Mnuchin and occasional disagreements with Lighthizer were themselves a structural feature of the trade war's trajectory."
+        },
+        {
+          "name": "Liu He",
+          "name_zh": "刘鹤",
+          "role_at_time": "Vice Premier of the State Council; Director, Office of the Central Leading Group for Financial and Economic Affairs",
+          "organization": "Government of the People's Republic of China",
+          "actions": [
+            {
+              "date": "2018-05",
+              "action": "Led first senior-level trade negotiation delegation to Washington; proposed $200B reduction in the trade deficit through increased US purchases",
+              "impact": "Near-deal announced May 20 ('trade war on hold'); Mnuchin announced tentative agreement on deficit reduction — quickly reversed",
+              "magnitude": "high"
+            },
+            {
+              "date": "2018-06",
+              "action": "Talks collapsed when US reactivated tariff threats; Liu returned to Beijing without agreement despite previous announcement",
+              "impact": "Demonstrated the volatility and unpredictability of the US negotiating position; complicated Liu's domestic standing",
+              "magnitude": "high"
+            },
+            {
+              "date": "2019-05",
+              "action": "Led delegation for near-complete deal negotiations that collapsed when US insisted on enforceable commitments embedded in Chinese domestic law",
+              "impact": "Trade war escalated significantly; additional $300B in tariffs threatened; markets dropped 5%+ in May",
+              "magnitude": "high"
+            },
+            {
+              "date": "2020-01",
+              "action": "Signed Phase One agreement in Washington; committed China to $200B additional US purchases including $52B in energy",
+              "impact": "Partial de-escalation; avoided further tariff escalation; structural issues deferred rather than resolved",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Trained economist (Harvard Kennedy School). Career in Chinese economic planning and reform agencies. Xi Jinping's most trusted economic policy advisor since the 2000s. Described as the architect of Xi's supply-side structural reform program. Politburo member.",
+          "behavioral_note": "Liu He conducted negotiations under severe structural disadvantage: Trump's negotiating style meant any agreement could be reversed by a tweet, and Liu's domestic opponents used any US pressure as evidence of capitulation. His May 2018 apparent deal that immediately collapsed became a domestic political liability. His willingness to continue negotiations despite this reflected both pragmatism about the cost of trade war and Xi's strategic preference for eventual partial resolution."
+        },
+        {
+          "name": "Steven Mnuchin",
+          "name_zh": "史蒂文·姆努钦",
+          "role_at_time": "United States Secretary of the Treasury",
+          "organization": "U.S. Department of the Treasury",
+          "actions": [
+            {
+              "date": "2018-05",
+              "action": "Announced trade war was 'on hold' after initial Washington negotiations with Liu He — prematurely and without full White House consensus",
+              "impact": "Markets rallied briefly; announcement quickly reversed by Trump; Mnuchin's credibility as spokesperson damaged",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2019-01",
+              "action": "Led February 2019 negotiations in Beijing as moderate counterweight to Navarro; supported deal-making approach",
+              "impact": "Kept negotiations viable during the post-May 2018 collapse period; maintained communication channels",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2019-08",
+              "action": "Designated China as a currency manipulator after yuan fell past 7.0/USD",
+              "impact": "Escalatory symbolic move; most economists viewed China's currency moves as defensive responses to tariffs, not deliberate manipulation; markets fell",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Goldman Sachs career, then hedge fund (Dune Capital). Treasury Secretary 2017-2021. Closer to Wall Street preferences for stable market conditions than trade hawk ideology. Personal wealth partly from buying failed IndyMac Bank from FDIC in 2009 (renamed OneWest Bank).",
+          "behavioral_note": "Mnuchin occupied an awkward position throughout the trade war: market-facing and deal-oriented, but repeatedly undercut by Navarro or Trump. His currency manipulator designation of China was seen by most economists as technically unjustified and politically motivated. His utility was maintaining lines to Liu He and Wall Street through periods of maximum escalation."
+        },
+        {
+          "name": "Larry Kudlow",
+          "name_zh": "拉里·库德洛",
+          "role_at_time": "Director, National Economic Council",
+          "organization": "White House National Economic Council",
+          "actions": [
+            {
+              "date": "2018-06",
+              "action": "Publicly walked back Trump's tariff threats against China multiple times in television appearances",
+              "impact": "Short-term market relief; repeatedly undermined by subsequent Trump actions; markets learned to discount Kudlow's reassurances",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2019-09",
+              "action": "Publicly announced progress in trade talks and suggested a deal could come quickly ahead of October 2019 negotiations",
+              "impact": "Markets rallied; partial Phase One framework agreed in October; Kudlow's optimistic public role contributed to eventual de-escalation narrative",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "CNBC host and supply-side economist. Former Bear Stearns economist and Reagan-era OMB official. No government experience between 1987 and 2018. Known for consistent economic optimism and supply-side convictions.",
+          "behavioral_note": "Kudlow functioned primarily as a market-facing communicator rather than a policy architect. His habitual optimism regardless of underlying facts made markets discount his statements — a classic crying-wolf dynamic. His role in the trade war was to manage market reaction rather than shape policy substance."
+        },
+        {
+          "name": "Yi Gang",
+          "name_zh": "易纲",
+          "role_at_time": "Governor, People's Bank of China",
+          "organization": "People's Bank of China",
+          "actions": [
+            {
+              "date": "2018-06",
+              "action": "Managed RMB depreciation of approximately 9% against USD from June to October 2018 as trade war escalated",
+              "impact": "Partially offset tariff impact on Chinese exporters; created capital outflow pressure and domestic financial instability risks",
+              "magnitude": "high"
+            },
+            {
+              "date": "2018-10",
+              "action": "Stabilized RMB around 6.90-6.95/USD after excessive depreciation concerns through verbal intervention",
+              "impact": "Prevented further capital outflow spiral; maintained perception of managed float rather than deliberate weaponization",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2019-08",
+              "action": "Allowed RMB to cross the psychologically significant 7.0/USD threshold for first time since 2008",
+              "impact": "US declared China a currency manipulator; markets interpreted the move as an escalation signal; provided additional offset against tariff impact",
+              "magnitude": "high"
+            },
+            {
+              "date": "2019-09",
+              "action": "Conducted reserve requirement ratio cuts and liquidity injections to support domestic economy amid trade uncertainty",
+              "impact": "Cushioned economic slowdown; credit growth stabilized; CNY 7 level held without further depreciation",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Indiana University economics PhD. Career PBOC official. Deputy Governor 2007-2018, Governor 2018-2023. Academic background in monetary economics. Known for measured technocratic communication and careful management of foreign exchange expectations.",
+          "behavioral_note": "Yi Gang managed the RMB in a constrained space: too much depreciation would trigger US currency manipulation accusations and capital flight; too little would mean Chinese exporters bearing the full tariff cost. The crossing of 7.0 in August 2019 was a deliberate signal of Chinese willingness to use exchange rate as a partial offset, but Yi was careful to maintain the managed float framework rather than overt weaponization."
+        }
+      ]
+    },
+    "covid_economic_crisis_2020": {
+      "period": "2020-02 to 2021-12",
+      "figures": [
+        {
+          "name": "Jerome Powell",
+          "name_zh": "杰罗姆·鲍威尔",
+          "role_at_time": "Chairman, Federal Reserve",
+          "organization": "Federal Reserve System",
+          "actions": [
+            {
+              "date": "2020-03",
+              "action": "Emergency 50bp rate cut on March 3 — first emergency cut since 2008; followed by 100bp cut to zero (0-0.25%) on March 15",
+              "impact": "Significant but markets continued falling; cut telegraphed the severity of the Fed's concern",
+              "magnitude": "high"
+            },
+            {
+              "date": "2020-03",
+              "action": "Announced on March 23 that the Fed would purchase unlimited quantities of Treasury and agency mortgage-backed securities — 'QE infinity'",
+              "impact": "Single most impactful monetary policy announcement of the crisis — credit markets unfroze within days; corporate bond spreads tightened dramatically; S&P 500 bottomed on March 23",
+              "magnitude": "high"
+            },
+            {
+              "date": "2020-03",
+              "action": "Launched 9 emergency lending facilities including Main Street Lending Program, Municipal Liquidity Facility, and Primary and Secondary Market Corporate Credit Facilities",
+              "impact": "Prevented credit market seizure; corporate bond market reopened; municipalities stabilized; expanded Fed's mandate beyond all precedent",
+              "magnitude": "high"
+            },
+            {
+              "date": "2020-08",
+              "action": "Announced Flexible Average Inflation Targeting (FAIT) framework at Jackson Hole — Fed would allow inflation to run above 2% to achieve full employment",
+              "impact": "Forward guidance shift; committed to extended low rates; contributed to subsequent inflation persistence when demand recovered strongly",
+              "magnitude": "high"
+            },
+            {
+              "date": "2021-11",
+              "action": "Announced beginning of QE taper; continued to characterize inflation as 'transitory' through late 2021 — later publicly retracted",
+              "impact": "Delayed tightening contributed to inflation overshoot into 2022; 'transitory' became one of the most criticized Fed judgments in decades",
+              "magnitude": "high"
+            }
+          ],
+          "background": "Lawyer and investment banker (Carlyle Group). Fed Governor 2012, Chairman from 2018. No economics PhD — unusual for Fed Chair. Appointed by Trump, reappointed by Biden. Known for communication skill and consensus-building within the FOMC.",
+          "behavioral_note": "The March 23 QE infinity announcement was the single most impactful day in monetary history since Volcker's 1979 shift to monetarism. It ended the COVID market crash and set the floor for the subsequent recovery. The cost was enormous asset price inflation and the subsequent 'transitory' error that delayed the tightening cycle. Powell's March 2020 action was universally credited; his 2021 inflation misdiagnosis was universally criticized."
+        },
+        {
+          "name": "Steven Mnuchin",
+          "name_zh": "史蒂文·姆努钦",
+          "role_at_time": "United States Secretary of the Treasury",
+          "organization": "U.S. Department of the Treasury",
+          "actions": [
+            {
+              "date": "2020-03",
+              "action": "Negotiated CARES Act with Congressional leaders — $2.2T stimulus including $1,200 direct payments, $500B corporate lending facilities, $350B PPP for small businesses",
+              "impact": "Largest fiscal stimulus in US history to that point; stabilized household incomes; PPP kept millions of businesses operational",
+              "magnitude": "high"
+            },
+            {
+              "date": "2020-04",
+              "action": "Administered PPP rollout — $349B exhausted in 13 days; second round of $320B authorized within weeks",
+              "impact": "PPP disbursed $669B to ~5M businesses; preserved employment at the cost of significant fraud and distribution to large businesses unintended by the program",
+              "magnitude": "high"
+            },
+            {
+              "date": "2020-11",
+              "action": "Refused to extend five Fed emergency lending facilities (Main Street, Municipal, Corporate) through end of Trump term; requested return of $455B in unused CARES Act funds",
+              "impact": "Constrained incoming Biden administration's Fed policy tools; created brief market uncertainty; widely seen as a politically motivated act",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Goldman Sachs banker, then Hollywood film producer financing, then Dune Capital hedge fund. Treasury Secretary 2017-2021. Appears in both Trade War and COVID sections reflecting two-term service across both crises.",
+          "behavioral_note": "Mnuchin's CARES Act negotiation was his most consequential act — the speed (passed in days) and scale were extraordinary. His November 2020 decision to terminate Fed facilities was seen as a political move to constrain Biden, departing from the bipartisan crisis-management norm that had characterized the March-April 2020 response."
+        },
+        {
+          "name": "Nancy Pelosi",
+          "name_zh": "南希·佩洛西",
+          "role_at_time": "Speaker of the United States House of Representatives",
+          "organization": "United States House of Representatives",
+          "actions": [
+            {
+              "date": "2020-03",
+              "action": "Negotiated CARES Act passage in the House; secured expanded unemployment benefits (+$600/week) and direct payments as Democratic priorities",
+              "impact": "CARES Act unemployed supplement prevented consumption collapse; direct payments ($1,200 + $500/child) were broadly distributed",
+              "magnitude": "high"
+            },
+            {
+              "date": "2020-05",
+              "action": "Passed $3T HEROES Act in the House — second major stimulus package proposal",
+              "impact": "Remained stalled in Senate for months; eventually the framework informed December 2020 compromise",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2020-12",
+              "action": "Negotiated $900B Consolidated Appropriations Act with $600 direct payments and extended unemployment benefits",
+              "impact": "Second major stimulus before Biden inauguration; $600 payments seen as insufficient by many Democrats and by Trump",
+              "magnitude": "high"
+            },
+            {
+              "date": "2021-03",
+              "action": "Passed $1.9T American Rescue Plan — $1,400 direct payments, $350B state and local aid, expanded child tax credit",
+              "impact": "Largest single round of household support in US history; contributed to demand surge and subsequent inflation",
+              "magnitude": "high"
+            }
+          ],
+          "background": "California Democrat. Speaker 2007-2011 and 2019-2023. Most powerful Democratic legislator of her era. Baltimore political family background. Known for iron caucus discipline and negotiating skill.",
+          "behavioral_note": "Pelosi's role was to translate crisis urgency into legislative action while protecting Democratic priorities (household relief, not just corporate bailouts). The CARES Act's $600/week unemployment supplement was her signature addition — economists later credited it with maintaining consumer spending but also noted it exceeded pre-unemployment wages for many workers, affecting return-to-work incentives."
+        },
+        {
+          "name": "Mitch McConnell",
+          "name_zh": "米奇·麦康奈尔",
+          "role_at_time": "Senate Majority Leader, United States Senate",
+          "organization": "United States Senate",
+          "actions": [
+            {
+              "date": "2020-03",
+              "action": "Managed CARES Act passage through the Senate 96-0 (March 25, 2020) — extraordinary bipartisan vote for historic legislation assembled in days",
+              "impact": "CARES Act enacted; $2.2T stimulus within two weeks of COVID emergency declaration",
+              "magnitude": "high"
+            },
+            {
+              "date": "2020-07",
+              "action": "Delayed second major stimulus negotiations; HEROES Act stalled in Senate; enhanced unemployment benefits expired July 31",
+              "impact": "Partial income cliff for unemployed workers; prolonged negotiating uncertainty weighed on confidence through summer 2020",
+              "magnitude": "high"
+            },
+            {
+              "date": "2020-12",
+              "action": "Blocked $2,000 direct payments in House-passed bill (which Trump had publicly endorsed); compromised at $600",
+              "impact": "Political controversy; Georgia Senate runoffs in January 2021 partly fought on $2,000 vs $600; Democrats won both seats, flipping Senate control",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Kentucky Republican Senator since 1985. Senate Majority Leader 2015-2021 and 2025-. Known as 'The Turtle' for patience and procedural mastery. Career defined by prioritization of judicial appointments and institutional Republican power preservation.",
+          "behavioral_note": "McConnell's CARES Act facilitation was his most constructive crisis management act — he moved extraordinarily fast by Senate standards. His subsequent blocking of further stimulus reflected his institutional preference for limiting government spending and his political calculus about the 2020 election. The $2,000 vs $600 payment fight became a campaign issue that arguably cost Republicans the Senate majority in Georgia."
+        },
+        {
+          "name": "Elon Musk",
+          "name_zh": "埃隆·马斯克",
+          "role_at_time": "CEO, Tesla; CEO, SpaceX",
+          "organization": "Tesla Inc. / SpaceX",
+          "actions": [
+            {
+              "date": "2020-03",
+              "action": "Tweeted 'FREE AMERICA NOW' (April 29, 2020) and 'Tesla stock price is too high imo' — simultaneously defied California COVID lockdown orders",
+              "impact": "Tesla stock fell ~10% on the 'too high' tweet; lockdown defiance positioned Musk as anti-establishment; attracted retail investor identification",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2020-05",
+              "action": "Reopened Fremont Tesla factory in defiance of Alameda County health orders; threatened to move Tesla HQ to Texas or Nevada",
+              "impact": "County backed down; Tesla factory reopened; escalated Musk's public conflict with California regulators; HQ eventually moved to Texas in 2021",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2020-12",
+              "action": "Tesla added to S&P 500 (December 21) — one of the largest additions ever; Musk briefly became the world's richest person",
+              "impact": "Forced ~$80B in passive fund purchases of Tesla; Tesla market cap exceeded $700B; Musk's wealth exceeded $180B",
+              "magnitude": "high"
+            },
+            {
+              "date": "2021-01",
+              "action": "Tweeted 'Use Signal' — intended as endorsement of Signal messaging app; accidentally pumped unrelated Signal Advance Inc. stock by 1,100%",
+              "impact": "Demonstrated Musk's unprecedented market-moving power; retail investors suffered losses on wrong Signal company; accelerated scrutiny of market-moving tweets",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2021-05",
+              "action": "Tweeted criticism of Bitcoin's environmental impact; announced Tesla would not accept Bitcoin payments; Bitcoin fell ~30%",
+              "impact": "Single tweet moved global cryptocurrency market cap by hundreds of billions of dollars; demonstrated unprecedented individual influence over asset prices",
+              "magnitude": "high"
+            }
+          ],
+          "background": "South African-born entrepreneur. Co-founded Zip2, X.com/PayPal. Founded SpaceX 2002, early investor and CEO of Tesla from 2008. Became a major social media presence and retail investor icon during the COVID era. DOGE meme promoter.",
+          "behavioral_note": "Musk's COVID-era transformation from tech CEO to cultural and market phenomenon was a defining feature of the 2020-2021 market environment. His Twitter account became a market-moving instrument affecting individual stocks, cryptocurrencies, and sectors. This represented a new type of market influence — individual personality-driven price discovery — that had no historical precedent at scale. His behavior contributed to the retail speculation bubble of 2020-2021."
+        },
+        {
+          "name": "Keith Gill",
+          "name_zh": "基思·吉尔",
+          "role_at_time": "Individual investor and content creator ('Roaring Kitty' / 'DeepFuckingValue'); former MassMutual financial analyst",
+          "organization": "Independent",
+          "actions": [
+            {
+              "date": "2019-06",
+              "action": "Began posting GameStop investment thesis on Reddit (r/wallstreetbets) as 'DeepFuckingValue' and on YouTube as 'Roaring Kitty'",
+              "impact": "Built retail following around contrarian thesis that GME was undervalued and heavily shorted; laid groundwork for eventual squeeze",
+              "magnitude": "low"
+            },
+            {
+              "date": "2021-01",
+              "action": "Posted real-time brokerage statements showing $50,000 initial investment in GME calls grown to $48M; catalyzed Reddit short squeeze",
+              "impact": "GME rose from $17 to $483 between January 1-28; hedge funds (Melvin Capital, Citron Research) lost billions on short positions",
+              "magnitude": "high"
+            },
+            {
+              "date": "2021-02",
+              "action": "Testified before Congress (February 18) defending his investment thesis as legitimate fundamental analysis",
+              "impact": "Humanized the retail investing movement; Congress unable to clearly distinguish between legal retail investing and market manipulation",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Chartered Financial Analyst. Massachusetts financial analyst at MassMutual before becoming full-time investor and content creator. Amateur wrestler. First bought GameStop in June 2019 when the stock was deeply out of favor at around $5.",
+          "behavioral_note": "Gill became the unlikely catalyst for the most prominent clash between retail and institutional investors in market history. His thesis (GME was undervalued and over-shorted) was analytically defensible — most media coverage missed that he wasn't simply promoting meme speculation. The GameStop squeeze revealed structural vulnerabilities in market plumbing (T+2 settlement, broker capital requirements) that forced Robinhood's trading halt and generated congressional investigations into market microstructure."
+        },
+        {
+          "name": "Cathie Wood",
+          "name_zh": "凯西·伍德",
+          "role_at_time": "Founder and Chief Investment Officer, ARK Invest",
+          "organization": "ARK Investment Management LLC",
+          "actions": [
+            {
+              "date": "2020-03",
+              "action": "Maintained and added to speculative growth positions in Tesla, genomics, fintech, and space through the COVID crash rather than reducing",
+              "impact": "ARK Innovation ETF (ARKK) rose 149% in 2020; became the top-performing actively managed fund in the US",
+              "magnitude": "high"
+            },
+            {
+              "date": "2020-12",
+              "action": "Appeared extensively on major financial media as 'the next Warren Buffett'; retail investment in ARK funds surged to $50B+ AUM",
+              "impact": "Retail investors poured into disruptive technology ETFs; ARKK became a proxy for growth/innovation investing; peak retail flows arrived near performance peak",
+              "magnitude": "high"
+            },
+            {
+              "date": "2021-02",
+              "action": "Published 5-year price target for Tesla at $3,000 per share (split-adjusted ~$600); maintained through market peak",
+              "impact": "Attracted additional retail investment; targets repeatedly missed; became symbol of excessive 2021 growth valuations",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2021-11",
+              "action": "ARKK peaked at $159 before beginning a 75%+ decline as rate expectations shifted; Wood continued buying throughout the decline",
+              "impact": "ARK investors who bought at peak lost 75%+ by mid-2022; became a major retail investor loss event; illustrated danger of narrative-driven investing",
+              "magnitude": "high"
+            }
+          ],
+          "background": "BA in Economics from USC. Career at Capital Group, Jennison Associates, AllianceBernstein. Founded ARK Invest in 2014. Deep technology optimism influenced by Ray Kurzweil's technological acceleration thesis. First woman to win Morningstar's Domestic Stock Fund Manager of the Year (2020).",
+          "behavioral_note": "Wood's rise and fall was the defining arc of the 2020-2021 growth bubble. ARKK's 2020 performance attracted retail investors at the worst possible time — most bought at or near the peak as media coverage intensified. Her continued confidence through the 75% drawdown (adding to positions rather than reducing) demonstrated either remarkable conviction or failure to adjust to changing interest rate environment. The episode became a case study in performance chasing and narrative-driven fund flows."
+        },
+        {
+          "name": "Christine Lagarde",
+          "name_zh": "克里斯蒂娜·拉加德",
+          "role_at_time": "President, European Central Bank",
+          "organization": "European Central Bank",
+          "actions": [
+            {
+              "date": "2020-03",
+              "action": "Said at press conference on March 12: 'We are not here to close spreads. That's not the function or the mission of the ECB' — in response to Italian/German bond spread widening",
+              "impact": "Italian BTP spreads widened 70bp immediately; Italian 10-year yield surged to 2.4%; European peripheral bonds crashed on the statement",
+              "magnitude": "high"
+            },
+            {
+              "date": "2020-03",
+              "action": "Announced Pandemic Emergency Purchase Programme (PEPP) — €750B bond purchase program — on March 18, just six days after the gaffe",
+              "impact": "Peripheral spreads tightened sharply; PEPP eventually expanded to €1.85T; eurozone fragmentation risk was eliminated",
+              "magnitude": "high"
+            },
+            {
+              "date": "2020-06",
+              "action": "Expanded PEPP from €750B to €1.35T; extended program through at least June 2021 with flexible reinvestment",
+              "impact": "Reinforced ECB commitment to preventing fragmentation; Italian borrowing costs remained sustainable throughout the crisis",
+              "magnitude": "high"
+            }
+          ],
+          "background": "French lawyer, not economist. IMF Managing Director 2011-2019. Former French Finance Minister 2007-2011. ECB President from November 2019. First woman to hold both the IMF MD and ECB President roles. Better known for political communication than monetary economics.",
+          "behavioral_note": "The March 12 comment was one of the most costly single sentences in central bank history — it immediately triggered a market selloff that worsened the European COVID crisis response. Lagarde later said she misspoke and had intended to convey that the ECB would act decisively. The gaffe was particularly damaging because it evoked memories of Trichet's destabilizing rate hikes during the 2011 sovereign debt crisis. The PEPP program launched six days later was powerful enough to offset the damage."
+        },
+        {
+          "name": "Rishi Sunak",
+          "name_zh": "里希·苏纳克",
+          "role_at_time": "Chancellor of the Exchequer, United Kingdom",
+          "organization": "HM Treasury, United Kingdom",
+          "actions": [
+            {
+              "date": "2020-03",
+              "action": "Announced Coronavirus Job Retention Scheme (furlough) — government would pay 80% of wages up to £2,500/month for employees at closed businesses",
+              "impact": "11 million workers covered at peak; prevented mass unemployment; UK unemployment peaked at 5.2% vs estimates of 15%+ without the scheme",
+              "magnitude": "high"
+            },
+            {
+              "date": "2020-03",
+              "action": "Launched Self-Employment Income Support Scheme — £7.5B for 2.9M self-employed workers",
+              "impact": "Extended income protection beyond payroll employees; reduced inequality of crisis impact across worker types",
+              "magnitude": "high"
+            },
+            {
+              "date": "2020-04",
+              "action": "Launched Bounce Back Loan Scheme — 100% government-guaranteed loans up to £50,000 for small businesses, disbursed within days",
+              "impact": "£47B disbursed rapidly; maintained small business solvency; substantial subsequent fraud estimated at £5B+",
+              "magnitude": "high"
+            },
+            {
+              "date": "2021-03",
+              "action": "Extended furlough through September 2021; announced corporation tax rise from 19% to 25% to fund crisis borrowing",
+              "impact": "Managed withdrawal of support without cliff-edge; UK fiscal consolidation plan established earlier than most G7 economies",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Goldman Sachs analyst, then hedge fund (TCI and others). MP from 2015. Married to Infosys heiress Akshata Murthy. Chancellor February 2020 — assumed office weeks before the COVID crisis. Later became UK Prime Minister 2022-2024.",
+          "behavioral_note": "Sunak's furlough scheme was the most copied policy innovation of the COVID crisis — versions were adopted by France, Netherlands, and others; Germany's pre-existing Kurzarbeit provided the template. Its design (paying firms to retain workers rather than paying unemployed workers separately) preserved employer-employee relationships and facilitated the fastest employment recovery in modern UK history. Sunak's political reputation was built almost entirely on this policy."
+        },
+        {
+          "name": "Li Keqiang",
+          "name_zh": "李克强",
+          "role_at_time": "Premier of the State Council of China",
+          "organization": "Government of the People's Republic of China",
+          "actions": [
+            {
+              "date": "2020-03",
+              "action": "Announced 'Six Stabilities' and 'Six Guarantees' economic support framework — employment, financial stability, foreign trade, foreign investment, investment, and market expectations",
+              "impact": "Established policy signal framework for the Chinese crisis response; more targeted than the 2008-style massive stimulus",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2020-05",
+              "action": "At National People's Congress, declined to set GDP growth target for 2020 (first time in decades); candidly acknowledged '600 million people have monthly incomes of around 1,000 yuan' (~$140)",
+              "impact": "Candid acknowledgment of poverty scale was unusual for Chinese leadership; the 1,000 yuan remark was widely circulated and interpreted as an implicit critique of official poverty alleviation narratives",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2021-12",
+              "action": "Managed economic policy under Zero COVID constraints as Omicron spread; China maintained Zero COVID through most of 2022",
+              "impact": "Zero COVID suppressed consumption and mobility; contributed to China's growth underperformance vs global peers in 2021-2022",
+              "magnitude": "high"
+            }
+          ],
+          "background": "PhD in economics from Peking University; also holds a law degree. Premier 2013-2023. Long seen as Xi's main rival within the system. More market-oriented economic instincts than Xi. The '1,000 yuan' remark was widely interpreted as a veiled challenge to Xi's narrative of successful poverty alleviation.",
+          "behavioral_note": "Li Keqiang occupied a uniquely constrained position — nominally China's second most powerful figure but increasingly marginalized by Xi Jinping. His '600 million people at 1,000 yuan/month' remark was interpreted as a veiled challenge to Xi's boastful economic narrative at the NPC. He died suddenly in October 2023, eight months after leaving office, under circumstances that generated significant domestic speculation."
+        }
+      ]
+    },
+    "inflation_rate_shock_2022_2023": {
+      "period": "2022-01 to 2023-12",
+      "figures": [
+        {
+          "name": "Vladimir Putin",
+          "name_zh": "弗拉基米尔·普京",
+          "role_at_time": "President of the Russian Federation",
+          "organization": "Government of the Russian Federation",
+          "actions": [
+            {
+              "date": "2022-02",
+              "action": "Launched full-scale invasion of Ukraine on February 24 — largest European land war since WWII",
+              "impact": "European natural gas prices surged 300-400%; global wheat and sunflower oil prices spiked 50-80%; contributed 2-3 percentage points to European inflation in 2022",
+              "magnitude": "high"
+            },
+            {
+              "date": "2022-04",
+              "action": "Cut off natural gas supply to Poland and Bulgaria (April 26); progressively reduced Nord Stream 1 flows to 20% of capacity citing turbine maintenance",
+              "impact": "European energy security crisis; Germany and others scrambled for LNG alternatives; Brent crude rose above $130 in March",
+              "magnitude": "high"
+            },
+            {
+              "date": "2022-09",
+              "action": "Nord Stream 1 and 2 pipelines were sabotaged (September 26) — attribution debated but Russia widely suspected or acknowledged; physical destruction of infrastructure was permanent",
+              "impact": "Permanent destruction of key European-Russian gas infrastructure; forced permanent transition away from pipeline Russian gas",
+              "magnitude": "high"
+            },
+            {
+              "date": "2022-09",
+              "action": "Announced partial mobilization of 300,000 reservists and annexation of four Ukrainian regions (September 21-30)",
+              "impact": "Extended war timeline; maintained energy supply disruption; kept inflation elevated through 2022-2023; triggered 700,000+ Russians to flee the country",
+              "magnitude": "high"
+            },
+            {
+              "date": "2023-07",
+              "action": "Withdrew from Black Sea Grain Initiative on July 17 — ended the Ukrainian grain export corridor",
+              "impact": "Wheat prices rose 8% immediately; food inflation in developing countries worsened; African and Middle Eastern import-dependent nations most affected",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Former KGB officer. President of Russia 1999-2008 and 2012-present. Built Russian state power through energy revenues during the 2000s commodity supercycle. Increasingly isolated from Western economic norms post-2014 Crimea annexation.",
+          "behavioral_note": "Putin's invasion was the proximate cause of the energy price shock that turned post-COVID inflation from a supply chain story into a multi-year crisis. His miscalculation — apparently expecting quick Ukrainian capitulation rather than sustained Western support — also backfired economically: the forced European energy diversification permanently reduced Russian gas revenue. The energy weapon he thought he possessed destroyed the European market for Russian gas permanently, removing Russia's single most important economic leverage over Europe."
+        },
+        {
+          "name": "Olaf Scholz",
+          "name_zh": "奥拉夫·肖尔茨",
+          "role_at_time": "Federal Chancellor of Germany",
+          "organization": "Federal Government of Germany",
+          "actions": [
+            {
+              "date": "2022-02",
+              "action": "Declared 'Zeitenwende' (historic turning point) in a Bundestag speech on February 27; committed €100B special fund for German military rearmament",
+              "impact": "Broke Germany's postwar military spending constraints; largest German fiscal commitment in decades; triggered NATO rearmament debate",
+              "magnitude": "high"
+            },
+            {
+              "date": "2022-02",
+              "action": "Halted certification of Nord Stream 2 pipeline on February 22 — two days before the invasion",
+              "impact": "Ended the German-Russian gas infrastructure project that had been Germany's greatest energy vulnerability; marked the effective end of the Russia energy relationship",
+              "magnitude": "high"
+            },
+            {
+              "date": "2022-09",
+              "action": "Announced €200B 'Doppelwumms' (double bang) defense shield for energy price caps for German businesses and households",
+              "impact": "Largest national energy support package in Europe; cushioned German industrial competitiveness through the energy shock; criticized by EU partners as giving Germany an unfair industrial advantage",
+              "magnitude": "high"
+            },
+            {
+              "date": "2022-12",
+              "action": "Inaugurated Germany's first LNG terminal at Wilhelmshaven — built in record 10 months from floating storage unit",
+              "impact": "Demonstrated Germany's infrastructure speed when politically motivated; began diversifying away from pipeline gas; LNG imports scaled rapidly through 2023",
+              "magnitude": "high"
+            },
+            {
+              "date": "2023-01",
+              "action": "Approved Leopard 2 tank deliveries to Ukraine on January 25 after weeks of resistance",
+              "impact": "Unlocked similar commitments from US and other NATO members; escalated military support to Ukraine; extended war and associated energy disruption",
+              "magnitude": "medium"
+            }
+          ],
+          "background": "Social Democrat (SPD). Hamburg Mayor 2011-2018. Finance Minister 2018-2021. Chancellor December 2021. Succeeded Angela Merkel, inheriting Germany's deep Russian gas dependency built over two decades.",
+          "behavioral_note": "Scholz inherited Merkel's Russia energy strategy and was governing for less than three months before the Ukraine invasion. His Zeitenwende speech represented an extraordinary break with postwar German restraint. The €200B energy shield was simultaneously a necessary cushion for German industrial competitiveness and a source of EU irritation — France and Italy argued it gave Germany an unfair advantage in attracting industrial investment during the energy crisis."
+        },
+        {
+          "name": "Sam Bankman-Fried",
+          "name_zh": "萨姆·班克曼-弗里德",
+          "role_at_time": "Co-founder and Chief Executive Officer, FTX",
+          "organization": "FTX Trading Ltd. / Alameda Research",
+          "actions": [
+            {
+              "date": "2022-06",
+              "action": "Provided emergency bailout loans to Voyager Digital ($500M) and BlockFi ($400M) during the Terra/LUNA collapse contagion",
+              "impact": "Positioned FTX and SBF as the 'savior of the crypto industry'; attracted trust and institutional deposits to FTX",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2022-11",
+              "action": "CoinDesk published Alameda Research balance sheet on November 2 showing heavy FTT token holdings; Binance CEO CZ announced Binance would sell its entire FTT position",
+              "impact": "FTT price collapsed; $6B in customer withdrawal requests overwhelmed FTX liquidity in 72 hours; FTX's fundamental insolvency was exposed",
+              "magnitude": "high"
+            },
+            {
+              "date": "2022-11",
+              "action": "Filed for Chapter 11 bankruptcy on November 11; resigned as CEO; approximately $8B in customer funds found missing",
+              "impact": "Crypto market cap fell ~$200B in a week; contagion to Genesis, Gemini Earn, and BlockFi (which also filed bankruptcy); crypto winter deepened through 2023",
+              "magnitude": "high"
+            },
+            {
+              "date": "2022-11",
+              "action": "Gave extensive media interviews post-bankruptcy claiming lack of awareness of fund commingling between FTX and Alameda",
+              "impact": "Interviews were used as evidence in criminal prosecution; 'effective altruism' philanthropic image destroyed",
+              "magnitude": "medium"
+            },
+            {
+              "date": "2023-11",
+              "action": "Convicted on 7 counts of wire fraud, securities fraud, and conspiracy on November 2; sentenced to 25 years imprisonment in March 2024",
+              "impact": "Landmark crypto fraud prosecution; strengthened regulatory pressure on crypto industry globally; permanently altered the regulatory environment",
+              "magnitude": "high"
+            }
+          ],
+          "background": "MIT physics graduate, Jane Street Capital trader. Founded Alameda Research (crypto trading firm) in 2017, FTX exchange in 2019. Prominent effective altruism adherent who pledged to give away most of his wealth. Major political donor (~$40M in 2022 cycle, mostly to Democrats and bipartisan causes). Built FTX to $32B valuation in three years.",
+          "behavioral_note": "FTX's collapse was the most significant crypto event since Bitcoin's creation. The commingling of customer deposits and Alameda trading funds was straightforward fraud. SBF's unique damage was his successful positioning as a credible, regulated, responsible crypto actor — his regulatory engagement and political donations had created an aura of legitimacy that attracted institutional interest and delayed regulatory scrutiny. The collapse accelerated both crypto regulation and institutional skepticism of the crypto industry."
+        },
+        {
+          "name": "Greg Becker",
+          "name_zh": "格雷格·贝克尔",
+          "role_at_time": "Chief Executive Officer, Silicon Valley Bank",
+          "organization": "Silicon Valley Bank (SVB Financial Group)",
+          "actions": [
+            {
+              "date": "2020-12",
+              "action": "Substantially increased SVB's long-duration Treasury and agency MBS portfolio as deposits surged from tech startup clients flush with venture capital",
+              "impact": "SVB invested ~$80B in long-duration securities at historically low yields, just before the Fed's most aggressive rate hiking cycle in 40 years",
+              "magnitude": "high"
+            },
+            {
+              "date": "2022-01",
+              "action": "Failed to hedge the interest rate risk in the long-duration securities portfolio as Fed signals shifted decisively toward aggressive tightening through 2022",
+              "impact": "Unrealized losses on SVB's held-to-maturity portfolio reached $15B+ by end of 2022 against $16B in equity capital",
+              "magnitude": "high"
+            },
+            {
+              "date": "2023-03",
+              "action": "Announced sale of $21B bond portfolio at $1.8B loss and a $2.25B equity raise on March 8, without a committed anchor investor in place",
+              "impact": "Loss announcement triggered a bank run — $42B in withdrawal requests in 24 hours; the single largest bank run in US history by speed",
+              "magnitude": "high"
+            },
+            {
+              "date": "2023-03",
+              "action": "Silicon Valley Bank was placed into FDIC receivership on March 10 — second-largest US bank failure in history ($209B in assets)",
+              "impact": "Triggered runs on Signature Bank (failed March 12) and panic at First Republic (failed May 2023); systemic risk exception declared for uninsured SVB depositors",
+              "magnitude": "high"
+            }
+          ],
+          "background": "SVB employee since 1993, CEO from 2011. Long career serving the startup and venture capital ecosystem. Made $3.6M in stock sales two weeks before the bank's collapse through pre-arranged 10b5-1 plans. Lobbied successfully in 2018 for rollback of enhanced prudential standards (the Dodd-Frank Section 401/EGRRCPA exemption for mid-size banks).",
+          "behavioral_note": "SVB's failure was a classic duration mismatch exacerbated by concentration risk — the startup/VC client base had highly correlated withdrawal behavior during the tech funding winter of 2022-2023. Becker's most consequential act may have been the 2018 lobbying for regulatory relief: SVB's size ($50-250B) put it in the category that successfully argued for reduced stress testing requirements. Enhanced standards would likely have flagged SVB's duration risk years earlier. The communication of the bond loss and equity raise without a committed anchor investor was a textbook example of how not to manage a bank's capital-raising announcement."
+        }
+      ]
+    }
+  }
+}

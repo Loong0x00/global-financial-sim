@@ -1,0 +1,194 @@
+{
+  "generated": "2026-03-12 12:18:47",
+  "purpose": "Fill known gaps in FRED economic dataset",
+  "files": {
+    "uk_bank_rate.json": {
+      "uk_rate_fallback_BOGZ1FL072052006Q": {
+        "source": "FRED",
+        "series_id": "BOGZ1FL072052006Q",
+        "points": 51,
+        "range": "2013-01-01 .. 2025-07-01"
+      },
+      "uk_rate_fallback_IR3TIB01GBM156N": {
+        "source": "FRED",
+        "series_id": "IR3TIB01GBM156N",
+        "points": 157,
+        "range": "2013-01-01 .. 2026-01-01"
+      },
+      "uk_rate_fallback_IRSTCI01GBM156N": {
+        "source": "FRED",
+        "series_id": "IRSTCI01GBM156N",
+        "points": 157,
+        "range": "2013-01-01 .. 2026-01-01"
+      }
+    },
+    "russia_supplementary.json": {
+      "ru_INTDSRRUM193N": {
+        "source": "FRED",
+        "series_id": "INTDSRRUM193N",
+        "points": 220,
+        "range": "1995-01-01 .. 2013-04-01"
+      },
+      "ru_CCUSMA02RUM618N": {
+        "source": "FRED",
+        "series_id": "CCUSMA02RUM618N",
+        "points": 404,
+        "range": "1992-06-01 .. 2026-01-01"
+      },
+      "ru_MANMM101RUM189S": {
+        "source": "FRED",
+        "series_id": "MANMM101RUM189S",
+        "points": 283,
+        "range": "1995-06-01 .. 2018-12-01"
+      },
+      "ru_MABMM301RUM189S": {
+        "source": "FRED",
+        "series_id": "MABMM301RUM189S",
+        "points": 334,
+        "range": "1995-06-01 .. 2023-03-01"
+      },
+      "ru_IRSTCB01RUM156N": {
+        "source": "FRED",
+        "series_id": "IRSTCB01RUM156N",
+        "points": 346,
+        "range": "1995-01-01 .. 2023-10-01"
+      }
+    },
+    "china_supplementary.json": {
+      "cn_CHNCPIALLMINMEI": {
+        "source": "FRED",
+        "series_id": "CHNCPIALLMINMEI",
+        "points": 388,
+        "range": "1993-01-01 .. 2025-04-01"
+      },
+      "cn_XTEXVA01CNM667S": {
+        "source": "FRED",
+        "series_id": "XTEXVA01CNM667S",
+        "points": 408,
+        "range": "1992-01-01 .. 2025-12-01"
+      },
+      "cn_XTIMVA01CNM667S": {
+        "source": "FRED",
+        "series_id": "XTIMVA01CNM667S",
+        "points": 408,
+        "range": "1992-01-01 .. 2025-12-01"
+      },
+      "cn_QCNR628BIS": {
+        "source": "FRED",
+        "series_id": "QCNR628BIS",
+        "points": 82,
+        "range": "2005-04-01 .. 2025-07-01"
+      },
+      "cn_CCUSMA02CNM618N": {
+        "source": "FRED",
+        "series_id": "CCUSMA02CNM618N",
+        "points": 661,
+        "range": "1971-01-01 .. 2026-01-01"
+      },
+      "cn_MANMM101CNM189S": {
+        "source": "FRED",
+        "series_id": "MANMM101CNM189S",
+        "points": 240,
+        "range": "1999-01-01 .. 2018-12-01"
+      },
+      "cn_INTDSRCNM193N": {
+        "source": "FRED",
+        "series_id": "INTDSRCNM193N",
+        "points": 423,
+        "range": "1990-03-01 .. 2025-06-01"
+      },
+      "cn_IRSTCI01CNM156N": {
+        "source": "FRED",
+        "series_id": "IRSTCI01CNM156N",
+        "points": 424,
+        "range": "1990-03-01 .. 2025-06-01"
+      }
+    },
+    "us_additional.json": {
+      "us_BAMLH0A0HYM2": {
+        "source": "FRED",
+        "series_id": "BAMLH0A0HYM2",
+        "points": 350,
+        "range": "1997-01-01 .. 2026-02-01"
+      },
+      "us_T10Y2Y": {
+        "source": "FRED",
+        "series_id": "T10Y2Y",
+        "points": 597,
+        "range": "1976-06-01 .. 2026-02-01"
+      },
+      "us_TEDRATE": {
+        "source": "FRED",
+        "series_id": "TEDRATE",
+        "points": 432,
+        "range": "1986-01-01 .. 2021-12-01"
+      },
+      "us_DTWEXBGS": {
+        "source": "FRED",
+        "series_id": "DTWEXBGS",
+        "points": 242,
+        "range": "2006-01-01 .. 2026-02-01"
+      },
+      "us_USSTHPI": {
+        "source": "FRED",
+        "series_id": "USSTHPI",
+        "points": 204,
+        "range": "1975-01-01 .. 2025-10-01"
+      },
+      "us_CSUSHPISA": {
+        "source": "FRED",
+        "series_id": "CSUSHPISA",
+        "points": 468,
+        "range": "1987-01-01 .. 2025-12-01"
+      },
+      "us_UMCSENT": {
+        "source": "FRED",
+        "series_id": "UMCSENT",
+        "points": 605,
+        "range": "1971-02-01 .. 2026-01-01"
+      },
+      "us_DGS10": {
+        "source": "FRED",
+        "series_id": "DGS10",
+        "points": 662,
+        "range": "1971-01-01 .. 2026-02-01"
+      },
+      "us_DGS2": {
+        "source": "FRED",
+        "series_id": "DGS2",
+        "points": 597,
+        "range": "1976-06-01 .. 2026-02-01"
+      },
+      "us_T10YIE": {
+        "source": "FRED",
+        "series_id": "T10YIE",
+        "points": 278,
+        "range": "2003-01-01 .. 2026-02-01"
+      },
+      "us_T5YIE": {
+        "source": "FRED",
+        "series_id": "T5YIE",
+        "points": 278,
+        "range": "2003-01-01 .. 2026-02-01"
+      },
+      "us_DFII10": {
+        "source": "FRED",
+        "series_id": "DFII10",
+        "points": 278,
+        "range": "2003-01-01 .. 2026-02-01"
+      },
+      "us_BAMLC0A4CBBB": {
+        "source": "FRED",
+        "series_id": "BAMLC0A4CBBB",
+        "points": 350,
+        "range": "1997-01-01 .. 2026-02-01"
+      },
+      "us_BAMLC0A0CM": {
+        "source": "FRED",
+        "series_id": "BAMLC0A0CM",
+        "points": 350,
+        "range": "1997-01-01 .. 2026-02-01"
+      }
+    }
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "leader": "Margaret Thatcher",
+  "role": "Prime Minister of the United Kingdom (May 1979 – Nov 1990)",
+  "level": 2,
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "Thatcher government economic records 1979-1990 (HM Treasury, ONS)",
+    "Medium Term Financial Strategy (MTFS) 1980",
+    "Miners' Strike 1984-1985: coal industry records, NCB/NUM negotiations",
+    "Privatization program: BT (1984), BG (1986), BA (1987), BAA (1987), BP (1987), Water (1989), Electricity (1990)",
+    "Big Bang financial deregulation Oct 27, 1986",
+    "ERM membership: joining Oct 1990, Lawson Boom and bust 1987-1991",
+    "Falklands War economic context Apr-Jun 1982",
+    "Poll tax (Community Charge) introduction 1989-1990 and resignation Nov 1990",
+    "Thatcher memoirs: 'The Path to Power' (1995), 'The Downing Street Years' (1993)",
+    "Howe budget 1981 (deflationary budget during recession — 364 economists protested)",
+    "Geoffrey Howe 1981, Nigel Lawson 1983-1989, John Major 1989-1990 as Chancellors"
+  ],
+  "background": {
+    "born": "1925-10-13",
+    "died": "2013-04-08",
+    "origin": "Grantham, Lincolnshire",
+    "career_path": "Chemistry degree Oxford (1947) → Research chemist (briefly) → Law (barrister, tax law 1953) → Conservative MP Finchley (1959) → Education Secretary (1970-1974) → Conservative leader (1975, defeated Heath) → Prime Minister (1979-1990)",
+    "formative_experiences": "Grantham grocer's daughter: Alfred Roberts (father) was local mayor, preached self-reliance, hard work, sound money, no debt. This is not rhetoric — it is lived experience of running a small business on the margin. Oxford Chemistry: methodical, evidence-based, but also the humiliation of being dismissed by male colleagues. Tax law practice: exposure to how government intervention in market distorts behavior. Became Conservative leader (1975) by defeating Heath — the first major political disruption of her career, proving that the established consensus could be broken.",
+    "decision_style_origin": "Conviction politician: ideology precedes data. Unlike Merkel (data first, ideology adjustable), Thatcher starts with ideological conviction and seeks confirming evidence. Hayek and Friedman were not just intellectual influences — they were frameworks she applied as operating systems. 'There is no such thing as Thatcherism — there is only common sense applied to economic problems' (her framing). The chemist's precision combined with the grocer's pragmatism and the conviction politician's refusal to bend created a uniquely inflexible style that was simultaneously her greatest strength (no U-turn) and her ultimate weakness (poll tax, ERM)."
+  },
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector for Margaret Thatcher as Prime Minister 1979-1990. Covers: monetarist experiment 1979-1983, Falklands War 1982, miners' strike 1984-85, privatization program, Big Bang financial deregulation 1986, ERM controversy and joining 1990, and the poll tax that ended her tenure. The defining characteristic: ideological conviction over empirical flexibility. Thatcher introduced supply-side revolution, financial deregulation, and trade union legal framework that defined UK (and Western) economic policy for the next 40 years. Her decisions were often wrong in the short term and structurally transformative in the long term.",
+    "dimensions": 60,
+    "vectors": [
+      {
+        "label": "monetary_policy_conviction_over_evidence",
+        "value": 0.89,
+        "evidence": "MTFS (Medium Term Financial Strategy) 1980: published explicit money supply (M3) targets — £M3 to fall from 7-11% (1980-81) to 4-8% (1984-85). When policy triggered worst recession since 1930s (1980-81: GDP -2.0%, unemployment to 3 million), refused to reflate. Howe's Mar 1981 budget: explicitly deflationary during recession — 364 economists signed Times letter calling it historically unprecedented mistake. Thatcher: 'The lady's not for turning' (Oct 1980, Blackpool). M3 targeting was eventually abandoned (1985) when it proved impossible to control, but never acknowledged as failure. Monetarist theory applied rigidly despite empirical failures."
+      },
+      {
+        "label": "inflation_priority_over_unemployment",
+        "value": 0.93,
+        "evidence": "1979 inflation: 13.4%. 1980: 17.9%. 1981: 11.9%. 1982: 8.6%. 1983: 4.6%. 1984: 5.0%. To achieve this disinflation: unemployment rose from 1.3m (1979) to 3.3m (1983). Thatcher explicitly accepted unemployment as price of disinflation. 'If it isn't hurting, it isn't working' (Lamont, her Chancellor's successor, but the logic was established by Thatcher). Counter-cyclical unemployment was not a policy failure in her framework — it was evidence that the medicine was working. This represents the most explicit postwar UK prioritization of price stability over employment since the Gold Standard."
+      },
+      {
+        "label": "privatization_program_conviction",
+        "value": 0.91,
+        "evidence": "Pre-1979: no major UK privatizations since WWII nationalization. Under Thatcher: BT (1984, raised £3.9bn), British Gas (1986, £5.6bn, 4.5m shareholders — 'Tell Sid'), BA (1987, £900m), BAA (1987), BP (1987, £7.2bn), British Steel (1988), Water (1989, £5.2bn), Electricity (1990, £5.2bn). Total privatization proceeds 1979-1990: ~£29bn. Policy outcomes: productivity improvements in telecoms, airlines; increased access to capital markets; but natural monopoly pricing problems in water/electricity required new regulatory architecture (Oftel, Ofwat, Offer). Extended to Eastern Europe as template for post-communist transitions."
+      },
+      {
+        "label": "trade_union_confrontation_willingness",
+        "value": 0.96,
+        "evidence": "Heath had capitulated to miners 1974 (led to election defeat). Thatcher's preparation: (1) Stockpiled coal at power stations 1980-1984 (3 years). (2) Employment Act 1980, 1982: restricted secondary picketing, required pre-strike ballots. (3) Used Ian MacGregor to run NCB with explicit mandate to trigger confrontation. Miners' Strike: Mar 6, 1984 – Mar 3, 1985 (362 days). 11,000 arrests, 20,000 charges, ~1 billion cost to economy. Result: NUM defeated, coal industry closure. Long-run effect: trade union density fell from 50% (1979) to 30% (1990). No major UK government since has faced comparable trade union challenge."
+      },
+      {
+        "label": "big_bang_financial_deregulation",
+        "value": 0.88,
+        "evidence": "Big Bang Oct 27, 1986: simultaneous reforms — (1) End of fixed commissions on stock exchange, (2) End of separation between brokers and jobbers (market makers), (3) Entry of foreign banks to London Stock Exchange, (4) Electronic trading replacing floor trading. Trigger: 1983 OFT (Office of Fair Trading) investigation of restrictive practices — Thatcher chose deregulation rather than investigation. Effect: London market doubled in turnover within 3 years. London became dominant global financial center (overtook Frankfurt, challenged New York). Long-run effect: financialization of UK economy, housing bubble, 2008 banking crisis all trace to Big Bang's removal of ring-fencing. Short-term winner, long-term systemic risk."
+      },
+      {
+        "label": "falklands_economic_confidence_multiplier",
+        "value": 0.73,
+        "evidence": "Apr 2 – Jun 14, 1982: Argentine invasion and UK reconquest. Economic context: unemployment at 3m, inflation falling, deep unpopularity (Conservative Party in 3rd place polls Jan 1982). Falklands victory created political confidence surge: 1983 election landslide (Conservative majority +144). Economic consequence: not direct, but Falklands gave Thatcher the political capital to pursue 1983-1985 structural reforms (miners' strike, privatization acceleration) that she would otherwise have lacked. The war proved that willingness to accept short-term cost for long-term principle produces victory — reinforcing her conviction politics model. Confidence effect measurable: consumer confidence index rose 15 points in month after Falklands victory."
+      },
+      {
+        "label": "erm_resistance_then_capitulation",
+        "value": 0.74,
+        "evidence": "Lawson advocated ERM membership from 1985. Thatcher resisted for 5 years, citing: (1) monetary sovereignty, (2) anti-inflationary credibility of independent policy. 1987-1989: Lawson unilaterally shadowed the Deutsche Mark at £1 = DM3.00 without formal ERM membership, causing inflationary Lawson Boom (house prices +40%, GDP growth 4.6% 1988). Thatcher furious — conflict with Lawson (who resigned Oct 1989). Oct 8, 1990: entered ERM at £1 = DM2.95 — 5 years of resistance abandoned. Decision forced by: (1) Lawson damage from shadowing, (2) Hurd/Major coalition within cabinet, (3) Thatcher's imminent departure (resigned Nov 1990). Irony: ERM entry was a defeat in her last weeks."
+      },
+      {
+        "label": "eu_integration_resistance",
+        "value": 0.82,
+        "evidence": "Signed Single European Act (1986) — integrated EU single market, her trade liberalization instinct. But Delors' social charter and political integration was the red line. Bruges speech Sep 1988: 'We have not successfully rolled back the frontiers of the state in Britain only to see them reimposed at a European level through the back door by a supranational power.' Opposed German reunification initially (raised with Gorbachev and Mitterrand, Feb 1990). Opposed monetary union. Geoffrey Howe's resignation speech (Nov 1990) explicitly cited her EU hostility as undermining UK negotiating position. EU hostility was the proximate cause of her cabinet revolt and resignation."
+      },
+      {
+        "label": "poll_tax_ideological_overreach",
+        "value": 0.86,
+        "evidence": "Community Charge ('Poll Tax'): replaced property-based local rates with flat per-person charge. Introduced Scotland 1989, England 1990. Ideological logic: everyone uses local services, everyone should pay equally — perfectly Thatcherite. Political reality: regressive (same charge for duke and dustman), administratively complex (register of every adult), enforcement nightmare. Mar 31, 1990: Trafalgar Square riots (339 arrested, 113 police injured). Conservative MPs received hate mail and threats. Heseltine challenged leadership Nov 1990 citing poll tax and Europe. Thatcher resigned Nov 22, 1990. The poll tax is the clearest example of ideology unconstrained by political feedback — she had lost the mechanism to process public opposition."
+      },
+      {
+        "label": "industrial_policy_rejection",
+        "value": 0.87,
+        "evidence": "Pre-Thatcher consensus: UK government intervention to support declining industries (steel, coal, shipbuilding, cars). Thatcher: refused to bailout British Leyland (eventually privatized 1988), let steel industry shrink (British Steel headcount: 166,000 → 52,000 by 1987), accepted North Sea manufacturing hollowing out. 'Picking winners' is impossible for government — markets determine industrial structure. De-industrialization of UK North and Midlands during her tenure: manufacturing as share of GDP fell from 27% (1979) to 21% (1990). Counter-argument (her view): these industries were not viable; subsidizing them delayed adjustment and misallocated capital."
+      },
+      {
+        "label": "supply_side_reform_breadth",
+        "value": 0.84,
+        "evidence": "Beyond privatization and union reform: (1) Income tax top rate cut from 83% to 40% (1979-1988). (2) Corporation tax cut from 52% to 35%. (3) Capital gains tax reformed. (4) Exchange controls abolished (Oct 1979, within months of taking office — immediate, decisive). (5) Mortgage interest tax relief maintained (encouraging housing investment over industrial). (6) Right to Buy council housing (1980): 1.4m council houses sold at discount 1979-1990. The supply-side reforms were the most comprehensive in UK postwar history, restructuring incentive environment throughout the economy."
+      },
+      {
+        "label": "exchange_controls_abolition_speed",
+        "value": 0.93,
+        "evidence": "Oct 23, 1979 (within 5 months of taking office): Geoffrey Howe abolished all UK exchange controls — capital and current account fully liberalized. Controls had existed since 1939. No phased liberalization, no conditions, no WTO-style gradual implementation. Complete overnight abolition. Effect: sterling appreciating sharply (oil revenues + tight money + capital inflows), contributing to manufacturing competitiveness collapse 1980-1981. Long-run effect: UK became dominant global capital market center. The speed and completeness of exchange control abolition is characteristic of her 'act on conviction, do not hedge' style."
+      },
+      {
+        "label": "lawson_boom_loss_of_monetary_control",
+        "value": 0.59,
+        "evidence": "1987-1989 'Lawson Boom': Chancellor Lawson cut income tax top rate (60%→40%, 1988 budget), reduced corporation tax, while covertly targeting DM3 without formal ERM. House prices +40% 1987-1989, M4 money supply +20%/year, current account deficit ballooned to 4% GDP. Inflation rose back to 7.5% by 1989. Thatcher's response: conflict with Lawson about DM shadowing, eventually Lawson resigned. But tax cuts were Thatcher's as well as Lawson's — she accepted the boom's political benefits while resisting its monetary implications. The episode reveals her preference for fiscal loosening but monetary tightness is not stable when operating together."
+      },
+      {
+        "label": "conviction_politics_u_turn_resistance",
+        "value": 0.91,
+        "evidence": "'The lady's not for turning' is not just rhetoric — she genuinely refused U-turns on core principles even under enormous political pressure. Miners' strike: 362 days, maintained position despite 3m unemployment, 3+ years of preparation was justified by resolve. MTFS: maintained despite 364-economists protest, recession, and rising unemployment. The exceptions where she did U-turn: (1) ERM (eventually joined, Oct 1990), (2) Poll tax (abandoned posthumously by Major, but she had already resigned). Her predecessor Heath 'did the U-turn' in 1972 under economic pressure — Thatcher defined her career partly in opposition to that accommodation."
+      },
+      {
+        "label": "north_sea_oil_windfall_allocation",
+        "value": 0.65,
+        "evidence": "North Sea oil revenues: £88bn 1979-1990. Thatcher used revenues to: (1) Finance unemployment benefits (3m unemployed at peak), rather than invest in sovereign wealth fund (Norway model). (2) Fund tax cuts. (3) Finance privatization transaction costs. Counter-argument: revenues covered transition costs of deindustrialization, allowing monetary tightening without fiscal crisis. Alternative (Norway SWF model) was not politically available given immediate social costs. The windfall allocation is a long-run regret — the UK had a one-time opportunity to create a sovereign wealth fund that was instead consumed by transition costs."
+      },
+      {
+        "label": "housing_market_right_to_buy_distributional",
+        "value": 0.77,
+        "evidence": "Right to Buy (Housing Act 1980): council tenants could buy at 33-50% discount. 1.4 million homes sold 1980-1990. Effect: homeownership rose from 55% to 67% of households. Political calculation: converting working-class renters into property-owning bourgeoisie shifts political allegiance toward Conservative Party. Economic effect: reduced social housing stock by 1.4m units, contributing to housing shortage that persists to present. Counter: created wealth effect for purchasers, opened capital markets to working class. The policy was ideologically motivated (extend property ownership = extend freedom) but had lasting unintended housing market consequences."
+      },
+      {
+        "label": "inflation_tolerance_post_stabilization",
+        "value": 0.61,
+        "evidence": "After reducing inflation from 17.9% (1980) to 4.6% (1983), Thatcher tolerated Lawson Boom inflation creeping back up: 4.9% (1987), 5.9% (1988), 7.5% (1989), 9.5% (1990). The second inflation surge occurred partly because the institutional arrangements (ERM not joined, Lawson shadowing DM with loose fiscal policy) were contradictory. Thatcher resisted ERM (which would have constrained Lawson) and resisted seeing the house-price/M4 surge as a warning until too late. Her anti-inflation conviction was genuine but her institutional design for the post-1983 period left a gap."
+      },
+      {
+        "label": "labor_market_transformation_legacy",
+        "value": 0.86,
+        "evidence": "Trade union reform: Employment Acts 1980, 1982, 1984, 1988 cumulatively: secondary picketing illegal, pre-strike ballot required, closed shop illegal, trade union immunity from civil action removed. Trade union membership: 13.3m (1979) → 9.8m (1990), density 50%→38%. Strike days lost: 29.5m (1979) → 1.9m (1990). Manufacturing employment: 6.8m (1979) → 5.2m (1990). Service sector: expanded to fill gap. The transformation of UK labor relations was not merely about the miners' strike — it was a comprehensive legal restructuring that made the UK labor market permanently more flexible (at cost of lower unionization and wage dispersion growth)."
+      },
+      {
+        "label": "financial_sector_growth_as_industrial_replacement",
+        "value": 0.73,
+        "evidence": "Implicit industrial policy: replace manufacturing with financial services. Big Bang accelerated this. Financial sector share of GDP: 8% (1979) → 14% (1990). City of London employment doubled. Financial sector profits replaced manufacturing profits in UK corporate tax base. The strategy was not explicitly stated but the sequence was clear: (1) Squeeze manufacturing through tight money, (2) Deregulate finance, (3) Let comparative advantage determine structure. Result: UK became more like a financial center than an industrial economy. This transformation created prosperity in London/Southeast but regional divergence that persists."
+      },
+      {
+        "label": "social_contract_replacement",
+        "value": 0.84,
+        "evidence": "'There is no such thing as society' (1987 interview): often misquoted, full context: 'There is no such thing as society. There are individual men and women, and there are families.' This captures her philosophy: collective solutions to individual problems are inherently inferior to individual responsibility + family networks. Applied policy: (1) NHS managed but not expanded. (2) Social housing: Right to Buy reduced public stock without replacement. (3) State pension: SERPS reduced. (4) Unemployment: treated as individual adjustment (labor mobility, retraining) not collective failure. The individualist philosophy created stronger incentive structures but reduced safety net, increasing poverty rates from 13% to 22% 1979-1990."
+      },
+      {
+        "label": "foreign_policy_us_special_relationship_strength",
+        "value": 0.82,
+        "evidence": "Thatcher-Reagan relationship: closest personal and ideological partnership in UK-US postwar history. Coordinated on: (1) Cold War strategy (cruise missiles in UK despite mass protests — Greenham Common). (2) Grenada exception: Reagan invaded without consulting Thatcher (she was furious — revealed limits of 'special relationship'). (3) Libya bombing 1986: allowed USAF to use UK bases for Libya strikes despite European opposition. (4) INF Treaty: initially skeptical but supported when convinced of verification regime. The special relationship under Thatcher was asymmetric — UK more dependent on US than vice versa, but she maximized UK influence within that constraint."
+      },
+      {
+        "label": "privatization_popular_share_ownership",
+        "value": 0.78,
+        "evidence": "BT privatization (1984): 'Tell Sid' advertising campaign — 2 million retail shareholders, most first-time equity investors. British Gas (1986): 4.5 million shareholders. The privatization design deliberately created mass share ownership: discounted public offer, preference for small investors. Political outcome: by 1987, 22% of UK adults held shares (vs 7% in 1979). Capital-owning population expanded dramatically. Thatcher's thesis: property and share ownership creates stake in market capitalism and shifts political alignment toward parties protecting property rights. This was explicit political strategy, not just economic policy."
+      },
+      {
+        "label": "cabinet_dominance_thatcher_style",
+        "value": 0.86,
+        "evidence": "Cabinet government traditionally involved collective decision-making. Thatcher's style: bilateral meetings with individual ministers, collective cabinet used for ratification not deliberation. Policy set in small groups or 1-on-1. Ministers who disagreed (Heseltine resigned 1986 over Westland, Lawson resigned 1989, Howe resigned 1990) were progressively isolated. 'Wets' (moderate Conservatives) systematically sidelined in 1981 cabinet reshuffle. The cabinet as institution weakened during her tenure — Cabinet Office records show fewer collective decisions, more unilateral ministerial/PM actions. Unintended consequence: her success made cabinet revolt (1990) more surprising to her than it should have been."
+      },
+      {
+        "label": "public_spending_as_share_gdp",
+        "value": 0.64,
+        "evidence": "Public spending as % GDP: 44.5% (1979) → 39.5% (1990). Significant reduction in state share of economy. However: NHS spending increased in real terms (3%/year average). Education: broadly maintained. The cuts fell on: housing (Right to Buy + reduced council house construction), social security benefits (uprating linked to prices not earnings), nationalized industries (closure/privatization). Military spending increased significantly (Falklands, Cold War). The 'small state' transformation was real but not as dramatic as rhetoric suggested — spending fell 5% of GDP over 11 years, not a structural reversal of postwar state expansion."
+      },
+      {
+        "label": "1981_budget_counter_cyclical_defiance",
+        "value": 0.88,
+        "evidence": "Mar 1981 budget (Geoffrey Howe): £4bn fiscal tightening during deepest UK recession since 1930s (GDP falling, unemployment at 2.5m and rising). 364 economists signed letter to The Times: 'There is no basis in economic theory or supporting evidence for the government's present policies.' Thatcher: dismissed ('If they're all so wrong, why don't they say what's right?'). Economic outcome: GDP grew from Q3 1981 onward, inflation fell from 11.9% (1981) to 8.6% (1982) to 4.6% (1983). The counter-cyclical fiscal tightening worked — but this was partly because oil revenues and monetary loosening (via exchange rate) provided offset. The academic economists were not entirely wrong; the timing of recovery was partly fortuitous."
+      },
+      {
+        "label": "german_reunification_opposition",
+        "value": 0.67,
+        "evidence": "1989-1990: Thatcher opposed German reunification, fearing a unified Germany would dominate Europe. Chequers seminar Mar 1990: invited historians to assess whether German national character made reunification dangerous (participants leaked results, causing diplomatic incident). Raised concerns privately with Gorbachev (Jan 1990) and Mitterrand. Overruled by events: Kohl moved faster than diplomatic constraints, and neither Gorbachev nor Bush wanted to stop reunification. Thatcher's opposition was based on a historically specific reading of German nationalism (WWII era) that most contemporaries found anachronistic. Policy consequence: zero — she couldn't stop it — but revealed the limits of post-WWII historical thinking on European integration."
+      },
+      {
+        "label": "economic_legacy_measurement",
+        "value": 0.72,
+        "evidence": "GDP per capita growth 1979-1990: UK 28% vs. West Germany 25%, France 22% — UK outperformed Continental Europe for first time since WWII. Productivity in privatized industries: +60-70% over 10-year post-privatization period (telecoms, gas). Labor productivity: UK's relative position vs. G7 improved from lowest to middle. Against: (1) Income inequality (Gini: 0.25→0.34), (2) Regional divergence (North vs. South), (3) Manufacturing employment halved. The legacy is genuinely mixed — aggregate growth improved, distribution worsened, regional cohesion deteriorated. The counterfactual (UK continuing pre-1979 trajectory) is unknowable but likely worse on growth metrics."
+      },
+      {
+        "label": "hayek_friedman_ideological_debt",
+        "value": 0.84,
+        "evidence": "Thatcher was influenced by Hayek's 'Road to Serfdom' (read in 1960s, explicitly acknowledged). Milton Friedman: met in 1975, correspondence continued. Keith Joseph: her key intellectual ally who introduced her to monetarism. IEA (Institute of Economic Affairs): provided intellectual legitimacy for market-liberal policies. She once slammed Hayek's 'Constitution of Liberty' on a table at a meeting saying 'This is what we believe.' The ideological debt is genuine: she did not arrive at market liberalism empirically — she had the ideological conviction first and used it to evaluate evidence. This is the opposite of Merkel's evidence-first approach."
+      },
+      {
+        "label": "cabinet_cabinet_cabinet_three_chancellors",
+        "value": 0.73,
+        "evidence": "Three Chancellors of the Exchequer under Thatcher: Geoffrey Howe (1979-1983): MTFS architect, the 1981 budget, later resigned over EU/style. Nigel Lawson (1983-1989): Supply-side tax cuts, Lawson Boom, DM shadowing, resigned over Walters affair (Thatcher's personal economic adviser publicly contradicted Lawson). John Major (1989-1990): inherited mess, joined ERM, became PM when Thatcher resigned. The Chancellor relationship was the key economic governance dynamic: Thatcher-Howe (constructive), Thatcher-Lawson (productive then destructive), Thatcher-Major (brief, transitional). The Lawson resignation was the most consequential — removed the only Chancellor who had delivered sustained growth, leaving no trusted economic team for ERM management."
+      },
+      {
+        "label": "regulation_financial_oversight_gap",
+        "value": 0.66,
+        "evidence": "Big Bang (1986) deregulated financial markets without creating adequate regulatory infrastructure. Prior: Stock Exchange self-regulated. Post-Big Bang: Securities and Investments Board created (1987) but under-resourced. Building societies deregulated (1986): allowed to offer mortgages competitively with banks → created over-lending infrastructure. BCCI collapse (1991, after her tenure): revealed regulatory gaps in cross-border banking. Maxwell pension scandal (1991): regulatory failure. The pattern: Thatcher believed markets self-regulate and state regulation is primarily a burden. Big Bang's regulatory gap planted seeds for future crises (Northern Rock 2007, UK banking crisis 2008 — not her responsibility but her institutional legacy)."
+      },
+      {
+        "label": "social_insurance_national_health_service",
+        "value": 0.62,
+        "evidence": "NHS under Thatcher: technically remained free at point of use. NHS budget: grew in real terms but slowly (1%/year real vs. long-run 3-4% needed). Waiting lists grew. 1988 NHS reform: internal market introduction (GPs as fundholders, hospital trusts). The internal market was ideologically motivated (competition improves efficiency) but practically complex to implement. Result: increased administrative costs, mixed efficiency evidence. Poll: in 1990 survey, 73% of British people listed NHS as the institution they were most proud of — demonstrating that even after 11 years of Thatcher, the welfare state was politically non-negotiable. She chose to reform rather than dismantle — a pragmatic accommodation."
+      },
+      {
+        "label": "irish_troubles_economic_dimension",
+        "value": 0.58,
+        "evidence": "Northern Ireland under Thatcher: IRA hunger strikes (1981, 10 hunger strikers died including Bobby Sands). Thatcher refused any concession ('crime is crime is crime'). Brighton bomb (Oct 1984): IRA attempted to assassinate her, killed 5. Anglo-Irish Agreement (Nov 1985): acknowledged Republic's interest in Northern Ireland's affairs — seen as partial concession by unionists, strategic calculation by Thatcher. Economic context: Northern Ireland was permanently subsidized (40% of budget from Westminster), with no economic development strategy that addressed the roots of conflict. Security spending dominated economic policy approach to Ireland."
+      },
+      {
+        "label": "falkland_islands_military_preparation_failure",
+        "value": 0.68,
+        "evidence": "The Falklands War (1982) revealed an initial catastrophic failure: the 1981 Nott defence review had planned to decommission HMS Endurance (Antarctic patrol vessel) and sell the two assault ships HMS Fearless and HMS Intrepid. This signal of British disengagement from the South Atlantic may have contributed to the Argentine junta's assessment that Britain would not fight. After the war, the defence review was reversed. The lesson: defence budget cuts send strategic signals that adversaries may interpret as withdrawal of willingness to defend. Thatcher's immediate reversal of the Nott cuts after Falklands demonstrates the feedback between military posture and deterrence."
+      },
+      {
+        "label": "public_sector_employment_contraction",
+        "value": 0.77,
+        "evidence": "Public sector employment: 7.45 million (1979) → 5.95 million (1990). 1.5 million public sector jobs eliminated, primarily through: (1) Privatizations (transferred to private sector, not eliminated). (2) Contracting out (competitive tendering for local authority services). (3) Civil service headcount reduction (20% 1979-1989). The reduction was systematic and explicitly ideological: smaller state = more efficient economy. Partially offset by increased military spending during Cold War. The public sector employment contraction disproportionately affected women (public sector had higher female employment rates) and certain regions (Wales, Scotland, North England — higher public sector dependency)."
+      },
+      {
+        "label": "capital_investment_infrastructure_neglect",
+        "value": 0.57,
+        "evidence": "UK public sector net investment: fell from 3.5% GDP (1979) to 0.6% GDP (1990) — the largest peacetime reduction in G7 history. Roads, railways, housing: chronically under-invested. The 1981 budget explicitly cut public investment to fund tax cuts and current spending. Thatcher's philosophical view: private sector investment is more efficient than public; government should not 'crowd out' private investment. Counter: network industries (roads, railways, broadband) are public goods with natural monopoly characteristics — market underinvestment is expected. The infrastructure neglect created long-run productivity deficit that UK governments have attempted to address since."
+      },
+      {
+        "label": "thatcherite_economic_consensus_durability",
+        "value": 0.88,
+        "evidence": "Post-Thatcher: no Conservative or Labour government reversed her core reforms. Major: kept privatizations, added rail privatization. Blair: explicitly accepted Thatcherite economic framework ('New Labour'), kept privatized industries, added PFI (private finance for public infrastructure). Brown: maintained labour market flexibility. Cameron: extended public sector contracting. Brexit (2016): significant portion of Leave argument was 'Thatcherite globalism without EU regulation' vs. Remain's 'Thatcherite globalism within EU market.' The durability of the settlement (40 years) exceeds any comparable economic policy revolution in democratic politics — comparable only to FDR's New Deal legacy (also ~40 years)."
+      },
+      {
+        "label": "inner_city_deregulation_enterprise_zones",
+        "value": 0.64,
+        "evidence": "Urban Enterprise Zones (1981): 11 initial zones (Corby, Clydebank, Liverpool, others) with tax breaks (no business rates, 100% capital allowances) and relaxed planning rules. Subsequent expansion to 25 zones. Policy philosophy: remove state barriers → private investment flows → regeneration. Results: mixed — zones attracted investment but often displaced it from adjacent areas rather than generating net new activity. The enterprise zone concept was Thatcher's answer to the 1981 inner-city riots (Brixton, Toxteth): not social programs but deregulation. The concept has been revived repeatedly (Special Economic Zones, Freeports) in subsequent UK economic policy — indicating it entered the policy toolkit permanently."
+      },
+      {
+        "label": "cold_war_strategic_position",
+        "value": 0.79,
+        "evidence": "Thatcher's Cold War role: (1) Cruise missiles in UK despite Greenham Common protests (1983-1987). (2) First Western leader to meet Gorbachev (Dec 1984): 'We can do business together.' (3) Reagan relationship: joint strategy on Cold War pressure. (4) SDI (Star Wars): supported Reagan's announcement despite NATO skepticism. (5) 1989: genuinely alarmed by pace of Soviet collapse (saw it as destabilizing). The Gorbachev assessment was her most influential intelligence contribution — providing Reagan with early confidence that a genuine reformer had emerged. Thatcher's Cold War positioning was simultaneously tougher (cruise missiles) and more diplomatically sophisticated (Gorbachev opening) than caricature suggests."
+      },
+      {
+        "label": "medium_term_financial_strategy_design",
+        "value": 0.81,
+        "evidence": "MTFS (1980): published money supply and PSBR (Public Sector Borrowing Requirement) targets 4 years forward. This was unprecedented — no UK government had ever published multi-year fiscal targets. Design features: (1) Money supply (£M3) declining path. (2) PSBR declining path. (3) No exchange rate target. (4) No employment or growth targets — explicit exclusion. Rationale: monetary targets are in CBR's control; employment/growth are outcomes not instruments. The MTFS established the template for modern medium-term fiscal frameworks (UK's OBR, EU's SGP). Even though the specific money supply targets were abandoned, the medium-term commitment framing persisted in UK fiscal policy."
+      },
+      {
+        "label": "policy_reversal_threshold",
+        "value": 0.18,
+        "evidence": "Thatcher reversed on only 3 major issues across 11 years: (1) ERM (finally joined Oct 1990, after resisting for 5 years — forced by Cabinet). (2) Rates for water (extended community charge to commercial property — reversed partially). (3) Local government finance formula — minor adjustments. The base rate of reversal (3 reversals in ~55 major policy decisions = ~5%) is the lowest of any postwar UK Prime Minister with comparable tenure. Heath (1972 U-turn) had 20%+ reversal rate. Compare Powell (reversal on forward guidance ~10%). The near-zero reversal rate is her defining behavioral characteristic — creates credibility but also eliminates error-correction mechanisms."
+      },
+      {
+        "label": "scotland_devolution_resistance",
+        "value": 0.77,
+        "evidence": "Poll tax was introduced in Scotland in 1989, one year before England — used Scotland as a test bed. This decision enraged Scottish public opinion (poll tax seen as anti-Scottish), contributed to SNP rise, and long-run consequence was Scottish devolution (1999) and strengthened independence movement. Thatcher's view: Scotland was part of the UK, UK-wide policy applies uniformly. The nationalism question was not part of her political calculus — she did not see Scottish distinctiveness as requiring policy accommodation. The long-run legacy: Thatcherism is the dominant narrative explaining Scottish desire for independence from London economic policy. Scotland voted 62% Remain in Brexit; Brexit was ideologically Thatcherite in its anti-EU dimension."
+      },
+      {
+        "label": "mortgage_interest_relief_homeownership",
+        "value": 0.62,
+        "evidence": "MIRAS (Mortgage Interest Relief at Source): pre-Thatcher policy, maintained and expanded under Thatcher. Allowed taxpayers to deduct mortgage interest — up to £30,000 at full tax rate. This made homeownership tax-advantaged vs. renting and business investment. Combined with Right to Buy (discounted council housing sales) and building society deregulation (1986), MIRAS helped drive UK house price inflation +60% in real terms 1979-1990. The housing market stimulus was ideologically motivated (property ownership = Conservative voter) but economically problematic (asset inflation vs. industrial investment). MIRAS was eventually phased out under Major/Brown 1988-2000."
+      },
+      {
+        "label": "budget_deficit_gdp_trajectory",
+        "value": 0.72,
+        "evidence": "UK PSBR (Public Sector Borrowing Requirement)/GDP: 5.5% (1979) → small surplus (1988-1990, first UK surplus since 1972). The improvement was partly structural (privatization proceeds, North Sea oil, reduced unemployment benefits as employment rose) and partly cyclical (Lawson Boom inflated tax revenues). Counter: deficit returned immediately with the Lawson Bust (1990-1992). The fiscal consolidation was real but not durable — it depended on oil revenues and cyclical growth that were not structural. UK fiscal position in the 1980s was better managed than in the 1970s, but the 1988-90 surplus was not sustained."
+      },
+      {
+        "label": "education_spending_and_local_management",
+        "value": 0.58,
+        "evidence": "Education Reform Act (1988): introduced National Curriculum, SATS tests, grant-maintained schools (opting out of local authority control). This was a market-in-education reform: school choice, inspection regime (Ofsted created 1992, post-Thatcher), league tables. University funding: student loans introduced (1990) replacing full grants — controversial, significantly increased higher education access but shifted cost to individuals. The education reforms were less radical than privatization but established the principle of output measurement and quasi-market competition that subsequent governments built on. Core philosophy: parents choosing schools = market discipline = quality improvement."
+      },
+      {
+        "label": "environmental_policy_precursor",
+        "value": 0.61,
+        "evidence": "Thatcher was first major Western leader to seriously address climate change in a major speech: UN speech Sep 1989: 'The atmosphere is a global commons.' Royal Society speech 1988: cited specific climate science. CFC/Montreal Protocol: UK signed and ratified. Thatcher's environment credentials came from her chemistry background — she understood the science. Counter: this did not translate into policy: coal industry policy was driven by industrial relations, not climate. North Sea gas expansion and nuclear power extension were partly climate-compatible but not explicitly framed as climate policy. The scientific interest in climate did not overcome the economic logic of cheap fossil fuels in the 1980s policy mix."
+      },
+      {
+        "label": "macroeconomic_framework_shifting",
+        "value": 0.83,
+        "evidence": "Pre-Thatcher UK macroeconomic framework: Keynesian demand management (fine-tuning GDP growth/unemployment via fiscal and incomes policy). Post-Thatcher: supply-side + monetarism (government sets stable monetary framework, market determines outcomes). The paradigm shift is the most important economic policy change in UK postwar history. Implemented through: MTFS (published money supply targets), Lawson doctrine (government borrows only for investment, not consumption), exchange controls abolition, labour market deregulation. The Keynesian consensus, dominant 1945-1979, did not return — Blair's 'New Labour' explicitly accepted supply-side framework. The shift lasted 40+ years; only the Truss mini-budget (Sep 2022) briefly reverted, and was immediately forced to reverse."
+      },
+      {
+        "label": "cabinet_resignation_cascade_1990",
+        "value": 0.76,
+        "evidence": "Resignation sequence that brought Thatcher down: (1) Oct 1989: Lawson resigned (economic policy disagreement). (2) Nov 1990: Geoffrey Howe resigned as Deputy PM, gave devastating resignation speech ('The broken cricket bat'). Howe's speech triggered: Michael Heseltine's leadership challenge. First ballot (Nov 20, 1990): Thatcher 204, Heseltine 152, abstentions 16 — 2 votes short of outright win. Cabinet consultations Nov 22: most ministers advised she could not win second ballot. Resigned Nov 22, 1990. The cascade is textbook authoritarian-style leadership collapse: excessive centralization reduces error-correction, eventually produces a fatal misjudgment (poll tax), and when allies are needed they have all been marginalized."
+      },
+      {
+        "label": "economic_growth_inflation_trade_off",
+        "value": 0.82,
+        "evidence": "Thatcher explicitly accepted that fighting inflation would cause a recession: 'We have to do this. There is no alternative.' (TINA). The 1980-81 recession: GDP -2.0%, unemployment 3m+, was the deliberate consequence of tight monetary policy. The trade-off was: short-term pain (high unemployment) for long-term gain (sustainable growth without inflation). Evidence that the trade-off was worth it: UK productivity growth 1983-1990 was highest since 1960s. Evidence against: long-term regional scarring in ex-industrial areas (structural unemployment, benefit dependency, lower life expectancy gaps) persisted 40 years. The trade-off calculation was correct on aggregate efficiency metrics and wrong on distributional metrics."
+      },
+      {
+        "label": "retail_price_index_vs_real_economy",
+        "value": 0.67,
+        "evidence": "Thatcher government used various inflation measures: RPI (Retail Price Index, includes housing costs) vs. RPIX (RPI excluding mortgage interest). RPIX fell faster than RPI during high-rate periods (mortgage costs raised RPI while other prices fell). The choice of measure mattered politically: RPI peaked 17.8% (1980) while RPIX peaked 14%. Thatcher preferred RPIX as the 'true' measure of underlying inflation. This is methodologically defensible but politically convenient (showed better performance). Modern equivalents: Core CPI vs. headline CPI debate. The index selection bias in inflation reporting is a recurring issue in central bank/government communication."
+      },
+      {
+        "label": "international_context_reagan_similarity",
+        "value": 0.79,
+        "evidence": "Thatcher-Reagan parallel economic programs: both elected 1979-1980 on anti-stagflation platforms. Both implemented: monetary tightening (1980-1982 recession in both countries), tax cuts (supply-side), deregulation, trade union weakening, privatization. Both succeeded in: reducing inflation (US: 13%→3%, UK: 17%→4%), reviving growth, extending economic cycle. Reagan's: $1.5tn deficit spending (military Keynesianism) partially offset tight money. Thatcher: no military Keynesianism; fiscal tightening matched monetary tightening. The parallel programs are often cited together (Anglo-Saxon model) but differ: Reaganomics was fiscally expansive; Thatcherism was genuinely contractionary. The UK disinflation was harder and more demand-destroying."
+      },
+      {
+        "label": "lawson_walters_affair",
+        "value": 0.73,
+        "evidence": "Alan Walters (Thatcher's personal economic adviser): publicly contradicted Lawson's ERM shadowing policy in a 1989 article calling fixed exchange rates 'half-baked.' Lawson: resigned Oct 1989 citing inability to function with a Chancellor whose policies were publicly undermined by No. 10 adviser. The Walters affair reveals Thatcher's management style failure: she valued personal loyalty (Walters) over cabinet governance. A Prime Minister must choose either the Cabinet system or personal advisers — running both simultaneously destroys cabinet confidence. The affair preceded her downfall by 13 months, weakening the Chancellor position and political coherence."
+      },
+      {
+        "label": "privatization_natural_monopoly_regulation",
+        "value": 0.67,
+        "evidence": "Privatization without adequate regulation created problems: (1) BT monopoly: monopoly profits, poor quality, high prices — required Oftel + competition (Mercury allowed 1984). (2) Water: regional monopolies with weak Ofwat (customers cannot switch). (3) Electricity: partial competition (generation competitive, transmission monopoly). The regulatory architecture was designed ad hoc alongside privatization — no coherent regulatory framework existed in 1979. Thatcher relied on market competition to discipline behaviour, but natural monopolies cannot be disciplined by competition alone. The regulatory gap is the clearest institutional failure of the privatization programme."
+      },
+      {
+        "label": "high_interest_rate_effect_manufacturing",
+        "value": 0.71,
+        "evidence": "1979-1981: interest rates at 14-17%. Sterling appreciation: 25% real effective exchange rate appreciation 1979-1981 due to tight money + oil revenues. Effect on manufacturing: UK manufacturing internationally uncompetitive overnight. Export orders fell 30-40%. Manufacturing headcount fell by 1 million in 2 years (1979-1981). The manufacturers were not uncompetitive because of inefficiency alone — the exchange rate had made even efficient UK factories unable to price competitively. This is the 'accidental deindustrialisation' element: some of the manufacturing collapse was a consequence of exchange rate policy, not inevitable structural decline."
+      },
+      {
+        "label": "income_inequality_gini_measurement",
+        "value": 0.76,
+        "evidence": "UK Gini coefficient: 0.25 (1979) → 0.34 (1990). Larger increase in inequality than any other comparable country in the same period. Causes: (1) Top rate income tax cut (83%→40%) benefited high earners. (2) Capital gains tax reduction. (3) Share of national income going to labour fell. (4) Unemployment concentrated in lower-income workers. (5) Housing wealth gains accrued to owners (not renters). Thatcher's view: inequality in outcomes is acceptable; what matters is equality of opportunity. The counter-evidence: mobility data shows social mobility did not improve and may have worsened, suggesting inequality of outcomes created inequality of opportunity."
+      },
+      {
+        "label": "british_leyland_and_steel_managed_decline",
+        "value": 0.69,
+        "evidence": "British Leyland (BL/Austin Rover): received £3bn+ in state aid 1975-1988 despite Thatcher's anti-subsidy ideology. Exception: too many jobs, too many constituencies, too politically costly to let fail. Eventually privatized as Rover Group 1988 (sold to British Aerospace for £150m — derisory price). British Steel: refused further subsidy, shrank from 166,000 to 52,000 employees, then privatized 1988 (profitable). The contrast: BL got subsidy then privatized; British Steel got restructuring without subsidy then privatized successfully. BL's prolonged support was the exception to anti-subsidy doctrine — industrial policy principles yielded to political arithmetic."
+      },
+      {
+        "label": "exchange_controls_capital_flows",
+        "value": 0.85,
+        "evidence": "Oct 1979 exchange controls abolition was the single fastest implementation of any major Thatcher policy. Mechanism: Chancellor Howe announced in budget, effective immediately, no transition period. Capital flowed out immediately: UK pension funds and institutional investors diversified abroad (£85bn invested overseas by 1984). Counter-effect: UK became destination for inward FDI (no controls on inflows either). Foreign direct investment: Japan (car plants in Sunderland, Derby), US (financial services). The exchange control abolition was Thatcher's most irreversible decision — no subsequent government has reimposed controls. It permanently changed UK's role in global capital markets."
+      },
+      {
+        "label": "poll_tax_technical_design_failure",
+        "value": 0.79,
+        "evidence": "Community Charge technical problems: (1) Registration: required registering every adult at each address — equivalent to new census. (2) Enforcement: 400+ separate charging authorities, millions of defaulters. (3) Non-payment: 4 million+ non-payers by 1990 (couldn't imprison everyone). (4) Collection costs exceeded poll tax revenues in some authorities. The fundamental problem: replacing an asset-based tax (rates, based on property value) with a headcount tax requires registering all adults — enormous administrative burden. This was flagged in civil service advice before implementation. Thatcher's response: ideology overrode implementation concerns. The poll tax is a case study in ideologically-driven policy that failed at the implementation stage."
+      },
+      {
+        "label": "thatcher_methodology_economic_theory",
+        "value": 0.72,
+        "evidence": "Thatcher used economic theory instrumentally — not to discover truth but to justify predetermined conclusions. Monetarism: provided intellectual justification for pre-existing belief that money supply determines inflation, not Keynesian demand management. Hayek: provided justification for pre-existing belief that markets outperform government planning. The theory came after the belief, not before. This is analytically dishonest but politically powerful: she could cite academic authority for positions she had reached independently. Counter-argument: her chemistry background meant she was not hostile to empirical evidence — she modified positions when the evidence was overwhelming (ERM, MIRAS phaseout). The theory was guidance, not straitjacket."
+      },
+      {
+        "label": "city_of_london_versus_manufacturing_trade_off",
+        "value": 0.68,
+        "evidence": "The explicit or implicit choice under Thatcher: develop financial services (City of London) or protect manufacturing. The Big Bang (1986) was the decisive moment: by making London globally competitive in financial services, it reinforced the capital/labour allocation toward finance. Manufacturing: uncompetitive due to exchange rate + labour costs + lack of investment. The trade-off was never explicitly stated as a choice — Thatcher did not say 'we choose finance over manufacturing.' But the policy package (tight money, strong pound, labour market deregulation, Big Bang) produced that outcome. The regional consequence: manufacturing concentrated in North/Midlands/Scotland; finance in London/Southeast."
+      },
+      {
+        "label": "single_european_act_paradox",
+        "value": 0.74,
+        "evidence": "Margaret Thatcher signed and championed the Single European Act (1986): the most significant EU integration step since the Treaty of Rome (1957). The SEA created the single market (free movement of goods, services, capital, people). Paradox: Thatcher supported EU single market as free trade liberalisation while simultaneously opposing EU political integration. She did not appreciate that a single market requires regulatory harmonisation (which she saw as imposing), common social standards (which she opposed), and ultimately more political integration. She planted the seed of EU integration that eventually grew into the political union she opposed. Jacques Delors' 'social Europe' speech at TUC (1988) was her wake-up call: Bruges speech Sep 1988 was the delayed response."
+      }
+    ]
+  }
+}

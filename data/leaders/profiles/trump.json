@@ -1,0 +1,779 @@
+{
+  "leader": "Donald Trump",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "Term 1 (2017-01-20 to 2021-01-20): Tax Cuts and Jobs Act 2017, US-China trade war escalation timeline 2018-2019, COVID CARES Act/PPP/HEROES Act 2020, USMCA renegotiation, NATO burden-sharing demands, Fed pressure campaign 2018-2019",
+    "Term 2 (2025-01-20 to present): Executive Order tariff escalations Jan-Mar 2025, Liberation Day universal tariff announcement Apr 2, 2025, DOGE establishment Jan 2025, Strategic Bitcoin Reserve EO Mar 6 2025, immigration enforcement executive orders, NATO/Ukraine burden-shifting 2025",
+    "Background: Trump Organization real estate career 1968-2016, six bankruptcy filings (1991 Trump Taj Mahal, 1992 Trump Castle/Trump Plaza/Trump Plaza Hotel, 2004 Trump Hotels & Casino Resorts, 2009 Trump Entertainment Resorts), The Apprentice TV host 2004-2015, multiple failed product launches",
+    "Academic/analytical sources: Bob Woodward interviews/books (Fear 2018, Rage 2020, War 2024), Michael Wolff (Fire and Fury 2018), John Bolton (The Room Where It Happened 2020), contemporaneous White House staff testimony, Congressional testimony transcripts"
+  ],
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector compiled from two presidential terms (Jan 2017 – Jan 2021 and Jan 2025 – present). Covers US-China trade war initiation and escalation, COVID economic shock, TCJA supply-side stimulus, second-term tariff maximalism ('Liberation Day'), DOGE government restructuring, and historic political pressure on the Federal Reserve. Background informed by 4 decades of real estate deal-making, multiple corporate bankruptcies, and media personality experience. Second term behaviorally distinct from first: fewer institutional constraints, more aggressive on all axes, reelection constraint removed.",
+    "dimensions": 127,
+    "vectors": [
+
+      {
+        "label": "tariff_as_negotiation_weapon",
+        "value": 0.95,
+        "evidence": "Trump treats tariffs primarily as leverage in negotiations rather than permanent policy. Pattern: announce extreme tariffs → create business uncertainty → extract concessions → declare victory. 2018: threatened 25% steel/aluminum tariffs → got USMCA renegotiation. 2019: threatened Mexico 5-25% tariffs → Mexico agreed to asylum-seeker cooperation in 2 weeks. Jan 2025: threatened 25% Canada/Mexico tariffs on Day 1 → 30-day pause after calls with Trudeau/Sheinbaum. Liberation Day Apr 2 2025: 'reciprocal' tariffs 10-145% on all countries → then 90-day pause for most except China. The businessman negotiating logic is explicit: use maximum pressure to gain maximum concessions."
+      },
+      {
+        "label": "tariff_permanence_vs_leverage",
+        "value": 0.35,
+        "evidence": "Despite tariff-as-weapon framing, Trump does maintain some tariffs permanently when no deal materializes or as structural goals. Steel/aluminum 25% tariffs from 2018 largely remained even under Biden. China tariffs 25% on ~$250B goods persisted through entire 2018-2021 period with no deal. Second term: the 145% China tariff rate (Apr 2025) suggests higher permanence tolerance. Score reflects the mix: mostly leverage (0.35 permanence) but not zero — he will walk away without a deal and hold tariffs."
+      },
+      {
+        "label": "china_confrontation_intensity",
+        "value": 0.88,
+        "evidence": "China is Trump's primary economic adversary across both terms. Term 1: 2018 initiated Section 301 tariffs on $34B, escalated to $200B, threatened $325B more; Huawei entity list ban May 2019; ZTE enforcement; forced TikTok/WeChat ban attempts; ended Hong Kong special trade status. Term 2: escalated to 145% effective tariff rate by Apr 2025 (highest since Smoot-Hawley 1930); Chip export controls tightened; TikTok forced-sale ultimatum extended then resolved (Jan 2025); TSMC $100B investment secured partially through pressure. China confrontation is the most consistent thread across both terms."
+      },
+      {
+        "label": "china_decoupling_vs_deal_seeking",
+        "value": 0.55,
+        "evidence": "Trump oscillates between structural decoupling and transactional deal-seeking on China. Phase 1 trade deal Dec 2019 showed he will take a partial deal and declare victory ('greatest deal ever'). Simultaneous with tariffs, he publicly praised Xi Jinping ('great leader, great friend') and thanked China for COVID response at various points. Term 2 shows more decoupling intent (145% tariffs) but still maintains back-channel deal signals. Score reflects genuine ambivalence: confrontational but not committed to permanent decoupling if a big enough 'deal' is offered."
+      },
+      {
+        "label": "supply_side_tax_cut_preference",
+        "value": 0.92,
+        "evidence": "Tax cuts are Trump's most consistent economic ideology. TCJA Dec 2017: corporate rate 35%→21% (largest corporate rate cut in US history), top individual rate 39.6%→37%, pass-through deduction 20%, estate tax doubled exemption. Cost: $1.9T over 10 years. Made permanent extension of TCJA his first major economic priority in Term 2 (signed 2025). Trump's real estate background makes him viscerally pro-tax cut — every dollar of corporate tax reduction directly benefited his own business model. Argued supply-side economic growth would 'pay for' cuts; growth did accelerate to 3%+ in 2018-2019 supporting the narrative."
+      },
+      {
+        "label": "fiscal_deficit_tolerance",
+        "value": 0.92,
+        "evidence": "Trump has essentially zero concern for fiscal deficits. Under Term 1: federal deficit averaged $1.2T/year (vs $587B Obama average), and that's BEFORE COVID. TCJA added ~$200B/year to deficit. COVID CARES Act ($2.2T) was passed with zero hesitation March 2020, followed by $900B December 2020 package. Trump actually wanted LARGER stimulus than Congress approved — he threatened to veto the $900B bill demanding $2,000 individual payments. Term 2: DOGE cost-cutting rhetoric but simultaneously pushing $4-5T TCJA extension and new tariff revenue spending. His real estate background: leverage and deficit spending are just normal business operations — you always spend more than you take in if the return is there."
+      },
+      {
+        "label": "stock_market_as_approval_metric",
+        "value": 0.90,
+        "evidence": "Trump explicitly and publicly uses stock market performance as his personal approval rating. Between Jan 2017 and Jan 2021, he tweeted about stock market performance 636 times (by one count). 'The stock market is at an all-time high' was a signature statement. Policy decisions are visibly modulated by market reaction: after S&P dropped ~1,500 points in Dec 2018 (worst Christmas Eve ever), Trump immediately pivoted from hawkish messaging. Jan 2019 FOMC pressure intensified after December market selloff. Liberation Day tariff announcement Apr 2025 caused immediate large market drop → within 48 hours announced 90-day pause for most countries. The stock market is not just a metric, it's a real-time feedback loop that directly modulates policy."
+      },
+      {
+        "label": "fed_political_pressure_intensity",
+        "value": 0.97,
+        "evidence": "Trump's attacks on the Fed are unprecedented in modern US history. Under Powell, Trump called him 'enemy of the state', 'knucklehead', 'clueless', used Twitter to demand -100bp, -50bp, ZIRP, negative rates. 2019: called on Fed to cut 100bp in one meeting, then cut 50bp more, publicly labeled Powell 'our most stupid person.' Threatened to fire Powell legally (2019, again 2025). Term 2: 'Too late' Powell public criticism resumed immediately after 2025 tariff announcement; demanded rate cuts as tariff offset; Mar 2025 threatened explicit legal authority to remove Powell before term end May 2026. The combination of frequency, severity, and explicit firing threats is far beyond any prior president's Fed communication."
+      },
+      {
+        "label": "fed_independence_respect",
+        "value": 0.05,
+        "evidence": "Inverse of the above. Trump views Fed independence as a convention to be ignored, not an institutional safeguard. He explicitly stated the president 'should have a say' on interest rates. Appointed Judy Shelton (gold standard advocate, Fed independence skeptic) for Fed board — was blocked by Senate. Repeatedly suggested the president has constitutional authority over Fed. Term 2 legal team actively researched presidential authority to fire Fed governors. Nomi Prins analysis: Fed independence norm was functionally suspended from Trump's perspective — he just lacked the legal mechanism to enforce it in Term 1."
+      },
+      {
+        "label": "deal_making_maximum_pressure_pattern",
+        "value": 0.93,
+        "evidence": "Trump's negotiating playbook is consistent and identifiable: (1) set an extreme opening position far beyond what you actually want, (2) apply maximum pressure via tariffs/threats/insults, (3) allow face-saving offramps, (4) claim the resulting deal is 'the greatest ever.' This pattern appeared with: NAFTA/USMCA (threatened to exit entirely, got modest updates, declared total victory), Japan trade deal (threatened auto tariffs, got agricultural market access), South Korea KORUS update (threatened to terminate, got minor revisions), Phase 1 China deal (threatened $325B more tariffs, got purchasing commitments, declared 'historic'). The consistency across contexts confirms this as a deep behavioral trait from real estate deal culture."
+      },
+      {
+        "label": "alliance_transactionalism",
+        "value": 0.88,
+        "evidence": "Trump views alliances as transactional protection arrangements, not as shared values or strategic commitments. NATO: consistently demanded 2%+ GDP defense spending, called NATO 'obsolete', threatened to not defend non-paying members (Article 5), Feb 2024 told rally that under-spending NATO members would be 'on their own.' Japan/Korea: demanded 4-5x increase in host nation support costs for US troops (Japan currently pays ~$2B/year, Trump demanded $8B). Term 2: Ukraine aid conditional on mineral rights/economic concessions, pushed Zelensky for 'deal' at White House, froze military aid pending concessions (Feb-Mar 2025). The pattern: every alliance obligation is subject to renegotiation based on economic value."
+      },
+      {
+        "label": "sanction_usage_willingness",
+        "value": 0.82,
+        "evidence": "Trump is willing to use sanctions as economic leverage but prefers tariffs as the primary tool. Maintained/expanded Iran sanctions (reimposed after JCPOA exit May 2018). Venezuela sanctions (2019). North Korea maximum pressure sanctions. SWIFT exclusion threats. However, Trump is notably reluctant to sanction China in a way that would trigger direct economic decoupling — the economic interdependence creates a constraint on sanction usage that doesn't exist for smaller adversaries."
+      },
+      {
+        "label": "covid_economic_response_speed",
+        "value": 0.88,
+        "evidence": "The COVID economic response was one of Trump's most decisive actions. CARES Act ($2.2T) signed within 2 weeks of national emergency declaration (March 13-27, 2020). PPP loan program ($349B initial) deployed in days. Federal Reserve emergency facilities coordinated rapidly. The speed was notable given Trump's initial COVID denial (Jan-Feb 2020 'under control', 'hoax' rhetoric). Once he accepted the economic reality, the fiscal response was massive and rapid — consistent with his high deficit tolerance and preference for visible economic action."
+      },
+      {
+        "label": "covid_economic_stimulus_scale_preference",
+        "value": 0.90,
+        "evidence": "Trump consistently pushed for LARGER COVID stimulus than Congressional Republicans were comfortable with. $1,200 direct payments (CARES): Trump wanted them. December 2020 $900B package: Trump initially threatened to veto, demanding $2,000 payments instead of $600 (which Democrats then supported — unusual left-right convergence). Trump wanted $1.8T stimulus in October 2020 pre-election; Republicans balked at $600B. His stimulus preferences exceeded even Democratic proposals at several points. This is consistent with his deficit tolerance and belief in large-scale economic intervention when politically salient."
+      },
+      {
+        "label": "blame_deflection_speed",
+        "value": 0.95,
+        "evidence": "Trump deflects blame with near-absolute consistency and speed. COVID: blamed China ('Chinese virus'), WHO ('terrible'), governors who locked down, governors who didn't follow federal guidance — simultaneously. Economic slowdowns: blamed Fed (Powell), Democrats, China, previous administrations. Trade deficits: blamed weak predecessors (Obama, Bush, Clinton) for 'allowing' bad deals. Tariff economic costs: blamed other countries 'taking advantage.' The pattern is structural — Trump essentially never accepts personal responsibility for negative outcomes, regardless of his causal role. This is relevant for the simulation because it means policy recalibration after failures is slow (can't fix what you don't own)."
+      },
+      {
+        "label": "deregulation_drive_intensity",
+        "value": 0.88,
+        "evidence": "Deregulation was Trump's most consistent domestic policy. Term 1: 2-for-1 EO (for every new regulation, eliminate two), eliminated ~800 regulations in first year, withdrew from Paris Climate Agreement, rolled back Clean Power Plan, weakened Dodd-Frank (EGRRCPA 2018), relaxed EPA methane rules, opened ANWR to drilling, expedited permitting (executive orders). Term 2: DOGE deregulation mandate, first 100 days EO requiring agencies eliminate 10 rules per 1 new rule, reopened offshore drilling leases immediately. His real estate background gives him direct personal familiarity with regulation as a cost — every environmental review, zoning restriction, and building code delay is money."
+      },
+      {
+        "label": "energy_sector_favoritism",
+        "value": 0.92,
+        "evidence": "'Drill baby drill' is among Trump's most consistent policy commitments. Approved Keystone XL pipeline on Day 1, Term 1 (reversed by Biden, then re-approved Day 1 Term 2). Withdrew from Paris Agreement twice (2017, 2025). Opened federal lands/offshore to drilling. LNG export terminal approval acceleration. Attacked wind energy repeatedly ('causes cancer', 'kills birds', 'ugly'). Reversed Biden's offshore wind leasing moratorium Day 1 Term 2. Tried to block IRA clean energy credits in Term 2. The energy favoritism is both ideological (anti-climate-regulation) and structural (oil/gas states = Republican coalition base)."
+      },
+      {
+        "label": "immigration_economy_linkage",
+        "value": 0.78,
+        "evidence": "Trump explicitly links immigration to economic competition for jobs and wages, particularly in low-skill labor markets. The economic framing: 'They're taking our jobs', 'They drive down wages', 'They cost taxpayers'. Policy actions: border wall construction, Remain in Mexico policy, public charge rule, H-1B visa restrictions (Term 1), DOGE-coordinated mass deportations Term 2, Operation Aurora targeting major cities. However, the immigration obsession is primarily cultural/demographic rather than economic — the economic frame is often a rationalization for a deeper nativist preference. Score reflects genuine economic-security linkage in his mind, not cynical rationalization."
+      },
+      {
+        "label": "immigration_enforcement_escalation_term2",
+        "value": 0.94,
+        "evidence": "Term 2 immigration enforcement is dramatically more aggressive than Term 1. Military deployed to border. ICE raids in cities (Chicago, Los Angeles). Deportation flights (widely covered). Invoking Alien Enemies Act 1798 for Venezuela Tren de Aragua deportations (unprecedented). CBP One app terminated Day 1. Birthright citizenship EO (constitutionally contested). 'Alligator moat' in border barrier discussions. The removal of political guardrails from Term 1 (Kelly, McMaster, Mattis influence) is directly visible in the escalation pace."
+      },
+      {
+        "label": "electoral_cycle_policy_sensitivity",
+        "value": 0.85,
+        "evidence": "Policy timing is visibly influenced by electoral calendar in Term 1. October surprise pattern: Phase 1 China deal announced October 2019 (pre-election year), COVID stimulus push accelerated October 2020 (election month). Farm subsidies ($28B direct payments 2018-2019) timed to offset China tariff retaliation in key swing states (Iowa, Wisconsin). In Term 2, with no reelection constraint, the electoral sensitivity should theoretically drop — but Trump appears to maintain it for midterm and legacy political support reasons. Score reflects Term 1 baseline."
+      },
+      {
+        "label": "second_term_no_reelection_constraint",
+        "value": 0.95,
+        "evidence": "Term 2 behavior is dramatically more aggressive than Term 1, far beyond initial expectations. Tariff rates higher (145% China vs 25% Term 1). DOGE dismantling federal agencies. But the truly unprecedented escalation came in late 2025-2026: (1) Dec 2025 — Tomahawk missiles on ISIS targets in Nigeria, (2) Jan 3, 2026 — CIA/FBI/military operation invaded Venezuela and captured President Maduro alive, now in NYC facing narco-terrorism charges, (3) Jan 7, 2026 — withdrew from 66 international organizations, (4) Feb 28, 2026 — US-Israel joint strike killed Iran's Supreme Leader Khamenei (30 bombs + ballistic missiles on his compound, killing him and family members). This is no longer just aggressive trade policy — this is direct regime change operations and assassination of foreign leaders. The no-reelection constraint has removed ALL behavioral guardrails. Revised from 0.82 to 0.95."
+      },
+      {
+        "label": "doge_government_efficiency_commitment",
+        "value": 0.75,
+        "evidence": "DOGE (Department of Government Efficiency, advisory board led by Elon Musk) was established by EO Jan 20 2025. Stated goal: cut $2T from federal spending. Actions by March 2025: USAID effectively dismantled, Education Department reduction announced, federal workforce reduction through buyouts (~75,000 accepted voluntary separations as of March 2025), IRS enforcement staffing cuts, CFPB operations suspended. The commitment is genuine but the $2T target is widely considered unrealistic — the defense budget ($890B) and mandatory spending (Medicare/Medicaid/Social Security $3.5T combined) are largely untouchable. Score reflects real commitment with constrained execution."
+      },
+      {
+        "label": "doge_elon_musk_deference",
+        "value": 0.65,
+        "evidence": "Trump gave Musk unprecedented access and authority as DOGE head — an unelected private citizen with direct EO authority over federal agencies. However, the relationship shows signs of strain: Musk's cutting suggestions sometimes conflict with Trump's political base (cutting farm subsidies, touching Medicare). Musk's public profile through DOGE risked overshadowing Trump. The deference is real but bounded — Trump maintains ultimate control and has shown willingness to override Musk when politically necessary (e.g., protecting certain rural broadband subsidies)."
+      },
+      {
+        "label": "cryptocurrency_strategic_reserve_adoption",
+        "value": 0.72,
+        "evidence": "Trump reversed his prior anti-crypto position (2019: 'not a fan of Bitcoin') to become strongly pro-crypto by Term 2. EO Mar 6 2025 established Strategic Bitcoin Reserve seeding from US government-seized crypto assets (~210,000 BTC). Also established US Digital Asset Stockpile for other cryptocurrencies. Crypto industry was a major donor to 2024 campaign ($119M+ to pro-crypto candidates, largely from Coinbase/a16z/Ripple). David Sacks appointed AI/Crypto czar. The policy reversal is transactional: crypto industry bought political support and got regulatory/policy support in return."
+      },
+      {
+        "label": "real_estate_leverage_thinking",
+        "value": 0.90,
+        "evidence": "Trump's entire economic worldview is filtered through real estate deal-making. Key manifestations: (1) Tariffs as leverage — in real estate you always open with an extreme position, (2) Deficit tolerance — in real estate you always use OPM (other people's money), (3) Threat as negotiation — in real estate the threat of litigation/walking away is standard leverage, (4) Stock market = project valuation — in real estate success is measured by asset appreciation, (5) Supply-side thinking — in real estate, reducing costs (taxes, regulation) directly improves project economics. His six corporate bankruptcies reinforce the 'default is a negotiating tool, not a failure' mentality."
+      },
+      {
+        "label": "bankruptcy_experience_risk_tolerance",
+        "value": 0.88,
+        "evidence": "Six corporate bankruptcy filings are a direct behavioral signal. Trump's Atlantic City casinos: Taj Mahal (1991), Castle (1992), Plaza (1992), Plaza Hotel (1992), Trump Hotels & Casino Resorts (2004), Trump Entertainment Resorts (2009). Key lesson: equity holders (Trump) survived and maintained control through restructuring while creditors (banks, bondholders) took losses. This creates a personal prior that 'things can go much worse than expected and you still come out OK.' Applied to policy: willing to push tariffs/confrontation further than advisors recommend because downside scenarios are survivable. The US 'won't go bankrupt' because it controls its own currency — even stronger reason for deficit tolerance."
+      },
+      {
+        "label": "tv_persona_communication_as_policy",
+        "value": 0.93,
+        "evidence": "Trump explicitly uses communication as a policy tool, inherited from 14 years on The Apprentice. Key patterns: (1) 'You're fired' language applied to officials (explicitly called Powell this on Twitter), (2) Reality show cliffhangers — tariff announcements with dramatic pauses, (3) Ratings obsession — crowd size, polling numbers, ratings cited as policy validation, (4) Villain framing — every policy has a villain (China, the Fed, Democrats, immigrants), (5) Tweet/social media post as official policy announcement (markets moved on his Truth Social posts). The Apprentice boardroom negotiation style directly maps onto press conferences and policy announcements."
+      },
+      {
+        "label": "loyalty_based_decision_making",
+        "value": 0.90,
+        "evidence": "Trump's organizational decision-making is loyalty-first. Evidence: (1) Term 1 staff turnover — 91% of senior staff turned over by end of term, primarily driven by perceived disloyalty (Kelly, Mattis, McMaster, Tillerson, Sessions all fired for crossing Trump on policy), (2) Term 2 appointments explicitly screened for loyalty: Kash Patel (FBI), Pete Hegseth (DOD), RFK Jr. (HHS), Marco Rubio (State — term 1 critic who became loyalist), (3) Pardons issued to Jan 6 participants on Day 1 Term 2 as loyalty reward, (4) Attorney General selection criteria: loyalty to Trump over institutional independence. The family business model — you trust family and proven loyalists, everyone else is potentially disloyal."
+      },
+      {
+        "label": "institutional_constraint_tolerance",
+        "value": 0.12,
+        "evidence": "Trump has extremely low tolerance for institutional constraints on his authority. Evidence: (1) Fired FBI Director Comey while under investigation, (2) Fired Acting AG Yates, AG Sessions, Acting AG Whitaker, (3) Attempted to fire Special Counsel Mueller (White House Counsel McGahn refused), (4) Used executive orders to circumvent Congressional inaction on immigration (DACA reversal, border emergency), (5) Term 2: invoked emergency powers for tariffs (IEEPA) to bypass Congressional trade authority, (6) Challenged birthright citizenship (14th Amendment), (7) Pardoned himself (preemptively?) for Jan 6-related matters. Score reflects genuine contempt for institutional limits rather than strategic use of them."
+      },
+      {
+        "label": "executive_order_preference_over_legislation",
+        "value": 0.88,
+        "evidence": "Trump strongly prefers EOs over legislative action due to speed, unilateralism, and loyalty-based control. Term 1 Day 1: 13 EOs (immigration ban, Paris Agreement withdrawal start, ACA enrollment fee waiver). Term 2 Day 1: 26 EOs (record for any first day). Total Term 2 EOs in first 100 days exceeded 100. The IEEPA-based tariff authority is the clearest example: using 1977 emergency law to impose tariffs that would normally require Congressional approval (which he couldn't guarantee). DOGE itself was structured as an advisory body to avoid Senate confirmation requirements."
+      },
+      {
+        "label": "personal_enrichment_policy_overlap",
+        "value": 0.68,
+        "evidence": "Trump maintains unusual overlap between presidential policy and personal/family financial interests. Evidence: (1) Golf course businesses received federal spending when Trump golfed at his own properties (Secret Service room charges), (2) Trump International Hotel DC during Term 1 became a center for foreign government spending (emoluments concern), (3) Term 2: $TRUMP meme coin launched days before inauguration generating ~$100M in fees for Trump-affiliated entities, (4) Saudi sovereign wealth fund invested $2B in Jared Kushner's private equity firm months after Kushner's White House service, (5) Crypto industry donors got Strategic Bitcoin Reserve policy. Score is deliberately measured — not claiming corruption, but noting that the incentive structure creates observable policy overlap."
+      },
+      {
+        "label": "negotiation_walkaway_credibility",
+        "value": 0.80,
+        "evidence": "Trump has demonstrated genuine willingness to walk away from deals, lending credibility to his threats. JCPOA withdrawal (walked away from Obama-era deal with no replacement ready). TPP withdrawal Day 1 (walked away despite trade officials arguing for renegotiation). INF Treaty exit (withdrew from arms control treaty unilaterally). North Korea: walked away from Hanoi Summit 2019 (unprecedented for sitting US president to leave without deal). DACA EO reversal attempt. The willingness to walk away is a genuine strategic commitment, not just bluffing — which makes his opening demands more credible as threats."
+      },
+      {
+        "label": "multilateral_institution_skepticism",
+        "value": 0.88,
+        "evidence": "Trump views multilateral institutions as constraints on US unilateral leverage. Withdrew from: TPP, Paris Agreement, JCPOA, WHO (twice), INF Treaty, Open Skies Treaty, UNESCO (twice). Attempted to: defund/restructure WTO (blocked dispute settlement body by refusing appointments), redirect UN funding. Term 2: froze UN funding in first weeks. The pattern is not isolationism — Trump accepts bilateral deals — but strong preference for bilateral over multilateral frameworks where he can apply maximum individual leverage."
+      },
+      {
+        "label": "dollar_strength_preference_ambivalence",
+        "value": 0.45,
+        "evidence": "Trump has internally contradictory preferences on the dollar. As a manufacturer/exporter sympathizer, he wants a weaker dollar (complained dollar was 'too strong' relative to euro/yuan, accused China of manipulation). As someone who uses stock market as report card, he benefits from dollar strength supporting asset prices. He publicly complained about dollar strength but never took sustained policy action to weaken it. Score of 0.45 reflects genuine ambivalence: no strong preference direction, creating policy inconsistency."
+      },
+      {
+        "label": "inflation_sensitivity_personal",
+        "value": 0.72,
+        "evidence": "Trump is sensitive to inflation primarily through its political impact (voter perception, stock market) not through economic analysis. His pre-2025 2024 campaign was largely won on inflation messaging ('Biden/Harris caused 20% cumulative price increase'). He intuitively understands that visible price increases (gas, groceries) hurt him politically. This creates pressure to be seen as fighting inflation — but it competes with his tariff agenda (which is inherently inflationary). Term 2 tariff announcement coincided with inflation concerns, creating policy tension he manages through deflection (blaming China for inflation caused by tariffs)."
+      },
+      {
+        "label": "trade_deficit_obsession",
+        "value": 0.85,
+        "evidence": "Trump has an almost mercantilist fixation on trade deficits. He views a trade deficit as the US 'losing' in trade, which economists broadly dispute (trade deficits can reflect investment attractiveness and consumption strength). This view is consistent and has appeared in his writing since the 1980s ('The Art of the Deal', 1987, complained about Japan trade imbalance). The trade deficit with China ($375B in 2017) was his primary justification for tariffs. Phase 1 deal was judged by Trump primarily on whether China would buy enough US goods to reduce the bilateral deficit. The deficit obsession is a feature of the real estate developer's zero-sum thinking applied to trade."
+      },
+      {
+        "label": "manufacturing_reshoring_priority",
+        "value": 0.80,
+        "evidence": "Bringing manufacturing back to the US is a core Trump economic identity theme. Tariffs are explicitly justified as forcing reshoring ('build it here or pay the tariff'). Term 1: celebrated every individual manufacturing announcement (Foxconn Wisconsin plant — announced but mostly unbuilt, Ford plants, etc.). Term 2: TSMC $100B Arizona investment directly attributed to Trump tariff/pressure (partly true — TSMC already had $65B commitment, Trump pressured further expansion). Steel/aluminum tariffs explicitly framed as protecting domestic production. The policy commitment is genuine even if results are mixed."
+      },
+      {
+        "label": "infrastructure_investment_preference",
+        "value": 0.70,
+        "evidence": "Trump consistently expressed desire for infrastructure investment across both terms ('infrastructure week' became a running joke for repeatedly announced but unrealized plans in Term 1). The $1.5T infrastructure plan never passed (2018, 2019, 2020 — different versions, none became law). Term 2: DOGE vs infrastructure spending creates tension. His real estate background makes him genuinely enthusiastic about building tangible physical assets. However, his preference for tax cuts and deficit tolerance means infrastructure is usually crowded out or redirected to private financing models."
+      },
+      {
+        "label": "protectionism_ideological_consistency",
+        "value": 0.90,
+        "evidence": "Trump's protectionist views predate his presidency by decades, making them among his most ideologically consistent beliefs. NYT full-page ads 1987 attacking Japan trade policy. Repeated interviews in 1980s-1990s about trade deficits. The Art of the Deal (1987) explicitly advocates protectionist leverage. Unlike many politicians whose views evolve with political winds, Trump's trade views are essentially unchanged over 40 years — which is unusual for an opportunist politician. This deep consistency means protectionism is a genuine conviction, not just political positioning."
+      },
+      {
+        "label": "recession_risk_tolerance_policy_trade",
+        "value": 0.72,
+        "evidence": "Trump tolerates recession risk in pursuit of negotiating goals. Term 1: 2019 trade war created measurable manufacturing sector recession (PMI contracted July-December 2019) but he maintained tariffs. Dec 2018 market selloff (20% correction) caused rapid rhetorical pivot but not policy reversal. Term 2: Liberation Day tariff announcement April 2025 was maintained even as markets priced in ~40% recession probability (multiple Wall Street forecasts). He appears to have a higher recession risk tolerance than conventional politicians — bankruptcy experience creates 'things can get bad and you still win' prior."
+      },
+      {
+        "label": "speed_of_major_decisions",
+        "value": 0.85,
+        "evidence": "Trump makes major decisions very fast by presidential standards, often over the objection of advisors who want more deliberation. Immigration ban EO: signed 7 days after inauguration, causing airport chaos. JCPOA exit: announced in 12 minutes on White House lawn. Liberation Day tariff rates: apparently set in Oval Office hours before announcement with limited interagency review. Tariff pause decision (Apr 9 2025): announced on Truth Social with 2 hours notice, markets moved before markets even opened. The speed is a feature, not a bug — it prevents institutional resistance from forming."
+      },
+      {
+        "label": "advisor_overrule_frequency",
+        "value": 0.88,
+        "evidence": "Trump regularly and publicly overrules senior advisors, generals, and Cabinet officials. Term 1 documented overrules: Syria withdrawal (overruled Mattis, who resigned); tariff rates (overruled Treasury Secretary Mnuchin who favored lower rates); North Korea summit (overruled NSA staff who advised against); COVID response pace (overruled CDC/FEMA on timeline). Bolton, Kelly, Tillerson, McMaster, Esper, Mattis, Sessions — all major departures involved fundamental policy disagreements. Term 2: similar pattern but with more pre-screened loyalists, so fewer public conflicts but still visible (Hegseth Pentagon vs career military)."
+      },
+      {
+        "label": "ppo_political_polling_sensitivity",
+        "value": 0.78,
+        "evidence": "Trump closely monitors polling data and adjusts messaging (though rarely core policy) based on polling. His attacks on poll numbers he dislikes are paradoxically evidence of his sensitivity to them — he wouldn't fight them if they didn't matter to him. COVID mask mandate opposition correlated with polling showing his base opposed masks. Immigration crackdown Term 2 explicitly framed to match the mandate he believed he received from the 2024 election (exit polls showed immigration was top issue). Tariff pause (Apr 2025) coincided not just with market selloff but with polling showing ~60% disapproval of tariffs."
+      },
+      {
+        "label": "populist_economic_framing",
+        "value": 0.88,
+        "evidence": "Trump frames virtually all economic policy through a populist lens: the 'forgotten man', working class Americans vs. coastal elites, American workers vs. foreign competition, domestic industry vs. global corporations. This framing is consistent across tax cuts (argued they help middle class, though critics show they primarily benefit wealthy), tariffs (protecting American jobs), deregulation (cutting red tape holding back small business), DOGE (cutting elite government bureaucracy). The populist frame often conflicts with the policy substance (TCJA benefited wealthy disproportionately) but is genuine as a communication strategy."
+      },
+      {
+        "label": "personal_financial_leverage_to_policy",
+        "value": 0.60,
+        "evidence": "There are documented instances where personal financial exposure influenced policy rhetoric or timing. Example: Trump Organization had extensive debt to Deutsche Bank and Vornado; neither was directly affected by his policies. The clearest example is his crypto position: after launching $TRUMP meme coin pre-inauguration, his administration's pro-crypto policies directly benefited his financial interests. Saudi investment in Kushner's fund after Saudi-friendly Middle East policy. Score is deliberately moderate — the overlap exists but is difficult to separate from coincidental alignment of views."
+      },
+      {
+        "label": "short_term_vs_long_term_thinking",
+        "value": 0.20,
+        "evidence": "Trump strongly prioritizes short-term visible wins over long-term strategic positioning. 'Getting the deal' matters more than whether the deal holds. Phase 1 China trade deal: declared victory Jan 2020, China never met purchasing commitments (bought ~60% of pledged amount), deal widely considered incomplete, but victory declared before evaluation period ended. Infrastructure week: announced but never executed (focus moved to next announcement). Stock market as daily report card is inherently short-term. The Apprentice mentality: each episode needs a winner declared, you can't end a season 'to be determined.' Score of 0.20 reflects very short-term bias."
+      },
+      {
+        "label": "national_security_economic_integration",
+        "value": 0.82,
+        "evidence": "Trump more consistently than most modern presidents uses economic tools for national security goals, and vice versa. IEEPA national emergency for tariffs blends economic and security justifications. Huawei ban was simultaneously economic (protecting US tech), security (preventing espionage), and trade war pressure (leverage on China). TSMC Arizona pressure: economic (manufacturing), security (chip independence), political (jobs). The integration is genuine — his worldview doesn't cleanly separate 'economic policy' from 'security policy,' consistent with deal-maker thinking where all leverage is fungible."
+      },
+      {
+        "label": "ukraine_russia_economic_stance",
+        "value": 0.55,
+        "evidence": "Trump's Ukraine/Russia stance has economic dimensions that make simple classification difficult. Term 1: Ukraine military aid hold (impeachment trigger), positive signals toward lifting Russia sanctions, Nord Stream 2 opposition (protecting US LNG export market). Term 2: Ukraine mineral rights as condition for continued support (explicit transaction — security for economic concession), willingness to end the war on terms unfavorable to Ukraine, suspended USAID to Ukraine. The economic dimension — Ukraine's rare earth/mineral wealth and European energy dependence — is a consistent Trump frame. Score reflects genuine ambivalence between pro-Russia signals and economic nationalist interests."
+      },
+      {
+        "label": "reciprocity_framing_intensity",
+        "value": 0.92,
+        "evidence": "Trump's 'reciprocal tariffs' concept was the centerpiece of Liberation Day (April 2, 2025): if Country X tariffs US goods at Y%, the US tariffs Country X at Y%/2. The reciprocity frame is deeply embedded in his worldview — the sense that the US has been taken advantage of and fairness requires matching treatment. This framing pre-dates his presidency (Japan trade criticism in 1980s used same logic). The reciprocity concept appeals intuitively to the public even if economists dispute whether non-tariff barriers justify the calculations used."
+      },
+      {
+        "label": "agricultural_sector_protection",
+        "value": 0.80,
+        "evidence": "Farm subsidies and agricultural protection are politically essential for Trump's electoral coalition. When China retaliated against US soy/pork in 2018-2019, Trump authorized $28B in direct farm payments (largest peacetime farm subsidies in US history) to offset trade war damage. The payment timing was explicitly designed to hold farm-state support in Iowa, Wisconsin, Michigan. Liberation Day tariffs exempted some agricultural categories initially. The political calculus is explicit: Midwest swing states = must protect farmers = will trade fiscal cost for political support."
+      },
+      {
+        "label": "international_investment_attraction",
+        "value": 0.75,
+        "evidence": "Trump actively courts high-profile foreign investment announcements as policy wins. TSMC $100B Arizona, Samsung Texas expansions, Toyota/Honda investment announcements — all celebrated as personal deal-making victories. The Trump Organization background makes him comfortable in the dealmaker role with foreign investors. However, his tariffs and regulatory uncertainty simultaneously deter investment, creating a contradiction: the deal-maker attracts investments but the protectionist deters them. Net effect is moderate."
+      },
+      {
+        "label": "energy_independence_framing",
+        "value": 0.88,
+        "evidence": "Energy independence/dominance is a consistent Trump policy frame across both terms. 'Energy dominance' (Term 1 phrase) and 'Drill baby drill' (Term 2) reflect genuine priority on maximizing domestic fossil fuel production. Approved Keystone XL, LNG export acceleration, ANWR drilling authorization, offshore lease expansions. Term 2: reversed Biden-era drilling restrictions on Day 1, targeted IRA provisions that subsidized wind/solar. The frame serves multiple goals: national security (less dependence on Middle East), economic (lower energy costs), electoral (oil/gas states and working-class voters who drive)."
+      },
+      {
+        "label": "zero_sum_global_economic_worldview",
+        "value": 0.87,
+        "evidence": "Trump's trade worldview is fundamentally mercantilist and zero-sum: trade surpluses are wins, deficits are losses, another country's gain is America's loss. This contradicts comparative advantage theory and most mainstream trade economics. The consistency of this view across decades (1980s Japan criticism, 2000s China criticism, 2017-2025 trade wars) confirms it's not just rhetoric but a genuine mental model. Implications for the simulation: Trump treats international economics as negotiation contests rather than as systems where multiple parties can gain simultaneously."
+      },
+      {
+        "label": "wto_dispute_mechanism_undermining",
+        "value": 0.80,
+        "evidence": "Trump explicitly targeted the WTO Appellate Body by blocking appointments, effectively paralyzing the dispute resolution mechanism. This is strategic: a weak WTO enforcement mechanism gives the US more unilateral leverage because other countries can't effectively challenge US tariffs. By Term 2, the Appellate Body had been non-functional for years due to US blocking. The IEEPA tariff authority is legally more defensible outside WTO because IEEPA is domestic law, not WTO-bound — consistent with the strategy of escaping multilateral rules."
+      },
+      {
+        "label": "press_freedom_hostility",
+        "value": 0.85,
+        "evidence": "Trump's 'enemy of the people' framing for mainstream media is consistent and policy-relevant. Refused to hold traditional White House press briefings for extended periods. Denied press credentials to critical outlets. Used 'fake news' framing to preemptively discredit negative coverage. Term 2: appointed FCC chair Brendan Carr who investigated media licenses of ABC, CBS, NBC, NPR defunding attempt. Policy relevance: his communication strategy bypasses traditional media (Truth Social direct), which makes his policy signals harder to interpret through normal channels and more dependent on his personal statements."
+      },
+      {
+        "label": "climate_policy_reversal_commitment",
+        "value": 0.95,
+        "evidence": "Climate policy reversal is among Trump's most consistent and predictable policy actions. Withdrew from Paris Agreement Term 1 (2017), rejoined under Biden (2021), withdrew again Term 2 Day 1 (2025). Reversed Clean Power Plan, Waters of the US rule, methane emissions rules, fuel economy standards. Term 2: on Day 1, signed EO declaring national energy emergency to accelerate fossil fuel extraction, reversed Biden IRA implementation guidance, targeted offshore wind moratorium. The consistency is absolute — across both terms, every major climate regulation faced reversal attempts. This makes climate policy the most predictable dimension of Trump's economic behavior."
+      },
+      {
+        "label": "g7_g20_multilateral_engagement",
+        "value": 0.35,
+        "evidence": "Trump's multilateral summit participation is disruptive by design. G7 2018 Charlevoix: signed communiqué, then tweeted withdrawal from Air Force One. G7 2019: suggested readmitting Russia. G20: used for bilateral sideline deals (Xi, Abe, MBS) rather than multilateral progress. Term 2: used G7/G20 platforms to advance bilateral tariff negotiations rather than build multilateral frameworks. Score reflects low commitment to multilateral institutions as collaborative forums."
+      },
+      {
+        "label": "middle_east_policy_transactionalism",
+        "value": 0.82,
+        "evidence": "Trump's Middle East policy has a strong transactional economic component. Abraham Accords (2020): framed as deal-making triumph, included arms sales to UAE ($23B) as part of the package. Saudi Arabia: despite Khashoggi murder, maintained arms sales relationship ('$450 billion, they invest in our country'). Term 2: Gaza ceasefire proposal included US Gaza reconstruction role ('Riviera of the Middle East' concept). Qatar base access maintained despite Qatar having funded Hamas. The economic deal-making frame consistently mediates security/democracy concerns."
+      },
+      {
+        "label": "defense_spending_commitment",
+        "value": 0.78,
+        "evidence": "Trump is unusual among Republicans: strong military rhetoric combined with genuine attempts to reduce defense-adjacent costs (NATO cost-sharing demands effectively try to reduce US defense burden). NDAA increases under Trump: FY2018 $700B, FY2019 $716B, FY2020 $738B, FY2021 $741B. However, the increases were largely driven by Congressional consensus; Trump's personal interest was less in defense spending than in trade leverage. Term 2: Pentagon review of overseas military presence with cost-benefit lens (consistent with alliance transactionalism)."
+      },
+      {
+        "label": "health_care_deregulation",
+        "value": 0.72,
+        "evidence": "ACA repeal was a Term 1 priority that failed (McCain vote, July 2017). Despite failure, EOs reduced individual mandate enforcement (zeroed penalty 2019), expanded short-term health plans (allowed non-ACA compliant plans), undermined exchange subsidies. Term 2: RFK Jr. as HHS Secretary pursuing deregulation agenda on food additives, pharmaceuticals, vaccine schedules — unconventional regulatory rollback. Drug price negotiation (IRA provision): Trump oscillated between supporting (lower drug prices popular) and opposing (conflicting industry pressure)."
+      },
+      {
+        "label": "regulatory_capture_facilitation",
+        "value": 0.75,
+        "evidence": "Trump's deregulation agenda systematically placed industry representatives in regulatory positions. EPA: Scott Pruitt (Oklahoma AG with fossil fuel ties), Andrew Wheeler (coal lobbyist). Interior: Ryan Zinke, David Bernhardt (energy lobbyist). USDA: Sonny Perdue (agribusiness). Term 2: 'Schedule F' EO converting career civil servants to political appointees in policy roles — structurally enables deeper regulatory capture. The pattern is more systematic than typical administration 'revolving door' — industries with political support get their representatives placed in their own regulators."
+      },
+      {
+        "label": "technology_sector_ambivalence",
+        "value": 0.50,
+        "evidence": "Trump's relationship with the technology sector is genuinely ambivalent. Term 1: threatened Amazon/Jeff Bezos (Washington Post ownership), threatened regulation of social media platforms (Section 230 reform). Term 2: meta-shift — after Facebook/Twitter/Google de-platforming and subsequent reinstatement, Trump pivoted to relationship with Musk, Zuckerberg, Bezos (who attended inauguration), tech sector generally. Silicon Valley alignment with conservative populism via Musk created unusual hybrid. David Sacks (AI czar) signals pro-AI deregulation. Score reflects genuine 50/50 ambivalence: hostile to surveillance/content moderation power, friendly to deregulation/AI."
+      },
+      {
+        "label": "north_korea_negotiation_pattern",
+        "value": 0.70,
+        "evidence": "North Korea negotiations showed Trump's deal-making pattern applied to nuclear diplomacy. Maximum pressure phase (2017-2018): 'fire and fury', 'Rocket Man', military threats. Then pivot to personal diplomacy: Singapore Summit June 2018 (first sitting US-DPRK leader meeting), Hanoi Summit Feb 2019 (walked away from partial deal), DMZ meeting Jul 2019. Result: North Korea denuclearization talks failed, NK kept its weapons, Trump maintained relationship framing. The pattern is instructive: theatrical confrontation, then personal deal-seeking, then claim success on process even if outcome is unchanged."
+      },
+      {
+        "label": "iran_maximum_pressure_consistency",
+        "value": 0.88,
+        "evidence": "Iran policy is one of Trump's most consistent security-economic linkages. JCPOA withdrawal May 2018 despite all other parties remaining in agreement. 'Maximum pressure' sanctions campaign: oil export sanctions (reduced Iran oil exports from 2.5M bbl/day to ~200K bbl/day by 2020). IRGC designated terrorist organization. Killing of Soleimani January 2020 (strategic-level escalation). Term 2: maximum pressure continued and escalated (secondary sanctions targeting Iran oil buyers, China entities sanctioned for buying Iranian oil). Consistent with his view that Obama-era multilateral deal was 'the worst deal ever' — ideological consistency on Iran."
+      },
+      {
+        "label": "russia_policy_ambiguity",
+        "value": 0.35,
+        "evidence": "Trump's Russia policy is his most ideologically inconsistent area — he says pro-Russia things while his administration's policies (sanctions, NATO strengthening budgets, Javelin sales to Ukraine in Term 1) were sometimes adversarial. Explanations include: (1) genuine admiration for Putin's strongman style, (2) business relationships (Trump Tower Moscow project), (3) intelligence community assessment of election interference creating defensiveness, (4) belief that US-Russia deal is achievable and would be a historic win. The ambiguity makes Russia the hardest dimension to model — score of 0.35 reflects 'more pro-Russia than predecessors' but not 'fully pro-Russia'."
+      },
+      {
+        "label": "intellectual_property_enforcement",
+        "value": 0.75,
+        "evidence": "IP protection (especially vs. China) is a consistent Trump economic concern, though it takes second place to the trade deficit as a complaint. Section 301 investigation (2018) that triggered tariffs was explicitly about IP theft by China. Huawei ban had IP theft component (industrial espionage allegations). 'Made in America' branding and domestic manufacturing preference implicitly supports US IP holders. Term 2: semiconductor export controls have IP protection dimension (preventing China from using US-origin technology). Score reflects genuine concern but secondary priority to bilateral trade balance."
+      },
+      {
+        "label": "monetary_policy_preference_easing",
+        "value": 0.95,
+        "evidence": "Trump's revealed monetary policy preference is consistently and strongly for easy money. Demanded: interest rate cuts to zero or negative (2019), QE when Fed was hiking, criticized every single rate increase 2018-2019. Praised low interest rate environment as his personal achievement ('greatest economy ever'). Term 2: demanded rate cuts as offset for tariff inflation pressure (essentially demanding the Fed monetize the cost of his trade policy). His real estate background makes this structural: as a real estate developer, the single most important external variable is the interest rate — lower rates = higher asset values, cheaper debt service, better project economics."
+      },
+      {
+        "label": "negative_interest_rate_advocacy",
+        "value": 0.78,
+        "evidence": "Trump was the first US president to explicitly advocate for negative interest rates. August 2019 tweets: 'as long as other countries are receiving the benefit of Negative Rates, the USA should also accept the gift.' September 2019: explicitly asked whether Fed would consider negative rates. This is outside even dovish mainstream economics — negative rates are controversial even among accommodative economists and have mixed evidence in Europe/Japan. His advocacy reflects real estate developer logic: even cheaper borrowing costs are always better."
+      },
+      {
+        "label": "presidential_reappointment_loyalty_test",
+        "value": 0.85,
+        "evidence": "Trump uses Fed chair reappointment as a loyalty signal. Renominated Powell for second term (2022) under Biden pressure, but had signaled wanting to replace him with someone more dovish (considered Kevin Warsh, Larry Kudlow). Term 2: Powell's term ends May 2026, and Trump's public attacks create expectation that the replacement will be selected for ideological/personal loyalty rather than pure monetary economics credentials. Treasury Secretary Bessent was rumored as Powell replacement — a loyalist with more Trump-aligned views. The pattern extends to all major appointments: loyalty screens have become more explicit in Term 2."
+      },
+      {
+        "label": "steel_aluminum_industrial_policy",
+        "value": 0.82,
+        "evidence": "Section 232 steel (25%) and aluminum (10%) tariffs March 2018 are among Trump's most consistent industrial policies. Survived legal challenges, were maintained through Biden administration, reimposed/strengthened in Term 2. The domestic steel/aluminum industry directly benefited — Nucor, US Steel, AK Steel stock prices surged. However, downstream industries (autos, appliances, construction) paid higher input costs. The policy represents genuine industrial policy commitment, not just negotiating leverage, because it was maintained even after receiving no reciprocal concessions from most trading partners."
+      },
+      {
+        "label": "financial_sector_regulation_rollback",
+        "value": 0.80,
+        "evidence": "Dodd-Frank rollback was a consistent financial deregulation priority. EGRRCPA 2018: raised SIFI threshold from $50B to $250B (released regional banks from Fed oversight). Rolled back Volcker Rule implementation details. Reduced stress test frequency. Consumer Financial Protection Bureau: Mulvaney (then Kraninger, then Uejio) appointments gutted enforcement. OCC 'fintech charter' proposal to create federal non-bank charters. Term 2: CFPB effectively suspended operations (Musk/DOGE targeted it directly as 'unconstitutional'). Financial sector deregulation serves both ideological (free market) and donor-class (Wall Street) goals simultaneously."
+      },
+      {
+        "label": "export_control_selective_application",
+        "value": 0.70,
+        "evidence": "Trump uses export controls selectively, primarily against China/adversaries but not as a broad tool. Huawei entity list (May 2019) was the defining action: cut Huawei from US chip supply chains, causing massive disruption to global semiconductor industry. SMIC (Chinese chipmaker) entity list (Dec 2020). EDA software export controls on China. Term 2: tightened NVIDIA AI chip export controls further. However, Trump is reluctant to apply broad export controls that hurt US exporters (Boeing aircraft, agricultural exports) — the commercial interest creates a partial constraint on export control scope."
+      },
+      {
+        "label": "wealth_display_and_economic_signaling",
+        "value": 0.78,
+        "evidence": "Trump's personal brand of visible wealth — gold-plated towers, private jets, personal branding — functions as an economic signal in his leadership style. His economic credentials are partly built on the display of personal success (Mar-a-Lago, Trump Tower, gold elevators). This is relevant to policy: he gravitates toward visible, announcement-worthy economic wins ('the greatest deal ever', 'biggest tax cut in history') over structural but invisible policy improvements. The Apprentice boardroom aesthetic — bold, visible decisions with immediate winners — maps onto his policy style."
+      },
+      {
+        "label": "covid_initial_denial_economic_cost",
+        "value": 0.88,
+        "evidence": "Trump's initial COVID denial (Jan-Feb 2020: 'under control', 'will disappear', comparison to flu) delayed economic response by approximately 4-6 weeks, with significant economic cost. January 22: 'one person from China, under control.' February 24: 'very much under control in USA.' February 28: 'hoax.' March 13: national emergency declared. The delay is attributable to: stock market performance concern (early COVID signals coincided with market highs he was celebrating), information filtering (advisors knew he didn't want bad news), and genuine optimism bias. By the time economic reality was accepted, the damage was baked in."
+      },
+      {
+        "label": "optimism_bias_economic_forecasts",
+        "value": 0.88,
+        "evidence": "Trump consistently promotes more optimistic economic forecasts than consensus. Pre-TCJA: promised 3-4% GDP growth (actual: 2.9% in 2018, 2.3% in 2019, -3.4% in 2020). COVID recovery: promised V-shaped recovery and 'greatest economy ever by end of year' (March 2020). Phase 1 deal: China would buy '$200B more US goods' (actual: ~60% compliance). Deficit reduction: TCJA would 'pay for itself through growth' (actual: deficits increased significantly). The pattern is not simply lying — it appears to reflect genuine optimism bias common in successful salespeople/real estate developers who must project confidence to close deals."
+      },
+      {
+        "label": "technology_decoupling_willingness",
+        "value": 0.80,
+        "evidence": "Trump demonstrated willingness to accept economic costs from technology decoupling with China. Huawei ban disrupted Apple supply chains, raised smartphone costs, created diplomatic friction — he maintained it. SMIC restrictions tightened semiconductor supply chains. TikTok ban attempts (blocked by courts, then resolved). Term 2: NVIDIA advanced chip export controls tightened further, accepting loss of significant US semiconductor revenue in exchange for limiting Chinese AI capabilities. The willingness to accept commercial costs for national security/strategic technology leadership is genuine, if selectively applied."
+      },
+      {
+        "label": "media_market_signal_reliance",
+        "value": 0.82,
+        "evidence": "Trump monitors financial media (CNBC, Fox Business) as a real-time policy feedback mechanism, in addition to direct Twitter/Truth Social engagement. Multiple White House staff accounts of Trump watching CNBC and reacting to market commentary in real-time. His market tweets often followed Fox Business coverage of market moves. The behavioral loop: media covers market → Trump reacts on Truth Social → markets react to Trump → media covers reaction. This makes Trump's policy signals particularly reactive to financial media narratives, a vulnerability for simulation modeling."
+      },
+      {
+        "label": "personal_wealth_protection_instinct",
+        "value": 0.65,
+        "evidence": "Trump's personal financial history (six bankruptcies, all at corporate level while personal assets were protected through legal structures) suggests sophisticated wealth-protection instincts. The Trump Organization LLC structure that protected personal assets through corporate bankruptcy is directly analogous to his use of legal structures to protect his presidential actions (immunity arguments, pardon power). Not claiming this consciously drives policy, but the pattern of: 'create maximum upside, limit personal downside' is observable in both business and governing decisions."
+      },
+      {
+        "label": "ppp_small_business_stimulus_enthusiasm",
+        "value": 0.85,
+        "evidence": "Paycheck Protection Program ($349B initial, then additional $310B, then $284B PPPHCE) was among the most successful rapid-deployment fiscal programs in US history. Trump was genuinely enthusiastic about PPP as both economic policy (support small business base) and political branding (visible help to 'forgotten' businesses). The program's speed (deployed in days) and scale exceeded most expert expectations. Trump's real estate background meant he viscerally understood small business liquidity crises — even large real estate projects can fail from temporary cash flow problems."
+      },
+      {
+        "label": "market_protection_floor_consciousness",
+        "value": 0.82,
+        "evidence": "Trump demonstrates awareness of stock market downside thresholds below which he shifts policy. Dec 2018 S&P -9% month → multiple tweets blaming Fed, calls to Mnuchin to check bank liquidity, dovish pivot on trade war rhetoric. Mar 2020 S&P -35% → CARES Act speed. Apr 2025 post-Liberation Day selloff (S&P -5-6% in 2 days) → 90-day tariff pause announced. The pattern suggests Trump has a roughly 5-10% drawdown threshold beyond which market concern begins to affect policy direction. Below that threshold, market noise is tolerated."
+      },
+      {
+        "label": "small_business_populist_identification",
+        "value": 0.80,
+        "evidence": "Despite personal billionaire status, Trump consistently identifies with small business owners and uses them as the target beneficiary of his economic policies. TCJA 20% pass-through deduction was explicitly framed as helping small businesses (also helped Trump Organization pass-through income). Deregulation framed as cutting 'red tape' hurting small business. COVID PPP was his signature economic success. The identification is psychologically authentic — he built his brand through real estate development, not Wall Street finance, and sees himself as a builder/deal-maker like his small business supporters."
+      },
+      {
+        "label": "international_deterrence_economic_tool",
+        "value": 0.82,
+        "evidence": "Trump uses economic tools for deterrence purposes more than most recent presidents. Tariff threats as deterrence: 'behave or we tariff you.' Sanctions as deterrence (Iran, Venezuela, North Korea). SWIFT exclusion threats as deterrence. However, the deterrence theory requires credibility of follow-through: Trump both enhances credibility (actually walks away) and undermines it (reverses decisions under market/political pressure). The Liberation Day pause arguably reduced future tariff threat credibility — if markets can force a reversal, the threat is less deterring."
+      },
+      {
+        "label": "antitrust_selective_targeting",
+        "value": 0.52,
+        "evidence": "Trump's antitrust policy is politically rather than economically driven. Term 1: DOJ blocked AT&T-Time Warner merger (Time Warner owns CNN, which Trump hated) while other mega-mergers proceeded. Targeted Amazon/Bezos with anti-trust rhetoric (Washington Post ownership). Term 2: DOJ dropped Google antitrust case after Google-aligned political signals, then re-engaged. Meta antitrust: FTC dropped case after Zuckerberg pivot to Trump alignment. The pattern is selective use of antitrust as political leverage rather than consistent market structure enforcement."
+      },
+      {
+        "label": "housing_policy_deregulation",
+        "value": 0.72,
+        "evidence": "As a former real estate developer, Trump's housing policy instincts favor deregulation and reduced zoning restrictions. Term 1: eliminated HUD fair housing rules. Term 2: executive orders targeting 'NIMBY' local zoning restrictions as a barrier to housing construction (unusual for a Republican to target exclusionary zoning). However, housing policy is not a primary Trump focus relative to trade/immigration/energy. Score reflects genuine real estate-industry-influenced preferences without being a primary policy driver."
+      },
+      {
+        "label": "global_reserve_currency_leverage",
+        "value": 0.65,
+        "evidence": "Trump has occasionally threatened dollar reserve currency leverage (threatening countries that trade in non-dollar currencies with tariffs) but doesn't have a coherent reserve currency policy. Oct 2024 campaign: threatened 100% tariffs on countries that move away from dollar for trade settlement. The threat reflects understanding that dollar dominance is a US economic privilege but operationalizing it is complex. His tariff regime (effectively taxing dollar-denominated trade) could theoretically accelerate de-dollarization, creating tension with the threat."
+      },
+      {
+        "label": "tax_enforcement_selective_application",
+        "value": 0.55,
+        "evidence": "Trump's IRS funding stance evolved: Term 1 IRS budget cuts as general deregulation. IRA (Biden, 2022) had $80B IRS enforcement funding (largely targeting wealthy tax compliance). Term 2 DOGE targeting IRS enforcement staff — cut IRS auditors, particularly in high-income compliance unit. The selective deregulation of tax enforcement (reducing scrutiny on wealthy taxpayers) aligns with his donor class and personal interests, while he rhetorically targeted government 'waste.'"
+      },
+      {
+        "label": "fed_rate_negative_advocacy_2nd_term",
+        "value": 0.70,
+        "evidence": "In Term 2, Trump's public Fed criticism escalated to unprecedented levels alongside tariff policy. The logic: if tariffs cause inflation, demand the Fed cut rates to offset, creating an impossible mandate conflict. March 2025: 'Powell is always 'late', with his tail between his legs.' The combination of inflationary tariff policy + demand for rate cuts is economically incoherent but politically consistent: (1) tariffs satisfy the nationalist base, (2) low rates satisfy the real estate/Wall Street constituency, (3) if inflation results, blame it on China not tariffs."
+      },
+      {
+        "label": "bureaucratic_resistance_impatience",
+        "value": 0.92,
+        "evidence": "Trump's single most consistent governing frustration is bureaucratic resistance to his directives. 'The deep state' framing reflects genuine experience of career officials slowing, modifying, or blocking his policy implementation. DOGE in Term 2 explicitly targets this: using Musk's speed and external accountability to circumvent normal governmental processes. Schedule F EO (converts career civil servants to at-will appointees in policy roles) was designed specifically to end bureaucratic resistance. The impatience has roots in real estate: when you buy a building, you give orders and things happen; in government, you give orders and lawyers, civil servants, and Congress create friction."
+      },
+      {
+        "label": "immigration_labor_market_conflation",
+        "value": 0.72,
+        "evidence": "Trump conflates immigration enforcement with labor market protection. The argument: reducing undocumented immigration raises wages for American workers. Economists debate the magnitude, but Trump holds this view consistently and uses it to justify aggressive enforcement. However, the same logic should apply to H-1B visas (high-skill immigration) — Trump has oscillated on this, sometimes supporting H-1B (at Musk's behest in Term 2) and sometimes attacking it (Term 1 restrictions). The conflation is genuine on low-skill immigration but inconsistent on high-skill immigration."
+      },
+      {
+        "label": "pork_barrel_political_economy",
+        "value": 0.78,
+        "evidence": "Trump uses targeted economic benefits as political rewards and punishments. Farm subsidies to offset trade war damage: concentrated in Iowa, Wisconsin, Michigan (swing states). COVID disaster declarations: processing speed correlated with state political alignment (Republican governors got faster approvals in several documented cases). Federal contracting and subsidy announcements timed to political events. Puerto Rico hurricane response vs. Florida hurricane response: documented disparity in speed and scale. The pattern is standard political economy but more explicit under Trump than most presidents."
+      },
+      {
+        "label": "state_owned_enterprise_tolerance",
+        "value": 0.35,
+        "evidence": "Trump occasionally engages with concepts that blur private/public enterprise lines. He suggested 'government should buy' TikTok and own a 50% stake (May 2024). His interest in US Steel acquisition by Nippon Steel involved government influence over the outcome. His Strategic Bitcoin Reserve is a government asset acquisition. However, he does not consistently advocate for state ownership — these are tactical uses of government power in specific situations, not a general state capitalism preference. Score reflects low but non-zero tolerance."
+      },
+      {
+        "label": "financial_sanctions_overextension_concern",
+        "value": 0.40,
+        "evidence": "Trump's own Treasury officials and advisors (including Mnuchin, Bessent) have expressed concern that overuse of financial sanctions could accelerate de-dollarization and reduce their effectiveness. Trump generally overrules these concerns in the short term but the tension exists. The tariff-as-primary-weapon preference over financial sanctions is partly explained by this: tariffs don't carry de-dollarization risk in the same way. Score of 0.40 reflects moderate awareness of sanctions overextension but insufficient to significantly constrain their use."
+      },
+      {
+        "label": "real_time_truth_social_policy_signaling",
+        "value": 0.85,
+        "evidence": "In Term 2, Trump's Truth Social posts function as official policy signals that move markets before formal announcements. Tariff pause announcement April 9 2025 was first signaled via Truth Social ('THIS IS A GREAT TIME TO BUY'), causing immediate market surge before formal White House announcement. This is a unique governing pattern: the president uses personal social media as the primary policy communication channel, bypassing White House press office, Treasury, USTR. For the simulation: Truth Social monitoring is a leading indicator, not lagging."
+      },
+      {
+        "label": "personal_brand_policy_alignment",
+        "value": 0.80,
+        "evidence": "Trump consistently conflates his personal brand with policy success. 'Make America Great Again' is simultaneously his electoral brand and his economic policy statement. Economic policies are often named/framed around the Trump brand ('Trumponomics', 'Trump boom', 'Trump tariffs'). The personal brand requirement creates a filter: policies that can be branded as personal victories are preferred over structurally superior policies that are less personally attributable. This is why he prefers dramatic announcement moments over incremental policy improvements."
+      },
+      {
+        "label": "information_diet_selective_media",
+        "value": 0.72,
+        "evidence": "Trump's primary information sources are Fox News, Fox Business, conservative talk radio, and social media — creating a selective information environment. Bob Woodward (Fear, Rage): multiple accounts of Trump making decisions based on Fox News reports rather than briefing books. John Kelly, HR McMaster both noted Trump rarely read intelligence briefings. The PDB (Presidential Daily Brief) was reportedly reduced to 2-3 pages with large graphics for Term 1. Information quality implications: Trump may have less accurate information about economic conditions than the Fed (which has FRED, internal models, regional intelligence). This is the information fidelity calculation."
+      },
+      {
+        "label": "economic_nationalism_consistency",
+        "value": 0.92,
+        "evidence": "'America First' economic nationalism is Trump's deepest and most consistent economic philosophy, predating his political career. The 1980s Japan trade criticism, the 1990s NAFTA opposition (before it passed), the 2000s China currency manipulation criticism — all are precursors to his presidential policies. Unlike many politicians who adjust views with political winds, Trump's economic nationalism is structurally consistent over 40 years. This means it's not purely political positioning — it's a genuine worldview that drives behavior even when there's no immediate political benefit."
+      },
+      {
+        "label": "liberation_day_tariff_2025_escalation",
+        "value": 0.93,
+        "evidence": "April 2, 2025 'Liberation Day': Trump announced 10% universal baseline tariff on all imports plus 'reciprocal' tariffs ranging from 11% (Vietnam calculation) to 50%+ on major trading partners, effectively 145% on China when combined with prior Section 301 tariffs. This exceeded nearly all analyst predictions and represents the most dramatic unilateral US trade action since Smoot-Hawley (1930). The magnitude and breadth (universal, not targeted) confirms Term 2 willingness to take actions that would have been considered politically impossible in Term 1. The subsequent 90-day pause (April 9) for most non-China countries was a negotiating retreat, but the China rate was maintained at 145%."
+      },
+      {
+        "label": "congressional_bypass_economic_eeos_ieepa",
+        "value": 0.88,
+        "evidence": "Trump consistently uses emergency economic powers to bypass Congressional trade/fiscal authority. IEEPA (International Emergency Economic Powers Act) was Trump's primary mechanism for tariffs in Term 2, declaring economic emergencies to impose tariffs without Congressional approval. Term 1: Section 232 national security tariffs (steel/aluminum) also circumvented normal Congressional trade process. The legal strategy: expand the definition of 'emergency' or 'national security' to cover economic policy goals. This matters for the simulation: Trump's economic policies are less constrained by Congressional approval than most presidents' policies."
+      },
+      {
+        "label": "monetary_fiscal_policy_confusion",
+        "value": 0.68,
+        "evidence": "Trump's public statements occasionally conflate monetary and fiscal policy in ways that suggest limited technical economics understanding. Demanded the Fed 'lower rates' immediately after announcing tariffs that would cause inflation — without appearing to recognize the contradiction. Suggested the US 'print money' to pay off debt. Claimed the stock market rise was equivalent to paying down the national debt. These are not strategic positions but appear to reflect genuine conceptual confusion about how monetary/fiscal interaction works. Relevant for simulation: his Fed demands may not be internally consistent with his other economic policies."
+      },
+      {
+        "label": "international_prestige_economic_linkage",
+        "value": 0.85,
+        "evidence": "Trump explicitly links national economic strength to international prestige and respect. 'Nobody respects us anymore' is paired with 'we don't have any money' in his political narrative. His presidency's legitimacy is partly built on the premise that economic strength commands international respect. This means he is more willing to take economic risks (tariffs, trade wars) that might be strategically risky but signal strength — because the signaling value is part of the policy benefit in his framework. 'They're not laughing at us anymore' is both an economic and prestige statement."
+      },
+      {
+        "label": "subsidy_targeted_industry_favoritism",
+        "value": 0.70,
+        "evidence": "Trump uses targeted subsidies to reward politically aligned industries. Fossil fuel subsidies maintained/expanded despite deficit concerns. Farm subsidies ($28B) directly compensated Trump coalition for trade war costs. Military spending increases benefited defense contractors in swing states. However, he opposes subsidies for industries seen as anti-Trump (green energy, public transit in 'liberal' cities, public broadcasting). The subsidy philosophy is not 'industrial policy' in the strategic sense but rather political economy — subsidize your coalition, cut others."
+      },
+      {
+        "label": "term1_vs_term2_escalation_differential",
+        "value": 0.85,
+        "evidence": "Term 2 is structurally more aggressive than Term 1 on every measurable policy axis. Tariffs: 10-145% (T2) vs 10-25% on specific goods (T1). Immigration enforcement: Alien Enemies Act deployment (T2) vs stronger border measures (T1). Fed pressure: explicit firing threats (T2) vs sustained public criticism (T1). Government restructuring: DOGE mass layoffs (T2) vs regulatory rollback (T1). Political appointments: loyalty-screened replacements across all major departments (T2) vs mixed loyalist/establishment (T1). The consistent escalation pattern is strong evidence that the reelection constraint was a meaningful moderating factor in Term 1."
+      },
+      {
+        "label": "inflation_blame_deflection_to_china",
+        "value": 0.88,
+        "evidence": "When tariffs cause consumer price increases, Trump deflects blame to China rather than accepting any causal responsibility for the tariffs he imposed. The rhetorical logic: 'China is paying these tariffs, not American consumers' (economically disputed — import prices do rise for domestic consumers). After Liberation Day 2025, as price increase forecasts circulated, Trump messaging shifted to 'China caused this by taking advantage of us for 40 years.' This is consistent with his general blame deflection pattern applied specifically to the trade-inflation link."
+      },
+      {
+        "label": "economic_emergency_powers_expansion",
+        "value": 0.88,
+        "evidence": "Trump has expanded the use of economic emergency powers beyond prior precedents. IEEPA was originally designed for specific country sanctions, not universal tariffs — but Trump's lawyers argued the authority is broad. COVID economic emergency (2020) was used for enormous fiscal stimulus. Term 2 IEEPA tariff authority is being legally challenged but was maintained while challenged (courts issued injunctions, DOJ appealed). The expansion of emergency powers is a consistent governance philosophy: if Congress won't give you the power you need, define the situation as an emergency."
+      },
+      {
+        "label": "manufacturing_job_announcement_value",
+        "value": 0.82,
+        "evidence": "Trump places disproportionate weight on headline manufacturing job announcements regardless of their actual economic significance. Carrier air conditioning deal (Dec 2016): saved ~800 jobs in exchange for state tax incentives (state gave up ~$7M for those jobs, about $8,750 per job). Foxconn Wisconsin (2017): announced as 13,000 jobs/$10B investment, delivered fewer than 1,000 full-time jobs. TSMC Arizona: celebrated as major victory despite being partly continuation of prior commitments. The announcement value — the press conference, the factory ribbon-cutting, the 'jobs' narrative — is valued as much as the actual economic impact. This bias toward visible, announceble outcomes shapes policy choices."
+      },
+      {
+        "label": "market_front_running_awareness",
+        "value": 0.58,
+        "evidence": "There are documented instances of Trump's Truth Social posts preceding policy announcements in ways that suggest some market participants had advance information. The 'GREAT TIME TO BUY' post before the tariff pause announcement (April 9 2025) was notable for its timing. Multiple instances of options market unusual activity before Trump tariff announcements have been documented in media. Whether this is deliberate or a consequence of signal leakage through his personal communication style is unclear — but it is a behavioral pattern that appears in the data."
+      },
+      {
+        "label": "gdp_growth_target_obsession",
+        "value": 0.82,
+        "evidence": "Trump repeatedly cited GDP growth as his primary economic metric, particularly targeting 3%+ growth as the benchmark that proved his policies worked. 2017: 'We will get GDP to 3%.' 2018: GDP 2.9% (close enough for him to claim success). 2019: GDP 2.3% (below target but pre-COVID attributed). Term 2: TCJA extension, deregulation, and tariff revenue all framed in context of achieving 3-4% GDP growth. However, the GDP obsession competes with the stock market metric — when the stock market and GDP growth contradict each other as policy guides, the stock market appears to win (more immediate, more visible)."
+      },
+      {
+        "label": "bilateral_deal_over_multilateral_framework",
+        "value": 0.90,
+        "evidence": "Trump consistently prefers bilateral deals over multilateral frameworks because bilateral deals: (1) concentrate his personal leverage, (2) allow claim of personal credit, (3) are faster to conclude (no need for 150-country consensus), (4) can be structured as 'Trump wins, other side can claim wins too.' USMCA replaced NAFTA trilateral, but negotiations effectively proceeded as bilateral US-Mexico, bilateral US-Canada, then combined. Phase 1 China deal was bilateral. Japan mini-deal was bilateral. Even the Abraham Accords were structured as multiple bilateral Israel-Arab state deals rather than a regional multilateral framework. The preference is deep and consistent."
+      },
+      {
+        "label": "worker_versus_elite_populist_tension",
+        "value": 0.65,
+        "evidence": "Trump's economic policy has a genuine tension between his populist worker rhetoric and his elite economic policy outcomes. TCJA: rhetorical framing around middle class, structural outcomes disproportionately benefited top 10% and corporations. Tariffs: framed as protecting workers, but Trade Adjustment Assistance (actually helping displaced workers) received minimal focus. DOGE cuts: may disproportionately affect lower-income government service recipients. The tension between populist framing and supply-side/wealthy-favoring policy substance is a defining characteristic that creates prediction challenges: which signal (rhetoric or policy) better predicts future actions?"
+      },
+      {
+        "label": "debt_ceiling_negotiation_willingness",
+        "value": 0.60,
+        "evidence": "Trump's debt ceiling position evolved: Term 1 generally supported raising it (needed to fund his priorities). June 2023 (out of office): encouraged Republicans to use debt ceiling as leverage against Biden. Term 2: DOGE cuts are framed partly as enabling suspension of debt ceiling concerns. However, Trump appears to genuinely believe the US should not default (his bankruptcy experience is with corporate debt, not sovereign debt, and he understands the difference). The willingness to use debt ceiling as political leverage is present but moderated by understanding that US sovereign default is categorically different from corporate bankruptcy."
+      },
+      {
+        "label": "strategic_petroleum_reserve_manipulation",
+        "value": 0.65,
+        "evidence": "Trump released SPR oil in Term 1 (2017, 2018 — small releases for hurricanes and supply disruptions). Criticized Biden's SPR releases as 'pure corruption' and 'political stunt.' Term 2: announced intent to refill SPR at 'low oil prices' — a sensible policy if executed. The pattern: accuses others of SPR manipulation while willing to use it himself when politically beneficial. Moderate score because the SPR use was relatively conventional compared to some other policy areas."
+      },
+      {
+        "label": "currency_manipulation_accusations",
+        "value": 0.80,
+        "evidence": "Trump repeatedly accused China (and sometimes Germany, Japan) of currency manipulation to gain unfair trade advantages. Under Treasury Department's formal framework, China technically qualified as a manipulator only briefly (2019 — Treasury labeled them after yuan depreciated during trade war, then removed the label after Phase 1 deal). Trump demanded more aggressive yuan appreciation as a Phase 1 condition. His currency concerns are: (1) genuine (mercantilist worldview), (2) strategic (another tariff negotiating chip), (3) often directed at countries that run trade surpluses with the US regardless of their actual FX policy."
+      },
+      {
+        "label": "post_election_economic_narrative_capture",
+        "value": 0.85,
+        "evidence": "Trump consistently claims credit for positive economic metrics and rejects responsibility for negative ones, regardless of causal timing. 'Trump boom' began taking credit for Obama-era trend continuation in late 2016 (before inauguration). COVID recession: attributed entirely to external shock (China). Post-COVID recovery: claimed credit for PPP/CARES (legitimately) but also for vaccine development that was partly pre-Trump (Operation Warp Speed had significant prior groundwork). 2021-2024 inflation: 'Biden did this.' The pattern is predictable: positive data = Trump success, negative data = predecessor or adversary responsibility."
+      },
+      {
+        "label": "treasury_secretary_alignment",
+        "value": 0.78,
+        "evidence": "Trump's Treasury Secretary selections reflect his economic priorities. Term 1: Steven Mnuchin — Wall Street background, tax cut architect, but willing to use financial sanctions. Term 2: Scott Bessent — macro hedge fund manager, more ideologically aligned with Trump's trade views ('3-3-3' framework: 3% growth, 3% deficit reduction, 3MB bbl/day oil increase), willing to defend tariff policy publicly. The alignment is stronger in Term 2: Bessent defends tariffs where Mnuchin sometimes pushed back. The trajectory shows increasing Treasury loyalty to Trump's economic views over time."
+      },
+      {
+        "label": "financial_crisis_risk_awareness",
+        "value": 0.55,
+        "evidence": "Trump has inconsistent awareness of systemic financial crisis risk. His bankruptcy experience gives him a visceral sense that things can collapse quickly — he's experienced it personally at the business level. But he consistently underweighted systemic risk in policy decisions: tariffs escalated despite market volatility warnings, COVID denial persisted despite early financial risk signals, deficit expansion continued despite debt sustainability concerns. Score of 0.55 reflects moderate awareness that doesn't reliably translate into risk-modulating behavior."
+      },
+      {
+        "label": "economic_policy_announcement_speed",
+        "value": 0.90,
+        "evidence": "Trump announces economic policy with minimal lead time and often before full implementation details are worked out. Liberation Day tariff rates: announced with apparent minimal interagency review (USTR, Treasury, and Commerce reportedly learned specifics close to announcement). Tariff pause: decided and announced within hours on April 9. Immigration ban EO: signed before border agencies had implementation guidance. The announcement-first, implementation-second pattern creates market volatility and policy confusion but is consistent with his real estate developer style of 'announce first, figure out details later.'"
+      },
+      {
+        "label": "china_fentanyl_trade_linkage",
+        "value": 0.75,
+        "evidence": "Trump explicitly linked fentanyl precursor exports from China as a justification for tariffs in Term 2. The 20% fentanyl tariff (February 2025, on top of existing tariffs) was framed as punishment for Chinese fentanyl precursor exports. Whether this is genuine policy linkage or convenient justification for tariffs he wanted anyway is debated — but the linkage is explicitly made and consistent with his approach of finding multiple justifications (national security, trade balance, fentanyl) for the same policy action."
+      },
+      {
+        "label": "latin_america_economic_leverage",
+        "value": 0.72,
+        "evidence": "Trump uses economic leverage against Latin American countries primarily for immigration enforcement goals. Mexico 5-25% tariff threat (June 2019) produced asylum-seeker cooperation in 2 weeks — his most successful rapid economic coercion. Colombia tariff threat (January 2025) produced rapid deportation flight cooperation. The pattern is clear: threaten tariffs → Latin American governments respond quickly because economic dependence on US market creates genuine vulnerability. The approach worked faster and more completely with Mexico/Colombia than with China — smaller, more US-dependent economies are more coercible."
+      },
+      {
+        "label": "eu_economic_confrontation",
+        "value": 0.72,
+        "evidence": "Trump views the EU as an economic adversary using regulatory/trade barriers to disadvantage US companies. 'The EU treats us very badly.' Auto tariff threats (25% on European cars — threatened but delayed in Term 1). Term 2: Liberation Day tariffs included EU at 20% 'reciprocal' rate. Digital services taxes (targeting US tech companies) framed as unfair trade action justifying retaliation. However, EU is a major US economic partner and security ally — the confrontation is real but moderated by this bilateral importance and by European governments' ability to organize collective resistance."
+      },
+      {
+        "label": "supply_chain_reshoring_willingness_to_accept_costs",
+        "value": 0.78,
+        "evidence": "Trump consistently shows willingness to accept short-term economic costs for supply chain reshoring goals. Tariffs that raise domestic consumer prices are accepted as the cost of manufacturing reshoring. Semiconductor export controls that reduce US chip company revenues are accepted as the cost of preventing China's tech advancement. COVID PPE domestic production requirements (CARES Act 'buy American' provisions) accepted higher costs for domestic supply security. The willingness to accept costs for structural reshoring goals is genuine, distinguishing Trump from presidents who use reshoring rhetoric without accepting the associated costs."
+      },
+      {
+        "label": "executive_compensation_structure_indifference",
+        "value": 0.58,
+        "evidence": "Unlike some populists, Trump shows little concern about executive compensation inequality or corporate governance. Despite 'America First' worker rhetoric, he opposed 'say on pay' reforms and did not pursue shareholder primacy reforms. Corporate tax cut (TCJA) was largely passed through to share buybacks ($1T in 2018, record) and executive compensation rather than worker wages — Trump claimed success regardless. The indifference reflects his class alignment: he identifies with business owners, not workers, despite the populist framing."
+      },
+      {
+        "label": "critical_minerals_strategic_interest",
+        "value": 0.80,
+        "evidence": "In Term 2, Trump demonstrated significant interest in critical minerals as an economic-security priority. Ukraine mineral rights deal (rare earths, lithium) as precondition for continued US security support — directly linking geopolitics to resource access. Greenland acquisition proposal (partially framed around critical minerals and strategic location). DRC cobalt/lithium access discussions. The critical minerals focus reflects an evolved understanding (compared to Term 1) that supply chain security includes raw material access, not just manufacturing capacity."
+      },
+      {
+        "label": "personal_loyalty_to_family_business_values",
+        "value": 0.85,
+        "evidence": "Trump's governing style mirrors family business management: close circle of trusted loyalists (Ivanka Trump, Jared Kushner had formal White House roles in Term 1), decisions made in small groups without broad bureaucratic consultation, loyalty is primary qualification, betrayal (even by long-term associates) is met with public attack (Sessions, Barr, Pence, Kelly all publicly attacked after perceived disloyalties). The family business model contrasts with corporate governance norms of professional management — it creates rapid decision-making but also vulnerability to sycophantic information filtering."
+      },
+      {
+        "label": "populism_vs_plutocracy_tension",
+        "value": 0.60,
+        "evidence": "There is a visible and unresolved tension between Trump's populist rhetoric (fighting for the 'forgotten man') and his plutocratic policy outcomes (TCJA primarily benefiting wealthy, DOGE cutting programs serving lower-income Americans, deregulation benefiting large corporations over consumers). Score of 0.60 reflects the tension: the populism is genuine as communication strategy but structural policy outcomes consistently favor wealthy and corporate interests. This tension is behaviorally important because it means his populist statements are less reliable policy predictors than his actual policy record."
+      },
+      {
+        "label": "second_term_institutional_purge_pace",
+        "value": 0.90,
+        "evidence": "Term 2 began with the most rapid institutional purge in modern US history. First 30 days: fired all Biden-appointed US Attorneys, purged senior CIA/NSA/DIA leadership, replaced FBI Director (Kash Patel), targeted inspector general corps (fired 12+ IGs), implemented Schedule F for policy-role civil servants, ordered DOGE access to all federal agency systems. The scale and speed of institutional replacement in Term 2 far exceeded Term 1, consistent with his 'no reelection constraint + learned from Term 1 failures to implement his agenda' model."
+      },
+      {
+        "label": "global_reserve_dollar_weaponization_awareness",
+        "value": 0.62,
+        "evidence": "Trump has shown inconsistent awareness of how his policies could affect dollar reserve currency status. His tariff policies and IEEPA tariff authority were challenged as potentially driving non-dollar trade settlement (BRICS alternatives). His Bitcoin reserve could be seen as diversifying from dollar dominance (contradictory signal). However, he explicitly threatened 100% tariffs on de-dollarization attempts. The tension suggests he values dollar dominance but doesn't consistently model the second-order effects of his other policies on dollar reserve status."
+      },
+      {
+        "label": "policy_reversal_speed_market_triggered",
+        "value": 0.82,
+        "evidence": "When markets react negatively to Trump policies beyond his threshold, policy reversals or pauses come within hours to days. Liberation Day April 2 → major global market selloff → April 9 (7 days) tariff pause announcement. Dec 2018 market selloff → December 24-26 bottom → late December phone calls to bank CEOs + January 2019 rhetorical dovish pivot. The market-triggered reversal speed is fast relative to normal governmental processes: no Congressional approval needed for tariff pauses (EO-based), no interagency review required when Trump decides to reverse. The speed of reversal modulates the actual policy impact."
+      }
+
+    ]
+  },
+  "red_lines": [
+    {
+      "id": "RL001",
+      "name": "stock_market_major_crash",
+      "condition": "S&P 500 declines more than 10-15% in a short period (days to weeks) directly attributable to a specific Trump policy",
+      "forced_action": "policy_pause_or_reversal_or_scapegoat_pivot",
+      "confidence": 0.88,
+      "evidence": "Dec 2018: S&P fell ~20% peak-to-trough during trade war/Fed conflict, triggering rapid rhetorical pivot. Apr 2025: post-Liberation Day 5-6% drop in 2 days triggered 90-day tariff pause. The mechanism is clear: Trump views the stock market as his personal report card, so a sustained selloff attributable to his policy becomes an existential political threat. The threshold appears to be roughly 10%+ sustained decline with clear policy attribution. Response: pause/reverse the triggering policy, find a scapegoat (the Fed, China), or both.",
+      "priority": 1
+    },
+    {
+      "id": "RL002",
+      "name": "gdp_recession_official_declaration",
+      "condition": "Two consecutive quarters of negative GDP growth (official recession) during his term",
+      "forced_action": "massive_fiscal_stimulus_and_fed_pressure_escalation",
+      "confidence": 0.85,
+      "evidence": "The 2020 COVID recession triggered the largest peacetime fiscal stimulus in US history ($2.2T CARES in 2 weeks). Trump's personal identity is deeply bound to economic success — a recession on his watch would be an existential political and personal threat. Expected response: (1) immediate massive fiscal expansion regardless of deficit, (2) intensified Fed pressure for rate cuts, (3) blame deflection to external cause (China, the Fed, previous administration). The threat of recession being on his 'watch' creates a forced stimulus response.",
+      "priority": 2
+    },
+    {
+      "id": "RL003",
+      "name": "china_direct_military_confrontation",
+      "condition": "Military-to-military direct contact with Chinese forces that could escalate to war",
+      "forced_action": "de_escalation_to_preserve_economic_leverage",
+      "confidence": 0.80,
+      "evidence": "Despite maximum economic pressure on China, Trump has consistently avoided direct military escalation. Taiwan semiconductor/military visit incidents in Term 2 were managed below the military confrontation threshold. The constraint: an actual military conflict with China would immediately destroy the trade deal possibility that Trump always holds as an alternative. He wants 'the greatest trade deal ever with China' and war makes that impossible. Economic coercion is preferred over military confrontation with a power that could impose severe economic retaliation.",
+      "priority": 2
+    },
+    {
+      "id": "RL004",
+      "name": "personal_criminal_legal_jeopardy",
+      "condition": "Credible and advanced criminal prosecution that threatens his personal freedom or financial assets",
+      "forced_action": "use_all_presidential_power_to_end_prosecution",
+      "confidence": 0.92,
+      "evidence": "The pattern is explicit and consistent: DOJ reversed all federal charges Day 1 Term 2. Pardoned all Jan 6 defendants Day 1 as both policy and loyalty signal. Installed Kash Patel at FBI specifically to redirect investigation capacity. The vulnerability to prosecution drove much of his political behavior 2021-2024 (motivation to run again) and his first presidential actions 2025 (eliminating legal exposure). This is a hard constraint that generates predictable behavior: any legal threat produces maximum institutional response.",
+      "priority": 1
+    },
+    {
+      "id": "RL005",
+      "name": "base_coalition_visible_betrayal",
+      "condition": "Policy action that is clearly and directly contrary to MAGA base interests, visibly and undeniably",
+      "forced_action": "immediate_reversal_or_reframing_or_scapegoating",
+      "confidence": 0.87,
+      "evidence": "Trump shows rare but real deference to base preferences when the conflict is clear and public. COVID lockdown resistance eventually bowed to base anti-lockdown sentiment. $600 vs $2,000 COVID payments: Trump demanded $2,000 because his base supported it. H-1B visa restriction oscillation in Term 2: after initial support for H-1B (Musk position), faced strong backlash from MAGA base, quickly softened stance. The base coalition is his floor of political support and any obvious betrayal creates immediate pressure for reversal. The key word is 'visible' — Trump can pursue policies that harm his base if they don't recognize the harm.",
+      "priority": 2
+    },
+    {
+      "id": "RL006",
+      "name": "us_dollar_crisis_confidence",
+      "condition": "Rapid dollar depreciation (>10% DXY in months) or Treasury market dysfunction (30yr yield above 6%+ sustained)",
+      "forced_action": "emergency_fed_coordination_and_fiscal_signals",
+      "confidence": 0.72,
+      "evidence": "Not directly triggered in either term, but the post-Liberation Day Treasury market selloff (30yr yield rising sharply, April 2025) was widely interpreted as a contributing factor to the tariff pause decision. If dollar confidence were genuinely threatened (not just tariff-driven volatility), Trump would be forced to coordinate with the Fed and signal fiscal stability, overriding his normal anti-Fed stance. The constraint is real but untested at full severity in Trump's terms.",
+      "priority": 3
+    },
+    {
+      "id": "RL007",
+      "name": "ppp_loan_fraud_political_exposure",
+      "condition": "Any political development that makes protecting allies' corruption exposure untenable",
+      "forced_action": "selective_prosecution_deflection",
+      "confidence": 0.65,
+      "evidence": "PPP and COVID stimulus programs had documented fraud and politically-connected beneficiaries. Trump's pardon power and DOJ control make this a manageable risk in Term 2 with full institutional control. Score is lower because this red line requires a specific political-legal configuration to be triggered.",
+      "priority": 5
+    },
+    {
+      "id": "RL008",
+      "name": "fed_rate_hike_during_tariff_recession",
+      "condition": "Fed raises rates during a tariff-induced economic slowdown despite presidential pressure to cut",
+      "forced_action": "escalated_public_attacks_and_legal_challenge_to_fed_independence",
+      "confidence": 0.88,
+      "evidence": "The scenario of a tariff-caused recession + stagflation (simultaneous inflation and slowdown) creating impossible Fed mandate conflict was already emerging in early 2025. If Fed raises rates to fight tariff inflation while economy slows, Trump would interpret it as deliberate economic sabotage by Powell. The Term 2 explicit firing threat for Powell (March 2025) suggests the legal challenge to Fed independence is an active contingency, not just rhetoric. The red line: Fed acting contrary to presidential economic interests during a politically threatening economic downturn.",
+      "priority": 2
+    },
+    {
+      "id": "RL009",
+      "name": "us_china_financial_decoupling_spiral",
+      "condition": "China begins mass dumping of US Treasuries (>$200B in months) or restricts rare earth exports completely",
+      "forced_action": "negotiation_opening_or_emergency_stabilization",
+      "confidence": 0.75,
+      "evidence": "China holds ~$760B in US Treasuries (as of 2025) and controls ~60-80% of rare earth processing. These are genuine mutual assured destruction levers — if China pulled them, it would cause significant US financial disruption but also self-harm. Trump's tariff escalation to 145% tests whether China will deploy these weapons. Historical pattern: when coercion costs get very high for both sides (2019 trade war), Trump opens negotiation channels (Phase 1). A full financial decoupling spiral would likely trigger a negotiation offer, possibly framed as a 'deal' opportunity.",
+      "priority": 3
+    }
+  ],
+  "information_fidelity": 0.52,
+  "information_fidelity_reasoning": "Trump's information environment is significantly below average for a US president, based on multiple documented accounts. Deductions: (1) PDB CONSUMPTION: Woodward, Bolton, Kelly, McMaster all confirm Trump rarely read the Presidential Daily Brief fully — reportedly condensed to 2-3 pages with graphics and still often unread. This is a major gap in intelligence information access. (2) SELECTIVE MEDIA DIET: Primary information sources are Fox News, Fox Business, conservative social media — which have documented selection bias toward positive economic news and away from contrary evidence. (3) ADVISOR INFORMATION FILTERING: Trump's loyalty-based management style means advisors filter information to match expected preferences (the 'no bad news' culture documented extensively in Woodward's Fear). By Term 1 end, advisors were reportedly managing his information environment proactively. (4) ECONOMIC STATISTICS: Unlike the Fed, Trump does not have real-time access to comprehensive economic models or an internal research staff that provides contrary analysis. He receives economic briefings from Treasury/CEA, but the selective processing means the effective information quality is lower than the inputs. (5) TERM 2 IMPROVEMENT: Information management in Term 2 is somewhat better because the institutional purge removed some filtering layers (fewer advisors willing to tell him only what he wants to hear — more loyalists who confirm his views, but some like Bessent provide genuine economic analysis). Partial offset: (a) He does monitor financial markets in real-time (stock tickers), which provides unfiltered economic signal. (b) His business background gives him genuine intuitive economic understanding in areas he's operated in (real estate, golf, hospitality). (c) Musk and other Term 2 advisors provide alternative data streams. Net score of 0.52 reflects substantially reduced information fidelity compared to most presidents, primarily driven by selective processing rather than information availability.",
+  "post_cutoff_events_2025_2026": [
+    {
+      "date": "2025-05",
+      "event": "Ended Houthi operations after $1B+ cost",
+      "impact": "Selective military engagement — withdrew from inconclusive operation"
+    },
+    {
+      "date": "2025-08",
+      "event": "Military buildup in Caribbean (Operation Southern Spear), $50M bounty on Maduro doubled",
+      "impact": "Signaled intent for Venezuela regime change months in advance"
+    },
+    {
+      "date": "2025-12",
+      "event": "Tomahawk strikes on ISIS targets in Nigeria",
+      "impact": "Expanded military operations to Africa, citing Christian persecution"
+    },
+    {
+      "date": "2026-01-03",
+      "event": "US military captured Venezuelan President Maduro and wife in CIA/FBI operation, transported to NYC for trial",
+      "impact": "First US capture of a sitting foreign head of state since Noriega (1989). Charged with narco-terrorism. Massive precedent for unilateral regime change."
+    },
+    {
+      "date": "2026-01-07",
+      "event": "Withdrew US from 66 international organizations including IPCC",
+      "impact": "Most extreme multilateral withdrawal in US history"
+    },
+    {
+      "date": "2026-02-28",
+      "event": "US-Israel joint strike killed Iran Supreme Leader Khamenei, his daughter, son-in-law, 3 grandchildren in Tehran compound",
+      "impact": "Assassination of sitting head of state of a major regional power. 30 bombs + Blue Sparrow ALBMs. CIA provided location intelligence. Potentially the most consequential single military action since killing of Bin Laden, but against a STATE leader not a terrorist."
+    }
+  ],
+  "behavioral_parameter_revisions_2025_2026": {
+    "military_action_willingness": {"original": null, "revised": 0.92, "reason": "Venezuela invasion + Iran strike = willing to use maximum military force including regime change operations"},
+    "regime_change_willingness": {"original": null, "revised": 0.88, "reason": "Maduro capture is explicit regime change. Iran strike is decapitation. Both within 2 months."},
+    "unilateral_action_preference": {"original": null, "revised": 0.96, "reason": "66 international org withdrawals + Venezuela invasion without UN mandate + Iran strike"},
+    "second_term_escalation_magnitude": {"original": 0.82, "revised": 0.95, "reason": "Far exceeded initial estimates. This is not 15-25% more aggressive than Term 1 — this is qualitatively different. Capturing and killing foreign leaders."},
+    "international_law_compliance": {"original": null, "revised": 0.08, "reason": "Invading sovereign nation to capture its president, assassinating foreign head of state — both flagrant violations of international law norms"}
+  },
+  "special_notes": "1. DUAL BEHAVIORAL LOGIC: Trump operates under two simultaneously active behavioral logics that sometimes conflict: (A) the BUSINESSMAN logic (maximize leverage, make deals, protect equity, use bankruptcy/default threat credibly) and (B) the POLITICIAN logic (maintain base coalition, respond to polling, avoid visible betrayal of supporters). When these conflict, the businessman logic usually wins in policy substance but politician logic wins in rhetoric/framing. The gap between rhetoric and substance is larger for Trump than most presidents, creating systematic prediction challenges if only watching statements and not policy actions. 2. ASYMMETRIC REVERSION: Trump's policy reversals are asymmetric. He can pause or pause-and-restart tariffs easily (no Congressional approval needed). He cannot easily reverse tax cuts (requires legislation) or immigration restrictionism (base would see reversal as betrayal). This means tariff policy is more volatile and reversible than any other Trump policy area. For the simulation: tariff rates should be modeled with wider confidence intervals and faster mean-reversion speed than immigration or deregulation policies. 3. THE DEAL ALWAYS OPEN: Even during maximum pressure phases, Trump always maintains an implicit deal offer to adversaries. China 145% tariffs coexist with signals that a 'great trade deal with China' could still happen. This is not inconsistency — it's the negotiator maintaining both maximum pressure and maximum face-saving offramp simultaneously. For adversaries modeling Trump, the deal offer is always implicitly available, which affects their willingness to sustain confrontation. 4. TERM 2 BEHAVIORAL SHIFT MAGNITUDE: The removal of the reelection constraint appears to have increased all behavioral parameters by roughly 15-25% in the escalation direction. Tariff rates 4-6x higher, institutional purge 3-4x faster, Fed pressure more legally threatening, loyalty requirements more absolute. This is a structural shift, not random noise — it should be modeled as a permanent regime change between Term 1 and Term 2, not as the same distribution with more variance. 5. SYCOPHANCY TRAP RISK: Trump's information environment creates a systematic risk of decision-making based on distorted information. If economic conditions are deteriorating but advisors and Fox News frame them positively, Trump may maintain harmful policies longer than an information-complete decision-maker would. This is a nonlinear risk: the worse things get, the more the information filtering diverges from reality, creating path-dependent crashes rather than smooth adjustments. The simulation should model information fidelity as a dynamic variable that decreases under political stress (when bad news is most filtered). 6. COMMUNICATION IS POLICY: Unlike most leaders where communication describes policy, for Trump communication IS policy. A Truth Social post threatening tariffs is equivalent to a formal USTR action in terms of market and adversary response. His communication style — fragmentary, reactive, superlative — means monitoring traditional policy announcement channels will miss early signals that appear first in his personal social media. For the simulation: Trump policy signals should be weighted by Truth Social > press conference > formal EO in terms of leading indicator quality. 7. TERM 2 QUALITATIVE REGIME CHANGE (Opus deep analysis, 2026-03): Note 4 estimated a 15-25% escalation. This has been conclusively falsified. The second term is not the same decision function with higher parameters — it is a structurally different decision function. Evidence: (a) capturing a foreign head of state (Maduro, Jan 2026), (b) assassinating a foreign supreme leader (Khamenei, Feb 2026), (c) withdrawing from 66 international organizations simultaneously, (d) reimposing tariffs under alternative legal authority within days of Supreme Court ruling them unconstitutional. The theoretical framework: Term 1 behavior can be approximated by a risk-seeking rational actor within institutional constraints. Term 2 requires a model where institutional constraints are soft (increase political cost but do not prevent action) and international law is not a variable in the decision function at all. The reelection constraint removal is necessary but insufficient to explain this — the key additional factor is that Trump now controls the execution apparatus (DOJ, military, intelligence) with loyalists, which renders judicial constraints non-binding in practice. For the simulation: Term 2 should be modeled as a separate regime with its own parameter set, not as Term 1 + noise. A regime_change_flag should be set. 8. SUPREME COURT RULING EFFECTIVENESS (Opus deep analysis, 2026-03): The Feb 20, 2026 SCOTUS 6-3 ruling (Learning Resources v. Trump) struck down IEEPA-based tariffs as unconstitutional. Within days, Trump reimposed a 10% global tariff under the Trade Act of 1974. Treasury pivoted to Section 232 and Section 301 authorities for additional tariffs. The $175B+ in collected IEEPA tariff revenue remains in legal limbo. CRITICAL FINDING: Judicial constraint on Trump operates as a speed bump, not a wall. The ruling forced a legal authority switch and temporary rate reduction (from country-specific high rates to flat 10%), but did not achieve the policy reversal that the Court's reasoning implied. This means institutional_constraint_sensitivity should be modeled at ~0.10-0.15, not at the 0.40-0.60 range typical of democratic leaders. The constraint is real but the workaround time is measured in days, not months. The simulation should model Supreme Court rulings as introducing a brief policy disruption (1-2 weeks) followed by policy reconstitution under alternative authority, rather than as permanent policy reversals. 9. MILITARY ESCALATION PREDICTABILITY (Opus deep analysis, 2026-03): The four military operations (Yemen Mar 2025, Nigeria Dec 2025, Venezuela Jan 2026, Iran Feb 2026) follow a clear escalation ladder with each step testing international response thresholds. Pattern: (a) each operation targets a more significant adversary than the previous one, (b) market non-reaction to earlier operations creates a 'free military action' perception that enables further escalation, (c) the escalation only stops when a market-relevant threshold is crossed (Strait of Hormuz = 20% of global oil). For the simulation: a military_escalation_momentum state variable should be introduced. Each successful (= no major negative consequence) military operation increases this variable, lowering the threshold for the next operation. The variable resets partially when a major negative consequence occurs (Iran oil shock), but Trump's revealed preference suggests even severe market consequences do not fully reverse the momentum — military operations are irreversible unlike tariffs. 10. 2026 MARKET CRASH FEEDBACK EFFECT (Opus deep analysis, 2026-03): S&P 500 was +17.9% in 2025, then -28% YTD by mid-March 2026. This is the most relevant real-time test of how market crashes affect Trump's behavior. Key observations: (a) For tariff policy, market crashes ARE effective feedback — the Apr 2025 10.5% crash triggered the 90-day pause within 1 week. The threshold appears to be ~8-10% decline from recent peak. (b) For military policy, market crashes are NOT effective feedback — the Iran strike was executed knowing oil price consequences, and the S&P crash has not led to any policy reversal or de-escalation. (c) This creates an ASYMMETRIC FEEDBACK MODEL: markets can constrain Trump's economic policy (tariffs) but cannot constrain his military/foreign policy. The simulation should implement different market_sensitivity parameters for economic decisions (~0.65) vs military decisions (~0.10). (d) The 2026 crash also has second-order effects: elevated oil prices feed through to inflation, which constrains the Fed's ability to cut rates, which worsens the equity selloff — a negative spiral that Trump's decision function does not appear to internalize. The sycophancy trap (Note 5) may be preventing accurate transmission of this feedback loop to Trump's decision-making."
+}

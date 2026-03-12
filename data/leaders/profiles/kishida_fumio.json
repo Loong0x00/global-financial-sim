@@ -1,0 +1,289 @@
+{
+  "leader": "Kishida Fumio",
+  "leader_zh": "岸田文雄",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "Historical record: Kishida cabinet decisions Oct 2021 - Oct 2024",
+    "New Capitalism (Atarashii Shihon-shugi) policy framework 2021-2024",
+    "Defense spending doubling commitment Dec 2022 (1%→2% GDP by 2027)",
+    "Semiconductor strategy: TSMC Kumamoto fab and Rapidus advanced semiconductor",
+    "Nuclear reactor restart / new build policy (GX legislation 2023)",
+    "G7 Hiroshima Summit May 2023",
+    "Post-Abe security documents (National Security Strategy, National Defense Strategy Dec 2022)",
+    "BoJ YCC adjustment Jul 2023, policy normalization under Ueda 2024",
+    "NISA reform (tax-free investment account expansion) 2024",
+    "LDP political funds scandal 2023-2024 leading to resignation"
+  ],
+  "background": {
+    "birth_year": 1957,
+    "education": "Waseda University Law Faculty; Waseda law graduate — party mainstream credential",
+    "career_path": "LDP politician → Minister of Consumer Affairs → Minister for Foreign Affairs (longest-serving, 2012-2017) → LDP Policy Research Council chairman → PM Oct 2021 - Oct 2024",
+    "decision_archetype": "Consensus-building bureaucratic type / distribution-focused reformer / unexpectedly decisive on security",
+    "key_experiences": [
+      "Hiroshima constituency — deep personal commitment to nuclear disarmament (peace memorial hometown)",
+      "Five years as Foreign Minister under Abe — deep diplomatic experience, especially G7/Quad/Korea",
+      "Fumio's '(Kochi) family' — traditional LDP Kochikai (Ikeda/Ohira/Miyazawa/Kato mainstream faction)",
+      "Lost LDP presidential race to Suga in 2020 before eventually winning in Sep 2021",
+      "Reared in LDP's 'liberal' mainstream (economic development focus, Korea/China engagement tradition)",
+      "Post-Abe assassination environment (Jul 2022) — consolidated Abe legacy while being different type"
+    ],
+    "nickname": "'New Capitalism' (defining slogan, though critics said content was vague)"
+  },
+  "behavior_matrix": {
+    "description": "Behavior vector for Kishida Fumio's Oct 2021 - Oct 2024 premiership. Covers: 'New Capitalism' distribution and income growth agenda (mixed implementation), defense spending doubling commitment (the largest strategic shift since postwar settlement), semiconductor industrial policy (TSMC Kumamoto, Rapidus), nuclear restart and new build policy, G7 Hiroshima Summit (May 2023), BoJ's gradual YCC relaxation and normalization under new governor Ueda, weak yen management, and the political funds scandal that ultimately led to resignation. Kishida was more decisive on security and industrial policy than his 'New Capitalism' consensus-builder image suggested, but was destroyed by the political corruption issue he failed to manage adequately.",
+    "dimensions": 55,
+    "vectors": [
+      {
+        "label": "new_capitalism_distribution_framing",
+        "value": 0.75,
+        "evidence": "Kishida explicitly rejected 'trickle-down' economics and positioned 'virtuous cycle of growth and distribution' as his governing philosophy. Minimum wage increases were pushed significantly (¥902→¥1,004/hour by 2023). Wage growth promotion became a stated BoJ monetary policy objective. Kishida established an Advisory Panel on New Form of Capitalism. However, concrete policy mechanisms beyond wage guidance were limited — 'New Capitalism' remained more rhetorical framework than structural change."
+      },
+      {
+        "label": "wage_growth_advocacy",
+        "value": 0.80,
+        "evidence": "Kishida repeatedly called on corporations at annual wage negotiations (shunto) to raise wages by 3%+ — unprecedented degree of government involvement in private wage-setting. The 2023 and 2024 shunto produced the highest wage increases in 30 years (3.8% and 5.3%). Whether this reflected Kishida's advocacy or BoJ normalization expectations is debated — but the political signaling was consistent and sustained. He made wage growth the primary economic success metric."
+      },
+      {
+        "label": "defense_spending_doubling_commitment",
+        "value": 0.92,
+        "evidence": "Dec 2022 National Security Strategy, National Defense Strategy, and Defense Buildup Program committed to doubling defense spending from 1% to 2% of GDP by FY2027 (from ¥5.4T to ¥10.8T). This was the largest single Japanese security policy shift since the 1% cap was set in 1976. Included counter-strike (standoff) capability acquisition, precision missiles, long-range systems. Kishida surprised observers by pursuing this more boldly than Abe had managed. Financing through spending reallocation and new taxes (controversial — income/corporate/tobacco tax increases from 2024)."
+      },
+      {
+        "label": "semiconductor_industrial_policy",
+        "value": 0.88,
+        "evidence": "TSMC Kumamoto Fab 1 (¥860B total, ¥476B government subsidy) opened Feb 2024 — Japan's return to advanced semiconductor manufacturing after decades of decline. TSMC Kumamoto Fab 2 announced (20nm and below). Rapidus (domestic advanced logic semiconductor startup, ¥730B+ government support) aiming for 2nm chips by 2027. This represented a fundamental reversal of Japan's de-industrialization in semiconductors. The scale of government subsidy (comparable to US CHIPS Act proportionally) was unprecedented in recent Japanese industrial policy."
+      },
+      {
+        "label": "nuclear_energy_expansion",
+        "value": 0.82,
+        "evidence": "GX (Green Transformation) legislation (May 2023): allowed existing reactor lifetime extensions beyond 60 years, and in principle authorized new next-generation reactor construction — the first policy permitting new nuclear since Fukushima (2011). Kishida moved significantly further than Abe on nuclear: Abe had advocated restarts but did not explicitly permit new construction. By 2023, 12 reactors restarted with more in pipeline. The nuclear policy reversal was driven by energy security (Russia/Ukraine energy shock) and decarbonization."
+      },
+      {
+        "label": "weak_yen_management",
+        "value": 0.60,
+        "evidence": "Yen depreciated from ~115 to 160 per dollar during Kishida's tenure — driven by BoJ's YCC policy versus Fed rate hikes. Kishida verbally expressed concern about excessive yen weakness but was constrained: (1) BoJ was formally independent, (2) yen depreciation was partly intended (it boosted export corporate profits and supported Abenomics equity market). Japan conducted FX intervention (Oct 2022, ~$19B; Sep 2022) to smooth excessive moves. The structural weak yen was accepted as price of maintaining ultra-loose monetary policy."
+      },
+      {
+        "label": "boj_policy_normalization_acceptance",
+        "value": 0.72,
+        "evidence": "Kishida appointed Ueda Kazuo as BoJ governor (Apr 2023) — choosing an academic economist known for nuanced thinking over the more hawkish Amamiya. Ueda conducted gradual YCC normalization (Jul 2023: 0.5%→1.0% cap; Oct 2023: revised again; Mar 2024: ended NIRP; Jul 2024: hiked to 0.25%). Kishida accepted this normalization even though it could slow growth and strengthen yen (slowing inflation). His acceptance of BoJ normalization was more implicit than explicit — he did not publicly resist."
+      },
+      {
+        "label": "g7_hiroshima_summit_management",
+        "value": 0.88,
+        "evidence": "G7 Hiroshima Summit (May 2023) was carefully curated diplomatic achievement: Kishida chose his hometown (atomic bomb memorial city) for symbolic power on nuclear disarmament, successfully integrated Zelensky's surprise visit (diplomatic coup), produced G7 solidarity statement on Ukraine + China + nuclear weapons. The summit management was widely praised as Japan's most successful G7 hosting. He used the location for a personal statement on nuclear abolition while simultaneously committing to Japan's nuclear deterrence under extended US deterrence."
+      },
+      {
+        "label": "ukraine_russia_sanctions_alignment",
+        "value": 0.90,
+        "evidence": "Japan under Kishida joined comprehensive G7 sanctions on Russia after Feb 2022 Ukraine invasion — departing from Japan's traditional non-confrontational posture toward Russia. Financial sanctions, export controls, asset freezes. Japan withdrew from Sakhalin oil/gas projects (partially — Sakhalin 1 exited, Sakhalin 2 LNG retained for energy security reasons). G7 solidarity on Ukraine was prioritized over Japan's resource security interests. This was a significant strategic realignment."
+      },
+      {
+        "label": "korea_japan_normalization",
+        "value": 0.85,
+        "evidence": "Kishida-Yoon Suk-yeol summit (Mar 2023) broke the Japan-Korea diplomatic deadlock that had characterized the Moon Jae-in era. Agreed on a framework for forced labor compensation (Korean plaintiffs via Korean foundation, Japanese companies donating but not directly compensating). Camp David Trilateral Summit (Aug 2023 — US, Japan, Korea) was a strategic achievement institutionalizing the triangle. This represented the most significant Japan-Korea normalization since the 2015 Comfort Women Agreement."
+      },
+      {
+        "label": "china_strategic_engagement",
+        "value": 0.62,
+        "evidence": "Kishida maintained engagement with China despite strategic competition framing (defense buildup, Quad, semiconductor export controls aligned with US). He met Xi Jinping at G20 (Nov 2022) and APEC (Nov 2023). Japan-China bilateral summits resumed. He framed relations as 'constructive and stable' while pursuing strategic hedging. The tension between strategic competition and economic interdependence ($300B bilateral trade) required constant calibration."
+      },
+      {
+        "label": "nisa_reform_asset_formation",
+        "value": 0.78,
+        "evidence": "New NISA (tax-free investment account) reform (Jan 2024): lifetime investment ceiling removed, annual limit raised to ¥3.6M, holding period made permanent. This was designed to shift Japanese household savings (¥2,100T, 55% in cash/deposits) toward equity investment — a structural change in Japan's financial behavior. The 'from savings to investment' campaign was ambitious and the NISA reform was substantive. Whether households actually shifted allocation remained to be seen."
+      },
+      {
+        "label": "income_doubling_plan",
+        "value": 0.68,
+        "evidence": "Kishida's 'Asset Income Doubling Plan' and investment promotion agenda were part of New Capitalism framework. Also 'Salary Doubling Plan' — aspirational framing rather than concrete mechanisms. These plans were frequently criticized as lacking implementation teeth. The NISA reform was concrete; the broader income doubling framing was more aspirational narrative. Execution quality varied significantly across components."
+      },
+      {
+        "label": "political_funds_scandal_management",
+        "value": 0.15,
+        "evidence": "The LDP political funds scandal (late 2023): Abe faction (Seiwa-kai) members systematically underreported political donations, creating off-book funds. Kishida disbanded his own faction and prosecuted/removed implicated members. However, the cleanup was seen as incomplete — major figures in other factions escaped criminal charges. Public trust in Kishida's administration collapsed (approval ratings fell to 20-25%). He was unable to credibly represent clean politics given LDP's systemic corruption. Value represents effectiveness of scandal management (low = ineffective)."
+      },
+      {
+        "label": "abe_faction_dismantlement",
+        "value": 0.72,
+        "evidence": "After the political funds scandal, Kishida disbanded the main factions including his own Kochikai (Jan 2024) — an attempt to symbolically clean up money politics. The Abe faction (Seiwa-kai) had been the center of the scandal. Disbanding factions removed some of Kishida's political infrastructure. Whether factional politics actually ended was doubtful — relationships continued informally. The move was bold symbolically but insufficient to restore public trust."
+      },
+      {
+        "label": "fiscal_expansion_defense",
+        "value": 0.80,
+        "evidence": "Defense spending doubling (¥5.4T→¥10.8T) required either tax increases, spending reductions elsewhere, or bond issuance. Kishida chose a combination: income tax surcharge (1% from 2024), corporate tax surcharge, tobacco tax increase — delayed and controversial. He resisted purely debt-financing the defense buildup (fiscal hawk tendency) but the tax timing was politically disruptive. He was willing to propose politically difficult tax increases for a strategic priority."
+      },
+      {
+        "label": "green_transformation_policy",
+        "value": 0.72,
+        "evidence": "GX (Green Transformation) Basic Policy (Feb 2023) committed ¥150T over 10 years for decarbonization (20T public + 130T private investment). GX Economy Transition Bonds — ¥20T in green bonds. The GX legislation combined nuclear restart/expansion with renewables and hydrogen. Japan's net-zero 2050 commitment. The ambition was large but implementation mechanisms were still being developed. The nuclear component was the most concretely executed part."
+      },
+      {
+        "label": "us_alliance_deepening_under_kishida",
+        "value": 0.88,
+        "evidence": "Camp David Trilateral Summit (US-Japan-Korea, Aug 2023) — institutionalized security cooperation. Biden state visit to Japan (May 2022) — elevated alliance framing. Extended deterrence credibility discussions. JSDF-US military interoperability further expanded. Japan agreed to host US Marine Littoral Regiment (Okinawa). Kishida continued and deepened Abe's alliance management without the personal theatrical element — more institutionalization, less personal branding."
+      },
+      {
+        "label": "quad_engagement",
+        "value": 0.85,
+        "evidence": "Quad meetings under Kishida at both leader and foreign minister level. Quad Leaders' Summit (Sep 2022, Washington). Japan hosted Quad foreign ministers. Kishida participated in all Quad leader summits. The Quad was institutionalized further beyond Abe's revival — becoming a regular diplomatic calendar item rather than an ad hoc initiative. Indo-Pacific institutional architecture continued solidifying."
+      },
+      {
+        "label": "inflation_response_cost_of_living",
+        "value": 0.68,
+        "evidence": "Japan experienced consumer price inflation of 3-4% in 2022-2023 — the highest in decades, partly imported (weak yen + energy costs). Kishida's response: gasoline/electricity subsidies (¥5T+ in energy price controls), cash handouts (¥30,000 to low-income households), food price monitoring. These were demand-side cushioning measures rather than structural responses. They were politically necessary but expensive and not targeting inflation's root causes."
+      },
+      {
+        "label": "childcare_expansion",
+        "value": 0.72,
+        "evidence": "Kishida's 'Accelerating Plan for Children and Childcare' (Jun 2023): ¥3.6T annual spending increase for childcare, children's benefit expansion, parental leave incentives. Established Children and Families Agency (Apr 2023). This was the most substantial commitment to address Japan's demographic crisis in terms of spending and institutional architecture. Whether it would raise the fertility rate was uncertain — the fiscal commitment was genuine."
+      },
+      {
+        "label": "inflation_targeting_support",
+        "value": 0.68,
+        "evidence": "Kishida supported BoJ's normalization direction once inflation became visible (2022-2023) — his 'from deflation to growth' framing was different from Abenomics' purely pro-easing stance. He tolerated higher inflation as a sign of economic recovery, and his wage advocacy aligned with the BoJ's goal of cost-push inflation becoming demand-pull. He did not resist YCC relaxation despite higher borrowing costs for government."
+      },
+      {
+        "label": "industrial_policy_revival",
+        "value": 0.85,
+        "evidence": "TSMC/Rapidus semiconductor policy and GX green transformation represented Japan's most active industrial policy since 1980s MITI era. METI's role expanded. Strategic sectors (semiconductors, batteries, biotech, hydrogen) received large government subsidies. Kishida explicitly framed this as returning Japan to industrial policy after the 1990s-2000s neoliberal period. This was a structural shift — the 'Japan is back as industrial policy country' moment."
+      },
+      {
+        "label": "foreign_worker_policy",
+        "value": 0.62,
+        "evidence": "Technical Intern Trainee Program reform (2023) — replacing the exploitative TIT system with 'Specified Skilled Worker' framework. Expanded categories and pathways for foreign workers to remain long-term. Immigration reform was still politically sensitive but Kishida moved more than predecessors on practical immigration expansion. Japan's foreign resident population continued growing."
+      },
+      {
+        "label": "counterstrike_capability_decision",
+        "value": 0.88,
+        "evidence": "Counterstrike (hangeiki) capability acquisition — tomahawk missiles from US, development of domestic long-range missiles — was authorized in Dec 2022 National Defense Strategy. This was a constitutional and strategic rupture: Japan previously held that it could not possess offensive weapons that could strike enemy territory. The reinterpretation (striking missile launchers constitutes 'minimum necessary self-defense') was bold. It was more decisive than even Abe's collective self-defense reinterpretation in practical military capability terms."
+      },
+      {
+        "label": "voluntary_resignation_accountability",
+        "value": 0.72,
+        "evidence": "Kishida announced he would not contest the September 2024 LDP presidential race (announced Aug 14, 2024), effectively resigning. He cited party renewal and public trust restoration as reasons. Like Hashimoto, he accepted electoral accountability. Approval ratings at resignation were 20-25% — he recognized that continuing would further damage LDP. The decision was cleanly made without visible resistance or clinging to power."
+      },
+      {
+        "label": "information_fidelity",
+        "value": 0.78,
+        "evidence": "Kishida had excellent diplomatic information quality from his 5-year Foreign Ministry tenure under Abe — he knew the diplomatic landscape intimately. His economic information was adequate through METI and Naikakufu. Security information through NSC (National Security Council) was well-developed by Abe era. Weak point: he was poorly informed about the scale of LDP political funds scandal within his own party until it became public — suggesting party intelligence failures."
+      },
+      {
+        "label": "g7_summit_host_accomplishments",
+        "value": 0.85,
+        "evidence": "Beyond Hiroshima (2023), Kishida chaired the 2022 Elmau G7 (as MOFA background PM) and the Hiroshima 2023 with Zelensky's surprise visit. Japan's G7 presidency in 2023 produced substantive outputs on Ukraine sanctions coordination, China strategic concern language, and advanced technology governance. The Hiroshima summit enhanced Japan's global standing."
+      },
+      {
+        "label": "politics_money_reform_sincerity",
+        "value": 0.32,
+        "evidence": "Despite disbanding factions and pushing political funds reform legislation (Jun 2024), the reforms were criticized as insufficient: no third-party auditing of political funds, prosecution of only lower-level figures, major faction leaders protected. The opposition called the reforms 'cosmetic.' Public skepticism was reflected in continued low approval ratings even after reform announcements. His ability to credibly represent political reform was structurally limited by being the head of the party that perpetrated the scandal."
+      },
+      {
+        "label": "energy_security_prioritization",
+        "value": 0.85,
+        "evidence": "Russia/Ukraine invasion (Feb 2022) made energy security existential. Kishida maintained Sakhalin 2 LNG (Russian-operated) despite sanctions on Russia — citing energy security exception. Accelerated nuclear restarts. Diversified LNG suppliers (US, Australia, Middle East). Accelerated hydrogen/ammonia development. Energy security was elevated to the same priority level as economic security and defense in Japan's strategic documents for the first time."
+      },
+      {
+        "label": "economic_security_legislation",
+        "value": 0.82,
+        "evidence": "Economic Security Promotion Act (May 2022) — Japan's first comprehensive economic security law: supply chain resilience requirements for strategic goods, critical infrastructure protection, sensitive technology research screening, patent non-disclosure for security-sensitive inventions. This was a significant new legal architecture responding to technology competition with China. It created the Japanese equivalent of CFIUS investment screening and CHIPS-style supply chain management."
+      },
+      {
+        "label": "post_abe_legacy_management",
+        "value": 0.68,
+        "evidence": "Abe's assassination (Jul 8, 2022) created political complications: Unification Church connections revealed, linking LDP politicians to a controversial religious organization. Kishida had to manage LDP's relationship with Unification Church (political fundraising connections) while also honoring Abe's policy legacy (defense buildup, constitutional revision). He navigated these contradictions imperfectly — enough to maintain LDP but not enough to restore public trust."
+      },
+      {
+        "label": "unification_church_lhp_separation",
+        "value": 0.52,
+        "evidence": "After Abe's assassination exposed Unification Church connections within LDP, Kishida ordered all LDP members to sever ties (Oct 2022). Religious Organization Victim Protection Act (Dec 2022) addressed fundraising abuses. However, enforcement of the 'sever ties' directive was inconsistent and multiple Diet members were found to have maintained connections. The Unification Church issue persisted as a low-level credibility drain throughout his tenure."
+      },
+      {
+        "label": "consumption_tax_position",
+        "value": 0.55,
+        "evidence": "Kishida maintained 10% consumption tax (implemented Oct 2019 under Abe) without further increase despite fiscal pressures from defense doubling and childcare expansion. He explicitly ruled out consumption tax increase during his tenure. The defense tax increases (income/corporate/tobacco) were framed separately from consumption tax. Fiscal consolidation through growth and moderate revenue measures rather than major tax rate changes."
+      },
+      {
+        "label": "nsa_national_security_council",
+        "value": 0.80,
+        "evidence": "NSC (National Security Council) established under Abe continued under Kishida as the key security decision-making body. Kishida used NSC extensively for the Dec 2022 three strategic documents and counterstrike capability decision. The NSC's role in centralizing security decision-making above the bureaucratic ministry level was consolidated. Kishida's Foreign Ministry background made him naturally comfortable with NSC-led security decisions."
+      },
+      {
+        "label": "g20_participation",
+        "value": 0.78,
+        "evidence": "Kishida participated in G20 Bali (Nov 2022, first Kishida-Xi bilateral), G20 India (Sep 2023). Japan's G20 engagement focused on Ukraine/Russia narrative management (developing country G20 members were more ambivalent about Russia sanctions). Kishida worked to maintain developed-world solidarity on Ukraine while managing relationships with Global South G20 members who were less aligned."
+      },
+      {
+        "label": "constitutional_revision_continuation",
+        "value": 0.65,
+        "evidence": "Kishida maintained LDP's constitutional revision agenda (Abe's signature cause) but with lower personal priority. The 2022 election gave LDP-led bloc the 2/3 supermajority in both houses needed for constitutional revision referral — but Komeito remained an obstacle on Article 9. Kishida's Article 9 preference was to add paragraph acknowledging JSDF (Abe's later position) rather than deleting it. Political funds scandal eliminated the political capital for revision drive."
+      },
+      {
+        "label": "startup_ecosystem_policy",
+        "value": 0.70,
+        "evidence": "Japan's '5-year startup creation plan' (2022): target 100,000 startups by 2027, 10 unicorns by 2027. J-Startup program supporting high-potential firms. University-based startup promotion. Venture capital ecosystem development. Japan had historically weak startup culture relative to US/South Korea. Kishida identified startup ecosystems as a structural reform priority — though implementation was early-stage and results would take years to materialize."
+      },
+      {
+        "label": "social_impact_bond_new_capitalism",
+        "value": 0.58,
+        "evidence": "Kishida's 'New Capitalism' included 'stakeholder capitalism' framing — corporations should consider social impact alongside profit. Impact investing, ESG finance promotion. This was ideological positioning more than concrete policy mechanism. The 'New Capitalism Council' met regularly but produced more framework documents than implementable reforms. The concept was criticized as vague by both business and labor."
+      },
+      {
+        "label": "tax_reform_nisa_investment",
+        "value": 0.80,
+        "evidence": "NISA reform (Jan 2024) was one of Kishida's concrete financial reforms: permanent holding period, higher annual limits (¥3.6M/year total for two accounts), removal of cumulative cap. Designed to shift Japan's ¥2,100T in household financial assets (55% cash) toward productive investment. Combined with GPIF's ongoing equity shift, represented a structural push toward investment culture change."
+      },
+      {
+        "label": "personal_political_style",
+        "value": 0.55,
+        "evidence": "Kishida was a consensus-builder rather than a disruptor. His style emphasized deliberate process, committee consultation, and gradual consensus formation. This worked well for administrative reform (ministry reorganization, Economic Security Act) but was criticized as indecisive during the political funds crisis. He lacked Koizumi's theatricality or Abe's personal charisma — a competent technocrat rather than a political leader. Approval ratings averaged around 40-45% until scandal reduced them to 20-25%."
+      },
+      {
+        "label": "hiroshima_hometown_nuclear_diplomacy",
+        "value": 0.82,
+        "evidence": "Kishida's Hiroshima constituency gave him unique standing on nuclear issues: advocate for abolition while maintaining Japan's extended deterrence under US nuclear umbrella. He launched the 'Hiroshima Action Plan' on nuclear disarmament (May 2023 G7). His personal credibility on nuclear issues (hometown = atomic bomb memorial) was a genuine diplomatic asset that he used effectively at G7. The tension between 'no first use' advocacy and extended deterrence reliance was navigated carefully."
+      },
+      {
+        "label": "lhp_minority_government_anticipation",
+        "value": 0.32,
+        "evidence": "Kishida called the Oct 2024 Lower House election from a position of political weakness (approval ~25%, political funds scandal). The election result — LDP-Komeito losing majority — was not entirely unforeseeable. He could have called the election earlier (spring 2024) from a stronger position, or delayed further. His timing was neither optimal nor catastrophically misjudged. The minority government outcome was the political price of the funds scandal that he had failed to adequately manage."
+      },
+      {
+        "label": "development_aid_oda_continuation",
+        "value": 0.70,
+        "evidence": "Japan's ODA continued at approximately ¥1.5T annually under Kishida. Quality Infrastructure Investment (QII) as alternative to BRI — Japan promoted transparent, sustainable infrastructure financing particularly in Africa and Indo-Pacific. G7 Partnership for Global Infrastructure and Investment (PGII) aligned Japanese infrastructure investment with Western strategic framework. ODA strategy updated to align with economic security and Indo-Pacific priorities."
+      },
+      {
+        "label": "digital_transformation_continuation",
+        "value": 0.68,
+        "evidence": "Digital Agency (established Sep 2021 under Suga) continued under Kishida expanding digital government services. My Number card adoption accelerated (required for healthcare/financial services connection). Digitization of administrative procedures reducing paper/hanko requirements. Japan's digital transformation was structurally delayed compared to peer countries but accelerating. Kishida maintained Suga's digital reform direction."
+      },
+      {
+        "label": "interest_rate_normalization_fiscal_impact",
+        "value": 0.65,
+        "evidence": "BoJ normalization (ending NIRP, hiking to 0.25% by Jul 2024) had direct fiscal implications: Japan's interest bill on 250%+ GDP debt would rise substantially as bonds rolled over at higher rates. Kishida accepted this fiscal risk as necessary for monetary normalization. Short-run fiscal cost estimated at ¥1T+/year per 1% rate increase. The YCC framework that had contained this cost was being dismantled — Kishida did not resist despite fiscal impact."
+      },
+      {
+        "label": "wto_multilateral_trade",
+        "value": 0.65,
+        "evidence": "Kishida maintained Japan's WTO commitments and supported WTO reform discussions. CPTPP expansion (UK accession formalized Jul 2023 — largest CPTPP enlargement). Japan-UK CEPA trade agreement. Indo-Pacific Economic Framework (IPEF — US-led) participation, though IPEF had limited market access commitments compared to CPTPP. Japan continued as a committed multilateralist on trade despite global fragmentation pressures."
+      },
+      {
+        "label": "housing_policy",
+        "value": 0.45,
+        "evidence": "Japan's housing market had unique characteristics: house prices generally declining over time (opposite of most developed economies) until post-2012 urban price recovery. Tokyo housing prices rose under Abenomics and continued under Kishida. Affordability for young workers in Tokyo was emerging issue. No major housing policy reform under Kishida — the construction/real estate lobby's influence within LDP prevented radical changes to land use or property tax."
+      },
+      {
+        "label": "fiscal_multiplier_infrastructure",
+        "value": 0.60,
+        "evidence": "Public works spending continued under Kishida for disaster prevention infrastructure (national resilience policy) and semiconductor fab construction subsidies. The 'national resilience' (kokudo kyoujinka) infrastructure program provided LDP construction lobby spending while framing it as climate/disaster preparedness. Semiconductor subsidies were more strategically targeted. The mix of traditional construction pork and strategic investment reflected LDP's ongoing political economy constraints."
+      },
+      {
+        "label": "lhp_election_2021_unexpected_strong",
+        "value": 0.68,
+        "evidence": "Kishida's Oct 2021 Lower House election — called immediately after becoming PM — produced LDP-Komeito maintaining majority (261 seats, LDP 261 out of 465). This was better than the pre-election polls had suggested given COVID fatigue and LDP's low approval. The result gave Kishida a stronger mandate than expected and enabled his security/industrial policy agenda. He had entered the PM role from a weak position (LDP presidential race was competitive) but consolidated quickly."
+      }
+    ]
+  }
+}

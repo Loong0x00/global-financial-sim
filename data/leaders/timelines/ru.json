@@ -1,0 +1,412 @@
+{
+  "country": "Russia / USSR",
+  "country_code": "RU",
+  "last_updated": "2026-03-12",
+  "roles": {
+    "head_of_state": {
+      "title": "General Secretary of the CPSU / President of Russia",
+      "title_zh": "苏共中央总书记 / 俄罗斯联邦总统",
+      "leaders": [
+        {
+          "name": "Leonid Brezhnev",
+          "name_zh": "列昂尼德·勃列日涅夫",
+          "role": "General Secretary of the CPSU",
+          "term_start": "1964-10",
+          "term_end": "1982-11",
+          "party_or_affiliation": "Communist Party of the Soviet Union",
+          "background": "engineer",
+          "background_detail": "Trained as metallurgical engineer. Rose through party ranks in Ukraine. Presided over era of stagnation (zastoi) despite initial economic growth.",
+          "predecessor": "Nikita Khrushchev",
+          "key_economic_events": [
+            "Era of Stagnation (Zastoi)",
+            "Kosygin economic reforms attempted and abandoned",
+            "1973 Oil Crisis - windfall for Soviet oil exports",
+            "Massive military spending - arms race with US",
+            "Invasion of Afghanistan (1979) - economic drain",
+            "Growing dependence on oil/gas export revenues",
+            "Agricultural failures requiring Western grain imports",
+            "Shadow economy expanding"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Yuri Andropov",
+          "name_zh": "尤里·安德罗波夫",
+          "role": "General Secretary of the CPSU",
+          "term_start": "1982-11",
+          "term_end": "1984-02",
+          "party_or_affiliation": "Communist Party of the Soviet Union",
+          "background": "intelligence",
+          "background_detail": "Former KGB Chairman (1967-1982). Attempted anti-corruption and discipline campaigns. Ill health limited his tenure to 15 months.",
+          "predecessor": "Leonid Brezhnev",
+          "key_economic_events": [
+            "Anti-corruption campaign",
+            "Worker discipline crackdowns",
+            "Limited economic reform experiments",
+            "Continued Afghan War costs",
+            "Died in office after 15 months"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Konstantin Chernenko",
+          "name_zh": "康斯坦丁·契尔年科",
+          "role": "General Secretary of the CPSU",
+          "term_start": "1984-02",
+          "term_end": "1985-03",
+          "party_or_affiliation": "Communist Party of the Soviet Union",
+          "background": "bureaucrat",
+          "background_detail": "Longtime Brezhnev protégé, party apparatus man. Already seriously ill when appointed. Represented old guard's last stand.",
+          "predecessor": "Yuri Andropov",
+          "key_economic_events": [
+            "Economic stagnation continued",
+            "No significant reforms attempted",
+            "Died in office after 13 months",
+            "Soviet economy deteriorating"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Mikhail Gorbachev",
+          "name_zh": "米哈伊尔·戈尔巴乔夫",
+          "role": "General Secretary of the CPSU / President of the USSR",
+          "term_start": "1985-03",
+          "term_end": "1991-12",
+          "party_or_affiliation": "Communist Party of the Soviet Union",
+          "background": "lawyer",
+          "background_detail": "Moscow State University law graduate. Youngest Politburo member. Launched Perestroika (restructuring) and Glasnost (openness). Nobel Peace Prize 1990.",
+          "predecessor": "Konstantin Chernenko",
+          "key_economic_events": [
+            "Perestroika economic restructuring (1986+)",
+            "Glasnost - transparency and political opening",
+            "Anti-alcohol campaign (1985) - reduced state revenue",
+            "Oil price collapse (1986) devastated Soviet revenues",
+            "Law on Cooperatives (1988) - first private enterprise",
+            "500 Days Program debated but not adopted",
+            "August 1991 coup attempt",
+            "Dissolution of the Soviet Union (December 1991)"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Boris Yeltsin",
+          "name_zh": "鲍里斯·叶利钦",
+          "role": "President of the Russian Federation",
+          "term_start": "1991-07",
+          "term_end": "1999-12",
+          "party_or_affiliation": "Independent (formerly CPSU)",
+          "background": "engineer",
+          "background_detail": "Construction engineer turned party official. First democratically elected Russian leader. Oversaw chaotic transition from communism to capitalism.",
+          "predecessor": "Mikhail Gorbachev (as Soviet leader)",
+          "key_economic_events": [
+            "Shock therapy - rapid price liberalization (1992)",
+            "Hyperinflation exceeding 2,500% (1992)",
+            "Mass privatization via vouchers - rise of oligarchs",
+            "Loans-for-shares scheme (1995) - rigged auctions",
+            "1993 Constitutional Crisis - tanks shell parliament",
+            "First Chechen War economic costs (1994-96)",
+            "1998 Russian Financial Crisis - ruble devaluation and default",
+            "GDP contracted ~40% during 1990s",
+            "Resigned New Year's Eve 1999, appointed Putin acting president"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Vladimir Putin",
+          "name_zh": "弗拉基米尔·普京",
+          "role": "President of the Russian Federation (1st-2nd terms)",
+          "term_start": "2000-01",
+          "term_end": "2008-05",
+          "party_or_affiliation": "United Russia",
+          "background": "intelligence",
+          "background_detail": "Former KGB officer (stationed in Dresden, East Germany). FSB Director before becoming PM then President. Centralized power and restored state authority.",
+          "predecessor": "Boris Yeltsin",
+          "key_economic_events": [
+            "Economic recovery fueled by high oil prices",
+            "GDP growth averaging 7% annually",
+            "Flat 13% income tax introduced (2001)",
+            "Yukos affair - Khodorkovsky arrested (2003)",
+            "Renationalization of strategic energy assets",
+            "National Stabilization Fund created from oil revenues",
+            "Russia paid off Soviet-era debts",
+            "Rising middle class and consumer spending"
+          ],
+          "depth_level": 1
+        },
+        {
+          "name": "Dmitry Medvedev",
+          "name_zh": "德米特里·梅德韦杰夫",
+          "role": "President of the Russian Federation",
+          "term_start": "2008-05",
+          "term_end": "2012-05",
+          "party_or_affiliation": "United Russia",
+          "background": "lawyer",
+          "background_detail": "Law professor and Putin protégé. Served as placeholder in 'tandemocracy' with PM Putin. Focused on modernization rhetoric.",
+          "predecessor": "Vladimir Putin",
+          "key_economic_events": [
+            "2008 Global Financial Crisis hit Russia hard",
+            "Russian stock market lost 80% of value",
+            "South Ossetia War with Georgia (2008)",
+            "Modernization and 'Skolkovo' innovation city",
+            "Ruble devaluation (2008-09)",
+            "Announced he would not seek re-election, swapped back with Putin"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Vladimir Putin",
+          "name_zh": "弗拉基米尔·普京",
+          "role": "President of the Russian Federation (3rd-5th terms)",
+          "term_start": "2012-05",
+          "term_end": "incumbent",
+          "party_or_affiliation": "United Russia",
+          "background": "intelligence",
+          "background_detail": "Returned to presidency. Constitutional amendments (2020) reset term limits. Escalated confrontation with the West. Re-elected 2024 with reported 87%.",
+          "predecessor": "Dmitry Medvedev",
+          "key_economic_events": [
+            "Annexation of Crimea and Western sanctions (2014)",
+            "Oil price collapse (2014-15) - ruble crisis",
+            "Counter-sanctions and import substitution policy",
+            "Constitutional amendments resetting term limits (2020)",
+            "COVID-19 economic impact",
+            "Invasion of Ukraine (2022-02) - massive Western sanctions",
+            "SWIFT disconnection for major Russian banks",
+            "Energy war with Europe - gas supply weaponization",
+            "Ruble collapse then recovery via capital controls",
+            "Pivot to China and India for trade",
+            "War economy - military spending dominates budget",
+            "Re-elected March 2024"
+          ],
+          "depth_level": 1
+        }
+      ]
+    },
+    "central_bank_governor": {
+      "title": "Chairman of Gosbank / Governor of the Central Bank of Russia",
+      "title_zh": "苏联国家银行行长 / 俄罗斯中央银行行长",
+      "leaders": [
+        {
+          "name": "Mefody Sveshnikov",
+          "name_zh": "梅福季·斯韦什尼科夫",
+          "role": "Chairman, Gosbank USSR",
+          "term_start": "1969-09",
+          "term_end": "1976-01",
+          "party_or_affiliation": "Communist Party of the Soviet Union",
+          "background": "bureaucrat",
+          "background_detail": "Soviet banking official. Managed Gosbank during the stable Brezhnev-era planned economy.",
+          "predecessor": "Alexei Poskonov",
+          "key_economic_events": [
+            "Managed Soviet monetary system during détente era",
+            "Oil export revenue management after 1973 crisis",
+            "Soviet banking remained subordinate to Gosplan"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Vladimir Alkhimov",
+          "name_zh": "弗拉基米尔·阿尔希莫夫",
+          "role": "Chairman, Gosbank USSR",
+          "term_start": "1976-01",
+          "term_end": "1986-01",
+          "party_or_affiliation": "Communist Party of the Soviet Union",
+          "background": "bureaucrat",
+          "background_detail": "Former trade official. Longest-serving Gosbank chairman during late Soviet period.",
+          "predecessor": "Mefody Sveshnikov",
+          "key_economic_events": [
+            "Managed Soviet finances during Afghanistan War",
+            "Growing hidden budget deficits",
+            "Increasing reliance on oil export revenues",
+            "Shadow economy expanding beyond state control"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Nikolai Garetovsky",
+          "name_zh": "尼古拉·加列托夫斯基",
+          "role": "Chairman, Gosbank USSR",
+          "term_start": "1986-01",
+          "term_end": "1987-10",
+          "party_or_affiliation": "Communist Party of the Soviet Union",
+          "background": "bureaucrat",
+          "background_detail": "Brief tenure during early Perestroika period.",
+          "predecessor": "Vladimir Alkhimov",
+          "key_economic_events": [
+            "Early Perestroika banking adjustments",
+            "Anti-alcohol campaign revenue losses"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Viktor Dementsev",
+          "name_zh": "维克托·杰缅采夫",
+          "role": "Chairman, Gosbank USSR",
+          "term_start": "1987-10",
+          "term_end": "1989-06",
+          "party_or_affiliation": "Communist Party of the Soviet Union",
+          "background": "bureaucrat",
+          "background_detail": "Oversaw early banking reforms during Perestroika.",
+          "predecessor": "Nikolai Garetovsky",
+          "key_economic_events": [
+            "Law on Cooperatives implementation",
+            "Initial commercial bank licensing",
+            "Monetary system beginning to fragment"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Viktor Gerashchenko",
+          "name_zh": "维克托·格拉先科",
+          "role": "Chairman, Gosbank USSR / CBR Governor",
+          "term_start": "1989-06",
+          "term_end": "1991-12",
+          "party_or_affiliation": "Communist Party of the Soviet Union",
+          "background": "bureaucrat",
+          "background_detail": "Career Gosbank international banker. Would later serve twice as CBR governor. Called 'the worst central banker in the world' by Jeffrey Sachs.",
+          "predecessor": "Viktor Dementsev",
+          "key_economic_events": [
+            "Soviet monetary system collapse",
+            "Pavlov monetary reform (1991) - 50/100 ruble note swap",
+            "Dissolution of USSR and Gosbank"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Georgy Matyukhin",
+          "name_zh": "格奥尔基·马秋欣",
+          "role": "Governor, Central Bank of Russia",
+          "term_start": "1990-12",
+          "term_end": "1992-06",
+          "party_or_affiliation": "Independent",
+          "background": "academic",
+          "background_detail": "Academic economist. First head of the new Russian central bank (established as RSFSR state bank before USSR dissolution).",
+          "predecessor": "N/A (first CBR governor)",
+          "key_economic_events": [
+            "Establishment of independent Russian central bank",
+            "Price liberalization shock (January 1992)",
+            "Hyperinflation beginning",
+            "Ruble zone fragmentation"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Viktor Gerashchenko",
+          "name_zh": "维克托·格拉先科",
+          "role": "Governor, Central Bank of Russia (1st Russian term)",
+          "term_start": "1992-07",
+          "term_end": "1994-10",
+          "party_or_affiliation": "Independent",
+          "background": "bureaucrat",
+          "background_detail": "Returned from Gosbank to lead CBR. Pursued loose monetary policy, enabling massive credit expansion and inflation.",
+          "predecessor": "Georgy Matyukhin",
+          "key_economic_events": [
+            "Massive credit emission fueling hyperinflation",
+            "Ruble depreciation accelerated",
+            "Black Tuesday (October 1994) - ruble crashed 27% in one day",
+            "Fired after Black Tuesday"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Tatyana Paramonova",
+          "name_zh": "塔季扬娜·帕拉莫诺娃",
+          "role": "Acting Governor, Central Bank of Russia",
+          "term_start": "1994-10",
+          "term_end": "1995-11",
+          "party_or_affiliation": "Independent",
+          "background": "bureaucrat",
+          "background_detail": "First woman to lead CBR. Served as acting governor; Duma refused to confirm her permanently due to political opposition.",
+          "predecessor": "Viktor Gerashchenko",
+          "key_economic_events": [
+            "Stabilization efforts after Black Tuesday",
+            "Tighter monetary policy introduced",
+            "Duma refused to confirm her appointment"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Sergei Dubinin",
+          "name_zh": "谢尔盖·杜比宁",
+          "role": "Governor, Central Bank of Russia",
+          "term_start": "1995-11",
+          "term_end": "1998-09",
+          "party_or_affiliation": "Independent",
+          "background": "academic",
+          "background_detail": "Economist, former Finance Ministry official. Oversaw ruble corridor policy and GKO (government bond) pyramid.",
+          "predecessor": "Tatyana Paramonova",
+          "key_economic_events": [
+            "Ruble corridor exchange rate band policy",
+            "GKO market expansion - growing government debt pyramid",
+            "Asian Financial Crisis contagion (1997-98)",
+            "1998 Russian Financial Crisis - ruble devaluation and sovereign default",
+            "Fired during August 1998 crisis"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Viktor Gerashchenko",
+          "name_zh": "维克托·格拉先科",
+          "role": "Governor, Central Bank of Russia (2nd Russian term)",
+          "term_start": "1998-09",
+          "term_end": "2002-03",
+          "party_or_affiliation": "Independent",
+          "background": "bureaucrat",
+          "background_detail": "Brought back for crisis management after 1998 default. Managed post-crisis stabilization and early recovery.",
+          "predecessor": "Sergei Dubinin",
+          "key_economic_events": [
+            "Post-1998 crisis management and stabilization",
+            "Ruble stabilization after massive devaluation",
+            "Banking sector cleanup",
+            "Economic recovery as oil prices rose",
+            "Foreign reserve rebuilding"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Sergei Ignatiev",
+          "name_zh": "谢尔盖·伊格纳季耶夫",
+          "role": "Governor, Central Bank of Russia",
+          "term_start": "2002-03",
+          "term_end": "2013-06",
+          "party_or_affiliation": "Independent",
+          "background": "academic",
+          "background_detail": "Economist with government service background. Quiet technocrat who served three terms, overseeing Russia's oil boom and 2008 crisis response.",
+          "predecessor": "Viktor Gerashchenko",
+          "key_economic_events": [
+            "Oil boom era - massive reserve accumulation",
+            "Managed ruble appreciation pressure",
+            "2008 Global Financial Crisis - spent $200B defending ruble",
+            "Gradual shift to inflation targeting",
+            "Banking sector consolidation",
+            "Foreign reserves grew to over $500 billion"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Elvira Nabiullina",
+          "name_zh": "埃尔维拉·纳比乌琳娜",
+          "role": "Governor, Central Bank of Russia",
+          "term_start": "2013-06",
+          "term_end": "incumbent",
+          "party_or_affiliation": "Independent (Putin appointee)",
+          "background": "academic",
+          "background_detail": "Economist, former Minister of Economic Development. First woman to head a G8 central bank. Named 'Central Bank Governor of the Year' multiple times by Euromoney. Known for distinctive brooch messaging.",
+          "predecessor": "Sergei Ignatiev",
+          "key_economic_events": [
+            "Shift to inflation targeting and free-floating ruble (2014)",
+            "Emergency rate hike to 17% during 2014 ruble crisis",
+            "Massive banking sector cleanup - revoked 400+ licenses",
+            "Managed sanctions impact from Crimea annexation",
+            "COVID-19 monetary response",
+            "2022 Ukraine war emergency measures - rate to 20%",
+            "Capital controls to stabilize ruble after SWIFT sanctions",
+            "De-dollarization push - yuan settlement expansion",
+            "Fortress balance sheet strategy",
+            "$300B+ in frozen foreign reserves",
+            "War economy monetary management"
+          ],
+          "depth_level": 1
+        }
+      ]
+    }
+  }
+}

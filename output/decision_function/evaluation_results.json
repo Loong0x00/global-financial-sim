@@ -1,0 +1,351 @@
+{
+  "model_version": "v3_multitask",
+  "n_params": 18923,
+  "total_input_dim": 44,
+  "n_econ_features": 22,
+  "n_context_features": 7,
+  "n_leader_features": 15,
+  "previous_v1": {
+    "n_params": 17770,
+    "input_dim": 10,
+    "loo_accuracy": 0.667
+  },
+  "loo_direction_accuracy": 0.7575757575757576,
+  "loo_joint_accuracy": 0.5454545454545454,
+  "loo_dir_correct": 25,
+  "loo_joint_correct": 18,
+  "loo_total": 33,
+  "loo_predictions": [
+    {
+      "date": "2022-01",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9999933242797852,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2022-03",
+      "true_action": "hike_25bp",
+      "pred_action": "hike_50bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.9912120699882507,
+      "dir_correct": true,
+      "joint_correct": false
+    },
+    {
+      "date": "2022-05",
+      "true_action": "hike_50bp",
+      "pred_action": "hike_75bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.9999961853027344,
+      "dir_correct": true,
+      "joint_correct": false
+    },
+    {
+      "date": "2022-06",
+      "true_action": "hike_75bp",
+      "pred_action": "hike_75bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.9999778270721436,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2022-07",
+      "true_action": "hike_75bp",
+      "pred_action": "hike_50bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.9999998807907104,
+      "dir_correct": true,
+      "joint_correct": false
+    },
+    {
+      "date": "2022-09",
+      "true_action": "hike_75bp",
+      "pred_action": "hike_50bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.9999994039535522,
+      "dir_correct": true,
+      "joint_correct": false
+    },
+    {
+      "date": "2022-11",
+      "true_action": "hike_75bp",
+      "pred_action": "hike_75bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.9999994039535522,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2022-12",
+      "true_action": "hike_50bp",
+      "pred_action": "hike_75bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.9999651908874512,
+      "dir_correct": true,
+      "joint_correct": false
+    },
+    {
+      "date": "2023-02",
+      "true_action": "hike_25bp",
+      "pred_action": "hike_25bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.9935455918312073,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2023-03",
+      "true_action": "hike_25bp",
+      "pred_action": "hike_25bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.9999655485153198,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2023-05",
+      "true_action": "hike_25bp",
+      "pred_action": "hike_25bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.6614656448364258,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2023-06",
+      "true_action": "hold",
+      "pred_action": "hike_25bp",
+      "true_dir": "hold",
+      "pred_dir": "hike",
+      "dir_confidence": 0.9999756813049316,
+      "dir_correct": false,
+      "joint_correct": false
+    },
+    {
+      "date": "2023-07",
+      "true_action": "hike_25bp",
+      "pred_action": "hold",
+      "true_dir": "hike",
+      "pred_dir": "hold",
+      "dir_confidence": 0.999799907207489,
+      "dir_correct": false,
+      "joint_correct": false
+    },
+    {
+      "date": "2023-09",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9997090697288513,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2023-11",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9999817609786987,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2023-12",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9999877214431763,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2024-01",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9999781847000122,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2024-03",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9999970197677612,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2024-05",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9999916553497314,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2024-06",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9999961853027344,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2024-07",
+      "true_action": "hold",
+      "pred_action": "cut_50bp",
+      "true_dir": "hold",
+      "pred_dir": "cut",
+      "dir_confidence": 0.9849001169204712,
+      "dir_correct": false,
+      "joint_correct": false
+    },
+    {
+      "date": "2024-09",
+      "true_action": "cut_50bp",
+      "pred_action": "cut_25bp",
+      "true_dir": "cut",
+      "pred_dir": "cut",
+      "dir_confidence": 0.9999402761459351,
+      "dir_correct": true,
+      "joint_correct": false
+    },
+    {
+      "date": "2024-11",
+      "true_action": "cut_25bp",
+      "pred_action": "cut_50bp",
+      "true_dir": "cut",
+      "pred_dir": "cut",
+      "dir_confidence": 0.9999706745147705,
+      "dir_correct": true,
+      "joint_correct": false
+    },
+    {
+      "date": "2024-12",
+      "true_action": "cut_25bp",
+      "pred_action": "hold",
+      "true_dir": "cut",
+      "pred_dir": "hold",
+      "dir_confidence": 0.7045750021934509,
+      "dir_correct": false,
+      "joint_correct": false
+    },
+    {
+      "date": "2025-01",
+      "true_action": "hold",
+      "pred_action": "cut_75bp",
+      "true_dir": "hold",
+      "pred_dir": "cut",
+      "dir_confidence": 0.9978458881378174,
+      "dir_correct": false,
+      "joint_correct": false
+    },
+    {
+      "date": "2025-03",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9996893405914307,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2025-05",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9999816417694092,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2025-06",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9999958276748657,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2025-07",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9999933242797852,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2025-09",
+      "true_action": "cut_25bp",
+      "pred_action": "hold",
+      "true_dir": "cut",
+      "pred_dir": "hold",
+      "dir_confidence": 0.999799907207489,
+      "dir_correct": false,
+      "joint_correct": false
+    },
+    {
+      "date": "2025-10",
+      "true_action": "cut_25bp",
+      "pred_action": "hold",
+      "true_dir": "cut",
+      "pred_dir": "hold",
+      "dir_confidence": 0.5731094479560852,
+      "dir_correct": false,
+      "joint_correct": false
+    },
+    {
+      "date": "2025-12",
+      "true_action": "cut_25bp",
+      "pred_action": "cut_25bp",
+      "true_dir": "cut",
+      "pred_dir": "cut",
+      "dir_confidence": 0.9999483823776245,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2026-01",
+      "true_action": "hold",
+      "pred_action": "cut_25bp",
+      "true_dir": "hold",
+      "pred_dir": "cut",
+      "dir_confidence": 0.9979331493377686,
+      "dir_correct": false,
+      "joint_correct": false
+    }
+  ],
+  "timestamp": "2026-03-12T12:27:39.126986"
+}

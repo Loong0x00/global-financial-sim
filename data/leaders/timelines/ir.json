@@ -1,0 +1,112 @@
+{
+  "country": "Iran",
+  "country_code": "IR",
+  "last_updated": "2026-03-12",
+  "notes": "Iran's political structure is a dual system: the Supreme Leader holds ultimate authority over all state functions including military, judiciary, and foreign policy. The elected President handles executive/economic administration but is subordinate to the Supreme Leader. This timeline focuses on Supreme Leaders (paramount decision-makers) and key Presidents where economically significant. Simulation depth: Supreme Leaders at Level 1; Presidents at Level 2.",
+  "roles": {
+    "supreme_leader": {
+      "title": "Supreme Leader of Iran",
+      "title_fa": "رهبر معظم انقلاب اسلامی",
+      "title_zh": "伊朗最高领袖",
+      "leaders": [
+        {
+          "name": "Ruhollah Khomeini",
+          "name_fa": "روح‌الله خمینی",
+          "name_zh": "鲁霍拉·霍梅尼",
+          "role": "Supreme Leader (Founder)",
+          "term_start": "1979-02",
+          "term_end": "1989-06",
+          "party_or_affiliation": "Islamic Republican Party / Velayat-e Faqih framework",
+          "background": "religious",
+          "background_detail": "Senior Shia cleric (Ayatollah, Grand Ayatollah). Led the 1979 Islamic Revolution that overthrew the Pahlavi monarchy. Established the Islamic Republic's governing framework of velayat-e faqih (guardianship of the Islamic jurist). Died in office June 3, 1989.",
+          "predecessor": "Shah Mohammad Reza Pahlavi (monarchy)",
+          "key_economic_events": [
+            "1979 Islamic Revolution — oil nationalization completed, foreign assets frozen",
+            "US hostage crisis (1979-81) — $12B in frozen assets, US sanctions imposed",
+            "Iran-Iraq War (1980-88) — massive economic disruption, oil infrastructure damage",
+            "Oil price collapse 1986 — severe revenue shortfall",
+            "Wartime economy: rationing, revolutionary guards economic empire expanding",
+            "Death of Khomeini June 1989 — smooth succession to Khamenei"
+          ],
+          "depth_level": 3
+        },
+        {
+          "name": "Ali Khamenei",
+          "name_fa": "علی خامنه‌ای",
+          "name_zh": "阿里·哈梅内伊",
+          "role": "Supreme Leader",
+          "term_start": "1989-06",
+          "term_end": "2026-02-28",
+          "party_or_affiliation": "Islamic Republican Party / Conservative-Hardliner",
+          "background": "religious",
+          "background_detail": "Former President of Iran (1981-89), elevated to Supreme Leader despite not holding Grand Ayatollah rank (rank subsequently upgraded). Exercised supreme authority over military (IRGC), judiciary, media, foreign policy, and nuclear program for 37 years. Closely aligned with IRGC as key power base. Anti-Western, anti-US ideological framework. Maintained nuclear program as deterrent/bargaining tool. Killed in US-Israeli decapitation strike February 28, 2026.",
+          "predecessor": "Ruhollah Khomeini",
+          "key_economic_events": [
+            "1990s post-war reconstruction — Rafsanjani-era economic opening",
+            "1995 US comprehensive sanctions — oil trade, investment banned",
+            "2002 nuclear program disclosure — escalating sanctions pressure",
+            "2006 UN Security Council sanctions (Resolution 1737)",
+            "2012 EU oil embargo + SWIFT exclusion — most severe pre-JCPOA sanctions",
+            "JCPOA nuclear deal 2015 — partial sanctions relief, $150B+ assets unfrozen",
+            "US withdrawal from JCPOA 2018 (Trump) — maximum pressure sanctions",
+            "2019 Rial collapse (-60% vs USD in 12 months)",
+            "COVID-19 with limited medical capacity from sanctions",
+            "June 2025: Twelve-Day War — nuclear facilities struck by Israel/US",
+            "2026: IRGC economic empire estimated $200B+ assets",
+            "Killed February 28, 2026 in US-Israeli strike on Tehran"
+          ],
+          "depth_level": 2
+        },
+        {
+          "name": "Mojtaba Khamenei",
+          "name_fa": "مجتبی خامنه‌ای",
+          "name_zh": "穆杰塔巴·哈梅内伊",
+          "role": "Supreme Leader",
+          "term_start": "2026-03-11",
+          "term_end": "incumbent",
+          "party_or_affiliation": "IRGC-aligned hardliner / son of Ali Khamenei",
+          "background": "religious_military",
+          "background_detail": "Son of assassinated Supreme Leader Ali Khamenei. Age 56 at appointment. Close ties to Islamic Revolutionary Guard Corps (IRGC). Named by the Assembly of Experts on March 11, 2026 — 10 days after his father's death. Appointed under extreme crisis conditions: Iran under active military attack by US and Israel, Strait of Hormuz disrupted, economy in shock. Hardliner with strong IRGC backing. Limited public profile before appointment — has operated in the shadows of the clerical-military establishment.",
+          "predecessor": "Ali Khamenei (father, assassinated)",
+          "key_economic_events": [
+            "Appointed during active US-Israeli military campaign on Iran (February 28 - ongoing)",
+            "Oil price at $94/bbl (March 9, 2026) — Hormuz disruption benefiting Iranian leverage",
+            "Iranian strikes on Gulf state infrastructure (9 countries targeted)",
+            "Brent oil war premium: $70 → $94/bbl in 10 days",
+            "IRGC economic empire (~$200B+ assets) now under his effective authority",
+            "Assembly of Experts consensus appointment March 8-11, 2026",
+            "Interim Leadership Council (March 1-11): Arafi, Mohseni-Eje'i, Ghalibaf, Pezeshkian"
+          ],
+          "depth_level": 1
+        }
+      ]
+    },
+    "president": {
+      "title": "President of Iran",
+      "title_zh": "伊朗总统",
+      "notes": "Presidents are subordinate to the Supreme Leader and handle executive/economic administration. Included here for context on economic policy implementation.",
+      "leaders": [
+        {
+          "name": "Masoud Pezeshkian",
+          "name_fa": "مسعود پزشکیان",
+          "name_zh": "马苏德·佩泽什克尼亚",
+          "role": "President of Iran",
+          "term_start": "2024-07",
+          "term_end": "incumbent",
+          "party_or_affiliation": "Reformist",
+          "background": "academic",
+          "background_detail": "Heart surgeon and parliamentarian. Elected July 2024 as a reformist on a platform of nuclear deal revival and economic opening. Member of Interim Leadership Council (March 1-11, 2026) during Supreme Leader transition. Now subordinate to Mojtaba Khamenei.",
+          "predecessor": "Ebrahim Raisi (killed in helicopter crash May 2024)",
+          "key_economic_events": [
+            "Inherited maximum-pressure sanctions economy",
+            "Attempted nuclear diplomacy re-engagement (2024-2025)",
+            "Twelve-Day War June 2025 — nuclear facilities significantly damaged",
+            "February 28, 2026 — father of Supreme Leader killed; served on Interim Leadership Council",
+            "Economic management during active war conditions"
+          ],
+          "depth_level": 2
+        }
+      ]
+    }
+  }
+}

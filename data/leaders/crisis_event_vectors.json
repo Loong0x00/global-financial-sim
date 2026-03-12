@@ -1,0 +1,1187 @@
+{
+  "description": "Quantified event vectors for crisis key figures — numerical representation for state space integration",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "methodology": "Each action is encoded as a vector of market impact dimensions. Values derived from documented historical market reactions: equity indices, bond yields, FX rates, VIX readings, and policy regime changes. Contagion scope and reversibility are calibrated against subsequent economic literature and IMF post-crisis assessments.",
+  "impact_dimensions": [
+    "equity_market_direction",
+    "bond_market_direction",
+    "currency_direction",
+    "volatility_impact",
+    "contagion_scope",
+    "policy_regime_shift",
+    "duration_of_impact_months",
+    "reversibility"
+  ],
+  "dimension_notes": {
+    "equity_market_direction": "-1 (severe crash) to +1 (strong rally). 0 = no meaningful move.",
+    "bond_market_direction": "-1 (yields spike / risk-off fails) to +1 (yields drop / flight to safety succeeds). Positive = lower yields / safe-haven bid.",
+    "currency_direction": "-1 (sharp depreciation of affected/domestic currency) to +1 (appreciation). Context: affected country's currency unless noted.",
+    "volatility_impact": "0 (no VIX effect) to 1 (extreme spike, VIX > 40). Calibrated: 0.3 = mild, 0.6 = significant, 0.9 = extreme.",
+    "contagion_scope": "0 (single asset/market) to 1 (fully global systemic). 0.3 = regional, 0.6 = multi-region, 0.9 = global synchronized.",
+    "policy_regime_shift": "0 (continuation of existing policy) to 1 (full paradigm change, e.g., end of fixed rate era, new policy framework). 0.5 = major shift within existing regime.",
+    "duration_of_impact_months": "Estimated months of statistically significant market impact. Structural changes may score higher even if acute phase is brief.",
+    "reversibility": "0 (permanent structural change, no return to prior state) to 1 (fully temporary, markets/policy return to baseline within impact duration)."
+  },
+  "events": [
+    {
+      "crisis": "asian_financial_crisis_1997",
+      "actor": "George Soros / Quantum Fund",
+      "actor_zh": "乔治·索罗斯 / 量子基金",
+      "action": "Thai baht short attack — sustained selling of baht forwards forcing BOT to exhaust $33B reserves",
+      "date": "1997-05",
+      "vector": [-0.8, -0.3, -0.92, 0.85, 0.70, 0.60, 18, 0.25],
+      "vector_justification": {
+        "equity_market_direction": "-0.8: SET index fell ~75% peak-to-trough over crisis. Immediate shock -15% in weeks following float.",
+        "bond_market_direction": "-0.3: Thai yields spiked as capital fled; no safe-haven bid within Thailand. Slight regional spillover compressed UST yields.",
+        "currency_direction": "-0.92: THB lost ~55% vs USD within 6 months of float. Near-maximal depreciation event.",
+        "volatility_impact": "0.85: VIX spiked from ~17 to ~28 in July 1997; regional equity vol extreme.",
+        "contagion_scope": "0.70: Triggered chain reaction across PHP, IDR, MYR, KRW, HKD — regional but not initially global.",
+        "policy_regime_shift": "0.60: End of managed peg era for multiple Asian currencies. BOT's policy framework destroyed.",
+        "duration_of_impact_months": "18: Full recovery of regional currencies and equity markets took 18-24 months.",
+        "reversibility": "0.25: Structural damage to Thai financial sector. Several banks never reopened. Partial recovery only."
+      },
+      "narrative_zh": "量子基金持续做空泰铢远期合约，逼迫泰国央行耗尽330亿美元外汇储备。1997年7月2日泰铢被迫浮动，单日贬值18%，触发亚洲金融危机传导链——菲律宾比索、印尼盾、马来西亚林吉特、韩元相继崩溃。"
+    },
+    {
+      "crisis": "asian_financial_crisis_1997",
+      "actor": "George Soros / Quantum Fund",
+      "actor_zh": "乔治·索罗斯 / 量子基金",
+      "action": "Hong Kong dollar short attack — speculative assault on HKD peg during double-play (stocks + currency)",
+      "date": "1997-08",
+      "vector": [-0.55, 0.10, 0.05, 0.75, 0.45, 0.15, 4, 0.85],
+      "vector_justification": {
+        "equity_market_direction": "-0.55: HSI fell ~23% in Aug 1997 due to interest rate defense of peg (overnight rates spiked to 300%).",
+        "bond_market_direction": "0.10: HKD peg defense via rate hike slightly supported HKD bonds short-term.",
+        "currency_direction": "0.05: HKD peg held. Minimal depreciation. Attack failed. Near-zero net currency move.",
+        "volatility_impact": "0.75: Extreme overnight rates and equity crash created severe local volatility.",
+        "contagion_scope": "0.45: Primarily Hong Kong with spillover to mainland-linked stocks and regional sentiment.",
+        "policy_regime_shift": "0.15: HKMA defended peg successfully; no regime change. Minor: introduced stock market intervention (unprecedented).",
+        "duration_of_impact_months": "4: Markets stabilized within 4 months after HKMA share purchases proved effective.",
+        "reversibility": "0.85: Near-fully reversed. HKD peg survived, HSI recovered. Precedent set for market intervention."
+      },
+      "narrative_zh": "索罗斯采用'双边押注'策略同时做空港股和港元，试图通过高利率防守迫使港股崩溃。港府罕见直接入市购买蓝筹股，动用1180亿港元捍卫联系汇率制度，最终击退攻击。此役标志着政府市场干预边界的重新划定。"
+    },
+    {
+      "crisis": "asian_financial_crisis_1997",
+      "actor": "Mahathir Mohamad",
+      "actor_zh": "马哈蒂尔·穆罕默德",
+      "action": "Malaysia capital controls and MYR peg at 3.8 — September 1 1998 comprehensive capital account closure",
+      "date": "1998-09",
+      "vector": [0.35, 0.20, 0.60, -0.25, -0.30, 0.80, 24, 0.30],
+      "vector_justification": {
+        "equity_market_direction": "0.35: KLCI stabilized and recovered modestly after controls removed speculative selling pressure.",
+        "bond_market_direction": "0.20: Domestic bond market stabilized with capital controls preventing yield spiral.",
+        "currency_direction": "0.60: MYR stabilized at 3.80 peg after prior -45% depreciation. Effective appreciation vs free-float counterfactual.",
+        "volatility_impact": "-0.25: Controls reduced volatility. Negative score = volatility-reducing event.",
+        "contagion_scope": "-0.30: Negative contagion = isolated Malaysia from regional crisis transmission, reducing scope of continued spread.",
+        "policy_regime_shift": "0.80: First full capital account closure by a middle-income country in modern era. Major paradigm departure from IMF orthodoxy.",
+        "duration_of_impact_months": "24: Controls maintained until 2005 for some components; full liberalization took years.",
+        "reversibility": "0.30: Structural shift in how Malaysia manages capital flows. IMF relations permanently altered. Partial reversal only."
+      },
+      "narrative_zh": "马哈蒂尔宣布马来西亚实施全面资本管制，林吉特以3.8兑1美元固定汇率，禁止离岸林吉特交易。此举违背IMF正统，却有效切断了危机传导。事后马来西亚经济复苏速度快于接受IMF援助的国家，引发国际货币体系深层争议。"
+    },
+    {
+      "crisis": "asian_financial_crisis_1997",
+      "actor": "Zhu Rongji",
+      "actor_zh": "朱镕基",
+      "action": "RMB non-devaluation pledge — China commits to hold RMB despite regional depreciation pressure",
+      "date": "1997-07",
+      "vector": [0.30, 0.25, 0.15, -0.20, -0.40, 0.45, 30, 0.45],
+      "vector_justification": {
+        "equity_market_direction": "0.30: Pledge provided stabilizing signal to regional markets, moderating equity losses.",
+        "bond_market_direction": "0.25: Reduced fear of competitive devaluations; slight benefit to regional bond markets.",
+        "currency_direction": "0.15: China held RMB steady at ~8.28. Modest positive for regional currency stability.",
+        "volatility_impact": "-0.20: Volatility-reducing commitment. Credible anchor reduced contagion fears.",
+        "contagion_scope": "-0.40: Significantly reduced crisis contagion scope by removing China as potential 'next domino.'",
+        "policy_regime_shift": "0.45: Established China as responsible stakeholder in Asian financial architecture. Precursor to later internationalization.",
+        "duration_of_impact_months": "30: RMB held stable through 1997-1999 Asian recovery period.",
+        "reversibility": "0.45: Policy eventually changed (managed float 2005), but pledge served its stabilizing purpose in crisis."
+      },
+      "narrative_zh": "朱镕基承诺人民币不贬值，在亚洲货币竞相崩溃的背景下提供关键稳定锚。中国以牺牲出口竞争力为代价，防止了新一轮竞争性贬值浪潮，赢得国际声誉，为此后在全球金融治理中的话语权奠定基础。"
+    },
+    {
+      "crisis": "asian_financial_crisis_1997",
+      "actor": "Michel Camdessus / IMF",
+      "actor_zh": "米歇尔·康德苏 / IMF",
+      "action": "Thailand IMF bailout program — $17.2B package with fiscal austerity, bank closures, interest rate hikes",
+      "date": "1997-08",
+      "vector": [-0.20, 0.15, 0.25, 0.50, 0.30, 0.55, 24, 0.40],
+      "vector_justification": {
+        "equity_market_direction": "-0.20: IMF austerity worsened near-term economic contraction, equities continued falling despite bailout.",
+        "bond_market_direction": "0.15: External financing reduced sovereign default risk; slight bond stabilization.",
+        "currency_direction": "0.25: IMF support provided floor for THB, halting freefall even if not reversing it immediately.",
+        "volatility_impact": "0.50: Conditionality uncertainty and bank closures maintained elevated volatility.",
+        "contagion_scope": "0.30: IMF program template later applied to Indonesia and Korea, establishing precedent.",
+        "policy_regime_shift": "0.55: Forced structural reform of Thai banking sector, capital account rules, and fiscal framework.",
+        "duration_of_impact_months": "24: IMF structural conditions shaped Thai policy for 2 years minimum.",
+        "reversibility": "0.40: Banking system reforms largely permanent. Austerity conditions temporary but scarring."
+      },
+      "narrative_zh": "IMF向泰国提供172亿美元救助，要求关闭58家金融机构、提高利率、削减财政赤字。紧缩条件加深了经济衰退，失业率飙升。这一模式随后在印尼（430亿美元）和韩国（580亿美元）复制，引发关于IMF处方适用性的深刻争议。"
+    },
+    {
+      "crisis": "asian_financial_crisis_1997",
+      "actor": "Michel Camdessus / IMF",
+      "actor_zh": "米歇尔·康德苏 / IMF",
+      "action": "Indonesia IMF program — $43B package; Suharto political instability collapses reform implementation",
+      "date": "1997-11",
+      "vector": [-0.75, -0.40, -0.85, 0.90, 0.65, 0.70, 30, 0.20],
+      "vector_justification": {
+        "equity_market_direction": "-0.75: Jakarta Composite fell ~65% during crisis. IMF program failed to halt decline as political crisis compounded.",
+        "bond_market_direction": "-0.40: Sovereign spreads exploded despite IMF program. Political risk overwhelmed program credibility.",
+        "currency_direction": "-0.85: IDR lost ~83% vs USD peak-to-trough, worst in region. Program implementation failure.",
+        "volatility_impact": "0.90: Extreme: combined currency, equity, political collapse. Ethnic violence erupted.",
+        "contagion_scope": "0.65: Indonesia's scale made its crisis deeply contagious to regional sentiment and commodity markets.",
+        "policy_regime_shift": "0.70: Suharto's fall ended 30-year regime. Transition to democracy = fundamental political regime change.",
+        "duration_of_impact_months": "30: Indonesian economy took over 2 years to stabilize; political transition ongoing much longer.",
+        "reversibility": "0.20: Structural damage to Indonesian financial sector, political system, and social cohesion. Low reversibility."
+      },
+      "narrative_zh": "IMF印尼计划因苏哈托政治危机而陷入执行困境。当IMF要求取消燃油补贴时，全国爆发骚乱，苏哈托下台。印尼盾贬值83%，成为亚洲危机中破坏最深重的案例，揭示了忽视政治稳定的经济改革方案的致命缺陷。"
+    },
+    {
+      "crisis": "asian_financial_crisis_1997",
+      "actor": "Michel Camdessus / IMF",
+      "actor_zh": "米歇尔·康德苏 / IMF",
+      "action": "Korea IMF program — $58B record bailout; chaebol restructuring, capital account opening",
+      "date": "1997-12",
+      "vector": [-0.45, 0.20, -0.60, 0.80, 0.55, 0.75, 18, 0.55],
+      "vector_justification": {
+        "equity_market_direction": "-0.45: KOSPI fell ~70% during crisis but recovered more strongly than Thailand/Indonesia, reflecting stronger institutions.",
+        "bond_market_direction": "0.20: Korea's stronger fundamentals meant IMF support improved bond market conditions more effectively.",
+        "currency_direction": "-0.60: KRW fell ~60% at worst but stabilized relatively quickly post-program.",
+        "volatility_impact": "0.80: 'IMF shock' entered Korean cultural vocabulary; extreme uncertainty during Dec 1997.",
+        "contagion_scope": "0.55: Korea's size made its crisis globally significant; triggered LTCM-adjacent stress.",
+        "policy_regime_shift": "0.75: Fundamental transformation of Korean corporate governance, chaebol structure, and financial system openness.",
+        "duration_of_impact_months": "18: Korea achieved fastest recovery of crisis countries; back to growth by 1999.",
+        "reversibility": "0.55: Corporate reforms partially reversed as chaebols regained power, but financial openness permanent."
+      },
+      "narrative_zh": "韩国获得580亿美元IMF最大单笔救助，代价是强制推进财阀（chaebol）重组和资本账户开放。'IMF冲击'成为韩国国家记忆，驱动此后对大规模外汇储备积累的执念，深刻影响东亚货币政策取向二十余年。"
+    },
+    {
+      "crisis": "asian_financial_crisis_1997",
+      "actor": "Eisuke Sakakibara",
+      "actor_zh": "榊原英資",
+      "action": "Yen stabilization intervention — coordinated USD/JPY buying to halt yen depreciation threatening regional recovery",
+      "date": "1998-06",
+      "vector": [0.25, 0.15, 0.55, -0.30, 0.25, 0.20, 6, 0.70],
+      "vector_justification": {
+        "equity_market_direction": "0.25: Yen stabilization reduced competitive devaluation fears, positive for Asian equity recovery.",
+        "bond_market_direction": "0.15: Reduced systemic stress slightly improved regional bond conditions.",
+        "currency_direction": "0.55: JPY rallied sharply from 147 to 130 vs USD after intervention signal; prevented yen collapse.",
+        "volatility_impact": "-0.30: Intervention reduced FX volatility. Confidence-boosting effect.",
+        "contagion_scope": "0.25: Prevented additional transmission vector (weak yen threatening Korean/Japanese competition).",
+        "policy_regime_shift": "0.20: Established US-Japan coordinated intervention precedent; minor regime signal.",
+        "duration_of_impact_months": "6: JPY stabilization lasted ~6 months before further deterioration in 1998.",
+        "reversibility": "0.70: Largely temporary; yen fundamentals unchanged. But precedent for G7 FX coordination durable."
+      },
+      "narrative_zh": "榊原英资（'日元先生'）协调美日共同干预外汇市场，阻止日元跌破150关口。日元快速回升至130区间，防止了日元贬值引发新一轮亚洲竞争性贬值的风险。此举是二十年来最成功的G7汇率协调干预之一。"
+    },
+    {
+      "crisis": "global_financial_crisis_2008",
+      "actor": "Timothy Geithner / Federal Reserve",
+      "actor_zh": "蒂莫西·盖特纳 / 美联储",
+      "action": "Bear Stearns rescue — JPMorgan acquisition facilitated by Fed's $29B non-recourse loan guarantee",
+      "date": "2008-03",
+      "vector": [-0.35, 0.30, 0.10, 0.65, 0.60, 0.50, 6, 0.60],
+      "vector_justification": {
+        "equity_market_direction": "-0.35: Brief equity relief rally immediately after, but signaled deeper systemic stress. S&P -12% in March.",
+        "bond_market_direction": "0.30: Fed backstop reduced immediate default contagion; UST yields fell as flight-to-safety.",
+        "currency_direction": "0.10: USD slightly pressured by Fed action but contained; no major FX move.",
+        "volatility_impact": "0.65: VIX spiked to 32 in March 2008. Market recognized this as systemic, not idiosyncratic.",
+        "contagion_scope": "0.60: Revealed extent of interbank contagion risk; global financial institutions re-priced counterparty risk.",
+        "policy_regime_shift": "0.50: First use of Fed Section 13(3) emergency powers since 1930s. Established 'too big to fail' precedent.",
+        "duration_of_impact_months": "6: Provided 6-month window before Lehman collapse in September.",
+        "reversibility": "0.60: 'Too big to fail' moral hazard became permanent feature. Fed's Section 13(3) powers expanded then curtailed by Dodd-Frank."
+      },
+      "narrative_zh": "美联储援引1930年代以来从未使用的紧急条款，向摩根大通提供290亿美元无追索权贷款担保，收购濒临倒闭的贝尔斯登。这是现代首个大型投资银行政府救助案例，确立了'大而不倒'先例，同时为市场带来短暂安慰，但6个月后雷曼倒闭证明危机远未结束。"
+    },
+    {
+      "crisis": "global_financial_crisis_2008",
+      "actor": "Hank Paulson",
+      "actor_zh": "汉克·保尔森",
+      "action": "Lehman Brothers bankruptcy — decision to allow Lehman to fail on September 15 2008",
+      "date": "2008-09",
+      "vector": [-0.95, -0.70, -0.40, 0.98, 0.95, 0.90, 36, 0.15],
+      "vector_justification": {
+        "equity_market_direction": "-0.95: S&P 500 fell 45% from Lehman to March 2009 trough. Single most catastrophic modern equity event.",
+        "bond_market_direction": "-0.70: Credit markets froze. LIBOR-OIS spread exploded to 365bp. Even UST experienced dislocations briefly.",
+        "currency_direction": "-0.40: USD actually strengthened (flight to safety) but global EM currencies collapsed. Scoring affected currencies.",
+        "volatility_impact": "0.98: VIX reached 89.53 on Oct 24 2008 — highest ever recorded. Near-maximum score.",
+        "contagion_scope": "0.95: Simultaneously froze global interbank markets, money market funds, commercial paper, trade finance worldwide.",
+        "policy_regime_shift": "0.90: Destroyed faith in self-regulating markets. Triggered regulatory overhaul in every major economy. Post-Lehman world fundamentally different.",
+        "duration_of_impact_months": "36: Markets took 3+ years to fully recover. Structural impacts (Dodd-Frank, Basel III) permanent.",
+        "reversibility": "0.15: Structural changes to global finance, regulation, and central bank mandate largely permanent."
+      },
+      "narrative_zh": "保尔森决定不救助雷曼兄弟，触发人类历史上最大规模的金融传染事件。次日货币市场基金'跌破面值'，全球银行间市场冻结，LIBOR-OIS利差暴涨至365个基点。此后6周内，各国央行和政府实施规模前所未有的紧急干预。VIX达到89.53的历史最高点。"
+    },
+    {
+      "crisis": "global_financial_crisis_2008",
+      "actor": "Hank Paulson / Federal Reserve",
+      "actor_zh": "汉克·保尔森 / 美联储",
+      "action": "AIG bailout — $85B government takeover to prevent $440B CDS notional triggering global default cascade",
+      "date": "2008-09",
+      "vector": [0.15, 0.25, 0.05, 0.55, 0.70, 0.55, 18, 0.35],
+      "vector_justification": {
+        "equity_market_direction": "0.15: AIG rescue prevented immediate CDS default cascade; marginally positive vs counterfactual.",
+        "bond_market_direction": "0.25: Prevented triggering of CDS on major financial institution debt; credit markets partially functional.",
+        "currency_direction": "0.05: Minor USD effect; AIG rescue primarily contained systemic risk.",
+        "volatility_impact": "0.55: Despite rescue, markets remained highly stressed. Lehman the same day dominated.",
+        "contagion_scope": "0.70: AIG was counterparty to virtually every major global financial institution. Rescue prevented global cascade.",
+        "policy_regime_shift": "0.55: Government ownership of insurance conglomerate unprecedented. Expanded 'too big to fail' to non-banks.",
+        "duration_of_impact_months": "18: AIG restructuring and government exit took 18+ months.",
+        "reversibility": "0.35: AIG rescued and eventually profitable. But CDS regulation fundamentally changed. Partial reversal."
+      },
+      "narrative_zh": "AIG因对大量次贷相关债务出售信用违约互换（CDS），面临440亿美元潜在违约敞口。政府以850亿美元紧急接管，防止触发全球金融机构的CDS连锁违约。若AIG破产，全球几乎所有主要银行将同时陷入危机。"
+    },
+    {
+      "crisis": "global_financial_crisis_2008",
+      "actor": "Hank Paulson / US Congress",
+      "actor_zh": "汉克·保尔森 / 美国国会",
+      "action": "TARP passage — $700B Troubled Asset Relief Program signed October 3 2008 after initial House rejection",
+      "date": "2008-10",
+      "vector": [0.30, 0.35, 0.15, -0.20, 0.50, 0.65, 24, 0.40],
+      "vector_justification": {
+        "equity_market_direction": "0.30: S&P rallied ~10% on TARP passage day; provided floor for financial sector equities.",
+        "bond_market_direction": "0.35: Government backstop improved bank bond conditions; spreads compressed from extremes.",
+        "currency_direction": "0.15: Minor USD positive; confidence-building measure.",
+        "volatility_impact": "-0.20: VIX declined from 60s to 50s range post-TARP. Volatility-reducing but still extreme levels.",
+        "contagion_scope": "0.50: US-centric primarily, but signaled commitment that stopped global doom loop at critical moment.",
+        "policy_regime_shift": "0.65: Government as major bank shareholder unprecedented in post-New Deal US. Began era of 'financialization of the state.'",
+        "duration_of_impact_months": "24: TARP disbursements and recapitalization took 2 years to complete.",
+        "reversibility": "0.40: Banks eventually repaid TARP. But regulatory regime (SIFI designation, stress tests) permanent."
+      },
+      "narrative_zh": "国会首次否决后TARP法案加入4000亿美元'彩虹条款'重新通过。此后财政部将740亿美元注入8家大型银行（其中花旗获254亿）。TARP最终盈利约150亿美元，但'社会化损失、私有化收益'的愤怒孕育了茶党运动和占领华尔街运动。"
+    },
+    {
+      "crisis": "global_financial_crisis_2008",
+      "actor": "Hank Paulson",
+      "actor_zh": "汉克·保尔森",
+      "action": "Paulson 'bazooka' moment — Fannie Mae/Freddie Mac conservatorship placing GSEs under government control",
+      "date": "2008-09",
+      "vector": [0.20, 0.40, 0.10, 0.30, 0.55, 0.70, 30, 0.30],
+      "vector_justification": {
+        "equity_market_direction": "0.20: GSE equity wiped out; but MBS market stabilized, providing net positive for broader equity market.",
+        "bond_market_direction": "0.40: Explicit government guarantee of $5T in GSE MBS dramatically compressed agency spreads.",
+        "currency_direction": "0.10: Marginal USD positive from reduced systemic risk.",
+        "volatility_impact": "0.30: Reduced MBS market volatility significantly; mortgage market functioned again.",
+        "contagion_scope": "0.55: GSEs held/guaranteed $5T mortgage debt; stabilization had global implications for MBS holders.",
+        "policy_regime_shift": "0.70: Explicit vs implicit government guarantee crossed — largest government housing intervention in history. Still in conservatorship as of 2026.",
+        "duration_of_impact_months": "30: GSEs remained in conservatorship indefinitely; mortgage market restructuring ongoing.",
+        "reversibility": "0.30: GSE reform promised but never delivered. Near-permanent structural change."
+      },
+      "narrative_zh": "保尔森动用'火箭筒'将房利美和房地美置于政府接管，明确化此前隐性的政府担保，稳定了5万亿美元抵押贷款市场。但普通股和优先股股东损失惨重，打击了此前押注政府必然救助的机构投资者的信心。"
+    },
+    {
+      "crisis": "global_financial_crisis_2008",
+      "actor": "Ben Bernanke / Federal Reserve",
+      "actor_zh": "本·伯南克 / 美联储",
+      "action": "QE1 launch — Fed announces purchase of $600B in agency MBS and $300B in Treasuries, November 2008",
+      "date": "2008-11",
+      "vector": [0.55, 0.65, -0.25, -0.35, 0.60, 0.90, 48, 0.20],
+      "vector_justification": {
+        "equity_market_direction": "0.55: QE1 announcement marked near bottom; S&P +65% from March 2009 through QE1 end.",
+        "bond_market_direction": "0.65: 30-year mortgage rates fell from 6.5% to 4.5%. Most direct impact of any QE program.",
+        "currency_direction": "-0.25: Dollar weakened over subsequent months as Fed balance sheet expanded. Intended effect.",
+        "volatility_impact": "-0.35: VIX trended down from 80 toward 20 over subsequent 12 months as QE backstop calmed markets.",
+        "contagion_scope": "0.60: QE1 had global portfolio rebalancing effects — capital flows to EM, commodity prices recovered.",
+        "policy_regime_shift": "0.90: First peacetime asset purchase program in Fed history. Permanently expanded central bank toolkit. Changed global monetary policy framework.",
+        "duration_of_impact_months": "48: QE1 through QE3 ran until 2014. Global central bank QE adoption ongoing as of 2026.",
+        "reversibility": "0.20: QE as a policy tool permanently adopted by Fed, ECB, BOJ, BOE. Structural change in central banking."
+      },
+      "narrative_zh": "伯南克宣布联储购买6000亿美元机构MBS和3000亿美元国债，开创量化宽松先河。此举将30年期抵押贷款利率从6.5%压低至4.5%，并向全球发出了'央行将无限量提供流动性'的信号。QE从此成为全球央行标配工具，从根本上改变了货币政策框架。"
+    },
+    {
+      "crisis": "global_financial_crisis_2008",
+      "actor": "Alistair Darling / UK Government",
+      "actor_zh": "阿利斯泰尔·达林 / 英国政府",
+      "action": "UK bank nationalization — RBS and Lloyds-HBOS recapitalization; government takes majority stakes",
+      "date": "2008-10",
+      "vector": [0.25, 0.30, 0.05, -0.15, 0.40, 0.65, 36, 0.35],
+      "vector_justification": {
+        "equity_market_direction": "0.25: UK bank equities diluted but system saved; FTSE stabilized vs collapse counterfactual.",
+        "bond_market_direction": "0.30: UK sovereign backing of banks compressed banking sector spreads.",
+        "currency_direction": "0.05: GBP relatively unaffected by nationalization per se; sterling weakness from broader UK recession.",
+        "volatility_impact": "-0.15: UK-specific volatility reduction from removing bank failure risk.",
+        "contagion_scope": "0.40: UK action preceded US TARP; demonstrated European willingness to nationalize — influenced global template.",
+        "policy_regime_shift": "0.65: First nationalization of major UK bank since 1970s. Changed relationship between state and finance in UK permanently.",
+        "duration_of_impact_months": "36: RBS remained state-owned until 2015+; full privatization took 7 years.",
+        "reversibility": "0.35: Partial reversal as banks re-privatized, but regulatory changes (ring-fencing, Vickers Commission) permanent."
+      },
+      "narrative_zh": "英国政府向苏格兰皇家银行（RBS）和劳埃德-HBOS注资，取得多数股权，执行欧洲历史上最大规模银行国有化。达林事后回忆，他在宣布前收到RBS CEO警告'下午五点前如果无法获得资金，我们将无法向客户支付款项'。"
+    },
+    {
+      "crisis": "global_financial_crisis_2008",
+      "actor": "Wen Jiabao / Chinese Government",
+      "actor_zh": "温家宝 / 中国政府",
+      "action": "China 4 trillion RMB stimulus package — massive infrastructure and fiscal expansion November 2008",
+      "date": "2008-11",
+      "vector": [0.50, 0.20, 0.30, -0.40, 0.70, 0.60, 24, 0.35],
+      "vector_justification": {
+        "equity_market_direction": "0.50: Shanghai Composite rally; globally, China stimulus was the single biggest support for commodity/EM equity recovery.",
+        "bond_market_direction": "0.20: Credit expansion, slight yield pressure in China but positive for global growth bonds.",
+        "currency_direction": "0.30: RMB managed stability; stimulus supported commodity currencies (AUD, BRL) strongly.",
+        "volatility_impact": "-0.40: China stimulus was the primary global volatility-reducing factor alongside Fed QE. Commodity markets stabilized.",
+        "contagion_scope": "0.70: China's GDP growth saved global commodity exporters (Australia, Brazil, Africa) from severe recession.",
+        "policy_regime_shift": "0.60: Established China as global economic stabilizer of last resort. Shifted perception of China's role in global economy.",
+        "duration_of_impact_months": "24: Infrastructure projects running 2009-2011. Credit expansion effects lasted longer (shadow banking growth).",
+        "reversibility": "0.35: Infrastructure built is permanent. Credit expansion created shadow banking problems requiring years of deleveraging."
+      },
+      "narrative_zh": "中国宣布4万亿人民币刺激计划（约5860亿美元），大规模投资铁路、公路、电网和保障房。中国经济在全球衰退中实现8.7%增长，成为全球增长引擎，拯救了澳大利亚、巴西等大宗商品出口国，但同时埋下过剩产能和地方政府债务风险的种子。"
+    },
+    {
+      "crisis": "global_financial_crisis_2008",
+      "actor": "Warren Buffett",
+      "actor_zh": "沃伦·巴菲特",
+      "action": "Goldman Sachs $5B preferred share investment — confidence signal at peak of crisis panic",
+      "date": "2008-09",
+      "vector": [0.30, 0.20, 0.05, -0.20, 0.30, 0.15, 3, 0.90],
+      "vector_justification": {
+        "equity_market_direction": "0.30: Goldman stock rallied; broader market sentiment improved modestly on 'Buffett is buying' signal.",
+        "bond_market_direction": "0.20: Signaled Goldman solvent; Goldman bond spreads tightened.",
+        "currency_direction": "0.05: Negligible direct FX effect.",
+        "volatility_impact": "-0.20: Psychological anchor reduced fear premium. Buffett investment = credibility signal.",
+        "contagion_scope": "0.30: Primarily Goldman/US financial sector. Global signal value disproportionate to transaction size.",
+        "policy_regime_shift": "0.15: Established 'Buffett put' concept in market psychology; minor durable effect.",
+        "duration_of_impact_months": "3: Market sentiment improvement was temporary; broader panic resumed within days.",
+        "reversibility": "0.90: Fully temporary in market impact. Buffett profit from Goldman preferred (10% coupon + warrants) was positive. No structural change."
+      },
+      "narrative_zh": "巴菲特以每股优先股10%股息年收益率、附认股权证条款向高盛注入50亿美元。这笔被誉为'危机中的信心投票'的交易，向市场传递了'如果巴菲特认为高盛值得投资，那么最坏时刻或已过去'的信号，短暂抑制了恐慌蔓延。巴菲特最终从这笔交易中获利约30亿美元。"
+    },
+    {
+      "crisis": "global_financial_crisis_2008",
+      "actor": "Bernard Madoff",
+      "actor_zh": "伯纳德·麦道夫",
+      "action": "Madoff Ponzi scheme confession — $65B fraud revealed December 2008, destroying remaining investor trust",
+      "date": "2008-12",
+      "vector": [-0.30, -0.10, -0.05, 0.40, 0.35, 0.25, 12, 0.45],
+      "vector_justification": {
+        "equity_market_direction": "-0.30: Added to already-depressed equity market; particularly hit hedge funds and European feeder funds.",
+        "bond_market_direction": "-0.10: Minor additional credit stress from European bank exposures (Santander, BNP, HSBC).",
+        "currency_direction": "-0.05: Negligible direct FX impact.",
+        "volatility_impact": "0.40: Added uncertainty layer at already-extreme VIX levels. 'Who else is a fraud?' contagion.",
+        "contagion_scope": "0.35: European feeder funds (Fairfield Greenwich, Maxam) had global investor base. Affected charities, universities, retirees.",
+        "policy_regime_shift": "0.25: Led to enhanced SEC oversight of investment funds; alternative fund regulation tightened globally.",
+        "duration_of_impact_months": "12: Recovery proceedings and investor psychology impact lasted ~1 year of additional crisis period.",
+        "reversibility": "0.45: Victims recovered ~75 cents on dollar through Madoff trustee (Irving Picard). Partially reversed."
+      },
+      "narrative_zh": "麦道夫向儿子坦白650亿美元庞氏骗局，两个儿子随即报警。这是历史上最大规模的证券欺诈，受害者包括桑坦德银行（31亿美元敞口）、BNP巴黎银行、史蒂文·斯皮尔伯格基金会和数千名退休人员。在金融危机已令投资者信心脆弱的时刻，此事件进一步摧毁了对金融监管体系的信任。"
+    },
+    {
+      "crisis": "global_financial_crisis_2008",
+      "actor": "US Congress / Obama Administration",
+      "actor_zh": "美国国会 / 奥巴马政府",
+      "action": "Dodd-Frank Wall Street Reform Act — comprehensive financial regulation overhaul July 2010",
+      "date": "2010-07",
+      "vector": [0.10, 0.15, 0.02, -0.20, 0.45, 0.80, 120, 0.25],
+      "vector_justification": {
+        "equity_market_direction": "0.10: Minor negative for financial sector earnings (compliance costs) but positive for system stability long-term.",
+        "bond_market_direction": "0.15: Reduced systemic risk premium in financial sector bonds.",
+        "currency_direction": "0.02: Negligible direct FX effect.",
+        "volatility_impact": "-0.20: Systemic risk reduction framework. SIFI designation + resolution mechanisms reduced tail risk.",
+        "contagion_scope": "0.45: US rules set global standard; triggered Basel III, EU banking union, UK Vickers Commission.",
+        "policy_regime_shift": "0.80: Largest financial regulatory overhaul since Glass-Steagall 1933. Volcker Rule, SIFI designation, CFPB, derivatives clearing mandates.",
+        "duration_of_impact_months": "120: 10-year regulatory implementation horizon; effects still being felt in 2026.",
+        "reversibility": "0.25: Partially reversed by 2018 Economic Growth Act (raised SIFI threshold); but core architecture intact."
+      },
+      "narrative_zh": "《多德-弗兰克法》建立了系统重要性金融机构（SIFI）监管框架、沃尔克规则（限制自营交易）、消费者金融保护局（CFPB）和OTC衍生品清算所强制要求。这是1933年格拉斯-斯蒂格尔法以来最大规模的金融监管改革，确立了全球金融监管新标准。"
+    },
+    {
+      "crisis": "global_financial_crisis_2008",
+      "actor": "European Central Bank / European Governments",
+      "actor_zh": "欧洲央行 / 欧洲各国政府",
+      "action": "European bank rescues — coordinated recapitalization and guarantees Oct-Nov 2008 (€1.7T total)",
+      "date": "2008-10",
+      "vector": [0.20, 0.25, 0.10, -0.25, 0.50, 0.55, 18, 0.45],
+      "vector_justification": {
+        "equity_market_direction": "0.20: European bank equity sector stabilized post-recapitalization; broader Euro Stoxx supported.",
+        "bond_market_direction": "0.25: Government guarantees on bank debt dramatically reduced European bank funding costs.",
+        "currency_direction": "0.10: EUR slightly supported by coordinated government action reducing tail risk.",
+        "volatility_impact": "-0.25: Coordinated European action reduced eurozone-specific volatility.",
+        "contagion_scope": "0.50: Covered major EU economies; prevented immediate banking system collapse across Europe.",
+        "policy_regime_shift": "0.55: Moved European banking supervision toward eventual banking union framework.",
+        "duration_of_impact_months": "18: Initial stabilization, but sovereign debt crisis erupted 18 months later.",
+        "reversibility": "0.45: Banks mostly returned to private ownership; but EU banking union (SSM/SRM) permanent institutional change."
+      },
+      "narrative_zh": "欧洲各国政府协调推出总额1.7万亿欧元的银行救助计划，涵盖资本注入、债务担保和流动性支持。德国救助德意志银行和商业银行，法国支持法巴和兴业，比利时接管德克夏银行。短暂稳定后，希腊债务危机于2010年爆发，揭示欧元区主权-银行风险的螺旋结构。"
+    },
+    {
+      "crisis": "us_china_trade_war_2018",
+      "actor": "Donald Trump / USTR",
+      "actor_zh": "唐纳德·特朗普 / 美国贸易代表",
+      "action": "Initial $50B tariffs on Chinese goods — Section 301 tariffs on aerospace, IT, machinery (List 1 + 2)",
+      "date": "2018-07",
+      "vector": [-0.25, 0.15, -0.15, 0.45, 0.40, 0.45, 18, 0.35],
+      "vector_justification": {
+        "equity_market_direction": "-0.25: US equity market -5% in weeks around announcement; tech and industrial sectors most affected.",
+        "bond_market_direction": "0.15: Modest flight to safety; 10yr yield fell slightly on growth concerns.",
+        "currency_direction": "-0.15: CNY fell ~5% against USD through remainder of 2018.",
+        "volatility_impact": "0.45: VIX spiked from 12 to 17 around tariff announcements; elevated through Q4 2018.",
+        "contagion_scope": "0.40: US-China bilateral primarily; spillover to global supply chains and EM exports.",
+        "policy_regime_shift": "0.45: First major departure from WTO rules-based trading system in post-1994 era.",
+        "duration_of_impact_months": "18: Tariffs remained through Phase 1 deal (Jan 2020) and beyond.",
+        "reversibility": "0.35: Phase 1 deal provided partial rollback; many tariffs remain in place as of 2026."
+      },
+      "narrative_zh": "特朗普政府依据301条款对中国航空航天、信息技术、机械等340亿美元商品征收25%关税，随即引发中国等额报复。这是自1930年斯穆特-霍利关税法以来美国最重大的保护主义政策转向，重塑了全球供应链格局。"
+    },
+    {
+      "crisis": "us_china_trade_war_2018",
+      "actor": "Donald Trump / USTR",
+      "actor_zh": "唐纳德·特朗普 / 美国贸易代表",
+      "action": "$200B tariff escalation — List 3 tariffs at 10% raised to 25% on $200B of Chinese goods",
+      "date": "2019-05",
+      "vector": [-0.45, 0.20, -0.25, 0.65, 0.55, 0.50, 12, 0.40],
+      "vector_justification": {
+        "equity_market_direction": "-0.45: S&P 500 fell ~7% in May 2019 on tariff escalation shock. Chinese equities -12%.",
+        "bond_market_direction": "0.20: 10yr UST fell from 2.6% to 2.1% as recession fears spiked; strong flight to safety.",
+        "currency_direction": "-0.25: CNY tested 7.0 psychological level; EM currencies broadly weakened.",
+        "volatility_impact": "0.65: VIX spiked to 20 from 13; May 2019 saw equity vol return to 2018 crisis levels.",
+        "contagion_scope": "0.55: Affected global supply chains, semiconductor stocks, agricultural exporters worldwide.",
+        "policy_regime_shift": "0.50: Escalation proved tariffs were negotiating tool not ceiling; changed all parties' strategic calculus.",
+        "duration_of_impact_months": "12: Phase 1 deal signed January 2020 provided partial resolution.",
+        "reversibility": "0.40: Phase 1 deal rolled back some 25% rates to 7.5%; structural tariff regime remained."
+      },
+      "narrative_zh": "特朗普将2000亿美元中国商品关税从10%提高至25%，并威胁对剩余3250亿美元商品加征关税。中国拒绝在知识产权和补贴政策上做出结构性让步，贸易战升级为全面经济对抗。美联储此后以贸易不确定性为由降息三次。"
+    },
+    {
+      "crisis": "us_china_trade_war_2018",
+      "actor": "Donald Trump / Department of Commerce",
+      "actor_zh": "唐纳德·特朗普 / 美国商务部",
+      "action": "Huawei entity list ban — blocking US technology exports to Huawei and affiliates",
+      "date": "2019-05",
+      "vector": [-0.35, 0.10, -0.10, 0.55, 0.60, 0.75, 48, 0.20],
+      "vector_justification": {
+        "equity_market_direction": "-0.35: Semiconductor sector (QCOM, INTC, AVGO, Skyworks) fell 10-25% on Huawei revenue loss.",
+        "bond_market_direction": "0.10: Tech sector stress had modest spillover to growth concerns and UST demand.",
+        "currency_direction": "-0.10: Minor CNY pressure from tech sector uncertainty.",
+        "volatility_impact": "0.55: Tech-specific volatility extreme; broader VIX elevated.",
+        "contagion_scope": "0.60: Global semiconductor supply chain affected; Taiwan TSMC, South Korea Samsung forced to review supply agreements.",
+        "policy_regime_shift": "0.75: Weaponization of export controls for geopolitical purposes. Established 'tech decoupling' as policy framework.",
+        "duration_of_impact_months": "48: Ongoing as of 2026; semiconductor supply chain reorganization multi-year.",
+        "reversibility": "0.20: Huawei ban mostly maintained. China accelerated semiconductor self-sufficiency drive (SMIC, Kirin). Structural tech decoupling ongoing."
+      },
+      "narrative_zh": "美国商务部将华为列入出口管制实体名单，切断其获取美国半导体和软件的渠道。高通、英特尔、博通股价单日暴跌，台积电被迫暂停供货。此举将贸易战升维至技术冷战，触发中国举国体制推进半导体自主，重塑全球半导体供应链格局。"
+    },
+    {
+      "crisis": "us_china_trade_war_2018",
+      "actor": "People's Bank of China",
+      "actor_zh": "中国人民银行",
+      "action": "RMB breaking 7 — PBOC allows CNY/USD to breach 7.0 psychological threshold",
+      "date": "2019-08",
+      "vector": [-0.40, 0.25, -0.45, 0.70, 0.55, 0.40, 8, 0.60],
+      "vector_justification": {
+        "equity_market_direction": "-0.40: Global equity rout; US Treasury immediately labeled China a 'currency manipulator.' Asian equities -3% in one day.",
+        "bond_market_direction": "0.25: Flight to safety; 10yr UST fell to 1.70% (pre-COVID low at that point).",
+        "currency_direction": "-0.45: CNY/USD through 7 was major symbolic breach; EM currencies fell broadly in sympathy.",
+        "volatility_impact": "0.70: One of sharpest single-day VIX spikes of 2019; market interpreted as escalation signal.",
+        "contagion_scope": "0.55: EM currency selloff globally; perceived as PBOC's 'weapon' response to tariffs.",
+        "policy_regime_shift": "0.40: PBOC demonstrated willingness to use currency as trade war lever; precedent for future depreciation.",
+        "duration_of_impact_months": "8: USD/CNY stabilized near 7.1-7.2 until Phase 1 deal strengthened yuan.",
+        "reversibility": "0.60: CNY recovered below 7 after Phase 1 deal; breach was temporary but demonstrated PBOC's tools."
+      },
+      "narrative_zh": "人民银行允许人民币兑美元汇率突破7关口，美国财政部随即将中国列为'汇率操纵国'（自1994年以来首次）。市场将此解读为中国以汇率贬值对冲关税影响的信号，引发全球金融市场急剧震荡，成为2019年贸易战最激烈的单日市场反应。"
+    },
+    {
+      "crisis": "us_china_trade_war_2018",
+      "actor": "Donald Trump / Xi Jinping",
+      "actor_zh": "唐纳德·特朗普 / 习近平",
+      "action": "Phase 1 trade deal signing — partial tariff rollback for Chinese purchase commitments",
+      "date": "2020-01",
+      "vector": [0.35, -0.05, 0.30, -0.30, 0.40, 0.30, 12, 0.65],
+      "vector_justification": {
+        "equity_market_direction": "0.35: S&P 500 at record highs on deal signing; risk-on rally into January 2020.",
+        "bond_market_direction": "-0.05: Slight yield increase on risk-on; modest.",
+        "currency_direction": "0.30: CNY appreciated ~3% vs USD post-deal. EM currencies broadly strengthened.",
+        "volatility_impact": "-0.30: VIX fell to 12-13 range. Deal removed near-term escalation risk.",
+        "contagion_scope": "0.40: Positive spillover to EM and commodity currencies.",
+        "policy_regime_shift": "0.30: Structural issues (subsidies, IP, forced tech transfer) unaddressed; more truce than resolution.",
+        "duration_of_impact_months": "12: COVID eliminated Phase 1 purchase commitments within 3 months.",
+        "reversibility": "0.65: Deal partially reversed tariff escalation; but tariff architecture remained. COVID immediately superseded."
+      },
+      "narrative_zh": "第一阶段贸易协议将部分关税从25%降至7.5%，中国承诺两年内增购2000亿美元美国商品（能源、农产品、制造业、服务）。然而协议签署仅两周后，武汉新冠疫情开始扩散，采购承诺随即成为泡影，贸易战进入新冷战阶段。"
+    },
+    {
+      "crisis": "us_china_trade_war_2018",
+      "actor": "Donald Trump / USTR",
+      "actor_zh": "唐纳德·特朗普 / 美国贸易代表",
+      "action": "Additional $300B List 4 tariffs on consumer goods — completed tariff coverage of nearly all Chinese imports",
+      "date": "2019-09",
+      "vector": [-0.30, 0.15, -0.15, 0.55, 0.50, 0.40, 6, 0.50],
+      "vector_justification": {
+        "equity_market_direction": "-0.30: Consumer sector and retail stocks fell on input cost concerns; broader market -2%.",
+        "bond_market_direction": "0.15: Recession fears pushed UST demand up.",
+        "currency_direction": "-0.15: CNY and AUD fell on China trade volume concerns.",
+        "volatility_impact": "0.55: VIX elevated around announcement; trade uncertainty became permanent fixture.",
+        "contagion_scope": "0.50: Covered consumer electronics (phones, laptops, clothing) — directly affected all US consumers.",
+        "policy_regime_shift": "0.40: Completed near-total tariff coverage; tariffs became 'new normal' rather than negotiating signal.",
+        "duration_of_impact_months": "6: Phase 1 deal deferred further escalation.",
+        "reversibility": "0.50: Partial rollback in Phase 1; substantial tariff regime remained."
+      },
+      "narrative_zh": "特朗普宣布对剩余3000亿美元中国商品征收15%关税（部分推迟至12月），首次将消费电子产品（iPhone、笔记本电脑）纳入征税范围。这使美国几乎所有从中国进口的商品都面临关税，标志着贸易战从定向行业升级为全面经济脱钩战略。"
+    },
+    {
+      "crisis": "covid_pandemic_2020",
+      "actor": "Jerome Powell / Federal Reserve",
+      "actor_zh": "杰罗姆·鲍威尔 / 美联储",
+      "action": "Emergency rate cut March 3 2020 — 50bp emergency inter-meeting cut as COVID fears mount",
+      "date": "2020-03",
+      "vector": [-0.15, 0.30, -0.10, 0.50, 0.40, 0.35, 2, 0.80],
+      "vector_justification": {
+        "equity_market_direction": "-0.15: Paradoxically negative — market interpreted emergency cut as signal of Fed panic; S&P fell 3% day of cut.",
+        "bond_market_direction": "0.30: 10yr UST yield fell from 1.15% to 0.90% on day; flight to safety.",
+        "currency_direction": "-0.10: USD weakened slightly on cut; gold rallied.",
+        "volatility_impact": "0.50: VIX at 36 and rising; cut amplified rather than calmed fears.",
+        "contagion_scope": "0.40: US-centric but signaled global monetary policy easing cycle beginning.",
+        "policy_regime_shift": "0.35: Emergency inter-meeting cut — significant signal of seriousness; but Oct 2019 cut was last 'insurance' cut.",
+        "duration_of_impact_months": "2: Superseded by March 15 cut.",
+        "reversibility": "0.80: Rate was cut further and maintained; this specific cut was a step in a larger process."
+      },
+      "narrative_zh": "美联储在非例行会议期间紧急降息50个基点，但市场将此解读为美联储恐慌的信号而非安慰剂。S&P500当日反而下跌3%。鲍威尔的新闻发布会措辞被批评为增加而非减少了不确定性，证明货币政策无法应对供给侧冲击。"
+    },
+    {
+      "crisis": "covid_pandemic_2020",
+      "actor": "Jerome Powell / Federal Reserve",
+      "actor_zh": "杰罗姆·鲍威尔 / 美联储",
+      "action": "Emergency rate cut to zero March 15 2020 — 100bp cut to 0-0.25% plus $700B QE announcement",
+      "date": "2020-03",
+      "vector": [-0.20, 0.45, -0.15, 0.60, 0.55, 0.60, 24, 0.40],
+      "vector_justification": {
+        "equity_market_direction": "-0.20: S&P futures limit-down at Sunday night announcement; again paradoxical fear amplification.",
+        "bond_market_direction": "0.45: Major UST rally; 10yr yield touched 0.54% all-time low within days.",
+        "currency_direction": "-0.15: USD initially weakened but then surged in dollar funding crisis the following week.",
+        "volatility_impact": "0.60: VIX still rising toward 80; Sunday announcement amplified Monday circuit breakers.",
+        "contagion_scope": "0.55: Global central banks followed: BOE, BOC, RBNZ all cut within days.",
+        "policy_regime_shift": "0.60: Return to zero lower bound policy; QE reactivated. Established that ZLB is Fed's crisis default.",
+        "duration_of_impact_months": "24: Rates stayed at zero until March 2022.",
+        "reversibility": "0.40: ZLB policy maintained 2 years; significant durable impact on asset pricing and yield curve."
+      },
+      "narrative_zh": "美联储在周日晚间宣布降息100个基点至零利率，并重启7000亿美元量化宽松。市场期货触及跌停限制，投资者将此解读为形势极为严峻的信号。这是自2008年金融危机以来首次回归零利率，标志着全球货币政策进入非常规操作新阶段。"
+    },
+    {
+      "crisis": "covid_pandemic_2020",
+      "actor": "Jerome Powell / Federal Reserve",
+      "actor_zh": "杰罗姆·鲍威尔 / 美联储",
+      "action": "Unlimited QE and emergency facilities — March 23 2020 'whatever it takes' moment, unlimited asset purchases",
+      "date": "2020-03",
+      "vector": [0.70, 0.65, 0.20, -0.55, 0.70, 0.85, 30, 0.25],
+      "vector_justification": {
+        "equity_market_direction": "0.70: March 23 was THE bottom; S&P +67% from that level over next 12 months. Most precise bottom-calling event in history.",
+        "bond_market_direction": "0.65: Credit markets immediately normalized; IG spreads compressed from 400bp toward 100bp within weeks.",
+        "currency_direction": "0.20: USD funding crisis resolved; dollar stabilized then weakened through 2020.",
+        "volatility_impact": "-0.55: VIX fell from near-80 toward 40 within days. Unlimited QE announcement was the volatility peak.",
+        "contagion_scope": "0.70: Global credit markets normalized; EM central banks gained space to act. Most globally coordinated stabilization since 2008.",
+        "policy_regime_shift": "0.85: 'Unlimited' was new word in Fed lexicon. Corporate bond purchases (Section 13(3)) for first time. Expanded toolkit to HY ETFs. Paradigm shift.",
+        "duration_of_impact_months": "30: Unlimited QE maintained through mid-2022 taper.",
+        "reversibility": "0.25: Corporate bond facilities (SMCCF, PMCCF) were wound down; but precedent of Fed buying corporate debt permanent."
+      },
+      "narrative_zh": "2020年3月23日，美联储宣布无限量资产购买并首次扩展到企业债（包括高收益债ETF），成为股市精确底部。此后12个月S&P500上涨67%。美联储无限量化宽松承诺终止了美元流动性危机，信用利差在数周内从400个基点压缩至100个基点，开创了央行'无所不能'的新纪元。"
+    },
+    {
+      "crisis": "covid_pandemic_2020",
+      "actor": "US Congress / Trump Administration",
+      "actor_zh": "美国国会 / 特朗普政府",
+      "action": "CARES Act — $2.2 trillion fiscal stimulus including PPP, $1200 checks, expanded unemployment",
+      "date": "2020-03",
+      "vector": [0.60, 0.10, 0.10, -0.40, 0.50, 0.65, 18, 0.45],
+      "vector_justification": {
+        "equity_market_direction": "0.60: $2.2T fiscal backstop was key reason US recovery was V-shaped rather than L-shaped.",
+        "bond_market_direction": "0.10: Treasury issuance surge pressured yields slightly; net positive for growth outlook.",
+        "currency_direction": "0.10: USD modestly supported by US fiscal capacity signaling.",
+        "volatility_impact": "-0.40: CARES Act passage was major volatility reducer; marked transition from panic to recovery.",
+        "contagion_scope": "0.50: US-centric but $2.2T US demand stimulus had global spillover through imports and commodity demand.",
+        "policy_regime_shift": "0.65: Helicopter money ($1200 direct checks) unprecedented in modern US. MMT-adjacent fiscal policy. $4T in FY2020 deficit.",
+        "duration_of_impact_months": "18: Combined with subsequent stimulus ($900B Dec 2020, $1.9T ARP Mar 2021) through 2021.",
+        "reversibility": "0.45: Fiscal expansion temporary but drove permanent expectations about government crisis response."
+      },
+      "narrative_zh": "《CARES法》以2.2万亿美元规模成为美国历史上最大单笔财政刺激，涵盖薪资保护计划（PPP）、每人1200美元直接补贴、失业补助额外增加600美元/周。财政年度赤字达GDP的15%，但防止了消费断崖式下跌，为V型复苏奠定基础。"
+    },
+    {
+      "crisis": "covid_pandemic_2020",
+      "actor": "Christine Lagarde / ECB",
+      "actor_zh": "克里斯蒂娜·拉加德 / 欧洲央行",
+      "action": "Lagarde 'not here to close spreads' gaffe — press conference statement triggering Italian BTP selloff",
+      "date": "2020-03",
+      "vector": [-0.30, -0.55, -0.25, 0.65, 0.50, 0.10, 1, 0.95],
+      "vector_justification": {
+        "equity_market_direction": "-0.30: European equities fell 4-5% on spread widening fears and ECB credibility damage.",
+        "bond_market_direction": "-0.55: Italian BTP yields spiked 70bp in hours; spreads widened to 2018 crisis levels. Worst bond market response to ECB statement in history.",
+        "currency_direction": "-0.25: EUR fell as ECB credibility undermined; fear of eurozone fragmentation.",
+        "volatility_impact": "0.65: European volatility indices spiked; Spanish and Greek spreads moved with Italy.",
+        "contagion_scope": "0.50: Primarily eurozone peripheral bonds; but systemic risk of eurozone fragmentation is globally significant.",
+        "policy_regime_shift": "0.10: Minimal regime shift — statement was error quickly reversed by PEPP announcement.",
+        "duration_of_impact_months": "1: PEPP launched within a week reversing all spread moves.",
+        "reversibility": "0.95: Almost fully reversed within 1 week by PEPP. Lagarde's credibility damage was lasting but market impact temporary."
+      },
+      "narrative_zh": "拉加德在新闻发布会上表示'我们不是为了压缩利差而来的（We are not here to close spreads）'，意外引发意大利10年期国债收益率在数小时内飙升70个基点，欧洲股市暴跌。ECB随即紧急修正立场，并于一周后宣布7500亿欧元PEPP计划，完全逆转了这次发言的市场影响。"
+    },
+    {
+      "crisis": "covid_pandemic_2020",
+      "actor": "Christine Lagarde / ECB",
+      "actor_zh": "克里斯蒂娜·拉加德 / 欧洲央行",
+      "action": "PEPP launch — €750B Pandemic Emergency Purchase Programme, later expanded to €1.85T",
+      "date": "2020-03",
+      "vector": [0.50, 0.65, 0.30, -0.45, 0.60, 0.70, 24, 0.30],
+      "vector_justification": {
+        "equity_market_direction": "0.50: European equities stabilized; Eurostoxx recovered strongly from crisis lows.",
+        "bond_market_direction": "0.65: Italian BTP-Bund spread collapsed from 270bp to 120bp within months. PEPP explicitly allowed flexible allocation.",
+        "currency_direction": "0.30: EUR strengthened on reduced fragmentation risk; eurozone tail risk removed.",
+        "volatility_impact": "-0.45: VSTOXX fell sharply on PEPP; European credit markets normalized.",
+        "contagion_scope": "0.60: Demonstrated ECB could act as eurozone sovereign backstop; global EM risk appetite improved.",
+        "policy_regime_shift": "0.70: PEPP's flexibility (no capital key constraint) was unprecedented; moved ECB toward OMT operationalization.",
+        "duration_of_impact_months": "24: PEPP ran through March 2022.",
+        "reversibility": "0.30: APP replacement and TPI facility (July 2022) made PEPP-type flexibility permanent ECB toolkit."
+      },
+      "narrative_zh": "PEPP以不受资本金约束的灵活方式购买欧元区成员国国债，实质上履行了德拉吉2012年'不惜一切代价'承诺的技术执行。意大利-德国利差从270基点压缩至120基点，欧元区解体尾部风险基本消除。计划最终扩大至1.85万亿欧元。"
+    },
+    {
+      "crisis": "covid_pandemic_2020",
+      "actor": "Keith Gill / WallStreetBets",
+      "actor_zh": "基思·吉尔 / WallStreetBets",
+      "action": "GameStop short squeeze — retail coordinated short squeeze drives GME from $20 to $483",
+      "date": "2021-01",
+      "vector": [0.10, 0.00, 0.00, 0.70, 0.25, 0.35, 3, 0.75],
+      "vector_justification": {
+        "equity_market_direction": "0.10: Broader market slightly negative on forced hedge fund deleveraging; net effect minimal on indices.",
+        "bond_market_direction": "0.00: No meaningful bond market impact.",
+        "currency_direction": "0.00: No FX impact.",
+        "volatility_impact": "0.70: Meme stock VIX (specific to GME, AMC) extreme; broader VIX reached 37 from forced deleveraging.",
+        "contagion_scope": "0.25: Primarily US retail brokerage sector; Melvin Capital lost 53%. Limited systemic contagion.",
+        "policy_regime_shift": "0.35: Triggered SEC review of payment for order flow, short selling disclosure, clearing cycle reform.",
+        "duration_of_impact_months": "3: Regulatory review and meme stock era lasted through mid-2021.",
+        "reversibility": "0.75: GME returned below $50 within months; no permanent market structure change from the squeeze itself."
+      },
+      "narrative_zh": "Reddit论坛WallStreetBets用户协调买入GameStop股票，逼空做空比例达140%的机构投资者，股价从20美元飙升至483美元。梅尔文资本损失53%，数家主要对冲基金被迫平仓。Robinhood限制GME交易引发国会听证，将散户资本主义与监管公平性争议推向历史高峰。"
+    },
+    {
+      "crisis": "covid_pandemic_2020",
+      "actor": "UK Government / Rishi Sunak",
+      "actor_zh": "英国政府 / 里希·苏纳克",
+      "action": "UK furlough scheme — 80% wage subsidy covering 9.6M workers at peak, preventing mass unemployment",
+      "date": "2020-03",
+      "vector": [0.25, 0.10, 0.05, -0.20, 0.25, 0.50, 18, 0.55],
+      "vector_justification": {
+        "equity_market_direction": "0.25: UK equities (FTSE) supported vs counterfactual of mass layoffs; consumer spending floor maintained.",
+        "bond_market_direction": "0.10: Gilt issuance increased but BOE QE absorbed; spreads stable.",
+        "currency_direction": "0.05: Modest GBP support from economic stabilization.",
+        "volatility_impact": "-0.20: UK-specific volatility reduced by preventing unemployment spike.",
+        "contagion_scope": "0.25: UK-specific; but furlough model was adopted by Germany (Kurzarbeit), France, others.",
+        "policy_regime_shift": "0.50: Direct government wage payment unprecedented outside wartime in UK; changed employer-state relationship.",
+        "duration_of_impact_months": "18: Scheme ran March 2020 to September 2021.",
+        "reversibility": "0.55: Scheme wound down; but triggered permanent debate about job guarantees and UBI."
+      },
+      "narrative_zh": "英国政府推出'休假计划'，为员工支付80%工资，峰值覆盖960万工人，阻止了大规模失业。英国失业率仅升至5.1%（远低于预期的10%+），代价是4年内£70亿英镑财政成本。此方案成为欧洲疫情经济政策的主要模板。"
+    },
+    {
+      "crisis": "covid_pandemic_2020",
+      "actor": "Pfizer/BioNTech announcement + markets",
+      "actor_zh": "辉瑞/BioNTech宣布 + 市场",
+      "action": "Vaccine efficacy announcement — Pfizer announces 90%+ efficacy November 9 2020; value/cyclical rotation",
+      "date": "2020-11",
+      "vector": [0.85, -0.30, 0.25, -0.50, 0.75, 0.55, 12, 0.70],
+      "vector_justification": {
+        "equity_market_direction": "0.85: One of largest single-day equity rallies in history; DJIA +5%, cyclical/value stocks +15-30%.",
+        "bond_market_direction": "-0.30: 10yr yields surged 15bp on reopening expectations; flight from safety reversed.",
+        "currency_direction": "0.25: USD weakened as global risk-on reversed safe-haven flows.",
+        "volatility_impact": "-0.50: VIX fell from 28 to 22 in days; structural volatility reduction as pandemic end became visible.",
+        "contagion_scope": "0.75: Global synchronized rally; emerging markets, commodity currencies, all risk assets moved together.",
+        "policy_regime_shift": "0.55: Opened debate on policy exit timelines; began taper discussion that materialized in 2021.",
+        "duration_of_impact_months": "12: Vaccine rollout optimism drove markets through mid-2021.",
+        "reversibility": "0.70: Reopening trade partially reversed as variants emerged, but trend toward normalization durable."
+      },
+      "narrative_zh": "辉瑞宣布COVID-19疫苗有效性超过90%，触发史上最大规模的价值股/周期股轮动——航空、酒店、能源、银行单日暴涨15-30%，而此前受益于封锁的Zoom、Peloton暴跌。这一天被称为'疫苗日'，标志着疫情经济学的根本性转折。"
+    },
+    {
+      "crisis": "covid_pandemic_2020",
+      "actor": "Chinese Government / PBOC",
+      "actor_zh": "中国政府 / 人民银行",
+      "action": "China COVID stimulus — RRR cuts, credit expansion, infrastructure; China first in and first out of COVID",
+      "date": "2020-02",
+      "vector": [0.40, 0.15, 0.20, -0.25, 0.55, 0.35, 18, 0.50],
+      "vector_justification": {
+        "equity_market_direction": "0.40: Chinese equities rebounded fastest globally; A-shares recovered by June 2020.",
+        "bond_market_direction": "0.15: PBOC rate cuts and credit easing; China yield curve stable.",
+        "currency_direction": "0.20: CNY appreciated 8% vs USD through 2020-2021 on recovery differential.",
+        "volatility_impact": "-0.25: China's rapid containment and stimulus provided global stability signal.",
+        "contagion_scope": "0.55: China as first large economy recovering was critical for commodity (iron ore, copper) and EM stability.",
+        "policy_regime_shift": "0.35: Less radical than Western QE; PBOC maintained more conventional toolkit intentionally.",
+        "duration_of_impact_months": "18: China's lead in recovery lasted through Delta wave in 2021.",
+        "reversibility": "0.50: Credit expansion created property sector stress (Evergrande) requiring years of deleveraging."
+      },
+      "narrative_zh": "中国以强力封控最早控制疫情，并以定向降准、信贷扩张和基建投资推动快速复苏，全年经济增长2.3%——成为2020年唯一正增长的主要经济体。人民币兑美元升值8%，铜、铁矿石价格在中国需求带动下创历史新高，成为大宗商品生产国的救生圈。"
+    },
+    {
+      "crisis": "multi_crisis_2022_2023",
+      "actor": "Vladimir Putin",
+      "actor_zh": "弗拉基米尔·普京",
+      "action": "Russia invasion of Ukraine — February 24 2022 full-scale invasion triggering energy crisis and sanctions",
+      "date": "2022-02",
+      "vector": [-0.65, -0.40, -0.80, 0.85, 0.80, 0.85, 24, 0.20],
+      "vector_justification": {
+        "equity_market_direction": "-0.65: European equities -15% in weeks; Russian MOEX halted. Global equities -10% in Q1 2022.",
+        "bond_market_direction": "-0.40: Inflation spike from energy prevented normal flight-to-safety rally; stagflation scenario pressured all bonds.",
+        "currency_direction": "-0.80: RUB fell -50% then recovered via capital controls; EUR fell as energy importer; UAH -30%.",
+        "volatility_impact": "0.85: VIX spiked to 37; European energy volatility extreme (natural gas 10x normal levels).",
+        "contagion_scope": "0.80: Global food inflation (wheat), energy crisis in Europe, EM debt stress, refugee crisis. Truly global shock.",
+        "policy_regime_shift": "0.85: SWIFT exclusion as financial weapon unprecedented. USD weaponization debate. European energy independence pivot. NATO expansion.",
+        "duration_of_impact_months": "24: Energy crisis and geopolitical risk elevated through 2024; war ongoing.",
+        "reversibility": "0.20: Structural changes to European energy policy, global security architecture, Russian economy. Largely irreversible."
+      },
+      "narrative_zh": "俄罗斯全面入侵乌克兰，触发二战以来欧洲最大军事冲突。西方SWIFT切断俄罗斯银行间结算，冻结3000亿美元俄罗斯外汇储备。欧洲天然气价格飙升至正常水平10倍，全球小麦和化肥价格暴涨，引发全球性通胀冲击。这一事件从根本上重塑了欧洲能源格局和全球地缘政治秩序。"
+    },
+    {
+      "crisis": "multi_crisis_2022_2023",
+      "actor": "Vladimir Putin",
+      "actor_zh": "弗拉基米尔·普京",
+      "action": "European energy crisis weaponization — Nord Stream supply cuts, gas-for-rubles demand, energy blackmail",
+      "date": "2022-06",
+      "vector": [-0.45, -0.35, -0.40, 0.75, 0.65, 0.60, 18, 0.30],
+      "vector_justification": {
+        "equity_market_direction": "-0.45: European industrial equities heavily impacted; BASF, Thyssenkrupp announced production cuts.",
+        "bond_market_direction": "-0.35: Stagflation scenario — yields rising despite recession risk. ECB forced to hike despite recession fears.",
+        "currency_direction": "-0.40: EUR/USD fell to parity (first time since 2002) on energy crisis severity.",
+        "volatility_impact": "0.75: European gas options implied vol extreme; energy sector equity volatility highest since 1970s oil shocks.",
+        "contagion_scope": "0.65: European deindustrialization risk; commodity import inflation globally; food crisis in EM.",
+        "policy_regime_shift": "0.60: Europe's 30-year cheap Russian gas model destroyed permanently. LNG infrastructure, renewables acceleration.",
+        "duration_of_impact_months": "18: Energy crisis peaked winter 2022-23; structural energy transition ongoing.",
+        "reversibility": "0.30: Europe-Russia energy relationship permanently severed. LNG terminals built. No return to prior dependency."
+      },
+      "narrative_zh": "俄罗斯将北溪管道供气量削减至正常水平的20%，随后完全切断，迫使欧洲面临潜在的工业停产危机。天然气价格飙升至正常水平的10倍，欧元兑美元跌破平价（21年来首次）。德国和法国宣布能源紧急状态，欧洲重新启动部分煤电，气候目标受到冲击。"
+    },
+    {
+      "crisis": "multi_crisis_2022_2023",
+      "actor": "Jerome Powell / Federal Reserve",
+      "actor_zh": "杰罗姆·鲍威尔 / 美联储",
+      "action": "75bp rate hike June 2022 — first 75bp hike since 1994 as CPI hits 8.6%",
+      "date": "2022-06",
+      "vector": [-0.50, -0.55, 0.30, 0.75, 0.60, 0.70, 18, 0.55],
+      "vector_justification": {
+        "equity_market_direction": "-0.50: S&P 500 entered bear market (-20%+) around June 2022 hike; growth/tech stocks -40-70%.",
+        "bond_market_direction": "-0.55: Historic bond bear market; Bloomberg US Agg fell -13% in 2022, worst year since 1928.",
+        "currency_direction": "0.30: USD DXY rose to 20-year highs (114) as US rate differential attracted capital.",
+        "volatility_impact": "0.75: VIX averaged 28 in H1 2022; rate hike path uncertainty extreme.",
+        "contagion_scope": "0.60: Forced EM central banks to hike to defend currencies; global synchronized tightening cycle.",
+        "policy_regime_shift": "0.70: 40-year low-rate era ended; ZIRP/QE framework abandoned. Central bank credibility crisis and recovery.",
+        "duration_of_impact_months": "18: Tightening cycle ran June 2022 through July 2023; full impact through 2023.",
+        "reversibility": "0.55: Rate eventually cut; but balance sheet normalization and higher equilibrium rate expectation more durable."
+      },
+      "narrative_zh": "美联储将联邦基金利率提高75个基点——自1994年以来最大单次加息——回应CPI达到8.6%的41年高点。这开启了2022年美债历史上最糟糕的年份（-13%），以及全球同步紧缩周期。鲍威尔在杰克逊霍尔会议誓言不惜代价降低通胀，震撼全球资产市场。"
+    },
+    {
+      "crisis": "multi_crisis_2022_2023",
+      "actor": "Jerome Powell / Federal Reserve",
+      "actor_zh": "杰罗姆·鲍威尔 / 美联储",
+      "action": "Jackson Hole hawkish speech August 2022 — 'some pain' warning, commitment to sustained hikes",
+      "date": "2022-08",
+      "vector": [-0.45, -0.40, 0.25, 0.70, 0.55, 0.55, 12, 0.60],
+      "vector_justification": {
+        "equity_market_direction": "-0.45: S&P 500 fell 3.4% on speech day; summer rally reversed. Stocks fell another 15% through October.",
+        "bond_market_direction": "-0.40: 2yr UST yield rose sharply; yield curve inverted further. Stagflation fears.",
+        "currency_direction": "0.25: USD rose on higher-for-longer rate expectations.",
+        "volatility_impact": "0.70: VIX rose from 20 to 26; speech removed any hope of Fed 'pivot' in 2022.",
+        "contagion_scope": "0.55: UK gilt crisis (Truss mini-budget) followed weeks later, partly triggered by higher USD/rate environment.",
+        "policy_regime_shift": "0.55: Firmly closed door on premature pivot; established Powell's inflation-fighting credibility.",
+        "duration_of_impact_months": "12: Hikes continued through July 2023; first cut only September 2024.",
+        "reversibility": "0.60: Rate cutting cycle eventually began; speech's impact on policy path temporary but meaningful delay."
+      },
+      "narrative_zh": "鲍威尔在杰克逊霍尔全球央行年会上发表仅8分钟的讲话，措辞之鹰派超出市场预期——'恢复价格稳定需要保持限制性政策一段时间……历史强烈警告不要过早放松政策'。S&P500当日下跌3.4%，夏季反弹全面终止。美联储随后连续四次加息75个基点。"
+    },
+    {
+      "crisis": "multi_crisis_2022_2023",
+      "actor": "Sam Bankman-Fried / FTX",
+      "actor_zh": "萨姆·班克曼-弗里德 / FTX",
+      "action": "FTX collapse — $32B crypto exchange collapses in 72 hours after CoinDesk balance sheet leak",
+      "date": "2022-11",
+      "vector": [-0.70, 0.15, -0.05, 0.80, 0.45, 0.40, 12, 0.55],
+      "vector_justification": {
+        "equity_market_direction": "-0.70: Bitcoin fell from $21k to $15.5k (-26%); broader crypto market cap fell $200B. Crypto-adjacent equities (Coinbase -20%).",
+        "bond_market_direction": "0.15: Slight flight to safety from crypto to traditional assets.",
+        "currency_direction": "-0.05: Minor; crypto not treated as currency by markets in flight dynamics.",
+        "volatility_impact": "0.80: Crypto-specific vol extreme; contagion fear across all crypto platforms. 'Who's next?' panic.",
+        "contagion_scope": "0.45: Crypto ecosystem (BlockFi, Genesis, Gemini Earn) severely affected; limited traditional finance contagion.",
+        "policy_regime_shift": "0.40: Triggered global crypto regulatory push; US, EU, Hong Kong, Singapore all accelerated exchange regulation.",
+        "duration_of_impact_months": "12: Crypto bear market through Q1 2023; regulatory uncertainty through 2023.",
+        "reversibility": "0.55: Crypto markets recovered (Bitcoin ATH 2024); FTX creditors received ~100 cents recovery in 2024."
+      },
+      "narrative_zh": "CoinDesk披露Alameda Research资产负债表严重依赖FTX自发代币FTT后，触发币安CEO赵长鹏宣布出售持有的FTT，引发挤兑。FTX 72小时内崩溃，SBF被捕，揭露了客户资金被挪用于Alameda交易的欺诈行为。这是继MF Global后最大的客户资金安全事故，标志着'加密货币冬天'的最低点。"
+    },
+    {
+      "crisis": "multi_crisis_2022_2023",
+      "actor": "Greg Becker / Silicon Valley Bank",
+      "actor_zh": "格雷格·贝克尔 / 硅谷银行",
+      "action": "SVB collapse — bank run triggered by botched capital raise, exposing duration mismatch in HTM portfolio",
+      "date": "2023-03",
+      "vector": [-0.45, 0.35, -0.05, 0.85, 0.55, 0.50, 6, 0.65],
+      "vector_justification": {
+        "equity_market_direction": "-0.45: Regional bank sector (KRE) fell -30%; broader market -5%. First Horizon, PacWest followed.",
+        "bond_market_direction": "0.35: 2yr UST yield fell 100bp in one week — largest move since 1987 — as market priced in Fed pivot.",
+        "currency_direction": "-0.05: Minor USD weakness; safe-haven dynamics muted by rate trajectory reassessment.",
+        "volatility_impact": "0.85: MOVE index (bond volatility) spiked to highest since 2009. Banking sector vol extreme.",
+        "contagion_scope": "0.55: Signature Bank closed same weekend; Credit Suisse emergency rescue followed within days — cross-Atlantic contagion.",
+        "policy_regime_shift": "0.50: BTFP program created (Bank Term Funding Program) — new Fed facility effectively guaranteeing HTM at par.",
+        "duration_of_impact_months": "6: Regional bank stress lasted through mid-2023; deposit flight concerns elevated.",
+        "reversibility": "0.65: FDIC backstop contained systemic spread; BTFP wound down; most deposit outflows stabilized."
+      },
+      "narrative_zh": "SVB为筹资22亿美元宣布出售210亿美元证券组合亏损18亿美元，引发科技行业存款人恐慌。彼得·蒂尔等风投建议投资组合公司立即提款，48小时内硅谷银行遭遇420亿美元挤兑。周末FDIC接管，联储随即宣布银行定期融资计划（BTFP），将存款担保实质性扩展至所有规模，2年期国债收益率创1987年以来最大单周跌幅。"
+    },
+    {
+      "crisis": "multi_crisis_2022_2023",
+      "actor": "FINMA / Swiss National Bank / UBS",
+      "actor_zh": "瑞士金融监管局 / 瑞士央行 / 瑞银",
+      "action": "Credit Suisse forced sale to UBS — 167-year institution sold for CHF 3B in emergency weekend deal",
+      "date": "2023-03",
+      "vector": [-0.40, -0.20, -0.15, 0.80, 0.65, 0.60, 8, 0.50],
+      "vector_justification": {
+        "equity_market_direction": "-0.40: CS AT1/CoCo bonds written to zero ($17B); global bank equities fell 8-15%.",
+        "bond_market_direction": "-0.20: AT1 bond market globally collapsed (-20%); wiped out precedent for CoCo creditor hierarchy.",
+        "currency_direction": "-0.15: CHF weakened; European bank credit spreads exploded.",
+        "volatility_impact": "0.80: AT1 market freeze; European banking stress indices at highest since 2011. CDS on European banks spiked.",
+        "contagion_scope": "0.65: Global AT1/CoCo market ($275B) repriced; Deutsche Bank CDS blew out in sympathy. European banking sector under pressure.",
+        "policy_regime_shift": "0.60: AT1/CoCo creditor hierarchy inverted (equity holders got something, AT1 got zero) — unprecedented legal precedent.",
+        "duration_of_impact_months": "8: AT1 market recovered through end of 2023; systemic stress subsided.",
+        "reversibility": "0.50: CS no longer exists as independent entity. AT1 market structure altered. Partial recovery of AT1 issuance."
+      },
+      "narrative_zh": "受SVB倒闭传染影响，167年历史的瑞士信贷股价崩溃，沙特国家银行拒绝增资后挤兑加速。瑞士监管机构强制安排瑞银以30亿瑞郎收购（原市值120亿），并将170亿美元AT1资本债券直接减记为零，而股东仍获少量补偿——颠覆了传统债权人优先原则，AT1市场全球性崩溃。"
+    },
+    {
+      "crisis": "multi_crisis_2022_2023",
+      "actor": "Liz Truss / Kwasi Kwarteng",
+      "actor_zh": "利兹·特拉斯 / 夸西·夸滕",
+      "action": "UK mini-budget — unfunded £45B tax cuts triggering gilt crisis and BOE emergency intervention",
+      "date": "2022-09",
+      "vector": [-0.35, -0.85, -0.65, 0.90, 0.40, 0.55, 3, 0.80],
+      "vector_justification": {
+        "equity_market_direction": "-0.35: UK equities fell 5%; housebuilders and consumer discretionary hardest hit on mortgage rate spike.",
+        "bond_market_direction": "-0.85: 30yr gilt yield rose 150bp in 5 days — fastest move in UK gilt history. LDI pension fund crisis. BOE forced emergency purchases.",
+        "currency_direction": "-0.65: GBP/USD touched 1.035, approaching parity and lowest since 1985. Near-maximum depreciation event.",
+        "volatility_impact": "0.90: UK gilt market effectively dysfunctional; LDI pension funds facing margin calls that could trigger cascade. BOE emergency action.",
+        "contagion_scope": "0.40: Primarily UK; but 'developed market credibility crisis' narrative had global implications for fiscal policy.",
+        "policy_regime_shift": "0.55: Mini-budget reversed within weeks; Truss resigned after 45 days. Demonstrated fiscal credibility constraints even in reserve currency countries.",
+        "duration_of_impact_months": "3: BOE emergency purchases reversed and gilt market stabilized within 3 months.",
+        "reversibility": "0.80: Hunt reversed most measures; Truss resigned; markets recovered. Fiscal damage and mortgage rate shock more lasting."
+      },
+      "narrative_zh": "夸滕宣布450亿英镑无抵消减税计划，英镑兑美元暴跌至接近平价（1985年以来最低），30年期英国国债收益率5天内飙升150个基点，创英国国债历史最快跌速。英国责任预算办公室对预算的批评引发彻底信任危机，英格兰银行被迫紧急介入购买国债。特拉斯在任45天后辞职。"
+    },
+    {
+      "crisis": "global_financial_crisis_2008",
+      "actor": "Ben Bernanke / Federal Reserve",
+      "actor_zh": "本·伯南克 / 美联储",
+      "action": "Fed emergency rate cuts 2007-2008 — series of cuts from 5.25% to 0.25% September 2007 through December 2008",
+      "date": "2007-09",
+      "vector": [0.15, 0.40, -0.20, 0.55, 0.55, 0.60, 18, 0.50],
+      "vector_justification": {
+        "equity_market_direction": "0.15: Rate cuts provided temporary equity support during cutting cycle; markets rallied briefly each time.",
+        "bond_market_direction": "0.40: UST yields fell substantially as Fed cut from 5.25% to 0%; 2yr UST fell from 5.0% to 0.7%.",
+        "currency_direction": "-0.20: USD weakened significantly through 2007-2008 cutting cycle; DXY fell from 80 to 71.",
+        "volatility_impact": "0.55: Each cut associated with temporary VIX reduction followed by renewed stress.",
+        "contagion_scope": "0.55: Rate cutting cycle globally synchronized; ECB, BOE, BOC all followed eventually.",
+        "policy_regime_shift": "0.60: Speed and scale of cutting unprecedented; established Fed willingness to use full rate toolkit proactively.",
+        "duration_of_impact_months": "18: Cutting cycle ran Sep 2007 to Dec 2008; ZLB maintained until Dec 2015.",
+        "reversibility": "0.50: Rate eventually normalized (2015-2018 hiking cycle), but zero lower bound became recurring framework."
+      },
+      "narrative_zh": "伯南克自2007年9月启动降息周期，在14个月内将联邦基金利率从5.25%降至接近零的0-0.25%区间，降幅超过500个基点。每次降息都给市场带来短暂缓解，但随后危机不断深化。此降息周期的速度和幅度在美联储历史上前所未有，开创了零利率政策先例。"
+    },
+    {
+      "crisis": "global_financial_crisis_2008",
+      "actor": "Timothy Geithner / US Treasury",
+      "actor_zh": "蒂莫西·盖特纳 / 美国财政部",
+      "action": "Bank stress tests (SCAP) — May 2009 Supervisory Capital Assessment Program results published",
+      "date": "2009-05",
+      "vector": [0.55, 0.30, 0.15, -0.45, 0.50, 0.45, 12, 0.70],
+      "vector_justification": {
+        "equity_market_direction": "0.55: Stress test results marked near-precise bottom of financial sector; BofA, Citigroup rallied 50%+ in weeks.",
+        "bond_market_direction": "0.30: Bank bond spreads compressed significantly as capital shortfalls quantified and recapitalization paths defined.",
+        "currency_direction": "0.15: USD modestly supported by reduced systemic uncertainty.",
+        "volatility_impact": "-0.45: VIX fell from 40 to 25 in weeks following stress test publication; credibility of results accepted.",
+        "contagion_scope": "0.50: US-centric but demonstrated government's ability to credibly quantify and backstop banking sector losses.",
+        "policy_regime_shift": "0.45: Established stress testing as permanent regulatory tool; annual DFAST/CCAR tests continue today.",
+        "duration_of_impact_months": "12: Bank sector recovery extended through 2010.",
+        "reversibility": "0.70: Bank sector recovered; but stress testing as supervisory tool became permanent regulatory architecture."
+      },
+      "narrative_zh": "盖特纳主导发布的银行压力测试结果，量化了19家最大银行的资本缺口共计746亿美元，并提供了清晰的增资路径。市场将此解读为'最坏已被量化且可控'的信号，美国银行股在随后数周内上涨50%以上，成为金融危机复苏的重要转折点。压力测试此后成为全球银行监管的标准工具。"
+    },
+    {
+      "crisis": "global_financial_crisis_2008",
+      "actor": "Jean-Claude Trichet / ECB",
+      "actor_zh": "让-克洛德·特里谢 / 欧洲央行",
+      "action": "ECB rate hike July 2008 — raised rates to 4.25% weeks before Lehman collapse, compounding eurozone stress",
+      "date": "2008-07",
+      "vector": [-0.25, -0.30, -0.20, 0.40, 0.40, 0.30, 8, 0.65],
+      "vector_justification": {
+        "equity_market_direction": "-0.25: European equities fell; policy mistake amplified cyclical downturn.",
+        "bond_market_direction": "-0.30: Peripheral eurozone sovereign spreads widened; rate hike worsened conditions for weaker members.",
+        "currency_direction": "-0.20: EUR briefly strengthened but then fell sharply as policy error recognized.",
+        "volatility_impact": "0.40: Added uncertainty to already fragile European financial conditions.",
+        "contagion_scope": "0.40: Eurozone-focused; worsened southern European countries' debt dynamics ahead of Lehman.",
+        "policy_regime_shift": "0.30: Policy error recognized; ECB reversed course within months. Contributed to ECB credibility reassessment.",
+        "duration_of_impact_months": "8: Reversed with rate cuts starting October 2008.",
+        "reversibility": "0.65: ECB cut rates aggressively post-Lehman; policy error reversed. But contributed to weaker eurozone starting point."
+      },
+      "narrative_zh": "特里谢领导的欧洲央行在金融危机已明显深化的2008年7月加息至4.25%，理由是通胀压力。这一决策被后来广泛认定为严重政策失误——在雷曼兄弟倒闭前6周收紧流动性，加速了欧元区外围国家的财政压力累积，并在此后欧债危机中留下历史污点。"
+    },
+    {
+      "crisis": "asian_financial_crisis_1997",
+      "actor": "Bank of Thailand / Government",
+      "actor_zh": "泰国央行 / 泰国政府",
+      "action": "Thai baht float decision — Thailand abandons managed float and lets baht depreciate freely July 2 1997",
+      "date": "1997-07",
+      "vector": [-0.75, -0.35, -0.90, 0.88, 0.65, 0.70, 20, 0.30],
+      "vector_justification": {
+        "equity_market_direction": "-0.75: SET Index fell 15% on float day; -75% total crisis drawdown.",
+        "bond_market_direction": "-0.35: Thai sovereign spreads blew out; debt sustainability questioned.",
+        "currency_direction": "-0.90: THB depreciated 18% on the day of float announcement; ultimately -55% vs USD.",
+        "volatility_impact": "0.88: Regional FX volatility extreme; contagion fear across ASEAN immediate.",
+        "contagion_scope": "0.65: Triggered immediate contagion to Philippine peso, Indonesian rupiah within days.",
+        "policy_regime_shift": "0.70: Marked end of Asian managed currency peg era; preceded 1997 IMF programs.",
+        "duration_of_impact_months": "20: Thailand in economic contraction through 1998; recovery began 1999.",
+        "reversibility": "0.30: Thai financial sector fundamentally reformed; currency regime never returned to prior peg structure."
+      },
+      "narrative_zh": "泰国央行宣布放弃维护11年的泰铢管理汇率，泰铢当日贬值18%。此前泰国耗尽330亿美元外汇储备捍卫汇率，这一决定标志着泰国正式承认失败。由此触发的贬值浪潮席卷菲律宾、印尼、马来西亚和韩国，成为亚洲金融危机的正式起点。"
+    },
+    {
+      "crisis": "covid_pandemic_2020",
+      "actor": "Federal Reserve / Treasury",
+      "actor_zh": "美联储 / 财政部",
+      "action": "USD swap lines expansion — Fed expands swap lines to 14 central banks to resolve global dollar funding crisis",
+      "date": "2020-03",
+      "vector": [0.35, 0.45, 0.50, -0.40, 0.70, 0.40, 3, 0.75],
+      "vector_justification": {
+        "equity_market_direction": "0.35: Dollar funding crisis resolution removed systemic tail risk; contributed to March 23 bottom.",
+        "bond_market_direction": "0.45: EM sovereign bonds stabilized as dollar funding crunch eased.",
+        "currency_direction": "0.50: Most acute dollar shortage episode since 2008 resolved; EM currencies stabilized.",
+        "volatility_impact": "-0.40: FX volatility and cross-currency basis swaps normalized rapidly after swap line expansion.",
+        "contagion_scope": "0.70: Globally critical — resolved March 2020 dollar funding crisis affecting all EM economies simultaneously.",
+        "policy_regime_shift": "0.40: Expanded Fed's role as global lender of last resort; reconfirmed USD centrality.",
+        "duration_of_impact_months": "3: Dollar funding crisis resolved within weeks; swap lines maintained as precaution.",
+        "reversibility": "0.75: Temporary facility; wound down by year end. But precedent of rapid swap line expansion permanent."
+      },
+      "narrative_zh": "美联储在2020年3月将美元掉期额度扩展至14家央行（包括欧洲央行、日本银行、英格兰银行、加拿大央行、澳大利亚央行、韩国央行等），解决了全球美元融资危机。3月中旬跨货币基差互换利差一度达到150个基点——与2008年危机相当——美联储的行动在数天内将其压缩至接近正常水平，防止了新兴市场债务危机的大规模爆发。"
+    },
+    {
+      "crisis": "multi_crisis_2022_2023",
+      "actor": "Federal Reserve / FDIC / US Treasury",
+      "actor_zh": "美联储 / 联邦存款保险公司 / 财政部",
+      "action": "SVB/Signature emergency backstop — FDIC bridge bank + BTFP facility guaranteeing all deposits above FDIC limits",
+      "date": "2023-03",
+      "vector": [0.40, 0.25, 0.05, -0.50, 0.45, 0.55, 6, 0.60],
+      "vector_justification": {
+        "equity_market_direction": "0.40: Financial sector stabilized after initial shock; BTFP announcement prevented broader bank run contagion.",
+        "bond_market_direction": "0.25: 2yr yield partially recovered from 100bp crash as systemic fears reduced.",
+        "currency_direction": "0.05: USD modestly supported by demonstrated willingness to backstop banking system.",
+        "volatility_impact": "-0.50: MOVE index (bond vol) fell sharply on BTFP; KBW bank index stabilized.",
+        "contagion_scope": "0.45: Prevented bank run contagion to First Republic, PacWest, Western Alliance.",
+        "policy_regime_shift": "0.55: BTFP effectively removed HTM losses from bank balance sheets; implicit extension of FDIC coverage to all deposits — significant precedent.",
+        "duration_of_impact_months": "6: BTFP maintained; First Republic still failed (May 2023) but systemic spread contained.",
+        "reversibility": "0.60: BTFP wound down March 2024; temporary facility. But deposit guarantee precedent debated in Congress."
+      },
+      "narrative_zh": "美联储、FDIC和财政部在周末紧急宣布：硅谷银行和签名银行所有存款（包括超出FDIC25万美元上限部分）均获全额保障；同时推出银行定期融资计划（BTFP），允许银行以面值而非市值将国债抵押融资。这一揽子措施防止了区域银行系统性挤兑，但实质上是非官方的全额存款保险。"
+    },
+    {
+      "crisis": "us_china_trade_war_2018",
+      "actor": "Federal Reserve",
+      "actor_zh": "美联储",
+      "action": "Fed 2019 insurance cuts — three 25bp cuts July-October 2019 citing trade uncertainty as primary justification",
+      "date": "2019-07",
+      "vector": [0.20, 0.20, -0.05, -0.25, 0.30, 0.25, 8, 0.80],
+      "vector_justification": {
+        "equity_market_direction": "0.20: S&P 500 at record highs in 2019 partly due to Fed pivot; equity market cushioned from trade war damage.",
+        "bond_market_direction": "0.20: Yield curve steepened; 10yr rose from inverted levels as recession risk reduced.",
+        "currency_direction": "-0.05: USD slightly pressured by lower rates.",
+        "volatility_impact": "-0.25: VIX declined to sub-15 range on Fed support.",
+        "contagion_scope": "0.30: Global central bank easing cycle followed Fed; ECB, PBOC, RBA all eased.",
+        "policy_regime_shift": "0.25: Reversed 2018 hiking path; established trade war uncertainty as monetary policy variable.",
+        "duration_of_impact_months": "8: Cuts maintained through COVID emergency cuts in March 2020.",
+        "reversibility": "0.80: Rates subsequently cut to zero in March 2020; these cuts merged into COVID response."
+      },
+      "narrative_zh": "美联储以贸易战引发的经济不确定性为由，在2019年7月至10月三次降息25个基点，将联邦基金利率从2.5%降至1.75%。这是罕见的将地缘政治/贸易政策不确定性作为货币政策主要变量的案例，标志着贸易战对全球货币政策产生了直接传导效应。"
+    },
+    {
+      "crisis": "multi_crisis_2022_2023",
+      "actor": "European Central Bank / Christine Lagarde",
+      "actor_zh": "欧洲央行 / 克里斯蒂娜·拉加德",
+      "action": "ECB rate hike cycle — from -0.5% to 4.0%, fastest tightening in ECB history 2022-2023",
+      "date": "2022-07",
+      "vector": [-0.35, -0.45, -0.15, 0.65, 0.55, 0.65, 18, 0.55],
+      "vector_justification": {
+        "equity_market_direction": "-0.35: European equities in bear market during tightening cycle; STOXX 600 -18% in 2022.",
+        "bond_market_direction": "-0.45: Historic European bond bear market; Bund yields from -0.5% to 2.5%; BTPs under pressure throughout.",
+        "currency_direction": "-0.15: EUR/USD fell to parity despite rate hikes (energy crisis overwhelmed rate differential).",
+        "volatility_impact": "0.65: VSTOXX elevated throughout tightening cycle; TPI instrument activation risk kept spreads volatile.",
+        "contagion_scope": "0.55: Globally coordinated tightening with Fed; synchronized rate rises triggered EM capital outflows.",
+        "policy_regime_shift": "0.65: End of negative rate era (first positive rate since 2014); quantitative tightening begun; TPI (anti-fragmentation tool) introduced.",
+        "duration_of_impact_months": "18: Hike cycle July 2022 to September 2023.",
+        "reversibility": "0.55: Rate cutting cycle began June 2024; negative rates not expected to return."
+      },
+      "narrative_zh": "欧洲央行在2022年7月至2023年9月以史上最快节奏将基准利率从-0.5%上调至4.0%，结束了长达8年的负利率政策。同时推出传导保护工具（TPI）防止周边国家利差过度扩张，但欧元/美元仍跌破平价——能源危机的影响完全压过了利率上升对欧元的支撑。"
+    },
+    {
+      "crisis": "trump_tariff_war_2025_2026",
+      "actor": "Donald Trump / US Administration",
+      "actor_zh": "唐纳德·特朗普 / 美国行政当局",
+      "action": "Liberation Day — Reciprocal tariff declaration: 10% universal baseline, EU 20%, China 34% (additional), Vietnam 46%. Effective April 5, 2025.",
+      "date": "2025-04-02",
+      "vector": [-0.10, 0.25, -0.08, 0.72, 0.65, 0.60, 3, 0.55],
+      "vector_justification": {
+        "equity_market_direction": "-0.10: Immediate announcement day move; the severe crash (-10% S&P in 2 days) follows April 4-9. Day-of reaction captured here at moderate negative.",
+        "bond_market_direction": "0.25: Flight to safety bid — 10-year Treasury yield dropped from ~4.5% to 4.045% within days as recession fears drove bond buying.",
+        "currency_direction": "-0.08: DXY fell ~2% on Liberation Day — loss of safe-haven shine as tariff policy seen as self-harming. Moderate depreciation.",
+        "volatility_impact": "0.72: VIX spiked sharply. Tariff shock was largest 2-day equity loss in history ($6.6T wiped over April 4-9).",
+        "contagion_scope": "0.65: All major equity markets affected; global supply chain uncertainty spread to EM and developed markets.",
+        "policy_regime_shift": "0.60: Major paradigm departure from post-WW2 free trade consensus; but partially reversed (90-day pause April 9) — hence not maximum.",
+        "duration_of_impact_months": "3: Acute phase 2 days (April 2-9); truce announced May 12 began recovery; 3 months captures full acute-to-stabilization period.",
+        "reversibility": "0.55: 90-day pause partially reversed; Geneva truce (May 12) further moderated; but IEEPA tariffs struck down Feb 2026 and new 10% reimposed. Structural trade uncertainty persists."
+      },
+      "narrative_zh": "特朗普宣布'解放日'对等关税：对所有美国进口商品征收10%基础税率，欧盟20%，中国34%（附加在已有税率上）。两天内标普500下跌约10%，市值蒸发6.6万亿美元，创历史上最大两日跌幅。4月9日特朗普宣布90天暂停，市场大幅反弹，但对华关税升至145%。"
+    },
+    {
+      "crisis": "trump_tariff_war_2025_2026",
+      "actor": "Donald Trump / Xi Jinping — US-China Joint Statement",
+      "actor_zh": "特朗普 / 习近平 — 日内瓦贸易停战",
+      "action": "Geneva Trade Truce — US and China reduce April tariffs from 125% to 10% each for 90-day truce. Both sides step back from 145%/125% tariff spiral.",
+      "date": "2025-05-12",
+      "vector": [0.65, -0.15, 0.12, -0.45, -0.30, 0.35, 6, 0.60],
+      "vector_justification": {
+        "equity_market_direction": "0.65: S&P 500 turned positive for 2025 on May 13; strong relief rally. Trade deal optimism drove markets to all-time highs by June 27, 2025.",
+        "bond_market_direction": "-0.15: Risk-on shift caused rotation out of safe-haven bonds; yields rose moderately as recession fears receded.",
+        "currency_direction": "0.12: Mild DXY recovery as US-China deal removed worst-case trade war scenario.",
+        "volatility_impact": "-0.45: VIX compression — truce significantly reduced uncertainty. Negative = volatility-reducing event.",
+        "contagion_scope": "-0.30: Negative contagion = reduced spread of trade war uncertainty; global risk appetite recovered.",
+        "policy_regime_shift": "0.35: Major de-escalation within the tariff war framework — not a return to pre-Liberation Day baseline but significant moderation.",
+        "duration_of_impact_months": "6: Extended to August 12 (90-day extension) then November 2025 one-year deal. 6-month acute relief phase.",
+        "reversibility": "0.60: Truce is time-limited (through November 2026); underlying trade conflict not resolved; IEEPA authority struck down Feb 2026 adds uncertainty."
+      },
+      "narrative_zh": "美中在日内瓦举行贸易谈判，双方同意将4月加征的关税从125%分别降至10%，为期90天的停战协议。市场大幅反弹，标普500于5月13日转正，6月27日创历史新高。停战后延期至2025年11月，达成为期一年的延期协议。"
+    },
+    {
+      "crisis": "trump_tariff_war_2025_2026",
+      "actor": "US Supreme Court",
+      "actor_zh": "美国最高法院",
+      "action": "Learning Resources, Inc. v. Trump — 6-3 ruling striking down IEEPA-based reciprocal tariffs and Canada/Mexico/China fentanyl tariffs. $175B+ in collected tariff revenue at refund risk.",
+      "date": "2026-02-20",
+      "vector": [0.35, -0.08, 0.15, -0.20, 0.20, 0.75, 18, 0.45],
+      "vector_justification": {
+        "equity_market_direction": "0.35: Initial relief rally as tariff uncertainty reduced; businesses facing potential $175B refund also buoyed import-dependent sectors.",
+        "bond_market_direction": "-0.08: Fiscal uncertainty (government facing $175B liability) slightly negative for Treasuries at margin.",
+        "currency_direction": "0.15: Mild USD appreciation as reduced tariff inflation pressure removed one headwind.",
+        "volatility_impact": "-0.20: Reduced policy uncertainty — negative = volatility-calming. Market had partially priced in legal risk.",
+        "contagion_scope": "0.20: US-centered legal ruling with global implications for trade partners expecting tariff reduction.",
+        "policy_regime_shift": "0.75: Fundamental legal constraint on presidential tariff authority — IEEPA no longer available for broad tariffs. Major structural shift in US trade policy framework.",
+        "duration_of_impact_months": "18: Legal framework change will shape trade policy for years; 18 months captures near-term adjustment period as new authorities (Section 232/301/Trade Act 1974) are deployed.",
+        "reversibility": "0.45: SCOTUS ruling is structural (cannot be reversed by executive), but Congress could authorize new tariff authority; Trump pivoted to 10% global tariff under alternative authority. Partially reversible through legislative action."
+      },
+      "narrative_zh": "最高法院以6比3裁定特朗普无权依据《国际紧急经济权力法》（IEEPA）征收广泛的对等关税及对加拿大/墨西哥/中国的芬太尼关税。已征收的逾1750亿美元关税面临退款风险。特朗普随即宣布依据《1974年贸易法》重新征收10%全球关税。"
+    },
+    {
+      "crisis": "us_military_operations_2025_2026",
+      "actor": "Donald Trump / US Military",
+      "actor_zh": "唐纳德·特朗普 / 美国军事",
+      "action": "Operation Absolute Resolve — US air, land and sea attack on Venezuela; President Maduro and wife captured, transferred to New York on narco-terrorism charges.",
+      "date": "2026-01-03",
+      "vector": [-0.02, 0.03, -0.35, 0.15, 0.10, 0.25, 2, 0.80],
+      "vector_justification": {
+        "equity_market_direction": "-0.02: Market essentially shrugged off the operation. S&P 500 mostly flat; defense stocks outperformed. Near-zero net equity impact.",
+        "bond_market_direction": "0.03: Minimal safe-haven bid — market assessed Venezuela operation as contained. Near-zero bond market move.",
+        "currency_direction": "-0.35: Venezuelan bolivar effectively worthless in any case. Broader EM currencies saw mild risk-off but limited transmission.",
+        "volatility_impact": "0.15: Mild VIX uptick on geopolitical uncertainty but analysts noted 'positive [market] response is fascinating.' Limited volatility impact.",
+        "contagion_scope": "0.10: Primarily Latin American regional risk repricing. No systemic global impact — Venezuela's $800K bbl/day production negligible in oversupplied market.",
+        "policy_regime_shift": "0.25: Precedent-setting: US willing to conduct military operations to effect regime change in Western Hemisphere. Signal to Latin American states and China (with $67B Venezuelan exposure).",
+        "duration_of_impact_months": "2: Acute phase brief; Venezuelan political uncertainty ongoing but market impact dissipated quickly.",
+        "reversibility": "0.80: Market impact fully reversible; Delcy Rodríguez as interim president means regime partial continuity. Not a structural market change."
+      },
+      "narrative_zh": "美国出动约150架飞机对委内瑞拉发动'陆海空'军事打击，马杜罗总统及其妻子被捕并移送纽约受审。委内瑞拉产量仅约80万桶/日，全球原油市场供应充裕，市场反应极为平淡——布伦特原油实际小幅下跌至约60美元/桶，股市基本未受影响。对中国的冲击更深层：中国在委内瑞拉有约670亿美元投资，此次行动重置了美国对拉美干预的战略预期。"
+    },
+    {
+      "crisis": "iran_war_2026",
+      "actor": "US / Israel Joint Forces",
+      "actor_zh": "美国/以色列联合军事行动",
+      "action": "Decapitation strike on Iran — Supreme Leader Ali Khamenei killed alongside Defense Minister, IRGC Commander, and Security Council Secretary. Brent crude surged from $70 to $94/bbl within 10 days.",
+      "date": "2026-02-28",
+      "vector": [-0.28, 0.35, -0.12, 0.88, 0.80, 0.85, 24, 0.20],
+      "vector_justification": {
+        "equity_market_direction": "-0.28: S&P 500 down ~28% YTD by March 9, 2026 from post-holiday highs. Severe equity selloff driven by oil shock, recession fears, and geopolitical uncertainty.",
+        "bond_market_direction": "0.35: Partial flight to safety in US Treasuries despite oil inflation risk — war premium drove some safe-haven demand even as inflation pressures mounted.",
+        "currency_direction": "-0.12: USD volatile — oil inflation headwind vs. safe-haven demand created mixed signal. Net modest depreciation on global recession risk.",
+        "volatility_impact": "0.88: Near-extreme volatility. Dow dropped 1,200 points intraday March 1 (recovered to -400 close). Crude oil vol extreme. World shares tumbled March 9.",
+        "contagion_scope": "0.80: Near-global impact: Gulf state airspace closed (UAE, Qatar, Kuwait); thousands of flights grounded; gas pump prices surged 21% in one month; global recession risk flagged.",
+        "policy_regime_shift": "0.85: Fundamental geopolitical shift: US/Israel directly assassinated a sitting head of state of a major OPEC nation. Precedent for 'decapitation diplomacy'. OPEC oil supply security framework permanently repriced.",
+        "duration_of_impact_months": "24: War premium on oil likely sustained 12-24 months; geopolitical restructuring of Middle East (new Supreme Leader, proxy war intensification) is multi-year structural shift.",
+        "reversibility": "0.20: Khamenei assassination is irreversible. New Supreme Leader Mojtaba Khamenei installed March 11. Structural regime change. Oil price normalization possible if Hormuz opens but geopolitical framework permanently altered."
+      },
+      "narrative_zh": "美以联合军事行动击杀伊朗最高领袖哈梅内伊及多名高级官员。布伦特原油从约70美元/桶飙升至3月9日的94美元/桶（涨幅超50%），为2023年9月以来最高。霍尔木兹海峡受限（全球约20%石油供应），海湾国家空域关闭，数千架次航班停飞。标普500 2026年迄今跌幅约28%。摩根大通警告：若冲突持续，油价可能触及120美元/桶，全球经济衰退风险上升。"
+    },
+    {
+      "crisis": "deepseek_ai_shock_2025",
+      "actor": "DeepSeek / Chinese AI Labs",
+      "actor_zh": "DeepSeek / 中国AI实验室",
+      "action": "DeepSeek R1 release — model benchmarked comparably to OpenAI o1 at ~$6M training cost vs ~$100M for GPT-4. Became #1 US Apple App Store January 27, 2025. Sent shockwaves through Western AI investment thesis.",
+      "date": "2025-01-27",
+      "vector": [-0.25, 0.05, 0.08, 0.55, 0.45, 0.40, 4, 0.50],
+      "vector_justification": {
+        "equity_market_direction": "-0.25: Nvidia lost ~$600B in market cap in a single day (largest single-day market cap loss in history at the time). Broader AI infrastructure complex (data centers, power, memory) sold off sharply.",
+        "bond_market_direction": "0.05: Marginal safe-haven bid as tech selloff drove some rotation. Negligible bond market impact.",
+        "currency_direction": "0.08: RMB mild appreciation as China's AI competitiveness narrative boosted sentiment on Chinese assets.",
+        "volatility_impact": "0.55: Significant but sector-concentrated VIX/VVIX spike. Not systemic — confined to AI/semiconductor complex.",
+        "contagion_scope": "0.45: Primarily tech/AI sector globally. Some spillover to power, cooling, data center REITs. Limited macro-financial contagion.",
+        "policy_regime_shift": "0.40: Fundamental challenge to US AI dominance narrative and the assumption that AI leadership requires massive capital expenditure moat. Reframed US-China AI competition dynamics.",
+        "duration_of_impact_months": "4: Acute AI infrastructure selloff lasted weeks; revaluation of AI capex thesis took ~4 months to stabilize as hyperscalers maintained spending commitments.",
+        "reversibility": "0.50: Nvidia recovered substantially as hyperscalers maintained AI investment plans. But the narrative shift (Chinese AI as competitive threat, efficiency gains possible at low cost) is semi-permanent."
+      },
+      "narrative_zh": "DeepSeek R1发布，训练成本仅约600万美元（GPT-4约1亿美元），但性能堪比OpenAI o1。1月27日登顶美国苹果应用商店榜首，引发全球AI投资逻辑重估。英伟达单日市值蒸发约6000亿美元，创史上最大单日市值损失记录。此事件重塑了市场对AI算力需求、GPU护城河以及中美AI竞争格局的基本认知。"
+    },
+    {
+      "crisis": "china_military_purge_2026",
+      "actor": "Xi Jinping / CPC Central Military Commission",
+      "actor_zh": "习近平 / 中央军事委员会",
+      "action": "Zhang Youxia (CMC Vice Chairman) and Liu Zhenli (Joint Staff Chief) arrested January 24, 2026. CMC reduced to Xi + one loyalist. 100+ senior PLA officers purged since 2022.",
+      "date": "2026-01-24",
+      "vector": [-0.12, 0.08, -0.05, 0.35, 0.30, 0.55, 12, 0.25],
+      "vector_justification": {
+        "equity_market_direction": "-0.12: A-shares and Hong Kong equities sold off moderately on Taiwan invasion risk repricing. Western capital markets had limited direct reaction.",
+        "bond_market_direction": "0.08: Mild safe-haven demand in UST as Taiwan risk premium was repriced. Chinese government bonds saw outflow pressure.",
+        "currency_direction": "-0.05: RMB under mild pressure as geopolitical risk premium on China assets increased.",
+        "volatility_impact": "0.35: Moderate volatility increase in China-exposed assets; Taiwan-related risk premium in options markets elevated.",
+        "contagion_scope": "0.30: Primarily affecting China/Taiwan/Asia-Pacific asset pricing. Limited direct Western financial market impact.",
+        "policy_regime_shift": "0.55: Structural change in PLA command authority — CMC reduced to single general alongside Xi. Joint Staff Department vacant. Significant shift in China's military decision-making architecture and Taiwan risk calculus.",
+        "duration_of_impact_months": "12: Structural military command change has multi-year implications; 12-month period captures immediate Taiwan risk repricing.",
+        "reversibility": "0.25: Structural purge of military leadership creates lasting capability and organizational impacts. Not reversible in the near term."
+      },
+      "narrative_zh": "习近平逮捕军委副主席张又侠（与习近平同为'太子党'）和联合参谋部参谋长刘振立，打破了历史先例。军委实际上只剩张升民一名上将与习近平并列。自2022年以来，解放军100余名高级官员遭清洗，52%的176个高层领导职位受到影响。分析人士将此事件重新解读为台湾行动时间窗口的先行指标——移除军内最后具有制衡能力的将领，台湾风险溢价随之上升。"
+    }
+  ],
+  "summary_statistics": {
+    "total_events": 59,
+    "crises_covered": [
+      "asian_financial_crisis_1997",
+      "global_financial_crisis_2008",
+      "us_china_trade_war_2018",
+      "covid_pandemic_2020",
+      "multi_crisis_2022_2023",
+      "trump_tariff_war_2025_2026",
+      "iran_war_2026",
+      "deepseek_ai_shock_2025",
+      "us_military_operations_2025_2026",
+      "china_military_purge_2026"
+    ],
+    "event_count_by_crisis": {
+      "asian_financial_crisis_1997": 9,
+      "global_financial_crisis_2008": 15,
+      "us_china_trade_war_2018": 7,
+      "covid_pandemic_2020": 11,
+      "multi_crisis_2022_2023": 10,
+      "trump_tariff_war_2025_2026": 3,
+      "iran_war_2026": 1,
+      "deepseek_ai_shock_2025": 1,
+      "us_military_operations_2025_2026": 1,
+      "china_military_purge_2026": 1
+    },
+    "dimension_range_summary": {
+      "equity_market_direction": {"min": -0.95, "max": 0.85, "most_negative": "Lehman bankruptcy 2008-09", "most_positive": "Vaccine announcement 2020-11"},
+      "bond_market_direction": {"min": -0.85, "max": 0.65, "most_negative": "UK mini-budget 2022-09", "most_positive": "QE1 launch + PEPP"},
+      "currency_direction": {"min": -0.95, "max": 0.60, "most_negative": "Thai baht short attack 1997-05", "most_positive": "Malaysia capital controls stabilization"},
+      "volatility_impact": {"min": -0.55, "max": 0.98, "most_extreme": "Lehman bankruptcy 0.98", "most_calming": "Unlimited QE March 23 2020 -0.55"},
+      "contagion_scope": {"min": -0.40, "max": 0.95, "most_global": "Lehman bankruptcy", "most_contained": "Mahathir capital controls -0.30 (isolated Malaysia)"},
+      "policy_regime_shift": {"min": 0.10, "max": 0.90, "largest_shift": "QE1 launch 0.90 / Russia invasion 0.85"},
+      "duration_of_impact_months": {"min": 1, "max": 120, "longest": "Dodd-Frank (120 months)", "shortest": "Lagarde gaffe (1 month, reversed by PEPP)"},
+      "reversibility": {"min": 0.15, "max": 0.95, "least_reversible": "Lehman bankruptcy 0.15", "most_reversible": "Lagarde gaffe 0.95"}
+    },
+    "methodology_notes": "Vectors calibrated against documented market data: index levels, yield curves, FX rates, VIX readings, and economic outcomes. Policy regime shift and reversibility incorporate post-crisis structural changes as assessed through 2026. Duration reflects statistically significant market impact, not necessarily peak-to-trough of underlying crisis."
+  }
+}

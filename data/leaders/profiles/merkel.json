@@ -1,0 +1,332 @@
+{
+  "leader": "Angela Merkel",
+  "role": "Federal Chancellor of Germany (Nov 2005 – Dec 2021)",
+  "level": 2,
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "German federal budgets and Schuldenbremse (debt brake) implementation 2009-2021",
+    "Euro crisis: EFSF creation May 2010, ESM creation Oct 2012, Greek bailout negotiations 2010-2018",
+    "Energiewende announcement Mar 2011 (post-Fukushima nuclear exit)",
+    "Nord Stream 2 support despite US/Eastern European opposition 2015-2021",
+    "Refugee crisis response Sep 2015 ('Wir schaffen das')",
+    "COVID response: March 2020 lockdowns, EU Recovery Fund Jul 2020",
+    "EU Recovery Fund / Next Generation EU agreement Jul 2020 (historic fiscal step)",
+    "Merkel speeches: Bundestag, CDU party conferences, G7/G20 summits 2005-2021",
+    "CDU career: East Germany party politics 1989-1990 → Federal Environment Minister 1994-1998 → CDU Chair 2000 → Chancellor 2005",
+    "Physics PhD, Karl Marx University Leipzig (nuclear chemistry dissertation, 1986)"
+  ],
+  "background": {
+    "born": "1954-07-17",
+    "origin": "Hamburg (raised in East Germany, Brandenburg)",
+    "career_path": "Physics PhD (nuclear chemistry, 1986) → quantum chemistry researcher (1986-1989) → CDU politician in East Germany post-reunification (1989-1990) → Federal Minister for Women and Youth (1991-1994) → Federal Minister for Environment (1994-1998) → CDU opposition leader (1998-2005) → Federal Chancellor (2005-2021)",
+    "formative_experiences": "Growing up in East Germany: witnessed Soviet-controlled state, learned to navigate authoritarian system with caution and patience (speaking one way publicly, another privately). Physics training at Leipzig: scientific method, data-driven analysis, incremental hypothesis testing — never bet on unproven models. German reunification 1989-1990: rapid systemic change is possible but must be managed carefully (West Germany absorbed East German debt and unemployment at enormous cost). The 2005 election was near-run thing (won by 0.9% over SPD) — instilled caution about overreach.",
+    "decision_style_origin": "Physicist-politician hybrid. Scientific training means: (1) never announce conclusions before data is sufficient, (2) treat ideology as hypothesis not fact, (3) error-correcting rather than face-saving. Political survival in CDU required: coalition management, patience, tactical flexibility on positions ('asymmetric demobilization' of opponents). 'Mutti' style: maternal, reassuring, appearing to agree while actually deferring decision — buying time until the situation clarifies or the opponent makes an error."
+  },
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector for Angela Merkel as Federal Chancellor 2005-2021. Covers: global financial crisis response 2008-2009, euro sovereign debt crisis 2010-2015, Energiewende and Nord Stream energy policy, 2015 refugee crisis, COVID response 2020-2021, and the historic EU fiscal step (Recovery Fund 2020). Defining behavioral pattern: delay, delay, delay — then act decisively when the moment of clarity arrives. Consistently pursued German national interest while framing it as European interest. The longest-serving elected female head of government in history.",
+    "dimensions": 60,
+    "vectors": [
+      {
+        "label": "decision_delay_until_clarity",
+        "value": 0.92,
+        "evidence": "Pattern across multiple crises: (1) Greek bailout: delayed 3-4 months (Oct 2009 election → May 2010 EFSF), only acted when market contagion made inaction more costly than action. (2) Euro bonds: refused for entire tenure despite 10 years of pressure — never reached clarity threshold for action. (3) ESM permanence: delayed 2 years from EFSF (2010) to ESM (2012). (4) Nuclear exit: delayed 1 week after Fukushima, then acted decisively (announced immediate closure of 8 oldest reactors). (5) COVID: delayed 2 weeks (Mar 2020), then locked down before UK/France. (6) Recovery Fund: opposed for years, agreed Jul 2020. Inaction is the default; action requires the crisis to reveal the optimal path."
+      },
+      {
+        "label": "austerity_commitment_eurozone_crisis",
+        "value": 0.88,
+        "evidence": "German austerity doctrine during eurozone crisis: insisted on fiscal adjustment as condition for any EFSF/ESM support. Greek program 2010: demanded wage cuts, pension reforms, privatizations as price for €110bn bailout. Opposed Eurobonds ('For as long as I live, there will be no eurobonds'). Schuldenbremse (debt brake) constitutional amendment 2009: balanced budget requirement enshrined in German Basic Law, effective 2016. Justified as: fiscal profligacy caused the crisis, adjustment is necessary medicine. Economic consequence: excessive austerity prolonged euro area recession 2010-2013 by an estimated 2-3% GDP (IMF multiplier research). Fiscal multipliers were underestimated."
+      },
+      {
+        "label": "greek_bailout_brinkmanship",
+        "value": 0.83,
+        "evidence": "2010 first bailout: delayed until Greek spreads were at crisis levels (10-year at 8%), then provided €110bn (largest conditional bailout in history at the time). 2012 PSI (Private Sector Involvement): pushed for private creditor haircuts (50%), unprecedented for eurozone. 2015 Grexit moment: Schäuble publicly offered 'temporary Grexit' — Merkel allowed this to proceed as negotiating pressure, then agreed to third program (€86bn) when Tsipras capitulated. The pattern: never close the door entirely (too catastrophic), but maintain maximum pressure until the last moment. Grexit was threatened seriously enough to cause capital controls but not executed."
+      },
+      {
+        "label": "eurobond_refusal_credibility",
+        "value": 0.94,
+        "evidence": "Refused Eurobonds throughout entire tenure (16 years). Arguments: (1) moral hazard — removes incentive for fiscal discipline, (2) German constitutional constraint (Federal Constitutional Court), (3) German public opinion (75% opposed in polls). Partial exception: EU Recovery Fund Jul 2020 (€750bn, of which €390bn grants, financed by EU common bonds) — technically EU bonds not 'eurobonds' as traditionally defined, but functionally similar for Southern member benefit. The Recovery Fund was only possible because COVID was existential threat to EU integration, and German export economy needed European demand recovery. 16 years of opposition ended by a sufficiently large crisis."
+      },
+      {
+        "label": "eu_recovery_fund_pivot_2020",
+        "value": 0.87,
+        "evidence": "May 18, 2020: Merkel-Macron proposal for €500bn EU Recovery Fund, financed by EU common debt. Jul 21, 2020: European Council agreement on €750bn Next Generation EU. This was: (1) First common EU debt issuance, (2) Non-repayable grants to hardest-hit countries, (3) Funded by EU own resources (new taxes/levies). It violated core Merkel principles (no Eurobonds, no fiscal transfers) but the crisis logic was: COVID will destroy Southern European economies, destroying EU single market and German export platform. The 16-year principle was abandoned in 2 months under existential EU pressure. Reveals the underlying logic: principles are maintained until the cost of maintaining them exceeds the cost of abandoning them."
+      },
+      {
+        "label": "energiewende_commitment_post_fukushima",
+        "value": 0.85,
+        "evidence": "Mar 11, 2011: Fukushima Daiichi meltdown. Mar 14, 2011 (3 days later): Merkel announced moratorium on 7 oldest nuclear plants. Jun 6, 2011 (87 days after Fukushima): full nuclear exit by 2022 committed in law (Atomgesetz amendment). This was a rapid, decisive reversal: in 2010, Merkel had extended nuclear plant lifetimes by 12 years (reversing 2002 SPD nuclear exit). Energiewende package: €400bn investment program for renewables, grid modernization, efficiency. Counter-evidence: Nord Stream 2 simultaneously (see below) — energy transition at home while increasing Russian gas dependency. The contradiction was unresolved until 2022 war."
+      },
+      {
+        "label": "nord_stream_dependency_creation",
+        "value": 0.81,
+        "evidence": "Nord Stream 1 supported under Merkel (completed 2011). Nord Stream 2: continued to support against US sanctions threats (2019-2021), against Eastern European security objections (Poland, Baltic states), against EU energy diversity concerns. Rationale: German export industry needs cheap energy; Russian gas cheaper than LNG alternatives; energy cooperation deepens economic interdependence (prevents military conflict, German postwar logic). The 2022 invasion revealed this as catastrophic strategic error: Germany faced gas supply crisis Aug-Sep 2022, gas rationing near-miss, Nord Stream 2 never opened. Merkel defended Nord Stream 2 decisions even after the invasion — 'I would not have made different decisions with the knowledge I had at the time.'"
+      },
+      {
+        "label": "russia_engagement_policy_ostpolitik_continuation",
+        "value": 0.73,
+        "evidence": "Merkel maintained dialogue with Putin despite: 2014 Crimea annexation (coordinated Minsk I/II, Feb 2015 last leader to meet Putin before 2022), Nord Stream continued, trade maintained, Navalny poisoning Aug 2020 (mild diplomatic response). Post-Crimea sanctions: supported but calibrated to preserve Nord Stream and German export relationships. Minsk II: Merkel co-negotiated (with Hollande, Poroshenko, Putin), buying Ukraine 8 years of time (Feb 2015-Feb 2022). In 2022 interview: said Minsk II was to buy time for Ukraine to build military capability — this retroactive re-framing caused political controversy but reveals that engagement was not naive."
+      },
+      {
+        "label": "refugee_crisis_economic_calculation",
+        "value": 0.68,
+        "evidence": "'Wir schaffen das' ('We can do this'), Sep 4, 2015: Germany opened border to Syrian refugees, ~1 million arrived in 2015. Economic reasoning: German demographics (aging population, labor shortage) needed workers. Integration would eventually produce economic benefit. Short-term cost acceptable for long-term labor supply benefit. Political cost: AfD (Alternative für Deutschland) rose from 2% to 12% by 2017 election, directly attributable to refugee decision. Economic assessment: mixed — high short-term integration costs (€20bn/year), long-term labor market integration taking 5-8 years. The decision was simultaneously humanitarian, demographic, and economically calculated."
+      },
+      {
+        "label": "physicist_data_dependence",
+        "value": 0.84,
+        "evidence": "COVID communication (Mar 11, 2020 speech to nation): explicitly walked through the epidemic curve, R0 calculations, ICU capacity math — like a physicist explaining the model. 'If we achieve nothing, 60-70% of population will be infected. If we act, we reduce this.' This level of quantitative public communication was unprecedented for a European leader. COVID policy: followed epidemiological data closely, reversed lockdowns when case counts fell, re-introduced when they rose. Same in financial crisis: demanded program conditionality based on quantified fiscal adjustment paths. Data is not just processed — it is the foundation of decisions."
+      },
+      {
+        "label": "coalition_management_cost",
+        "value": 0.76,
+        "evidence": "Led 3 Grand Coalitions (CDU/CSU + SPD): 2005-2009, 2013-2017, 2017-2021. Grand Coalition management required constant internal compromise, delaying or weakening decisions. Euro bonds: SPD was actually more supportive — CDU/CSU internal constraints prevented any movement. Minimum wage (introduced 2015): SPD demand in coalition, Merkel accepted. Refugee crisis: damaged CDU/CSU coalition (Seehofer of CSU was explicit adversary). The cost of maintaining coalitions was policy delay and occasionally policy reversal — Merkel's governing strategy was to minimize political cost of each decision, which sometimes meant not making decisions."
+      },
+      {
+        "label": "german_export_economy_protection_priority",
+        "value": 0.87,
+        "evidence": "Every major Merkel decision can be traced back to protecting the German export-industrial complex: (1) Austerity in eurozone: preserves euro value, prevents fiscal union transfers from Germany. (2) Nord Stream: cheap energy for industry. (3) Russia engagement: maintains market for German auto/machine exports. (4) Refugee acceptance: future labor supply for manufacturing. (5) EU Recovery Fund: preserves Southern European demand for German exports. (6) COVID response: protect German healthcare capacity to maintain production. Germany's current account surplus (7-8% of GDP, highest in G20) was the economic metric Merkel implicitly optimized, even when publicly framing in European solidarity terms."
+      },
+      {
+        "label": "fiscal_orthodoxy_domestic",
+        "value": 0.91,
+        "evidence": "Schwarze Null (Black Zero): Germany ran balanced/surplus budget 2014-2019 for first time since 1969. Debt-to-GDP fell from 82% (2010) to 59% (2019). Rejected calls for fiscal expansion from IMF, ECB (Draghi explicitly called for German infrastructure spending), G20 partners. During 2019 near-recession: refused any fiscal stimulus. Schuldenbremse made structural deficit >0.35% GDP unconstitutional. COVID 2020: suspended Schuldenbremse (€130bn stimulus), first exception in 10 years — again, the crisis threshold for abandoning orthodoxy was reached."
+      },
+      {
+        "label": "transatlantic_relationship_management",
+        "value": 0.64,
+        "evidence": "Obama relationship: strong partnership (G7, G20, climate, Iran deal coordination). Trump relationship: deteriorated (NATO 2% GDP spending pressure, Paris Agreement, Iran deal). Merkel's 2017 Munich Security Conference speech: 'The times in which we could fully rely on others are partly over...We Europeans must take our fate into our own hands.' Trump tariff threats on European autos: Merkel's response was controlled, no escalation, sought WTO mechanisms. Biden: warm restoration of multilateral cooperation. Pattern: transatlantic relationship managed as institution, not personal relationship — survived Trump damage without permanent rupture."
+      },
+      {
+        "label": "environmental_policy_consistency",
+        "value": 0.72,
+        "evidence": "Federal Environment Minister 1994-1998: negotiated Kyoto Protocol positions. Chancellor: EU climate targets (2020: -20% emissions), 2030 Climate Action Programme (-40%). Energiewende: legally binding nuclear exit and renewables expansion. Germany emissions: -40% from 1990 to 2020 (target achieved). Contradiction: Coal exit delayed to 2038 (vs. UK 2025, France 2022) due to industrial/union pressure. The contradiction pattern: ambitious stated targets, slower execution when industrial interests are engaged. Renewable energy prices in Germany rose to highest in Europe due to transition costs — accepted as policy cost."
+      },
+      {
+        "label": "strategic_patience_leadership_succession",
+        "value": 0.79,
+        "evidence": "Merkel's domestic political longevity was maintained by systematically neutralizing rivals: Friedrich Merz (conservative, potential successor), Roland Koch (Hessen), Horst Seehofer (Bavaria) — all contained without direct confrontation. Resigned as CDU party chair Dec 2018 (after 2018 electoral losses) but remained Chancellor until Dec 2021 — 3-year lame duck period. Explicitly refused to designate a clear successor, maintaining ambiguity. Annegret Kramp-Karrenbauer as CDU successor failed; Armin Laschet lost 2021 election. Her succession management was so successful at preventing rivals that it left CDU without a strong post-Merkel leader."
+      },
+      {
+        "label": "eu_integration_commitment_conditional",
+        "value": 0.75,
+        "evidence": "Supported EU integration when it served German interests: Single market (export platform), Schengen (labor mobility), ECB (monetary stability). Resisted when costly: Eurobonds, fiscal union, meaningful EU-level social policy. Banking union: supported (2012) to prevent bank runs from spreading to German banks. Capital Markets Union: supported as export opportunity. EU rule of law enforcement (Poland, Hungary): weak response, prioritized German industrial interests in Central/Eastern Europe. Federalist rhetoric vs. intergovernmentalist practice — 'Europe's political integration shall follow economic integration, not precede it.'"
+      },
+      {
+        "label": "covid_economic_response_scale",
+        "value": 0.84,
+        "evidence": "Germany's COVID fiscal response: €130bn (Jun 2020 stimulus package) + Kurzarbeit (short-time work scheme, protecting 6m jobs at peak, €15bn cost). Total fiscal response 2020: ~€300bn (9% GDP), largest in G7 per capita terms. Schuldenbremse suspension: constitutional debt brake suspended for first time since 2009. Merkel's Mar 11, 2020 address: 'This is the greatest challenge since World War II.' The scale of response (suspending the debt brake, which she had championed) reflects her pattern: principles are maintained until the cost of maintaining them is clearly excessive."
+      },
+      {
+        "label": "2008_gfc_response_germany",
+        "value": 0.69,
+        "evidence": "Oct 2008: guaranteed all German retail bank deposits (unilateral EU announcement, coordinated with UK/France after the fact). Hypo Real Estate bailout: €50bn, Germany's largest bank rescue. First stimulus package (Nov 2008): €31bn. Second stimulus (Jan 2009): €50bn. Counter-cyclical spending accepted under Keynesian emergency logic. Post-2009: immediate pivot back to austerity as soon as crisis passed — 'never again' approach to deficit spending that led to Schwarze Null. The 2008 response was pragmatic and appropriate; the post-2008 pivot to austerity was arguably premature."
+      },
+      {
+        "label": "east_germany_background_unified_decision_making",
+        "value": 0.77,
+        "evidence": "Growing up in East Germany created a unique psychological combination: (1) Experience navigating a state that punishes dissent — learned to be careful with public expression. (2) Witnessed 1989 democratic revolution firsthand (in Leipzig/East Germany) — believes democratic institutions are fragile and precious. (3) Reunification experience: rapid change creates winners and losers; rapid EU integration requires managing losers (Eastern European countries post-2004 enlargement). Her East German background made her more sympathetic to Eastern European EU members than Western German politicians and less dismissive of security concerns about Russia."
+      },
+      {
+        "label": "multilateral_institution_defense_g7_g20",
+        "value": 0.79,
+        "evidence": "G7: Merkel served 2005-2021 (6 summits as host, German presidency 2015 and 2022 would have been her 7th). G20: active from inaugural Pittsburgh 2009. UNESCO, WHO: defended institutional budgets against US withdrawal pressure (Trump era). Paris Agreement: Germany ratified, implemented, led EU-US re-engagement after Biden election. WTO reform: supported over bilateral trade deals. Merkel's multilateralism was not ideological — it was an expression of German export interests (multilateral trade rules benefit Germany more than bilateral agreements where large countries dominate small ones)."
+      },
+      {
+        "label": "political_survival_mechanism_asymmetric_demobilization",
+        "value": 0.82,
+        "evidence": "Merkel's electoral strategy: 'asymmetric demobilization' — occupy the center-left policy space (minimum wage, refugee acceptance, nuclear exit) to deny SPD differentiation while retaining CDU core voters. Result: SPD fell from 34% (2005) to 20% (2017). CDU maintained 30-35% with expanded coalition. Counter-cost: AfD emerged as right-wing alternative to voters alienated by Merkel's leftward shifts. The strategy maximized Merkel's personal political durability at the expense of CDU's ideological coherence, which created the post-Merkel leadership vacuum."
+      },
+      {
+        "label": "china_germany_economic_relationship",
+        "value": 0.71,
+        "evidence": "China became Germany's largest trade partner (surpassing US) in 2016. German-Chinese trade: €240bn/year (2021). Major German exporters (BASF, VW, BMW, Siemens) generated 20-30% of revenue in China. Merkel: 11 trips to China as Chancellor (more than any European head of government). EU-China Comprehensive Agreement on Investment (CAI): pushed through Dec 2020 (over US objections, 2 months before Biden inauguration). Counter-evidence: supported some Huawei restrictions, allowed EU steel dumping cases. Net position: economic engagement primacy over geopolitical competition — maintained even as China's political direction became clearer under Xi."
+      },
+      {
+        "label": "nato_defense_spending_resistance",
+        "value": 0.63,
+        "evidence": "NATO 2% GDP target: Germany at ~1.3% (2021), below 2% target. Trump repeatedly demanded Germany meet 2% target, threatening troop withdrawal. Merkel's response: offered specific increases, pledged trajectory toward 2% by 2030, but never met target during her tenure. Rationale: Germany's historical military constraints (post-WWII constitutional restrictions, Bundeswehr culture), combined with view that NATO is US interest too (not favor to Germany). Post-Merkel (Feb 2022 invasion): Scholz immediately pledged €100bn special defense fund and 2%+ spending. Merkel's under-spending is now viewed retrospectively as a significant security error."
+      },
+      {
+        "label": "economic_reform_agenda_hartz_legacy",
+        "value": 0.67,
+        "evidence": "Inherited Hartz labor market reforms (Schröder's SPD government, 2002-2005) which were deeply politically unpopular. Rather than reversing them, Merkel maintained and built on the reforms. Hartz IV (2005): merged unemployment insurance with social assistance, created incentives to return to work. Result: German unemployment fell from 11.7% (2005) to 3.1% (2019). Merkel's role: maintaining political consensus for reforms that had already been enacted, resisting left-wing coalition pressures to reverse them. The 'mini-job' sector expansion under Merkel: flexible labor market contributed to Germany's employment miracle but also wage polarization."
+      },
+      {
+        "label": "ukrainian_crisis_2014_minsk_framework",
+        "value": 0.73,
+        "evidence": "2014 Crimea annexation: Merkel coordinated EU sanctions with US (first time post-Cold War EU imposed comprehensive sanctions on Russia). Minsk I (Sep 2014) and Minsk II (Feb 2015): Merkel co-negotiated 23-hour sessions, produced ceasefire framework. Political logic: create time for diplomatic solution while Russia absorbed Crimea fait accompli. Military logic (retroactive 2022 Merkel statement): also buying time for Ukraine to build military capability. The contradiction: simultaneously coordinating sanctions AND negotiating frameworks that locked Ukraine into Donbas frozen conflict arrangements. Merkel's 2022 position that Minsk was a time-buying strategy is controversial — implies the agreements were strategic deception rather than genuine peace effort."
+      },
+      {
+        "label": "minimum_wage_introduction_2015",
+        "value": 0.62,
+        "evidence": "Statutory minimum wage introduced Jan 2015: €8.50/hour. This was an SPD coalition demand that Merkel accepted. Counter to CDU ideology (labor market flexibility, no statutory wage floor). Economic impact: employment continued rising despite predictions of job losses (unemployment fell from 6.7% to 3.8% 2015-2019). Real wage gains: 4% cumulative 2015-2019 for low-wage workers. Merkel's pragmatism: accepted a policy antithetical to CDU doctrine when it was politically necessary to maintain coalition. This adaptability is characteristic — ideology is a starting position, not a fixed constraint."
+      },
+      {
+        "label": "bundesbank_ecb_relationship_management",
+        "value": 0.71,
+        "evidence": "German tradition: Bundesbank independence as sacred principle (historical memory of Weimar hyperinflation). Merkel maintained respectful but non-interfering relationship with ECB under Draghi. Did not publicly oppose OMT, QE, negative rates — despite being from country whose central bank (Bundesbank/Weidmann) consistently opposed these measures. Private position (reported): expressed discomfort with ECB going too far, but recognized that opposing ECB publicly would destabilize European markets. The separation — letting Germany's own ECB council member (Weidmann) argue the German position while Chancellor maintained silence — was politically shrewd."
+      },
+      {
+        "label": "information_processing_speed_and_caution",
+        "value": 0.83,
+        "evidence": "COVID Mar 2020: took 11 days from WHO pandemic declaration (Mar 11) to comprehensive lockdown announcement (Mar 22), using that time for detailed epidemiological briefings with virologist Christian Drosten. German nuclear exit (2011): 3-month review with safety commission before final announcement, despite immediate shutdown of 8 reactors after Fukushima. Greek bailout 2010: 4-month delay while running through legal analysis. The pattern: Merkel processes information slowly and thoroughly before deciding, then implements decisively. The delay cost in Greek crisis (contagion spread); the delay benefit in COVID (broad political consensus before announcement)."
+      },
+      {
+        "label": "generational_equity_fiscal_perspective",
+        "value": 0.76,
+        "evidence": "Schwarze Null and debt brake rationalization: 'We cannot burden our children and grandchildren with debt.' Pension reform (2014): 'Mütterrente' (credits for mothers who raised children before 1992) — expanded pension rights, funded through current contributions rather than debt. Climate targets: framed as inter-generational responsibility. The fiscal conservatism has explicit generational equity framing — not just Habermas/Swabian housewife logic, but moral commitment to leaving future generations a fiscally sound inheritance. This is a distinct value orientation from Anglo-Saxon 'current generation' fiscal analysis."
+      },
+      {
+        "label": "personal_communication_style_scientific",
+        "value": 0.81,
+        "evidence": "Merkel's communication is distinguished by: (1) Use of conditional sentences ('if X, then Y' structure — scientific hypothesis framing). (2) Explicit acknowledgment of uncertainty ('we don't know yet'). (3) Quantitative references in policy speeches (unusual for politicians). (4) 'Mutti' (Mummy) — comforting maternal tone combined with technical precision. COVID TV address (Mar 2020): statistical language more common in academic epidemiology than political speech. G20 speeches: cited specific IMF/OECD data. The style builds trust with educated voters and technocrats; loses voters who want emotional inspiration or clear ideological signaling."
+      },
+      {
+        "label": "eu_enlargement_attitude",
+        "value": 0.68,
+        "evidence": "Merkel supported Eastern EU enlargement as completed fact (accession 2004-2007 happened before her chancellorship). New enlargements during her tenure: skeptical but not blocking. Western Balkans: Macedonia/North Macedonia name dispute — Germany mediated but progress slow. Turkey EU accession: froze under her tenure (citing rule-of-law backsliding, Erdogan authoritarianism). Ukraine EU candidacy: not actively supported (EU membership offer might provoke Russia — a pre-2022 logic). Post-Merkel revision: Ukraine EU candidate status granted Jun 2022. Her caution on enlargement reflected both genuine rule-of-law criteria and implicit concern about institutional overstretch."
+      },
+      {
+        "label": "financial_market_reaction_sensitivity",
+        "value": 0.64,
+        "evidence": "Merkel did not manage to market expectations the way central bankers do, but market reactions did influence her timing. Greek bailout 2010: only acted when contagion spread to sovereign bond markets (Portugal, Spain yields rising). European Banking Union: accelerated after Spanish/Italian spreads widened 2012 (market forcing function). Nord Stream 2: maintained despite US sanctions threats partly because German energy company lobbies threatened Bundestag with energy price warnings. Market reactions are primarily mediated through industrial lobby interests rather than direct financial market monitoring — appropriate given her role as head of government rather than central banker."
+      },
+      {
+        "label": "industrial_policy_industry_4_0",
+        "value": 0.73,
+        "evidence": "National High-Tech Strategy 2025 (2010): Industry 4.0 — German term for digitalization of manufacturing, coined under Merkel. Policy: €15bn R&D investment over 2015-2025. Artificial Intelligence Strategy 2018: €3bn investment. Semiconductor strategy: partial, insufficient (Germany remained dependent on non-EU chip supply). Counter: infrastructure investment underspent (€50bn+/year financing gap throughout her tenure). Digital broadband rollout chronically delayed (Germany ranked 28th in EU broadband coverage by 2020). The industrial policy was better at strategy documents than implementation — reflecting the tension between Merkel's scientism and the institutional resistance of German federal structure."
+      },
+      {
+        "label": "social_democrat_coalition_policy_constraints",
+        "value": 0.67,
+        "evidence": "Grand Coalition with SPD (2005-2009, 2013-2017, 2017-2021): SPD priorities embedded in coalition agreements. SPD wins: minimum wage (2015), pension at 63 (2014), higher Hartz IV rates, refugee welcome policy supported. CDU wins: fiscal conservatism, no Eurobonds, NATO commitment. The SPD coalition moderated Merkel rightward on economics (no raw austerity) and she accepted it as price of governing. Counter: SPD fell to 20% under Merkel's shadow — the asymmetric demobilization meant CDU dominated but SPD was institutionally weakened. The coalition constraint explains some policy positions that appear ideologically inconsistent (minimum wage, early retirement) as coalition concessions."
+      },
+      {
+        "label": "2015_vw_dieselgate_response",
+        "value": 0.55,
+        "evidence": "Sep 2015: VW emissions scandal (Volkswagen had rigged diesel emissions tests in 11 million cars worldwide). German government initial response: defended VW, attacked US EPA for overzealous enforcement. Merkel did not publicly rebuke VW or call for criminal investigation. The German auto industry (VW, BMW, Mercedes-Benz, Audi) employs 800,000+ directly and 2-3 million in supply chain — too systemically important to attack. Counter: VW paid $14.7bn settlement in US, criminal charges in Germany followed slowly. The Dieselgate response reveals the industrial policy constraint: German export industry is a protected interest, even when it has committed large-scale fraud."
+      },
+      {
+        "label": "afghanistan_nato_engagement",
+        "value": 0.61,
+        "evidence": "Germany's Afghanistan deployment: up to 5,000 troops at peak (Bundeswehr), northern Afghanistan. German casualties: 59 killed 2001-2014. Merkel maintained deployment despite domestic unpopularity (German public consistently majority anti-deployment). Rationale: NATO burden sharing, US relationship maintenance. Germany avoided combat role (Northern Command, training, reconstruction) rather than Southern Command (direct fighting). Aug 2021 US withdrawal: Merkel coordinated German evacuation under extreme time pressure (Germany evacuated ~5,000 people). The Afghanistan experience reinforced German caution about military deployments, contributing to the under-investment in military readiness that became apparent in 2022."
+      },
+      {
+        "label": "balancing_act_franco_german_engine",
+        "value": 0.78,
+        "evidence": "Merkel-Sarkozy (Merkozy): EU crisis management axis 2010-2012. Merkel-Hollande: Minsk negotiations. Merkel-Macron: most productive partnership (Recovery Fund Jul 2020, key joint initiatives). Pattern: France wants European integration expansion and German fiscal sharing; Germany wants fiscal discipline and market access. The bargain under Merkel: Germany accepts some fiscal risk (Recovery Fund, ECB accommodation tolerance) in exchange for structural reform commitments and EU governance rules. Merkel-Macron: Germany got Franco-German leadership of EU restored; France got Recovery Fund grants. Each Chancellor-President pairing produced different compromise packages."
+      },
+      {
+        "label": "iran_nuclear_deal_support",
+        "value": 0.69,
+        "evidence": "E3+3 Iran nuclear deal (JCPOA, Jul 2015): Germany was one of six parties (alongside US, UK, France, Russia, China). Merkel was a consistent supporter of the multilateral approach. German business: significant interest in Iran market access (Iranian market was 80 million consumers with educated workforce). Trump withdrawal May 2018: Merkel explicitly criticized US withdrawal, supported EU's attempt to maintain JCPOA via SPV/INSTEX payment mechanism (bypassing US dollar). Germany's Iran position: pragmatic economic interests (trade) combined with non-proliferation commitment. The SPV/INSTEX effort ultimately failed (Iran resumed enrichment) but reflected Merkel's instinct to maintain multilateral frameworks against US unilateralism."
+      },
+      {
+        "label": "digital_policy_and_tech_regulation",
+        "value": 0.63,
+        "evidence": "GDPR (General Data Protection Regulation, 2018): EU regulation significantly shaped under German-influenced Bundestag (Germany has strong privacy tradition, Datenschutz). Merkel government supported GDPR implementation. Digital Markets Act, Digital Services Act: started development under Merkel, finalized under Scholz/EU Commission. Competition policy on tech: EU Commissioner Vestager (Danish, not German) led antitrust cases against Google, Apple, Facebook — Merkel government did not obstruct. Net neutrality: supported. The digital policy record is consistent with German institutional preference: strong rules and standards, applied equally to German and foreign companies, creating regulatory moat for European market."
+      },
+      {
+        "label": "public_debt_gdp_trajectory",
+        "value": 0.72,
+        "evidence": "Germany gross public debt/GDP: 67% (2005, Merkel start) → 74% (2010, GFC impact) → 82% (2012, euro crisis peak) → 59% (2019, Schwarze Null result) → 70% (2021, COVID impact). Net debt even lower (Germany has significant financial assets). The V-shape: borrow during crisis, repay aggressively in recovery. Merkel's fiscal rule: counter-cyclical deficits OK for genuine shocks; structural deficits prohibited by Schuldenbremse. The 2010-2019 debt reduction of 23% of GDP is the largest sustained debt reduction in G7 history during the same period. This fiscal space was the buffer that enabled COVID response without immediate debt crisis."
+      },
+      {
+        "label": "science_technology_innovation_investment",
+        "value": 0.71,
+        "evidence": "Germany R&D expenditure under Merkel: rose from 2.4% to 3.1% of GDP (2005-2020). Target: 3.5% of GDP (not achieved). Public university funding: maintained but not expanded relative to GDP. Excellence Initiative: €4.6bn for top German universities (2006, 2012, 2019 iterations). Fraunhofer institutes: applied research infrastructure maintained and expanded. The R&D investment record is solid but not exceptional — Germany's innovation strength comes from embedded firm-level investment (Mittelstand companies), not primarily from state R&D. Merkel understood this distinction and targeted state R&D at market failure areas (basic research, digital infrastructure) rather than trying to replicate US venture capital model."
+      },
+      {
+        "label": "auto_industry_protection_ev_transition",
+        "value": 0.68,
+        "evidence": "German automotive sector: VW, BMW, Mercedes-Benz, Audi, Porsche = ~10% of German GDP, 800,000 direct employees. Merkel consistently protected auto sector interests: (1) Opposed EU fleet emission targets that would disadvantage large German premium vehicles (lobbied for SUV exemptions). (2) Delayed EU combustion engine ban negotiations. (3) Supported German automakers' entry into China (vs. forcing technology transfer concerns). (4) Slow EV infrastructure investment. The Dieselgate (2015) response was the clearest example of auto industry protection overriding consumer/regulatory interests. The EV transition occurred despite, not because of, Merkel-era industrial policy."
+      },
+      {
+        "label": "federalism_and_lander_constraints",
+        "value": 0.65,
+        "evidence": "Germany's federal structure: 16 Bundesländer with significant powers (police, education, culture, some tax administration). Federal Chancellor's power: limited by Bundesrat (upper house, representing Länder). Merkel: navigated federal constraints by: (1) CDU coalition with state governments. (2) Concessions to key states (Bavaria/CSU particularly demanding). (3) Corona conferences (Merkel + 16 Ministers-President) for COVID policy — inefficient but constitutionally necessary. The federal constraint explains policy heterogeneity (Baden-Württemberg fast broadband vs. Saxony-Anhalt slow) and slower national decision-making than France/UK systems."
+      },
+      {
+        "label": "population_growth_and_immigration_economics",
+        "value": 0.71,
+        "evidence": "Germany population 2005-2021: essentially flat (82-83m) without immigration. Natural population decline offset by net immigration. Pre-2015: orderly immigration from EU (Eastern Europe, especially Poland). 2015: 1.1 million refugees. Economic impact 2015-2021: labour market integration took 5-7 years; by 2021, 60%+ of 2015 cohort employed; fiscal net cost estimated €15-20bn/year for 5 years, then breakeven. High-skilled immigration: Blue Card visa underused. Counter: Germany's labour shortage required immigration regardless of political controversy. Merkel's 2015 decision, while politically costly, was economically correct for a country with aging demographics and labour shortages."
+      },
+      {
+        "label": "bundesbank_tradition_vs_ecb_accommodation",
+        "value": 0.72,
+        "evidence": "Germany's post-WWII economic identity is built on Bundesbank price stability tradition — a direct response to Weimar hyperinflation. Merkel: nominally supported Bundesbank tradition but did not obstruct ECB accommodation. The split: Bundesbank under Weidmann consistently opposed ECB QE/negative rates; Merkel government did not publicly contradict ECB. In private: reportedly expressed discomfort with QE scale. But practically: Germany benefited from ECB accommodation (German government borrowed at negative real rates, financing Schwarze Null while other countries faced market pressure). Germany had structural interest in ECB accommodation even as it rhetorically maintained Bundesbank tradition."
+      },
+      {
+        "label": "nato_germany_role_evolution",
+        "value": 0.64,
+        "evidence": "Germany's post-WWII constitutional (Basic Law Art. 87a): armed forces 'only for defence,' significant restraints on military deployment. Merkel era: Bundeswehr deployed in: Afghanistan (5,000 peak), Mali, Kosovo, Horn of Africa (anti-piracy), Iraq (training). But hardware investment chronically underfunded (combat-ready tanks: 244 ordered, 90 operational in 2018 audit). Defence Minister scandals: Karl-Theodor zu Guttenberg (plagiarism), Ursula von der Leyen (procurement delays), Thomas de Maizière (euro hawk fiasco). The disconnect between political commitment to NATO and actual military readiness was the most important defence policy failure of Merkel's tenure."
+      },
+      {
+        "label": "eu_sanctions_russia_2014_calibration",
+        "value": 0.74,
+        "evidence": "2014 Crimea annexation: EU sanctions coordinated by Merkel. Calibration: (1) Tier 1 (Apr 2014): individual asset freezes/travel bans. (2) Tier 2 (Jul 2014): sectoral sanctions (finance, energy, defence). (3) Tier 3 (Jul 2014, post-MH17): broader sectoral sanctions. Merkel explicitly calibrated to avoid sanctions that would damage German energy/trade relationships (Nord Stream explicitly excluded). Counter: much heavier sanctions possible (oil/gas embargo, SWIFT) were politically unavailable 2014. The calibration was the maximum Germany would accept; imposing more would have broken EU unity. Merkel chose EU unity over maximum pressure — a judgment call with long-term strategic costs."
+      },
+      {
+        "label": "domestic_fiscal_policy_investment_infrastructure",
+        "value": 0.58,
+        "evidence": "Germany's public infrastructure investment gap (IMF, OECD, German Council of Experts estimates): €150-250bn over 2015-2020. Bridges in poor condition: 12,800 (2020). Railway punctuality: fell from 79% to 65% by 2019. Broadband coverage: Germany 28th in EU. Municipal investment gap: €147bn (KfW 2019). Schwarze Null prevented financing infrastructure investment. Merkel's response: increase KfW development bank capacity (off-balance-sheet), but insufficient scale. The irony: Germany preached fiscal discipline to Southern Europe while its own public infrastructure deteriorated below comparable countries. The infrastructure deficit was the most tangible domestic cost of the Schwarze Null doctrine."
+      },
+      {
+        "label": "eastern_germany_economic_integration",
+        "value": 0.63,
+        "evidence": "Reunification in 1990: West Germany absorbed East German economy (GDP per capita 35% of West). Under Merkel: GDP per capita gap narrowed from 65% to 75% of West German level (2005-2021). Transfer payments: €1.5tn+ from West to East since 1990. Eastern Germany under Merkel: industrialization partial (automotive: BASF Schwarzheide, chip plants in Saxony), but persistent wage gap, population decline, AfD support (40%+ in Saxony, Thuringia). As an Eastern German herself, Merkel had implicit legitimacy to make Eastern Germany policies that would be politically impossible for Western German leaders. But the integration challenge remains largely unsolved 35 years after reunification."
+      },
+      {
+        "label": "party_politics_cdu_transformation",
+        "value": 0.66,
+        "evidence": "CDU (Christian Democratic Union) under Merkel: transformed from conservative Christian-democratic party to centrist catch-all. Policy positions abandoned: traditional marriage (same-sex marriage referendum 2017 — Merkel abstained, vote passed). Nuclear energy (reversed 2011). Immigration restriction (reversed 2015). These positions were core CDU/CSU identity for 40+ years. The transformation maximized Merkel's personal popularity (62-68% approval) but hollowed out CDU ideological distinctiveness. Counter: the centrist catch-all strategy worked (CDU won 4 consecutive federal elections). Long-term cost: AfD emergence as ideological right-wing alternative, CDU lost its right flank."
+      },
+      {
+        "label": "pandemic_vaccines_eu_procurement_failure",
+        "value": 0.62,
+        "evidence": "EU vaccine procurement: centralized through European Commission (Merkel's German Council Presidency organized this, Jul-Dec 2020). Initial order: insufficient doses at too-low prices (vs. US/UK approach of over-ordering). Result: EU vaccination rate significantly behind UK/US in Q1 2021. AstraZeneca contract dispute (delivery shortfall, Mar 2021). Merkel later acknowledged EU vaccine procurement was 'not optimal.' The decision to centralize (vs. allow member states to procure individually) was: (1) Politically correct (EU solidarity), (2) Practically sub-optimal (UK/Israel moved faster independently). This episode reveals the tension between EU integration goals and operational effectiveness."
+      },
+      {
+        "label": "nordstream_2_final_approval",
+        "value": 0.78,
+        "evidence": "Nord Stream 2 was completed and awaiting German regulatory approval when Russia invaded Ukraine (Feb 2022). Merkel had defended the project through: Biden administration opposition (waived CAATSA sanctions Jun 2021 as 'goodwill gesture'). Eastern European security objections (Poland, Baltic states consistently opposed). Ukrainian government objections. The project was abandoned Feb 22, 2022 (2 days before invasion): Scholz government suspended certification. The abandonment retroactively validated every objection Merkel had dismissed for 6 years. The NS2 episode is the single most damaging item in her legacy — a project she championed that had to be abandoned immediately upon implementation for exactly the reasons critics had identified."
+      },
+      {
+        "label": "social_spending_stability",
+        "value": 0.71,
+        "evidence": "Social spending under Merkel: ~28% of GDP (consistent with EU average). Hartz IV (social assistance): maintained with minor modifications. Healthcare: universal, co-payment structure maintained. Long-term care insurance: expanded 2013, 2017 (new reform package). Child benefit (Kindergeld): increased. The social state was preserved while fiscal position improved — achieved via: (1) Strong employment (lower unemployment benefit payments). (2) North Sea oil-style windfall (labour market reform dividend). (3) Limited new social programs. The combination of fiscal conservatism + maintained social floor is the CDU's core electoral proposition."
+      },
+      {
+        "label": "eu_commission_versus_council_balance",
+        "value": 0.68,
+        "evidence": "EU governance: Commission (supranational, proposes legislation) vs. Council (intergovernmental, national governments). Merkel consistently preferred Council-based decision making (Germany + France leading) over Commission-driven integration. Examples: (1) EU response to GFC: Council-led EFSF/ESM, not Commission-led (Commission had no fiscal capacity). (2) Recovery Fund 2020: negotiated in Council, not proposed by Commission. (3) EU enlargement: Council decisions, Merkel personally engaged. The preference for Council-over-Commission reflects German interest: Germany has disproportionate weight in Council (large country) but is one of 27 in Commission-led integration."
+      },
+      {
+        "label": "post_merkel_legacy_assessment",
+        "value": 0.64,
+        "evidence": "Post-2022 Merkel legacy reassessment: most significant is Nord Stream 2 / Russian energy dependency. Bundeswehr underfunding (Zeitenwende/watershed speech by Scholz Feb 27, 2022 — 3 days after invasion — explicitly reversed Merkel's defence posture). Schuldenbremse: suspended again (2022 defence spending, climate investments), revealing its impracticality as a binding rule. China engagement: reconsidered by Scholz government (partial diversification). The Merkel era policies that her immediate successor reversed most quickly are the most revealing: energy security, defence investment, and China naivety were the three identified failures. The legacy assessors in 2022-2025 are unanimous on these three."
+      },
+      {
+        "label": "eurozone_economic_governance_reform",
+        "value": 0.69,
+        "evidence": "Euro area economic governance under Merkel: (1) European Semester (coordination of national fiscal and economic policies). (2) Macroeconomic Imbalance Procedure (MIP): monitors current account imbalances. Germany repeatedly identified as country with 'excessive surplus' under MIP — ironic that the country that designed the surveillance mechanism was flagged by it. Merkel's response to MIP excess surplus finding: defended German surplus as result of competitiveness, not manipulation. Counter-evidence: German surplus is partly structural (high savings, low investment) that ECB accommodation could have addressed through fiscal expansion. The governance architecture was Merkel-influenced but not followed by Germany."
+      },
+      {
+        "label": "wto_trade_dispute_management",
+        "value": 0.62,
+        "evidence": "Trade disputes under Merkel: EU-US aircraft subsidies (Boeing-Airbus case): resolved in 2021 (5-year suspension of tariffs). EU-China solar panels: antidumping case 2013. Steel/aluminum tariffs (Trump 2018): EU retaliated immediately (€2.8bn on US goods). Merkel's approach: use WTO multilateral rules, but accept bilateral negotiation when it avoids tariff escalation. The Trump-era tariff disputes showed Germany's vulnerability: German auto exports to US were threatened by 25% auto tariffs. Merkel: preferred diplomatic negotiation over retaliation escalation (unlike EU's immediate steel retaliation). The auto tariff threat was ultimately not imposed but created significant business uncertainty 2018-2021."
+      },
+      {
+        "label": "population_aging_fiscal_sustainability",
+        "value": 0.72,
+        "evidence": "Germany's demographic challenge: median age 45.7 (2020, highest in EU except Italy). Old-age dependency ratio: 31% (2020) → projected 55% (2050). Pension system sustainability: required contribution rate would rise from 18.6% (2020) to 25%+ without reform. Merkel's response: (1) Raise pension age (2007 reform to 67 — pre-Merkel but she maintained). (2) Mütterrente 2014 (expanded rights, but fiscally costly). (3) Flexible pension at 63 (2014, SPD demand, actually exacerbated the problem). (4) Immigration as partial demographic solution (2015 decision). The tension between maintaining pension generosity (electoral) and fiscal sustainability (ideological) was never resolved — the reform gap was papered over by full employment revenues."
+      },
+      {
+        "label": "uk_brexit_management",
+        "value": 0.65,
+        "evidence": "Brexit (Jun 2016) under Merkel: immediate statement that UK would face 'no special treatment' — access to single market requires acceptance of four freedoms (including free movement). Maintained this position consistently through: Article 50 negotiations (2017-2019 under May), then Johnson negotiations (2020). German industry pressure: lobbied for special deal for UK (major auto market). Merkel resisted in public; allowed Barnier negotiating team to drive EU process. Brexit economic damage to Germany: £80bn+ UK-German trade declining 20-25% post-Brexit. But Merkel calculated that precedent of special treatment for exit would undermine EU integrity more than the bilateral trade loss."
+      }
+    ]
+  }
+}

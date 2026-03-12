@@ -1,0 +1,332 @@
+{
+  "leader": "Christine Lagarde",
+  "role": "President, European Central Bank (Nov 2019 – present); Managing Director, IMF (Jul 2011 – Sep 2019)",
+  "level": 2,
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "ECB Governing Council decisions Nov 2019 – Mar 2026",
+    "'We are not here to close spreads' remark, Mar 12, 2020 (first press conference as ECB President)",
+    "PEPP (Pandemic Emergency Purchase Programme) announcement Mar 18, 2020",
+    "ECB Strategy Review outcome Jul 8, 2021 (symmetric 2% target)",
+    "First ECB rate hike Jul 21, 2022 (first in 11 years, +50bp)",
+    "IMF Article IV consultations and SDR allocation 2011-2019",
+    "IMF Greek program design and conditionality 2011-2015",
+    "IMF Argentina standby arrangement 2018-2019",
+    "Lagarde speeches: Frankfurt European Banking Congress, ECB Forum Sintra 2020-2025",
+    "Baker McKenzie career 1981-2005 (lawyer, chair); French Minister of Finance 2007-2011"
+  ],
+  "background": {
+    "born": "1956-01-01",
+    "origin": "Paris, France",
+    "career_path": "Baker McKenzie lawyer/antitrust partner (1981-1999) → Baker McKenzie Chairman (1999-2005) → French Minister for Trade (2005-2007) → French Minister of Finance (2007-2011) → IMF Managing Director (2011-2019) → ECB President (2019-present)",
+    "formative_experiences": "Baker McKenzie: trained to manage large multinational organizations, build consensus, navigate political constraints — not to run monetary models. French Finance Ministry 2007-2011: managed through the 2008-2009 financial crisis as French finance minister, including G20 coordination (Pittsburgh 2009). This gives her the global governance frame (consensus-building among 20 leaders) rather than technical monetary policy frame. IMF: managed sovereign debt crises across multiple continents, understands fiscal adjustment politics from the lender side.",
+    "decision_style_origin": "Lawyer and politician, not economist. Processes monetary policy decisions through political economy lens (coalition building, communication management, legitimacy) rather than economic model optimization. This creates both strengths (political durability, coalition maintenance) and weaknesses (delayed technical decisions, communication gaffes when straying from scripts). Self-aware about the limitation — has built strong technical teams around herself."
+  },
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector for Christine Lagarde as ECB President Nov 2019 – Mar 2026. Covers COVID crisis (2020), post-COVID inflation surge (2021-2023), tightening cycle (2022-2023), and easing cycle (2024-2026). Key characteristic: non-economist central bank leader navigating a technically complex institution while managing unprecedented political and economic shocks. Her ECB tenure is defined by two phases: crisis responder (COVID PEPP 2020) and inflation fighter (2022-2023), with a significant communication failure separating them.",
+    "dimensions": 60,
+    "vectors": [
+      {
+        "label": "covid_pepp_response_speed",
+        "value": 0.88,
+        "evidence": "PEPP announced Mar 18, 2020 (6 days after the 'spread' gaffe): €750bn emergency purchase programme. Expanded to €1.35tn (Jun 2020), then €1.85tn (Dec 2020). Key design innovation: (1) Flexible purchase allocation (could deviate from capital key — solved Italy/Spain spread problem). (2) Eligible assets expanded (commercial paper). (3) No issue limits applied. Total PEPP purchases: ~€1.7tn. Speed was correct — March 2020 was a liquidity crisis that required immediate backstop. The PEPP was effectively Draghi's OMT operationalized for COVID — unlimited, flexible, and credible."
+      },
+      {
+        "label": "spread_gaffe_communication_failure",
+        "value": 0.92,
+        "evidence": "'We are not here to close spreads' — March 12, 2020 press conference response to question about Italian bond spreads (which had widened 250bp that day on COVID fears). The comment caused Italian 10-year yields to surge another 65bp within hours. The ECB had to issue a clarifying statement. The gaffe occurred because Lagarde misunderstood the Draghi doctrine she had inherited: OMT/ECB backstop IS about closing spreads when fragmentation undermines monetary transmission. Her literal statement was technically defensible but catastrophically mistimed — in a market panic, ambiguity is interpreted as abandonment. This is the most costly single communication error in ECB history since Trichet."
+      },
+      {
+        "label": "late_inflation_response_2021_2022",
+        "value": 0.77,
+        "evidence": "Euro area HICP: 3.4% (Sep 2021), 5.1% (Jan 2022), 7.5% (Apr 2022), 10.6% (Oct 2022). First ECB rate hike: Jul 21, 2022 (+50bp). Compare: Fed first hike Mar 17, 2022 (+25bp) when US CPI was 7.9%. ECB was 4 months behind Fed despite higher euro area inflation by mid-2022. Lagarde's Feb 2022 press conference: explicitly stated rate hike 'very unlikely' in 2022 — reversed at the very next meeting (Mar 2022, changed forward guidance) and hiked in July. The delay was partly structural (ECB's Southern members vs. hawkish North), but Lagarde's language through Q1 2022 consistently under-weighted inflation risk."
+      },
+      {
+        "label": "inflation_transitory_narrative_adherence",
+        "value": 0.71,
+        "evidence": "ECB maintained 'inflation is transitory' narrative longer than Fed (which itself maintained it too long). Dec 2021 ECB Governing Council meeting: ended PEPP as scheduled, did not hike — consistent with 'transitory' view. Feb 3, 2022: Lagarde at press conference finally pivoted to 'upside risks to inflation have increased materially' after Jan 2022 data showed 5.1% HICP. But no rate hike guidance given until Mar 2022. The transitory narrative adherence was partly political (Southern member opposition to rate hikes) and partly genuine belief that supply disruptions would resolve."
+      },
+      {
+        "label": "tightening_pace_once_started",
+        "value": 0.84,
+        "evidence": "Once started (Jul 2022), ECB hiked aggressively: Jul 2022: +50bp (larger than signaled — first surprise move), Sep 2022: +75bp (largest ECB hike ever), Oct 2022: +75bp, Dec 2022: +50bp, Feb 2023: +50bp, Mar 2023: +50bp, May 2023: +25bp, Jun 2023: +25bp, Jul 2023: +25bp (last hike). Total: +450bp in 14 months. Deposit rate went from -0.50% to 4.00%. This is historically fast for ECB — comparable to Fed's 2022-2023 pace. The compensation for slow start was aggressive pace once political consensus for hiking was achieved."
+      },
+      {
+        "label": "green_monetary_policy_advocacy",
+        "value": 0.79,
+        "evidence": "Strategy review Jul 2021: incorporated climate change into ECB mandate for first time — 'climate-related considerations embedded in our monetary policy framework.' Corporate bond purchase portfolio: began tilting toward issuers with better climate disclosure/scores (Oct 2022). Green bond purchases: ECB purchased ~€50bn of green bonds by 2023. Collateral framework: began incorporating climate risk in haircuts (2024). This is a significant expansion of ECB mandate beyond price stability — Lagarde was the driver, over objections of German/Dutch hawkish bloc who saw it as mission creep. Legacy: normalized central bank climate action."
+      },
+      {
+        "label": "imf_background_conditionality_enforcement_experience",
+        "value": 0.72,
+        "evidence": "IMF MD during Greek program (2011-2015): managed second largest IMF loan in history (€30bn IMF tranche, part of €110bn package). Oversaw conditionality enforcement that required Greek pension cuts, tax increases, privatizations. IMF internal review (2013) acknowledged program underestimated fiscal multipliers — Lagarde accepted this assessment, demonstrating capacity for institutional self-criticism. Argentina 2018: $57bn standby — largest in IMF history. Conditionality design skills transferred to ECB: understanding of how fiscal adjustment interacts with monetary accommodation."
+      },
+      {
+        "label": "council_coalition_management",
+        "value": 0.76,
+        "evidence": "ECB Governing Council: 25 members, Northern (hawkish: Bundesbank, DNB, Riksbank) vs. Southern (dovish: Banca d'Italia, Banco de España, BdF) split. Lagarde achieved: PEPP by near-consensus (Mar 2020), Strategy Review unanimous (Jul 2021). Rate hikes: achieved consensus but multiple members publicly dissented from pace. TPI (Transmission Protection Instrument, Jul 2022): passed despite hawkish opposition by framing as anti-fragmentation, not QE. Lagarde is less aggressive than Draghi at pushing through controversial measures — she prefers consensus, which sometimes means slower or smaller action."
+      },
+      {
+        "label": "tpi_antifragmentation_design",
+        "value": 0.81,
+        "evidence": "TPI (Transmission Protection Instrument) announced Jul 21, 2022 (same meeting as first rate hike): allows ECB to buy bonds of specific countries to prevent 'unwarranted' spread widening during tightening cycle. Elegant design: (1) No predetermined limit — signals unlimited capacity. (2) Subject to compliance with EU fiscal rules — conditionality. (3) Discretionary activation — ECB decides what is 'unwarranted.' Like Draghi's OMT, TPI has not been activated as of 2026. It is doing its work through its existence. The design reflects learning from Draghi: a perfectly designed backstop never needs to fire."
+      },
+      {
+        "label": "political_background_vs_technocrat_mode_switching",
+        "value": 0.67,
+        "evidence": "Lagarde switches between two modes depending on context: (1) Political mode — speeches emphasizing social purpose of price stability, climate inclusion, digital euro as EU sovereignty tool. (2) Technocrat mode — press conferences with data-based rate decisions, forward guidance aligned with projections. The mode-switching creates occasional coherence problems: the 'spread' gaffe occurred when she was in political mode (thinking about ECB's legal mandate) when the market needed technocrat mode (crisis backstop reassurance). Her political mode is genuine expertise; her technocrat mode is learned and sometimes less fluent."
+      },
+      {
+        "label": "digital_euro_initiative_leadership",
+        "value": 0.74,
+        "evidence": "Digital Euro investigation phase: Jul 2021. Preparation phase: Oct 2023. Lagarde was the driver of making the digital euro a formal ECB project, linking it explicitly to EU monetary sovereignty (reducing dependence on Visa/Mastercard/USD-dominated digital payments). Speeches: consistently framed digital euro as strategic EU asset, not just technical project. This is characteristic of her political economy frame: monetary policy as tool of political sovereignty, not just price stability. Draghi would likely not have pushed digital euro — it has limited near-term monetary policy relevance."
+      },
+      {
+        "label": "fed_coordination_vs_independence",
+        "value": 0.58,
+        "evidence": "ECB followed Fed in tightening but with a lag. Nov 2021: Fed began taper. Jan 2022: Fed signaled hikes. Mar 2022: Fed first hike. Jul 2022: ECB first hike (4 months behind). Counter-evidence: Sep 2022 ECB +75bp was not dependent on Fed (Fed also +75bp same week, but ECB had separately assessed need). 2024 easing: ECB cut first (Jun 2024) before Fed (Sep 2024) — diverged from Fed, demonstrating genuine independence when euro area inflation/growth diverged from US. The lagged tightening was policy error; the earlier easing was appropriate independence."
+      },
+      {
+        "label": "inflation_threshold_for_rate_cut_initiation",
+        "value": 0.61,
+        "evidence": "First ECB rate cut: Jun 6, 2024 at HICP 2.6% (down from 10.6% peak). Lagarde had established 'three criteria' before cutting: (1) Inflation converging to 2% sustainably. (2) Underlying inflation declining. (3) Monetary policy transmission working. By Jun 2024, all three criteria were met. Then paused (Jul 2024), continued cutting Sep, Oct, Dec 2024 and into 2025. Cut more readily than Powell (who held rates higher for longer) — reflecting weaker euro area growth vs. US, where GDP growth allowed higher rates."
+      },
+      {
+        "label": "gender_and_representation_signaling",
+        "value": 0.63,
+        "evidence": "First woman to lead both IMF (2011) and ECB (2019). Consistently uses representation language in speeches. Hired more women to ECB leadership positions. Pushed for more diverse economics profession engagement in policy. This is less a monetary policy dimension and more a governance/signaling dimension, but it matters for ECB's public legitimacy and political durability — Lagarde's broader political network (including feminist European center-left) provided ECB institutional protection during politically difficult tightening cycle."
+      },
+      {
+        "label": "negative_rate_exit_management",
+        "value": 0.78,
+        "evidence": "ECB deposit rate was negative for 8 years (-0.10% Jun 2014 to +0.00% Jul 2022). Exit was handled: Jul 2022 +50bp (ended negative in one step, then continued into positive territory). This 'jumbo first step' was Lagarde's design choice — getting out of negative territory in one meeting rather than gradual 25bp exit. Rationale: negative rates have non-linear effects on bank profitability; getting above zero quickly removes the worst distortion. The decision to go +50bp at first hike (vs. signaled +25bp) was a positive surprise — showed learning from Draghi-era operational flexibility."
+      },
+      {
+        "label": "imf_greek_program_post_mortem_openness",
+        "value": 0.65,
+        "evidence": "IMF Independent Evaluation Office 2016 review of Greek program: found IMF had underestimated fiscal multipliers, acknowledged program design flaws. Lagarde's response: accepted the findings publicly, stated that in crisis conditions certainty about fiscal multipliers is impossible but acknowledged the estimate error. This self-critical capacity is notably different from many IMF/ECB leaders who resist program post-mortems. Application to ECB: her public acknowledgment in 2022 that ECB was 'behind the curve' on inflation was similarly self-critical — unusual in central banking communication."
+      },
+      {
+        "label": "terminal_rate_assessment_2023",
+        "value": 0.72,
+        "evidence": "ECB deposit rate peaked at 4.00% (Sep 2023) — held there until Jun 2024. Lagarde's language at 4.00%: 'rates are at levels that, maintained for a sufficiently long duration, will make a substantial contribution to the timely return of inflation to our target.' This was intentionally ambiguous forward guidance, deliberately not specifying the terminal rate or duration. Market interpretation: no more hikes. This plateau management was effective — rates held steady for 9 months, during which inflation declined from 5.2% to 2.6%. Unlike Powell (who specified data-dependency), Lagarde specified outcome-dependency (inflation declining)."
+      },
+      {
+        "label": "easing_cycle_2024_independent_from_fed",
+        "value": 0.77,
+        "evidence": "ECB first cut: Jun 6, 2024 (HICP 2.6%). Fed first cut: Sep 18, 2024 (CPI 2.5%). ECB cut 3.5 months before Fed — the first major developed market central bank to start easing in this cycle. Justification: euro area GDP was significantly weaker than US (EU growth 0.4-0.8% vs. US 2.8%); inflation declining faster. Lagarde communications explicitly noted ECB is 'data-dependent, not Fed-dependent.' This independence was real and economically justified. The EUR/USD implications were managed — euro weakened slightly but not disruptively. The 2024 easing pre-Fed is Lagarde's strongest claim to genuine ECB independence."
+      },
+      {
+        "label": "inflation_services_vs_goods_decomposition",
+        "value": 0.69,
+        "evidence": "2023-2024 ECB analysis: goods inflation declined rapidly (supply chain normalization) but services inflation proved sticky (7-8% through 2023, declining to 4-5% by 2024). Lagarde's communication incorporated this decomposition: explicitly tracking services and unit labor cost growth as indicators of whether disinflation was durable. This is methodologically more sophisticated than headline-only tracking. The stickiness of services inflation (tied to nominal wage growth) was the primary reason ECB did not cut sooner. Lagarde correctly identified services as the 'last mile' problem in euro area disinflation."
+      },
+      {
+        "label": "pandemic_economic_scarring_concern",
+        "value": 0.73,
+        "evidence": "Lagarde consistently flagged pandemic 'scarring' risks: (1) Labor market mismatch — skills obsolescence during lockdowns. (2) Business insolvencies — zombification risk from state support withdrawal. (3) Debt overhang — corporate and sovereign debt elevated post-COVID. PEPP extension Dec 2020: explicitly cited scarring prevention. NGEU advocacy: complemented ECB accommodation with fiscal support demand. The scarring framework informed 2020-2021 accommodation persistence: better to run too loose for too long than withdraw support before healing is complete. This assessment was validated (European economy recovered well) but also contributed to the inflation undershoot error."
+      },
+      {
+        "label": "euro_area_fragmentation_2022_tightening_challenge",
+        "value": 0.82,
+        "evidence": "Jun 2022 emergency meeting: Governing Council convened between regular meetings specifically to address Italian spread widening (BTP-Bund spread hit 250bp). TPI announcement Jul 2022. The fragmentation management during tightening is structurally harder than during easing (Draghi's OMT/PEPP were easing tools; TPI is a tightening-compatible anti-fragmentation tool). Lagarde's contribution: designing TPI as an instrument compatible with rate hikes, unlike PEPP which increased the balance sheet. The fact that TPI has not been activated (Italian spreads stayed below 200bp through 2023-2024) shows the design worked."
+      },
+      {
+        "label": "lawyer_communication_style_precision",
+        "value": 0.68,
+        "evidence": "Legal training influences communication: precise, defined terms, careful framing. Press conferences: opens with prepared statement (read, not improvised), structured Q&A. Compared to Powell (conversational) or Draghi (flowing). The legalistic precision works when content is correct — press conference statements are carefully drafted. But it can work against her when ad-libbing (the 'spread' gaffe was an unscripted answer). Her best communications are written/prepared; her errors are verbal and extemporaneous. Aware of this: press conference preparation more thorough than predecessors according to ECB staff accounts."
+      },
+      {
+        "label": "multilateral_institution_building_instinct",
+        "value": 0.74,
+        "evidence": "IMF background: multilateral institution consensus-building. ECB: pushed for Banking Union completion (EDIS), capital markets union, digital euro as EU sovereignty project. COVID: strong advocate for EU joint issuance (Recovery Fund). G7/G20: active in coordinating international responses (2020 debt relief for low-income countries, DSSI). UN SDG alignment in ECB mandate discussion. This multilateral instinct sometimes exceeds strict ECB mandate — critics (hawkish members) argue climate, EDIS, DSSI are outside monetary policy remit. But the instinct reflects a genuine belief that monetary stability requires institutional infrastructure."
+      },
+      {
+        "label": "wage_growth_and_second_round_effects_monitoring",
+        "value": 0.75,
+        "evidence": "2023 ECB focus: negotiated wage settlements across euro area as primary leading indicator of services inflation persistence. German IG Metall 2023 settlement (5.6%), French public sector (1.5%), Italian private sector (4.5%). Lagarde press conferences: regularly cited specific wage settlement data. The analytical focus was: if wages accelerate to compensate for past inflation loss (real wage recovery), second-round effects could sustain inflation above target. By mid-2024, wage growth was declining, which gave confidence to start cutting. This wage-watch framework was the correct analytical lens for euro area services inflation."
+      },
+      {
+        "label": "pepp_flexibility_reinvestment_anti_fragmentation",
+        "value": 0.79,
+        "evidence": "PEPP net purchases ended Mar 2022. But reinvestment of maturing proceeds continued with full flexibility (could deviate from capital key to address fragmentation). Reinvestment flexibility: used to buy Italian/Spanish bonds while German/Dutch maturities were rolled into shorter duration or less. This 'passive' QE flexibility was a bridge between PEPP ending and TPI existing. Dec 2023: announced PEPP reinvestment would end Dec 2024. The 2-year reinvestment period bought time for TPI to establish credibility before the final safety net was removed. Sequential tools management."
+      },
+      {
+        "label": "imf_managing_director_legal_proceedings",
+        "value": 0.55,
+        "evidence": "Dec 2016: French court found Lagarde 'guilty of negligence' in 2008 arbitration that paid €400m to businessman Bernard Tapie from state funds. Sentenced: no punishment. IMF Board: renewed her mandate despite conviction. ECB appointment: proceeded despite conviction. The legal proceedings reveal: (1) She operated in politically complex environments where legal risk is embedded in decisions. (2) Her immunity from punishment despite conviction reflects institutional protection of powerful figures. (3) She was cleared of direct fraud/corruption (only negligence). Impact on ECB behavior: none directly measurable, but creates awareness that decisions will be scrutinized legally."
+      },
+      {
+        "label": "financial_sector_stability_post_2023_banking_stress",
+        "value": 0.71,
+        "evidence": "Mar 2023 US banking stress (SVB, Signature, First Republic) and Credit Suisse collapse (Mar 19, 2023). ECB response: (1) Hiked +50bp at Mar 16 meeting despite banking stress — signaling inflation remained primary concern. (2) ECB statement: 'euro area banking sector is resilient, with strong capital and liquidity positions.' (3) Coordinated with SNB on Credit Suisse UBS merger (Cross-currency swap lines maintained). Unlike Fed (which paused then resumed), ECB continued hiking. The banking stress response shows same pattern as Draghi's 2023 bank failure hiked-through: financial stability is secondary to mandate, unless systemic risk is direct."
+      },
+      {
+        "label": "pepp_instrument_asymmetry_design",
+        "value": 0.76,
+        "evidence": "PEPP design decision (Mar 2020): made purchases flexible (can buy more of countries that need it) rather than strict capital key (which would buy proportional to GDP). This asymmetry meant PEPP functionally solved the Draghi-era problem of OMT (conditional) vs. capital key PSPP (unconditional but rigid). PEPP: unconditional AND flexible. This was the tool Draghi had sought but couldn't achieve due to German opposition — Lagarde achieved it under COVID emergency. The precedent created by PEPP flexibility is now institutionalized in TPI's design, making the anti-fragmentation toolkit permanently available."
+      },
+      {
+        "label": "ecb_accountability_democratic_deficit_management",
+        "value": 0.62,
+        "evidence": "Lagarde appeared before European Parliament more frequently and substantively than predecessors. Published ECB Annual Report in multiple languages with accessible summary. Engaged ECB Listens (public consultation for strategy review, 2020-2021): 4,000+ citizens consulted. The ECB's expanded power (QE, banking supervision, PEPP) created legitimacy questions — the institution spent €5tn+ with no direct democratic mandate. Lagarde's response: increase transparency and accountability without reducing operational independence. This is politically sophisticated — ECB cannot afford populist backlash that would undermine independence."
+      },
+      {
+        "label": "cross_currency_swap_line_maintenance",
+        "value": 0.64,
+        "evidence": "ECB maintained bilateral swap lines with Fed (unlimited, established 2013), BoE, BoJ, SNB, BoC throughout Lagarde tenure. Used during COVID March 2020 (dollar demand surge): drew down ~€150bn through Fed swap facility. Mar 2023: extended swap lines amid Credit Suisse stress. The swap line network is the global financial safety net's infrastructure — Lagarde maintained and used it appropriately. The bilateral network also provides diplomatic leverage: non-participating central banks (China, Russia after 2022) are outside the safety net, which became relevant in 2022 sanctions architecture."
+      },
+      {
+        "label": "inflation_target_strategy_review_2021",
+        "value": 0.78,
+        "evidence": "Jul 8, 2021: ECB strategy review outcome. Key changes: (1) 2% symmetric inflation target (vs. 'below but close to 2%'). (2) Allow temporary, moderate overshoot 'when economy near lower bound.' (3) Include owner-occupied housing in HICP assessment. (4) Climate change integration into ECB framework. The strategy review took 18 months (Jan 2020 – Jul 2021), first since 2003. Lagarde chaired the process — her primary intellectual contribution to ECB beyond crisis management. Symmetric target gave theoretical justification for more accommodation than Draghi had operationally practiced — and was immediately tested by 2021-2022 inflation surge (which it was not designed to handle)."
+      },
+      {
+        "label": "asset_purchase_tapering_communication",
+        "value": 0.67,
+        "evidence": "Dec 2021: PEPP tapering announced (Q2 2022 end) despite HICP rising to 4.9%. Lagarde simultaneously stated 'ECB unlikely to raise rates in 2022' — the most explicit pre-commitment she made, reversed within 8 weeks. The Dec 2021/Feb 2022 communication sequence was the worst-managed in her tenure: PEPP taper appropriate (balance sheet normalization); rate hike exclusion far too aggressive. The tapering communication itself was not poorly designed (clear sequencing: PEPP end → APP taper → rate hike); the error was the simultaneous rule-out of rate hikes given already-elevated inflation."
+      },
+      {
+        "label": "geopolitical_shock_response_2022_energy",
+        "value": 0.74,
+        "evidence": "Feb 24, 2022 invasion triggered European energy price surge: natural gas prices rose 400% by Aug 2022, headline HICP reached 10.6% (Oct 2022). ECB response challenge: inflation driven by supply shock (energy), not demand — textbook argument for 'look through.' Lagarde's decision: hike anyway, because (1) second-round effects (wage-price spiral) risk was real at 10%+ inflation, (2) credibility of 2% target required action, (3) demand component was present alongside supply shock. This was the correct decision but difficult — hiking into supply-shock inflation means accepting additional demand contraction on top of already-negative supply shock. Euro area entered technical recession 2022 Q4 – 2023 Q1."
+      },
+      {
+        "label": "forward_guidance_abandonment_2022",
+        "value": 0.73,
+        "evidence": "Pre-Jun 2022: ECB guidance stated rates would not rise until APP ended; APP end was June. First hike: Jul 21, 2022 — within mandate of guidance. But the unprecedented +50bp (vs. signaled +25bp) at first hike was a guidance deviation. Subsequent guidance was deliberately vague: 'meeting-by-meeting' (removed explicit forward guidance). This was correct — with inflation highly uncertain, binding guidance was dangerous. Lagarde explicitly stated 'we are moving to a new guidance approach' in Sep 2022. The guidance framework shift (from outcome-based to meeting-by-meeting) mirrors Powell's similar shift — both learned from the 2021-2022 guidance failure."
+      },
+      {
+        "label": "imf_sdr_allocation_2021",
+        "value": 0.66,
+        "evidence": "While Lagarde was at IMF, she laid groundwork for the $650bn SDR allocation (Aug 2021, largest in IMF history). The allocation was finalized under Georgieva (Lagarde's successor) but the political groundwork was laid in Lagarde's final IMF years and the COVID crisis provided the triggering event. As ECB President, Lagarde applauded the SDR allocation for supporting emerging market countries — consistent with her multilateral institution-building instinct. The ECB itself does not hold SDRs, but European members' allocation increases their reserve capacity."
+      },
+      {
+        "label": "labour_market_as_inflation_indicator",
+        "value": 0.71,
+        "evidence": "Euro area unemployment fell to record lows (6.1%, 2023) even as ECB hiked 450bp. This 'tight labour market despite hiking' was a key data point for Lagarde: argued it demonstrated the economy was absorbing rate hikes without significant job loss. Counter-argument: labour market lagging indicator, job losses would come later. Lagarde's monitoring: participation rate recovery post-COVID, vacancy rates, job-finding rates — full labour market framework, not just headline unemployment. By 2024: employment growth slowed but unemployment remained near historic lows, supporting the 'soft landing' narrative that guided easing decision."
+      },
+      {
+        "label": "bank_lending_survey_as_policy_input",
+        "value": 0.64,
+        "evidence": "ECB Bank Lending Survey (quarterly): measures credit standards and demand. Used by Lagarde as explicit input into policy: Q4 2022 survey showing sharp tightening of credit standards was cited in Dec 2022 decision. Q2 2023 survey showing continued credit contraction contributed to Jun 2023 25bp step-down (vs. prior 50bp). The BLS data gives insight into bank-level transmission that the interest rate data alone cannot capture. Lagarde's use of BLS as a regular policy input represents appropriate use of available micro data to assess transmission — more systematic than Draghi's usage."
+      },
+      {
+        "label": "eu_fiscal_framework_reform_engagement",
+        "value": 0.67,
+        "evidence": "2023-2024: EU Stability and Growth Pact reform (Maastricht 3% deficit and 60% debt rules revised into 'national medium-term fiscal structural plans'). Lagarde: supported reform while insisting fiscal consolidation must proceed once monetary policy normalized. The new framework allows more country-specific paths to debt reduction rather than mechanical rules. ECB engagement: Lagarde welcomed reform as more economically sound than mechanical rules, consistent with IMF's research on fiscal multipliers. This positions ECB as fiscally responsible advocate (not austerity hawk) — different from Trichet/early-crisis ECB tone."
+      },
+      {
+        "label": "crypto_and_stablecoin_regulatory_stance",
+        "value": 0.68,
+        "evidence": "Lagarde: consistently hawkish on crypto regulation. Called Bitcoin 'worth nothing' (Jan 2023). Pushed for MiCA (Markets in Crypto Assets) regulation — EU implemented 2023, first major jurisdiction comprehensive crypto framework. Concerns: (1) Money laundering/illicit finance. (2) Stability risk (FTX Nov 2022: validated concerns). (3) Monetary sovereignty challenge (stablecoins). Digital euro: ECB's own CBDC as regulatory-compliant alternative to private crypto. The regulatory stance is consistent: private crypto is a risk, should be regulated; public CBDC is the ECB's preferred digital money form. More hawkish than Fed on crypto (Powell: 'crypto and dollar can coexist')."
+      },
+      {
+        "label": "ecb_profitability_loss_2023",
+        "value": 0.57,
+        "evidence": "ECB 2023 accounts: net loss of €1.3bn (first loss since 2004). Cause: interest paid on reserves (banks earned 4% on €3.5tn excess reserves deposited at ECB) exceeded ECB income from low-yield bonds purchased under QE. ECB covered loss from provisions (zero dividend to national central banks). National central banks (Bundesbank, BdF, etc.) also reported losses. This is the 'profit inversion' problem of QE: works well when rates are low/negative, creates balance sheet losses when rates rise rapidly. Lagarde: explained this was expected consequence of rate normalization, ECB can operate with negative equity because it has unlimited euro-issuance capacity. Correct explanation, but politically uncomfortable."
+      },
+      {
+        "label": "sintra_forum_as_policy_signal_platform",
+        "value": 0.72,
+        "evidence": "ECB Forum on Central Banking (Sintra, Portugal, annual since 2014): used as platform for major policy signals. Lagarde Jun 2021 Sintra speech: maintained 'transitory' inflation view — subsequently wrong. Jun 2022 Sintra: signaled upcoming 50bp hike (exceeded signaled 25bp). Jun 2023 Sintra: stated 'we are not done' — pre-committed to more hikes. Jun 2024 Sintra: signaled patient approach to further cuts. The Sintra platform has been used for both correct and incorrect signals, but consistently as the primary annual communication event outside press conferences. Draghi used it the same way (Jackson Hole speech 2014 was influential)."
+      },
+      {
+        "label": "post_pandemic_policy_normalization_sequencing",
+        "value": 0.76,
+        "evidence": "Lagarde's normalization sequence: (1) Mar 2022: APP reduced from €40bn to €30bn. (2) Jun 2022: APP reduced to €20bn. (3) Jul 2022: APP ended, first rate hike +50bp. (4) Reinvestment maintained. (5) PEPP reinvestment maintained. (6) TPI activated if needed. (7) Dec 2023: PEPP reinvestment reduction announced. (8) Rates cut Jun 2024. The sequencing was methodical and communicated clearly — 'sequencing first, then pace' approach. Critics: too slow (APP maintained too long given already-high inflation). Defense: needed to build council consensus for each step to maintain institutional legitimacy."
+      },
+      {
+        "label": "term_extension_possibility",
+        "value": 0.61,
+        "evidence": "ECB President term: single non-renewable 8-year term (same as Draghi). Lagarde started Nov 2019, term ends Oct 2027. As of 2026, mid-term. Unlike IMF MD (which can be renewed), ECB President is constitutionally term-limited. This creates a specific behavioral constraint for 2026-2027: Lagarde will be making policy decisions in the final year of her tenure, knowing her successor will be chosen by EU governments. The lame-duck dynamic may affect her willingness to take controversial positions in 2026-2027. Historical precedent: Draghi in his final year (2019) restarted QE aggressively — contrary to German objections — suggesting no lame-duck restraint."
+      },
+      {
+        "label": "yield_curve_control_consideration",
+        "value": 0.48,
+        "evidence": "BoJ's Yield Curve Control (YCC) was periodically discussed by ECB watchers as potential ECB tool. Lagarde: never adopted YCC, never seriously discussed publicly. Reasons: (1) ECB's rate structure is more complex (19 countries' yield curves, not one). (2) TPI already addresses spread management. (3) YCC in Japan required massive balance sheet expansion to defend — 50%+ of JGB market. (4) ECB legal constraints (monetary financing) make open-ended commitments to specific yield levels problematic. The non-adoption of YCC is correct given ECB institutional constraints, not a failure of tool imagination."
+      },
+      {
+        "label": "inflation_expectations_survey_reliance",
+        "value": 0.73,
+        "evidence": "ECB Survey of Professional Forecasters (SPF): quarterly, 60+ institutions. ECB Consumer Expectations Survey: monthly, 5-country household survey. Lagarde regularly cited both in press conferences. Key episode: Aug 2022 SPF showed long-term inflation expectations at 2.1% (marginally above 2%) — interpreted by ECB hawks as de-anchoring signal, contributed to Sep 2022 75bp decision. Counter: 2.1% is not de-anchoring. The reliance on surveys as leading indicators of expectation changes is methodologically sound but creates risk of over-reaction to small survey moves. The Aug 2022 episode may have biased the Sep 75bp decision toward larger-than-warranted hike."
+      },
+      {
+        "label": "net_zero_ecb_portfolio_transition",
+        "value": 0.65,
+        "evidence": "Oct 2022: ECB began tilting corporate bond portfolio toward companies with better climate transition plans (Paris-aligned). Methodology: choose between issuers based on scope 1-3 emissions, climate targets, disclosure quality. Target: net-zero corporate bond portfolio by 2050. The practical effect is small (CSPP is ~€380bn vs. €8tn euro area bond market) but the signal is large: ECB has established the principle that climate risk affects asset quality. Weidmann-successors and Dutch/Austrian central banks challenged this as outside mandate. Lagarde's defense: physical and transition climate risks affect price stability (through their effects on economic output and inflation)."
+      },
+      {
+        "label": "euro_area_recession_avoidance_2022_2023",
+        "value": 0.72,
+        "evidence": "Euro area technical recession: Q4 2022 (-0.1%), Q1 2023 (-0.1%). Two negative quarters = technical recession, but very shallow. Lagarde communications: did not call it a recession, described as 'period of subdued growth.' Energy price shock peak (Oct 2022) coincided with fastest ECB tightening. Counter-factual: without energy price caps (implemented by EU member states, €500bn+ in 2022-2023), recession would have been deeper. The fiscal-monetary interaction was significant: ECB tightening restrained demand while fiscal energy subsidies prevented collapse. This combination made the recession shallower than ECB tightening alone would have produced."
+      },
+      {
+        "label": "chinese_yuan_internationalisation_ecb_stance",
+        "value": 0.54,
+        "evidence": "Euro-yuan cross: maintained direct trading on ECB's watch. ECB reserve diversification: small yuan allocation. Lagarde statements on yuan: cautious — acknowledged Chinese economic importance but pointed to capital account restrictions and rule-of-law concerns as limiting yuan's reserve currency role. ECB position: dollar remains dominant reserve currency; euro is legitimate alternative; yuan's role is limited by institutional factors. Post-2022: the Russia sanctions experience raised questions about dollar concentration risk that the ECB had to address — but answer was further euro internationalisation, not yuan adoption."
+      },
+      {
+        "label": "ecb_staff_projections_credibility_under_lagarde",
+        "value": 0.61,
+        "evidence": "ECB staff projections under Lagarde had systematic errors in 2021-2022 (under-estimated inflation) and 2023 (over-estimated inflation persistence). Sep 2021 projection: HICP 2022 at 1.7% (actual: 8.4%). Mar 2022 projection: HICP 2022 at 5.1% (revised to 6.8% in Jun, actual 8.4%). These systematic errors led to the policy delay. From 2023: projections improved as backward-looking inflation models were adjusted. Lagarde began explicitly noting 'projection uncertainty' in press conferences, acknowledging that mechanically following projections had failed. The projection credibility problem is shared with Powell (who also followed 'transitory' models too long) — it is a general failure of DSGE-based forecasting in supply-shock environments."
+      },
+      {
+        "label": "ecb_pandemic_fiscal_bridge",
+        "value": 0.77,
+        "evidence": "PEPP was explicitly framed as 'pandemic emergency' — temporary, extraordinary, not a precedent. This framing was important for: (1) Getting German/hawkish support (they could support 'emergency' tool they would oppose as 'permanent'). (2) Setting up the normalization narrative (emergency ends, tool ends). (3) Legal cover (Article 122 TFEU emergency powers). The 'emergency' framing is a recurring ECB technique: each unconventional tool is presented as extraordinary/temporary to build political coalition, then becomes permanent infrastructure (OMT never used but permanent, PEPP reinvestment continues 2+ years). Lagarde learned this framing from Draghi's OMT presentation."
+      },
+      {
+        "label": "lagarde_versus_weidmann_nagel_dynamics",
+        "value": 0.69,
+        "evidence": "Weidmann resigned Dec 2021 (replaced by Nagel, equally hawkish). Nagel-Lagarde dynamic 2022-2024: Nagel consistently hawkish (delayed cuts, wanted higher terminal rate), Lagarde built coalition of French, Italian, Spanish governors for easing. The ECB vote: Nagel+Knot+Schnabel vs. de Cos+Panetta+Centeno — Lagarde's role is to find the position that a supermajority can support. Her political skills (not economic skills) are what make this possible. In Sep 2022 75bp decision: unanimous despite German preferences for 50bp — Lagarde secured German support by (1) committing to data-dependency, (2) not committing to future pace."
+      },
+      {
+        "label": "financial_innovation_tokenisation_ecb",
+        "value": 0.56,
+        "evidence": "ECB exploratory work on tokenised financial assets (bonds, equities on distributed ledger technology). Trial: Oct-Nov 2023 wholesale DLT settlement trials with BIS. Lagarde: supportive of exploring tokenisation, framing it as capital markets union enabler (digital securities cross-border settlement). This is a long-term infrastructure project, not near-term policy. Relevance: if tokenisation enables more integrated EU capital markets, it reduces ECB's transmission fragmentation problem. The work is exploratory but represents a genuine institutional commitment to financial innovation in the monetary system — consistent with the digital euro initiative."
+      },
+      {
+        "label": "2025_2026_rate_cutting_pace",
+        "value": 0.74,
+        "evidence": "2025 ECB rate cuts: continued from 2.75% (Jan 2025) toward estimated neutral rate. Lagarde communications: data-dependent, no pre-commitment to pace. Neutral rate estimates: 2-2.5% (ECB Research). Geopolitical uncertainty (Trump tariffs on EU goods) created dual risk: tariffs could be inflationary (cost-push) or deflationary (demand reduction). Lagarde's response: 'heightened uncertainty argues for optionality' — meaning avoid strong forward guidance that events could invalidate. The 2025-2026 cutting pace reflects that Lagarde's communication framework evolved from the awkward 'it's too early to say' responses of 2023 to a more sophisticated uncertainty-acknowledging framework."
+      },
+      {
+        "label": "eu_us_tariff_response_framework",
+        "value": 0.65,
+        "evidence": "Trump 2025 tariffs on EU goods: ECB had to assess impact on growth and inflation. The dual scenario: (1) Full tariffs + no retaliation → deflationary (reduced demand) → ECB could cut faster. (2) Full tariffs + EU retaliation → inflationary (higher import prices) → ECB must be careful. Lagarde's public response: 'ECB stands ready to provide liquidity if needed, will assess impact on price stability.' Did not signal specific rate path. This 'wait and see' is appropriate given genuine uncertainty, but also reflects the same pattern as 2021-2022 (waiting for data before acting), which was too slow in an inflationary shock. The tariff scenario presents the same analytical challenge as the 2022 energy shock."
+      },
+      {
+        "label": "ecb_president_as_eu_economic_spokesperson",
+        "value": 0.71,
+        "evidence": "Lagarde regularly speaks at EU summits, G7/G20, Davos, UN General Assembly — more than any ECB President before. This expanded public role reflects: (1) ECB's expanded importance in EU economic governance. (2) Lagarde's personal political network and comfort with political audiences. (3) The political nature of post-2020 economic challenges (climate, digitization, geopolitics). The expanded role creates a tension: ECB independence requires distance from politics; public spokesperson role requires political engagement. Draghi's equivalent was more technical (Jackson Hole speeches, ECB forums). Lagarde's version is more overtly political — EU fiscal reform, climate investment, digital sovereignty."
+      },
+      {
+        "label": "anti_money_laundering_ecb_role",
+        "value": 0.52,
+        "evidence": "AML (Anti-Money Laundering) supervision: historically a national competency, not ECB. Post-2022 Russian sanctions: ECB became implicated in AML through its supervisory role (banks under ECB supervision needed to implement sanctions). ECB Supervisory Board: required banks to exit Russian-linked business. AMLA (EU Anti-Money Laundering Authority): proposed 2021, being stood up 2024-2025. Lagarde supported AMLA creation — another Europeanization of a function previously national. The AML-monetary policy connection: both are transmission mechanisms, both require integrated EU-level authority to work effectively in a single market."
+      },
+      {
+        "label": "ecb_balance_sheet_normalization_pace",
+        "value": 0.66,
+        "evidence": "ECB balance sheet peak: €8.8tn (Jun 2022). Normalization: APP reinvestment ended Jul 2023 (€15bn/month runoff). PEPP reinvestment reduced from Jan 2025. By early 2026: estimated ~€6.5tn (25% reduction from peak). Pace compared to Fed: slower (Fed peak-to-trough reduction was 23% in 18 months; ECB at ~25% in 36 months). Lagarde's slower pace: (1) Larger balance sheet relative to GDP. (2) Fragmentation risk requires maintaining some anti-fragmentation buffer. (3) ECB does not have equivalent 'quantitative tightening' language (uses 'normalizing balance sheet'). The slower pace is appropriate given ECB's fragmentation constraint but means ECB entered the next potential crisis with a still-large balance sheet."
+      },
+      {
+        "label": "housing_cost_hicp_inclusion",
+        "value": 0.63,
+        "evidence": "ECB Strategy Review 2021 committed to including owner-occupied housing (OOH) costs in an enhanced inflation measure used alongside HICP. OOH not included in official HICP (unlike US CPI which includes owners' equivalent rent). ECB developed supplementary measure including OOH — shows 0.3-0.5% higher inflation than HICP during house price boom. Lagarde cited this as demonstrating ECB's attention to housing costs for households. The measure is supplementary, not the official target. Relevance: if OOH were in HICP, ECB would have seen higher measured inflation earlier in 2021-2022 and might have acted sooner — the index choice has policy implications."
+      },
+      {
+        "label": "ecb_public_communication_listening",
+        "value": 0.67,
+        "evidence": "ECB Listens initiative (2020-2021, part of strategy review): ECB conducted public consultations — 4,000+ submissions, 22 events across 11 countries. First time ECB actively sought public input before strategy decision. Topics raised: housing costs, climate change, inequality, euro area divergence. Lagarde's framing: 'We need to understand how people experience price stability.' This is democratic legitimacy-building rather than direct policy input — ECB's mandate does not change based on public consultation. But the process established the ECB as an institution that listens rather than purely technocratic elite. Unprecedented for a central bank of ECB's institutional culture."
+      },
+      {
+        "label": "imf_article_iv_consultation_experience",
+        "value": 0.65,
+        "evidence": "As IMF MD, Lagarde oversaw hundreds of Article IV consultations (annual country reviews). These involve: current account sustainability analysis, inflation forecasting, fiscal sustainability, financial stability assessment. The IMF framework emphasizes multilateral consistency (no country can simultaneously run large surpluses, someone must run deficits). This multilateral framework understanding is directly applicable to ECB's role: euro area current account imbalances (Germany surplus, Italy/Spain deficit) are the ECB equivalent of the IMF's multilateral adjustment problem. Lagarde's IMF experience gives her a macroeconomic framework for understanding intra-euro divergence that a national central banker might not have."
+      }
+    ]
+  }
+}

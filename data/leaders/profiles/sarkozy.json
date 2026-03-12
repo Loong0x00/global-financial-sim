@@ -1,0 +1,325 @@
+{
+  "leader": "Nicolas Sarkozy",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "President of France 2007-05-16 to 2012-05-15",
+    "French EU Council Presidency July-December 2008 (critical — coincided with full outbreak of GFC)",
+    "Interior Minister 2002-2004, 2005-2007; Finance Minister 2004; UMP party president 2004-2007; Mayor of Neuilly-sur-Seine 1983-2002",
+    "Key events: 2005 French banlieue riots response ('racaille' — 'scum' controversy), 2007 election victory over Ségolène Royal, 2008 EU Presidency + Lisbon Treaty ratification, 2008 financial crisis European coordination, Georgia-Russia ceasefire negotiation August 2008, 2010-2011 Eurozone debt crisis early phase (Greece bailout), 2011 Libya intervention (Operation Unified Protector), Arab Spring response, 2012 defeat by Hollande",
+    "Personal background: Budapest-born father (Hungarian Jewish refugee), French Corsican Catalan mother; Sciences Po graduate; barrister; Neuilly politics from age 22; three marriages (divorced Cécilia during presidency 2007, married Carla Bruni January 2008); childhood: parents divorced when he was 5, driven by competitive need to prove himself against Grandes Écoles establishment",
+    "Academic/analytical sources: Franz-Olivier Giesbert (Un Président ne devrait pas dire ça..., reporting), Jonathan Fenby (France on the Brink), political science analyses of hyperprésidence (Bastien François), Sarkozy own books (La République, les religions, l'espérance; Témoignage; Ensemble)"
+  ],
+  "behavior_matrix": {
+    "description": "Level 2 behavior matrix compiled for Nicolas Sarkozy, French President 2007-2012. Key dimensions: hyperactive diplomatic style driven by personal insecurity and compensatory overachievement, genuine conservative reformer frustrated by French institutional constraints, effective crisis manager (2008 GFC as EU President, Georgia ceasefire, Libya), but with deep personal flaws (impulsivity, grandiosity, media addiction). The son of a Hungarian immigrant who was never accepted by the Grandes Écoles establishment drove himself to the Elysée through sheer energy and political aggression. His presidency coincided with the worst economic crisis since the 1930s — his legacy is partly defined by how he responded. Sarkozy introduced a form of hyper-presidentialism to the Fifth Republic that went beyond even de Gaulle's personal style: he would personally negotiate everything, appear constantly in media, and make bilateral deals before informing Cabinet. His economic instincts were partly liberal (labour market reform intent) but constrained by French political economy and his own electoral need. The Libya intervention was his most consequential foreign policy choice — removing Gaddafi created a failed state that destabilised the Sahel region for a decade.",
+    "dimensions": 51,
+    "vectors": [
+      {
+        "label": "hyperactive_diplomatic_energy",
+        "value": 0.95,
+        "evidence": "Sarkozy's diplomatic style was defined by constant personal intervention. During his EU Presidency (2008): personally brokered the Georgia-Russia ceasefire (flew to Moscow/Tbilisi in August 2008 during a war), chaired the emergency G20 summit November 2008 (Washington), coordinated European bank recapitalisation. During Eurozone crisis: personally co-designed the EFSF with Merkel (the 'Merkozy' partnership). On Libya: personally called Obama to push for military intervention. The energy was relentless but not always productive — critics noted he often made deals that required reopening (Georgia ceasefire was implemented inconsistently). The hyperactivity derived partly from genuine conviction and partly from the psychological need to be at the centre of every major event."
+      },
+      {
+        "label": "eu_presidency_crisis_management_2008",
+        "value": 0.90,
+        "evidence": "Sarkozy's French EU Presidency (July-December 2008) coincided with the Lehman collapse (September 2008) — he became the de facto coordinator of European economic crisis response. Key actions: convened emergency Eurogroup meeting September/October 2008, pushed for European bank recapitalisation model (following Brown's UK template), brokered the EU commitment that no systematically important bank would be allowed to fail, organised the first G20 Leaders' Summit (November 2008, Washington — Sarkozy's initiative to elevate G20 from finance ministers to heads of government level). The G20 Leaders format — now the primary vehicle for global economic governance — was Sarkozy's proposal. He also concluded the Lisbon Treaty ratification during his Presidency (all 27 member states, avoiding another referendum disaster)."
+      },
+      {
+        "label": "g20_leaders_format_creation",
+        "value": 0.88,
+        "evidence": "Sarkozy was the primary advocate for elevating the G20 from finance ministers (Brown's G20 framework) to heads of government level. The Washington G20 Summit November 2008 was the first G20 Leaders' Summit — Sarkozy's proposal, with Bush hosting. His argument: the financial crisis was too large for G7 alone, and the new architecture required emerging market leaders (China, India, Brazil) at the table. Bush agreed partly because the political legitimacy of bringing China and India into the room was valuable. The G20 Leaders' format is now the primary venue for global economic governance. Sarkozy's role in creating it is often attributed primarily to Brown, but the heads-of-government elevation was Sarkozy's push."
+      },
+      {
+        "label": "merkozy_eurozone_partnership",
+        "value": 0.82,
+        "evidence": "The 'Merkozy' axis (Merkel-Sarkozy bilateral) was the driving force of European Eurozone crisis management 2010-2012. Key joint outputs: European Financial Stability Facility (EFSF) design 2010, Greek bailout framework May 2010, ECB bond purchase programme 2011 (private communication to Trichet), Fiscal Compact 2011-2012. The partnership was functional despite ideological tensions: Sarkozy wanted ECB to do more (monetise debt), Merkel insisted on fiscal discipline. The compromise: each got something — Merkel got fiscal rules (Fiscal Compact), Sarkozy got EFSF flexibility. The Merkozy dynamic drove European policy faster than the 27-member EU Council could, but also excluded smaller members. The partnership ended with Sarkozy's 2012 election defeat."
+      },
+      {
+        "label": "media_omnipresence_addiction",
+        "value": 0.90,
+        "evidence": "Sarkozy's media presence was unprecedented for a French president. Daily TV appearances during crises. Multiple press conferences per week. Personal phone calls to editors and journalists. The 'bling bling' presidency label: celebrated his election victory on a luxury yacht (Bolloré yacht) with business friends — symbolically catastrophic. Wore his sunglasses while meeting Bush (widely mocked). The media addiction was a double-edged trait: it generated enormous visibility and energy during crises, but it also created image problems (the 'bling' narrative) and compressed the time available for careful policy deliberation. Contrast with de Gaulle who used rarity of presidential communication as power. Sarkozy inverted this entirely."
+      },
+      {
+        "label": "libya_intervention_leadership",
+        "value": 0.88,
+        "evidence": "Sarkozy was the most active proponent of the 2011 NATO Libya intervention. He received the first Libyan opposition delegation (National Transitional Council) at the Elysée in March 2011 — before any other major leader. He personally lobbied Obama to support military action. France launched the first airstrikes (March 19, 2011). The stated rationale: Gaddafi's imminent massacre of Benghazi civilians. The actual mixed motives included: French-Libyan energy relationships, Sarkozy's domestic political difficulties (immigration debate), and his rivalry with Gaddafi (investigations later revealed Sarkozy's 2007 campaign allegedly received €50M from Libya — the 'affaire Kadhafi'). The intervention succeeded in removing Gaddafi but created a failed state and migration crisis that persists. The Sahel destabilisation (jihadist proliferation of Gaddafi's weapons) was a severe unintended consequence."
+      },
+      {
+        "label": "georgia_russia_ceasefire_2008",
+        "value": 0.85,
+        "evidence": "Sarkozy's most genuine diplomatic achievement: negotiating the August 2008 ceasefire between Russia and Georgia within 5 days of war starting. He flew personally to Moscow (met Medvedev and Putin) then Tbilisi (met Saakashvili). The six-point plan was agreed in 24 hours. Implementation was imperfect — Russia maintained troops in South Ossetia/Abkhazia beyond agreed positions. But the ceasefire stopped an active war. The speed was possible because Sarkozy had the presidential authority to make commitments on the spot, had existing relationships with both Russian and Georgian leaders, and had the physical energy to conduct shuttle diplomacy. This was hyperactive diplomacy at its most effective — a genuine crisis requiring urgent bilateral negotiation."
+      },
+      {
+        "label": "french_labour_market_reform_attempts",
+        "value": 0.55,
+        "evidence": "Sarkozy came to office with genuine labour market reform ambitions. The 2007 election mandate included flexibility reforms. Achievements: the service sector special economic zones (zones franches), some simplification of working time rules (overtime exemptions from social charges), pension reform 2010 (raising retirement age from 60 to 62 — massive social protests). But: comprehensive labour market reform failed. The 2009 crisis created political conditions hostile to structural reform. His approach — announcing reforms boldly then negotiating down — reduced their credibility and impact. French unemployment barely changed over his presidency (7.4% → 9.7% by 2012). Score of 0.55 reflects stated ambition with constrained delivery."
+      },
+      {
+        "label": "immigration_securitisation",
+        "value": 0.80,
+        "evidence": "Sarkozy built his political career partly on securitised immigration politics — unusual in French Republican tradition (which officially treats immigration as individual, not collective). Key actions: Roma expulsions 2010 (attracted EU Commission criticism, characterised by Commission VP Reding as reminiscent of WWII deportations), burqa ban law 2010 (first EU country), national identity debate 2009 (controversial, eventually abandoned), police quotas for deportations. As Interior Minister: 'racaille' (scum) characterisation of banlieue youth (2005), police operation Bouna Traoré/Zyed Benna deaths that triggered riots. The immigration politics were instrumentalised for electoral purposes — particularly trying to win back Front National voters."
+      },
+      {
+        "label": "atlanticist_nato_reintegration",
+        "value": 0.85,
+        "evidence": "Sarkozy reversed de Gaulle's 1966 withdrawal from NATO integrated military command — one of his most symbolically significant decisions. France rejoined NATO's integrated command structure in April 2009. His rationale: France needed to be inside NATO to influence it, Atlanticist posture improved US-France relationship damaged by Iraq (Chirac's opposition). The decision was opposed by parts of the French establishment (Gaullists, left). In practice: France became a more active NATO military contributor (Afghanistan surge, Libya operation). Sarkozy's Atlanticism was genuine but also calculatedly modernising — he saw the Gaullist tradition of semi-detached independence as an anachronism."
+      },
+      {
+        "label": "fiscal_stimulus_reluctance",
+        "value": 0.45,
+        "evidence": "Despite his activist diplomatic style, Sarkozy was more cautious on fiscal stimulus than Brown. The French fiscal response to 2008: €26bn stimulus plan (about 1.3% GDP) — smaller than UK or US responses. Sarkozy's instinct was more structuralist than Keynesian — he preferred investment in infrastructure and industrial policy over cash transfers. The EU Stability and Growth Pact constraints also limited French fiscal action (though France was already running deficits). By 2010-2012 Sarkozy pivoted to fiscal consolidation (under Merkel pressure). Score of 0.45 reflects limited appetite for large-scale Keynesian stimulus — more activist on regulation and institutional restructuring than on spending."
+      },
+      {
+        "label": "personal_compensation_psychological_driver",
+        "value": 0.88,
+        "evidence": "Sarkozy's hyperactivity has a clear psychological basis: compensating for status anxiety as a non-Grandes Écoles (he went to Sciences Po but not ENA/Polytechnique), immigrant-background outsider in the French Republican elite. He was 5'5\" (short even by French political standards) — the 'Sarkozy step' (raised platform for photos with taller leaders) became a media motif. His three marriages and relentless personal repositioning. The father who abandoned the family when Sarkozy was 5. His political psychology is consistent with the over-achiever compensatory model: never resting on any achievement, always needing the next one, always needing to be at the centre. This psychological dynamic drove both his strengths (relentless energy, willingness to take risks) and his weaknesses (impulsivity, media addiction, inability to maintain strategic focus)."
+      },
+      {
+        "label": "eurozone_crisis_efsf_architecture",
+        "value": 0.80,
+        "evidence": "The European Financial Stability Facility (EFSF) created May 2010 for Greece was jointly designed by Sarkozy and Merkel. The original design: €440bn bailout fund, temporary (3 years), bilateral loans from eurozone members. The design reflected the Merkozy compromise: Sarkozy wanted a more automatic mechanism (closer to ECB monetisation), Merkel insisted on conditionality and temporary nature. The EFSF was later upgraded to the ESM (European Stability Mechanism) — a permanent institution. The design was imperfect and had to be revised multiple times as the crisis spread. But the creation of a eurozone backstop at all — against German constitutional preferences — required Sarkozy's political energy to push through."
+      },
+      {
+        "label": "social_conservative_republican_values",
+        "value": 0.72,
+        "evidence": "Sarkozy's social conservatism was notable in a French context: explicit references to the 'civilisational value' of Christianity, opposition to same-sex marriage (though this was post-his Presidency), the national identity debate, burqa ban. He was the first French president to address the Pope in Vatican in those terms. But his personal life (three marriages, the Carla Bruni relationship disclosed before his divorce was finalised) undermined the social conservative positioning. The gap between stated conservative values and personal behaviour was wide. The social conservatism was partly genuine (Catholic background, conservative electorate) and partly electoral positioning (attempting to consolidate right and centre-right against Front National)."
+      },
+      {
+        "label": "reform_fatigue_management",
+        "value": 0.42,
+        "evidence": "Sarkozy came to power promising a 'rupture' with the past — a fundamental change in French economic and social model. The 2007 momentum was genuinely reformist: special regime pensions reform (SNCF/RATP) in 2007 was pushed through strikes, university autonomy law 2007, criminal justice reform. But reform energy dissipated rapidly: 2008 crisis interrupted reform agenda, opposition mobilised (teachers, students, unions), and Sarkozy's personal impulsivity meant reforms were announced, fought for, then abandoned when facing serious resistance. The pension reform 2010 (raising retirement age to 62) was the only major structural reform that survived — won at high political cost (massive street protests). Score of 0.42 reflects significant gap between reform ambition and delivery."
+      },
+      {
+        "label": "german_french_relationship_management",
+        "value": 0.80,
+        "evidence": "The Merkozy relationship was the defining European partnership of 2010-2012. Sarkozy managed the relationship with strategic sophistication: he accepted Merkel's fiscal discipline preferences (Fiscal Compact) in exchange for German agreement to EFSF/ESM backstop and ultimately ECB activism (Draghi 'whatever it takes' 2012, which Merkel eventually endorsed). The French-German axis is the essential structural requirement for any major EU policy — without both, nothing moves. Sarkozy understood this and invested heavily in the personal relationship with Merkel, despite ideological differences (CDU ordo-liberalism vs Sarkozy's activist state). The partnership ended with his electoral defeat but the institutional frameworks it created (ESM, Fiscal Compact) lasted."
+      },
+      {
+        "label": "china_economic_relationship_pragmatism",
+        "value": 0.68,
+        "evidence": "Sarkozy's China policy was pragmatically commercial with occasional human rights posturing. He met the Dalai Lama in December 2008 (Beijing retaliated by cancelling a French-EU summit) — a gesture that complicated Franco-Chinese relationships for months. But the diplomatic rupture was repaired relatively quickly: Sarkozy needed Chinese participation in G20 coordination and China needed European cooperation. The incident showed Sarkozy's impulsivity — the Dalai Lama meeting was taken without full assessment of consequences — followed by pragmatic course-correction. Large Airbus/Areva/infrastructure contracts with China continued throughout his presidency."
+      },
+      {
+        "label": "arab_spring_response_ambiguity",
+        "value": 0.48,
+        "evidence": "Sarkozy's Arab Spring response was confused and inconsistent. Tunisia: French Interior Minister Alliot-Marie offered French security assistance to Ben Ali's government days before his fall (January 2011) — deeply embarrassing. Egypt: slow to call for Mubarak's departure. Libya: the reversal — from Gaddafi's rehabilitation (he had pitched his Bedouin tent in the Elysée courtyard garden in 2007, received as a partner) to the leading proponent of his military removal in 2011 — was jarring. The inconsistency reflected: no coherent Arab Spring doctrine, competing interests (existing energy/business relationships vs democratic rhetoric), and Sarkozy's impulsive decision-making."
+      },
+      {
+        "label": "presidential_power_concentration",
+        "value": 0.88,
+        "evidence": "Sarkozy further concentrated power in the Elysée, accelerating the 'hyperprésidence' tendency already present in de Gaulle's Fifth Republic design. Key manifestations: PM Fillon was explicit that he was the 'collaborateur' of the President, not an independent executive. Cabinet ministers spoke only if they had Elysée clearance on major decisions. Sarkozy regularly phoned ministers directly, bypassing Cabinet hierarchy. The diplomatic interventions (Georgia, Libya, G20) were his personal operations, not coordinated Foreign Ministry initiatives. The 2008 Constitutional reform expanded presidential powers (right to address both chambers jointly). French political scientists characterised it as 'présidentialisme extrême.'  "
+      },
+      {
+        "label": "economic_liberalism_rhetorical_vs_actual",
+        "value": 0.45,
+        "evidence": "Sarkozy presented himself as an economic liberal (flexible labour markets, competitive markets, less state) but governed significantly more interventionist. Key interventionist acts: nationalising Dexia (partially), recapitalising French banks in 2008, major industrial policy statements ('I will never let France be deindustrialised'), state support for PSA/Renault (conditional on no factory closures), strategic investment funds. The tension: French political economy made genuine liberalism electorally impossible (state sector employs 23% of French workers, welfare state sacred). Sarkozy's rhetorical liberalism was directed at business/European partners; his actual policy was substantially interventionist. Score of 0.45 reflects the large gap between stated and revealed preferences."
+      },
+      {
+        "label": "personal_financial_scandal_vulnerability",
+        "value": 0.65,
+        "evidence": "Sarkozy's presidency was shadowed by allegations of improper financial dealings. Key investigations: 'affaire Woerth-Bettencourt' (2010 — alleged illegal campaign financing from L'Oreal heiress Liliane Bettencourt), 'affaire Kadhafi' (alleged €50M in Libyan campaign financing 2007 — later central to Sarkozy's criminal conviction), 'affaire Tapie' (Adidas/Tapie arbitration where Sarkozy allegedly influenced an arbitration awarding €285M to Tapie). Many of these investigations only resulted in convictions after his presidency. In 2021 Sarkozy was convicted of corruption and influence trafficking (the 'affaire Gilbert Azibert') — sentenced to 3 years. In 2023 convicted in the Libyan financing case. Score of 0.65 reflects the scale and systematic nature of the allegations."
+      },
+      {
+        "label": "impulsive_decision_making",
+        "value": 0.78,
+        "evidence": "Sarkozy's decision-making was characterised by impulsivity relative to the deliberative French administrative tradition. Examples: the Dalai Lama meeting without full Foreign Ministry assessment, the 'racaille' statement on live radio without clearing it, announcing pension reform timelines before Cabinet discussion, calling heads of state directly before going through diplomatic channels, announcing Libya intervention before securing full NATO/UN backing. The impulsivity was partly a deliberate style (he claimed 'action first, then negotiation' was more effective than extended consultation) and partly genuine psychologically. It generated energy and speed at the cost of strategic consistency."
+      },
+      {
+        "label": "roma_expulsions_eu_friction",
+        "value": 0.72,
+        "evidence": "The 2010 Roma expulsions — deportations of EU citizens (Romanian and Bulgarian Roma) from France — created the most serious EU internal rights conflict of his presidency. EU Commission VP Viviane Reding compared the deportations to WWII (she later apologised for the comparison). Sarkozy defied both EU pressure and domestic liberal opinion. His rationale: public order, illegal encampments. The legal ground was contested — as EU citizens, Roma had freedom of movement rights. The episode illustrated his willingness to use securitised minority politics for domestic electoral purposes regardless of European diplomatic costs."
+      },
+      {
+        "label": "fiscal_consolidation_credibility_2011",
+        "value": 0.62,
+        "evidence": "By 2011 Sarkozy pivoted from stimulus to fiscal consolidation under Merkel's pressure and markets' concern about French spreads. The 2011 austerity plan: €65bn fiscal consolidation over 5 years. France maintained its AAA rating through most of his presidency (lost it January 2012, just before the election). The pivot was genuine — Sarkozy committed to specific consolidation numbers. But the timing was economically questionable (consolidating while the eurozone was still in crisis risk) and the implementation was incomplete (France continued running 5%+ deficits). The consolidation was real but insufficient — the French fiscal position did not significantly improve."
+      },
+      {
+        "label": "personal_charisma_and_voter_connection",
+        "value": 0.80,
+        "evidence": "Sarkozy won the 2007 election with 53% of the vote — the highest right-wing presidential vote since 1974. His ability to connect with voters was real, particularly with working-class voters who would previously have voted centre-left or Front National. His language was deliberately non-Élysée — he used argot, spoke emotionally, referenced his own experience as an outsider. The 2007 campaign slogan 'Ensemble, tout devient possible' (Together, everything becomes possible) was aspirational and connected with a French electorate frustrated with Chiraquian immobility. By 2012 this connection had eroded — the 'bling bling' image, the economic record, and the Carla Bruni distraction had all damaged it. Lost 2012 to Hollande 48%-52%."
+      },
+      {
+        "label": "energy_nuclear_policy_continuity",
+        "value": 0.75,
+        "evidence": "Sarkozy was a strong advocate for French nuclear energy — consistent with French industrial policy tradition. He pushed for nuclear cooperation agreements with Gulf states (UAE, Jordan, Saudi Arabia — the 'Sarkozy doctrine' on nuclear exports), sold Areva reactors, maintained France's 75% nuclear electricity dependence. Post-Fukushima (March 2011) he publicly defended nuclear energy when Merkel was announcing German nuclear exit. The nuclear policy was genuine Gaullist industrial policy conviction — France's post-WWII technological independence through nuclear energy. It created diplomatic opportunities (Gulf state relationships) but also complications (non-proliferation concerns about nuclear exports to volatile regions)."
+      },
+      {
+        "label": "european_constitution_bypass",
+        "value": 0.78,
+        "evidence": "France voted No to the EU Constitutional Treaty in the 2005 referendum under Chirac. The Lisbon Treaty was essentially the same content repackaged to avoid referendums. Sarkozy ratified Lisbon by parliamentary vote (not referendum) in February 2008 — explicitly choosing the institutional route over democratic consultation because another French 'No' would have been catastrophic for European integration. His defence: the Lisbon Treaty was meaningfully different from the Constitution. Critics (left and sovereigntist right): it was cynically avoiding the democratic verdict of 2005. Score of 0.78 reflects Sarkozy's pragmatic willingness to bypass democratic process when institutional outcomes were at stake."
+      },
+      {
+        "label": "financial_regulation_reform_advocacy",
+        "value": 0.82,
+        "evidence": "Sarkozy was among the most vocal advocates for global financial regulation reform post-2008. His G20 November 2008 Washington speech called for 'refunding capitalism' — a new Bretton Woods. His specific positions: regulation of hedge funds and tax havens, greater transparency in financial instruments, reform of accounting standards (mark-to-market), ECB broader mandate. The outcomes: Basel III was developed under the FSB framework he helped create, OECD tax haven crackdown, some hedge fund regulation (AIFMD). Sarkozy's rhetoric was ahead of policy delivery — the 'new Bretton Woods' never materialised. But his advocacy shifted the political consensus on financial regulation toward greater intervention."
+      },
+      {
+        "label": "foreign_policy_bilateral_over_multilateral",
+        "value": 0.72,
+        "evidence": "Like de Gaulle's heritage, Sarkozy preferred bilateral dealmaking to multilateral processes. Georgia: bilateral negotiation bypassed EU foreign policy mechanisms. Libya: unilateral French airstrikes preceded NATO authorisation. Mediterranean Union: Sarkozy's 2008 initiative was partly a bilateral French-Arab world project that excluded northern EU members from its core design (Germany was offended by being excluded from the founding summit). The bilateral approach reflected: faster results possible, French national prestige maximised, less EU institutional constraint. But it also created EU solidarity problems and sometimes produced deals that needed multilateral backing he hadn't secured first."
+      },
+      {
+        "label": "mediterranean_union_initiative",
+        "value": 0.58,
+        "evidence": "The Union for the Mediterranean (UfM) launched July 2008 was one of Sarkozy's signature foreign policy initiatives — a geopolitical vision of France as the natural broker between Europe and the Arab/African world. The reality: the UfM founding Paris Summit was impressive symbolically (43 heads of state), but the institution was hobbled by the Israeli-Palestinian conflict (Arab states refused Israeli participation in working sessions), the 2008 financial crisis diverted attention, and the Arab Spring (2011) disrupted all the partner governments. The UfM secretariat in Barcelona remains but is of modest practical significance. The initiative reflected Sarkozy's vision and energy but also his tendency to launch big and under-deliver on institutionalisation."
+      },
+      {
+        "label": "election_defeat_psychological_impact",
+        "value": 0.55,
+        "evidence": "Sarkozy's 2012 defeat (48%-52% to Hollande) was the first sitting president to lose re-election since Valéry Giscard d'Estaing in 1981. The defeat reflected: high unemployment (9.7%), 'bling' image fatigue, anger at pension reform, and Hollande's effective 'change' message. Sarkozy's response: immediate withdrawal from public life (unlike post-PM Blair's constant presence). He returned to UMP leadership (renamed Les Républicains) in 2014, won the primary in 2016 — then lost the primary to Fillon, effectively ending his presidential career. The criminal convictions (2021, 2023) further complicated any return. Score of 0.55 reflects an unusually dramatic fall from electoral relevance for a president who had won with such large margins."
+      },
+      {
+        "label": "security_sector_reform_interior_ministry",
+        "value": 0.72,
+        "evidence": "Sarkozy built his reputation as Interior Minister (2002-2004, 2005-2007) on aggressive internal security. His policies: zero tolerance policing, increased deportations, new laws on gang membership and repeat offending, strengthened anti-terrorism legislation. The 2005 banlieue riots — triggered partly by his 'racaille' comment about the youth of Clichy-sous-Bois — were handled controversially: harsh rhetoric, extended state of emergency. The long-term effectiveness of his policing model was contested but his political capital from appearing tough on crime was real and durable. The Interior Ministry period was essential preparation for the Elysée — he built a national political profile through security rhetoric."
+      },
+      {
+        "label": "tax_cuts_and_fiscal_promises",
+        "value": 0.60,
+        "evidence": "Sarkozy's 2007 election manifesto included significant tax cuts: reduction in income tax for top earners, tax shield (15% of income cap on total tax payments — abolished 2012), abolition of inheritance tax for 95% of estates, overtime work tax exemption ('travailler plus pour gagner plus' — work more to earn more). These were partially implemented. The tax shield (bouclier fiscal) became deeply unpopular — symbolising tax cuts for the rich. The fiscal cost of the tax cuts, combined with the 2008 crisis stimulus, significantly widened the French deficit. Sarkozy's fiscal record: deficit went from 2.3% (2007) to 7.5% GDP (2009). Score of 0.60 reflects delivery on tax cuts combined with fiscal deterioration that partially contradicted them."
+      },
+      {
+        "label": "climate_change_cop_engagement",
+        "value": 0.68,
+        "evidence": "Sarkozy positioned France as a climate leader. The Grenelle de l'environnement 2007 — a major multi-stakeholder consultation on environmental policy — was a genuine process that produced the Grenelle Laws (2008-2010) with ambitious renewable energy targets, carbon price mechanism, building retrofit standards. France hosted COP15+1 preparations. But: Sarkozy's genuine climate commitment competed with his nuclear advocacy (he saw nuclear as the climate solution, which created tensions with environmentalists who opposed nuclear), and the Grenelle Laws' implementation was inconsistent. Score of 0.68 reflects genuine engagement with institutional delivery shortfalls."
+      },
+      {
+        "label": "relationship_with_business_elite",
+        "value": 0.80,
+        "evidence": "Sarkozy had unusually close relationships with French and international business elite — closer than any Fifth Republic president since Giscard. The 'bling' image reflected this: Fouquet's restaurant victory celebration with business friends, holiday on Bolloré yacht, regular dinners with Martin Bouygues, Arnault, Lagardère. These relationships generated political support (business donations) and policy influence (friendly regulatory treatment of major French companies). The relationship also created scandals: Bettencourt affair (L'Oréal heiress as alleged campaign donor), Tapie arbitration (media billionaire receiving €285M state settlement). The business elite relationship was a structural feature of his political operation."
+      },
+      {
+        "label": "europe_federal_vs_intergovernmental",
+        "value": 0.55,
+        "evidence": "Sarkozy's European vision was explicitly intergovernmental rather than federal — consistent with Gaullist tradition. He supported strong EU institutions where they served French interests (Common Agricultural Policy, euro, Schengen) but resisted further sovereignty transfer. His support for the Fiscal Compact (2011-2012) was a concession to German fiscal preferences, not a federalist impulse. On euro area fiscal union — where French national interest arguably pointed toward greater integration — he stopped short of the full fiscal union that Draghi's ECB implicitly required. The EU for Sarkozy was a French power amplifier, not a post-national project."
+      },
+      {
+        "label": "populist_electoral_style",
+        "value": 0.78,
+        "evidence": "Sarkozy pioneered a form of right-wing populism that is now dominant across European right parties. Elements: national identity rhetoric, securitised immigration, law and order emphasis, 'real France' vs 'established elite' framing, aggressive media use. He explicitly targeted Front National voters with messaging designed to make Le Pen redundant. The 2007 strategy worked — FN's Le Pen père was left with historic lows. By 2012 the FN had recovered as Sarkozy's record disappointed his populist supporters. The Sarkozyst political model — combining economic partial-liberalism with social conservatism and immigrant securitisation — was the template for subsequent European right politics."
+      },
+      {
+        "label": "iran_nuclear_multilateral_coordination",
+        "value": 0.72,
+        "evidence": "France under Sarkozy maintained firm positions on Iran nuclear programme within the P5+1 framework. Sarkozy was hawkish on Iran — he publicly stated that Iranian nuclear bomb would be 'unacceptable' and supported extending sanctions. France was among the most vocal supporters of tighter EU sanctions on Iran (oil embargo 2012). His position was harder than Obama's initial engagement approach. France's P5+1 role was generally constructive — pushing for stricter terms while maintaining the multilateral framework. Score of 0.72 reflects genuine engagement with partial independence from US line."
+      },
+      {
+        "label": "pension_reform_willingness_under_opposition",
+        "value": 0.72,
+        "evidence": "The 2010 pension reform (raising retirement age from 60 to 62, full pension from 65 to 67) was the most significant domestic structural reform of Sarkozy's presidency. Street protests reached 3.5 million participants (largest since 1995). Sarkozy pushed it through despite the opposition — a contrast with previous presidents who backed down under similar pressure. His rationale: France's pension system was actuarially unsustainable, demographic change required longer working lives. The reform was relatively modest by European standards but the political confrontation was sharp. He showed genuine political courage on this — though opponents noted the reform was smaller than actuarial necessity required."
+      },
+      {
+        "label": "single_market_financial_regulation_reform",
+        "value": 0.78,
+        "evidence": "Post-2008 Sarkozy pushed hard for EU-level financial regulation reform. Key positions: EU-wide hedge fund regulation (AIFMD directive, implemented 2011), EU financial transaction tax (proposed, never achieved in full EU), stricter capital requirements for banks (supported Basel III). France's large banks (BNP Paribas, Société Générale, Crédit Agricole) had substantial exposure to European sovereign debt — Sarkozy had a national interest in systemic stability reforms. The EU financial regulatory framework created 2009-2012 (European Banking Authority, ESMA, EIOPA — the European System of Financial Supervision) was substantially designed during his EU Presidency and subsequent years."
+      },
+      {
+        "label": "french_common_agricultural_policy_protection",
+        "value": 0.85,
+        "evidence": "French agricultural interests in the EU Common Agricultural Policy were one of Sarkozy's non-negotiable positions. France is the largest beneficiary of CAP (approximately €9bn annually). During EU budget negotiations, Sarkozy consistently protected CAP spending against UK (Cameron) demands for CAP reform. The 2013 CAP reform negotiations were contentious — France resisted output-decoupling reforms that UK/Germany favoured. His agricultural protectionism reflected genuine rural France constituency management and Gaullist economic nationalism. Score of 0.85 reflects essentially unconditional protection of this sector."
+      },
+      {
+        "label": "sovereign_wealth_fund_defense_mechanism",
+        "value": 0.75,
+        "evidence": "Sarkozy created the Strategic Investment Fund (Fonds Stratégique d'Investissement, FSI) in November 2008 — a €20bn state fund to take stakes in French companies at risk of foreign takeover or insolvency during the crisis. This was industrial policy as crisis insurance: protecting strategic companies (defence, energy, automotive) from opportunistic acquisition when valuations were depressed. The FSI took stakes in Valeo, STMicroelectronics, and others. The mechanism reflected Sarkozy's economic nationalism: the state would not allow strategic industrial assets to be acquired by non-French interests. Later merged into Bpifrance (2012)."
+      },
+      {
+        "label": "turkey_eu_membership_opposition",
+        "value": 0.82,
+        "evidence": "Sarkozy was a vocal opponent of Turkish EU membership — one of his clearest and most consistent positions. His argument: Turkey was not 'European' in his definition (geographic, cultural, Christian heritage). He blocked opening of several accession chapters during France's EU Presidency and publicly stated Turkey should have a 'privileged partnership' not membership. This position was ideologically consistent (his social conservatism, his European 'civilisational' identity rhetoric) and electorally useful (opposition to Turkish membership was popular in France). It created tensions with US (which supported Turkish membership) and was controversial within EU (many Eastern European members supported Turkey's accession path)."
+      },
+      {
+        "label": "ecb_mandate_expansion_advocacy",
+        "value": 0.65,
+        "evidence": "Sarkozy consistently argued the ECB should have a broader mandate — not just price stability but also growth and employment. This was standard French centre-right positioning (French tradition of dirigisme vs German ordo-liberal ECB independence doctrine). During the Eurozone crisis he pushed (carefully, given German sensitivities) for ECB to buy sovereign bonds — eventually achieved via the SMP (Securities Markets Programme, May 2010) and later the OMT (Draghi 'whatever it takes', 2012). He couldn't say this explicitly without triggering German constitutional court challenges, so the advocacy was through private communication to Trichet and later Draghi rather than public statements. Score of 0.65 reflects real advocacy constrained by political sensitivity."
+      },
+      {
+        "label": "crime_securitisation_electoral_use",
+        "value": 0.80,
+        "evidence": "Crime and public order were Sarkozy's defining domestic political instruments, developed in his Interior Ministry years. Specific patterns: announced policing operations with press present, 'zero tolerance' messaging, use of crime statistics for political framing, 2009 creation of 'national identity' debate linking immigration and crime. The 'kärcher' (industrial cleaning machine) metaphor for hosing down criminal elements from estates was deliberately provocative. His hardline security approach was rewarded electorally in 2007 — his Interior Ministry record was his primary qualification for the Elysée in voters' minds. The securitisation approach drove FN voters to UMP."
+      },
+      {
+        "label": "post_presidency_legal_vulnerability",
+        "value": 0.70,
+        "evidence": "Sarkozy's post-presidency has been dominated by criminal investigations and convictions — an unusual situation for any OECD head of state. 2021: convicted of corruption and influence trafficking (3-year sentence, 2 years suspended — 'Azibert affair', offering to pass confidential information to a judge in exchange for a favour). 2023: convicted in the Libyan campaign financing affair (6-year sentence, 2 suspended). Multiple other investigations ongoing. The legal situation reflects: genuine use of presidential office for personal benefit, French investigative magistrate independence, and the severity of the Libyan financing allegations if proven (accepting €50M from Gaddafi for 2007 campaign). This post-presidency legal exposure is relevant for backtesting because it shows that Sarkozy's decision-making was partly distorted by personal financial interests, particularly regarding Libya."
+      },
+      {
+        "label": "welfare_reform_limited_ambition",
+        "value": 0.42,
+        "evidence": "Sarkozy's welfare reform ambition was rhetorical rather than substantive. He repeatedly spoke about reducing dependency, activating welfare recipients, linking benefits to work obligations. In practice: the French welfare state remained essentially unchanged. The RSA (Revenu de Solidarité Active) was the main reform — merging income support and in-work benefits with the goal of making work always pay. Created by Martin Hirsch (appointed High Commissioner for Active Solidarities). The RSA was administratively complex and had limited take-up. Other welfare reform attempts (housing benefit, unemployment insurance) were blocked by unions and legislative opposition. Score of 0.42 reflects large gap between stated ambition and delivery."
+      },
+      {
+        "label": "eu_fiscal_coordination_promotion",
+        "value": 0.75,
+        "evidence": "Sarkozy pushed for greater EU fiscal coordination, though constrained by German preference for strict rules over mutualization. Key contributions: the Euro Plus Pact (2011) — voluntary coordination of national economic policies, the Fiscal Compact (2012) — constitutional balanced budget rules for eurozone members (Merkel's price for EFSF). Sarkozy accepted the Fiscal Compact because it was the German condition for continued eurozone crisis management. His preference was more Keynesian (fiscal stimulus) but he accepted the German rules framework to maintain the Merkozy partnership that was keeping the eurozone together. Score of 0.75 reflects strategic commitment to coordination mechanisms even when the specific rules were sub-optimal from his perspective."
+      },
+      {
+        "label": "personal_reinvention_capacity",
+        "value": 0.68,
+        "evidence": "Sarkozy showed notable ability to reinvent his personal image and political positioning. Key reinventions: from 'racaille' Interior Minister to 'ensemble tout devient possible' President (2007), from Gaullist to Atlanticist (NATO reintegration), from Gaddafi host (tent in Elysée garden 2007) to Libya intervention leader (2011), from 'bling bling' media celebrity to sober crisis manager (2008). The reinventions were enabled by France's presidential electoral system — voters evaluate the person, not the party programme. His 2012 defeat showed the limits: some reinventions (bling → serious statesman) were never fully credible. The attempted comeback 2014-2016 involved a further reinvention toward harder-right positions that ultimately failed."
+      }
+    ]
+  },
+  "red_lines": [
+    {
+      "id": "RL001",
+      "label": "french_industrial_champion_protection",
+      "description": "French strategic industries (nuclear, automotive, aerospace, defence) would not be allowed to be taken over by foreign companies or to fail without state intervention. 'I will never let France be deindustrialised.'",
+      "priority": 0.88
+    },
+    {
+      "id": "RL002",
+      "label": "french_eu_leadership_maintenance",
+      "description": "France's position as co-leader of EU with Germany was treated as non-negotiable. Any European decision made without French involvement was reversed or renegotiated.",
+      "priority": 0.90
+    },
+    {
+      "id": "RL003",
+      "label": "euro_stability",
+      "description": "Eurozone breakup was treated as existential — Sarkozy would accept significant political costs (German fiscal demands, democratic controversy) to prevent any eurozone member state exit.",
+      "priority": 0.92
+    },
+    {
+      "id": "RL004",
+      "label": "french_nuclear_deterrent",
+      "description": "French nuclear deterrent was completely off limits for any multilateral constraint. Non-negotiable inheritance of Gaullist strategic independence.",
+      "priority": 0.98
+    }
+  ],
+  "decision_style": {
+    "primary_mode": "hyperactive_bilateral_dealmaker",
+    "description": "Sarkozy makes decisions fast, personally, bilaterally. Strong preference for direct leader-to-leader contact over institutional processes. High energy, high impulsivity, some strategic consistency. Crisis-mode decision-making is often better than peacetime — adrenaline focuses the hyperactivity.",
+    "key_cognitive_biases": [
+      "overconfidence_in_personal_persuasion",
+      "status_anxiety_driven_overcommitment",
+      "impulsive_announcement_before_deliberation",
+      "domestic_electoral_distortion_of_foreign_policy"
+    ],
+    "crisis_response_mode": "personal_shuttle_diplomacy_with_bilateral_deals",
+    "information_fidelity": 0.75
+  },
+  "era_parameters": {
+    "in_office": "2007-05-16 to 2012-05-15",
+    "party": "UMP (Union pour un mouvement populaire)",
+    "country": "France",
+    "eu_presidency": "2008-07-01 to 2008-12-31 (coincided with GFC peak)",
+    "key_relationships": [
+      {"name": "Angela Merkel", "type": "essential_partner_ideological_tension", "weight": 0.90},
+      {"name": "Nicolas Sarkozy — Carla Bruni", "type": "personal", "weight": "n/a"},
+      {"name": "George W. Bush", "type": "post-Iraq_rapprochement", "weight": 0.70},
+      {"name": "Barack Obama", "type": "transactional_partnership", "weight": 0.72},
+      {"name": "Vladimir Putin", "type": "complex_adversarial_cooperative", "weight": 0.60},
+      {"name": "Francois Fillon", "type": "pm_subordinate", "weight": 0.65}
+    ],
+    "defining_events": [
+      "EU Presidency 2008 — GFC response",
+      "Georgia-Russia ceasefire August 2008",
+      "G20 Washington November 2008 — leaders format creation",
+      "Greek bailout / EFSF creation May 2010",
+      "Libya intervention 2011",
+      "2012 election defeat to Hollande",
+      "Post-presidency criminal convictions 2021, 2023"
+    ]
+  }
+}

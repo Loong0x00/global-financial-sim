@@ -1,0 +1,388 @@
+{
+  "country": "US",
+  "country_zh": "美国",
+  "coverage": "1971-2026",
+  "last_updated": "2026-03-12",
+  "heads_of_state": [
+    {
+      "name": "Richard Nixon",
+      "name_zh": "理查德·尼克松",
+      "role": "President",
+      "term_start": "1969-01",
+      "term_end": "1974-08",
+      "party_or_affiliation": "Republican",
+      "background": "lawyer",
+      "background_detail": "Lawyer, US Representative, US Senator, Vice President under Eisenhower (1953-1961)",
+      "predecessor": "Lyndon B. Johnson",
+      "key_economic_events": [
+        "Ended Bretton Woods gold convertibility (Nixon Shock, 1971)",
+        "Wage and price controls (1971-1974)",
+        "1973 oil crisis / OPEC embargo",
+        "Stagflation begins"
+      ],
+      "depth_level": 3
+    },
+    {
+      "name": "Gerald Ford",
+      "name_zh": "杰拉尔德·福特",
+      "role": "President",
+      "term_start": "1974-08",
+      "term_end": "1977-01",
+      "party_or_affiliation": "Republican",
+      "background": "lawyer",
+      "background_detail": "Lawyer, US Representative from Michigan (1949-1973), House Minority Leader, Vice President (1973-1974), never elected to executive office",
+      "predecessor": "Richard Nixon",
+      "key_economic_events": [
+        "Whip Inflation Now (WIN) campaign",
+        "1974-1975 recession",
+        "High unemployment and inflation persist",
+        "New York City fiscal crisis (1975)"
+      ],
+      "depth_level": 3
+    },
+    {
+      "name": "Jimmy Carter",
+      "name_zh": "吉米·卡特",
+      "role": "President",
+      "term_start": "1977-01",
+      "term_end": "1981-01",
+      "party_or_affiliation": "Democrat",
+      "background": "engineer",
+      "background_detail": "Naval officer and nuclear engineer, peanut farmer, Governor of Georgia (1971-1975)",
+      "predecessor": "Gerald Ford",
+      "key_economic_events": [
+        "1979 energy crisis / second oil shock",
+        "Double-digit inflation",
+        "Appointed Paul Volcker as Fed Chair (1979)",
+        "Iran hostage crisis economic fallout",
+        "Deregulation of airlines, trucking, railroads"
+      ],
+      "depth_level": 3
+    },
+    {
+      "name": "Ronald Reagan",
+      "name_zh": "罗纳德·里根",
+      "role": "President",
+      "term_start": "1981-01",
+      "term_end": "1989-01",
+      "party_or_affiliation": "Republican",
+      "background": "businessman",
+      "background_detail": "Actor, President of Screen Actors Guild, Governor of California (1967-1975)",
+      "predecessor": "Jimmy Carter",
+      "key_economic_events": [
+        "Reaganomics: tax cuts and deregulation",
+        "1981-1982 recession (Volcker disinflation)",
+        "1983-1989 economic expansion",
+        "Savings and loan crisis begins",
+        "Plaza Accord (1985)",
+        "Black Monday stock crash (1987)",
+        "Tax Reform Act of 1986",
+        "National debt tripled"
+      ],
+      "depth_level": 3
+    },
+    {
+      "name": "George H. W. Bush",
+      "name_zh": "乔治·H·W·布什",
+      "role": "President",
+      "term_start": "1989-01",
+      "term_end": "1993-01",
+      "party_or_affiliation": "Republican",
+      "background": "intelligence",
+      "background_detail": "Navy pilot, oil businessman, US Representative, UN Ambassador, CIA Director (1976-1977), Vice President under Reagan (1981-1989)",
+      "predecessor": "Ronald Reagan",
+      "key_economic_events": [
+        "Savings and loan crisis bailout (FIRREA 1989)",
+        "1990-1991 recession",
+        "1990 oil price spike (Gulf War)",
+        "Budget deal with tax increases (broke 'read my lips' pledge)",
+        "NAFTA negotiations begin"
+      ],
+      "depth_level": 3
+    },
+    {
+      "name": "Bill Clinton",
+      "name_zh": "比尔·克林顿",
+      "role": "President",
+      "term_start": "1993-01",
+      "term_end": "2001-01",
+      "party_or_affiliation": "Democrat",
+      "background": "lawyer",
+      "background_detail": "Law professor, Attorney General of Arkansas, Governor of Arkansas (1979-1981, 1983-1992)",
+      "predecessor": "George H. W. Bush",
+      "key_economic_events": [
+        "NAFTA signed into law (1993)",
+        "1990s economic boom / dot-com expansion",
+        "Deficit reduction and budget surpluses (1998-2001)",
+        "Welfare reform (1996)",
+        "Repeal of Glass-Steagall (Gramm-Leach-Bliley Act, 1999)",
+        "Asian financial crisis (1997)",
+        "Russian financial crisis / LTCM bailout (1998)",
+        "Commodity Futures Modernization Act (2000)"
+      ],
+      "depth_level": 2
+    },
+    {
+      "name": "George W. Bush",
+      "name_zh": "乔治·W·布什",
+      "role": "President",
+      "term_start": "2001-01",
+      "term_end": "2009-01",
+      "party_or_affiliation": "Republican",
+      "background": "businessman",
+      "background_detail": "Oil business executive, Managing General Partner of Texas Rangers baseball team, Governor of Texas (1995-2000)",
+      "predecessor": "Bill Clinton",
+      "key_economic_events": [
+        "Dot-com bust and 2001 recession",
+        "Bush tax cuts (2001, 2003)",
+        "Post-9/11 economic disruption and war spending",
+        "Housing bubble growth",
+        "2007-2008 global financial crisis",
+        "TARP bailout ($700 billion, 2008)",
+        "Bear Stearns and Lehman Brothers collapse",
+        "Auto industry bailout initiated"
+      ],
+      "depth_level": 2
+    },
+    {
+      "name": "Barack Obama",
+      "name_zh": "贝拉克·奥巴马",
+      "role": "President",
+      "term_start": "2009-01",
+      "term_end": "2017-01",
+      "party_or_affiliation": "Democrat",
+      "background": "lawyer",
+      "background_detail": "Constitutional law professor, community organizer, Illinois State Senator (1997-2004), US Senator from Illinois (2005-2008)",
+      "predecessor": "George W. Bush",
+      "key_economic_events": [
+        "American Recovery and Reinvestment Act (stimulus, 2009)",
+        "Dodd-Frank Wall Street Reform Act (2010)",
+        "Auto industry bailout completed",
+        "Affordable Care Act (2010)",
+        "US credit rating downgrade (S&P, 2011)",
+        "Debt ceiling crises (2011, 2013)",
+        "Sequestration budget cuts",
+        "Slow but steady recovery, unemployment fell from 10% to 4.7%",
+        "Paris Climate Agreement (2015)"
+      ],
+      "depth_level": 2
+    },
+    {
+      "name": "Donald Trump",
+      "name_zh": "唐纳德·特朗普",
+      "role": "President",
+      "term_start": "2017-01",
+      "term_end": "2021-01",
+      "party_or_affiliation": "Republican",
+      "background": "businessman",
+      "background_detail": "Real estate mogul, CEO of The Trump Organization, TV personality (The Apprentice), no prior political or military office",
+      "predecessor": "Barack Obama",
+      "key_economic_events": [
+        "Tax Cuts and Jobs Act (2017)",
+        "US-China trade war and tariffs (2018-2020)",
+        "Deregulation push across sectors",
+        "USMCA trade agreement replaces NAFTA (2020)",
+        "COVID-19 pandemic economic shutdown (2020)",
+        "CARES Act ($2.2 trillion stimulus, 2020)",
+        "Unemployment spiked to 14.7% (April 2020)",
+        "Federal Reserve emergency rate cuts to near zero",
+        "Stock market crash and rapid V-shaped recovery"
+      ],
+      "depth_level": 1
+    },
+    {
+      "name": "Joe Biden",
+      "name_zh": "乔·拜登",
+      "role": "President",
+      "term_start": "2021-01",
+      "term_end": "2025-01",
+      "party_or_affiliation": "Democrat",
+      "background": "lawyer",
+      "background_detail": "Lawyer, US Senator from Delaware (1973-2009), Vice President under Obama (2009-2017)",
+      "predecessor": "Donald Trump",
+      "key_economic_events": [
+        "American Rescue Plan ($1.9 trillion stimulus, 2021)",
+        "Infrastructure Investment and Jobs Act (2021)",
+        "CHIPS and Science Act (2022)",
+        "Inflation Reduction Act (2022)",
+        "Post-COVID inflation surge, CPI peaked at 9.1% (June 2022)",
+        "Aggressive Fed rate hikes (2022-2023)",
+        "Silicon Valley Bank collapse and regional banking crisis (2023)",
+        "Debt ceiling crisis (2023)",
+        "Strong labor market despite rate hikes",
+        "Russia-Ukraine war economic sanctions and energy price impact"
+      ],
+      "depth_level": 1
+    },
+    {
+      "name": "Donald Trump",
+      "name_zh": "唐纳德·特朗普",
+      "role": "President",
+      "term_start": "2025-01",
+      "term_end": "incumbent",
+      "party_or_affiliation": "Republican",
+      "background": "businessman",
+      "background_detail": "Former President (2017-2021), real estate mogul, first president to serve non-consecutive terms since Grover Cleveland",
+      "predecessor": "Joe Biden",
+      "key_economic_events": [
+        "Second term inauguration (2025-01-20)",
+        "Renewed tariff escalation on China, EU, and allies",
+        "Government efficiency and spending reduction initiatives (DOGE)",
+        "Federal workforce reductions",
+        "Market volatility from trade policy uncertainty"
+      ],
+      "depth_level": 1
+    }
+  ],
+  "central_bank": [
+    {
+      "name": "Arthur Burns",
+      "name_zh": "阿瑟·伯恩斯",
+      "role": "Federal Reserve Chair",
+      "term_start": "1970-02",
+      "term_end": "1978-02",
+      "party_or_affiliation": "Republican-appointed",
+      "background": "academic",
+      "background_detail": "Economics professor at Columbia University, Chair of Council of Economic Advisers under Eisenhower (1953-1956), NBER president",
+      "predecessor": "William McChesney Martin",
+      "key_economic_events": [
+        "Accommodated Nixon's expansionary fiscal policy",
+        "Failed to contain 1970s inflation",
+        "Nixon Shock / end of Bretton Woods (1971)",
+        "Stagflation era begins",
+        "Politicization of Fed independence criticized"
+      ],
+      "depth_level": 3
+    },
+    {
+      "name": "G. William Miller",
+      "name_zh": "G·威廉·米勒",
+      "role": "Federal Reserve Chair",
+      "term_start": "1978-03",
+      "term_end": "1979-08",
+      "party_or_affiliation": "Democrat-appointed",
+      "background": "businessman",
+      "background_detail": "CEO of Textron conglomerate, lawyer, no prior central banking experience; later became Treasury Secretary (1979-1981)",
+      "predecessor": "Arthur Burns",
+      "key_economic_events": [
+        "Shortest-serving modern Fed Chair (17 months)",
+        "Inflation accelerated during tenure",
+        "Dollar crisis on foreign exchange markets",
+        "Widely regarded as ineffective; replaced by Volcker"
+      ],
+      "depth_level": 3
+    },
+    {
+      "name": "Paul Volcker",
+      "name_zh": "保罗·沃尔克",
+      "role": "Federal Reserve Chair",
+      "term_start": "1979-08",
+      "term_end": "1987-08",
+      "party_or_affiliation": "Democrat-appointed (reappointed by Reagan)",
+      "background": "bureaucrat",
+      "background_detail": "Career public servant, Treasury Department official, President of Federal Reserve Bank of New York (1975-1979)",
+      "predecessor": "G. William Miller",
+      "key_economic_events": [
+        "Volcker Shock: raised federal funds rate to 20% to crush inflation",
+        "1981-1982 severe recession as intended consequence",
+        "Inflation fell from 14.8% to 3.6%",
+        "Latin American debt crisis (1982)",
+        "Restored Fed credibility and independence",
+        "Plaza Accord coordination (1985)"
+      ],
+      "depth_level": 3
+    },
+    {
+      "name": "Alan Greenspan",
+      "name_zh": "艾伦·格林斯潘",
+      "role": "Federal Reserve Chair",
+      "term_start": "1987-08",
+      "term_end": "2006-01",
+      "party_or_affiliation": "Republican-appointed (reappointed by Clinton and Bush W)",
+      "background": "businessman",
+      "background_detail": "Private economic consultant, founder of Townsend-Greenspan & Co., Chair of Council of Economic Advisers under Ford (1974-1977)",
+      "predecessor": "Paul Volcker",
+      "key_economic_events": [
+        "Black Monday response (1987) — provided liquidity, stabilized markets",
+        "1990-1991 recession management",
+        "1990s 'Great Moderation' era",
+        "'Irrational exuberance' speech (1996)",
+        "LTCM crisis coordination (1998)",
+        "Dot-com bubble and bust (2000-2001)",
+        "Post-9/11 rate cuts to 1%",
+        "Low interest rate policy fueled housing bubble",
+        "Criticized for light-touch regulation of derivatives"
+      ],
+      "depth_level": 2
+    },
+    {
+      "name": "Ben Bernanke",
+      "name_zh": "本·伯南克",
+      "role": "Federal Reserve Chair",
+      "term_start": "2006-02",
+      "term_end": "2014-01",
+      "party_or_affiliation": "Republican-appointed (reappointed by Obama)",
+      "background": "academic",
+      "background_detail": "Economics professor at Princeton, leading scholar of Great Depression, Fed Governor (2002-2005), Chair of Council of Economic Advisers (2005-2006), Nobel Prize in Economics (2022)",
+      "predecessor": "Alan Greenspan",
+      "key_economic_events": [
+        "Subprime mortgage crisis (2007)",
+        "2008 global financial crisis — emergency lending facilities",
+        "Bear Stearns rescue, Lehman Brothers collapse",
+        "QE1 ($1.75T, 2008-2010)",
+        "QE2 ($600B, 2010-2011)",
+        "Operation Twist (2011-2012)",
+        "QE3 ($85B/month open-ended, 2012-2014)",
+        "Near-zero interest rate policy (ZIRP) for 7 years",
+        "Taper tantrum (2013)",
+        "Established forward guidance as major policy tool"
+      ],
+      "depth_level": 1
+    },
+    {
+      "name": "Janet Yellen",
+      "name_zh": "珍妮特·耶伦",
+      "role": "Federal Reserve Chair",
+      "term_start": "2014-02",
+      "term_end": "2018-02",
+      "party_or_affiliation": "Democrat-appointed",
+      "background": "academic",
+      "background_detail": "Economics professor at UC Berkeley, Fed Governor (1994-1997), Chair of Council of Economic Advisers (1997-1999), President of SF Fed (2004-2010), Fed Vice Chair (2010-2014); first woman to chair the Fed; later Treasury Secretary (2021-2025)",
+      "predecessor": "Ben Bernanke",
+      "key_economic_events": [
+        "First rate hike in nearly a decade (December 2015)",
+        "Gradual and cautious rate normalization",
+        "Began balance sheet reduction (2017)",
+        "Unemployment fell to 4.1%",
+        "Low inflation puzzle — below 2% target despite low unemployment",
+        "Smooth transition away from crisis-era policies"
+      ],
+      "depth_level": 1
+    },
+    {
+      "name": "Jerome Powell",
+      "name_zh": "杰罗姆·鲍威尔",
+      "role": "Federal Reserve Chair",
+      "term_start": "2018-02",
+      "term_end": "incumbent",
+      "party_or_affiliation": "Republican-appointed (reappointed by Biden)",
+      "background": "lawyer",
+      "background_detail": "Lawyer, investment banker at Dillon Read and Carlyle Group, Treasury Undersecretary under George H.W. Bush, Fed Governor (2012-2018); first non-economist to chair the Fed since the 1980s",
+      "predecessor": "Janet Yellen",
+      "key_economic_events": [
+        "2018 rate hikes and Trump's public criticism of Fed",
+        "2019 'insurance' rate cuts amid trade war",
+        "COVID-19 emergency response: rates to zero, unlimited QE (March 2020)",
+        "Corporate bond buying (unprecedented)",
+        "Average Inflation Targeting framework (2020)",
+        "Post-COVID inflation surge — 'transitory' debate (2021)",
+        "Most aggressive rate hike cycle since Volcker (2022-2023): 0% to 5.25-5.50%",
+        "Silicon Valley Bank and regional banking stress (2023)",
+        "Began rate cutting cycle (September 2024)",
+        "Navigating Trump second-term political pressure on Fed independence",
+        "Term expires 2026-05"
+      ],
+      "depth_level": 1
+    }
+  ]
+}

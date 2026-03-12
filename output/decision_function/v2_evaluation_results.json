@@ -1,0 +1,485 @@
+{
+  "model_version": "v2_opponent_aware",
+  "n_params": 19723,
+  "total_input_dim": 69,
+  "input_breakdown": {
+    "econ_features": 22,
+    "context_features": 7,
+    "powell_features": 15,
+    "president_features": 10,
+    "ecb_features": 10,
+    "recent_action_features": 5
+  },
+  "president_mapping": {
+    "trump_t1": "2017-01-20 to 2021-01-20",
+    "biden": "2021-01-20 to 2025-01-20",
+    "trump_t2": "2025-01-20 onwards"
+  },
+  "v1_comparison": {
+    "v1_pilot": {
+      "input_dim": 10,
+      "n_params": 17770,
+      "loo_dir_accuracy": 0.667
+    },
+    "v1_full": {
+      "input_dim": 44,
+      "loo_dir_accuracy": 0.7575757575757576
+    },
+    "v2_opponent": {
+      "input_dim": 69,
+      "loo_dir_accuracy": 0.7575757575757576
+    }
+  },
+  "loo_direction_accuracy": 0.7575757575757576,
+  "loo_joint_accuracy": 0.5757575757575758,
+  "loo_dir_correct": 25,
+  "loo_joint_correct": 19,
+  "loo_total": 33,
+  "turning_point_results": {
+    "v2_correct": 3,
+    "v1_correct": 3,
+    "total": 8,
+    "details": [
+      {
+        "date": "2022-03",
+        "president": "biden",
+        "true": "hike",
+        "v2_pred": "hike",
+        "v2_ok": true,
+        "v1_pred": "hike",
+        "v1_ok": true
+      },
+      {
+        "date": "2023-06",
+        "president": "biden",
+        "true": "hold",
+        "v2_pred": "hike",
+        "v2_ok": false,
+        "v1_pred": "hike",
+        "v1_ok": false
+      },
+      {
+        "date": "2023-07",
+        "president": "biden",
+        "true": "hike",
+        "v2_pred": "hold",
+        "v2_ok": false,
+        "v1_pred": "hold",
+        "v1_ok": false
+      },
+      {
+        "date": "2023-09",
+        "president": "biden",
+        "true": "hold",
+        "v2_pred": "hold",
+        "v2_ok": true,
+        "v1_pred": "hold",
+        "v1_ok": true
+      },
+      {
+        "date": "2024-09",
+        "president": "biden",
+        "true": "cut",
+        "v2_pred": "hold",
+        "v2_ok": false,
+        "v1_pred": "cut",
+        "v1_ok": true
+      },
+      {
+        "date": "2025-01",
+        "president": "biden",
+        "true": "hold",
+        "v2_pred": "cut",
+        "v2_ok": false,
+        "v1_pred": "cut",
+        "v1_ok": false
+      },
+      {
+        "date": "2025-09",
+        "president": "trump_t2",
+        "true": "cut",
+        "v2_pred": "cut",
+        "v2_ok": true,
+        "v1_pred": "hold",
+        "v1_ok": false
+      },
+      {
+        "date": "2026-01",
+        "president": "trump_t2",
+        "true": "hold",
+        "v2_pred": "cut",
+        "v2_ok": false,
+        "v1_pred": "cut",
+        "v1_ok": false
+      }
+    ],
+    "v1_tp_accuracy": 0.375,
+    "v2_tp_accuracy": 0.375
+  },
+  "loo_predictions": [
+    {
+      "date": "2022-01",
+      "president": "biden",
+      "true_action": "hold",
+      "pred_action": "hike_25bp",
+      "true_dir": "hold",
+      "pred_dir": "hike",
+      "dir_confidence": 0.99998939037323,
+      "dir_correct": false,
+      "joint_correct": false
+    },
+    {
+      "date": "2022-03",
+      "president": "biden",
+      "true_action": "hike_25bp",
+      "pred_action": "hike_50bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.9770365357398987,
+      "dir_correct": true,
+      "joint_correct": false
+    },
+    {
+      "date": "2022-05",
+      "president": "biden",
+      "true_action": "hike_50bp",
+      "pred_action": "hike_75bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.999987006187439,
+      "dir_correct": true,
+      "joint_correct": false
+    },
+    {
+      "date": "2022-06",
+      "president": "biden",
+      "true_action": "hike_75bp",
+      "pred_action": "hike_75bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.9999837875366211,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2022-07",
+      "president": "biden",
+      "true_action": "hike_75bp",
+      "pred_action": "hike_75bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.9999829530715942,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2022-09",
+      "president": "biden",
+      "true_action": "hike_75bp",
+      "pred_action": "hike_50bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.9999804496765137,
+      "dir_correct": true,
+      "joint_correct": false
+    },
+    {
+      "date": "2022-11",
+      "president": "biden",
+      "true_action": "hike_75bp",
+      "pred_action": "hike_50bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.9999948740005493,
+      "dir_correct": true,
+      "joint_correct": false
+    },
+    {
+      "date": "2022-12",
+      "president": "biden",
+      "true_action": "hike_50bp",
+      "pred_action": "hike_75bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.9999957084655762,
+      "dir_correct": true,
+      "joint_correct": false
+    },
+    {
+      "date": "2023-02",
+      "president": "biden",
+      "true_action": "hike_25bp",
+      "pred_action": "hike_25bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.999966025352478,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2023-03",
+      "president": "biden",
+      "true_action": "hike_25bp",
+      "pred_action": "hike_25bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.9997783303260803,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2023-05",
+      "president": "biden",
+      "true_action": "hike_25bp",
+      "pred_action": "hike_25bp",
+      "true_dir": "hike",
+      "pred_dir": "hike",
+      "dir_confidence": 0.9998985528945923,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2023-06",
+      "president": "biden",
+      "true_action": "hold",
+      "pred_action": "hike_25bp",
+      "true_dir": "hold",
+      "pred_dir": "hike",
+      "dir_confidence": 0.9999773502349854,
+      "dir_correct": false,
+      "joint_correct": false
+    },
+    {
+      "date": "2023-07",
+      "president": "biden",
+      "true_action": "hike_25bp",
+      "pred_action": "hold",
+      "true_dir": "hike",
+      "pred_dir": "hold",
+      "dir_confidence": 0.999957799911499,
+      "dir_correct": false,
+      "joint_correct": false
+    },
+    {
+      "date": "2023-09",
+      "president": "biden",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.8628777265548706,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2023-11",
+      "president": "biden",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9999872446060181,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2023-12",
+      "president": "biden",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9999840259552002,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2024-01",
+      "president": "biden",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9999903440475464,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2024-03",
+      "president": "biden",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9999946355819702,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2024-05",
+      "president": "biden",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9995027780532837,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2024-06",
+      "president": "biden",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9999996423721313,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2024-07",
+      "president": "biden",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.999968409538269,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2024-09",
+      "president": "biden",
+      "true_action": "cut_50bp",
+      "pred_action": "hold",
+      "true_dir": "cut",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9993011951446533,
+      "dir_correct": false,
+      "joint_correct": false
+    },
+    {
+      "date": "2024-11",
+      "president": "biden",
+      "true_action": "cut_25bp",
+      "pred_action": "cut_25bp",
+      "true_dir": "cut",
+      "pred_dir": "cut",
+      "dir_confidence": 0.9999442100524902,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2024-12",
+      "president": "biden",
+      "true_action": "cut_25bp",
+      "pred_action": "hold",
+      "true_dir": "cut",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9999637603759766,
+      "dir_correct": false,
+      "joint_correct": false
+    },
+    {
+      "date": "2025-01",
+      "president": "biden",
+      "true_action": "hold",
+      "pred_action": "cut_25bp",
+      "true_dir": "hold",
+      "pred_dir": "cut",
+      "dir_confidence": 0.999768078327179,
+      "dir_correct": false,
+      "joint_correct": false
+    },
+    {
+      "date": "2025-03",
+      "president": "trump_t2",
+      "true_action": "hold",
+      "pred_action": "cut_25bp",
+      "true_dir": "hold",
+      "pred_dir": "cut",
+      "dir_confidence": 0.9820433259010315,
+      "dir_correct": false,
+      "joint_correct": false
+    },
+    {
+      "date": "2025-05",
+      "president": "trump_t2",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9999781847000122,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2025-06",
+      "president": "trump_t2",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9999849796295166,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2025-07",
+      "president": "trump_t2",
+      "true_action": "hold",
+      "pred_action": "hold",
+      "true_dir": "hold",
+      "pred_dir": "hold",
+      "dir_confidence": 0.9998452663421631,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2025-09",
+      "president": "trump_t2",
+      "true_action": "cut_25bp",
+      "pred_action": "cut_0bp",
+      "true_dir": "cut",
+      "pred_dir": "cut",
+      "dir_confidence": 0.7175150513648987,
+      "dir_correct": true,
+      "joint_correct": false
+    },
+    {
+      "date": "2025-10",
+      "president": "trump_t2",
+      "true_action": "cut_25bp",
+      "pred_action": "cut_25bp",
+      "true_dir": "cut",
+      "pred_dir": "cut",
+      "dir_confidence": 0.9999966621398926,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2025-12",
+      "president": "trump_t2",
+      "true_action": "cut_25bp",
+      "pred_action": "cut_25bp",
+      "true_dir": "cut",
+      "pred_dir": "cut",
+      "dir_confidence": 0.9998500347137451,
+      "dir_correct": true,
+      "joint_correct": true
+    },
+    {
+      "date": "2026-01",
+      "president": "trump_t2",
+      "true_action": "hold",
+      "pred_action": "cut_25bp",
+      "true_dir": "hold",
+      "pred_dir": "cut",
+      "dir_confidence": 0.9999752044677734,
+      "dir_correct": false,
+      "joint_correct": false
+    }
+  ],
+  "timestamp": "2026-03-12T13:56:17.828535"
+}

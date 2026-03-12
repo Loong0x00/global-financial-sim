@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Large BIS cache files
+data/economic/bis/_cache/
+data/economic/bis/locational_banking.json
+data/economic/bis/debt_securities.json
+data/economic/bis/consolidated_banking.json

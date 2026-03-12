@@ -1,0 +1,336 @@
+{
+  "leader": "Tanaka Kakuei",
+  "leader_zh": "田中角荣",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "Historical record: Tanaka cabinet decisions 1972-1974",
+    "Japan-China Joint Communique 1972-09-29",
+    "Nihon Retto Kaizo Ron (Archipelago Remodeling Plan) 1972",
+    "Oil Crisis policy responses Nov 1973 - Dec 1974",
+    "Lockheed scandal documentary record 1976 (retrospective on tenure)",
+    "LDP factional politics records Tanaka faction (Etsuzankai)",
+    "BoJ intervention records 1972-1974",
+    "Academic literature: Gerald Curtis, Nathaniel Thayer on LDP politics"
+  ],
+  "background": {
+    "birth_year": 1918,
+    "education": "No university degree — vocational school only, self-taught",
+    "career_path": "Construction company owner → LDP politician → Minister of Posts → Minister of Finance → LDP Secretary-General → PM",
+    "decision_archetype": "Construction magnate / self-made businessman turned political machine boss",
+    "key_experiences": [
+      "Born in rural Niigata — deep identification with rural/underdeveloped Japan",
+      "Built construction empire from scratch, no elite credentials",
+      "Mastered money politics and factional loyalty systems within LDP",
+      "Survived postwar reconstruction period — formative experience with infrastructure's role in development",
+      "Operated 'Tanaka School' of electoral politics: direct constituency benefits, cash-based loyalty"
+    ],
+    "nickname": "Computerized Bulldozer (コンピューター付きブルドーザー)"
+  },
+  "behavior_matrix": {
+    "description": "Behavior vector for Tanaka Kakuei's 1972-1974 premiership. Covers Japan-China normalization (Sep 1972), Archipelago Remodeling Plan implementation, 1973 oil crisis response, runaway inflation (wholesale prices +30% YoY by early 1974), and the political context that led to his 1974 resignation and eventual Lockheed corruption scandal. Tanaka represents the archetypal 'construction state' (doken kokka) model — using massive infrastructure spending as political currency while being remarkably nimble on geopolitics.",
+    "dimensions": 65,
+    "vectors": [
+      {
+        "label": "infrastructure_spending_propensity",
+        "value": 0.97,
+        "evidence": "Archipelago Remodeling Plan (Nihon Retto Kaizo Ron) published Jun 1972 before becoming PM — called for relocating industrial zones from overcrowded Pacific coast to rural regions via shinkansen network expansion. Budget allocations for public works reached record levels 1972-1974. Tanaka's entire political machine (Etsuzankai in Niigata) was built on delivering infrastructure to his constituency. Public works spending as share of GDP rose substantially during his tenure."
+      },
+      {
+        "label": "fiscal_stimulus_reflex",
+        "value": 0.92,
+        "evidence": "Even as oil crisis hit in late 1973 and inflation accelerated, Tanaka's initial reflex was expansionary. The Archipelago Remodeling Plan was a massive Keynesian program. Land prices in rural areas surged 30-40% in anticipation of plan implementation. Only after wholesale price inflation exceeded 20% YoY (Jan 1974) did fiscal restraint become politically unavoidable, but Tanaka himself resisted tight policy — it was BoJ and Finance Ministry that forced the brake."
+      },
+      {
+        "label": "inflation_tolerance",
+        "value": 0.82,
+        "evidence": "Tanaka presided over the most severe peacetime inflation in postwar Japan. Wholesale prices rose ~30% in 1974. Consumer prices rose 24.5% in 1974. He prioritized construction program over inflation control and was reluctant to reverse course. The Finance Ministry and BoJ had to act largely independently. His tolerance for inflation was structurally high — as a real estate developer, inflation in land and construction benefited his political-business ecosystem."
+      },
+      {
+        "label": "inflation_sensitivity_to_popular_unrest",
+        "value": 0.65,
+        "evidence": "Panic buying and hoarding of toilet paper (Nov 1973) and other goods shocked the public and the government. This 'oil shock panic' did accelerate Tanaka's eventual policy response. He was sensitive to visible consumer distress but still slow to impose fiscal restraint. Consumer price inflation eventually forced his resignation in Dec 1974 (along with money politics scandals) — demonstrating that he responded to political/popular pressure on inflation rather than economic indicators per se."
+      },
+      {
+        "label": "geopolitical_boldness",
+        "value": 0.91,
+        "evidence": "Japan-China normalization (Sep 1972) was executed within 3 months of Tanaka taking office — extraordinarily fast for diplomatic normalization after 30 years of non-relations. Tanaka flew to Beijing personally, met Mao Zedong and Zhou Enlai. This broke with the Taiwan lobby within LDP (Sato faction). The decision required overriding significant domestic conservative opposition. Tanaka used his political capital and personal risk-taking to close the deal faster than any prior Japanese government had contemplated."
+      },
+      {
+        "label": "us_alliance_dependence",
+        "value": 0.72,
+        "evidence": "Japan-China normalization required navigating US sensitivities — Nixon had opened to China in 1972 (Nixon shock), but Japan acted quickly in the aftermath. Tanaka coordinated with Washington but also showed willingness to move Japan's foreign policy independently. During oil crisis, Japan diverged from US policy by seeking separate bilateral deals with Arab states (departure from IEA solidarity). US alliance maintained but Tanaka showed more strategic independence than predecessors."
+      },
+      {
+        "label": "china_engagement_priority",
+        "value": 0.93,
+        "evidence": "Japan-China Joint Communique (Sep 29, 1972) was the signature achievement of Tanaka's diplomacy — normalized diplomatic relations after WWII. Tanaka personally expressed 'deep reflection' (深く反省) on wartime conduct in Beijing. The normalization opened massive trade opportunities. This was Tanaka's most lasting foreign policy legacy and represented a fundamental reshaping of East Asian geopolitical architecture."
+      },
+      {
+        "label": "oil_supply_shock_response_speed",
+        "value": 0.48,
+        "evidence": "Response to Oct 1973 Arab oil embargo was initially slow and disorganized. Japan declared itself 'pro-Arab' in Nov 1973 to escape embargo, but the domestic policy response (rationing, price controls, demand management) took months to operationalize. Tanaka's government was not structured for supply-side emergency management — his instincts were demand stimulus, not supply conservation. Emergency petroleum legislation passed but implementation was chaotic."
+      },
+      {
+        "label": "oil_supply_shock_diplomatic_pivot",
+        "value": 0.88,
+        "evidence": "Japan under Tanaka made an extraordinary diplomatic pivot: broke from US/IEA solidarity and issued a unilateral pro-Arab statement (Nov 22, 1973) to secure oil supplies. Deputy PM Miki Takeo sent to Arab states on personal diplomacy mission. This 'independent diplomacy' on oil was a departure from postwar US-follower stance and reflected Tanaka's calculation that economic security required pragmatic deals regardless of alliance implications."
+      },
+      {
+        "label": "rural_constituency_prioritization",
+        "value": 0.95,
+        "evidence": "Tanaka's entire political model was redistribution from urban/industrial Japan to rural areas, especially his home prefecture Niigata. Shinkansen extension to Niigata was fast-tracked. The Archipelago Remodeling Plan explicitly targeted underdeveloped regions. His Etsuzankai machine in Niigata represented the template: deliver tangible infrastructure, receive votes and political loyalty. This rural bias systematically skewed fiscal allocation away from economic efficiency toward political payoff."
+      },
+      {
+        "label": "money_politics_institutionalization",
+        "value": 0.96,
+        "evidence": "Tanaka institutionalized LDP money politics at an unprecedented scale. 'Tanaka School' involved cash payments to LDP Diet members for factional loyalty. His 1972 LDP president election reportedly involved massive cash distribution — Lockheed scandal later revealed systematic corruption. The Etsuzankai annual meetings in Tokyo were known for envelope distribution. This created a structural political economy where policy decisions were filtered through monetary incentive networks."
+      },
+      {
+        "label": "factional_patronage_over_meritocracy",
+        "value": 0.92,
+        "evidence": "Cabinet appointments followed factional loyalty rather than competence. Tanaka used ministerial positions as rewards for factional support. The Finance Ministry bureaucracy maintained some independence but cabinet-level political direction was heavily influenced by patronage logic. His lack of university education made him skeptical of elite credentials — he valued loyalty and results over formal qualifications, which paradoxically both democratized and corrupted Japanese policymaking."
+      },
+      {
+        "label": "bureaucratic_coordination_skill",
+        "value": 0.78,
+        "evidence": "Despite (or because of) his non-elite background, Tanaka was extraordinarily effective at working with the Finance Ministry, BoJ, and MITI bureaucracies. He learned to speak their language and understood what they needed. This made him more effective at extracting bureaucratic cooperation than many elite politicians. His legislative record (Minister of Finance, Minister of Posts) showed high implementation capacity."
+      },
+      {
+        "label": "land_speculation_awareness",
+        "value": 0.55,
+        "evidence": "The Archipelago Remodeling Plan triggered massive land speculation — prices in designated zones rose 30-40% before any policy was implemented. Tanaka appears to have been insufficiently attentive to or tolerant of this speculative dynamic. His own background in construction and real estate meant that land price appreciation was not obviously bad from his perspective. The speculative bubble in land (1972-73) contributed directly to the inflation spiral."
+      },
+      {
+        "label": "monetary_policy_independence_respect",
+        "value": 0.58,
+        "evidence": "BoJ under Tanaka had limited effective independence. Money supply growth was very high (M2 growth ~25% in 1972-73) driven partly by fiscal expansion. BoJ's aggressive tightening in late 1973 and 1974 came somewhat late and was partly forced by the scale of the problem. Tanaka did not actively override BoJ, but the overall policy environment (expansionary fiscal + initially accommodative monetary) reflects limited de facto central bank independence in this period."
+      },
+      {
+        "label": "price_controls_willingness",
+        "value": 0.75,
+        "evidence": "Emergency Petroleum Supply Act and related measures included some price control elements. The government attempted to control hoarding (toilet paper panic, Nov 1973). However, comprehensive price controls were politically difficult given industry opposition. Tanaka's response combined emergency supply measures with some market intervention, but was not as aggressive on price controls as, e.g., Nixon in the US."
+      },
+      {
+        "label": "trade_surplus_management",
+        "value": 0.52,
+        "evidence": "Japan's trade surplus was a source of friction with the US. Nixon shocks (1971: dollar-gold convertibility end, 10% import surcharge) had already forced yen revaluation from 360 to 308 yen/dollar. Under Tanaka, Japan continued to run large surpluses but the oil shock dramatically cut the surplus (oil import bill surged). Tanaka did not pursue aggressive trade surplus reduction as a priority — his focus was domestic redistribution."
+      },
+      {
+        "label": "exchange_rate_intervention_tolerance",
+        "value": 0.70,
+        "evidence": "Japan moved to floating exchange rate in Feb 1973 (under Tanaka) after the Smithsonian Agreement proved unworkable. Yen appreciated substantially through 1973. MoF and BoJ conducted forex interventions but Tanaka did not resist the fundamental move to floating rates — this was largely forced by global currency market dynamics."
+      },
+      {
+        "label": "industrial_policy_activism",
+        "value": 0.85,
+        "evidence": "MITI industrial policy remained highly active during Tanaka's tenure. The Archipelago Remodeling Plan involved directed industrial relocation subsidies. Energy-intensive industries (steel, petrochemicals) were particularly affected by oil shock and required government support. Tanaka's government maintained the postwar MITI model of active industrial guidance rather than market-led allocation."
+      },
+      {
+        "label": "political_survival_over_policy_coherence",
+        "value": 0.88,
+        "evidence": "Tanaka consistently sacrificed policy coherence for political survival. The combination of expansionary fiscal policy + oil crisis + inflation became untenable but he was slow to change course because the Archipelago Remodeling Plan was his signature political project. He ultimately resigned Dec 1974 due to money politics revelations (Bungeishunju magazine expose), not economic failure per se — demonstrating that political calculation dominated his decision function."
+      },
+      {
+        "label": "resignation_threshold_political_scandal",
+        "value": 0.72,
+        "evidence": "Tanaka resigned Nov 26, 1974 after Bungeishunju magazine published investigative report on his personal assets and political funds — well before the 1976 Lockheed scandal. The political pressure reached threshold when LDP faction leaders withdrew support. He had survived economic failures but was unable to survive the legitimacy challenge to his personal integrity. His threshold for resignation was political support collapse, not policy failure."
+      },
+      {
+        "label": "anti_elitism_popular_appeal",
+        "value": 0.90,
+        "evidence": "Tanaka's lack of university degree was celebrated as representing 'ordinary Japanese.' His direct, rough-spoken style contrasted with elite bureaucratic politicians. He cultivated an image of self-made success and identification with rural and working-class Japan. This populist appeal was central to his political model — he was simultaneously one of the richest and most corrupt politicians while projecting man-of-the-people image."
+      },
+      {
+        "label": "personal_enrichment_via_policy",
+        "value": 0.88,
+        "evidence": "Lockheed scandal (1976, after tenure) revealed $1.8M in bribes from Lockheed to secure All Nippon Airways aircraft orders. His political funds operation was exposed by Bungeishunju (1974). Land holdings near Archipelago Remodeling Plan designated zones appeared suspicious. Personal enrichment was structurally embedded in his policy decisions — construction company background meant public works spending directly benefited his network."
+      },
+      {
+        "label": "long_term_infrastructure_vision",
+        "value": 0.85,
+        "evidence": "Despite the corruption and economic mismanagement, the Archipelago Remodeling Plan contained a genuine long-term vision for spatial redistribution of Japanese industrial activity. Several shinkansen lines eventually built under the plan. The idea of rebalancing Japan's overdeveloped Pacific coast vs underdeveloped rural regions was economically coherent even if politically tainted. Tanaka's infrastructure instinct was both corrupt and visionary simultaneously."
+      },
+      {
+        "label": "economic_nationalism_over_globalization",
+        "value": 0.78,
+        "evidence": "Tanaka's economic vision was fundamentally domestic — redistribute within Japan, secure resource supplies for Japanese industry, protect Japanese manufacturers. The oil shock response prioritized Japan's bilateral resource security over multilateral IEA solidarity. Trade surplus management was not a priority. This domestic-first economic nationalism was consistent with his rural constituency base."
+      },
+      {
+        "label": "social_stability_priority",
+        "value": 0.80,
+        "evidence": "The combination of oil price shock, speculation-driven inflation, and commodity hoarding represented genuine social stability risk in 1973-74. Tanaka's government took emergency measures (petroleum legislation, consumer protection) partly driven by social stability concerns. Consumer price inflation of 24.5% in 1974 was politically devastating — it undermined the social compact that LDP's legitimacy rested on (economic growth = political loyalty)."
+      },
+      {
+        "label": "regional_redistribution_commitment",
+        "value": 0.96,
+        "evidence": "The entire Archipelago Remodeling Plan was a regional redistribution project. Niigata (Tanaka's constituency) and Tohoku/Hokuriku regions were primary beneficiaries. This spatial redistribution logic dominated fiscal allocation decisions in ways that were both politically self-serving and genuinely motivated by rural development concerns."
+      },
+      {
+        "label": "media_relations_adversarial",
+        "value": 0.62,
+        "evidence": "Tanaka had complex media relations — popular media coverage was initially positive given his self-made image and China normalization achievement. But investigative journalism (Bungeishunju 1974) was the mechanism of his downfall. He did not effectively manage or suppress investigative reporting the way some later LDP politicians attempted to."
+      },
+      {
+        "label": "consensus_building_within_lhp",
+        "value": 0.82,
+        "evidence": "Tanaka was extraordinarily effective at building and maintaining LDP factional coalitions through cash-based loyalty systems. His ability to win the 1972 LDP presidential election against Fukuda Takeo (the 'Kakuei vs Kakuei' race) via massive vote-buying demonstrated his coalition-building capacity. He maintained factional dominance from behind the scenes even after 1974 resignation (as 'shadow shogun' until 1985)."
+      },
+      {
+        "label": "taiwan_relations_management",
+        "value": 0.60,
+        "evidence": "China normalization required breaking diplomatic relations with Taiwan (ROC). Tanaka managed the Taiwan lobby within LDP carefully, giving them face-saving formulations while proceeding with normalization. He framed it as 'government-to-government' relations with PRC while allowing unofficial economic ties with Taiwan to continue. This diplomatic two-step was pragmatic but generated lasting LDP internal tensions."
+      },
+      {
+        "label": "soviet_relations_pragmatism",
+        "value": 0.68,
+        "evidence": "Tanaka visited Moscow in Oct 1973 and negotiated Siberian resource development agreements — Tyumen oil field development, Sakhalin continental shelf exploration. These were pragmatic resource security deals. Northern Territories dispute was not resolved (as it has never been) but Tanaka attempted a pragmatic economic approach to Soviet relations that his successors generally abandoned."
+      },
+      {
+        "label": "technology_industrial_policy",
+        "value": 0.72,
+        "evidence": "MITI under Tanaka continued active technology promotion in steel, automobiles, electronics. The oil shock accelerated energy efficiency R&D as a national priority. Tanaka's own background was construction, not technology, but he was willing to use the state apparatus for industrial promotion in ways consistent with postwar MITI model."
+      },
+      {
+        "label": "emergency_response_improvisation",
+        "value": 0.80,
+        "evidence": "Tanaka's response to the oil crisis involved considerable improvisation — the pro-Arab statement, Miki's diplomatic mission, emergency petroleum legislation. He adapted quickly to the new reality even if the initial response was slow. The 'tanker flotilla' diplomacy (Japan sending ships to Arab states) was an improvised response. His construction background emphasized getting things done through improvised deal-making rather than systematic planning."
+      },
+      {
+        "label": "information_fidelity",
+        "value": 0.72,
+        "evidence": "Tanaka was well-informed through his extensive political network (Etsuzankai, LDP factions). He was not an academic economist but had practical intelligence about the economy through business contacts. His information on oil markets and global commodity dynamics was probably poor — this contributed to slow oil crisis response. Factional information networks were excellent for domestic politics, poor for global market dynamics."
+      },
+      {
+        "label": "risk_appetite_infrastructure",
+        "value": 0.93,
+        "evidence": "Published the Archipelago Remodeling Plan as a blueprint before becoming PM — extraordinary political risk given that the plan immediately triggered speculative land price increases. He bet his premiership on a transformative vision. This demonstrated high risk appetite for big infrastructure bets. He was comfortable with large-scale commitments and 'thinking big.'"
+      },
+      {
+        "label": "risk_appetite_foreign_policy",
+        "value": 0.88,
+        "evidence": "Japan-China normalization within 3 months of taking office was a high-risk move — it could have failed, split the LDP, and damaged the US alliance. Tanaka accepted all these risks and moved fast. The Soviet resource diplomacy was also bold. His foreign policy risk appetite was substantially higher than his predecessors (Sato held US-Japan security above all else)."
+      },
+      {
+        "label": "construction_sector_capture",
+        "value": 0.95,
+        "evidence": "Tanaka was born from the construction sector, built his company Tanaka Construction, and maintained ties to the construction-real estate complex throughout his career. Public works allocation via LDP political machine was the core operating mechanism of his political economy. Construction industry donations were central to LDP funding. This was not accidental capture — it was constitutive of his political identity."
+      },
+      {
+        "label": "labor_relations_management",
+        "value": 0.55,
+        "evidence": "The Sohyo labor federation (public sector unions) was politically aligned with JSP (opposition). Private sector unions (Domei) were more pragmatic. Tanaka's oil crisis response triggered wage demands — the 1974 'spring offensive' (shunto) resulted in 30%+ wage increases. Tanaka did not actively confront unions but also did not systematically cultivate labor as a political base the way Sato had."
+      },
+      {
+        "label": "anti_communism_domestic_policy",
+        "value": 0.60,
+        "evidence": "Tanaka was center-right LDP but was more pragmatic and less ideologically anti-communist than some LDP factions. His China normalization was the most visible signal of this pragmatism. He maintained domestic conservative credentials (opposed to JCP/JSP domestic influence) but was willing to deal with communist states internationally for economic benefit."
+      },
+      {
+        "label": "deficit_spending_comfort",
+        "value": 0.85,
+        "evidence": "The Archipelago Remodeling Plan required massive public investment that pushed fiscal balance into deficit. Construction bonds were issued. Tanaka's construction background meant he thought in terms of investment spending generating returns — the deficit was an investment in the nation's infrastructure, not a problem per se. This structural comfort with deficits was unusual for the period when Finance Ministry orthodoxy was still strongly anti-deficit."
+      },
+      {
+        "label": "population_welfare_framing",
+        "value": 0.80,
+        "evidence": "Tanaka consistently framed his policies in terms of welfare of ordinary Japanese — rural residents being left behind by Tokyo-centric development, workers needing jobs in non-coastal regions. This was not merely rhetorical — his redistribution agenda had genuine welfare-improving components alongside the self-serving ones. The 1973 social welfare expansion was a real policy achievement."
+      },
+      {
+        "label": "social_welfare_expansion",
+        "value": 0.78,
+        "evidence": "1973 was declared 'Year of Welfare' (福祉元年) by Tanaka — major expansion of social programs including pension improvements, health insurance expansion, free medical care for elderly. This was genuine social policy expansion, not just political pork. It represented a Keynesian-welfarist vision that combined infrastructure spending with social protection."
+      },
+      {
+        "label": "environmental_regulation_resistance",
+        "value": 0.72,
+        "evidence": "The Archipelago Remodeling Plan's industrial relocation agenda was partly in tension with emerging environmental consciousness in Japan (Minamata disease, Yokkaichi asthma cases had created pressure for environmental regulation). Tanaka's construction-industrial lobby orientation made him less receptive to environmental constraints on development than the emerging environmental movement demanded."
+      },
+      {
+        "label": "political_machine_longevity",
+        "value": 0.92,
+        "evidence": "Tanaka's political machine (Tanaka faction → Takeshita faction → Obuchi faction → Hashimoto faction → Tanaka lineage) continued to dominate Japanese politics for two decades after his resignation. He operated as 'shadow shogun' until 1985. The Etsuzankai continued meeting annually. His political inheritance shaped Japanese politics through the 1990s bubble and collapse."
+      },
+      {
+        "label": "imperative_of_economic_growth",
+        "value": 0.90,
+        "evidence": "Tanaka believed in growth as the fundamental solution to social problems — more growth = more resources for redistribution to rural areas, more construction, more welfare. His model depended on the high-growth era continuing. The oil shock's structural implication (Japan must shift from energy-intensive to knowledge-intensive economy) was something his model was poorly equipped to address. His successors (Miki, Fukuda) had to manage the post-growth adjustment."
+      },
+      {
+        "label": "resource_security_prioritization",
+        "value": 0.88,
+        "evidence": "The oil crisis made resource security Japan's paramount strategic concern. Tanaka's bilateral deals with Arab states, Soviet resource agreements, and broader 'resource diplomacy' reflected recognition that Japan's energy import dependence was a strategic vulnerability. He was among the first Japanese leaders to operationalize resource security as a core foreign policy objective — a theme that has shaped Japanese strategy ever since."
+      },
+      {
+        "label": "populist_communication_style",
+        "value": 0.88,
+        "evidence": "Tanaka communicated in direct, accessible language — not bureaucratic or academic. His rough-spoken style (rural Niigata dialect) was authentic and appealing to non-elite voters. Press conferences were informal and energetic. He was one of the first Japanese politicians to effectively use television. His communication style was anti-establishment even while he was the establishment."
+      },
+      {
+        "label": "constitutional_pacifism_respect",
+        "value": 0.78,
+        "evidence": "Despite being LDP and nationalist in some respects, Tanaka did not push constitutional revision or military expansion. Japan's defense spending remained under 1% of GDP. His foreign policy was economic and diplomatic rather than military. The postwar peace constitution constraint was accepted and even functionally useful — it kept Japan out of US military adventures while maintaining the alliance."
+      },
+      {
+        "label": "bureaucracy_state_capacity_use",
+        "value": 0.82,
+        "evidence": "Tanaka was highly effective at deploying state capacity (MITI, Ministry of Construction, Finance Ministry, BoJ) for his political agenda. He understood bureaucratic processes and could navigate them. His decade as Minister of Finance and other cabinet posts gave him deep familiarity with how government machinery worked. He used state capacity actively rather than trying to reduce it."
+      },
+      {
+        "label": "corruption_tolerance_as_normal",
+        "value": 0.90,
+        "evidence": "The Lockheed bribery was the criminal charge, but Tanaka operated in an entire political economy where money and policy were intertwined. By the standards of postwar LDP money politics, Tanaka was extreme in degree but not in kind. He genuinely appears to have viewed political funds and policy rewards as normal features of democratic politics rather than corruption — a worldview shaped by the LDP political economy of the 1950s-60s."
+      },
+      {
+        "label": "policy_implementation_speed",
+        "value": 0.85,
+        "evidence": "For his priority projects (China normalization, shinkansen extensions, Archipelago Remodeling Plan launch), Tanaka moved extraordinarily fast. China normalization in 3 months, rapid budget reallocation for public works, fast emergency legislation during oil crisis. His 'computerized bulldozer' nickname captured this — rapid processing and rapid execution. Slow only when vested interests blocked him or when he politically couldn't move."
+      },
+      {
+        "label": "cabinet_management_top_down",
+        "value": 0.80,
+        "evidence": "Despite the factional complexity, Tanaka ran a top-down cabinet on his priority issues. He did not allow faction bargaining to slow his signature projects. Cabinet members understood their role was to implement his agenda. This top-down style contrasted with the more consensus-driven approach of subsequent LDP PMs."
+      },
+      {
+        "label": "wartime_responsibility_acknowledgment",
+        "value": 0.72,
+        "evidence": "In Beijing (Sep 1972), Tanaka used the phrase 'deep reflection' (深く反省) regarding Japan's wartime conduct — Chinese side accepted this as sufficient, though historians later noted the wording was ambiguous compared to a full apology. He was pragmatic rather than deeply remorseful — the acknowledgment was calibrated to enable normalization rather than emanating from deep moral reckoning."
+      },
+      {
+        "label": "election_timing_political_calculation",
+        "value": 0.85,
+        "evidence": "Tanaka dissolved the House of Representatives in Nov 1972, only months after becoming PM, to capitalize on China normalization popularity. The election produced a large LDP majority. This demonstrated his mastery of political timing — using diplomatic success to reset the electoral calendar. The later 1974 House of Councillors election, by contrast, was badly timed and became a referendum on money politics and inflation."
+      },
+      {
+        "label": "public_investment_multiplier_belief",
+        "value": 0.90,
+        "evidence": "Tanaka genuinely believed in the economic multiplier effects of infrastructure investment — shinkansen stimulate regional economies, ports enable exports, roads link markets. This was not purely political — it reflected the real postwar development experience where infrastructure investment had enabled rapid growth. His error was applying this model to a changed context (oil shock, slower growth era) where the multiplier had diminished."
+      },
+      {
+        "label": "north_korea_policy",
+        "value": 0.45,
+        "evidence": "Relations with North Korea remained frozen during Tanaka's tenure. No normalization attempt (unlike China). Japan-DPRK relations were complicated by the abductions issue and the 1972 focus was entirely on China. Tanaka did not have a North Korea initiative — it was outside his diplomatic agenda."
+      },
+      {
+        "label": "foreign_direct_investment_openness",
+        "value": 0.55,
+        "evidence": "Japan remained relatively closed to inbound FDI during this period. MITI maintained extensive capital controls on inbound investment. Tanaka did not push FDI liberalization as a priority — his model was domestic capital accumulation and direction rather than foreign capital attraction. Outbound Japanese investment (especially in resource projects) was encouraged."
+      },
+      {
+        "label": "coalition_maintenance_lhp_opposition",
+        "value": 0.70,
+        "evidence": "LDP had strong majorities in both houses for most of Tanaka's tenure. He did not need formal coalition with opposition parties. However, in 1974 Upper House election, LDP's majority declined substantially — a sign of eroding legitimacy. His management of intra-LDP factions was excellent; management of the broader public legitimacy was poor by end of tenure."
+      },
+      {
+        "label": "housing_urban_development",
+        "value": 0.75,
+        "evidence": "Urban housing shortage was a major social issue in 1972 Japan. Archipelago Remodeling Plan addressed this partly through industrial decentralization (reduce demand pressure on Tokyo), but also through new town development. However, the land speculation triggered by the Plan made urban housing more expensive, worsening affordability — an unintended consequence that damaged Tanaka politically."
+      },
+      {
+        "label": "education_policy_attention",
+        "value": 0.42,
+        "evidence": "Education policy was not a priority for Tanaka — it was handled by the Ministry of Education bureaucracy with relatively little prime ministerial involvement. His own educational background (no university degree) meant he was not embedded in the educational establishment networks that typically drove education policy."
+      }
+    ]
+  }
+}

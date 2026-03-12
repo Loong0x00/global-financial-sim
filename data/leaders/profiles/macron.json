@@ -1,0 +1,352 @@
+{
+  "leader": "Emmanuel Macron",
+  "role": "President of France (2017-present)",
+  "level": 1,
+  "compiled_by": "claude-opus-4-6",
+  "compiled_date": "2026-03-13",
+  "compilation_sources": [
+    "Nuclear deterrence strategy speech (Mar 2026): arsenal expansion + temporary deployment to allies",
+    "Franco-German defense integration agreement with Merz (2026)",
+    "Ukraine security guarantee joint statement with UK (Jan 2026)",
+    "2024 snap parliamentary election and subsequent hung parliament crisis",
+    "Four minority governments in 18 months: Barnier, Bayrou, Lecornu, successor (2024-2026)",
+    "No-confidence vote toppling Barnier government (Dec 2024) — first since 1962",
+    "Yellow vest crisis response timeline (2018-2019)",
+    "Pension reform via Article 49.3 without parliamentary vote (2023)",
+    "Africa/Sahel military withdrawal: Mali (2022), Burkina Faso (2023), Niger (2023), Chad/Senegal/Ivory Coast (2024-2025)",
+    "Israel-Gaza policy: arms embargo call, Palestinian state recognition (2024)",
+    "Trump relationship management: defense spending, tariff negotiations, strategic autonomy rhetoric",
+    "Rothschild & Co investment banking career (2008-2012)",
+    "En Marche party creation and 2017 presidential campaign",
+    "EU reform proposals: Sorbonne speech (2017), follow-up (2024)"
+  ],
+  "background": {
+    "born": "1977-12-21",
+    "origin": "Amiens, Picardy, France",
+    "career_path": "ENA (École nationale d'administration, 2002-2004) → Inspector of Finances (Inspection générale des finances) → Rothschild & Co investment banker (2008-2012, made partner) → Deputy Secretary-General at the Élysée under Hollande (2012-2014) → Minister of Economy (2014-2016) → Founded En Marche! (2016) → Elected President at age 39 (2017) → Re-elected (2022) → Final term ends 2027",
+    "formative_experiences": "ENA training instilled the French technocratic elite's conviction that governance is a technical exercise best performed by the brightest — explains his top-down reform style and impatience with democratic deliberation. Rothschild years taught financial markets logic and dealmaking but also created permanent 'président des riches' vulnerability. Marriage to Brigitte (former teacher, 24 years older) demonstrated willingness to defy social convention from early age — a personality trait that maps to political risk-taking. En Marche creation in 2016 — building a presidential vehicle from nothing in 12 months — was the most audacious political gamble in modern French history and succeeded. This success created a dangerous pattern: Macron believes he can will political realities into existence through personal vision and determination.",
+    "decision_style_origin": "ENA technocrat + investment banker: identifies 'the rational solution,' then imposes it top-down, expecting implementation to follow. The Article 49.3 pension reform (forcing through without parliament vote) is the purest expression of this style. Macron genuinely believes he sees further than others and that resistance is ignorance, not legitimate disagreement. This creates periodic crises (Yellow Vests, pension protests, snap election disaster) when reality pushes back. The style is effective for international diplomacy (bold proposals, grand gestures) but toxic for domestic governance (perceived arrogance, democratic deficit)."
+  },
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector for Emmanuel Macron compiled across nearly a decade of presidency (2017-2026). Macron is the most consequential French president since de Gaulle in terms of strategic ambition, but operates under severe domestic constraints that de Gaulle never faced. The core tension: a leader with genuinely grand strategic vision (European strategic autonomy, nuclear deterrence extension, defense industry consolidation) who cannot govern his own country (hung parliament, no majority, four prime ministers in 18 months). His international boldness and domestic weakness are causally connected — the grander the foreign policy gesture, the more it compensates for domestic impotence.",
+    "dimensions": 53,
+    "vectors": [
+      {
+        "label": "strategic_autonomy_vision_commitment",
+        "value": 0.93,
+        "evidence": "Sorbonne speech (2017): 'European sovereignty' as organizing principle. Consistently advocated European defense capacity independent of US. 2025-2026: accelerated by Trump's unreliability — 'I want to believe that the US will stand by our side, but we have to be ready for that not to be the case.' The strategic autonomy vision is Macron's deepest policy conviction, predating Trump and surviving every domestic crisis. It is Gaullist in origin (French grandeur through European vehicle) but adapted for 21st century (nuclear sharing, defense industry integration). No other European leader articulates this vision with comparable clarity or persistence."
+      },
+      {
+        "label": "nuclear_deterrence_extension_willingness",
+        "value": 0.82,
+        "evidence": "Mar 2026: Announced expansion of French nuclear arsenal (first since at least 1992), including temporary deployment of nuclear-armed aircraft to allied countries — unprecedented in French nuclear history. Offered to discuss nuclear deterrence extension with European partners (Germany, UK, Poland, Netherlands, Belgium, Sweden, Denmark, Greece). Franco-German joint statement included German participation in French nuclear exercises. The nuclear extension is Macron's boldest move: it transforms France's force de frappe from national deterrent to European strategic asset. Motivation: (1) Trump's unreliable US nuclear umbrella, (2) Russian nuclear threats, (3) personal legacy as architect of European defense. Risk: French public may resist sharing 'their' nuclear sovereignty."
+      },
+      {
+        "label": "nuclear_arsenal_expansion",
+        "value": 0.78,
+        "evidence": "Mar 2026: France will increase number of nuclear warheads — first expansion since 1992 post-Cold War drawdown. Updated nuclear posture includes potential temporary deployment of strategic air forces to allied countries. This reverses 30+ years of nuclear reduction trend. Macron framed it through Gaullist lens: 'To be free, one must be feared.' The expansion is modest (details classified) but symbolically enormous — it signals that France is preparing for a world where US nuclear guarantee cannot be assumed."
+      },
+      {
+        "label": "ukraine_security_guarantee_commitment",
+        "value": 0.79,
+        "evidence": "Jan 2026: Joint France-UK security guarantee for Ukraine. Mar 2025: Discussed sending European troops to Ukraine for peace enforcement. Hosted Western leader meetings on 'coalition of the willing.' France-UK statement pledged to ensure Ukraine's security as part of any peace deal. Macron was the first major European leader to publicly discuss European 'boots on the ground' in Ukraine — a position that initially shocked European capitals. The security guarantee commitment is genuine but constrained by: (1) French military capacity (already stretched), (2) domestic opposition, (3) need for multilateral framework."
+      },
+      {
+        "label": "russia_engagement_to_containment_evolution",
+        "value": 0.74,
+        "evidence": "Phase 1 (2017-2021): Attempted engagement with Putin. Hosted Putin at Versailles (2017). Invited Russia back to Normandy format. Published op-eds on 'European security architecture including Russia.' Phase 2 (2022-present): Complete pivot to containment after invasion. Led European sanctions response. Provided Caesar artillery, SCALP missiles to Ukraine. Called Putin's bluff on nuclear threats. The evolution is genuine — Macron genuinely believed engagement could work until 2022 proved it couldn't. But traces of Phase 1 thinking remain: Macron still believes that any eventual peace will require some accommodation of Russian security concerns, putting him at odds with Eastern European allies who want maximum Russian defeat."
+      },
+      {
+        "label": "trump_relationship_management_sophistication",
+        "value": 0.71,
+        "evidence": "Macron has attempted multiple approaches to Trump: (1) Charm offensive and 'bromance' (2017-2018), including Bastille Day invitation and tree-planting ceremony. (2) Intellectual confrontation (2018-2020), lecturing Trump on multilateralism. (3) Strategic accommodation (2025-2026), accepting tariffs while building European autonomy. Each approach has partially failed — Trump does not respond to intellectual arguments and views charm as weakness. Macron's Mar 2026 nuclear speech implicitly acknowledged that managing Trump is less important than preparing for US withdrawal. Unlike Merz (who speaks Trump's transactional language), Macron's ENA-intellectual style grates on Trump. The relationship is functional but not warm."
+      },
+      {
+        "label": "eu_reform_ambition",
+        "value": 0.84,
+        "evidence": "Sorbonne I speech (2017): European sovereignty, common defense, eurozone reform, common budget. Sorbonne II speech (2024): updated for post-Ukraine, post-COVID reality. Macron has the most ambitious EU reform agenda of any French president — deeper integration, common debt, defense union, digital sovereignty. However, most proposals have been watered down or blocked by: (1) German fiscal conservatism (Merkel, then Scholz, now Merz's resistance to EU-level fiscal transfers), (2) Eastern European sovereignty concerns, (3) Southern European economic weakness. Macron's EU reform record: vision 10/10, execution 4/10."
+      },
+      {
+        "label": "defense_spending_increase_commitment",
+        "value": 0.77,
+        "evidence": "France's defense budget increased under Macron from ~1.8% GDP (2017) toward 2% target. Military Programming Law (LPM) 2024-2030: €413bn over 7 years, largest since Cold War. Nuclear modernization: new SSBN submarines, ASMPA-R missile, future combat air system. France is one of few NATO allies that consistently met 2% GDP target under Macron. The defense commitment is genuine and predates Trump 2.0 — Macron sees military strength as the foundation of French influence. However, the nuclear expansion announced in Mar 2026 represents a new escalation beyond planned modernization."
+      },
+      {
+        "label": "domestic_political_weakness_severity",
+        "value": 0.89,
+        "evidence": "Jun 2024: Called snap parliamentary election — the single worst political miscalculation of his presidency. Result: hung parliament split three ways (New Popular Front 180, Ensemble 159, National Rally 142). Four prime ministers in 18 months: Barnier (toppled by no-confidence Dec 2024, first since 1962), Bayrou, Lecornu (fell Oct 2025), successor. Approval ratings at historic lows. Former PM Édouard Philippe publicly suggested Macron resign. Macron cannot pass legislation, cannot form stable government, cannot call new elections until Jun 2025 at earliest. He is the most domestically weakened French president since the Fourth Republic. Yet he retains: foreign policy, defense, nuclear decision authority (constitutional presidential domain)."
+      },
+      {
+        "label": "snap_election_miscalculation",
+        "value": 0.94,
+        "evidence": "Jun 2024: After European Parliament election losses, Macron dissolved the National Assembly and called snap elections. This was not constitutionally required — it was a personal gamble that French voters would rally behind him when faced with the far-right alternative. They didn't. The result was catastrophic: Macron's coalition went from governing majority to third place. No European leader had committed such a consequential unforced error since Cameron's Brexit referendum. The snap election revealed Macron's deepest flaw: he believes his personal charisma and political intuition can override structural political realities. When they can't, the results are devastating."
+      },
+      {
+        "label": "article_49_3_constitutional_forcing",
+        "value": 0.85,
+        "evidence": "Used Article 49.3 (force legislation without parliamentary vote) for pension reform (2023), social service financing (2024, which triggered no-confidence vote). Article 49.3 is Macron's institutional weapon of choice when parliament blocks his agenda. It is constitutionally legal but democratically toxic — each use further erodes his legitimacy and energizes opposition. The pension reform via 49.3 (raising retirement age 62→64 without vote) generated the largest protests since 1968 and permanently damaged his domestic authority. Pattern: when persuasion fails, Macron reaches for institutional power tools rather than compromise."
+      },
+      {
+        "label": "protest_tolerance_and_response",
+        "value": 0.72,
+        "evidence": "Yellow Vests (2018-2019): Initially dismissed, then partially capitulated (cancelled fuel tax hike, €10bn in concessions, launched Grand National Debate). Pension protests (2023): did NOT capitulate despite 70% opposition and massive street mobilization — forced reform through via 49.3. The evolution shows learning: Macron concluded from Yellow Vests that capitulation invites more protests, so for pensions he endured protests and won. However, the political cost was enormous — he won the policy battle but lost the political war (approval collapsed, legitimacy eroded). Macron's protest response is now: absorb pain, maintain course, pay political price later."
+      },
+      {
+        "label": "yellow_vest_crisis_learning",
+        "value": 0.66,
+        "evidence": "Yellow Vests (Nov 2018-Mar 2019): started over fuel tax, expanded to cost-of-living grievances, became anti-Macron movement. Macron initially dismissed them ('I won't change course for people who think they can block roundabouts'), then reversed fuel tax, offered €10bn concessions, launched national debate. Lessons learned: (1) Paris technocratic bubble misses provincial anger, (2) economic reforms need distributive cushioning, (3) the internet mobilizes protest faster than institutions can respond. Lessons NOT learned: (1) top-down reform style is the root cause, (2) personal arrogance triggers populist backlash. The pension reform (2023) showed he absorbed tactical lessons but not structural ones."
+      },
+      {
+        "label": "personal_grandiosity_self_image",
+        "value": 0.86,
+        "evidence": "Jupiter presidency concept: Macron explicitly compared himself to Jupiter (king of gods) early in his term. Versailles speeches (rare joint parliament sessions). Hosted Putin at Versailles and Brégançon. Nuclear speech: 'To be free, one must be feared.' Macron's self-image is monarchical — he sees the French president as elected sovereign, not parliamentary delegate. This is constitutionally supported (Fifth Republic is semi-presidential) but psychologically extreme. The grandiosity serves international positioning (France as great power) but undermines domestic politics (perceived as out-of-touch elitist). The snap election was the ultimate grandiose miscalculation: Macron believed the nation would choose him when given the choice."
+      },
+      {
+        "label": "institutional_manipulation_willingness",
+        "value": 0.83,
+        "evidence": "Created En Marche from nothing (2016) — institutional creation. Dissolved National Assembly (Jun 2024) — institutional destruction. Used Article 49.3 repeatedly — institutional forcing. Appointed four PMs in 18 months — institutional exhaustion. Constitutional presidential domain over foreign/defense policy allows him to remain internationally relevant despite domestic paralysis. Macron treats French institutions as tools to be wielded, not constraints to be respected. He is a constitutional maximalist: if the constitution permits it, he will do it, regardless of democratic norms. This is legal but corrosive to democratic legitimacy."
+      },
+      {
+        "label": "economic_reform_style_top_down",
+        "value": 0.81,
+        "evidence": "Labour law reform (2017): ordonnances (executive orders) bypassing full parliamentary debate. Wealth tax abolition (2017): replaced ISF with IFI (real estate only), earned 'président des riches' label. Pension reform (2023): Article 49.3 without vote. SNCF reform (2018): pushed through despite strikes. Every major Macron reform follows the same pattern: identify rational solution → attempt minimal consultation → face resistance → force through using institutional power → absorb political damage. The pattern is remarkably consistent across 9 years. It produces real reform (France's labor market IS more flexible) but at catastrophic political cost."
+      },
+      {
+        "label": "rothschild_elite_perception_vulnerability",
+        "value": 0.74,
+        "evidence": "Rothschild & Co: joined 2008, made partner by 2010 (negotiated Nestlé-Pfizer deal, reported €2-3m earnings). The Rothschild background is permanently weaponized by opponents: Marine Le Pen calls him 'president of the rich,' Mélenchon invokes banker class. Wealth tax abolition (2017) crystallized the perception. Yellow Vests explicitly targeted elite disconnect. Unlike Merz's BlackRock label, Rothschild carries additional anti-Semitic conspiracy theory baggage in French political culture. Macron cannot escape this perception — it compounds every domestic policy failure."
+      },
+      {
+        "label": "migration_policy_evolution",
+        "value": 0.63,
+        "evidence": "2017: Centrist/liberal rhetoric on migration, European solidarity approach. 2023: Immigration law (Loi Darmanin) — significant rightward shift, tightened family reunification, created deportation fast-track. 2024-2025: Further rightward drift under National Rally electoral pressure. Macron's migration evolution mirrors the broader European trend: centrist leaders adopt harder positions as far-right gains. The evolution is driven by electoral calculation (National Rally's 142 seats) more than conviction. Macron's actual instinct is technocratic (legal pathways + efficient processing) but political reality forces populist-adjacent positioning."
+      },
+      {
+        "label": "africa_policy_francafrique_collapse",
+        "value": 0.76,
+        "evidence": "Macron inherited Françafrique (French military/economic sphere over former colonies) and presided over its collapse. Mali withdrawal (2022) after junta expelled French forces. Burkina Faso (2023). Niger (2023). Then Chad, Senegal, Ivory Coast asked France to leave (2024-2025). Jan 2025: Macron said France was 'right to intervene' and was 'still waiting for them to thank France' — tone-deaf statement that inflamed anti-French sentiment further. Replaced by Russian Wagner/Africa Corps in multiple countries. Strategic shift: fewer military bases, more schools/investment. But the damage is done — France has lost its African sphere of influence under Macron, arguably the most significant French geopolitical loss since Algeria (1962)."
+      },
+      {
+        "label": "africa_thank_france_tone_deafness",
+        "value": 0.88,
+        "evidence": "Jan 6, 2025: Macron said African countries should 'thank' France for military intervention in the Sahel. This statement, coming after being expelled from Mali, Niger, Burkina Faso, and facing anti-French sentiment across West Africa, demonstrated either profound strategic tone-deafness or deliberate domestic audience signaling. It worsened already catastrophic France-Africa relations. Nov 2025: Macron traveled to Africa 'to turn the page' — but the damage from the January statement was already done. Pattern: Macron's personal grandiosity extends to France-as-civilization, making it psychologically impossible for him to acknowledge French policy failures abroad."
+      },
+      {
+        "label": "middle_east_involvement_assertiveness",
+        "value": 0.72,
+        "evidence": "Oct 2024: Called for arms embargo on Israel for Gaza war — the most assertive position of any G7 leader. Called Israeli operations 'totally counterproductive' and 'a failure.' Recognized Palestinian state (Sep 2024, UN speech). Active in Lebanon crisis: proposed 21-day ceasefire, invoked France's historical role as Lebanon's protector. Israel-Macron relationship deteriorated sharply (Netanyahu public rebuke). The Middle East assertiveness serves multiple purposes: (1) domestic Muslim electorate, (2) traditional French Arabist foreign policy, (3) differentiation from US policy, (4) personal conviction. Macron is more willing to confront Israel publicly than any peer leader."
+      },
+      {
+        "label": "israel_policy_confrontation_willingness",
+        "value": 0.71,
+        "evidence": "Arms embargo call. 'Counterproductive and a failure' public statement. Palestinian state recognition. Lebanon ceasefire pressure. Macron-Netanyahu relationship is openly hostile. France is not delivering weapons to Israel for Gaza operations. This positions France as the most pro-Palestinian of Western powers — a traditional French posture but intensified under Macron. The policy is coherent with strategic autonomy vision: France acts independently of US Middle East policy."
+      },
+      {
+        "label": "china_policy_strategic_hedging",
+        "value": 0.58,
+        "evidence": "Apr 2023 Beijing visit: Macron said Europe should not be drawn into US-China confrontation over Taiwan — most pro-China statement by a Western leader. Generated massive transatlantic backlash. Since then, moderated: supported EU anti-subsidy tariffs on Chinese EVs, maintained Aukus-adjacent positioning. Macron's China policy reflects strategic autonomy doctrine: France should not follow either US or Chinese line but pursue independent European interests. In practice, this means: engage China economically, resist on technology/military, maintain strategic ambiguity on Taiwan. The position is intellectually coherent but operationally confusing to allies."
+      },
+      {
+        "label": "taiwan_strategic_ambiguity",
+        "value": 0.45,
+        "evidence": "Apr 2023: suggested Europe should not be involved in Taiwan conflict. Subsequently walked back slightly but never repudiated. France's Pacific territories (New Caledonia, French Polynesia) give it equities in the Indo-Pacific, but Macron clearly signals that Taiwan is not worth a European-Chinese confrontation. This is the single position that most angers Washington and Tokyo in Macron's portfolio. It reveals that strategic autonomy, for Macron, means autonomy FROM US alliance commitments, not just autonomy in addition to them."
+      },
+      {
+        "label": "eu_enlargement_caution",
+        "value": 0.61,
+        "evidence": "France historically cautious on EU enlargement (blocked North Macedonia/Albania in 2019). Macron created concept of 'European Political Community' (Oct 2022) partly as alternative to full EU membership for Ukraine/Balkans. Supports Ukraine's EU path 'in principle' but with long timelines and strict conditionality. The caution reflects: (1) fear of institutional dilution, (2) agricultural budget competition, (3) labor market concerns, (4) desire to deepen before widening. France is consistently the brake on enlargement ambitions."
+      },
+      {
+        "label": "european_defense_industry_champion",
+        "value": 0.81,
+        "evidence": "Franco-German FCAS (Future Combat Air System) jointly led. Franco-German Main Ground Combat System (MGCS). Naval Group exports. Dassault Rafale sales to multiple countries (India, UAE, Indonesia). Macron actively promotes French defense industry as European champion — defense exports are both strategic tool and economic revenue (€27bn in 2024 orders). The defense industry champion role serves strategic autonomy: European defense requires European industry, and French industry should lead. This creates friction with both US (competition for European procurement) and Germany (disputes over FCAS workshare)."
+      },
+      {
+        "label": "franco_german_partnership_management",
+        "value": 0.69,
+        "evidence": "Franco-German engine is Macron's primary vehicle for EU policy. With Merkel: respectful but frustrating (Merkel blocked most Macron EU reform proposals). With Scholz: dysfunctional (policy disagreements on energy, defense, fiscal). With Merz: most productive alignment yet — defense integration agreement, nuclear sharing discussions, shared diagnosis of European strategic vulnerability. However, fundamental Franco-German asymmetry persists: France has nuclear weapons, UN seat, military projection capacity; Germany has economic weight. Macron wants Germany to share France's strategic worldview; Germany wants France to share its fiscal discipline. Neither fully concedes."
+      },
+      {
+        "label": "macron_merz_alignment_potential",
+        "value": 0.73,
+        "evidence": "Franco-German defense integration agreement (2026). German participation in French nuclear exercises. Joint visits to strategic military sites. Merz's willingness to discuss European nuclear sharing. Shared concern about Trump unreliability. The Macron-Merz partnership is the most aligned Franco-German strategic relationship since Mitterrand-Kohl. Both leaders share: (1) corporate/finance backgrounds, (2) strategic urgency about European defense, (3) willingness to break domestic taboos (debt brake, nuclear extension). Risks: SPD constrains Merz, French domestic weakness constrains Macron, both leaders' terms are finite."
+      },
+      {
+        "label": "uk_security_partnership_deepening",
+        "value": 0.74,
+        "evidence": "Jan 2026: Franco-British Ukraine security guarantee. Lancaster House treaties (2010) foundation. Franco-British nuclear cooperation (Teutates agreement). Post-Brexit rapprochement on defense — security cooperation has deepened even as trade relationship deteriorated. Macron sees UK as the only other European nuclear power with global military ambition. The Franco-British defense axis is complementary: France brings EU institutional access, UK brings Five Eyes intelligence, both bring nuclear deterrence and expeditionary capability."
+      },
+      {
+        "label": "cohabitation_risk_management",
+        "value": 0.71,
+        "evidence": "Under French constitution, cohabitation (president and PM from opposing parties) preserves presidential authority over foreign policy, defense, and European affairs — exactly Macron's areas of greatest ambition. If forced into formal cohabitation, Macron would lose domestic economic policy but retain nuclear/defense/foreign policy authority. This constitutional structure explains why Macron doubles down on international boldness as domestic position weakens — it's the domain he retains regardless. His presidency may end (2027) as a purely foreign policy presidency."
+      },
+      {
+        "label": "resignation_resistance",
+        "value": 0.91,
+        "evidence": "Former PM Philippe publicly suggested Macron should resign. Multiple polls show majority wanting him to step down. Record low approval ratings. Four PM failures. Yet Macron shows zero indication of considering resignation. Constitutional term expires 2027 — he will serve until the end. The grandiosity dimension explains this: Macron believes he is historically necessary. Resignation would be admission of failure incompatible with his self-image. De Gaulle resigned (1969) after losing a referendum — Macron has avoided putting anything to referendum precisely to avoid this fate."
+      },
+      {
+        "label": "domestic_spending_constraint",
+        "value": 0.73,
+        "evidence": "French public debt: ~112% GDP (2024). EU fiscal rules pressure. No parliamentary majority to pass budgets. Social service financing bill triggered no-confidence vote. Macron cannot fund his international ambitions (defense spending increase, nuclear expansion, Ukraine support) without painful domestic fiscal adjustments. The tension between grand foreign policy and fiscal constraint is the structural crisis of Macron's final term. Defense spending comes at the expense of social spending — in a country already convulsed by pension and cost-of-living protests."
+      },
+      {
+        "label": "en_marche_institutional_decay",
+        "value": 0.82,
+        "evidence": "En Marche (now Renaissance) went from 350 seats (2017) to 159 seats (2024). The party was built as a personal vehicle for Macron, not as a durable political institution. As Macron weakens, the party has no independent identity, leadership pipeline, or ideological anchor. Many original En Marche members have defected (Philippe to Horizons, others to various factions). By 2027, Renaissance may cease to exist as a significant political force. This is the institutional consequence of personal-vehicle politics — the party dies with the leader's relevance."
+      },
+      {
+        "label": "national_rally_containment",
+        "value": 0.61,
+        "evidence": "Macron's entire political project was conceived as a bulwark against Le Pen's National Rally. He won 2017 and 2022 on anti-Le Pen coalitions. But his domestic failures have strengthened NR: 142 seats (2024), Marine Le Pen remains most likely 2027 president. Macron's centrist-technocratic model was supposed to prove that competent governance makes populism unnecessary. Instead, perceived elite arrogance has fueled populist anger. The containment has objectively failed — NR is stronger in 2026 than when Macron took office in 2017."
+      },
+      {
+        "label": "personal_diplomatic_energy",
+        "value": 0.88,
+        "evidence": "Macron is an extraordinarily active diplomat: constant travel, phone calls, summits, bilateral meetings. He personally negotiated with Putin (hours-long calls), mediated Lebanon crisis, organized European summits, flew to Middle East. The personal energy substitutes for institutional power — when you can't govern domestically, you govern internationally through personal diplomacy. This hyper-activity also serves the grandiosity: being at the center of every major crisis validates the self-image of historical necessity."
+      },
+      {
+        "label": "multilateral_institution_commitment",
+        "value": 0.76,
+        "evidence": "Paris Climate Agreement champion. Defended Iran nuclear deal (JCPOA) against Trump 1.0 withdrawal. Created European Political Community. Active in G7, G20, UN processes. However, Macron's multilateralism is French-led multilateralism — he wants institutions where France has disproportionate influence. Pure multilateralism (where all voices are equal) is less attractive. The multilateral commitment is genuine but instrumental — institutions serve French strategic autonomy."
+      },
+      {
+        "label": "climate_policy_leadership_ambition",
+        "value": 0.72,
+        "evidence": "Paris Agreement host (2015, under Hollande but Macron adopted as legacy). 'Make Our Planet Great Again' slogan (trolling Trump). One Planet Summits. However, Yellow Vests started over climate-related fuel tax — revealing the domestic cost of climate ambition. Macron subsequently moderated: nuclear energy reframed as climate solution, pension reform prioritized over climate reform. Climate leadership is genuine but subordinate to domestic political survival and defense priorities in 2025-2026."
+      },
+      {
+        "label": "digital_sovereignty_advocacy",
+        "value": 0.68,
+        "evidence": "Promoted European digital sovereignty: GDPR enforcement, Digital Markets Act, AI regulation. Supported French tech ecosystem (Station F, French Tech initiative). Raised concerns about US tech platform dominance. However, France lacks the industrial base for digital autonomy — no European equivalent of Google, Amazon, or OpenAI. Digital sovereignty advocacy is aspirational and regulatory (constrain US tech power) rather than industrial (build European alternatives). AI regulation through EU AI Act is the main concrete achievement."
+      },
+      {
+        "label": "election_cycle_lame_duck_status",
+        "value": 0.84,
+        "evidence": "Cannot run for re-election (two-term limit, ends 2027). No parliamentary majority. No designated successor. Party decaying. Approval at historic lows. Former allies calling for resignation. By any normal measure, Macron is a lame duck. Yet he continues to make consequential decisions: nuclear expansion, defense integration with Germany, Ukraine security guarantees. The lame duck status paradoxically liberates — he no longer needs to worry about electoral consequences and can pursue legacy-defining foreign policy. The nuclear deterrence extension is a lame duck president's grand gesture."
+      },
+      {
+        "label": "legacy_construction_urgency",
+        "value": 0.87,
+        "evidence": "With 18 months remaining (to 2027), Macron is in explicit legacy construction mode. The nuclear deterrence extension transforms France's role in European security architecture — potentially the most consequential French defense decision since de Gaulle's force de frappe. The Franco-German defense integration agreement creates institutional structures that outlast his presidency. Ukraine security guarantee creates binding commitments. Macron is building a legacy of European strategic autonomy that his successors (even Le Pen) would find difficult to reverse."
+      },
+      {
+        "label": "information_fidelity_from_advisors",
+        "value": 0.62,
+        "evidence": "The snap election disaster (Jun 2024) is the clearest evidence of information failure. Macron's advisors either did not warn him or were ignored. The Élysée bubble has been described by insiders as increasingly insular — Macron trusts a shrinking circle and dismisses contrarian views. This is a classic second-term deterioration pattern. Foreign policy information (diplomatic corps, DGSE intelligence) remains high quality. Domestic political intelligence is degraded. The ENA technocratic culture reinforces bubble effects: data and analysis are abundant, but political judgment is filtered through elite assumptions."
+      },
+      {
+        "label": "age_and_energy_advantage",
+        "value": 0.79,
+        "evidence": "Born 1977, youngest French president in history. At 48 (2026), he has more energy and stamina than most peers (Putin 73, Biden 83, Trump 79, Merz 70). This matters for the hyper-diplomatic presidency: Macron can sustain a schedule (constant travel, late-night calls, back-to-back summits) that exhausts older leaders. Post-presidency at 49 (2027) means potential for decades of continued influence — Macron will likely remain a major figure in European politics long after leaving office."
+      },
+      {
+        "label": "french_military_capability_confidence",
+        "value": 0.78,
+        "evidence": "France has the most capable military in the EU: nuclear deterrent (300 warheads, SSBN fleet, air-delivered weapons), aircraft carrier (Charles de Gaulle, successor planned), expeditionary capability (Operation Barkhane, various African deployments), special forces. Macron's defense confidence is grounded in real capability — France can project power independently, unlike Germany or most EU states. This capability base makes the nuclear extension offer credible. However, African withdrawal revealed limits: France cannot sustain multiple simultaneous expeditionary operations while also preparing for high-intensity European conflict."
+      },
+      {
+        "label": "pension_reform_pyrrhic_victory",
+        "value": 0.79,
+        "evidence": "Pension reform (2023): raised retirement age 62→64, forced through via Article 49.3 without vote. 70% public opposition. Largest protests since 1968. 850+ detained. Macron won the policy: reform is law, retirement age increased. Macron lost the politics: approval cratered, opposition radicalized, contributed to 2024 election disaster. The pension reform is the paradigm of Macron's governance: technically correct (France's pay-as-you-go system was unsustainable), democratically devastating (imposed against overwhelming opposition). Pattern: Macron prioritizes policy outcomes over political sustainability."
+      },
+      {
+        "label": "wealth_tax_abolition_original_sin",
+        "value": 0.72,
+        "evidence": "Oct 2017: Abolished ISF (Impôt de solidarité sur la fortune) — France's wealth tax — replacing it with IFI (tax on real estate only). This was Macron's first major policy and remains his most politically damaging. It crystallized the 'président des riches' narrative that Yellow Vests weaponized. The reform was economically defensible (wealth tax drove capital flight) but politically catastrophic — it defined Macron's class identity for the rest of his presidency. Every subsequent reform (pension, labor) was viewed through the ISF lens."
+      },
+      {
+        "label": "european_political_community_innovation",
+        "value": 0.64,
+        "evidence": "Oct 2022: Macron proposed European Political Community (EPC) — a broader framework including non-EU European states (UK, Ukraine, Turkey, Balkans). First summit in Prague. Subsequent meetings in Moldova, UK, Hungary. The EPC is Macron's institutional innovation: it addresses the gap between EU membership (slow, exclusive) and no framework at all. Practical achievements are limited — it's a talking shop without binding decisions. But it fills a real gap and keeps UK engaged with European security post-Brexit."
+      },
+      {
+        "label": "european_troops_ukraine_proposal",
+        "value": 0.67,
+        "evidence": "Feb-Mar 2025: Macron raised the possibility of sending European troops to Ukraine to enforce a peace deal. The proposal shocked European capitals — no other leader had openly discussed this. Macron walked it back to 'peacekeeping' rather than 'combat,' but the Overton window was shifted. The troops proposal serves multiple purposes: (1) signals seriousness to Russia, (2) demonstrates European willingness to bear costs, (3) tests European strategic autonomy in practice, (4) positions France as defense leader. Implementation remains hypothetical."
+      },
+      {
+        "label": "education_and_cultural_policy",
+        "value": 0.56,
+        "evidence": "Africa pivot to schools over military bases (Jan 2025 announcement). Erasmus+ participation (as EU policy priority). French language promotion. Macron sees education and culture as soft power tools — traditional French approach. However, cultural policy is low priority compared to defense, economy, and institutional reform. The Africa education pivot is partly damage control for military withdrawal rather than genuine strategic reorientation."
+      },
+      {
+        "label": "constitutional_reform_ambition_blocked",
+        "value": 0.71,
+        "evidence": "Macron has proposed various constitutional reforms (reducing parliament size, reforming Senate, changing electoral system) but cannot implement any without parliamentary supermajority he doesn't have. The constitutional reform ambition reveals Macron's institutional engineering instinct — he wants to reshape France's political architecture, not just govern within it. Blocked by parliamentary arithmetic and political weakness, these ambitions join the long list of Macron visions that exceed his implementation capacity."
+      },
+      {
+        "label": "successor_preparation_absence",
+        "value": 0.82,
+        "evidence": "No clear Macron successor exists. Renaissance party has no independent leadership. Philippe defected. Attal (briefly PM) is too junior. The absence of succession planning reflects: (1) personal grandiosity (Macron cannot imagine the movement without himself), (2) party structure (En Marche was always a personal vehicle), (3) political collapse (who would want to inherit this?). The likely 2027 outcome is NR's Le Pen vs. some form of left coalition, with Macronism as an orphan ideology."
+      },
+      {
+        "label": "european_bond_market_ambition",
+        "value": 0.69,
+        "evidence": "Macron has consistently advocated for common European debt instruments — extending the COVID-era recovery fund model. The NGEU (€750bn recovery fund, 2020) was a breakthrough Macron championed. Wants permanent eurozone fiscal capacity. Blocked by Germany (Merz, like Merkel, opposes Eurobonds), Netherlands, and 'frugal' states. Macron sees common debt as the financial foundation of strategic autonomy — Europe cannot be a strategic power without shared fiscal capacity."
+      },
+      {
+        "label": "nuclear_doctrine_escalation_ladder",
+        "value": 0.75,
+        "evidence": "Traditional French nuclear doctrine: minimum deterrence, no first use against non-nuclear states, president sole decision authority. Macron's updates: (1) expanded deterrence to include allies, (2) arsenal increase, (3) aircraft deployment to allied territory. The doctrine remains fundamentally deterrent (not warfighting), but the expansion of scope from national to European changes the escalation calculus. Russia must now consider that an attack on European allies could trigger French nuclear response — a significant deterrence extension."
+      },
+      {
+        "label": "personal_resilience_under_pressure",
+        "value": 0.83,
+        "evidence": "Yellow Vests, pension protests, COVID management, snap election disaster, four PM failures, record-low approval, calls for resignation — Macron has endured more sustained political pressure than any Fifth Republic president and has not broken. He continues making bold decisions (nuclear expansion, Ukraine security guarantee) despite zero domestic mandate. This resilience is partly psychological (grandiosity provides armor against criticism) and partly constitutional (president's powers are robust regardless of popularity). The resilience may also be stubbornness — inability to recognize when course correction is needed."
+      }
+    ]
+  },
+  "red_lines": [
+    {
+      "id": "RL001",
+      "trigger": "Direct military threat to French territory or overseas departments",
+      "response": "Nuclear deterrence activation (ultimate escalation)",
+      "threshold": 0.97,
+      "evidence": "France's nuclear doctrine explicitly protects national territory including overseas departments. Macron as sole nuclear authority would escalate to nuclear signaling and potentially use if French territory were attacked. This is non-negotiable and shared across all French presidents."
+    },
+    {
+      "id": "RL002",
+      "trigger": "Resignation pressure from parliament or public",
+      "response": "Absolute refusal — serve until constitutional term end (2027)",
+      "threshold": 0.93,
+      "evidence": "Philippe's resignation suggestion, polls showing majority wanting him to leave — all ignored. Macron's grandiosity makes resignation psychologically impossible. He would exhaust every constitutional tool before considering voluntary departure."
+    },
+    {
+      "id": "RL003",
+      "trigger": "National Rally achieving executive power before 2027",
+      "response": "Maximum institutional resistance through constitutional presidential powers",
+      "threshold": 0.88,
+      "evidence": "Macron's entire political project is anti-Le Pen. Even in cohabitation, he would use presidential foreign policy/defense authority to constrain NR governance. The snap election was partly motivated by desire to prevent NR momentum — backfired but demonstrated the depth of commitment."
+    },
+    {
+      "id": "RL004",
+      "trigger": "US withdrawal from NATO or explicit abandonment of European security",
+      "response": "Accelerated European defense integration and French nuclear umbrella extension",
+      "threshold": 0.85,
+      "evidence": "Mar 2026 nuclear speech was essentially a pre-positioned response to this scenario. Macron has prepared the intellectual, political, and military groundwork for European security without US guarantee. If this red line is crossed, France becomes Europe's primary nuclear guarantor — Macron's ultimate legacy."
+    },
+    {
+      "id": "RL005",
+      "trigger": "Russian military attack on NATO/EU member state",
+      "response": "Full mobilization of French defense capabilities within alliance framework",
+      "threshold": 0.92,
+      "evidence": "France's nuclear deterrence extension explicitly covers European allies. Franco-German defense integration creates operational pathways. France's expeditionary capability would be fully committed. Macron's credibility on European defense depends on delivering if this scenario materializes."
+    },
+    {
+      "id": "RL006",
+      "trigger": "Erosion of French permanent UN Security Council seat",
+      "response": "Maximum diplomatic resistance",
+      "threshold": 0.95,
+      "evidence": "France's UNSC permanent seat is the institutional foundation of its great power status. Any attempt to reform the Security Council in ways that dilute French influence would be opposed absolutely. This red line is shared across all French presidents and political parties."
+    }
+  ],
+  "special_notes": [
+    "The grand paradox: Macron is simultaneously the most strategically ambitious European leader (nuclear deterrence extension, European strategic autonomy, Franco-German defense integration) and the most domestically paralyzed (hung parliament, four PM failures, record-low approval). These are causally connected — international boldness compensates for domestic impotence, and presidential foreign policy authority (constitutionally protected) is the last domain where Macron can act without parliamentary constraint.",
+    "The snap election of June 2024 is the single most important data point for Macron's decision-making model. It was an unforced catastrophic error driven by personal grandiosity — Macron believed French voters would rally behind him when given a binary choice. They didn't. This reveals a blind spot that persists: Macron overestimates his personal charisma's ability to override structural political realities. Any model should discount Macron's confidence in his own political judgment by ~30%.",
+    "Macron's nuclear deterrence extension (Mar 2026) is potentially the most consequential European security decision since the creation of NATO. If implemented, it transforms Europe from a US security dependent to a credible autonomous deterrent power. The decision was made by a domestically crippled president with 18 months left in office — demonstrating that structural position (France's nuclear arsenal, constitutional presidential authority) matters more than current political strength.",
+    "Post-presidency Macron (from 2027, age 49) will likely remain a major figure in European politics — potentially through EU institutional roles, international mediation, or continued advocacy for strategic autonomy. Any model extending beyond 2027 should retain Macron as an influential non-state actor.",
+    "The Africa collapse is underweighted in most analyses. France lost its entire Sahel military sphere of influence — the most significant French geopolitical retreat since Algeria 1962. This constrains France's ability to project power globally and reduces the credibility of the 'European strategic autonomy' narrative (if France can't maintain influence in its own backyard, how can it guarantee European security?)."
+  ]
+}

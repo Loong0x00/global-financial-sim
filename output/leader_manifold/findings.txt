@@ -1,0 +1,53 @@
+LEADER MANIFOLD ANALYSIS — KEY FINDINGS
+============================================================
+Date: 2026-03-12
+Leaders analyzed: 42
+Parameters (>=3 profiles): 36
+
+TRUE DIMENSIONALITY: 3
+  Variance at elbow: 47.1%
+  80% variance needs: 10 dims
+  90% variance needs: 14 dims
+  95% variance needs: 16 dims
+
+CLUSTERS: 6
+  Cluster 1: Mario Draghi, Alan Greenspan, Jerome Powell
+  Cluster 2: Abe Shinzo, Ali Khamenei, Tony Blair, Elon Musk, George W. Bush, Gordon Brown, Hashimoto Ryutaro, Hu Jintao / Wen Jiabao (胡锦涛/温家宝) — Pai.., JP:post_oil_crisis_stabilization, JP:bubble_collapse_political_chao, JP:pre_koizumi_stagnation, JP:post_koizumi_revolving_door, JP:post_abe_transition, Kishida Fumio, Koizumi Junichiro, Christine Lagarde, Angela Merkel, Mojtaba Khamenei, Elvira Nabiullina, Nakasone Yasuhiro, Benjamin Netanyahu, Barack Obama, Vladimir Putin, Nicolas Sarkozy, Joseph Stalin, Takaichi Sanae, Tanaka Kakuei, Margaret Thatcher, Donald Trump, Trump Inner Circle / Family Network, UK Brexit Era (Cameron + May), Xi Jinping, Janet Yellen, Boris Yeltsin (Борис Николаевич Ельцин), Zhou Xiaochuan (周小川)
+  Cluster 3: Ben Bernanke
+  Cluster 4: Leonid Brezhnev
+  Cluster 5: Nikita Khrushchev
+  Cluster 6: Vladimir Lenin
+
+TOP DIVERGING DIMENSIONS (autocrat vs democrat):
+  fiscal_deficit_tolerance: autocrat=-0.519, democrat=0.170, delta=0.689
+  succession_planning: autocrat=0.500, democrat=-0.156, delta=0.656
+  ideological_flexibility: autocrat=0.500, democrat=-0.156, delta=0.656
+  shadow_banking_tolerance: autocrat=-0.458, democrat=0.170, delta=0.628
+  political_survival_instinct: autocrat=-0.458, democrat=0.170, delta=0.628
+  corruption_tolerance: autocrat=-0.381, democrat=0.152, delta=0.533
+  regime_survival_priority: autocrat=0.362, democrat=-0.113, delta=0.475
+  us_alliance_dependence: autocrat=0.000, democrat=-0.170, delta=0.170
+  lhp_factional_management: autocrat=-0.000, democrat=0.170, delta=0.170
+  violence_escalation_threshold: autocrat=-0.099, democrat=0.031, delta=0.130
+
+MOST UNIQUE LEADERS:
+  1. Joseph Stalin (dist=2.379)
+  2. Jerome Powell (dist=1.741)
+  3. Benjamin Netanyahu (dist=1.578)
+  4. Mario Draghi (dist=1.286)
+  5. Mojtaba Khamenei (dist=1.134)
+  6. Hu Jintao / Wen Jiabao (胡锦涛/温家宝) — Pai.. (dist=0.953)
+  7. George W. Bush (dist=0.559)
+  8. Alan Greenspan (dist=0.455)
+
+MOST SIMILAR PAIRS:
+  UK Brexit Era (Cameron + May) <-> Janet Yellen: 1.000
+  Trump Inner Circle / Family Network <-> UK Brexit Era (Cameron + May): 1.000
+  Trump Inner Circle / Family Network <-> Janet Yellen: 1.000
+  Nicolas Sarkozy <-> UK Brexit Era (Cameron + May): 1.000
+  Nicolas Sarkozy <-> Trump Inner Circle / Family Network: 1.000
+  Nicolas Sarkozy <-> Janet Yellen: 1.000
+  Koizumi Junichiro <-> UK Brexit Era (Cameron + May): 1.000
+  Koizumi Junichiro <-> Trump Inner Circle / Family Network: 1.000
+  Koizumi Junichiro <-> Nicolas Sarkozy: 1.000
+  Koizumi Junichiro <-> Janet Yellen: 1.000

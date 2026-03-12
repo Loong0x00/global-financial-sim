@@ -1,0 +1,52 @@
+{
+  "run_date": "2026-03-12",
+  "n_indicators": 17,
+  "n_months": 460,
+  "n_landmarks": 460,
+  "pca_dims": 6,
+  "pca_variance_explained": 0.9639518353948937,
+  "categories": {
+    "FRED_US": 22,
+    "FRED_CN": 17,
+    "FRED_EU": 8,
+    "FRED_UK": 8,
+    "FRED_JP": 9,
+    "FRED_RU": 7,
+    "INDICES": 14,
+    "METALS": 2,
+    "CRYPTO": 2
+  },
+  "indicators": [
+    "CRYPTO_btc_usd",
+    "CRYPTO_eth_usd",
+    "IDX_bovespa",
+    "IDX_dax",
+    "IDX_djia",
+    "IDX_eurostoxx50",
+    "IDX_ftse100",
+    "IDX_hang_seng",
+    "IDX_kospi",
+    "IDX_moex",
+    "IDX_nasdaq",
+    "IDX_nikkei225",
+    "IDX_sensex",
+    "IDX_shanghai_composite",
+    "IDX_sp500",
+    "METAL_gold",
+    "METAL_silver"
+  ],
+  "tda_results": {
+    "H0": {
+      "total": 460,
+      "finite": 459
+    },
+    "H1": {
+      "total": 67,
+      "finite": 67
+    },
+    "H2": {
+      "total": 4,
+      "finite": 4
+    }
+  }
+}

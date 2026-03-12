@@ -1,0 +1,208 @@
+{
+  "version": "v5_multi_leader_chain_reactions",
+  "timestamp": "2026-03-13",
+  "config": {
+    "n_simulations": 500000,
+    "max_horizon_months": 48,
+    "n_pca_components": 14,
+    "device": "cuda",
+    "n_clusters": 37,
+    "leaders": [
+      "trump",
+      "xi_jinping",
+      "putin",
+      "mojtaba_khamenei",
+      "netanyahu",
+      "rutte",
+      "merz",
+      "macron",
+      "starmer",
+      "orban",
+      "tusk",
+      "meloni",
+      "zelenskyy"
+    ],
+    "starting_condition": "Hormuz CLOSED, Iran war ACTIVE, Hezbollah ACTIVE"
+  },
+  "leader_parameters": {
+    "trump": {
+      "market_crash_threshold": 0.08,
+      "stock_market_report_card": 0.93,
+      "tariff_volatility": 0.9,
+      "tariff_escalation_rate": 0.15,
+      "tariff_pause_on_crash": 0.85,
+      "military_action_willingness": 0.92,
+      "military_momentum_init": 0.6,
+      "military_momentum_increment": 0.06,
+      "military_action_base_prob": 0.04,
+      "military_cooldown_months": 4,
+      "fed_pressure_probability": 0.3,
+      "fed_pressure_escalation": 0.05,
+      "deal_aspiration": 0.85,
+      "deal_month_threshold": 18,
+      "russia_deal_probability": 0.15,
+      "russia_deal_start_month": 6,
+      "iran_pressure_continuation": 0.7,
+      "israel_green_light": 0.88,
+      "oil_price_domestic_pain": 0.8
+    },
+    "xi": {
+      "taiwan_base_prob": 0.005,
+      "taiwan_prob_2027_peak": 0.03,
+      "taiwan_ramp_start_month": 6,
+      "taiwan_ramp_peak_month": 18,
+      "taiwan_action_prob_overall": 0.7,
+      "gdp_red_line_trigger": 0.85,
+      "stimulus_probability": 0.6,
+      "flood_stimulus_aversion": 0.82,
+      "stimulus_scale": 0.4,
+      "financial_crisis_response": 0.94,
+      "capital_control_threshold": 0.8,
+      "capital_control_probability": 0.4,
+      "information_fidelity": 0.41,
+      "delayed_response_months": 3,
+      "political_security_priority": 0.97,
+      "tech_retaliation_probability": 0.25,
+      "hormuz_energy_vulnerability": 0.7,
+      "russia_pipeline_substitution": 0.25,
+      "mediation_attempt_prob": 0.1,
+      "us_distracted_taiwan_boost": 0.015
+    },
+    "putin": {
+      "energy_weapon_propensity": 0.91,
+      "energy_cutoff_probability": 0.05,
+      "energy_cutoff_escalation": 0.02,
+      "oil_price_benefit_threshold": 80,
+      "ukraine_fixation": 0.96,
+      "military_escalation_base_prob": 0.08,
+      "sunken_cost_commitment": 0.93,
+      "war_intensity_init": 0.65,
+      "war_intensity_increment": 0.05,
+      "nuclear_posture_init": 0.2,
+      "nuclear_escalation_prob": 0.02,
+      "nuclear_action_threshold": 0.85,
+      "nuclear_action_prob": 0.005,
+      "trump_deal_receptivity": 0.4,
+      "deal_minimum_territory": 0.8,
+      "sanctions_resilience": 0.87,
+      "china_pivot_depth": 0.75
+    },
+    "mideast": {
+      "revenge_motivation": 0.95,
+      "hormuz_closure_current": 0.96,
+      "hormuz_reopening_prob": 0.02,
+      "hormuz_reopening_conditions": 0.15,
+      "nuclear_acceleration": 0.97,
+      "nuclear_threshold_months": 18,
+      "proxy_network_activation": 0.97,
+      "iran_war_ongoing_intensity": 0.85,
+      "iran_war_deescalation_prob": 0.03,
+      "gulf_infrastructure_damage": 0.6,
+      "netanyahu_survival_primacy": 0.97,
+      "iran_obsession": 0.95,
+      "trump_netanyahu_alignment": 0.91,
+      "continued_strikes_prob": 0.4,
+      "hezbollah_intensity": 0.7,
+      "hezbollah_escalation_prob": 0.1,
+      "houthi_resumption_prob": 0.6,
+      "houthi_shipping_disruption": 0.4
+    },
+    "europe": {
+      "unity_index_init": 0.45,
+      "unity_decay_rate": 0.005,
+      "russia_threat_boost": 0.03,
+      "trump_pressure_damage": 0.02,
+      "orban_sabotage_prob": 0.3,
+      "orban_sabotage_damage": 0.03,
+      "france_crisis_prob": 0.08,
+      "france_crisis_damage": 0.05,
+      "fiscal_stress_threshold": 0.6,
+      "defense_spending_gap": 0.4,
+      "migration_pressure": 0.35
+    }
+  },
+  "scenarios": {
+    "Baseline (econ only)": {
+      "key_probabilities_2of3": {
+        "6_months": 0.0,
+        "12_months": 0.001252,
+        "24_months": 0.033942,
+        "36_months": 0.109928,
+        "48_months": 0.20856
+      },
+      "key_probabilities_3of3": {
+        "6_months": 0.0,
+        "12_months": 0.000206,
+        "24_months": 0.00709,
+        "36_months": 0.028838,
+        "48_months": 0.064268
+      },
+      "elapsed_seconds": 0.6
+    },
+    "Trump+Xi only (v4)": {
+      "key_probabilities_2of3": {
+        "6_months": 0.032928,
+        "12_months": 0.108478,
+        "24_months": 0.345654,
+        "36_months": 0.648472,
+        "48_months": 0.842596
+      },
+      "key_probabilities_3of3": {
+        "6_months": 0.005218,
+        "12_months": 0.022508,
+        "24_months": 0.122934,
+        "36_months": 0.275834,
+        "48_months": 0.432024
+      },
+      "elapsed_seconds": 0.6
+    },
+    "Full v5 (all actors)": {
+      "key_probabilities_2of3": {
+        "6_months": 0.043482,
+        "12_months": 0.132128,
+        "24_months": 0.382444,
+        "36_months": 0.703728,
+        "48_months": 0.879866
+      },
+      "key_probabilities_3of3": {
+        "6_months": 0.005676,
+        "12_months": 0.027014,
+        "24_months": 0.14125,
+        "36_months": 0.301962,
+        "48_months": 0.456878
+      },
+      "elapsed_seconds": 0.8
+    }
+  },
+  "attribution": {
+    "base": 34.311344146728516,
+    "tariff": 0.8711022138595581,
+    "military_us": 0.0,
+    "fed_press": 25.45248031616211,
+    "taiwan": 17.253562927246094,
+    "stimulus_cn": 10.738951683044434,
+    "capctrl": 7.617985725402832,
+    "tech_ret": 0.5207246541976929,
+    "energy_ru": 0.11272736638784409,
+    "mil_ru": 0.7332993745803833,
+    "nuclear_ru": 0.0,
+    "hormuz": 0.0,
+    "iran_war": 0.6085641384124756,
+    "hezbollah": 0.9189952611923218,
+    "eu_fracture": 0.8608270883560181
+  },
+  "final_state_48mo": {
+    "taiwan_triggered_pct": 77.2298,
+    "tariff_level": 0.2818,
+    "mil_momentum": 0.7499,
+    "russia_deal_pct": 99.9766,
+    "war_intensity": 0.8388,
+    "nuclear_posture": 0.2661,
+    "energy_cutoff": 0.1893,
+    "hormuz_still_closed_pct": 13.3158,
+    "iran_war_still_active_pct": 23.124,
+    "nuclear_progress": 1.0,
+    "houthi_active_pct": 94.9316,
+    "eu_unity_final": 0.4267
+  }
+}

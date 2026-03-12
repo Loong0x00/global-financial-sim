@@ -1,0 +1,27 @@
+{
+  "fetched_at": "2026-03-12T04:41:25.875335+00:00",
+  "target_countries": [
+    "BR",
+    "CN",
+    "DE",
+    "FR",
+    "GB",
+    "IN",
+    "JP",
+    "KR",
+    "RU",
+    "US"
+  ],
+  "datasets": {
+    "locational_banking": "OK (10 countries)",
+    "total_credit": "OK (10 countries)",
+    "property_prices": "OK (10 countries)",
+    "effective_exchange_rates": "OK (10 countries)",
+    "debt_securities": "OK (10 countries)",
+    "credit_gap": "OK (10 countries)",
+    "debt_service_ratios": "OK (10 countries)",
+    "policy_rates": "OK (10 countries)",
+    "global_liquidity": "OK (6 countries)",
+    "consolidated_banking": "OK (10 countries)"
+  }
+}

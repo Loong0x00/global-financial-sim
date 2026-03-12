@@ -1,0 +1,297 @@
+{
+  "leader": "Nakasone Yasuhiro",
+  "leader_zh": "中曾根康弘",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "Historical record: Nakasone cabinet decisions 1982-1987",
+    "Plaza Accord documentation Sep 22 1985",
+    "JNR privatization legislation 1987",
+    "NTT/Japan Tobacco privatization records 1985",
+    "Maekawa Report (International Coordination for Balanced Payments) 1986",
+    "Reagan-Nakasone summit records 1983-1987 (Camp David, Williamsburg G7)",
+    "Administrative Reform Council (Rincho) records 1981-1983",
+    "BoJ records on post-Plaza Accord monetary easing",
+    "Academic literature: Chalmers Johnson MITI model, Kent Calder, Ezra Vogel"
+  ],
+  "background": {
+    "birth_year": 1918,
+    "education": "Tokyo Imperial University Law Faculty — elite bureaucratic credential",
+    "career_path": "Navy officer (WWII, Accounting Corps) → Home Ministry bureaucrat → LDP politician → Administrative Director → PM",
+    "decision_archetype": "Military officer turned nationalist reformer / privatization ideologue",
+    "key_experiences": [
+      "WWII naval service — formative military identity and nationalist values",
+      "Witnessed Japan's defeat and postwar humiliation — core driver of nationalism",
+      "Long LDP career watching Japan's economic miracle without commensurate political sovereignty",
+      "Director General of Administrative Management Agency — deep understanding of bureaucratic state",
+      "Operated in shadow of Tanaka faction despite being from different faction (Nakasone faction)"
+    ],
+    "nickname": "Ron-Yasu (Reagan's nickname for him, reflecting their close personal bond)"
+  },
+  "behavior_matrix": {
+    "description": "Behavior vector for Nakasone Yasuhiro's 1982-1987 premiership — the longest single-PM tenure since Sato Eisaku (1964-1972). Covers the three major privatizations (JNR, NTT, Japan Tobacco), the Plaza Accord (Sep 1985) and subsequent yen appreciation, the Maekawa Report domestic demand shift, Reagan-era US-Japan alliance deepening, and the seeds of the late-1980s asset bubble planted by post-Plaza monetary easing. Nakasone represented a nationalist reformer who used privatization ideology to reduce the state while simultaneously pushing for greater Japanese military and political autonomy.",
+    "dimensions": 65,
+    "vectors": [
+      {
+        "label": "privatization_conviction",
+        "value": 0.93,
+        "evidence": "Nakasone was the driving force behind the three major privatizations: JNR (Japanese National Railways, split into JR companies), NTT (Nippon Telegraph and Telephone), and Japan Tobacco. Used the Rincho (Administrative Reform Council under Doko Toshio) as political cover. JNR privatization involved ¥37 trillion in debt and 400,000 employees — an extraordinary political undertaking. He described privatization as 'settling accounts of postwar politics' and pursued it against massive opposition from Sohyo railway unions."
+      },
+      {
+        "label": "fiscal_conservatism_rhetoric",
+        "value": 0.82,
+        "evidence": "Nakasone pledged to achieve fiscal balance without tax increases — the 'zero kokusan' (no new bonds) target. He largely failed to achieve this target but the rhetorical commitment shaped the policy direction. Administrative reform (gyosei kaikaku) was framed as fiscal reform. However, in practice, fiscal deficits continued and the Maekawa Report's domestic demand expansion required public spending. Rhetoric was more conservative than actual fiscal outcomes."
+      },
+      {
+        "label": "fiscal_stimulus_response_post_plaza",
+        "value": 0.75,
+        "evidence": "After Plaza Accord (Sep 1985) caused yen appreciation (from 240 to 160 per dollar over two years), Nakasone faced recession risk from export sector contraction. The Maekawa Report (1986) called for domestic demand expansion via fiscal stimulus and structural reform. Nakasone accepted fiscal expansion as necessary to offset yen appreciation effects — contradicting his earlier fiscal conservatism rhetoric."
+      },
+      {
+        "label": "us_alliance_deepening_priority",
+        "value": 0.95,
+        "evidence": "The 'Ron-Yasu' relationship with Reagan was the defining feature of Nakasone's foreign policy. He visited Reagan at Camp David (1983), described Japan as 'unsinkable aircraft carrier' for US Pacific defense. G7 Williamsburg summit (1983): Japan sided with US on theater nuclear deployment in Europe against French-German reluctance. Supported US Strategic Defense Initiative (Star Wars). Strengthened Japan-US security cooperation beyond Yoshida Doctrine norms. This was the most intense US-Japan alliance bonding since the 1960 Treaty revision."
+      },
+      {
+        "label": "nationalist_identity_expression",
+        "value": 0.85,
+        "evidence": "Yasukuni Shrine official visit (Aug 15, 1985 — first PM to make official visit on VJ Day anniversary) triggered severe Chinese and Korean protests and had to be discontinued. Textbook controversy (1982): resisted Chinese/Korean pressure on history textbook revisions. 'Settling postwar accounts' rhetoric. Pushed (unsuccessfully) for constitutional revision and loosening of 1% GDP defense spending cap. Nakasone's nationalism was genuine and persistent, though he moderated expressions when China/Korea relations demanded."
+      },
+      {
+        "label": "defense_spending_expansion_push",
+        "value": 0.82,
+        "evidence": "Broke the 1% of GDP defense spending cap in FY1987 (defense spending reached 1.004% GDP) — first violation since the cap was set in 1976. Pushed for integrated air-to-sea defense, anti-submarine warfare expansion, and intelligence cooperation with US. Proposed 1,000-mile sea lane defense concept. Maintained Article 9 but expanded operational cooperation with US military to near-maximum extent legally possible."
+      },
+      {
+        "label": "plaza_accord_currency_cooperation",
+        "value": 0.88,
+        "evidence": "Plaza Accord (Sep 22, 1985) at Plaza Hotel NYC: G5 coordinated intervention to depreciate dollar. Japan's Finance Minister Takeshita agreed to yen appreciation as part of deal. Nakasone gave political authorization knowing it would strengthen yen and hurt exporters. He accepted this as the price of US alliance maintenance and for reducing trade friction with US (which was targeting Japan's $50B bilateral surplus). The Accord reflected his willingness to subordinate short-term economic interests to alliance management."
+      },
+      {
+        "label": "trade_friction_management_with_us",
+        "value": 0.78,
+        "evidence": "US-Japan trade friction (semiconductors, automobiles, agricultural products) was severe 1982-1987. Japan agreed to voluntary export restraints (VERs) on automobiles. Semiconductor agreement (1986) set import share targets. MOSS (Market-Oriented Sector-Selective) talks. Nakasone made personal appeals to Japanese consumers to buy American goods. He managed friction through bilateral deals rather than either confrontation or pure capitulation — pragmatic appeasement."
+      },
+      {
+        "label": "structural_reform_domestic_demand",
+        "value": 0.72,
+        "evidence": "Maekawa Report (Apr 1986) called for fundamental restructuring: shift from export-led to domestic demand-led growth, open agricultural market, financial deregulation, housing improvement. This was genuinely transformative in framing though implementation was limited. Nakasone endorsed the report but faced fierce LDP agricultural lobby resistance on rice import liberalization. Structural reform was stronger in rhetoric than in agricultural/regulatory implementation."
+      },
+      {
+        "label": "financial_deregulation_support",
+        "value": 0.78,
+        "evidence": "Big Bang financial deregulation began under Nakasone: capital account liberalization accelerated, offshore banking facilities (JOM) established, bond market deregulation, interest rate deregulation. The yen/dollar agreement (1984) with US Treasury opened Japan's capital account substantially. This financial deregulation was partly US-pressure driven, partly ideological (market opening), and had the unintended consequence of enabling the credit expansion that fed the late-1980s bubble."
+      },
+      {
+        "label": "post_plaza_monetary_easing_tolerance",
+        "value": 0.65,
+        "evidence": "After Plaza Accord yen appreciation caused economic slowdown, BoJ under Sumita Satoshi cut interest rates repeatedly (discount rate from 5% to 2.5% by 1987 — historic lows). Nakasone's government needed domestic demand stimulus to offset export contraction. He did not resist or push back on the aggressive monetary easing that would later fuel the bubble. The seeds of the late-1980s asset bubble were planted during 1986-1987 under Nakasone's tenure, though the bubble fully inflated under Takeshita."
+      },
+      {
+        "label": "jnr_privatization_union_confrontation",
+        "value": 0.90,
+        "evidence": "JNR privatization (1987) required confronting Sohyo-affiliated railway unions — the most powerful organized labor force in Japan. Nakasone's approach combined Rincho political cover, staged implementation (Regional Passenger Companies + JR Freight), massive workforce reduction (400,000→200,000 over decade), and debt absorption by state. He accepted the political cost of union confrontation as necessary for fiscal sustainability and ideological reasons. This was comparable in scale to Thatcher's UK confrontation."
+      },
+      {
+        "label": "educational_reform_nationalist",
+        "value": 0.75,
+        "evidence": "Nakasone established the Ad Hoc Council on Education (Rinkyoshin, 1984-1987) to propose reforms with nationalist and individualizing tendencies. He wanted to reduce egalitarian/collectivist postwar education in favor of individual excellence and national identity. Proposals included reintroducing moral education, Japanese history emphasis. The reforms were controversial and partially blocked by Ministry of Education. Reflected his broader nationalist project."
+      },
+      {
+        "label": "china_relations_pragmatic",
+        "value": 0.65,
+        "evidence": "Relations with China were managed pragmatically but damaged by Yasukuni visit (1985). Nakasone discontinued official Yasukuni visits after Chinese protests — showing sensitivity to China relations when strategic stakes were high. The 1987 'Hu Yaobang incident' (Chinese students protesting his Yasukuni visit) contributed to Hu's downfall in China, which indirectly set in motion the events leading to Tiananmen 1989. China policy was subordinated to nationalist symbolism with strategic costs."
+      },
+      {
+        "label": "korea_normalization_economic",
+        "value": 0.70,
+        "evidence": "Nakasone made a high-profile visit to South Korea (Jan 1983) — first Japanese PM to visit ROK — as a signal of reconciliation. Provided $4B in economic assistance to South Korea. However, historical grievances (textbook controversy, Yasukuni visits) continued to complicate relations. Korea policy reflected the tension between his nationalist impulses and his alliance-management pragmatism."
+      },
+      {
+        "label": "market_liberalization_ideology",
+        "value": 0.80,
+        "evidence": "Nakasone was ideologically aligned with Reagan/Thatcher neoliberal thinking — privatization, deregulation, market forces. This was relatively novel in LDP politics where managed capitalism and bureaucratic guidance were norms. His Administrative Reform agenda was influenced by this global ideological current. However, Japanese political economy constraints (agricultural subsidies, construction pork) limited how far he could push market liberalization in politically sensitive sectors."
+      },
+      {
+        "label": "administrative_state_reduction",
+        "value": 0.78,
+        "evidence": "Rincho process (1981-1983) recommended reducing government size, privatizing public corporations, decentralizing. Three privatizations (JNR, NTT, Japan Tobacco) were the main deliverables. Abolished some public corporations. However, total government employment did not dramatically shrink and regulatory apparatus remained extensive. Visible/symbolic privatizations more than fundamental administrative state downsizing."
+      },
+      {
+        "label": "g7_multilateral_coordination",
+        "value": 0.82,
+        "evidence": "Nakasone actively used G7 summits as a platform for Japanese diplomatic visibility. Williamsburg (1983) — sided with Reagan on NATO nuclear deployment. Plaza Accord (1985) — cooperative currency intervention. G7 Louvre Accord (1987) — currency stabilization after excessive yen appreciation. He elevated Japan's G7 role from passive follower to active participant in defining global economic governance."
+      },
+      {
+        "label": "political_communications_visibility",
+        "value": 0.85,
+        "evidence": "Nakasone was unusually media-savvy for a Japanese PM. Used TV effectively, cultivated foreign media image, gave direct press conferences. His relationship with Reagan was carefully curated for domestic consumption as Japan's first peer relationship with US president. The 'Ron-Yasu' framing was a communications strategy as much as a personal bond. He was one of the first Japanese PMs to understand the political value of personal diplomatic branding."
+      },
+      {
+        "label": "consensus_within_lhp",
+        "value": 0.68,
+        "evidence": "Nakasone operated within LDP factional constraints — he survived as PM partly by maintaining cooperative relationship with Tanaka faction (despite different factions). The Tanaka faction's support was essential for his 5-year tenure. In exchange, he deferred to Tanaka faction on many patronage decisions. This tension between reform agenda and factional dependence was a structural constraint on implementation."
+      },
+      {
+        "label": "us_pressure_trade_accommodation",
+        "value": 0.75,
+        "evidence": "Nakasone made personal appeals to Japanese public to buy American goods (famous '100 items' campaign). He accepted VERs on automobiles, semiconductor market access agreements, agricultural import increases. He framed accommodation as Japan's global responsibility rather than capitulation — 'Japan as a responsible global partner.' This reframing gave political cover for concessions that LDP agricultural/industrial lobbies resisted."
+      },
+      {
+        "label": "agricultural_protection_resistance",
+        "value": 0.72,
+        "evidence": "Despite Maekawa Report calls for agricultural liberalization, Nakasone could not overcome LDP agricultural lobby to open rice market. Beef and citrus import quotas were gradually loosened but rice remained protected. Agricultural constituency was the core of LDP's rural base — the political cost of liberalization exceeded the benefit even for a reform-oriented PM. This represented the structural limit of top-down reform in Japan's political economy."
+      },
+      {
+        "label": "rearmament_constitutional_stretch",
+        "value": 0.80,
+        "evidence": "Nakasone pushed Japan's constitutional interpretation of collective self-defense further than any postwar PM to that point. The 1% GDP cap breach was symbolic but significant. Sea lane defense to 1,000 miles. Enhanced interoperability with US forces. Intelligence sharing expansion. He operated at the maximum feasible stretch of Article 9 pacifism constraints. Proposed formal constitutional revision but lacked the supermajority needed."
+      },
+      {
+        "label": "technology_competitiveness_promotion",
+        "value": 0.80,
+        "evidence": "Japan's semiconductor and electronics industries reached global leadership under Nakasone's tenure. MITI continued active technology promotion. Japan's trade surplus with US in semiconductors was a major bilateral friction point (the 1986 US-Japan Semiconductor Agreement). Nakasone promoted 'technopolis' concept for regional technology clusters. He accepted that US accusations of industrial policy were substantially true."
+      },
+      {
+        "label": "information_fidelity",
+        "value": 0.80,
+        "evidence": "Nakasone had access to excellent policy information through Finance Ministry, MITI, Foreign Ministry, and defense establishment. His WWII naval background gave him strategic thinking credibility. International summitry (G7, bilateral with Reagan) provided direct peer information. Not embedded in the Tanaka-style political money networks — his information was more policy-substantive and less politically transactional."
+      },
+      {
+        "label": "risk_appetite_foreign_policy_symbolic",
+        "value": 0.82,
+        "evidence": "Yasukuni official visit on Aug 15, 1985 — the most symbolically loaded date (VJ Day anniversary) — was a high-risk nationalist act. 'Unsinkable aircraft carrier' statement caused controversy in Japan and Asia. Constitutional revision proposals. These symbolic risks were calculated but real. He was willing to absorb diplomatic costs for nationalist signaling more than most postwar PMs."
+      },
+      {
+        "label": "regulatory_reform_willingness",
+        "value": 0.73,
+        "evidence": "Beyond the three major privatizations, Nakasone pursued deregulation in telecommunications (NTT breakup opened to competition), finance, and some service sectors. Regulatory reform was ideological for him — he believed markets worked better than bureaucratic guidance for mature industries. However, reform was selective: construction (LDP patronage core) and agriculture were effectively shielded."
+      },
+      {
+        "label": "debt_consciousness",
+        "value": 0.72,
+        "evidence": "Nakasone inherited Japan's fiscal deterioration from the post-1973 period. JNR's ¥37 trillion debt was a symbol of public enterprise profligacy. His Administrative Reform agenda was partly motivated by genuine concern about Japan's fiscal trajectory. However, the combination of defense spending increases, domestic stimulus post-Plaza, and continued LDP patronage spending prevented fiscal consolidation. The Rincho's fiscal recommendations were partially delivered."
+      },
+      {
+        "label": "generational_political_change",
+        "value": 0.72,
+        "evidence": "Nakasone represented the transition from the 'postwar settlement' generation (Yoshida, Ikeda, Sato — focused on economic recovery under US umbrella) to a more assertive generation that wanted Japan to be a 'normal country.' His politics anticipated the nationalist and sovereignty-asserting trends that would reemerge under Abe decades later. He was explicitly revisionist about the postwar settlement."
+      },
+      {
+        "label": "yen_appreciation_economic_adjustment",
+        "value": 0.68,
+        "evidence": "Post-Plaza yen appreciation (240→120 per dollar over 2 years) caused 'endaka' (high-yen) recession in 1986. Nakasone's government responded with domestic demand expansion (Maekawa Report) and monetary easing. Manufacturing accelerated hollowing out to lower-cost Asian production. He accepted yen appreciation as the price of alliance management while managing the domestic adjustment — this set the template for all subsequent Japanese exchange rate politics."
+      },
+      {
+        "label": "public_opinion_management",
+        "value": 0.82,
+        "evidence": "Nakasone was unusual among Japanese PMs in actively managing and cultivating public opinion. He used the 'Ron-Yasu' relationship for domestic popularity. He addressed the public directly on television on privatization reforms. His 1986 'double election' (simultaneous Lower and Upper House elections) achieved a record LDP landslide — reflecting his mastery of electoral timing and public communications."
+      },
+      {
+        "label": "election_timing_mastery",
+        "value": 0.88,
+        "evidence": "The Jun 1986 double election (Lower + Upper House simultaneous) was Nakasone's masterstroke — used the popularity of privatization reforms and Reagan alliance to achieve LDP's best result since 1969 (300+ seats). The timing was calculated to maximize reform momentum's electoral benefit. He extended his own PM term by popular mandate — an unusual achievement in LDP factional politics."
+      },
+      {
+        "label": "shadow_shogun_independence",
+        "value": 0.65,
+        "evidence": "Unlike Tanaka (who ruled as shadow shogun after resignation), Nakasone had to navigate within Tanaka faction constraints while PM. This limited his independence on certain policy areas. His PM tenure depended on Tanaka faction support. When Takeshita broke from Tanaka faction to form his own (1987), the political landscape shifted under Nakasone. He was more independent in foreign/security policy than in domestic political economy."
+      },
+      {
+        "label": "bubble_risk_misperception",
+        "value": 0.35,
+        "evidence": "Post-Plaza monetary easing (BoJ discount rate cut to 2.5% by 1987) and the Maekawa Report's domestic demand expansion agenda inadvertently provided the monetary and policy environment for the late-1980s bubble. Nakasone did not perceive or address the bubble risk. His tenure ended (Nov 1987) just as the asset bubble was beginning to inflate. The policy mix he left — loose money + domestic demand stimulus + deregulated finance — was the fertile ground for bubble formation."
+      },
+      {
+        "label": "constitutional_nationalism",
+        "value": 0.82,
+        "evidence": "Nakasone consistently pushed for constitutional revision — both Article 9 (pacifism) and broader constitutional reform. He described the postwar constitution as imposed by occupation forces and lacking Japanese legitimacy. While he could not achieve revision (needed 2/3 supermajority in both houses plus referendum), he consistently raised the issue and moved the Overton window. He was the ideological ancestor of Abe's constitutional revision efforts decades later."
+      },
+      {
+        "label": "pacific_rim_vision",
+        "value": 0.78,
+        "evidence": "Nakasone articulated a vision of Japan as the leader of Asian development — the 'flying geese' model of Japan leading regional economic development. ASEAN relations, aid programs, trade expansion. He visited ASEAN countries and emphasized Japan's Asian identity alongside US alliance. This dual positioning (Western ally + Asian leader) was a prototype for subsequent Japanese diplomatic framing."
+      },
+      {
+        "label": "nuclear_debate_cautious",
+        "value": 0.58,
+        "evidence": "Despite nationalist and defense-expansionist instincts, Nakasone maintained Japan's three non-nuclear principles (non-possession, non-production, non-introduction). The anti-nuclear sentiment in Japanese public opinion was too strong to challenge directly. He supported US extended deterrence while maintaining Japan's non-nuclear domestic posture — a careful navigation of a politically explosive constraint."
+      },
+      {
+        "label": "historical_revisionism_tendency",
+        "value": 0.78,
+        "evidence": "Nakasone's Yasukuni visit, textbook controversy responses, and 'settling postwar accounts' rhetoric all pointed toward historical revisionism. He was less explicit than later Abe-era revisionists but represented the same nationalist impulse to rehabilitate Japan's wartime record. His 1983 statements about Japanese 'cultural homogeneity' and 'intelligence superiority' caused international controversy — a rare case of unguarded nationalist expression."
+      },
+      {
+        "label": "labor_market_flexibility_push",
+        "value": 0.68,
+        "evidence": "JNR privatization forced massive workforce restructuring. Temporary worker deregulation began under Nakasone (Worker Dispatch Law 1985). This was part of his broader market flexibility agenda. However, Japan's permanent employment system (nenko) for core workers at major firms remained intact — partial flexibility at the margins of the labor market rather than fundamental restructuring."
+      },
+      {
+        "label": "welfare_state_retrenchment",
+        "value": 0.70,
+        "evidence": "Nakasone's Administrative Reform agenda included welfare retrenchment — rolling back the 1973 'Year of Welfare' expansions. Pension reform (1985) extended retirement age and reduced replacement rates. Healthcare cost-sharing increased. Fiscal conservatism + privatization ideology = welfare retrenchment as logical complement. However, Japan's welfare state remained relatively lean by OECD standards so the retrenchment was modest."
+      },
+      {
+        "label": "small_government_ideology",
+        "value": 0.78,
+        "evidence": "Nakasone was ideologically committed to small government in a way unprecedented in postwar LDP. His Rincho, privatizations, deregulation, and administrative reform all pointed toward reducing state size. This aligned with Reagan/Thatcher global neoliberal wave. However, Japanese political economy (construction LDP patronage, agricultural subsidies) created structural limits. He reduced state in select areas while leaving patronage networks intact."
+      },
+      {
+        "label": "policy_intellectual_depth",
+        "value": 0.82,
+        "evidence": "Unlike Tanaka (practical operator) or some later PMs, Nakasone had genuine policy intellectual depth. He thought seriously about political philosophy, Japan's place in the world, constitutional theory. His speeches and writings showed conceptual engagement beyond tactical politics. His Rincho-based reform agenda had intellectual coherence. He engaged with international think tanks and policy intellectuals in a way most Japanese PMs did not."
+      },
+      {
+        "label": "louvre_accord_participation",
+        "value": 0.80,
+        "evidence": "G7 Louvre Accord (Feb 1987) agreed to stabilize currencies after excessive yen appreciation caused deflation risks. Japan participated in coordinated intervention to prevent further yen rise beyond 150/dollar level. This required accepting less yen appreciation than market forces would have produced — a reversal of Plaza dynamics. Nakasone's government (through Miyazawa as Finance Minister) navigated this currency policy reversal within G7 framework."
+      },
+      {
+        "label": "jnr_debt_management",
+        "value": 0.75,
+        "evidence": "JNR's ¥37 trillion debt was a central fiscal challenge. The privatization split JNR into JR companies, sequestered the old debt in a special corporation (JNR Settlement Corporation), and planned gradual debt repayment through land sales and partial budgetary allocation. The debt resolution was never fully achieved (still being worked through in the 1990s) but the privatization itself was implemented, removing the ongoing operating losses."
+      },
+      {
+        "label": "personal_longevity_political",
+        "value": 0.90,
+        "evidence": "Nakasone served as PM from November 1982 to November 1987 — 5 years, making him one of Japan's longest-serving PMs. Survived factional politics through alliance management with Tanaka faction. The double election victory (1986) extended his term. He remained active in LDP politics for years after (though Recruit scandal tarred him). His longevity enabled substantial policy implementation across multiple legislative sessions."
+      },
+      {
+        "label": "recruit_scandal_aftermath",
+        "value": 0.60,
+        "evidence": "The Recruit scandal (1988-1989) — shares of Recruit Cosmos given to politicians before IPO — implicated Nakasone (he received shares through intermediaries). He resigned from LDP temporarily (1989) but later returned. The scandal confirmed the continuation of money politics culture despite his reform rhetoric — suggesting his administrative reform was about restructuring, not cleaning up political corruption."
+      },
+      {
+        "label": "energy_security_post_oil_crisis",
+        "value": 0.75,
+        "evidence": "Japan's energy security apparatus — nuclear power expansion, LNG diversification, energy efficiency investment — continued maturing under Nakasone. The second oil crisis (1979) under Ohira had accelerated these programs. Nakasone maintained nuclear power expansion and coal import diversification. Energy security was treated as a structural long-term investment rather than crisis management."
+      },
+      {
+        "label": "budget_construction_state",
+        "value": 0.72,
+        "evidence": "Despite fiscal conservatism rhetoric, public works construction spending remained high as proportion of budget under Nakasone. LDP's construction-sector patronage networks (Tanaka legacy) were intact. The contradiction between privatization ideology and construction state practice was never resolved — Nakasone targeted public enterprises for privatization while leaving the public works pipeline for LDP contractors intact."
+      },
+      {
+        "label": "diplomatic_prestige_ambition",
+        "value": 0.88,
+        "evidence": "Nakasone wanted Japan to be recognized as a great power, not just an economic power. G7 participation as an equal partner. 'Ron-Yasu' as symbolic peer relationship. UN Security Council permanent membership discussions. He viewed Japan's lack of political weight relative to economic weight as a historical injustice to be rectified. This prestige ambition drove many of his diplomatic choices."
+      },
+      {
+        "label": "domestic_demand_expansion_maekawa",
+        "value": 0.73,
+        "evidence": "Maekawa Report (1986) represented a fundamental rethinking of Japan's growth model — from export-led to domestic demand-led. This required housing improvement (land price reform), agricultural liberalization, service sector expansion, shorter working hours. Nakasone endorsed the report but implementation was partial — agricultural lobby blocked import liberalization, land price reform stalled. The report's diagnosis was correct but political economy constraints limited execution."
+      },
+      {
+        "label": "information_technology_openness",
+        "value": 0.75,
+        "evidence": "NTT privatization opened Japan's telecommunications sector to competition. This was partly motivated by US trade pressure (NTT procurement was a major bilateral friction point) and partly by genuine belief in market competition improving efficiency. The telecom deregulation enabled Japan's subsequent internet infrastructure investment in the 1990s-2000s."
+      },
+      {
+        "label": "multilateral_institution_engagement",
+        "value": 0.80,
+        "evidence": "Nakasone elevated Japan's active participation in multilateral institutions — G7, GATT, IMF/World Bank governance discussions. Japan's financial contribution to multilateral development banks increased. He framed Japan as a 'global partner' with international responsibilities rather than a free-rider on the US security umbrella. This multilateral engagement vision was more sophisticated than his predecessors."
+      }
+    ]
+  }
+}

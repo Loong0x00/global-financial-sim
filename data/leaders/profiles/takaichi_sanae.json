@@ -1,0 +1,355 @@
+{
+  "leader": "Takaichi Sanae",
+  "leader_zh": "高市早苗",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "NPR: Japan parliament elects Sanae Takaichi as first female PM (October 21, 2025)",
+    "CNBC: Trump announces Japan trade deal 15% tariffs (July 23, 2025)",
+    "Bloomberg: BOJ raises rates to 30-year high (December 2025)",
+    "Bloomberg: Yen bearish voices for 2026",
+    "Global_2025_2026_update.md: Japan section",
+    "Trump_2025_2026_update.md: Japan/South Korea trade deal section",
+    "Public record: LDP presidential election, October 2025; LDP platform; Takaichi parliamentary record 1993-2025"
+  ],
+  "behavior_matrix": {
+    "description": "Behavior matrix for Takaichi Sanae, Japan's first female Prime Minister (October 2025 - present). Elected LDP President after Ishiba's resignation, she represents the ultraconservative Abe-aligned wing of the LDP. Her decision profile reflects: (1) Abenomics continuation with hawkish fiscal expansion, (2) nationalist-ideological framework (Yasukuni, constitutional revision, national sovereignty), (3) strong US alliance with assertive negotiating stance on trade, (4) economic hawk comfortable with fiscal deficits for growth and defense. Her behavioral signature is ideologically consistent — she has held her positions for 30 years with minimal modulation, unlike more pragmatic LDP leaders. This makes her more predictable but also less flexible under economic stress.",
+    "dimensions": 52,
+    "vectors": [
+      {
+        "label": "abenomics_continuation_commitment",
+        "value": 0.92,
+        "evidence": "Takaichi was Abe's most loyal ideological successor within the LDP. She explicitly ran her LDP leadership campaign (2021, 2024, 2025) on continuing and expanding Abenomics. Her economic framework is explicitly 'Sanaenomics' — continuation of monetary easing, fiscal stimulus, and supply-side structural reform. She has publicly stated she would pressure BoJ to maintain accommodative policy even as rates rise. The 0.92 reflects near-absolute commitment to this framework — it is core identity, not tactical position."
+      },
+      {
+        "label": "fiscal_expansion_tolerance",
+        "value": 0.85,
+        "evidence": "Takaichi is one of the LDP's most prominent advocates for fiscal expansion. She consistently argues that Japan's debt dynamics are manageable given yen-denominated sovereign debt and domestic ownership structure. She opposed the 2023-era fiscal consolidation push within the LDP. Her policy platform includes large increases in defense spending, infrastructure, and R&D — all deficit-financed. Unlike Kishida who was constrained by the MoF fiscal hawks, Takaichi is openly confrontational with fiscal consolidation orthodoxy."
+      },
+      {
+        "label": "central_bank_independence_respect",
+        "value": 0.38,
+        "evidence": "Takaichi has historically been the LDP figure most openly critical of BoJ's rate normalization path. In her 2021 LDP leadership bid, she explicitly advocated pressuring the BoJ to delay rate hikes. As PM under BoJ Governor Ueda, she has publicly noted discomfort with rapid rate normalization. The value of 0.38 reflects a significant disposition toward government direction of monetary policy — not total subordination (she would not try to legally override the BoJ Act) but persistent political pressure on BoJ communications and rate decisions."
+      },
+      {
+        "label": "yen_depreciation_tolerance",
+        "value": 0.72,
+        "evidence": "Takaichi's fiscal expansion and monetary accommodation preferences imply tolerance for weak yen — the natural consequence of loose policy relative to global peers. She has historically framed yen weakness as beneficial for export competitiveness. Unlike Kishida who supported BoJ normalization partly to defend the yen, Takaichi is more comfortable with a weaker currency environment as the price of growth-oriented policy. The 0.72 reflects substantial comfort with yen weakness, though not unlimited — she would not welcome hyperinflation-inducing currency collapse."
+      },
+      {
+        "label": "defense_spending_expansion_priority",
+        "value": 0.93,
+        "evidence": "Takaichi is a defense hawk by conviction, not electoral calculation. She has consistently advocated for raising defense spending to 2% of GDP and beyond since before the Abe-era push. She supports acquisition of long-range strike capabilities (counterstrike capacity), expansion of Japan Self-Defense Forces, and revision of war-renouncing Article 9 of the constitution. Defense is both strategic and identity-linked for Takaichi — part of the nationalist framework that defines her worldview. Continuation and likely acceleration of Kishida's defense spending increase trajectory."
+      },
+      {
+        "label": "constitutional_revision_commitment",
+        "value": 0.89,
+        "evidence": "Constitutional revision, particularly of Article 9 (war-renouncing clause), is a core LDP right-wing goal that Takaichi has championed throughout her career. She explicitly supports revising the constitution to formalize self-defense as a right, remove or modify Article 9, and strengthen national security legal framework. She has been a member of Nippon Kaigi (Japan Conference), the nationalist organization that provides grassroots support for constitutional revision. This is a defining political commitment — not a bargaining chip."
+      },
+      {
+        "label": "yasukuni_shrine_visit_propensity",
+        "value": 0.88,
+        "evidence": "Takaichi visits Yasukuni Shrine consistently — she made offerings or visits during the August 2025 summer festival season even as PM-designate, explicitly choosing not to step back from the practice after becoming PM. This distinguishes her from Kishida and Suga who avoided visits for diplomatic reasons. The decision to maintain Yasukuni visits as PM carries guaranteed diplomatic costs with China and South Korea (equivalent to official endorsement of controversial WWII framing), which she accepts as the ideologically correct position."
+      },
+      {
+        "label": "china_economic_engagement_caution",
+        "value": 0.73,
+        "evidence": "Takaichi approaches China economic engagement with significant caution — more so than pragmatic LDP leaders (Kishida, Komeito-influenced factions). She views economic dependence on China as a strategic vulnerability and has advocated for supply chain diversification away from China in semiconductors, rare earths, and pharmaceuticals. She supported the Abe-era 'friendly shore-shoring' subsidy program to bring manufacturing back from China. At 0.73, this represents substantial concern without absolute decoupling posture — Japan's economic ties with China are too deep to sever quickly."
+      },
+      {
+        "label": "us_alliance_value_rating",
+        "value": 0.95,
+        "evidence": "The US alliance is the cornerstone of Takaichi's strategic worldview — non-negotiable and to be strengthened. She is strongly supportive of the US security commitment, expanding joint exercises, and fulfilling Japan's obligations under the alliance. She explicitly supported the $550B investment commitment to the US made under the Ishiba-era US-Japan trade deal, viewing it as valuable alliance-cementing despite economic cost. The US alliance has higher priority for Takaichi than for any recent PM except Abe himself."
+      },
+      {
+        "label": "trade_negotiation_assertiveness",
+        "value": 0.71,
+        "evidence": "The US-Japan trade deal finalized under Trump at 15% tariff (averting threatened 25%) involved Japan committing to $550B in US investment. Takaichi accepted and promoted the deal as her government assumed it, viewing the 15% as acceptable versus threatened higher tariffs. Her trade negotiation style is assertive within alliance loyalty constraints: she will push back on terms that harm Japanese industry (auto sector, agriculture) but will not allow trade disputes to damage the US alliance framework. Toyota's forecast 35% profit decline from US tariffs creates domestic pressure she must manage."
+      },
+      {
+        "label": "agricultural_protection_priority",
+        "value": 0.79,
+        "evidence": "Agricultural protectionism is a core LDP political constituency commitment — rural districts are disproportionately represented in the LDP's electoral base. Takaichi strongly supports rice price supports, the gate price system for dairy and beef, and limits on agricultural import concessions. The US-Japan deal's duty-free US beef and ethanol quotas were the minimum concession necessary — Takaichi will resist further agricultural opening. This is not ideological conviction but constituency survival."
+      },
+      {
+        "label": "semiconductor_industry_support_priority",
+        "value": 0.84,
+        "evidence": "Takaichi strongly supports Japan's semiconductor resurgence strategy — TSMC Japan fabs (Kumamoto), Rapidus (2nm domestic capability target), Japan's chip equipment makers (Tokyo Electron, Shin-Etsu). She views semiconductor capability as both economic and national security imperative, aligned with her supply chain security focus. She supported the ¥2+ trillion in government subsidies for the semiconductor revival program. This is an area where national security, economic policy, and US alliance interests align completely — strong commitment is costless politically."
+      },
+      {
+        "label": "economic_nationalism_vs_free_trade_balance",
+        "value": 0.62,
+        "evidence": "Takaichi is more economically nationalist than the mainstream LDP center. She supports industrial policy, strategic subsidies, export controls on sensitive technologies, and supply chain domestication. She is less enthusiastic about CPTPP expansion (specifically skeptical of adding China) than prior PMs. Her economic nationalism is bounded by US alliance loyalty — she would not pursue economic nationalist policies that conflict with US interests. The 0.62 reflects moderate economic nationalism within an alliance-constrained framework."
+      },
+      {
+        "label": "nuclear_energy_revival_commitment",
+        "value": 0.88,
+        "evidence": "Takaichi is one of Japan's most prominent advocates for nuclear power revival. She has consistently argued that Fukushima-driven nuclear phase-out was strategically mistaken and that Japan needs nuclear power for energy security, decarbonization, and economic competitiveness. As PM she has accelerated the LDP push to restart idled reactors and extend lifetimes. She explicitly supports development of next-generation reactors. This is a policy area where she breaks from the cautious mainstream — she has said publicly that energy security requires accepting calculated nuclear risk."
+      },
+      {
+        "label": "energy_security_as_national_security",
+        "value": 0.86,
+        "evidence": "Takaichi consistently frames energy policy as national security policy. Japan's near-total energy import dependence (crude oil, LNG, coal) is a strategic vulnerability she takes seriously. Her energy security agenda: (1) nuclear revival, (2) LNG supply chain diversification, (3) domestic renewable expansion (offshore wind, geothermal), (4) hydrogen technology development. The Russia-Ukraine war's impact on global energy markets reinforced her energy security focus — Japan's LNG supply exposure to Middle East disruption (Iran war premium, Strait of Hormuz) creates acute current pressure."
+      },
+      {
+        "label": "inflation_tolerance",
+        "value": 0.55,
+        "evidence": "Takaichi's fiscal expansion and BoJ pressure preferences create upward inflation risk. Her fiscal expansion orientation means she is more tolerant of mild inflation (2-3%) than deflationary-era LDP leaders. However, Japan's experience of acute inflation is limited (the 2022-23 import inflation was a shock to Japanese consumers accustomed to zero inflation for 30 years). At 0.55, she accepts inflation above the 2% BoJ target as acceptable, but would face political pressure if household real incomes declined significantly from persistent inflation."
+      },
+      {
+        "label": "wage_growth_push_commitment",
+        "value": 0.75,
+        "evidence": "Wage growth is central to breaking Japan's deflationary psychology — a lesson from Abenomics that was partially but not fully achieved. Takaichi supports Kishida's wage negotiation framework (春闘 Shunto negotiations), government nudging of large corporations toward 5%+ wage increases, and minimum wage increases. Japan's 2025 Shunto produced 5.28% average wage increase (largest in 34 years). Takaichi wants to sustain this — wage growth provides political legitimacy for her fiscal expansion orientation. The 0.75 reflects strong commitment but awareness that government cannot mandate private sector wages directly."
+      },
+      {
+        "label": "small_business_support_priority",
+        "value": 0.71,
+        "evidence": "Japan's small and medium enterprise (SME) sector employs ~70% of private sector workers but has suffered from low productivity growth, labor shortages, and cost pressures. Takaichi supports SME-targeted subsidies, digital transformation assistance, and productivity support programs. This is politically essential — SMEs are a key LDP constituency base. However, Takaichi is less focused on SME reform (elimination of zombie companies) than on SME support — her default is protection, not restructuring."
+      },
+      {
+        "label": "demographic_crisis_urgency_recognition",
+        "value": 0.69,
+        "evidence": "Japan's demographic decline (fertility rate 1.2, record low births, accelerating aging) is widely acknowledged as the country's most severe structural challenge. Takaichi recognizes the urgency but her policy responses prioritize natalist measures (childcare subsidies, birth incentives) over structural solutions (immigration, women in workforce). She is notably less supportive of immigration-based demographic management than technocratic LDP voices — her nationalism creates resistance to immigration as a demographic solution. Recognition score is moderate (0.69) because awareness is high but effective policy response is constrained by ideology."
+      },
+      {
+        "label": "immigration_policy_openness",
+        "value": 0.25,
+        "evidence": "Takaichi is on the nationalist-restrictionist end of the LDP immigration debate. She views large-scale immigration as a threat to Japanese cultural homogeneity and social cohesion. Her preferred demographic response is pro-natalist policy, automation/robotics, and women's labor force participation rather than immigration increases. She accepts highly-skilled worker visas and specific sector-targeted visas (tech, care workers) but opposes pathways to permanent residency or citizenship for large numbers. The 0.25 reflects a genuinely restrictive stance — well below even the modest LDP mainstream."
+      },
+      {
+        "label": "women_economic_participation_commitment",
+        "value": 0.68,
+        "evidence": "Takaichi as Japan's first female PM provides significant symbolic momentum for women in leadership. She explicitly frames women's economic participation as an economic priority — increasing labor force participation, reducing the structural gap in women's career advancement, childcare infrastructure. However, her policy framework is conservative in gender terms — she focuses on women fulfilling traditional roles more effectively rather than structural transformation of gender norms. The 0.68 reflects genuine commitment to women's economic participation as economic policy, tempered by conservative cultural framing."
+      },
+      {
+        "label": "first_female_pm_symbolic_significance",
+        "value": 0.85,
+        "evidence": "As Japan's first female PM and one of very few female heads of government in East Asia, Takaichi's elevation represents a historic milestone. She is aware of this symbolic dimension and uses it in international diplomacy (presenting Japan as modernizing while maintaining traditional values). The symbolism creates both opportunities (broader engagement with international audiences skeptical of Japan's gender equity record) and constraints (expectations of substantive gender policy progress that her conservative platform may not fully deliver). Value reflects the genuine symbolic weight rather than behavioral impact directly."
+      },
+      {
+        "label": "historical_revisionism_inclination",
+        "value": 0.78,
+        "evidence": "Takaichi is associated with the revisionist strand of LDP thinking on WWII — skeptical of the Murayama Statement framework of apology, supportive of reframing Japan's wartime actions. She is a member of Nippon Kaigi which advocates historical revisionism in education. She has questioned whether the Nanjing Massacre occurred at the scale commonly cited. This creates persistent friction with China and South Korea. The 0.78 reflects a genuine revisionist inclination that creates predictable diplomatic friction with neighbors."
+      },
+      {
+        "label": "multilateral_institution_engagement",
+        "value": 0.66,
+        "evidence": "Takaichi supports Japan's engagement in multilateral institutions (G7, UN, QUAD, IPEF) but from a national interest-assertive rather than multilateralist idealist perspective. She values the G7 as an alliance coordination mechanism but is skeptical of UN multilateralism that includes China and Russia. Her nationalism means she is less willing to subordinate Japanese positions to multilateral consensus. The 0.66 reflects selective engagement — deep in security/alliance institutions, more skeptical in trade/climate multilateralism where Japanese sovereignty may be constrained."
+      },
+      {
+        "label": "quad_regional_security_framework_support",
+        "value": 0.88,
+        "evidence": "The Quadrilateral Security Dialogue (QUAD: US, Japan, Australia, India) is a natural institutional home for Takaichi's strategic worldview — democratic allies pushing back on Chinese maritime expansion without formal treaty obligation. She strongly supports QUAD's institutionalization and expansion of activities (coast guard cooperation, semiconductor supply chains, vaccine diplomacy). This is an area of strong alignment between her ideology and Japan's national security needs."
+      },
+      {
+        "label": "policy_reversal_probability_under_pressure",
+        "value": 0.22,
+        "evidence": "Takaichi's 30-year record shows unusually high policy consistency for a Japanese politician. She has held the same positions on constitutional revision, Yasukuni, nuclear power, and Abenomics throughout her career despite multiple career setbacks (lost LDP leadership races in 2021 and 2024 before winning in 2025). This persistence indicates low probability of opportunistic position reversal under pressure. She will moderate tone/language when diplomatically necessary but the underlying positions do not change. The 0.22 reflects very low reversal probability — she is an ideological conviction politician, not a pragmatic adapter."
+      },
+      {
+        "label": "economic_data_transparency_commitment",
+        "value": 0.72,
+        "evidence": "Takaichi has not been specifically associated with statistical manipulation or data concealment in the Japanese context — Japan's statistical agencies maintain internationally credible data quality. Her commitment to transparency is standard for a developed democracy. No evidence of Abe-era Moritomo/Kakike-style document destruction or data manipulation in her record. The moderate score reflects the general Japanese government framework rather than particular Takaichi-specific characteristics."
+      },
+      {
+        "label": "boj_rate_hike_accommodation_tolerance",
+        "value": 0.42,
+        "evidence": "As of December 2025, BoJ was at 0.75% (highest since 1995). Takaichi has been measured in public criticism of the rate hike path — she would prefer slower normalization but has not confronted BoJ Governor Ueda directly as PM in ways that would undermine institutional credibility. The 0.42 reflects tolerance for gradual normalization while maintaining political pressure for caution. Further rapid hikes (e.g., to 1.5%+) would likely produce more open friction between Takaichi and BoJ."
+      },
+      {
+        "label": "japan_us_trade_deal_implementation_commitment",
+        "value": 0.83,
+        "evidence": "The US-Japan deal at 15% tariff with $550B investment commitment was a strategic achievement for Japan — the 15% rate is below the threatened 25% and preserves automotive access to the US market. Takaichi has embraced the deal as consistent with alliance priorities. The $550B investment commitment to US strategic sectors aligns with her alliance deepening agenda. She has committed to implementation and continuity. The deal's CUSS (Comprehensive US-Japan Strategic) framework provides the structure for ongoing bilateral economic cooperation."
+      },
+      {
+        "label": "fiscal_deficit_concern",
+        "value": 0.31,
+        "evidence": "Takaichi is unusual among developed-country leaders in her explicit comfort with Japan's very high debt-to-GDP ratio. She rejects the mainstream academic concern about Japanese fiscal sustainability, arguing that yen-denominated sovereign debt owned domestically does not face the same rollover risk as foreign-currency debt. Her framework is MMT-adjacent (without endorsing MMT explicitly) — deficit spending that generates growth is self-financing. The 0.31 reflects low concern, which is the defining feature of her fiscal policy: she will not be constrained by deficit metrics in expanding spending."
+      },
+      {
+        "label": "geopolitical_risk_premium_on_economic_decisions",
+        "value": 0.77,
+        "evidence": "Takaichi views the strategic competition between the US-led democratic order and China's revisionist challenge as the defining frame for all economic decisions. Supply chain security, semiconductor capability, defense spending, energy security, and trade deals are all filtered through this geopolitical lens. Economic efficiency is secondary to strategic resilience in her framework. The 0.77 reflects a substantially elevated geopolitical risk premium — similar to Abe's approach, higher than the technocratic center of the LDP."
+      },
+      {
+        "label": "middle_east_oil_dependence_hedging",
+        "value": 0.79,
+        "evidence": "Japan imports ~90% of its crude oil from the Middle East. The Iran war (February-March 2026) with Strait of Hormuz disruption has created acute energy security pressure for Japan. Brent at $94/bbl creates significant import cost shock. Takaichi's energy security agenda (nuclear revival, LNG diversification, renewables) is directly relevant to this vulnerability. She is accelerating nuclear restarts partly in response to the Iran war energy price spike. Middle East dependence hedging has moved from long-term structural priority to immediate operational necessity under current PM."
+      },
+      {
+        "label": "korea_relations_management",
+        "value": 0.41,
+        "evidence": "Japan-Korea relations are persistently complicated by historical issues (comfort women, forced labor, Yasukuni). Takaichi's Yasukuni visits and historical revisionism inclination make substantive improvement unlikely under her tenure. Kishida-era progress (Camp David trilateral framework with Korea and US) is likely to stall. She will not initiate new historical apology processes. The 0.41 reflects a passive management approach — neither escalating to crisis nor making progress. Security cooperation (QUAD-adjacent) may continue despite historical frictions."
+      },
+      {
+        "label": "china_policy_firmness",
+        "value": 0.82,
+        "evidence": "Takaichi will not accommodate Chinese pressure on Taiwan, Yasukuni, or the Senkaku Islands. She has consistently described China's rise as a security challenge requiring firm response. She supports Taiwan's de facto independence and would deepen Japan's informal security ties with Taiwan. Her firmness on China means that economic relations with China will be managed at arms-length — functional trade maintained but no deepening of strategic economic interdependence. The 0.82 reflects consistent firmness across multiple issue areas with China."
+      },
+      {
+        "label": "technology_export_control_support",
+        "value": 0.81,
+        "evidence": "Japan is a key participant in US-led technology export control coordination (Chip4 alliance with US, Netherlands, South Korea). Takaichi strongly supports Japan's continuation in this framework, including restricting sale of semiconductor manufacturing equipment to Chinese fabs. This aligns with her supply chain security and US alliance priorities. Tokyo Electron and other Japanese firms face revenue losses from China restrictions — she accepts this economic cost as the price of alliance participation and strategic resilience."
+      },
+      {
+        "label": "rural_regional_revitalization_commitment",
+        "value": 0.66,
+        "evidence": "Japan's demographic decline is most acute in rural regions — de-population of rural towns is an LDP constituency crisis. Takaichi supports rural revitalization programs (support for SMEs in depopulating areas, telework incentives, local government capacity support). This is politically essential for LDP's rural base. However, structural economic forces driving urbanization are difficult for government policy to reverse — the commitment is real but the effectiveness is limited."
+      },
+      {
+        "label": "digital_transformation_policy_support",
+        "value": 0.72,
+        "evidence": "Japan has historically lagged in digital transformation — legacy IT systems in government and large firms, paper-based processes, resistance to e-government. The Digital Agency established under Suga and continued under Kishida is part of addressing this. Takaichi supports digital transformation as economic competitiveness necessity. Her internal affairs background (Minister of Internal Affairs and Communications overseeing NTT/telecom policy) gives her some credibility on digital policy. The 0.72 reflects genuine support but the transformational challenge is large."
+      },
+      {
+        "label": "current_account_surplus_protection",
+        "value": 0.70,
+        "evidence": "Japan's current account surplus reflects national saving patterns, export competitiveness, and income from overseas investments. Takaichi is protective of conditions that sustain the surplus (export competitiveness through competitive exchange rate, strong manufacturing). The US trade deal's requirement for $550B US investment may reduce the surplus margin over time. Her yen-weakness tolerance is partly driven by export competitiveness concerns — a strong yen (as seen in 2010-12 post-GFC) destroys the competitiveness of Japanese manufacturing."
+      },
+      {
+        "label": "stock_market_support_intervention",
+        "value": 0.58,
+        "evidence": "Takaichi views equity market performance as a signal of economic confidence. She supports government pension fund (GPIF) equity investment as both portfolio management and market support. Continued BOJ ETF holdings (unwinding very slowly) provide a floor. She would support government market intervention if Nikkei fell sharply. The 0.58 reflects moderate intervention inclination — she would not idly watch a 2015-style crash but would prefer indirect mechanisms (BoJ, GPIF) over explicit price support."
+      },
+      {
+        "label": "russia_ukraine_war_policy_stance",
+        "value": 0.78,
+        "evidence": "Japan has been a consistent supporter of Ukraine under LDP governments. Takaichi maintains Japan's alignment with G7 sanctions on Russia and support for Ukraine's sovereignty. Japan is constrained by energy dependence (Sakhalin LNG projects with Russia) but has gradually reduced Russia energy exposure. Takaichi will maintain G7 alignment on Russia sanctions. The 0.78 reflects firm Western alignment on Russia-Ukraine, with operational constraints from energy dependence requiring pragmatic management of Sakhalin participation."
+      },
+      {
+        "label": "iran_war_oil_shock_policy_response",
+        "value": 0.70,
+        "evidence": "The US-Israel strike on Iran (February 28, 2026) and resulting Strait of Hormuz disruption causing Brent to spike to $94/bbl represents an acute crisis for Japan. Takaichi's response includes: (1) accelerating nuclear restarts to reduce fossil fuel dependence, (2) diplomatic engagement through IEA strategic reserve release coordination, (3) alignment with US position on Iran conflict (alliance solidarity), (4) domestic energy subsidy considerations to cushion household impact. The 0.70 reflects active policy response to the oil shock within the constraints of Japan's alliance commitments and energy vulnerability."
+      },
+      {
+        "label": "government_spending_allocation_defense_vs_social",
+        "value": 0.75,
+        "evidence": "Takaichi favors defense spending over social spending at the margin. She supports the Abe-era trajectory of raising defense spending from 1% of GDP toward 2% (5-year plan through FY2027: ¥43 trillion total). This is being partially funded by debt (not tax increases Kishida proposed). For social spending, she supports existing welfare commitments but is not a welfare-expansionist. The 0.75 reflects her revealed preference for defense-heavy spending allocation."
+      },
+      {
+        "label": "economic_policy_decision_centralization",
+        "value": 0.68,
+        "evidence": "Takaichi, like Abe, prefers strong PM leadership over cabinet consensus. She would use the PM's office (kantei) as the driver of economic policy, potentially bypassing Ministry of Finance orthodoxy. This centralizes economic decision-making in her office. She is comfortable challenging MoF fiscal hawkishness — unlike Kishida who ultimately deferred to MoF. The 0.68 reflects above-average centralization of economic authority in the PM's office under Takaichi's governing style."
+      },
+      {
+        "label": "academic_consensus_on_fiscal_policy_deference",
+        "value": 0.28,
+        "evidence": "Takaichi explicitly rejects mainstream fiscal economics consensus on Japan's debt sustainability. She has publicly argued that economists who warn of Japanese fiscal crisis are wrong and politically biased. She cites heterodox economists (including some MMT advocates) who support her view that Japan's debt structure is unique and sustainable. The 0.28 reflects low deference to academic consensus — she has pre-formed views that are resistant to expert challenge, particularly on fiscal matters."
+      },
+      {
+        "label": "supply_chain_domestic_resilience_priority",
+        "value": 0.83,
+        "evidence": "Post-COVID supply chain disruptions (semiconductor shortages hitting Japanese auto production) and the subsequent US-China trade war acceleration made supply chain resilience a top policy priority across LDP. Takaichi is particularly focused on: (1) semiconductor domestic production (TSMC Japan, Rapidus), (2) pharmaceutical API domestication, (3) food security (rice policy, fertilizer supply), (4) rare earth alternatives/diversification. Her geopolitical lens amplifies the strategic dimension of supply chain policy — this is as much national security as economic policy."
+      },
+      {
+        "label": "green_energy_transition_speed",
+        "value": 0.55,
+        "evidence": "Takaichi supports Japan's 2050 carbon neutrality commitment and the 2030 interim target, but her pathway emphasis is notably different from climate-focused governments: nuclear is central (not controversial for her), offshore wind and geothermal are prioritized (not intermittent solar), hydrogen (including from fossil fuels with CCS) is a key technology. She is more skeptical of rapid solar/wind buildout than climate advocates would prefer. The 0.55 reflects moderate speed — committed to the destination but via a pathway that suits Japan's energy security needs as she defines them."
+      },
+      {
+        "label": "tourism_inbound_promotion",
+        "value": 0.72,
+        "evidence": "Japan's post-COVID inbound tourism boom (record 35M+ visitors in 2024, yen weakness making Japan very cheap for foreign visitors) is a significant economic positive. Takaichi supports continued inbound tourism promotion as an economic driver, though she has noted concerns about 'overtourism' in cultural sites and the social costs of large foreign crowds. The 0.72 reflects support for tourism as economic policy, with some nationalist concern about cultural impact."
+      },
+      {
+        "label": "inequality_concern",
+        "value": 0.48,
+        "evidence": "Takaichi's economic framework is supply-side and growth-oriented rather than redistributive. She does not prioritize inequality reduction as a primary goal — her Abenomics continuation is explicitly trickle-down. Rising inequality in Japan (Gini coefficient has risen since 2000) is acknowledged but not a mobilizing issue for her. She favors wage growth (through Shunto) as the inequality-addressing mechanism rather than redistribution. The 0.48 reflects moderate concern with inequality embedded in her wage policy, but not as a primary policy driver."
+      },
+      {
+        "label": "labor_market_deregulation_support",
+        "value": 0.62,
+        "evidence": "Takaichi supports labor market modernization — ending the traditional lifetime employment model that creates a dual labor market (protected regular employees vs precarious irregular workers). She supports expanded regular employment, reduced restrictions on layoffs (with enhanced reemployment support), and mobility-enhancing reforms. However, her LDP political base includes labor interests in traditional industries that resist deregulation. The 0.62 reflects moderate deregulation support — more than center-left LDP voices, less than pure market-liberal position."
+      },
+      {
+        "label": "robotics_ai_economy_investment",
+        "value": 0.80,
+        "evidence": "Japan's demographic decline makes automation and AI adoption economically critical — labor shortages in manufacturing, care, construction require technological solutions. Takaichi supports robust government investment in robotics (Japan's historical strength) and AI application in industry. She is supportive of the Kishida-era AI strategy continuation and acceleration. The geopolitical dimension (AI competition with China) reinforces her commitment. The DeepSeek shock (January 2025) heightened awareness of the strategic AI competition — Takaichi has called for increased Japan AI investment in response."
+      },
+      {
+        "label": "political_stability_under_coalition",
+        "value": 0.58,
+        "evidence": "Takaichi leads an LDP that lost its upper house majority under Ishiba — her coalition with Komeito may be similarly constrained. She won the lower house vote 237-149 for PM election, suggesting a working majority in the lower house. But her ultraconservative positions on Yasukuni and historical revisionism create friction with Komeito (peace party, Buddhist-aligned, more moderate). Her ability to pass legislation on constitutional revision, fiscal expansion, and defense spending is constrained by coalition management needs. The 0.58 reflects moderate stability — functional but not commanding."
+      }
+    ]
+  },
+  "red_lines": [
+    {
+      "id": "RL001",
+      "name": "us_alliance_abandonment",
+      "condition": "Any US action that would effectively abandon the US-Japan security treaty or remove US extended deterrence from Japan",
+      "forced_action": "emergency_diplomatic_mobilization_plus_independent_defense_capability_acceleration",
+      "confidence": 0.97,
+      "evidence": "The US alliance is the cornerstone of Takaichi's entire strategic framework. Abandonment by the US would trigger emergency response: accelerating Japan's independent defense capabilities, potentially seeking nuclear deterrence options (Japan has latent nuclear capability from civilian program), and mobilizing G7 allies to reconstruct the security architecture. This is an existential red line — Japan cannot defend itself independently against China+North Korea without the US nuclear umbrella.",
+      "priority": 1
+    },
+    {
+      "id": "RL002",
+      "name": "senkaku_islands_military_seizure",
+      "condition": "Chinese military seizure or occupation of the Senkaku Islands",
+      "forced_action": "invoke_us_japan_security_treaty_and_military_response",
+      "confidence": 0.93,
+      "evidence": "The Senkaku Islands are constitutionally Japanese territory under Takaichi's firm view. Chinese military seizure would require immediate treaty invocation (US security commitment under Article 5 covers Senkaku) and Japanese Self-Defense Force response. Takaichi has stated explicitly that Japan will defend the Senkaku Islands. This is not a negotiating position — it is a hard national sovereignty commitment.",
+      "priority": 1
+    },
+    {
+      "id": "RL003",
+      "name": "nuclear_threat_to_japan",
+      "condition": "North Korean or other state nuclear threat or attack against Japan or US forces in Japan",
+      "forced_action": "activate_us_japan_extended_deterrence_response_and_push_for_counterstrike_capability",
+      "confidence": 0.95,
+      "evidence": "Japan faces direct nuclear threat from North Korea (Hwasong series missiles capable of reaching all of Japan). Takaichi strongly supports acquisition of counterstrike capability (long-range missiles capable of striking DPRK launch sites). Any North Korean nuclear threat or attack would trigger maximum response via US alliance and Japan's own emerging counterstrike capability.",
+      "priority": 1
+    },
+    {
+      "id": "RL004",
+      "name": "energy_supply_collapse",
+      "condition": "Loss of more than 30% of Japan's energy import capacity (extended Hormuz closure, major LNG supplier disruption)",
+      "forced_action": "emergency_energy_rationing_plus_accelerated_nuclear_restart_plus_strategic_reserve_drawdown",
+      "confidence": 0.89,
+      "evidence": "Japan's near-total energy import dependence means extended supply disruption would be an economic emergency. The Iran war Strait of Hormuz risk is already activating emergency protocols under Takaichi. Extended closure would trigger: IEA strategic reserve release coordination, emergency nuclear restarts, industrial energy rationing, and rapid LNG charter diversion. Energy emergency would override normal policy processes.",
+      "priority": 2
+    }
+  ],
+  "decision_priority_hierarchy": [
+    "1. US alliance maintenance and deepening",
+    "2. Japan's territorial integrity (Senkaku, Northern Territories)",
+    "3. Defense capability development",
+    "4. Economic growth (Abenomics continuation, fiscal expansion)",
+    "5. Energy security",
+    "6. Constitutional revision",
+    "7. Historical revisionism / Yasukuni framing",
+    "8. Supply chain resilience",
+    "9. Agricultural protection",
+    "10. Wage growth and social stability"
+  ],
+  "background": {
+    "name_full": "Takaichi Sanae (高市早苗)",
+    "born": "1961-03-20",
+    "birthplace": "Nara Prefecture, Japan",
+    "education": [
+      "Kobe City University of Foreign Studies (International Economics)",
+      "University of Maryland, College of Journalism (exchange student)",
+      "Matsushita Institute of Government and Management (political training)"
+    ],
+    "career_path": "bureaucrat",
+    "career_detail": "Elected to House of Representatives 1993 (age 32). Minister of Internal Affairs and Communications (2014-2015, 2019-2021, 2021-2022) — oversaw NTT, telecom, public broadcasting (NHK). Minister of State for Science and Technology, Space Policy, and Intellectual Property (multiple terms). Multiple bids for LDP leadership (2021, 2024, 2025). Won LDP presidency October 2025 after Ishiba's resignation. Elected PM by parliament October 21, 2025.",
+    "key_formative_experiences": [
+      "Worked at Matsushita Electric (Panasonic) as new graduate — rare corporate experience for a Japanese politician; sharpened her understanding of industrial competitiveness",
+      "US exchange student experience — shaped strong Japan-US alliance commitment and admiration for US economic dynamism",
+      "Close relationship with Abe Shinzo from early in career — his assassination (July 2022) deepened her conviction to continue his agenda as his legacy",
+      "Multiple LDP leadership race defeats (2021 lost to Kishida, 2024 lost to Sanae Takaichi... wait: 2024 lost to Ishiba by narrow margin) — persistence under adversity reinforced her conviction politics"
+    ],
+    "political_affiliations": [
+      "Liberal Democratic Party (LDP)",
+      "Nippon Kaigi (Japan Conference) — nationalist organization",
+      "Jinja Honcho (Association of Shrine Shinto) — Shinto organizational supporter",
+      "Seiwa Policy Research Council (Abe faction successor grouping)"
+    ],
+    "decision_style": "Conviction politician — positions formed over 30 years and maintained under pressure. Uses PM's kantei for centralized economic policy direction, bypassing MoF orthodoxy. Analytical and data-fluent from MIC telecommunications regulation background. Comfortable with direct public communication (active on social media historically). Less consensual than typical Japanese PM — willing to push positions against coalition partners.",
+    "personal_risk_tolerance": "High for ideological commitments (Yasukuni, constitutional revision, BoJ pressure), moderate for economic policy experimentation, lower for operational military risk-taking (despite hawkish rhetoric)."
+  },
+  "information_fidelity": 0.81,
+  "information_fidelity_reasoning": "Japan's statistical and information systems are of high quality (comparable to other G7 nations). Takaichi has strong analytical background from MIC regulatory work. She benefits from Japan's transparent media environment, independent think tanks, and robust academic economics community. Slight discount from: (1) LDP echo chamber effects in policy advice, (2) nationalist framing that may discount unfavorable data on China engagement costs, (3) ideological priors that resist fiscal sustainability warnings. 0.81 is well above average for heads of government globally — Japan's institutional quality supports better-than-average information environment.",
+  "special_notes": "1. FIRST FEMALE PM EFFECT: Takaichi's gender is historically significant but should not be modeled as changing her policy positions — she is ultraconservative in domestic policy and has explicitly rejected 'feminist' policy frameworks. The symbolic significance is for Japan's international image, not for her behavioral parameters. 2. ABENOMICS CONTINUATION BUT UPDATED: Her policy is Abenomics 2.0 — fiscal expansion + BoJ pressure, but now combined with 2026 context of BOJ at 0.75%, $94/bbl oil from Iran war, and 15% US tariff baseline. The transmission mechanisms and economic environment are substantially different from 2013. The simulation must capture that 'Abenomics' in 2026 operates under very different initial conditions than in 2013. 3. IRAN WAR AS ACUTE POLICY DRIVER: Japan's energy vulnerability means the Iran war (February 28, 2026 onward) is driving immediate policy actions — nuclear restarts, IEA coordination, hedging — that create near-term policy state distinct from her pre-war baseline. Her energy security vectors should be elevated for the duration of Hormuz disruption. 4. COALITION CONSTRAINT: Despite her conviction politics, coalition management with Komeito will moderate some policy outputs. Constitutional revision cannot pass without supermajority; Yasukuni-driven Korea/China friction will create diplomatic management needs. The simulation should model a gap between her preferred positions (the vectors above) and actual policy outputs (moderated by coalition arithmetic). 5. BOJ INDEPENDENCE TENSION: Takaichi's BoJ pressure tendencies will create persistent tension with the Ueda-led BoJ pursuing normalization. This tension is a key parameter in Japan's monetary policy trajectory — she will push for pauses/reversals in rate normalization, Ueda will resist but may moderate pace. Model this as a governance friction factor on BoJ rate path."
+}

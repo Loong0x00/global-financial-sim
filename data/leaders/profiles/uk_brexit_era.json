@@ -1,0 +1,242 @@
+{
+  "leader": "UK Brexit Era (Cameron + May)",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "David Cameron: Prime Minister 2010-05-11 to 2016-07-13; Conservative Party leader 2005-2016; Chancellor's advisory team under Lamont 1991-1993; Carlton Communications PR 1994-2001; Shadow Education Sec, Shadow Home Sec, Leader of Opposition 2005-2010",
+    "Theresa May: Prime Minister 2016-07-24 to 2019-07-24; Home Secretary 2010-2016 (longest serving in 60 years); Conservative Party leader 2016-2019; MP for Maidenhead 1997-present; Chair of Conservative Party 2002-2003",
+    "Key Cameron events: Conservative-LibDem coalition 2010, Austerity programme, Scotland independence referendum 2014 (No won), Bloomberg speech EU renegotiation January 2013, Conservative majority 2015, EU referendum 23 June 2016 (52% Leave), Cameron resignation June 24 2016",
+    "Key May events: Lancaster House speech January 2017 (Brexit red lines), Article 50 triggered March 2017, 2017 election gamble (lost majority, formed DUP confidence-and-supply arrangement), Chequers Deal July 2018, Withdrawal Agreement 3x defeated (January 2019 by 230 votes — largest government defeat in parliamentary history, March 2019, April 2019), Cooper-Letwin Act, Meaningful Vote failures, European elections (Brexit Party won), May resignation May 2019",
+    "Economic context Cameron: 2010-2016 Austerity/fiscal consolidation (deficit from 10.2% to 3.8% GDP), recovery from GFC, UK economic outperformance vs Eurozone 2012-2015, housing market recovery, unemployment fell 8%→5%, London financial centre maintenance post-crisis",
+    "Economic context May: Post-referendum sterling depreciation (-15%), UK investment uncertainty, Article 50 triggered March 2017, budget uncertainty for businesses, Northern Ireland backstop as economic/political flashpoint",
+    "Academic/analytical sources: Tim Shipman (All Out War, 2016; Fall Out, 2017), Craig Oliver (Unleashing Demons, 2016), Kate Fall (The Gatekeeper, 2020), Peter Snowdon (Cameron at 10, 2015), Philip Hammond diaries, Dominic Cummings blog posts, Ivan Rogers (Inside Out, 2019 — EU Ambassador who resigned)"
+  ],
+  "behavior_matrix": {
+    "description": "Compressed combined profile for Cameron and May — the two Conservative PMs who defined the Brexit era 2010-2019. IMPORTANT: These are distinct personalities with conflicting decision styles, combined here because they are the twin instruments of a single political shock whose market consequences (sterling crash, investment uncertainty, political volatility) are best modelled as a continuous process rather than two separate leadership periods. Cameron: public school Eton/Brasenose Oxford confidence, PR professional's communication mastery, centrist moderniser frustrated by his own right wing, ultimately a politician who gambled everything on a referendum he assumed he would win easily. May: grammar school Methodist's sense of duty, Home Office proceduralism, deeply non-communicative, 'bloody difficult woman' self-description, driven by a sense that only she could deliver Brexit — and ultimately failed to do so. The combination profile captures the political shock trajectory: Cameron's gamble → May's delivery failure → political paralysis → market uncertainty → Johnson's eventual crude execution.",
+    "dimensions": 41,
+    "vectors": [
+      {
+        "label": "cameron_referendum_gamble_political_logic",
+        "value": 0.82,
+        "evidence": "[Cameron] The Bloomberg speech (January 2013) pledge of an EU referendum was calculated political logic, not recklessness in Cameron's own assessment. His reasoning: (1) UKIP was bleeding Conservative votes in European elections, (2) a referendum pledge would neutralise UKIP for the 2015 election, (3) he expected to win the referendum easily — polls showed ~60% Remain in 2013-2014, (4) even if he lost, he had bought a parliament term to govern. The gamble reflected his Eton/Oxford confidence: he had won difficult political battles (Scotland 2014, coalition stability 2010-2015) and assumed persuasion would work again. What he underestimated: the anti-establishment wave, Leave's emotional message vs Remain's economic arguments, and his own loss of credibility with parts of the electorate."
+      },
+      {
+        "label": "cameron_modernising_conservative_project",
+        "value": 0.78,
+        "evidence": "[Cameron] Cameron's political project was 'detoxifying' the Conservative brand after 3 election losses. Key moves: 'hug a hoodie' (social liberal rhetoric on youth crime), same-sex marriage legislation 2013 (majority of Conservative MPs opposed), environmental messaging ('the greenest government ever'), Project NOAH (No Overall Arrogant Hostility) attitude toward NHS. The modernisation project was genuine in some areas (same-sex marriage — Cameron showed real conviction) and shallow in others (the 'vote blue go green' bicycle to work was undermined by driver-following-with-papers car). The modernisation allowed a Conservative majority in 2015 — but the same-sex marriage success generated a backlash from the Tory right that eventually fuelled the Brexit rebellion."
+      },
+      {
+        "label": "cameron_austerity_fiscal_consolidation",
+        "value": 0.85,
+        "evidence": "[Cameron] The 2010-2015 austerity programme (George Osborne as Chancellor) was the defining economic decision of Cameron's government. Deficit reduction from 10.2% to 3.8% GDP over 5 years. Mechanism: public spending cuts averaging 1% real per year, welfare reform (benefits cap, Universal Credit design), public sector pay freeze. Economic result: UK grew faster than eurozone 2012-2015, unemployment fell to 50-year lows. But: NHS funding pressure created waiting list problem, real wages stagnant until 2014, inequality persisted, the structural deficit reduction was partly cyclical not structural. The political legacy: austerity hardship in left-behind communities fed Leave sentiment. Osborne's 'we're all in this together' messaging was widely disbelieved. Cameron implemented Osborne's design with political support."
+      },
+      {
+        "label": "cameron_scotland_referendum_management",
+        "value": 0.80,
+        "evidence": "[Cameron] The 2014 Scottish independence referendum — 55.3% No, 44.7% Yes — was a genuine success but also a warning Cameron failed to read. His management: agreed to the referendum (rather than blocking it), framed it as 'love bombing' Scotland with positive UK arguments, deployed Gordon Brown for the final emotional case (cross-party). The result was closer than expected (5-year pre-referendum polling showed 65% No). Post-referendum: the Smith Commission devolved more powers quickly. Cameron's failure: the 'vow' of extra devolution was not fully delivered before the 2015 election, and he immediately announced 'English Votes for English Laws' the morning after the referendum result — which infuriated Scottish Unionists. He solved the Scotland crisis in the short term while creating English-Scottish constitutional tensions that fed Brexit."
+      },
+      {
+        "label": "cameron_eu_renegotiation_failure",
+        "value": 0.25,
+        "evidence": "[Cameron] Cameron's February 2016 EU renegotiation deal was judged by most observers as thin. He returned with: a 'red card' for national parliaments to block EU legislation (requiring 55% of national parliaments — used once since), an 'emergency brake' on EU migrant in-work benefits (4 years, not the permanent 'full stop' he had sought), an opt-out from 'ever closer union' language (symbolic). He did not get: any change to the free movement principle, any real treaty change, any reduction in EU budget contribution, any reform of the Common Agricultural Policy. His own Eurosceptic ministers (Gove, Johnson, Leadsom) immediately declared the deal inadequate. The weak deal undermined his referendum campaign — Remain could not argue 'we've fixed the real problems.'"
+      },
+      {
+        "label": "cameron_post_defeat_immediate_departure",
+        "value": 0.70,
+        "evidence": "[Cameron] Cameron's resignation speech the morning of June 24, 2016 — before triggering Article 50 — was constitutionally unusual and arguably irresponsible. Having lost the referendum he called, he immediately resigned rather than managing the transition. His stated reason: 'A captain who sets a course doesn't necessarily stay on the bridge for the whole journey.' The result: 5-week Conservative leadership contest (which then collapsed to May without a vote when Gove stabbed Johnson), during which no UK-EU post-referendum communication occurred. The EU was not notified on Article 50, no transition framework was initiated, and the political vacuum created a period of maximum uncertainty. Market impact: sterling fell 10% on June 24, FTSE 250 (more UK-exposed) fell 7%. Score of 0.70 reflects the political irresponsibility of immediate departure."
+      },
+      {
+        "label": "may_duty_over_desire_motivation",
+        "value": 0.90,
+        "evidence": "[May] Theresa May's core psychological driver was duty — shaped by her father's Church of England vicarage upbringing. She ran for Conservative leadership not primarily from ambition but from conviction that only she could navigate Brexit without destroying the party and country. Her self-description: 'bloody difficult woman' (negotiating with EU). Her personal history of perseverance: Type 1 diabetes diagnosis while in office, childlessness (which she publicly discussed), 20 years as backbench MP before Home Secretary. The duty framework made her unusually resistant to political pressure — she could absorb enormous criticism without changing position. This was a strength in the abstract and a fatal weakness on Brexit — she couldn't read the political room."
+      },
+      {
+        "label": "may_home_office_proceduralism",
+        "value": 0.85,
+        "evidence": "[May] Six years as Home Secretary (2010-2016) — the longest in 60 years — created a decision-making style shaped by Home Office culture: process-heavy, security-first, risk-averse, non-communicative. Key Home Office decisions: immigration reduction target (net migration below 100k — never achieved, reached 330k), Rwanda policy (early concept), Windrush scandal (Her department's hostile environment policy led to deportation/detention of legal UK citizens — only revealed 2018), police reform (16% budget cuts). The 'hostile environment' policy for illegal immigrants, which became the Windrush scandal, was May's most damaging domestic legacy — the proceduralism of immigration bureaucracy created systematic harm to Windrush generation British citizens."
+      },
+      {
+        "label": "may_brexit_red_lines_inflexibility",
+        "value": 0.88,
+        "evidence": "[May] Lancaster House speech (January 2017) set red lines that created the logic of her eventual failure: (1) leave the Single Market, (2) leave the Customs Union, (3) end free movement, (4) end ECJ jurisdiction. These four red lines collectively made a soft Brexit (Norway-style) impossible and made the Northern Ireland backstop problem unavoidable. The red lines were set without full consultation with Cabinet or parliamentary party. Their logic: keeping her Eurosceptic MPs and DUP in line. But they made a Withdrawal Agreement that Parliament would ratify almost impossible to draft. The backstop — a customs arrangement keeping Northern Ireland in EU regulatory alignment — was the inevitable consequence of red lines 2 and 4 plus the Good Friday Agreement commitment. Score of 0.88 reflects the depth of commitment to these lines."
+      },
+      {
+        "label": "may_2017_election_catastrophic_gamble",
+        "value": 0.15,
+        "evidence": "[May] Called an early election (April 2017) with a 20-point lead in polls. Rationale: mandate for Brexit negotiations, larger majority to deliver withdrawal. Result: 318 seats (−13), lost Conservative majority, required DUP confidence-and-supply arrangement. The campaign was catastrophic: 'strong and stable' became a mockery, the 'dementia tax' social care policy (announced without consultation, reversed within days — 'nothing has changed' while changing it), May's robotic debate performances, Jeremy Corbyn's unexpectedly effective campaign. The DUP arrangement created a unique constraint: the DUP supported hard Brexit but had the Good Friday Agreement obligation that created the Northern Ireland backstop problem. May's 2017 election gamble is among the worst tactical political decisions of any UK PM. Score of 0.15 reflects the severity of the miscalculation."
+      },
+      {
+        "label": "may_withdrawal_agreement_defeat_scale",
+        "value": 0.08,
+        "evidence": "[May] The Withdrawal Agreement was defeated three times in Parliament: January 2019 by 432-202 (230 vote margin — the largest government parliamentary defeat in history), March 2019 by 391-242 (149 vote margin), April 2019 by 344-286 (58 vote margin). Each defeat followed intense negotiation with the EU (who refused to remove the backstop) and with her own party (who refused to accept it). The scale of the defeats reflected: Eurosceptics who wanted a harder Brexit, Remainers who wanted a softer one or another referendum, and the DUP who refused the backstop. The fundamental problem: May's red lines created a set of treaty commitments that no parliamentary majority would support. Score of 0.08 reflects a catastrophic parliamentary management failure."
+      },
+      {
+        "label": "may_northern_ireland_backstop_dilemma",
+        "value": 0.55,
+        "evidence": "[May] The Northern Ireland backstop — keeping Northern Ireland in a customs union with the EU to avoid a hard border — was the central technical-constitutional problem of Brexit. May's government signed the backstop commitment in the December 2017 Joint Report and again in the November 2018 Withdrawal Agreement. The backstop created: (1) a regulatory border in the Irish Sea (UK mainland vs Northern Ireland), (2) DUP refusal (they would not accept any arrangement creating Ireland/Great Britain differentiation), (3) Eurosceptic rejection (Northern Ireland remaining in EU regulatory orbit indefinitely was unacceptable). May could not resolve this because it was structurally insoluble given her red lines and the GFA. Score of 0.55 reflects genuine effort to navigate an insoluble problem."
+      },
+      {
+        "label": "sterling_market_impact_combined",
+        "value": 0.92,
+        "evidence": "[Combined] The combined Cameron-May era created the largest sustained sterling depreciation since the 1970s. June 23-24 2016 (referendum night): GBP/USD fell from 1.50 to 1.33 (−12%), largest single-day sterling fall ever. Total depreciation by end of 2016: GBP/USD from 1.48 (Jan 2016) to 1.24 (Jan 2017) = −16%. The currency effect persisted through May's entire premiership: GBP/EUR remained 8-10% below pre-referendum levels throughout 2017-2019. Mechanism: UK investment uncertainty, current account risk, political uncertainty premium. For the simulation, the combined political-to-market transmission is the key output: Cameron's political gamble → referendum loss → constitutional crisis → sustained sterling weakness → inflation impact → Bank of England response modulation."
+      },
+      {
+        "label": "cameron_austerity_left_behind_communities",
+        "value": 0.72,
+        "evidence": "[Cameron] The political economy of austerity created the material conditions for Leave. Areas with highest Leave vote (Wales, Northern England, coastal towns): had experienced 15+ years of deindustrialisation, above-average public service cuts under austerity, higher immigration from Eastern Europe (perceived labour market competition), below-median wage growth. Cameron's government understood this intellectually ('levelling up' precursor language) but did not prioritise it. Osborne's 'Northern Powerhouse' was a genuine initiative but underfunded relative to the structural gap. The causal chain: austerity + deindustrialisation + immigration → Leave vote — was visible in retrospect and partially visible in pre-referendum research that the Remain campaign did not adequately address."
+      },
+      {
+        "label": "may_communication_incapacity",
+        "value": 0.22,
+        "evidence": "[May] May's inability to communicate was a structural governing weakness. Key failures: 'nothing has changed' during the 2017 campaign U-turn. The 'Maybot' nickname after robotic interview performances. Her refusal to participate in debates (2017 election). Her 'Brexit means Brexit' tautology. Her three Withdrawal Agreement speeches to Parliament were workmanlike but not persuasive. The resignation speech (May 2019) — where she visibly broke down describing her motivation as 'serving the country I love' — was her most emotionally authentic public moment, and it came as she was leaving. The communication failure created a vicious cycle: unable to sell her deal, unable to expand her coalition, unable to make the public case for compromise."
+      },
+      {
+        "label": "combined_political_uncertainty_premium",
+        "value": 0.90,
+        "evidence": "[Combined] The 2016-2019 period created a sustained political uncertainty premium in UK assets. Mechanisms: (1) no clear policy direction on customs union/single market for 3 years, (2) potential second referendum / election / no-deal / extension all simultaneously possible, (3) DUP arrangement made government dependent on a party with conflicting Brexit interests, (4) multiple Parliamentary defeats signalling government without majority, (5) Article 50 extended twice. The uncertainty quantification: UK investment fell as % GDP 2016-2019, business investment consistently below expectations in Bank of England surveys, inward FDI fell relative to trend. The UK experienced a classic 'policy uncertainty recession in slow motion' during this period."
+      },
+      {
+        "label": "cameron_liberal_social_policy",
+        "value": 0.78,
+        "evidence": "[Cameron] Cameron's social liberalism was genuine in key areas. Same-sex marriage (2013): Cameron drove this through against majority Conservative MP opposition — he had conviction on this issue. The coalition agreement with LibDems (2010-2015) included: pupil premium, free school meals, mental health parity of esteem. 'Big Society' agenda — genuinely believed (however poorly executed) in social capital and volunteering. Protection of overseas aid at 0.7% GNI — maintained under austerity, reflecting genuine conviction. The social liberalism created the tension with his Eurosceptic MPs that ultimately made managing the EU referendum impossible."
+      },
+      {
+        "label": "may_hostile_environment_immigration_policy",
+        "value": 0.75,
+        "evidence": "[May] The 'hostile environment' policy for illegal immigration — creating bureaucratic obstacles across all public services (NHS, housing, banking, employment) to detect undocumented migrants — was May's innovation as Home Secretary (2012 onwards). The consequences: systematic denial of services to Windrush generation British citizens (who arrived legally from Caribbean 1948-1973 but had no formal documentation), leading to deportations, loss of jobs, denial of NHS care, multiple deaths. The Windrush scandal (2018) destroyed May's reputation on immigration — the one policy area where she was supposed to have credibility. Score of 0.75 reflects the depth of commitment to the policy and its systematic implementation."
+      },
+      {
+        "label": "combined_Brexit_market_transmission_speed",
+        "value": 0.85,
+        "evidence": "[Combined] The Brexit period demonstrated unusually direct political-to-financial-market transmission. Key transmission events: Bloomberg speech (Jan 2013) → GBP -1.2% vs EUR. Cameron majority win (May 2015) → GBP +1.5% (referendum now certain). Leave winning (June 2016) → GBP -12% in hours. May Lancaster House speech (Jan 2017, hard Brexit confirmed) → GBP -1% on day. Meaningful Vote defeat by 230 (Jan 2019) → GBP -0.8%, then recovery on no-deal fears. Article 50 extension → GBP +0.5%. The market responded in real time to political event outcomes, making Brexit-era UK a natural laboratory for political uncertainty pricing."
+      },
+      {
+        "label": "cameron_coalition_management_2010_2015",
+        "value": 0.82,
+        "evidence": "[Cameron] Running a coalition government with the Liberal Democrats (2010-2015) was Cameron's greatest governing achievement. The coalition survived 5 full years — no UK coalition since the 1940s had. Key mechanisms: Cabinet committee parity, 'quad' (Cameron, Osborne, Clegg, Alexander) as decision-making body, Coalition Agreement as public governing document. Major tests: tuition fees rebellion (broke LibDem pledge — politically terminal for Clegg), Lords reform failure (coalition collapsed on this in 2012 — Clegg pulled support for boundary changes in retaliation). Cameron managed the coalition with genuine skill. The institutional management experience was paradoxically insufficient preparation for the Parliamentary management required for Brexit — a differently structured problem."
+      },
+      {
+        "label": "may_chequers_deal_collapse",
+        "value": 0.30,
+        "evidence": "[May] The July 2018 Chequers Plan — a 'common rulebook' for goods and agri-food with EU — was the compromise May designed after 18 months of negotiation. She believed Cabinet was agreed at the July 6 Chequers summit. Within 48 hours: David Davis (Brexit Secretary) resigned, Boris Johnson (Foreign Secretary) resigned (comparing the UK to a 'suicide vest'), Dominic Raab appointed as replacement Brexit Secretary. The plan had given the EU significant content to negotiate with — but her own Cabinet had not genuinely agreed it. The Chequers plan was declared 'dead on arrival' in Brussels because it attempted to cherry-pick single market benefits without accepting related obligations. Score of 0.30 reflects a near-total collapse of Cabinet management and EU negotiation simultaneously."
+      },
+      {
+        "label": "combined_eu_negotiation_strategy_quality",
+        "value": 0.38,
+        "evidence": "[Combined] The UK's Brexit negotiation strategy under both Cameron (renegotiation 2015-2016) and May (Withdrawal Agreement 2017-2019) was broadly weak. Cameron: underestimated EU red lines on free movement, overestimated what bilateral relationship with EU27 could deliver. May: triggered Article 50 before a negotiating position was established, revealed red lines early (Lancaster House) without strategic sequencing, allowed the backstop to be agreed in the Joint Report (December 2017) as a freestanding commitment before it was embedded in a package, repeatedly overpromised her party on what she could extract from Brussels. Ivan Rogers (UK EU Ambassador who resigned January 2017) warned in his resignation letter that the UK lacked the 'negotiating capital' and 'knowledge of EU processes' required. Score of 0.38 reflects systematic strategic weakness across both governments."
+      },
+      {
+        "label": "may_prorogation_and_constitutional_emergency",
+        "value": 0.40,
+        "evidence": "[May — and Johnson as successor] The prorogation crisis (August-September 2019) technically occurred under Johnson, but was the logical endpoint of May's parliamentary deadlock. The Supreme Court's unanimous ruling (September 2019) that prorogation was unlawful and void was unprecedented. The Brexit era constitutional emergency — including the Cooper-Letwin Act (legislation passed against government wishes), Benn Act (forcing extension of Article 50), historic government defeats — was partly a product of May's inability to build a parliamentary coalition. The 'meaningful vote' mechanism itself (requiring parliamentary approval of the Withdrawal Agreement) was a concession May made under Gina Miller constitutional pressure. Score of 0.40 for May's role in creating constitutional stress."
+      },
+      {
+        "label": "combined_political_shock_to_gdp_transmission",
+        "value": 0.78,
+        "evidence": "[Combined] The Brexit uncertainty period created measurable GDP effects. Bank of England estimates (2018): Brexit uncertainty reduced UK annual growth by 1-1.5 percentage points 2016-2018. Business investment fell 4% below baseline in 2018. UK's relative growth performance vs peers: 2013-2015 outperformed EU; 2016-2019 underperformed. The Withdrawal Agreement uncertainty was a measurable drag. However: unemployment continued to fall (reaching historic lows), consumer spending held up (sterling depreciation boosted UK manufacturing marginally), financial services maintained London activity. The transmission was real but non-catastrophic — closer to a mild slow-motion squeeze than an acute shock."
+      },
+      {
+        "label": "cameron_compassionate_conservatism_rhetoric",
+        "value": 0.68,
+        "evidence": "[Cameron] Cameron's 'compassionate conservatism' framing — social liberalism + fiscal conservatism — was designed to distinguish him from Thatcher's image without rejecting her economic legacy. Key markers: disability benefit reform handled with 'compassion' rhetoric (though critics argued the reality was harmful — 'fit for work' assessments for severely ill people), mental health parity commitment (relatively successful), LGBT equality genuine conviction. The compassionate framing allowed Cameron to win 2010 (denying Labour a majority) and 2015 (Conservative majority). But it was not sufficient to hold together the coalition that voted Leave — compassionate conservatism was a metropolitan, educated, Southern England proposition that didn't speak to the Leave vote coalition."
+      },
+      {
+        "label": "may_no_deal_threat_credibility",
+        "value": 0.55,
+        "evidence": "[May] May repeatedly deployed the 'no deal is better than a bad deal' threat as negotiating leverage with EU. The credibility problem: the EU assessed (correctly, as it turned out) that the UK Parliament would not allow a no-deal exit. Cooper-Letwin, the Benn Act, and multiple Parliamentary votes against no-deal demonstrated that Parliament had a majority against it even when the government was nominally threatening it. The EU's negotiating position was informed by this Parliamentary arithmetic — they correctly calculated that May would ultimately be forced to seek extensions rather than deliver no-deal. May's threat credibility was zero once Parliament had demonstrated it would override no-deal."
+      },
+      {
+        "label": "combined_bank_of_england_response_modulation",
+        "value": 0.72,
+        "evidence": "[Combined] The Bank of England under Mark Carney modulated its response to the political uncertainty. August 2016 emergency cut: cut base rate from 0.5% to 0.25%, expanded QE (£60bn gilts, £10bn corporate bonds) — the most aggressive post-referendum stimulus. The cut was partly justified (sterling depreciation → inflation), partly pre-emptive (uncertainty insurance). By 2017 Carney signalled rate rises despite uncertainty — the inflation impact of sterling depreciation (CPI rose to 3% by 2017) required tightening. The BoE navigated the political uncertainty by treating it as a stagflationary supply shock: raise rates slightly (counter-inflation) while maintaining accommodative stance (counter-uncertainty). Score of 0.72 reflects the BoE successfully threading a difficult path."
+      },
+      {
+        "label": "cameron_press_media_management_skill",
+        "value": 0.80,
+        "evidence": "[Cameron] Cameron's communications were shaped by his 7 years in PR (Carlton Communications, ITV). He understood broadcast media instinctively. Andy Coulson (former News of the World editor) as communications director — controversial (later jailed for phone hacking) but reflected Cameron's determination to stay close to Murdoch newspapers. The Leveson Inquiry into phone hacking (2011-2012) created political difficulties — Cameron was seen as too close to Murdoch. Craig Oliver replaced Coulson and managed communications more conventionally. Cameron's press operation was effective but left him exposed to the Leveson/Coulson scandal, which was ongoing during the referendum campaign and damaged his credibility."
+      },
+      {
+        "label": "may_cabinet_management_failure",
+        "value": 0.28,
+        "evidence": "[May] May's Cabinet management was persistently poor. The Chequers summit was supposed to bind Cabinet to a position — resignations within 48 hours. She kept Remain and Leave Cabinet members simultaneously, creating divided government: David Davis (hard Brexit) and Philip Hammond (remain/soft Brexit) in Cabinet simultaneously, briefing against each other constantly. Multiple Cabinet leaks. She conducted Brexit negotiations privately through her Chief of Staff Nick Timothy and Olly Robbins (civil servant), often excluding Brexit Secretary Davis from key negotiations. Davis resigned partly because he had been excluded. The Cabinet collective responsibility fiction collapsed entirely by 2018-2019 when Cabinet members were openly campaigning for conflicting outcomes."
+      },
+      {
+        "label": "combined_political_risk_market_pricing_model",
+        "value": 0.88,
+        "evidence": "[Combined] The Cameron-May era provides the best modern case study in how political uncertainty gets priced into financial markets. Key parameters for the simulation: (1) Political risk premium is non-linear — small probability increase of constitutional crisis creates large market moves, (2) Currency is the most sensitive instrument (absorbs uncertainty immediately), (3) Equities differentiate: international FTSE 100 companies benefited from sterling weakness; UK-domestic FTSE 250 fell, (4) Gilt market was relatively stable (BoE was buying) — not the primary risk channel, (5) Corporate investment intentions fell immediately (surveys) but capital spending declined more slowly. This asymmetric, differential-instrument transmission profile is the key model input from this era."
+      }
+    ]
+  },
+  "differentiation_notes": {
+    "cameron_vs_may_key_contrasts": [
+      "Cameron: Eton/Oxford confidence, PR-trained, risk-tolerant, coalition builder, socially liberal. May: grammar school, Methodist duty-driven, risk-averse, poor communicator, proceduralist.",
+      "Cameron caused Brexit by referendum gamble. May failed to deliver Brexit by parliamentary management failure.",
+      "Cameron's strengths: coalition management, communication, social liberalism. May's strengths: durability, detail, absorbing political punishment.",
+      "Cameron's economic legacy: austerity success + left-behind community creation. May's economic legacy: Brexit uncertainty drag.",
+      "Cameron departed immediately on losing. May stayed until physically removed by party after 3 WA defeats."
+    ],
+    "combined_profile_rationale": "For simulation purposes, the political shock (Brexit referendum → uncertainty → market impact → policy modulation) is a single continuous process spanning both premierships. The macro-economic consequences (sterling, investment, Bank of England response) are best modelled as a continuous political uncertainty function from June 2016 to the Johnson resolution (December 2019). The differentiated leadership styles create within-period variation but the overarching political-economic dynamic is unified."
+  },
+  "red_lines": [
+    {
+      "id": "RL001",
+      "label": "cameron_conservative_party_unity",
+      "description": "[Cameron] Party unity was Cameron's north star — the Bloomberg referendum pledge was made to keep the party together. When he lost the referendum, immediate departure was the logical consequence of same principle: he couldn't lead a Brexit he had campaigned against.",
+      "priority": 0.88
+    },
+    {
+      "id": "RL002",
+      "label": "may_good_friday_agreement_protection",
+      "description": "[May] The Good Friday Agreement peace process was non-negotiable. No hard border in Ireland. This red line, combined with the red lines on customs union and single market, made the backstop logically unavoidable and therefore the WA politically unratifiable.",
+      "priority": 0.95
+    },
+    {
+      "id": "RL003",
+      "label": "may_end_free_movement",
+      "description": "[May] Ending EU free movement of people to UK was treated as the definitive Leave mandate. Immigration control was May's Home Office identity. Non-negotiable from Lancaster House onwards.",
+      "priority": 0.92
+    },
+    {
+      "id": "RL004",
+      "label": "cameron_austerity_fiscal_frame",
+      "description": "[Cameron] The fiscal consolidation framework (deficit reduction, debt/GDP trajectory) was treated as economically and politically essential. NHS ring-fence and overseas aid were carve-outs but the overall austerity direction was not revisable.",
+      "priority": 0.85
+    }
+  ],
+  "decision_style": {
+    "cameron": {
+      "primary_mode": "PR_professional_pragmatic_dealmaker",
+      "key_cognitive_biases": ["overconfidence_in_persuasion", "status_quo_optimism_bias", "short_term_electoral_calculation_over_long_term_structural"],
+      "crisis_response": "communicates_reassurance_rapidly_then_manages_coalition"
+    },
+    "may": {
+      "primary_mode": "proceduralist_duty_bound_incremental",
+      "key_cognitive_biases": ["commitment_escalation", "parliamentary_arithmetic_blindness", "communications_avoidance"],
+      "crisis_response": "absorbs_pressure_without_adapting_holds_position_until_forced_to_resign"
+    },
+    "combined_information_fidelity": 0.78
+  },
+  "era_parameters": {
+    "cameron_in_office": "2010-05-11 to 2016-07-13",
+    "may_in_office": "2016-07-24 to 2019-07-24",
+    "party": "Conservative (Cameron: coalition with LibDems 2010-2015; majority 2015-2016; May: minority with DUP supply 2017-2019)",
+    "country": "United Kingdom",
+    "defining_political_shocks": [
+      "Bloomberg speech January 2013 — referendum pledge",
+      "EU referendum June 23, 2016 — Leave 52%/Remain 48%",
+      "Cameron resignation June 24, 2016",
+      "Sterling -12% June 24, 2016",
+      "BoE emergency cut August 2016",
+      "Lancaster House speech January 2017 — hard Brexit red lines",
+      "2017 election — lost majority",
+      "Withdrawal Agreement 3x defeated 2019",
+      "May resignation May 2019"
+    ],
+    "key_market_effects": {
+      "sterling_depreciation_2016_2017": -0.16,
+      "uk_investment_vs_baseline_2016_2019": -0.04,
+      "gdp_growth_vs_g7_peers_2016_2019": -0.015,
+      "boe_base_rate_post_referendum": 0.0025
+    }
+  }
+}

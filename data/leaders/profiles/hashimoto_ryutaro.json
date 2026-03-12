@@ -1,0 +1,287 @@
+{
+  "leader": "Hashimoto Ryutaro",
+  "leader_zh": "桥本龙太郎",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "Historical record: Hashimoto cabinet decisions 1996-1998",
+    "Big Bang financial reform package 1996 announcement",
+    "Consumption tax increase legislation 1997 (3%→5%, effective Apr 1997)",
+    "Asian financial crisis Japanese policy responses Jul 1997 - Jun 1998",
+    "Sanyo Securities, Hokkaido Takushoku Bank, Yamaichi Securities failures Nov 1997",
+    "Financial Supervisory Agency establishment Jun 1998",
+    "Administrative Reform Council (Hashimoto second Rincho) 1996-1997",
+    "US-Japan Security Joint Declaration (Apr 1996) — Hashimoto-Clinton",
+    "Academic literature: Jennifer Amyx Japan's Financial Crisis, Richard Katz Japan The System That Soured"
+  ],
+  "background": {
+    "birth_year": 1937,
+    "education": "Keio University Law Faculty — elite private university credential",
+    "career_path": "Ministry of Finance connections → LDP politician → Minister of Health and Welfare → MITI Minister → Finance Minister → PM",
+    "decision_archetype": "Bureaucratic insider / fiscal hawk with procedural reform instincts",
+    "key_experiences": [
+      "Deep Ministry of Finance relationships — career built on fiscal expertise and bureaucratic coordination",
+      "Health and Welfare Minister experience — understood social program political economy",
+      "MITI Minister under Nakasone — exposed to industrial policy debates",
+      "Finance Minister 1989-1991 — experienced the bubble economy peak and early collapse",
+      "Kendo practitioner — disciplined, methodical personal style"
+    ],
+    "nickname": "Ryutaro — no distinctive popular nickname, known as 'policy wonk' type"
+  },
+  "behavior_matrix": {
+    "description": "Behavior vector for Hashimoto Ryutaro's 1996-1998 premiership. Covers the Big Bang financial deregulation announcement (Nov 1996), the consumption tax increase from 3% to 5% (effective April 1997 — worst-timed fiscal tightening in modern Japanese history), the Asian financial crisis (July 1997 Thai baht devaluation through 1998), the domestic banking crisis (Sanyo Securities, Hokkaido Takushoku, Yamaichi Securities collapses Nov 1997), and the slow, hesitant banking crisis response that worsened the 'lost decade.' Also covers administrative reform agenda and US-Japan security relationship management.",
+    "dimensions": 62,
+    "vectors": [
+      {
+        "label": "fiscal_conservatism_conviction",
+        "value": 0.90,
+        "evidence": "Hashimoto was a genuine fiscal hawk — he believed Japan's fiscal deficit (structural from the post-oil-shock era) was a fundamental threat. The consumption tax increase from 3% to 5% was his signature fiscal policy, enacted against strong opposition and in defiance of economic warning signs. He framed it as a generational responsibility — not burdening future generations with debt. This conviction was so strong it overrode macroeconomic prudence signals that were already visible by early 1997."
+      },
+      {
+        "label": "consumption_tax_timing_error",
+        "value": 0.15,
+        "evidence": "The Apr 1997 consumption tax increase (3%→5%) was arguably the worst-timed fiscal policy decision in postwar Japan. It came as: (1) Japan was already recovering slowly from the 1991-1995 downturn, (2) Asian financial crisis was beginning (Thai baht was devalued July 1997), (3) domestic banking system was fragile. Q1 1997 GDP actually grew sharply due to purchase-forward buying. Q2 1997 collapsed (-3.6% annualized). Hashimoto's government also ended a special income tax cut (effective tax tightening from two sources simultaneously). This double fiscal tightening contributed directly to Japan's 1997-1998 recession and banking crisis deepening. Value of 0.15 represents effective quality of economic timing judgment."
+      },
+      {
+        "label": "banking_crisis_response_hesitancy",
+        "value": 0.30,
+        "evidence": "When Sanyo Securities failed (Nov 3, 1997), Hokkaido Takushoku (Nov 17), and Yamaichi Securities (Nov 24) all collapsed within weeks, Hashimoto's government responded slowly and procedurally rather than decisively. The government refused to use public money for bank recapitalization (politically toxic, seen as rewarding bad management). Banks were allowed to muddle through. No 'TARP-style' decisive intervention. The 20 trillion yen resolution framework finally passed in Oct 1998 under Obuchi — too late. Value represents response decisiveness (low = slow/hesitant)."
+      },
+      {
+        "label": "public_money_bank_recapitalization_resistance",
+        "value": 0.82,
+        "evidence": "Hashimoto resisted using public funds to recapitalize insolvent banks even as the banking system froze. The political narrative was that using taxpayer money to bail out banks that made bad loans was morally wrong. This was also driven by Ministry of Finance institutional resistance to admitting the scale of the problem. The result was zombie banks, credit crunch, and prolonged economic damage far exceeding what an early clean recapitalization would have cost."
+      },
+      {
+        "label": "big_bang_financial_deregulation",
+        "value": 0.85,
+        "evidence": "The 'Big Bang' announcement (Nov 1996): comprehensive financial sector deregulation to be completed by 2001. Freed interest rates, allowed financial holding companies, opened brokerage to competition, capital account full liberalization. Named after the UK's 1986 Big Bang. This was genuine structural reform. However, the timing problem: deregulating a fragile banking system while simultaneously tightening fiscally was a dangerous combination. The Big Bang accelerated foreign capital outflows and added stress to already-weak banks."
+      },
+      {
+        "label": "administrative_reform_commitment",
+        "value": 0.82,
+        "evidence": "Hashimoto's government completed a major administrative reform: reducing central government ministries from 23 to 12, creating Cabinet Office (Naikakufu) to strengthen PM office, establishing Financial Supervisory Agency (Kinyu Kantoku Cho) separate from Ministry of Finance (removing MoF's bank supervision role). This restructuring was implemented in 1998-2001. It was a significant institutional reform that permanently changed Japanese government architecture."
+      },
+      {
+        "label": "mof_power_reduction",
+        "value": 0.78,
+        "evidence": "The creation of Financial Supervisory Agency (FSA precursor) directly reduced Ministry of Finance's power — MoF had historically combined fiscal policy, monetary policy oversight, and bank supervision. Separating bank supervision was a major institutional reform driven partly by the credibility collapse of MoF's handling of the bubble and banking crisis. Hashimoto was willing to reduce MoF's institutional power despite his personal MoF connections."
+      },
+      {
+        "label": "asian_crisis_contagion_underestimation",
+        "value": 0.28,
+        "evidence": "Hashimoto's government underestimated the contagion risk from the Asian financial crisis (July 1997 Thai baht). Japan's exposure: Korean banks (Japanese banks had lent heavily to Korean chaebols), Southeast Asian economies (Japanese FDI and bank lending concentrated), Yamaichi Securities (exposed to Asian assets). The government's initial framing was that Japan's domestic banking problems were separate from the Asian crisis — they were in fact deeply interconnected. This misperception delayed appropriate response."
+      },
+      {
+        "label": "deflation_response_inadequacy",
+        "value": 0.30,
+        "evidence": "Japan entered deflationary territory in 1998-1999. Hashimoto's fiscal tightening in 1997 was procyclical into deflation. BoJ was moving toward zero interest rates but the fiscal/monetary policy mix was insufficient and contradictory. The government did not recognize Japan was entering a deflationary trap that would require extraordinary measures. Value represents adequacy of response to emerging deflation (low = inadequate response)."
+      },
+      {
+        "label": "us_japan_security_alliance_management",
+        "value": 0.85,
+        "evidence": "US-Japan Security Joint Declaration (Apr 1996, Hashimoto-Clinton) redefined the alliance for the post-Cold War era. Japan agreed to provide rear-area support for US military operations in 'areas surrounding Japan.' New defense guidelines replaced 1978 framework. Okinawa US base friction (Sep 1995 rape incident) required delicate management — Hashimoto negotiated SACO (Special Action Committee on Okinawa) process to return some land while maintaining base presence. Alliance management was one of his stronger performance areas."
+      },
+      {
+        "label": "okinawa_base_management",
+        "value": 0.65,
+        "evidence": "The 1995 Okinawa rape incident by US servicemen triggered massive protests and demands for base reduction. Hashimoto (as LDP leader, then PM) negotiated SACO agreement — return of Futenma airbase (contingent on replacement facility) and other modest concessions. He managed to contain the crisis without fundamentally altering US base presence. The Futenma issue was deferred rather than resolved — as proven by subsequent 30-year controversy."
+      },
+      {
+        "label": "china_relations_normalization",
+        "value": 0.60,
+        "evidence": "Hashimoto had difficult China relations — Japan-Taiwan relations and China's 1996 Taiwan Strait missile tests complicated his first year. He visited China (Sep 1997) and met Jiang Zemin. However, Jiang's Nov 1998 visit to Japan (under Obuchi by then) set the tone for the late-1990s Japan-China dynamic. Hashimoto managed China relations competently but without strategic breakthrough."
+      },
+      {
+        "label": "fiscal_target_over_economic_conditions",
+        "value": 0.88,
+        "evidence": "Hashimoto's Fiscal Reform Act (1997) set binding targets for deficit reduction despite worsening economic conditions. The Act was revoked under Obuchi in 1998 after the recession deepened — demonstrating that the fiscal targets were not credible in practice. His prioritization of the fiscal target over economic stabilization was the defining mistake of his tenure. He chose rules over discretion at exactly the wrong moment."
+      },
+      {
+        "label": "policy_reversal_resistance",
+        "value": 0.78,
+        "evidence": "Even as evidence mounted that the consumption tax increase was damaging the economy (Q2 1997 GDP collapse), Hashimoto was slow to reverse course. He initiated supplementary budgets but was reluctant to acknowledge the scale of the policy error. He finally proposed a fiscal stimulus package (Apr 1998) but it was too small and too late. His personality was methodical and disciplined — not suited to the quick pivots required during an accelerating crisis."
+      },
+      {
+        "label": "election_defeat_accountability",
+        "value": 0.75,
+        "evidence": "LDP suffered a major defeat in the July 1998 House of Councillors election, losing its Upper House majority. Hashimoto immediately resigned — taking personal responsibility for the defeat, which was directly attributable to his economic management. This clean resignation contrasted with many politicians' tendency to cling to power. The electoral accountability mechanism worked, though the damage was already done."
+      },
+      {
+        "label": "proceduralism_over_crisis_response",
+        "value": 0.80,
+        "evidence": "Hashimoto's response to the banking crisis was characterized by procedure over decisive action. He insisted on following existing legal frameworks (Deposit Insurance Law, etc.) rather than creating emergency legislative authority for rapid bank resolution. This proceduralism — a product of his bureaucratic background and MOF connections — meant that the response lagged the crisis by 6-12 months. By the time the 20 trillion yen framework passed under Obuchi, the damage was done."
+      },
+      {
+        "label": "banking_supervision_reform",
+        "value": 0.78,
+        "evidence": "One of Hashimoto's genuine accomplishments was forcing through the separation of banking supervision from MoF into the new Financial Supervisory Agency. This addressed the structural conflict of interest where MoF both supervised banks and funded its own operations through bond issuance that banks held. The FSA (later reorganized into FSA under Yanagisawa) eventually forced proper provisioning and disposal of bad loans — but this came under Koizumi, years later."
+      },
+      {
+        "label": "yamaichi_response_speed",
+        "value": 0.48,
+        "evidence": "Yamaichi Securities' Nov 24 1997 voluntary closure (with debts of ¥3.2 trillion) was managed through a 'temporary deposit guarantee' from BoJ and MoF. The government provided emergency liquidity to wind down operations and protect customer accounts. This was faster than the broader banking response — possibly because Yamaichi's public collapse (Nomura president crying on TV) forced faster action than the opacity of bank balance sheets allowed."
+      },
+      {
+        "label": "structural_reform_over_stimulus",
+        "value": 0.82,
+        "evidence": "Hashimoto consistently emphasized structural reform (Big Bang, administrative reform, deregulation) over demand stimulus. His model was: fix the structure, and growth will follow. This was intellectually coherent but economically mistimed — during a balance sheet recession caused by debt overhang, structural reform without demand stimulus cannot generate recovery. He was solving the wrong problem at the wrong time."
+      },
+      {
+        "label": "market_opening_financial",
+        "value": 0.85,
+        "evidence": "Big Bang included opening of equity brokerage to competition (ending fixed commission system), permitting financial holding companies, opening foreign exchange transactions, allowing bank/securities/insurance cross-entry. This was genuine market opening. The deregulation permanently changed Japan's financial sector landscape — it eventually enabled consolidation into mega-banks and financial groups."
+      },
+      {
+        "label": "information_fidelity",
+        "value": 0.65,
+        "evidence": "Hashimoto received detailed information from MoF and banking regulators, but the information itself was systematically distorted — MoF's 'convoy system' (allowing weak banks to muddle along) meant that true scale of bad loans was not transparently reported. Estimates ranged from ¥40 trillion to ¥140 trillion (actual ultimately exceeded ¥100 trillion). He was working with systematically underestimated problem scale, which contributed to inadequate response."
+      },
+      {
+        "label": "generational_fiscal_responsibility",
+        "value": 0.82,
+        "evidence": "Hashimoto articulated fiscal consolidation explicitly in generational terms — Japan's debt burden was being passed to future generations, and his generation had a responsibility to address it. This intergenerational framing was politically compelling and intellectually honest as a long-term principle — but catastrophically applied in the short-run context of a deflationary balance-sheet recession where premature fiscal tightening made the problem worse."
+      },
+      {
+        "label": "yen_dollar_diplomacy",
+        "value": 0.62,
+        "evidence": "Yen/dollar rate was volatile during Hashimoto's tenure — yen had appreciated post-Plaza, then depreciated from mid-1990s. Asian financial crisis triggered capital flight to yen. Hashimoto's government conducted joint yen-support intervention with US (Apr 1998). He made a notable 'threat' in June 1997 — alluding to Japan potentially selling US Treasuries — that caused bond market turmoil and required quick retraction. Currency policy was not well-handled."
+      },
+      {
+        "label": "cabinet_coordination_effectiveness",
+        "value": 0.65,
+        "evidence": "Hashimoto ran a relatively disciplined cabinet in terms of policy coordination. Administrative reform council process (leading to ministry reorganization) was well-managed. However, the banking crisis response revealed poor coordination between MoF, BoJ, and political leadership. The decision not to use public funds for recapitalization reflected MoF institutional resistance overriding PM office guidance."
+      },
+      {
+        "label": "koizumi_style_populism_absent",
+        "value": 0.22,
+        "evidence": "Hashimoto was the antithesis of populist political communication. He was a technocratic, policy-detailed, bureaucratic-style politician. He did not use media effectively, did not cultivate personal popularity, and managed LDP factions through traditional deal-making rather than public pressure. His communication style was suited to internal party politics but not to public mobilization for reform — a contrast with subsequent Koizumi who used public opinion as a reform lever."
+      },
+      {
+        "label": "wto_trade_policy",
+        "value": 0.68,
+        "evidence": "Japan participated in WTO Information Technology Agreement (ITA, 1996) under Hashimoto — eliminating tariffs on IT products globally. Agricultural protection remained intact. The WTO framework was accepted as multilateral discipline while sector-specific protection (agriculture, construction) was maintained through political economy constraints."
+      },
+      {
+        "label": "deregulation_agenda_selective",
+        "value": 0.65,
+        "evidence": "The Hashimoto reforms included deregulation in finance, telecommunications (NTT further restructured), and distribution. But construction sector deregulation was limited (political economy barrier), agricultural protection unchanged, and retail regulations (Large Store Law) only partially reformed. Deregulation was driven by international pressure (financial) and revenue goals (telecom competition) more than coherent domestic reform logic."
+      },
+      {
+        "label": "political_survival_over_economics",
+        "value": 0.58,
+        "evidence": "Hashimoto was not purely a political survivor — his resignation after the 1998 election defeat showed personal accountability. However, decisions like refusing to use public money for bank recapitalization had a political survival component (LDP base opposed 'bank bailouts'). The fiscal tightening was also partly political — demonstrating fiscal responsibility to bond markets and fiscal hawks within LDP. Political considerations partially but not dominantly drove economic decisions."
+      },
+      {
+        "label": "interest_rate_policy_deference_to_boj",
+        "value": 0.72,
+        "evidence": "BoJ Law was revised (Apr 1998) under Hashimoto — formally establishing BoJ independence. This was partly a constitutional reform achievement. He accepted BoJ independence even while BoJ was maintaining very low rates that contradicted his fiscal tightening. The policy mix (tight fiscal + loose monetary) was incoherent but reflected institutional separation rather than coordinated strategy."
+      },
+      {
+        "label": "trade_surplus_awareness",
+        "value": 0.60,
+        "evidence": "Japan's trade surplus (and current account surplus) remained large under Hashimoto. The Asian crisis caused some contraction in Asian export markets. US-Japan trade friction continued in automobiles and semiconductors. Hashimoto managed trade relations as inherited institutional architecture rather than as a strategic priority for reshaping."
+      },
+      {
+        "label": "miti_industrial_policy_continuation",
+        "value": 0.65,
+        "evidence": "MITI continued but the ministerial reorganization Hashimoto initiated eventually transformed MITI into METI (Ministry of Economy, Trade and Industry). The administrative reform redesigned the ministry architecture for a post-developmental-state era. Industrial policy was shifting from sectoral promotion to framework conditions (deregulation, competition policy)."
+      },
+      {
+        "label": "keidanren_business_coordination",
+        "value": 0.70,
+        "evidence": "Hashimoto maintained close business coordination through Keidanren. Big Bang reforms were partly designed to address financial sector competitiveness concerns from business. However, banking sector resistance to bad loan recognition had Keidanren dimensions — large corporations had cross-shareholding relationships with banks that made bank failure politically sensitive."
+      },
+      {
+        "label": "social_safety_net_reform",
+        "value": 0.65,
+        "evidence": "The aging society fiscal pressure was central to Hashimoto's consumption tax rationale — Japan needed revenue to pay for expanding pension and healthcare commitments. The 1997 pension reform extended retirement age and reduced replacement rates modestly. Hashimoto understood the long-run fiscal arithmetic of aging but was solving it with a tool (consumption tax hike) that was wrong for the immediate conjuncture."
+      },
+      {
+        "label": "diplomatic_skill_bilateral",
+        "value": 0.72,
+        "evidence": "US-Japan security redefinition (1996), China visit (1997), ASEAN summit participation — Hashimoto's diplomatic record was competent without being transformative. He managed the Okinawa base situation without escalation. However, the yen 'threat' incident (June 1997) was a diplomatic blunder — suggesting he sometimes spoke without fully calculating consequences."
+      },
+      {
+        "label": "bad_debt_recognition_speed",
+        "value": 0.25,
+        "evidence": "Japan's banking system accumulated bad loans from the bubble collapse (1990-1992). Proper recognition required writing down collateral (real estate) at market values. MoF's 'convoy system' prevented this. Hashimoto inherited this problem and did not force earlier recognition. The scale of bad loans when finally recognized under Koizumi/Takenaka (2001-2003) — over ¥100 trillion — dwarfed the estimates during Hashimoto's tenure. Slow recognition = delayed healing = longer lost decade."
+      },
+      {
+        "label": "emergency_legislative_capacity",
+        "value": 0.45,
+        "evidence": "When the banking crisis accelerated in November 1997, Hashimoto's government struggled to pass emergency legislation. The ¥30 trillion financial stabilization package (initially announced) required months of Diet negotiation. Emergency legislative capacity was constrained by lack of Upper House majority (LDP had lost it in 1995) requiring opposition cooperation. The institutional architecture was not designed for rapid crisis response."
+      },
+      {
+        "label": "economic_theory_model_applied",
+        "value": 0.65,
+        "evidence": "Hashimoto's intellectual framework was broadly Keynesian in architecture (government deficits matter, balance sheets matter) but applied in an inverted way — tightening when stimulus was needed. His understanding of balance-sheet recession dynamics (Koo's concept, later formalized) was limited. He was applying standard textbook fiscal theory without recognizing that Japan faced a non-standard post-bubble deleveraging situation where standard tools operated in reverse."
+      },
+      {
+        "label": "personal_style_procedural",
+        "value": 0.85,
+        "evidence": "Kendo practitioner, known for methodical discipline and procedural approach. Policy decisions were made through formal processes — councils, ministries, inter-agency coordination. This worked well for administrative reform (which needed sustained institutional process) but poorly for crisis response (which needed improvisation and speed). His style was optimized for normal-times policy, not emergency management."
+      },
+      {
+        "label": "keidanren_business_alignment",
+        "value": 0.68,
+        "evidence": "Hashimoto's Big Bang financial deregulation was partly Keidanren-driven — major corporations wanted access to cheaper and more diverse capital markets. However, the banking sector (also Keidanren members) resisted bad loan recognition. His fiscal conservatism aligned with Keidanren's concerns about government bond crowding out. Business alignment was strong on the structural reform side, weak on crisis response where business interests were internally divided."
+      },
+      {
+        "label": "population_policy",
+        "value": 0.35,
+        "evidence": "Japan's fertility rate was falling below 1.4 during Hashimoto's tenure. No serious policy response to demographic decline was attempted. Hashimoto was focused on fiscal consolidation and financial reform, not social/demographic policy. The absence of childcare policy and lack of immigration framework meant Japan's demographic trajectory was worsening without policy response. This neglect contributed to the long-run fiscal pressures his fiscal hawkery was trying to address."
+      },
+      {
+        "label": "balance_sheet_recession_misdiagnosis",
+        "value": 0.15,
+        "evidence": "The core policy error of Hashimoto's tenure — fiscal tightening into a balance-sheet recession — reflects a fundamental misdiagnosis. Richard Koo's 'balance sheet recession' concept explains why standard macroeconomic tools fail when private sector is simultaneously deleveraging: fiscal multiplier turns negative, monetary policy loses traction. Hashimoto applied standard counter-cyclical fiscal logic (deficit bad → tighten) without recognizing the non-standard nature of post-bubble Japan. Value represents accuracy of economic diagnosis (very low)."
+      },
+      {
+        "label": "upper_house_coalition_constraint",
+        "value": 0.40,
+        "evidence": "LDP lost its Upper House majority in 1995 and Hashimoto's government required coalition negotiation for all major legislation. This structural constraint slowed banking crisis response — every measure needed opposition concurrence. The New Frontier Party (NFP) under Ozawa Ichiro was the main opposition and was not cooperative on banking bailouts. The institutional constraint was real but Hashimoto also used it as a partial excuse for insufficient action."
+      },
+      {
+        "label": "jusen_housing_loan_failure",
+        "value": 0.35,
+        "evidence": "The Jusen (housing loan companies) crisis was resolved in 1996 — just before Hashimoto's tenure but setting the context. Public funds of ¥685B were used for the first time for financial sector resolution. The political controversy ('agriculture cooperatives get bailed out while taxpayers suffer') poisoned the well for subsequent bank recapitalization. Hashimoto's refusal to use public money in 1997-1998 was directly influenced by the political toxicity of the Jusen resolution he had just witnessed."
+      },
+      {
+        "label": "deposit_guarantee_temporary",
+        "value": 0.72,
+        "evidence": "The full deposit guarantee system (blanket guarantee on all deposits) was maintained throughout the banking crisis — it prevented bank runs. Hashimoto's government extended the blanket guarantee framework (originally set to expire 2001) to prevent panic. This was a correct defensive measure that prevented a systemic bank run while other measures were inadequate. The guarantee contained deposit outflows even as bank solvency was uncertain."
+      },
+      {
+        "label": "asian_crisis_policy_coordination",
+        "value": 0.48,
+        "evidence": "Japan's response to Asian financial crisis (1997-1998) was criticized as insufficient. The Miyazawa Initiative ($30B Asian support package) was announced Oct 1998 — but this came under Obuchi after the crisis had spread. Under Hashimoto, Japan's IMF coordination was passive and the bilateral support was limited. An earlier, larger Japanese response might have contained the crisis before it spread to Korea. Japan as Asia's largest economy had a responsibility it did not fully accept."
+      },
+      {
+        "label": "healthcare_reform",
+        "value": 0.58,
+        "evidence": "Healthcare reform (1997): patient cost-sharing increased from 10% to 20% for employees, introduced co-pay for dependents. This was part of the overall fiscal consolidation package. Healthcare costs were growing with aging demographics. The reform was financially necessary but added to the fiscal burden on households simultaneously with consumption tax increase — amplifying the contractionary impulse of the 1997 fiscal tightening."
+      },
+      {
+        "label": "administrative_reform_legacy",
+        "value": 0.82,
+        "evidence": "The ministry reorganization Hashimoto initiated (23→12 ministries, Cabinet Office strengthening) was eventually implemented Jan 2001 under Mori/Obuchi. This was Hashimoto's most durable policy legacy — it permanently restructured Japan's governmental architecture in ways that strengthened PM office authority relative to ministerial bureaucracies. The Financial Services Agency separation from MOF was similarly lasting. Process reform outlasted his tenure."
+      },
+      {
+        "label": "ryutaro_personal_health_management",
+        "value": 0.68,
+        "evidence": "Hashimoto was physically disciplined (kendo practitioner) and maintained his health during office. Unlike Abe (health-related resignation), Takeshita (scandal), or Obuchi (stroke), Hashimoto's departure was purely electoral and political rather than personal. His physical resilience allowed him to remain the dominant LDP faction leader (Hashimoto faction/Heisei Kenkyukai) through the 2000s until the Nishimatsu Construction scandal (2008) ended his political career."
+      },
+      {
+        "label": "political_after_PM",
+        "value": 0.72,
+        "evidence": "Unlike Tanaka (shadow shogun) or Nakasone (elder statesman), Hashimoto's post-PM influence was substantial but time-limited. His faction (Hashimoto faction/largest LDP faction) continued to dominate LDP through the 2000s, producing PMs Obuchi, Mori, and Hashimoto's own continued influence. The Nishimatsu Construction scandal (2007-2008) — construction company political donations — finally destroyed his political standing. His faction's dominance partly explains why the construction state persisted after his tenure."
+      },
+      {
+        "label": "risk_aversion_crisis_management",
+        "value": 0.30,
+        "evidence": "Hashimoto's proceduralism and risk aversion were catastrophic for crisis management. When Yamaichi Securities collapsed, the risk-averse response was: use existing legal frameworks, avoid public funds, maintain appearance of market discipline. The risk-seeking response (which would have been correct) was: immediately deploy public money, force bank recapitalization, accept short-term political cost for systemic stability. He chose the risk-averse path in a situation where risk aversion was the truly risky choice. Value represents effectiveness in risk-accepting crisis intervention (very low)."
+      }
+    ]
+  }
+}

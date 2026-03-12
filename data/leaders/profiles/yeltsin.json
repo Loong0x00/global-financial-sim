@@ -1,0 +1,381 @@
+{
+  "leader": "Boris Yeltsin (Борис Николаевич Ельцин)",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "Public record: Presidential decrees, Russian government statements 1991-1999",
+    "Yeltsin memoirs: 'Against the Grain' (1990), 'The Struggle for Russia' (1994), 'Midnight Diaries' (2000)",
+    "Clinton-Yeltsin interactions: declassified US documents, Strobe Talbott 'The Russia Hand' (2002)",
+    "Shock therapy period: Jeffrey Sachs advisory records, Gaidar reform documents 1992-1993",
+    "1993 constitutional crisis: October 3-4 coup attempt, tank shelling of parliament",
+    "1994-96 First Chechen War: military and political decision records",
+    "1996 presidential election: Davos deal, oligarch formation, campaign records",
+    "1998 Russian financial crisis: default August 17, Kiriyenko government records, IMF negotiations",
+    "1999 Dagestan-Chechen conflict: Yeltsin's final months, Primakov dismissal, Putin appointment",
+    "Oligarch formation: loans-for-shares privatization 1995-96, Berezovsky-Abramovich-Khodorkovsky-Potanin records",
+    "Yeltsin family: Tatyana Dyachenko (daughter) political role, Roman Abramovich as family manager",
+    "Putin appointment and succession: FSB director appointment Aug 1998, Prime Minister Aug 1999, Yeltsin resignation Dec 31 1999",
+    "IMF relations: $10B stabilization fund 1992, multiple negotiation rounds, 1998 emergency package",
+    "Economic indicators: hyperinflation 1992 (2,500%), GDP collapse 1990-1998 (-50%), oligarch wealth formation",
+    "Health: documented alcoholism, cardiac problems (bypass surgery Oct 1996), erratic public behavior",
+    "Constitutional design: 1993 constitution giving president sweeping powers (reaction to parliament standoff)"
+  ],
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector covering Boris Yeltsin's presidency (June 1991 — December 31, 1999). Yeltsin presided over the most dramatic economic collapse outside wartime in modern history: Soviet dissolution, hyperinflation, GDP implosion, mass poverty, oligarch creation, and the 1998 default. His behavior matrix is characterized by: (1) erratic decision-making amplified by alcoholism, (2) strategic political survival instincts despite tactical incompetence, (3) genuine (if inconsistent) democratic values alongside authoritarian reflexes, (4) total dependence on oligarch support structure, (5) complete failure at economic management combined with surprising political survival skills. Critical for the simulation because: his chaos is the negative template from which Putin's authoritarianism derived its popular legitimacy; understanding Yeltsin's dysfunctions explains Russia's entire post-Soviet trajectory.",
+    "dimensions": 57,
+    "vectors": [
+
+      {
+        "label": "shock_therapy_commitment_initial",
+        "value": 0.81,
+        "evidence": "January 1992: Yeltsin empowered Yegor Gaidar to implement radical shock therapy — price liberalization, subsidy removal, trade liberalization simultaneously. This was genuine commitment: overrode all gradualist advice (Gorbachev reformers, some economists, military). Yeltsin personally backed Gaidar against Khasbulatov parliament opposition through most of 1992. His commitment was ideological (conviction that Western capitalism was superior) plus strategic (IMF support required speed). The commitment lasted through 1992-93 despite: hyperinflation (2,500% in 1992), industrial collapse, pension non-payment."
+      },
+      {
+        "label": "shock_therapy_commitment_sustained",
+        "value": 0.48,
+        "evidence": "After initial commitment, Yeltsin's resolve wavered repeatedly. December 1992: replaced Gaidar with Chernomyrdin (industrial director, slower reformer) under parliamentary pressure. 1993-1995: alternated between reform rhetoric and industrial subsidies. The inconsistency was partly driven by political survival (parliamentary opposition, industrial lobby pressure) and partly by alcoholism's effect on decision quality. The sustained commitment score is much lower than the initial — he started strong and gradually retreated."
+      },
+      {
+        "label": "economic_reform_ideological_conviction",
+        "value": 0.65,
+        "evidence": "Yeltsin genuinely believed in Western-style market democracy in the early 1990s. His Sverdlovsk party secretary background gave him firsthand knowledge of Soviet system failure. His 1989-1991 US visits profoundly shaped his beliefs — he was reportedly shocked by American supermarkets. This ideological conviction was real but intellectually shallow — he could not evaluate competing reform designs and relied entirely on Western advisors (Sachs, IMF) to fill the gap between his values and the technical requirements of transition."
+      },
+      {
+        "label": "democratic_values_genuine",
+        "value": 0.58,
+        "evidence": "Yeltsin's democratic values were genuinely held but contradicted by his actions. Evidence FOR: (1) allowed free press to develop (Kommersant, NTV, Nezavisimaya Gazeta), (2) contested 1991 and 1996 elections rather than canceling them, (3) tolerated Duma opposition for 3 years before the 1993 crisis, (4) signed the 1993 Constitution guaranteeing rights. Evidence AGAINST: (1) shelled parliament Oct 1993, (2) controlled 1996 election outcome through oligarch media and IMF-timed loans, (3) selected his own successor rather than democratic contestation. Value 0.58 reflects genuine but severely compromised democratic commitment."
+      },
+      {
+        "label": "alcoholism_impact_on_governance",
+        "value": 0.91,
+        "evidence": "Yeltsin's alcoholism was documented throughout his presidency and had measurable governance impact. Key incidents: (1) 1994 Shannon airport: failed to exit plane to meet Irish PM (claim: sleeping, widely believed drunk), (2) 1995 New York: conducting invisible orchestra, (3) Multiple erratic public appearances, (4) September 1994: stepped off plane in Berlin clearly intoxicated before press conference, (5) Bypass surgery 1996: health deteriorated significantly. Former aides estimate 30-40% of working days were affected. Decision-making quality in the afternoon/evening was severely compromised. The alcoholism's effect: policy inconsistency, erratic personnel decisions (5 prime ministers in 1998-99), susceptibility to manipulation by inner circle. This is a uniquely important behavioral parameter — one that has no equivalent in any other major leader profile."
+      },
+      {
+        "label": "political_survival_instinct",
+        "value": 0.86,
+        "evidence": "Despite cognitive impairment and health problems, Yeltsin demonstrated remarkable political survival instinct. Key survival moves: (1) 1993 constitutional crisis — chose to shell parliament rather than allow his removal, accepted 100+ casualties, (2) 1994-95 Chechen war — started it despite military advice; ended it (Khasavyurt accords 1996) when it threatened 1996 election, (3) 1996 election — survived heart attack pre-election, used oligarch media and IMF loan timing to win despite 5% approval, (4) 1998 crisis — fired Kiriyenko, installed Primakov to stabilize, then fired Primakov when threat passed, (5) Chose Putin as successor for maximum family protection. Each survival move showed strategic clarity despite tactical dysfunction."
+      },
+      {
+        "label": "oligarch_dependence",
+        "value": 0.94,
+        "evidence": "From 1993 onward, Yeltsin's political survival became inseparable from oligarch support. The 'Semibankirshchina' (Seven Bankers) — Berezovsky, Gusinsky, Potanin, Khodorkovsky, Smolensky, Fridman, Vinogradov — provided: (1) campaign financing (1996 election), (2) media control (NTV, ORT, print media), (3) political organization capacity, (4) personal financial management for Yeltsin family. The 'Davos Deal' (January 1996): oligarchs agreed to fund Yeltsin campaign in exchange for loans-for-shares privatization gains being locked in. From 1996, Yeltsin was effectively a hostage to oligarch interests — he could not move against them without losing his political infrastructure."
+      },
+      {
+        "label": "loans_for_shares_privatization_acceptance",
+        "value": 0.84,
+        "evidence": "1995 loans-for-shares: government borrowed from oligarch banks using SOE shares as collateral, then defaulted — allowing oligarchs to keep shares at ~5% of market value. Result: Norilsk Nickel (Potanin), Yukos (Khodorkovsky), Sibneft (Berezovsky-Abramovich), others transferred to oligarchs for ~$1.85B (worth ~$15B by 2004). Yeltsin accepted this scheme despite its obvious illegitimacy because: (1) immediate budget revenue needs, (2) oligarch political support for 1996 election, (3) reform narrative (privatization = good regardless of method). This was the defining act of illegitimate wealth transfer in post-Soviet history."
+      },
+      {
+        "label": "1993_constitutional_crisis_decision",
+        "value": 0.79,
+        "evidence": "September-October 1993: Yeltsin dissolved parliament (illegal under then-constitution), survived parliamentary vote to impeach him, allowed armed groups to storm White House (parliament building), then ordered military to shell parliament when they remained. Deaths: ~100-200. This decision — using military force to resolve a constitutional standoff — was the pivotal event of the Yeltsin era. It established: (1) presidential supremacy, (2) willingness to use force against political opponents, (3) the 1993 'super-presidential' constitution. Yeltsin clearly chose his political survival over constitutional order."
+      },
+      {
+        "label": "hyperinflation_tolerance",
+        "value": 0.72,
+        "evidence": "1992 hyperinflation: 2,500% annual rate. Yeltsin accepted this as the cost of price liberalization. 1993: 840%. 1994: 215%. Gradual stabilization. The tolerance was partly genuine conviction (markets > planned prices, even hyperinflationary ones) and partly political desperation (no available alternative). He rejected central bank money printing reduction until Chubais forced it as IMF condition (1995). The hyper inflation destroyed: savings of the elderly, industrial wage workers' purchasing power, and the middle class's accumulated Soviet-era savings."
+      },
+      {
+        "label": "gdp_collapse_tolerance",
+        "value": 0.68,
+        "evidence": "Russian GDP fell ~50% from 1989-1998 (the worst peacetime GDP collapse of a major economy in the 20th century). Yeltsin's tolerance was based on: (1) conviction that growth would follow market reforms, (2) IMF/Western advisor assurances, (3) political insulation from popular consequences through oligarch media control. In retrospect, the tolerance was partly forced — no clear alternative was available, and the Soviet command economy was already collapsing before shock therapy. But Yeltsin did not attempt gradual reform alternatives."
+      },
+      {
+        "label": "imf_washington_consensus_compliance",
+        "value": 0.61,
+        "evidence": "IMF relations were central to Yeltsin's economic policy. Russia received: $1B stabilization fund (1992), multiple subsequent loans, $22.6B package (1998, pre-default). Compliance was inconsistent — Russia repeatedly missed IMF fiscal targets, received waivers, then missed again. The 1998 default violated IMF agreements within weeks of a $4.8B disbursement. However, Yeltsin consistently TRIED to comply — the failures reflected: state capacity breakdown (couldn't collect taxes), oligarch resistance, and regional government independence. Genuine compliance intent + structural inability to deliver = 0.61."
+      },
+      {
+        "label": "tax_collection_state_capacity",
+        "value": 0.21,
+        "evidence": "Russian state capacity collapsed alongside the Soviet system. Tax collection effectively broke down: (1) Large corporations paid taxes in barter or arrears, (2) Oligarch structures used offshore arrangements, (3) Regional governments retained tax revenue, (4) Shadow economy grew to 40% of GDP by 1998. Federal government was chronically broke despite nominal tax structures. The 1998 default was the fiscal consequence: government couldn't service debt because tax revenue was insufficient. Yeltsin could not fix this — it required the security-state reconstruction that Putin implemented."
+      },
+      {
+        "label": "first_chechen_war_decision",
+        "value": 0.72,
+        "evidence": "December 1994: Yeltsin authorized military operation against Chechnya. Key decision drivers: (1) generals claimed 2-hour victory would be achievable, (2) Chechnya independence would set precedent for other regions (territorial integrity red line), (3) need for political rally-around-the-flag effect. Reality: catastrophic military failure (Grozny siege cost ~14,000 Russian soldiers, est. 35-50,000 Chechen civilian deaths). The decision revealed: trust in military without questioning intelligence, underestimation of guerrilla warfare, and the Russia territorial integrity hard constraint."
+      },
+      {
+        "label": "khasavyurt_accords_flexibility",
+        "value": 0.65,
+        "evidence": "August 1996: Khasavyurt Peace Accords effectively granted Chechnya de facto independence to end a catastrophically losing war — 5 months before the 1996 presidential election. This was a stunning reversal from the 'territorial integrity' position that justified launching the war. The driver: political survival (election imminent, war deeply unpopular). Yeltsin chose political survival over territorial absolutism. The accords were eventually repudiated by Putin in the Second Chechen War — but Yeltsin's willingness to accept them shows his constraints hierarchy: political survival > territorial integrity."
+      },
+      {
+        "label": "nato_eastward_expansion_response",
+        "value": 0.53,
+        "evidence": "Yeltsin objected to NATO expansion but ultimately accepted it rather than confronting it. Poland, Czech Republic, Hungary joined NATO in 1999. Yeltsin's protests: verbal, diplomatic, but no action. Clinton-Yeltsin relationship maintained warmth despite expansion (Strobe Talbott records show mutual respect). The 1997 NATO-Russia Founding Act provided face-saving mechanism. Yeltsin's weak position (economic collapse, Chechen war, health problems) meant he could not credibly threaten consequences for expansion. His acquiescence was the product of weakness, not acceptance — which fed into the 'humiliation' narrative Putin later exploited."
+      },
+      {
+        "label": "western_relationship_value",
+        "value": 0.77,
+        "evidence": "Yeltsin genuinely valued the Western relationship. Clinton-Yeltsin friendship was unusual in great power relations — personal chemistry, mutual respect, shared history-making awareness. Yeltsin wanted Russia in G7 (achieved G8 in 1998), wanted Western investment, wanted IMF support, wanted NATO partnership (Partnership for Peace). His foreign policy rhetoric was consistently pro-integration. The Western relationship was both genuinely valued and instrumentalized — IMF loans, political legitimization from Western acceptance, and Western pressure on oligarchs occasionally."
+      },
+      {
+        "label": "personal_emotional_volatility",
+        "value": 0.87,
+        "evidence": "Yeltsin was emotionally volatile in ways that affected policy. High-emotion decisions: (1) December 1991 Belavezha Accords dissolving USSR — made in a dacha in the forest in 48 hours, (2) October 1993 parliament shelling — decided after days of escalating confrontation, (3) December 1994 Chechnya — decided despite advice based partly on wounded pride after negotiation failure, (4) Multiple abrupt personnel firings (5 prime ministers 1998-99). The volatility was amplified by alcoholism and health deterioration. This is a simulation parameter with no Western equivalent — emotional volatility as a first-order decision variable."
+      },
+      {
+        "label": "institution_building_interest",
+        "value": 0.32,
+        "evidence": "Yeltsin showed minimal interest in institutional construction. The 1993 constitution was a power instrument (maximizing presidential authority) not a balanced governance design. COURT SYSTEM: Constitutional Court was suspended and its chairman arrested during 1993 crisis. CIVIL SERVICE: Soviet bureaucracy was never reformed — retention of communist cadres created hostile implementation environment for market reforms. PROPERTY RIGHTS: privatization without rule of law created asset-stripping environment. The absence of institution-building was the critical failure — markets without institutions = oligarchy."
+      },
+      {
+        "label": "rule_of_law_commitment",
+        "value": 0.28,
+        "evidence": "Yeltsin's relationship with law was instrumental. He dissolved parliament illegally (1993), allowed loans-for-shares despite obvious procedural violations, tolerated oligarch extra-legal activities when politically convenient. The 1993 Constitution was both a genuine attempt at governance framework AND a power instrument. Courts were weak, contract enforcement absent, property rights insecure. The failure to build rule of law was partly capacity failure (no functioning legal system inherited from USSR) and partly political calculation (rule of law would constrain presidential power)."
+      },
+      {
+        "label": "press_freedom_tolerance",
+        "value": 0.71,
+        "evidence": "Yeltsin allowed genuinely free press to develop 1991-1996. NTV (Gusinsky), Kommersant, Nezavisimaya Gazeta, Novaya Gazeta, regional newspapers — operated with real editorial independence. TV coverage of Chechen war was openly critical of the military. This tolerance was partly genuine democratic conviction, partly calculation that media diversity served political competition against communist opponents. After 1996, oligarch media became more politically directed (supporting Yeltsin vs. opponents) but remained editorially independent on economic criticism. The contrast with Putin's media consolidation is stark."
+      },
+      {
+        "label": "civil_society_tolerance",
+        "value": 0.65,
+        "evidence": "Genuine civil society emerged during Yeltsin era: NGOs, trade unions (though weakened), women's organizations, environmental groups, religious revival (Orthodox church). Memorial (human rights organization) operated openly. Yeltsin's government rarely targeted civil society organizations. The tolerance was partly indifference (weak state couldn't control everything) and partly genuine. However, 'civil society' was elite urban phenomenon — in regions, governors maintained Soviet-era clientelism. The Yeltsin-era civil society provided the foundation that Putin systematically dismantled after 2012."
+      },
+      {
+        "label": "1996_election_manipulation_acceptance",
+        "value": 0.83,
+        "evidence": "1996 presidential election was not a free and fair contest by any reasonable standard. Yeltsin entered with ~5% approval (January 1996). The mechanisms: (1) Davos deal with oligarchs for campaign funding and media support, (2) ORT and NTV blanket positive coverage, (3) IMF $10.2B loan disbursed in June 1996 (between first and second rounds), (4) Chechen ceasefire announced during campaign, (5) Berezovsky and associates provided 'black PR' against Zyuganov. Yeltsin was aware of and directed this manipulation. He justified it as preventing communist restoration. Result: won 54% vs Zyuganov 40%."
+      },
+      {
+        "label": "cardiac_health_governance_impact",
+        "value": 0.78,
+        "evidence": "Yeltsin suffered multiple heart attacks 1995-1996 and had bypass surgery October 1996 (after his re-election, hidden from public during campaign). Health impacts on governance: (1) Multiple hospital stays creating power vacuums, (2) Daughter Tatyana and Berezovsky exercised disproportionate influence during incapacities, (3) Decision quality severely degraded in final two years (1997-1999), (4) Erratic personnel decisions (5 prime ministers in 18 months), (5) Susceptibility to KGB/FSB manipulation in choosing successor. The cardiac problems compounded the alcoholism to make Yeltsin's final term an exercise in managed incapacity."
+      },
+      {
+        "label": "daughter_tatyana_influence",
+        "value": 0.76,
+        "evidence": "Tatyana Dyachenko (Yeltsin's daughter) became one of the most powerful informal political actors in Russia 1996-1999. She: (1) was de facto chief of staff during Yeltsin's health incapacities, (2) managed relationship with Berezovsky, (3) was central to Putin selection process, (4) exercised personnel recommendations Yeltsin generally accepted. This was not a formal role but an informal power vacuum filled by trusted family. The simulation should model her as effectively co-directing the Yeltsin 'family' interest group that Putin was chosen to protect."
+      },
+      {
+        "label": "family_protection_as_terminal_red_line",
+        "value": 0.97,
+        "evidence": "The single clearest behavioral parameter in Yeltsin's final period: the selection of a successor who would guarantee immunity for the Yeltsin family (including Tatyana and business associates including Abramovich). Multiple versions of the succession story agree on this: Yeltsin needed someone who would provide a personal guarantee of non-prosecution. The 'Family' (Семья) — Yeltsin, Tatyana, Abramovich, Dyachenko, and others — had accumulated significant corruption exposure. Putin provided the guarantee; Yeltsin resigned December 31, 1999, not at the end of his term (June 2000), specifically to give Putin time to establish himself before the Duma election. This is documented by multiple sources including Putin himself.",
+        "terminal_red_line": true
+      },
+      {
+        "label": "1998_default_management",
+        "value": 0.35,
+        "evidence": "August 17, 1998: Russia defaulted on $40B in domestic debt (GKOs), devalued the ruble, and declared a 90-day moratorium on foreign debt. This was a catastrophic failure of the entire Yeltsin economic program. The chain: (1) 1997-98 oil price collapse (Brent from $19 to $9), (2) Asian financial crisis tightening global capital, (3) Government unable to refinance GKO pyramid, (4) IMF disbursed $4.8B in July, Russia defaulted in August. Yeltsin's management: fired Kiriyenko government (served only 5 months), appointed Primakov as stabilizing PM, then later fired Primakov. The default itself was the outcome of 8 years of governance failure — Yeltsin could do little once the crisis hit."
+      },
+      {
+        "label": "prime_minister_turnover",
+        "value": 0.88,
+        "evidence": "Yeltsin fired/replaced Prime Ministers with unusual frequency, especially in final two years: Gaidar Dec 1992, Chernomyrdin Mar 1998, Kiriyenko Aug 1998 (just 5 months), Primakov May 1999 (just 8 months), Stepashin Aug 1999 (just 3 months), Putin Aug 1999 (survived to inherit presidency). This turnover reflected: alcoholism-driven volatility, political survival calculations (fire PMs to reset political blame), and the emerging 'family' management of the presidency. The pattern in 1999 specifically reflected the succession planning — PMs were tried and found unsuitable (couldn't guarantee family protection) until Putin."
+      },
+      {
+        "label": "nato_primakov_turning_back",
+        "value": 0.62,
+        "evidence": "March 1999: Prime Minister Primakov was flying to Washington when Yeltsin called to inform him NATO had begun bombing Yugoslavia. Primakov ordered his plane turned back over the Atlantic — a dramatic symbolic act. Yeltsin allowed this humiliation of the Western relationship rather than fire Primakov in that moment. The Kosovo intervention was a genuine shock to Yeltsin's pro-Western orientation: NATO attacking a Slavic country without UNSC approval. Yeltsin's angry phone calls to Clinton were sincere. This episode shifted Russian elite opinion significantly and contributed to the nationalism Putin would later instrumentalize."
+      },
+      {
+        "label": "chechnya_territorial_red_line",
+        "value": 0.83,
+        "evidence": "Both Chechen wars reflect Yeltsin's territorial red line: Russia will not allow formal secession regardless of military cost. The First War (1994-96) demonstrated the value is real — massive human and material cost accepted. The Khasavyurt Accords (1996) seem to contradict this, but Yeltsin consistently described them as temporary (and was right — Putin abrogated them). The Second Chechen War (1999, Dagestan invasion) was Yeltsin-authorized before Putin took full control — Yeltsin's response to the territorial challenge was immediate military deployment.",
+        "terminal_red_line": false
+      },
+      {
+        "label": "economic_advisor_reliance",
+        "value": 0.79,
+        "evidence": "Yeltsin's limited economic training (party industrial secretary, construction engineer background) meant he relied heavily on advisors: Gaidar (1992), Chubais (privatization, IMF relations), Western advisors (Jeffrey Sachs, Anders Åslund, David Lipton). His economic decisions were essentially delegated to these advisors, constrained only by his political survival calculations. He could understand a political argument ('this reform will lose you votes') but not a technical one ('this monetization schedule will trigger X% inflation'). This made him susceptible to advisor capture by whoever had access."
+      },
+      {
+        "label": "privatization_speed_bias",
+        "value": 0.82,
+        "evidence": "Yeltsin and Chubais made a deliberate choice: speed over fairness in privatization. The 'voucher privatization' (1992-94) and loans-for-shares (1995-96) prioritized: (1) irreversibility (communist restoration prevention), (2) speed (avoid political reversal), (3) Western approval (market economy signaling). The cost: assets at 3-5% of fair value, concentrated to politically connected insiders. Yeltsin's argument: the primary objective was preventing communist property restoration, not maximizing enterprise value. He was probably right about the irreversibility objective, but the method created a criminal oligarchy."
+      },
+      {
+        "label": "us_partnership_strategic_value",
+        "value": 0.74,
+        "evidence": "Yeltsin viewed US partnership as central to Russia's post-Soviet identity and economic future. He wanted Russia in G8, wanted Western FDI, wanted IMF support, wanted military partnership. The Clinton-Yeltsin relationship was personally warm (documented in multiple memoirs). Yeltsin accepted considerable diplomatic humiliation (NATO expansion, Kosovo) to preserve this relationship because the alternative (adversarial relationship) would have further isolated Russia during its weakest moment. His personal investment in the West was genuine and exceeded his strategic interest calculation."
+      },
+      {
+        "label": "communist_restoration_prevention_priority",
+        "value": 0.88,
+        "evidence": "Yeltsin's deepest political conviction: Communism must not return. This drove: (1) acceptance of hyperinflation (market prices > no prices), (2) tolerance of oligarch formation (private ownership > state ownership regardless of method), (3) 1996 election manipulation (Zyuganov's communism = unacceptable outcome), (4) Constitutional crisis 1993 (Khasbulatov's parliament was communist-adjacent). The anti-communist conviction was genuine — it came from Sverdlovsk party experience and the personal observation of Soviet dysfunction. It explains decisions that seem irrational in economic terms but rational in political terms."
+      },
+      {
+        "label": "regional_federalism_management",
+        "value": 0.46,
+        "evidence": "Russia under Yeltsin was sometimes described as a 'federation for real' — regions had unprecedented autonomy. Regional governors elected, kept tax revenue, maintained quasi-independent authority. Yeltsin gave autonomy in exchange for political support ('take as much sovereignty as you can swallow'). This fiscal federalism collapse (regions not transferring federal share) contributed to the 1998 default. Many regions enacted laws contradicting federal law. Yeltsin tolerated this as the price of political coalitions. Putin's 're-centralization' (federal districts, appointed governors) was the direct reversal of Yeltsin's regional permissiveness."
+      },
+      {
+        "label": "market_institution_building_neglect",
+        "value": 0.22,
+        "evidence": "The central failure of shock therapy under Yeltsin: market economy created without market institutions. Required institutions absent: (1) property rights enforcement — courts didn't work, (2) contract enforcement — breach had no consequences, (3) bankruptcy law — allowed asset-stripping, (4) banking regulation — banks were money laundering vehicles, (5) competition policy — monopolies preserved. Western advisors assumed Soviet human capital + price liberalization would generate spontaneous market institutions. Wrong. The institutional vacuum was filled by organized crime, oligarchs, and bribery.",
+        "terminal_red_line": false
+      },
+      {
+        "label": "organized_crime_penetration_tolerance",
+        "value": 0.61,
+        "evidence": "Organized crime expanded massively during Yeltsin era — from Soviet 'shadow economy' to full legitimate-crime hybrid economy. Yeltsin did not prioritize anti-crime enforcement: (1) police were poorly paid and corrupt, (2) FSB was politically directed not crime-fighting, (3) oligarchs used private security (krysha/roof system), (4) business registration required crime-world protection. Yeltsin's tolerance was partly capacity failure (state couldn't fight crime) and partly political calculation (crime-fighting would threaten oligarch allies). Russia's crime penetration in this period exceeded any major G8 economy."
+      },
+      {
+        "label": "nuclear_arsenal_security",
+        "value": 0.68,
+        "evidence": "One of the few areas where Yeltsin maintained genuine commitment: nuclear arsenal security. Nunn-Lugar Cooperative Threat Reduction program (1991): Yeltsin supported US-funded denuclearization of former Soviet states. Belarus, Ukraine, Kazakhstan gave up Soviet-era weapons. Russian nuclear complex cooperation was real. However: (1) several documented leakage incidents of nuclear materials, (2) state payment failures to nuclear scientists created 'brain drain' risk, (3) command authority became uncertain during 1993 crisis. Overall: genuine commitment to STRATEGIC arsenal security but tactical/materials security had serious gaps."
+      },
+      {
+        "label": "chernomyrdin_moderate_stability_value",
+        "value": 0.67,
+        "evidence": "Victor Chernomyrdin as Prime Minister (1992-1998) provided a stabilizing buffer between Yeltsin's erratic leadership and actual governance. A former gas industry director (Gazprom founder), Chernomyrdin was ideologically flexible, pragmatic, and managed the parliamentary relationship better than Gaidar. His tenure saw inflation reduction (from 2,500% in 1992 to 11% in 1997) and initial economic stabilization. When Yeltsin fired him in March 1998, his departure removed the most competent stabilizing force in the government, directly contributing to the 1998 default months later."
+      },
+      {
+        "label": "anti_semitism_restraint",
+        "value": 0.74,
+        "evidence": "Notably, Yeltsin restrained post-Soviet anti-Semitism despite many of the most visible oligarchs being Jewish. He did not use ethnic targeting when oligarchs became politically inconvenient (contrast with later implicit Putin policy of targeting specifically Jewish oligarchs who became opponents — Gusinsky, Berezovsky, Khodorkovsky). Yeltsin's restraint was genuine — it reflected his pro-Western liberal identity where anti-Semitism was incompatible. This is a second-order parameter but relevant for understanding his ideological positioning."
+      },
+      {
+        "label": "pension_payment_failure",
+        "value": 0.26,
+        "evidence": "Under Yeltsin, pension payments were chronically delayed — sometimes by months. Millions of elderly lived without pension income they were owed. The government simply didn't have the money. This was the most politically damaging domestic failure of the Yeltsin era — the people who lost most from shock therapy were precisely those who had contributed lifetimes to the Soviet system. The pension failure fueled the communist support (Zyuganov constituency) that made 1996 so dangerous for Yeltsin. His response was primarily electoral manipulation (oligarch campaign) rather than fiscal reform."
+      },
+      {
+        "label": "gaidar_economic_program_evaluation_capacity",
+        "value": 0.24,
+        "evidence": "Yeltsin genuinely could not evaluate the Gaidar shock therapy program on its technical merits. He was a party construction official and Sverdlovsk regional administrator — macroeconomic policy was completely outside his expertise. His evaluation criteria were entirely political: (1) was Gaidar supported by Western advisors? (yes) (2) did it prevent communist restoration? (seemed to be working) (3) did it maintain IMF support? (yes, initially) (4) could he defend it to parliament? (no — why he replaced Gaidar). The gap between the technical complexity of transition economics and Yeltsin's actual analytical capacity was extraordinary."
+      },
+      {
+        "label": "berezovsky_relationship_centrality",
+        "value": 0.83,
+        "evidence": "Boris Berezovsky was arguably the most influential person in Russia during Yeltsin's final period (1996-1999). He: (1) provided ORT (state TV) editorial support, (2) funded the 1996 campaign through Davos deal, (3) was key player in Putin selection (through Tatyana channel), (4) had financial arrangements with the 'Family.' Yeltsin gave Berezovsky political protection in exchange for these services. The relationship illustrates Yeltsin's principal-agent problem: he was dependent on the oligarchs who were supposed to serve him. By 1998-99, Berezovsky's interests significantly drove Kremlin decisions."
+      },
+      {
+        "label": "economic_pain_political_insulation",
+        "value": 0.69,
+        "evidence": "Yeltsin was remarkably insulated from the economic pain he caused. Mechanism: (1) oligarch media presented alternative reality, (2) anti-communist framing ('if you don't like hyperinflation, want to go back to the bread lines?'), (3) weak opposition (Zyuganov's communists were unelectable to large segment), (4) personal popularity as Soviet resistance hero from 1991. His insulation from feedback made the pain-causing policies sustainable — he could continue shock therapy despite 50% GDP collapse because he didn't face electoral accountability in real time."
+      },
+      {
+        "label": "security_apparatus_control",
+        "value": 0.44,
+        "evidence": "Yeltsin's control over FSB/security apparatus was incomplete and deteriorating. He created FSB (replacing KGB) under Barsukov, then fired him, then appointed Putin. The security apparatus had genuine independence — it provided information selectively, pursued its own institutional interests, and potentially manipulated the weakened Yeltsin. The appointment of Putin (FSB director to PM to President) was partly the security apparatus finally consolidating control over the nominal civilian leadership. By 1999, the security services had more institutional capacity than the presidential administration."
+      },
+      {
+        "label": "constitutional_framework_value",
+        "value": 0.48,
+        "evidence": "Yeltsin valued the constitutional framework instrumentally — he used it when convenient and violated it when not. The 1993 constitution was genuinely his creation (gave president sweeping powers) and he respected it when it protected him. He violated it when parliament resisted him (1993 crisis). The Constitutional Court (which ruled his actions unconstitutional) was temporarily suspended during the crisis. This selective constitutionalism established the pattern Putin later normalized: legal framework as tool, not constraint."
+      },
+      {
+        "label": "gkb_pyramid_scheme_awareness",
+        "value": 0.43,
+        "evidence": "The GKO (short-term government bond) market that collapsed in 1998 was essentially a pyramid scheme: new debt issued to pay existing debt, with yields rising as risk increased, until rollover became impossible. Yeltsin was not the architect — this was Finance Ministry/CBR territory — but he was aware of the debt dynamics and allowed it to continue because: (1) it provided government financing, (2) it required IMF cooperation to manage, (3) the alternative (fiscal adjustment) was politically impossible. His technical limitation meant he could not evaluate when the scheme became terminal."
+      },
+      {
+        "label": "second_chechen_war_authorization",
+        "value": 0.77,
+        "evidence": "August 1999: Chechen forces under Basayev invaded Dagestan. Yeltsin authorized military response immediately. This decision was one of his clearest in the final year — no hesitation, immediate force. The response was: (1) consistent with territorial integrity red line, (2) politically valuable (rally-around-flag effect supporting Putin), (3) possibly partially provoked (FSB apartment bombings conspiracy theories — never resolved). By September 1999, Yeltsin was effectively deferring to Putin on operational decisions but the initial authorization was genuinely his."
+      },
+      {
+        "label": "putin_selection_deliberateness",
+        "value": 0.85,
+        "evidence": "The Putin selection was not accidental — it was the product of a deliberate search process conducted through the 'Family' network. Multiple candidates were tried and rejected (Chernomyrdin: couldn't guarantee protection, Primakov: actively dangerous, Stepashin: weak). Putin's selection criteria: (1) demonstrated loyalty to superiors (served Sobchak even after Sobchak's fall), (2) FSB institutional backing, (3) willingness to provide explicit immunity guarantee, (4) could win 2000 election. Tatyana Dyachenko and Berezovsky were key voices in the selection. The December 31, 1999 resignation (not June 2000) was to give Putin the incumbency advantage for March 2000 election.",
+        "terminal_red_line": true
+      },
+      {
+        "label": "russia_great_power_identity_preservation",
+        "value": 0.79,
+        "evidence": "Despite profound weakness, Yeltsin maintained rhetorical commitment to Russia as a great power. UN Security Council permanent membership exercised. CSCE/OSCE engagement. G8 entry sought and achieved (1998). Nuclear superpower status emphasized. Kosovo crisis: genuine outrage at being excluded from NATO decision-making despite Russian UN veto. The great power identity was not mere rhetoric — Yeltsin felt genuine personal humiliation when Russia was treated as a second-tier country by the West. This humiliation narrative, cultivated by Yeltsin in his final period, was the seed of Putin's foreign policy."
+      },
+      {
+        "label": "international_financial_institution_trust",
+        "value": 0.62,
+        "evidence": "Yeltsin genuinely trusted IMF and World Bank advice, particularly in his reformist period (1992-1994). The belief: if Western economists endorsed the program, it would work. This trust was partly philosophical (Western market democracy = the right model) and partly instrumental (IMF support = international legitimacy). The trust was damaged but not destroyed by the 1998 default (which was IMF-supervised and still failed). After 1998, IMF/World Bank relationship was more purely transactional."
+      },
+      {
+        "label": "geopolitical_near_abroad_control",
+        "value": 0.55,
+        "evidence": "Russia's relationship with former Soviet states (Near Abroad) under Yeltsin was more benign than under Putin, but not without coercion. Russia: (1) maintained troops in Moldova (Transnistria), Georgia (Abkhazia, S. Ossetia), Armenia-Azerbaijan conflict (biased toward Armenia), (2) used energy prices as leverage, (3) insisted on CIS framework (many former Soviet states joined under pressure). However, Ukraine, Baltic states were allowed more genuine independence than under Putin. Yeltsin's approach was soft hegemony — claiming sphere of influence rhetorically without always enforcing it."
+      },
+      {
+        "label": "transition_economy_learning_speed",
+        "value": 0.38,
+        "evidence": "Yeltsin learned slowly from transition policy failures. The hyperinflation of 1992-93 did not lead to fundamental reconsideration of the reform approach. The GKO crisis of 1996-97 was not addressed until it became terminal in 1998. Repeated IMF compliance failures were treated as implementation problems not design failures. His technical incapacity to evaluate policy feedback meant learning loops were broken. He changed governments rather than policies — treating personnel as the variable rather than the reform model."
+      },
+      {
+        "label": "media_as_political_weapon_acceptance",
+        "value": 0.78,
+        "evidence": "After 1996, Yeltsin accepted oligarch media as a political weapon — deployed against opponents (Zyuganov in 1996, Primakov in 1999, Luzhkov's Moscow mayoral network). The most glaring example: ORT (Berezovsky's TV) conducted a systematic campaign to destroy Primakov's reputation after Yeltsin fired him as PM. This weaponization of media for political combat was normalized under Yeltsin and became Putin's template (with the critical difference: Putin took over the media himself rather than delegating to oligarchs)."
+      },
+      {
+        "label": "historical_consequences_awareness",
+        "value": 0.64,
+        "evidence": "Yeltsin had genuine awareness that he was a historical figure. The Belavezha Accords dissolving the USSR, the 1991 resistance to the coup — he understood these as historic acts. His 'Midnight Diaries' memoir showed self-awareness about his failures. The December 31, 1999 resignation speech ('I am guilty of certain hopes that proved difficult to fulfil') showed unusual self-critical capacity for a head of state. His historical consciousness meant he cared about his legacy — a parameter relevant to predicting his behavior in the final period: he wanted Putin to succeed and Russia to prosper, even if his methods were dysfunctional."
+      },
+      {
+        "label": "successor_guarantee_extraction",
+        "value": 0.92,
+        "evidence": "The successor selection process was explicitly structured around extracting a guarantee of non-prosecution for the Yeltsin family. Multiple sources (Berezovsky's later statements, Putin biographers, Clinton administration records) agree: Putin provided explicit guarantees before being anointed. The first act of Putin's presidency (January 1, 2000) was signing a decree granting Yeltsin and his family immunity from prosecution. This was the completion of the transactional deal. The guarantee was the explicit price of the presidency — demonstrating that family protection was a terminal red line.",
+        "terminal_red_line": true
+      },
+      {
+        "label": "governance_capacity_terminal_degradation",
+        "value": 0.89,
+        "evidence": "By 1998-99, Yeltsin's governance capacity had effectively collapsed. Contributing factors: (1) alcoholism at most severe stage, (2) bypass surgery recovery limiting work hours, (3) 5 prime ministers in 18 months indicating decision instability, (4) 'Family' effectively running key decisions through Tatyana and Berezovsky, (5) FSB/Putin gaining independent institutional power. Russia in 1999 was governed by informal networks rather than presidential direction. Yeltsin signed documents presented by aides and made appearances but was not directing policy. This is essential for simulation: model 1999 Yeltsin as 30% functional."
+      }
+
+    ]
+  },
+  "red_lines": [
+    {
+      "id": "RL001",
+      "name": "yeltsin_family_prosecution",
+      "condition": "Any investigation or prosecution of Yeltsin family members (Tatyana Dyachenko) or close business associates (Abramovich) for corruption",
+      "forced_action": "mobilize_all_available_resources_to_block_or_fire_prosecutor",
+      "confidence": 0.97,
+      "evidence": "The terminal organizing principle of Yeltsin's final year was successor selection to prevent family prosecution. Primakov was fired (May 1999) partly because he allowed Skuratov prosecutor to investigate 'Family' corruption (Mabetex case). Putin was selected specifically because he provided the guarantee. January 1, 2000 immunity decree was the first act of the Putin presidency. The pattern: any threat to family legal security → immediate, decisive action regardless of other costs. This is the clearest hard constraint in the entire Yeltsin behavior matrix.",
+      "priority": 1,
+      "terminal": true
+    },
+    {
+      "id": "RL002",
+      "name": "communist_restoration",
+      "condition": "Communist party winning the presidency or seizing power through electoral or extra-electoral means",
+      "forced_action": "election_manipulation_constitutional_suspension_or_emergency_powers",
+      "confidence": 0.92,
+      "evidence": "The 1996 election manipulation was motivated by terror of Zyuganov's communists. Yeltsin considered canceling the election entirely (documented in Yeltsin's own account) — only dissuaded by Chubais and Dyachenko. The manipulation that occurred (oligarch media, IMF loan timing, campaign financing) was the restrained version. If polls had shown Zyuganov ahead after first round, further interventions were probable. Communist restoration = personal political extinction + reversal of privatization = unacceptable regardless of constitutional cost.",
+      "priority": 1
+    },
+    {
+      "id": "RL003",
+      "name": "territorial_disintegration_of_russia",
+      "condition": "Multiple major Russian regions or ethnic republics seeking independence simultaneously, threatening Russian territorial integrity",
+      "forced_action": "military_force_regardless_of_casualties",
+      "confidence": 0.88,
+      "evidence": "First Chechen War (1994) demonstrated willingness to use massive force to prevent formal secession, accepting: 14,000+ Russian soldier deaths, 35,000+ civilian deaths, complete destruction of Grozny, international criticism. Yeltsin had personal reasons beyond ideology — he was terrified of a 'Russia scenario' matching Yugoslavia's fate. The First War was strategic failure tactically but reflected genuine red line commitment. The Khasavyurt accords were a temporary tactical retreat, not abandonment of the red line.",
+      "priority": 2
+    },
+    {
+      "id": "RL004",
+      "name": "anti_yeltsin_coup_attempt",
+      "condition": "Organized military or parliamentary attempt to remove Yeltsin from power outside constitutional means",
+      "forced_action": "immediate_violent_suppression_with_maximum_force",
+      "confidence": 0.93,
+      "evidence": "October 1993: Yeltsin ordered tank fire on parliament to end constitutional standoff. This was genuine willingness to use lethal force against the legislature. Prior: August 1991 coup — Yeltsin's resistance established his credentials. Pattern: existential political threats trigger maximum force response. The 1993 decision was made while sober (by most accounts) — it was strategic, not impulsive, despite the emotional context.",
+      "priority": 1
+    },
+    {
+      "id": "RL005",
+      "name": "nuclear_arsenal_security_breakdown",
+      "condition": "Loss of command authority over nuclear arsenal or significant nuclear material leakage",
+      "forced_action": "immediate_military_and_intelligence_response",
+      "confidence": 0.82,
+      "evidence": "Yeltsin supported Nunn-Lugar specifically to maintain nuclear security. His cooperation on denuclearization of former Soviet states was genuine and sustained despite other tensions with US. This was the one area where US-Russian cooperation remained robust throughout the Yeltsin era. The 'loose nukes' scenario was understood as an existential threat to Russia's great power status and to Yeltsin personally.",
+      "priority": 2
+    },
+    {
+      "id": "RL006",
+      "name": "personal_incapacity_revelation",
+      "condition": "Public revelation of incapacity to govern (not just embarrassing incidents but sustained visible absence or incoherence)",
+      "forced_action": "managed_transition_or_succession_acceleration",
+      "confidence": 0.75,
+      "evidence": "By 1998-99, governance was effectively delegated to 'Family' network — Yeltsin was managing his incapacity through concealment and delegation. His December 31, 1999 resignation was partly: acceptance that continued governance was impossible + desire to control the succession while still cognizant. The 'managed transition' preference over 'incapacity revelation' is evident in the deliberate succession planning timeline.",
+      "priority": 3
+    }
+  ],
+  "information_fidelity": 0.42,
+  "information_fidelity_reasoning": "Yeltsin's information environment was severely compromised by multiple structural and personal factors. (1) Alcoholism: significant proportion of working time cognitively impaired — information received but not reliably processed. (2) Oligarch filter: by 1996-99, key information came through Tatyana-Berezovsky channel, which had strong political filtering. (3) Security apparatus selective reporting: FSB provided politically curated information rather than objective intelligence assessment. (4) State capacity collapse: statistical services were underfunded, data quality deteriorated, regional governments falsified reports. (5) Healthcare concealment: cardiac condition was systematically concealed from the public and partially from Yeltsin himself — he didn't always know how sick he was. (6) Soviet bureaucratic information culture: subordinates reported what superiors wanted to hear; bad news required political courage to deliver. Despite these impairments, Yeltsin had: (a) some genuine Western economic intelligence through IMF/World Bank channels, (b) direct personal access to foreign leaders (Clinton, Kohl) giving relatively unfiltered external perspective, (c) his own political instinct which was better than his information environment. The 0.42 reflects: better than Stalin (0.35) who actively purged truth-tellers, but far worse than democratic leaders. The information fidelity degraded significantly over the term — early Yeltsin (1991-1994) probably 0.60; final Yeltsin (1997-1999) probably 0.30.",
+  "special_notes": "1. THE CHAOS FUNCTION: Yeltsin is the highest-variance leader in the behavior matrix database. The alcoholism parameter (0.91 impact) creates a temporal structure: morning decisions have higher quality probability; afternoon/evening decisions are significantly degraded. For simulation, Yeltsin decisions should have higher standard deviation than any other leader — the range of possible outputs given identical inputs is much wider. 2. POSITIVE YELTSIN LEGACY FOR SIMULATION: Several dimensions that are often overlooked: (a) genuine democracy — free press, contested elections, civil society tolerance; (b) nuclear security cooperation — the Nunn-Lugar program was a genuine policy success; (c) prevented communist restoration — the 1996 election outcome, however manipulated, prevented a return to command economy; (d) Western integration — Russia was at its most integrated with Western institutions during this period. These positive parameters mean 'early Yeltsin' should not be modeled the same as 'late Yeltsin' — they are almost different leaders. 3. THE PUTIN SELECTION AS TERMINAL ACT: For backtesting purposes, the Putin selection is Yeltsin's single most consequential decision. It was not random — it was the outcome of a deliberate process. The simulation should model: (a) Yeltsin's behavior from 1998-99 was almost entirely organized around family protection, (b) all PM appointments in this period were succession experiments, (c) the December 31 resignation timing was calculated, not impulsive. 4. ALCOHOLISM AS FIRST-ORDER VARIABLE: Yeltsin is the only major leader in this database where a personal behavioral pathology is a primary decision variable. The simulation should incorporate: (a) increased probability of poor decisions in periods of documented heavy drinking, (b) increased vulnerability to manipulation by inner circle during impaired periods, (c) occasional moments of surprising clarity (when sober) overriding the general pattern. 5. THE 1998 DEFAULT AS SYSTEM FAILURE NOT POLICY FAILURE: The default should be modeled as the terminal consequence of the entire 1991-1998 sequence — weak state capacity, oligarch capture, LGFV-equivalent (GKO) financing structure, oil price collapse. No single decision caused it. This means the simulation should not model Yeltsin as 'choosing to default' — rather, the default happened to him when accumulated structural failures intersected with external shock. 6. CONTRAST WITH PUTIN: Yeltsin's chaos-producing governance failures directly generated the popular demand for order that Putin supplied. For simulation, Russia under Yeltsin is in a permanently high-entropy state — high variance, unpredictable outcomes, fragile institutions. Russia under Putin is deliberately low-entropy in domestic politics (controlled predictability) while high-entropy in foreign policy (unpredictable coercion). The transition between these modes is one of the most significant state-transition events in the post-Cold War international system."
+}

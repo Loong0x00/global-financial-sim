@@ -1,0 +1,510 @@
+{
+  "leader": "Janet Yellen",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "FOMC decisions and statements 2014-2018 (Fed Chair tenure)",
+    "Treasury Department statements and testimony 2021-2025 (Treasury Secretary tenure)",
+    "Yellen academic work: labor market efficiency wages, hysteresis, unemployment (Berkeley 1980s-2000s)",
+    "FOMC press conferences and minutes 2014-2018",
+    "Congressional testimony 2014-2018 (Fed Chair) and 2021-2025 (Treasury Secretary)",
+    "First rate hike decision Dec 2015 and subsequent hiking cycle 2015-2018",
+    "Balance sheet normalization announcement Sep 2017",
+    "American Rescue Plan advocacy Jan-Mar 2021",
+    "SVB/Signature/First Republic crisis response Mar-May 2023",
+    "Russia sanctions architecture Feb 2022 onward",
+    "IRA implementation 2022-2025",
+    "Debt ceiling negotiations 2021, 2023, 2025",
+    "G7/G20 global minimum corporate tax negotiations 2021"
+  ],
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector compiled from Janet Yellen's two roles: Fed Chair (Feb 2014 – Feb 2018) and Treasury Secretary (Jan 2021 – Jan 2025). As Fed Chair: managed the first rate hiking cycle since 2006, inherited Bernanke's QE-era balance sheet, navigated a 'dashboard' approach to labor market normalization, and began balance sheet normalization. As Treasury Secretary: the first woman in both roles (Fed Chair and Treasury Secretary); key architect of American Rescue Plan fiscal stimulus, global minimum corporate tax, Russia sanctions architecture, IRA implementation, and 2023 regional banking crisis response. Yellen has an unusually deep academic background (labor economics, efficiency wages, hysteresis) that shapes both her dovish labor market intuitions and her rigorous policy analysis.",
+    "dimensions": 83,
+    "vectors": [
+
+      {
+        "label": "labor_market_dovish_bias",
+        "value": 0.87,
+        "evidence": "Yellen's academic specialty was labor economics — her 1984 paper on efficiency wages and her work on hysteresis (persistent unemployment from temporary shocks) gave her a theoretical framework for why unemployment should be weighted heavily. As Fed Chair, she maintained accommodation well past what hawks considered appropriate, citing labor market 'slack' and 'dashboard' indicators beyond the headline unemployment rate. Her willingness to let the labor market run hot (2015-2016 delayed hiking despite unemployment falling below 5%) reflected her academic belief that the labor market had more slack than official statistics showed."
+      },
+      {
+        "label": "labor_market_dashboard_multi_indicator",
+        "value": 0.91,
+        "evidence": "Yellen's signature innovation: replacing single-indicator unemployment targeting with a 'dashboard' of labor market indicators. Her 2014 speech at Chicago introduced the dashboard concept: (1) headline unemployment rate; (2) participation rate; (3) underemployment (U-6); (4) long-term unemployment share; (5) quits rate; (6) wage growth; (7) part-time employment for economic reasons. This multi-indicator approach reflected her academic labor economics training — labor markets are complex and no single measure captures all dimensions. The dashboard justified continued accommodation even as headline unemployment fell to 5.5-6%, because other indicators showed persistent slack."
+      },
+      {
+        "label": "unemployment_rate_as_insufficient_indicator",
+        "value": 0.88,
+        "evidence": "Yellen consistently argued that the headline unemployment rate understated labor market slack. In her Oct 2014 Boston Fed speech, she pointed to multiple indicators of elevated slack: participation rate 3pp below pre-crisis; long-term unemployment still 30% of total (vs 19% pre-crisis); quits rate still below normal (workers willing to quit signal tight labor market confidence). This view justified the 'patient' approach to rate hiking — the official unemployment rate reaching 5% did not mean the labor market was tight by her fuller assessment."
+      },
+      {
+        "label": "hysteresis_concern_weight",
+        "value": 0.85,
+        "evidence": "Yellen's academic work on hysteresis — the idea that temporary unemployment can become permanent if workers lose skills and attachment to the labor market — directly shaped her extended accommodation. The 2014-2016 concern: if the Fed raised rates too early and pushed unemployment back up, workers who had only recently returned to the labor force could become permanently detached. The hysteresis framework made the cost of premature tightening asymmetrically large: you can't easily get those workers back. This theoretical commitment explains why she was willing to run the economy 'hot' longer than many colleagues preferred."
+      },
+      {
+        "label": "wage_growth_as_labor_market_indicator",
+        "value": 0.86,
+        "evidence": "Yellen treated wage growth as the key signal of genuine labor market tightness: wages rising consistently above 3% would indicate that workers had gained genuine bargaining power, signaling full employment. Through 2014-2016, wage growth remained at 2-2.5%, which she cited as evidence of persistent slack despite falling headline unemployment. The 'dual mandate' was effectively interpreted as: maximize employment until we see wage pressure, not just until unemployment hits a threshold. This wage-growth-as-signal approach reflected her efficiency wage research from the 1980s."
+      },
+      {
+        "label": "inflation_patience_during_below_target_period",
+        "value": 0.84,
+        "evidence": "2014-2016: PCE inflation ran 0.3-1.5%, consistently below the 2% target. Yellen's response was patience, not aggressive easing — she did not expand QE or add accommodation despite persistent inflation undershoot. Her view: inflation was being held down by transitory factors (oil price collapse 2014-2016) and would return to target as labor market tightened. This was a supply-side interpretation of low inflation that justified allowing the economy to continue running rather than pumping more accommodation into an already-recovering economy."
+      },
+      {
+        "label": "first_rate_hike_decision_december_2015",
+        "value": 0.79,
+        "evidence": "Dec 16, 2015: First rate hike since Jun 2006 — 25bp to 0.25-0.50%. Unemployment was 5.0%, PCE inflation was 0.4% (far below 2%), but the Fed assessed that labor market improvement was 'considerable.' Yellen chose to hike despite below-target inflation, citing confidence that inflation would return to target. This was a balancing act between the labor market mandate (clearly improving) and price stability mandate (undershooting). The 9-year gap since the last hike, the ZLB escape, and the global context (China slowdown, EM stress) made this an extremely carefully considered decision."
+      },
+      {
+        "label": "gradual_hiking_pace_preference",
+        "value": 0.93,
+        "evidence": "Yellen's hiking cycle was the most gradual in Fed history: 25bp in Dec 2015, then nothing until Dec 2016, then Mar 2017, Jun 2017, Dec 2017. Only 4 hikes in 2 years (100bp total). She consistently used 'gradual' and 'patient' language. Her stated rationale: the neutral rate was lower than historical norms, global headwinds were significant, the risk of hiking too fast exceeded the risk of hiking too slowly. This gradual approach reflected her dovish labor market priors — she consistently weighted the downside risk of over-tightening more heavily than the upside risk of inflationary overheating."
+      },
+      {
+        "label": "global_risk_consideration_in_domestic_decisions",
+        "value": 0.82,
+        "evidence": "2015-2016: China slowdown and EM stress caused significant market volatility. Yellen's Fed delayed or slowed rate hikes multiple times citing global risks: Aug 2015 China yuan devaluation → Sep 2015 no-hike decision (market expected hike); Jan 2016 China volatility → no hike at Mar 2016 meeting when hiking had been expected; Feb 2016: Yellen testimony explicitly cited 'global economic and financial developments' as sources of uncertainty. More internationally attentive than predecessors, reflecting globalization of financial markets since the 1990s."
+      },
+      {
+        "label": "neutral_rate_r_star_estimation",
+        "value": 0.83,
+        "evidence": "A key driver of Yellen's gradual approach: her estimate of the neutral interest rate (r*) had declined significantly from pre-crisis levels. If r* was 0-0.5% (rather than the historical 2%), then rates at 1-2% were already close to neutral, reducing urgency for rapid normalization. Her academic work and Fed research suggested r* decline was structural (aging population, lower productivity growth, global savings glut). This theoretical estimate directly calibrated the hiking pace — she was not 'behind the curve' in her framework because the curve itself had shifted lower."
+      },
+      {
+        "label": "price_stability_mandate_weight",
+        "value": 0.75,
+        "evidence": "Compared to inflation hawks (and relative to Volcker or even Powell's post-2022 behavior), Yellen placed lower weight on price stability as an immediate constraint when inflation was below target. The 2014-2016 below-target inflation was treated as transitory and not requiring response. However, as Fed Chair, she never let inflation above-target either — the 2% target was respected in both directions. As Treasury Secretary, she was less focused on price stability (not her mandate) but her 2021 'transitory' inflation view (shared with Powell) showed inflation underestimation that proved costly."
+      },
+      {
+        "label": "2021_transitory_inflation_assessment",
+        "value": 0.45,
+        "evidence": "2021: Yellen (as Treasury Secretary) supported the view that the American Rescue Plan's fiscal stimulus was appropriate and that any inflation would be transitory. In April 2021, she said inflation risk was 'small and manageable.' In May 2021, she noted rates might need to 'rise somewhat' to prevent overheating — triggering a brief market reaction, then walked back. By late 2021, she acknowledged inflation was more persistent than expected. The May 2021 statement was notable: she was willing to suggest higher rates would be needed before the Fed itself had pivoted. The transitory view proved wrong, as inflation reached 9.1% by Jun 2022."
+      },
+      {
+        "label": "american_rescue_plan_fiscal_advocacy",
+        "value": 0.91,
+        "evidence": "Jan-Mar 2021: Yellen was the strongest advocate within the Biden administration for the $1.9T American Rescue Plan. Her stated argument: the 'scarring effects' of insufficient fiscal support during the pandemic would be permanent (drawing from her own academic work on hysteresis). Congressional testimony in Jan 2021: 'the benefits of acting big will far outweigh the costs.' She specifically argued against a smaller, targeted package, pushing for the full $1.9T even when some economists (including Summers) warned of overheating. This was an application of her asymmetric risk framework: under-doing fiscal support is worse than over-doing it because the damage is harder to reverse."
+      },
+      {
+        "label": "fiscal_stimulus_multiplier_belief",
+        "value": 0.82,
+        "evidence": "Yellen consistently advocated for large fiscal stimulus with high multiplier estimates. American Rescue Plan (Mar 2021, $1.9T), infrastructure spending (BIL, $1.2T, Nov 2021), CHIPS Act semiconductor subsidies ($52B, Aug 2022), IRA clean energy ($369B+ in tax credits, Aug 2022). Her view: government spending in depressed economic conditions has large multipliers because it employs idle resources. This Keynesian fiscal multiplier framework made her an aggressive advocate for fiscal expansion during the pandemic recovery. The IRA's 'investment not spending' framing reflected her industrial policy evolution."
+      },
+      {
+        "label": "industrial_policy_conversion",
+        "value": 0.78,
+        "evidence": "Yellen was trained as a mainstream economist skeptical of industrial policy — market allocation was preferred. Her Treasury Secretary experience converted her toward strategic industrial policy: IRA clean energy credits, CHIPS semiconductor subsidies, and 'friend-shoring' supply chain frameworks all represent industrial policy she championed. Her 2022 Johns Hopkins speech on 'modern supply-side economics' explicitly broke from free-market orthodoxy to embrace targeted government investment. This represents genuine intellectual evolution from her academic training, driven by China competition and climate transition evidence."
+      },
+      {
+        "label": "china_economic_competition_framework",
+        "value": 0.84,
+        "evidence": "As Treasury Secretary, Yellen developed a nuanced China framework: 'not decoupling but de-risking.' She made two trips to China (Jul 2023, Apr 2024) to maintain economic dialogue while escalating economic competition. Her framework: maintain trade where it does not create security vulnerabilities; restrict strategic sectors (semiconductors, AI chips, quantum computing); use multilateral frameworks to pressure China rather than unilateral tariffs. This pragmatic engagement-plus-competition approach distinguished her from more hawkish advisors. Her Jul 2023 Beijing visit was the highest-level Treasury-China dialogue in years."
+      },
+      {
+        "label": "russia_sanctions_architecture",
+        "value": 0.88,
+        "evidence": "Feb 2022 onward: Yellen was a key architect of the Russia sanctions response following the Ukraine invasion. Key decisions: (1) Freezing $300B in Russian central bank reserves (unprecedented seizure of G20 central bank assets); (2) SWIFT exclusion for major Russian banks; (3) Oil price cap mechanism ($60/barrel for Russian crude, implemented Dec 2022) — a novel multilateral price control tool designed to limit Russia's oil revenues while keeping Russian oil flowing to prevent supply shock. The oil price cap was Yellen's most innovative policy design: it was economically sophisticated (using buyer coordination to extract monopsony power) and required G7 coordination."
+      },
+      {
+        "label": "oil_price_cap_innovation",
+        "value": 0.86,
+        "evidence": "Dec 2022: G7 + Australia oil price cap for Russian crude set at $60/barrel. This was Yellen's signature policy innovation as Treasury Secretary: using buyer-side coordination (analogous to a buyer cartel) to cap the price received by Russia while keeping oil flowing to prevent global supply shock. The mechanism required: (1) G7 agreement; (2) shipping services prohibition unless oil purchased below cap; (3) monitoring compliance through maritime insurance chains. Yellen championed this as superior to full embargo (which would have caused supply shock and benefited Russia through higher prices). The economic sophistication of the mechanism was unusual for sanctions design."
+      },
+      {
+        "label": "dollar_weaponization_awareness",
+        "value": 0.73,
+        "evidence": "Yellen expressed awareness that overuse of dollar financial sanctions could undermine dollar dominance by incentivizing alternatives. In Apr 2023 testimony, she acknowledged that 'there is a risk' that extensive sanctions use could lead to reduced dollar use in global trade. However, she consistently concluded that the strategic benefits outweighed the long-term dollar risks for Russia sanctions. This awareness — that the dollar's reserve currency status is a policy resource that can be depleted by overuse — was more sophisticated than many Washington policymakers' positions. She was cautious about extending the Russian asset seizure approach to other contexts."
+      },
+      {
+        "label": "debt_ceiling_management",
+        "value": 0.82,
+        "evidence": "Multiple debt ceiling crises: (1) 2021: Used extraordinary measures to extend deadline through Oct 2021, then suspended through Dec 2022; (2) Jan 2023: extraordinary measures again, eventually resolved Jun 1, 2023 (Fiscal Responsibility Act); (3) 2025: extraordinary measures as ceiling was reinstated. Yellen sent multiple letters to Congress on the 'X-date' (date Treasury exhausts extraordinary measures). Her approach: maximum urgency communication, technical information on extraordinary measures timeline, explicit warnings of economic catastrophe from default. Did not use 'platinum coin' or 14th Amendment approaches — stayed within orthodox Treasury tools despite progressive pressure."
+      },
+      {
+        "label": "debt_ceiling_14th_amendment_rejection",
+        "value": 0.72,
+        "evidence": "Yellen consistently rejected the 14th Amendment approach (which would have allowed the Treasury to declare the debt ceiling unconstitutional and continue borrowing). Her stated reason: creating constitutional uncertainty in financial markets would itself cause economic damage. She preferred a legislative solution despite political difficulties. This reflected her instinct toward institutional orthodoxy over creative constitutional workarounds — consistent with her mainstream economist background and preference for clear, rule-based frameworks over novel legal theories that create market uncertainty."
+      },
+      {
+        "label": "global_minimum_corporate_tax_advocacy",
+        "value": 0.87,
+        "evidence": "Jul 2021: 130 countries agreed to global minimum corporate tax framework (15% minimum, enacted for large multinationals). This was a major Yellen achievement — she had been a longstanding advocate for minimum corporate tax coordination to end the 'race to the bottom' in corporate tax rates. Her argument: tax competition between jurisdictions creates inefficiency (companies structure for tax, not economics) and reduces fiscal capacity. The OECD Pillar One/Two framework required years of G20/OECD negotiation and Yellen's sustained diplomatic engagement. Implementation has been partial (US Congress did not enact GILTI changes to comply), but the framework itself was a significant multilateral achievement."
+      },
+      {
+        "label": "multilateral_institution_strengthening",
+        "value": 0.81,
+        "evidence": "Yellen consistently worked through multilateral institutions (G7, G20, IMF, World Bank) rather than unilateral action. Russia sanctions were coordinated through G7. Oil price cap required G7+Australia coordination. Global minimum tax was OECD/G20 process. IMF special drawing rights allocation ($650B, Aug 2021) was the largest in history. World Bank replenishment advocacy. This preference for multilateral frameworks over unilateral US action reflected her economics training: collective action problems in international finance require multilateral solutions, and unilateral action undermines the rules-based international order that benefits the US."
+      },
+      {
+        "label": "ira_implementation_oversight",
+        "value": 0.79,
+        "evidence": "Inflation Reduction Act (Aug 2022): Yellen's Treasury was responsible for issuing guidance on $369B+ in clean energy tax credits. Treasury released hundreds of pages of IRA guidance 2022-2024. Key decisions: which vehicles qualify for EV credits (domestic content requirements vs. consumer access); which energy projects qualify for clean energy credits; foreign entity of concern rules (limiting Chinese component eligibility). These implementation details had massive economic impact — conservative guidance would suppress clean energy investment; permissive guidance would maximize impact but potentially face legal challenge. Yellen pushed for guidance that maximized climate impact within legal bounds."
+      },
+      {
+        "label": "svb_signature_first_republic_crisis_response",
+        "value": 0.88,
+        "evidence": "Mar 10-12, 2023 (weekend): Silicon Valley Bank failure ($209B assets) and Signature Bank closure. Yellen, Powell, and FDIC Chair Gruenberg invoked 'systemic risk exception' to guarantee all SVB deposits (including uninsured). This was controversial: by guaranteeing uninsured deposits (>$250K), it broke the standard FDIC framework. Yellen's rationale: SVB failure would have caused contagion to tech startup ecosystem that would have had broader economic and employment effects. Apr-May 2023: First Republic Bank ($229B) brokered to JPMorgan. Yellen coordinated the response but faced criticism that the invocation of systemic risk exception for SVB — a mid-size regional bank — was unprecedented and created moral hazard."
+      },
+      {
+        "label": "bank_deposit_guarantee_extension_decision_calculus",
+        "value": 0.76,
+        "evidence": "The decision to guarantee uninsured SVB deposits was Bernanke-esque in logic: prevent contagion at the cost of moral hazard. Yellen's stated justification invoked financial stability, but SVB was not a globally systemically important bank (unlike Bear Stearns or Lehman). This decision was contested within her own circle — Senator Elizabeth Warren and others criticized the selective application of guarantees. The decision reveals Yellen's crisis-mode behavior: when systemic risk is assessed (even at the regional bank level), err toward intervention. The comparison to Bernanke's Bear Stearns rescue calculus is direct."
+      },
+      {
+        "label": "contagion_risk_sensitivity",
+        "value": 0.84,
+        "evidence": "SVB crisis (Mar 2023): Response to SVB was driven by contagion risk assessment — not just SVB's direct systemic importance but the run risk on other mid-size regional banks with similar deposit profiles (uninsured tech startup deposits, held-to-maturity securities with unrealized losses). Bank Term Funding Program (BTFP) was created to allow banks to borrow against securities at par (preventing mark-to-market forced selling). The BTFP design showed understanding of the specific mechanism: HTM securities with unrealized losses could force asset sales if depositors ran, creating a self-fulfilling liquidity crisis even for solvent banks."
+      },
+      {
+        "label": "balance_sheet_normalization_as_fed_chair",
+        "value": 0.76,
+        "evidence": "Sep 2017: Announced balance sheet normalization — beginning the process of allowing Bernanke-era QE assets to roll off. The plan: initially $10B/month in runoff (gradually increasing to $50B/month), with the process described as 'boring' and 'watching paint dry' — deliberately downplaying the market impact. The balance sheet normalization was cautious and gradual, parallel to the rate hiking approach. By end of Yellen's tenure (Feb 2018), the balance sheet had begun declining but remained enormous. She designed the exit architecture that Powell inherited."
+      },
+      {
+        "label": "yield_curve_inversion_sensitivity",
+        "value": 0.71,
+        "evidence": "2017-2018: As the Fed hiked short-term rates, the yield curve flattened. Yellen acknowledged yield curve flattening as a concern but argued (controversially) that the yield curve's signal was attenuated by unconventional monetary policy distortions — QE had compressed term premiums, making the curve less informative as a recession signal than historically. This view — that the yield curve signal was distorted by the Fed's own balance sheet actions — was intellectually coherent but proved partially wrong: the 2018-2019 inversion did precede the 2020 recession (though that was COVID-triggered, not cycle-driven)."
+      },
+      {
+        "label": "gender_barrier_awareness_institutional_representation",
+        "value": 0.68,
+        "evidence": "Yellen was the first female Fed Chair (2014-2018) and first female Treasury Secretary (2021-2025). While she did not make her gender a primary public policy focus, the symbolic dimension shaped her institutional approach: she was conscious of representing a precedent and approached institutional responsibilities with corresponding gravity. In Treasury, she brought the first female economist leadership to an institution historically dominated by male investment bankers and lawyers. This background subtly influenced her communication style — more collaborative and less domineering than some predecessors."
+      },
+      {
+        "label": "academic_economist_policy_translation",
+        "value": 0.85,
+        "evidence": "Like Bernanke, Yellen translated academic research directly into policy: her efficiency wage work (1984 Yellen-Akerlof model) → understanding of wage rigidity and unemployment persistence; her hysteresis work → extended accommodation to prevent skill atrophy; her labor market research → dashboard approach to employment assessment. Unlike some academics who separate research from practice, Yellen's policy positions were directly traceable to her academic work. The academic-policy pipeline was explicit and public — she cited her own research in policy justifications."
+      },
+      {
+        "label": "george_akerlof_intellectual_partnership",
+        "value": 0.62,
+        "evidence": "Yellen is married to George Akerlof (Nobel laureate in economics, 2001, 'market for lemons'). Their intellectual partnership has been documented in academic work and in their 2004 'The Fair Wage-Effort Hypothesis and Unemployment' paper (co-authored). The partnership creates a unique dynamic: Yellen had continuous access to a top-tier academic economist as a sounding board. This likely reinforced her academic orientation and maintained connections to the frontier of economic research throughout her policy career. Akerlof's information asymmetry research also shaped her understanding of financial market failures."
+      },
+      {
+        "label": "communication_style_deliberate_clarity",
+        "value": 0.81,
+        "evidence": "Yellen's communication style contrasted with Greenspan's strategic opacity: she consistently tried to be clear and accessible. Her press conferences were more prepared and less improvisational than Powell's. She over-relied on prepared statements relative to Q&A flexibility. However, on key decisions (first rate hike Dec 2015, taper), she communicated the rationale thoroughly. A notable communication strength: she was more willing than many central bankers to acknowledge uncertainty explicitly — 'we don't know with precision' appeared frequently in her testimony. This epistemic honesty improved credibility with sophisticated audiences while sometimes creating uncertainty in simpler market interpretations."
+      },
+      {
+        "label": "press_conference_preparedness",
+        "value": 0.77,
+        "evidence": "Yellen's press conferences were thorough but occasionally showed excessive reliance on prepared text relative to spontaneous engagement. Her Oct 2015 press conference statement that 'October remains a live possibility' for a rate hike (when virtually no one expected an Oct hike) caused unnecessary market confusion. Her communication was careful and substantive but occasionally lacked the fluid market expectation management that Powell developed. She was better in Senate/House testimony settings (more structured) than in open press conference Q&A."
+      },
+      {
+        "label": "political_independence_as_fed_chair",
+        "value": 0.85,
+        "evidence": "Yellen maintained Fed independence under Obama and Trump pressure. In Sep 2016, Trump accused her of keeping rates low for political reasons — she dismissed this directly. In Oct 2017, Trump declined to reappoint her despite some consideration, choosing Powell instead. Her response to non-reappointment was professional — she handed over smoothly and did not publicly criticize the decision. The non-reappointment itself was partly political (Trump preferred a Republican not associated with Obama) — showing the limits of institutional independence when executive appointments are politically managed."
+      },
+      {
+        "label": "trump_non_reappointment_response",
+        "value": 0.79,
+        "evidence": "Oct 2017: Trump chose Jerome Powell over Yellen for the next Fed Chair term, breaking with the modern tradition of reappointing capable Fed Chairs. Yellen handled the transition professionally. This non-reappointment was the first for an incumbent Fed Chair in 40 years (since Carter did not reappoint Miller in 1979). The political dimension: Trump reportedly liked Yellen personally but wanted 'his own' appointment. Her response — graceful exit, no public statements about the political nature of the decision — preserved institutional decorum."
+      },
+      {
+        "label": "inflation_threshold_hiking_trigger",
+        "value": 0.71,
+        "evidence": "Under Yellen, rate hikes were triggered by labor market improvement, not by inflation exceeding 2%. First hike (Dec 2015): PCE inflation was 0.4%, far below 2%. 2016-2018 hikes all occurred with PCE below 2%. The hiking rationale was: improving labor market would eventually produce inflation, so pre-emptive hiking is appropriate — but the threshold for 'sufficient improvement' was a full labor market recovery, not an inflation overshoot. This pre-emptive approach (raise before inflation arrives, based on labor market) contrasts with Bernanke's reactive approach (wait for inflation/disinflation signals)."
+      },
+      {
+        "label": "financial_stability_macroprudential_sensitivity",
+        "value": 0.72,
+        "evidence": "Yellen was more attentive to financial stability considerations than her post-crisis immediate concerns would suggest. In 2014-2015, she gave speeches on elevated risk-taking in certain asset markets and leverage concerns in leveraged loans. However, she consistently used macroprudential tools (supervisory guidance, capital requirements) rather than rate policy for financial stability concerns — maintaining the separation of tools doctrine Bernanke had established. The balance: acknowledge financial stability risks, respond with targeted macroprudential tools, don't let it distort monetary policy rate decisions."
+      },
+      {
+        "label": "inequality_concern_weight",
+        "value": 0.76,
+        "evidence": "Yellen, more than most Fed Chairs, incorporated inequality considerations into her thinking: tight labor markets benefit lower-income workers disproportionately (their wages rise more than high-income workers); long-term unemployment scars are worse for lower-income workers who lack savings cushions. Her 2014 Boston Fed speech on economic mobility explicitly framed the dual mandate in distributional terms. As Treasury Secretary, she advocated for child tax credits and other redistributive elements of Build Back Better. The inequality lens was not central to her monetary policy decisions but appeared consistently in her framing."
+      },
+      {
+        "label": "labor_force_participation_recovery_priority",
+        "value": 0.89,
+        "evidence": "The post-GFC participation rate drop — from 66% (2007) to 62.7% (Sep 2015) — was a central concern for Yellen. Her view: the participation rate had not fully recovered (cyclical vs. structural debate), and premature tightening would prevent would-be workers from being drawn back into the labor force. Dashboard indicators like the quits rate (low = workers don't feel confident enough to quit and look for better jobs) were used to assess whether the labor market had genuinely recovered. The participation recovery was weighted alongside headline unemployment in her labor market assessment."
+      },
+      {
+        "label": "supply_side_economics_skepticism",
+        "value": 0.78,
+        "evidence": "As Treasury Secretary, Yellen was vocally skeptical of supply-side ('trickle-down') economics. Her advocacy for the global minimum corporate tax was explicitly framed as ending the supply-side race-to-the-bottom. Her fiscal advocacy (American Rescue Plan, IRA) was demand-side Keynesian, not supply-side. In Congressional testimony, she criticized the 2017 Tax Cuts and Jobs Act (passed before her Treasury tenure) for ineffectiveness and distributional harm. This supply-side skepticism was consistent with her academic labor economics background, which focused on demand-side labor market dynamics."
+      },
+      {
+        "label": "climate_transition_economic_framework",
+        "value": 0.77,
+        "evidence": "At Treasury, Yellen became a significant figure in climate finance: IRA implementation (clean energy credits, manufacturing incentives), G7 climate finance commitments, multilateral development bank reform to expand climate lending capacity. Her 2021-2024 framework treated climate transition as a mainstream macroeconomic issue (transition risk, stranded assets, physical risk) rather than a purely environmental policy. She established the Financial Stability Oversight Council climate subcommittee. This represented genuine expansion from her pre-Treasury academic work, which had not focused on climate economics."
+      },
+      {
+        "label": "friend_shoring_supply_chain_framework",
+        "value": 0.80,
+        "evidence": "Yellen coined and championed the 'friend-shoring' concept (2022): relocating supply chains to geopolitically aligned countries rather than full reshoring (which would be more expensive) or maintaining China exposure (which created security risks). Her framework: not decoupling from China entirely (economically costly), but reducing concentration risk in critical supply chains (semiconductors, critical minerals, medical supplies). This pragmatic middle path between free trade orthodoxy and full decoupling reflected her economist training — minimize economic cost while achieving security objectives."
+      },
+      {
+        "label": "debt_sustainability_concern",
+        "value": 0.69,
+        "evidence": "Despite her fiscal stimulus advocacy, Yellen acknowledged long-term debt sustainability concerns. In 2021-2024 Treasury tenure, US debt/GDP rose from ~130% to ~125-130% (with economic growth). She consistently argued that the relevant metric was debt service cost as a share of GDP (not just the debt level), and that investing in productive capacity justified near-term deficit spending. However, she supported the Fiscal Responsibility Act (Jun 2023 debt ceiling deal) that included spending caps — showing some constraint on fiscal expansion when political circumstances required. Not purely a deficits-don't-matter economist."
+      },
+      {
+        "label": "economic_consensus_orientation",
+        "value": 0.82,
+        "evidence": "Yellen operates within mainstream economic consensus frameworks — she does not advocate heterodox approaches (MMT, crypto, degrowth). Her policy positions are grounded in standard New Keynesian macroeconomics, mainstream labor economics, and neoclassical international economics. Deviations from consensus (industrial policy advocacy, friend-shoring) were justified within mainstream frameworks, not as alternatives to them. This consensus orientation gives her credibility with markets and institutions but may limit responsiveness to genuinely novel economic conditions that consensus frameworks fail to capture."
+      },
+      {
+        "label": "cryptocurrency_skepticism",
+        "value": 0.83,
+        "evidence": "As Treasury Secretary, Yellen was consistently skeptical of cryptocurrency: Jan 2021: crypto is 'extremely inefficient' for transactions and 'often...used for illicit financing'; 2022-2023: advocated for stablecoin regulation after Terra/Luna collapse; FTX collapse (Nov 2022): called for urgent crypto regulation. She did not favor outright prohibition but called for robust regulation that applied the same rules as traditional finance. This skepticism was grounded in economics: crypto did not serve the functions of money (store of value, medium of exchange) as well as claimed, and regulatory gaps created systemic risk."
+      },
+      {
+        "label": "inflation_2pct_symmetric_target_interpretation",
+        "value": 0.80,
+        "evidence": "Under Yellen's Fed Chair tenure (2014-2018), inflation was consistently below 2%. She treated the 2% target as symmetric — below-target inflation was as problematic as above-target. This contrasted with some FOMC hawks who treated 2% as a ceiling. Her 2014-2016 below-target inflation was a factor in maintaining accommodation, not a reason to cut further (which would have been her response if 2% were a minimum). The symmetric interpretation became Fed official policy in the Aug 2020 average inflation targeting framework (she was gone by then, but her intellectual position had influenced the institutional evolution)."
+      },
+      {
+        "label": "congressional_testimony_skill",
+        "value": 0.88,
+        "evidence": "Both as Fed Chair and Treasury Secretary, Yellen was one of the most effective Congressional witnesses of her era. Her ability to translate complex economic concepts into accessible language was exceptional. Memorable testimony: Sep 2008 (as San Francisco Fed President, before Congress on the crisis); multiple Humphrey-Hawkins testimonies 2014-2018; Senate Finance Committee hearings on ARP and IRA 2021-2022. She was notably better at written testimony and prepared opening statements than at handling confrontational Q&A (where Powell showed more flexibility). Senators on both sides respected her technical command of the material."
+      },
+      {
+        "label": "supervisory_regulatory_integration",
+        "value": 0.74,
+        "evidence": "As Fed Chair, Yellen chaired the Financial Stability Oversight Council and oversaw bank supervision. She pushed for full implementation of Dodd-Frank requirements (stress tests, resolution plans, liquidity rules). In 2018, the rollback of some Dodd-Frank provisions for mid-size banks (Economic Growth Act, May 2018) occurred just at the end of her tenure — she opposed the rollback of enhanced supervision for banks in the $100-250B range (which later proved relevant to SVB). Her supervisory views were more conservative than the rollback direction."
+      },
+      {
+        "label": "academic_conference_network_maintenance",
+        "value": 0.72,
+        "evidence": "Yellen maintained active academic connections throughout her Fed Chair tenure: Jackson Hole speeches engaged with the academic literature seriously; she cited recent research in policy justifications; she maintained relationships with academic economists at top universities. This academic network provided input to her decision-making and kept her connected to frontier economic research. Less prominent than Bernanke's academic network (which was more focused on a specific subdiscipline relevant to Fed policy) but broader across macroeconomics and labor economics."
+      },
+      {
+        "label": "data_dependent_approach_labor_focus",
+        "value": 0.86,
+        "evidence": "Yellen's data dependency was labor-market-focused: each FOMC decision was explained in terms of labor market dashboard evolution, with inflation as a secondary consideration (when below target). This contrasts with Powell's inflation-first data dependency. Her pattern: wait for broad labor market improvement across multiple indicators, then hike gradually; don't hike until the labor market shows clear tightness signals beyond headline unemployment. This framework meant she was genuinely data-dependent but on a different primary variable than her successor."
+      },
+      {
+        "label": "geopolitical_risk_management_treasury",
+        "value": 0.83,
+        "evidence": "As Treasury Secretary, Yellen developed significant geopolitical engagement capability: Russia sanctions coordination required understanding of geopolitical dynamics; China engagement required diplomatic skill alongside economic analysis; G7 coordination on Ukraine support involved political judgment as well as economic design. She worked closely with National Security Advisor Sullivan on the 'new Washington consensus' that integrated national security with economic policy. This geopolitical engagement was a new skill set developed in the Treasury role — her Fed Chair experience was purely economic, not geopolitical."
+      },
+      {
+        "label": "ukraine_support_economic_dimension",
+        "value": 0.85,
+        "evidence": "2022-2024: Yellen coordinated G7 economic support for Ukraine: (1) $50B sovereign loan to Ukraine backed by Russian asset returns (Jul 2024) — a novel mechanism to deploy frozen Russian assets for Ukraine support without direct confiscation; (2) International Monetary Fund emergency facilities for Ukraine; (3) Reconstruction financing frameworks through multilateral banks; (4) Managing frozen Russian central bank asset ($300B) questions. The Russian asset loan mechanism was her most technically sophisticated Ukraine-related design, allowing economic support without the legal complications of direct confiscation."
+      },
+      {
+        "label": "multilateral_development_bank_reform",
+        "value": 0.74,
+        "evidence": "2022-2024: Yellen led US advocacy for World Bank and other MDB reform to expand their lending capacity for climate and development. Key argument: MDBs are too conservative in their capital use — by adjusting hybrid capital treatment and callable capital, they could expand lending by $100B+ without raising new capital. The US used its World Bank board position to push this reform. This technical-but-important reform of international financial architecture showed her ability to deploy Treasury leverage in multilateral institutions."
+      },
+      {
+        "label": "inflation_sensitivity_as_treasury_secretary",
+        "value": 0.65,
+        "evidence": "As Treasury Secretary (not a monetary authority), Yellen's inflation response tools were limited: fiscal policy, supply chain intervention, and advocacy for specific Fed actions were available; interest rates were not. Her 2021 support for $1.9T ARP was later acknowledged as potentially too stimulative by her own assessment. When inflation reached 9.1% (Jun 2022), she acknowledged the Fed needed to act and supported Powell's hiking cycle publicly — showing she placed more weight on inflation control than her fiscal advocacy had suggested. The Treasury-Fed coordination on inflation was more cooperative than adversarial."
+      },
+      {
+        "label": "patient_policy_normalization_preference",
+        "value": 0.90,
+        "evidence": "Yellen's deepest behavioral preference: normalize policy only when clearly necessary, err toward accommodation, avoid premature tightening. As Fed Chair: delayed first hike 9 years after the pre-crisis level; hiked once in 2015, once in 2016, only accelerating in 2017-2018. As Treasury Secretary: supported maximum fiscal support through 2021. The hysteresis and labor market scarring framework made her risk assessment asymmetric: under-accommodation causes permanent damage, over-accommodation creates inflation that can be corrected. This asymmetry is the deepest constant in her behavioral dataset across both roles."
+      },
+      {
+        "label": "cross_agency_coordination",
+        "value": 0.83,
+        "evidence": "As Treasury Secretary, Yellen built unusual cross-agency coordination: Treasury-Fed coordination on sanctions implementation; Treasury-DOJ coordination on sanctions enforcement; Treasury-State Department coordination on Russia/China economic policy; Treasury-NSC coordination on economic security policy. The 2022-2024 period saw more formal integration of Treasury into national security decision-making than in prior administrations. This reflected the weaponization of economic tools — tariffs, sanctions, export controls — that required Treasury-NSC-Commerce-State coordination. Yellen was a collaborative institutional player rather than a territorial cabinet member."
+      },
+      {
+        "label": "san_francisco_fed_regional_economy_experience",
+        "value": 0.68,
+        "evidence": "Yellen served as San Francisco Fed President 2004-2010, giving her direct exposure to the tech sector economy, California real estate market (ground zero of the subprime crisis), and Pacific Rim trade. The San Francisco Fed District includes California, Nevada, and Arizona — states at the epicenter of the housing crisis. Her tenure as SF Fed President during the GFC gave her direct observation of the crisis from a regional vantage point. This regional experience shaped her sensitivity to housing market dynamics and tech sector employment patterns that influenced her labor market dashboard approach."
+      },
+      {
+        "label": "council_of_economic_advisers_experience",
+        "value": 0.71,
+        "evidence": "Yellen served as Chair of President Clinton's Council of Economic Advisers (1997-1999), giving her direct exposure to executive branch economic policy coordination, budget politics, and fiscal policy. The CEA experience exposed her to the 1990s fiscal consolidation that preceded the boom — giving her a counterexample to 'deficits crowd out growth' (Clinton surpluses + strong growth). This executive branch experience informed her Treasury Secretary effectiveness: she understood how to work within the White House economic decision-making process from direct experience."
+      },
+      {
+        "label": "federal_open_market_committee_consensus_building",
+        "value": 0.82,
+        "evidence": "Yellen managed the FOMC's transition from accommodation back to normalization — a politically difficult process with endemic hawk-dove tensions. Her approach: build consensus through extensive pre-meeting communication, use projections and economic frameworks to depoliticize decisions, allow dissenters to voice concerns within the formal dissent process. The first rate hike (Dec 2015) was unanimous — exceptional given the difficulty of the decision. The 2016-2018 hiking cycle maintained high consensus. Yellen was an effective consensus builder whose labor economics framework gave her credibility with the dove wing while her actual hiking decisions gave her credibility with the hawk wing."
+      },
+      {
+        "label": "dec_2015_first_hike_patience_exhaustion",
+        "value": 0.77,
+        "evidence": "The Dec 2015 hike ended a 9-year period of ZLB policy. Throughout 2015, market expectations for hike timing were repeatedly pushed back: Sep 2015 no-hike (China), Oct 2015 no-hike. Yellen managed expectations carefully through this period. The Dec 2015 decision reflected exhaustion of patience: labor market was clearly improving (unemployment 5.0%), and the risks of perpetual ZLB (financial stability, policy space for future downturns) outweighed the inflation undershoot concern. The unanimity of the Dec 2015 decision (10-0) showed Yellen had built consensus for the threshold-crossing moment."
+      },
+      {
+        "label": "2016_only_one_hike_decision",
+        "value": 0.73,
+        "evidence": "2016: Only one rate hike (Dec 2016, +25bp) despite plans for 4 hikes at start of year. Reasons: China volatility, Brexit uncertainty, oil price collapse, global growth slowdown. Yellen explicitly cited external factors as justification for the much slower pace. This shows her global sensitivity: when international conditions were unfavorable, she was willing to defer domestic rate normalization. Critics argued she was too responsive to international conditions for a Fed whose mandate is domestic."
+      },
+      {
+        "label": "neutral_rate_uncertainty_weight",
+        "value": 0.84,
+        "evidence": "Yellen frequently cited uncertainty about the neutral interest rate (r*) as a reason for caution: if r* had declined significantly (as research by Williams and Laubach suggested), then a 2% Fed Funds Rate would be restrictive rather than accommodative, making aggressive hiking inappropriate. The r* uncertainty meant the 'distance to neutral' was itself uncertain — and in uncertain conditions, gradualism was the correct response. This r* uncertainty framework was a key intellectual underpinning of her 2015-2018 gradual approach."
+      },
+      {
+        "label": "employment_cost_index_wage_data_monitoring",
+        "value": 0.82,
+        "evidence": "Yellen monitored the Employment Cost Index (ECI), average hourly earnings, and median wage data as leading indicators of labor market tightness. Her view: when wages begin rising 3.5%+ across the distribution (not just at the top), the labor market has genuinely tightened and inflationary pressure is building from the demand side. Through 2014-2016, wage data remained below this threshold, supporting continued accommodation. The wage data focus was a direct application of her efficiency wage research — wage dynamics are the clearest signal of labor market equilibrium."
+      },
+      {
+        "label": "inflation_expectations_anchoring_concern",
+        "value": 0.79,
+        "evidence": "Yellen monitored TIPS breakevens and survey-based inflation expectations closely. The 2015-2016 period of below-target inflation created risk of inflation expectations drifting below 2% — which would make achieving the inflation target harder. Her concern: expectations are self-fulfilling; if firms and workers expect 1.5% inflation, they set wages and prices accordingly, creating a deflationary trap. This anchoring concern was a secondary driver of not cutting further despite below-target inflation: cutting would validate deflation expectations rather than signaling confidence in eventual return to target."
+      },
+      {
+        "label": "maximum_employment_concept_interpretation",
+        "value": 0.91,
+        "evidence": "Yellen had the broadest interpretation of 'maximum employment' among modern Fed Chairs: not just low unemployment but broadly shared prosperity — low U-6 (underemployment), high participation, wage growth reaching lower-income workers, long-term unemployment falling. Her 2014-2016 testimony repeatedly emphasized that 'maximum employment' was not a specific number but a multidimensional outcome. This broad interpretation justified more accommodation than narrow unemployment-rate-targeting would have required. It was the monetary policy expression of her labor economics research program."
+      },
+      {
+        "label": "first_female_institutional_precedent_setting",
+        "value": 0.58,
+        "evidence": "Yellen was the first woman to lead the Federal Reserve (since 1913) and the first to lead the US Treasury (since 1789). She acknowledged this significance but did not foreground it as a policy orientation. Her institutional precedent-setting was expressed more through competence and rigor than through explicit policy advocacy for gender-related issues. The symbolic significance — demonstrating that women could lead the world's most powerful financial institutions — was real but expressed through institutional performance rather than policy advocacy. She mentored women economists within the Fed system throughout her career."
+      },
+      {
+        "label": "cross_party_policy_continuity",
+        "value": 0.72,
+        "evidence": "Yellen served as Fed Chair under Obama (appointed) and into Trump's first year. As Treasury Secretary, she served under Biden (appointed). Her monetary policy approach showed continuity with Bernanke (inherited and extended his framework) rather than abrupt changes. Her Treasury service showed more partisan alignment with Biden administration priorities than her independent Fed Chair role required. The transition from Fed (non-partisan, independent) to Treasury (cabinet member, partisan) represents a behavioral regime shift in her institutional role."
+      },
+      {
+        "label": "digital_currency_central_bank_position",
+        "value": 0.64,
+        "evidence": "Yellen was cautious about a US central bank digital currency (CBDC): supported research and study but not implementation without extensive analysis of implications for banking system, financial stability, and privacy. She was more open to CBDC than crypto (which she viewed skeptically) but not an active advocate. Treasury's position under Yellen: study the technology, coordinate with Fed, do not rush implementation given potential for disintermediation of banks and privacy concerns. This cautious-but-engaged position was consistent with her mainstream economic framework — innovation should be evaluated on efficiency and stability grounds."
+      },
+      {
+        "label": "stablecoin_regulation_urgency",
+        "value": 0.81,
+        "evidence": "Nov 2021 PWG report on stablecoins (Yellen chaired the President's Working Group on Financial Markets): called for urgent Congressional legislation to regulate stablecoins as bank-like instruments. After Terra/Luna collapse (May 2022) and FTX collapse (Nov 2022), pushed harder for stablecoin legislation. Her framework: stablecoins that function like bank deposits should be regulated like banks — FDIC insurance, capital requirements, Fed oversight. The urgency was driven by systemic risk concern: a large stablecoin failure could trigger runs on the broader crypto ecosystem with potential financial stability implications."
+      },
+      {
+        "label": "economic_growth_inclusive_framing",
+        "value": 0.79,
+        "evidence": "Yellen consistently framed economic policy in terms of inclusive growth: growth that reaches all income levels, not just aggregate GDP or asset prices. As Fed Chair: labor market dashboard measured breadth of employment recovery. As Treasury Secretary: IRA was framed as 'investing in America's workers' not just 'climate policy'; American Rescue Plan as protecting low-income families; global minimum tax as ensuring corporations pay fair share. This inclusive framing was consistent with her labor economics academic background and her career-long focus on labor market inequality and wage dynamics."
+      },
+      {
+        "label": "export_controls_china_semiconductor",
+        "value": 0.76,
+        "evidence": "Oct 2022: Commerce Department issued sweeping export controls on advanced semiconductor exports to China — the most significant US technology control in decades. Yellen supported these controls as consistent with her 'de-risking not decoupling' framework: semiconductors are a strategic security concern, not a commercial trade issue. Her role: ensure the economic costs were understood and mitigated (supply chain disruption, loss of US market share), while supporting the security rationale. The controls reflected her evolution from free-trade economist to economic security pragmatist — a genuine policy shift driven by China competition evidence."
+      },
+      {
+        "label": "quantitative_easing_legacy_inheritance",
+        "value": 0.79,
+        "evidence": "As Fed Chair, Yellen inherited Bernanke's $4.5T balance sheet and the task of normalizing without triggering another taper tantrum. Her approach: continue the taper (completed Oct 2014, her first month as Chair), hold the balance sheet at $4.5T for 2.5 years while hiking rates, then announce normalization (Sep 2017) with detailed reinvestment plan. This careful sequencing — normalize rates fully before touching the balance sheet — was the core lesson drawn from the taper tantrum. The balance sheet normalization framework she designed (gradual, pre-announced, bore no interest rate implications) was a direct response to Bernanke's taper communication failure."
+      },
+      {
+        "label": "financial_market_uncertainty_sensitivity",
+        "value": 0.74,
+        "evidence": "Yellen was more sensitive to financial market uncertainty as a signal than a trigger: market volatility was evidence of economic uncertainty (and thus caution-warranting) rather than something requiring Fed response in itself. The 2015 Sep non-hike (triggered partly by China market volatility) and the 2016 year of only one hike (global market volatility) show this: she did not respond to market moves directly but treated sustained market uncertainty as a signal of real economic uncertainty that should influence the pace of normalization."
+      },
+      {
+        "label": "decision_quality_counterfactual_evaluation",
+        "value": 0.81,
+        "evidence": "In interviews and speeches post-tenure, Yellen has evaluated her decisions with academic rigor: she acknowledged the 2021 'transitory' inflation view was wrong and that the ARP may have been larger than necessary in retrospect (though she defended the logic at the time given uncertainty). This post-hoc counterfactual evaluation — comparing actual outcomes to what she expected — is consistent with her scientific temperament. She does not revise historical decision quality without evidence but acknowledges when evidence indicates decisions were suboptimal. This academic honesty is unusual for politicians but consistent for economists."
+      },
+      {
+        "label": "new_washington_consensus_architecture",
+        "value": 0.77,
+        "evidence": "2022-2023: Yellen and NSA Jake Sullivan developed the 'new Washington consensus' — replacing free market consensus with framework emphasizing: (1) public investment in industrial capacity; (2) resilient supply chains; (3) inclusive growth; (4) international economic solidarity. Yellen's Johns Hopkins speech (Apr 2023) was the fullest articulation. This represented genuine intellectual evolution from her mainstream free-market training toward a more activist government role in industrial policy and supply chain management. The new framework influenced IRA, CHIPS Act, friend-shoring advocacy, and MDB reform efforts."
+      },
+      {
+        "label": "tightening_cycle_endpoint_calibration",
+        "value": 0.78,
+        "evidence": "Yellen's 2017-2018 hiking cycle ended at 2.25-2.50% (Dec 2018, under Powell — but Yellen set the trajectory). Her own assessment of the terminal rate was calibrated by the r* estimate: if neutral rate was around 2.5-3%, then 2.25-2.50% was approaching or at neutral. Her 2017 dot plot projections showed terminal rate of 2.75-3.0%, more cautious than the pre-2008 historical norm of 4-5%. This endpoint calibration — running the full hiking cycle at a historically low terminal rate — was the practical expression of her r* uncertainty framework."
+      },
+      {
+        "label": "economic_scarring_asymmetry",
+        "value": 0.86,
+        "evidence": "The central asymmetry in Yellen's behavioral framework: scarring from insufficient accommodation is worse and harder to reverse than inflation from excessive accommodation. Insufficient accommodation → permanent unemployment, lost skills, lifetime earnings damage, intergenerational poverty effects. Excessive accommodation → inflation that central banks can control through rate hikes. This asymmetry appeared consistently: ARP fiscal support (2021), extended ZLB (2014-2015), labor market dashboard (measuring breadth of recovery not just pace). It is the unifying behavioral principle across both her Fed Chair and Treasury Secretary roles."
+      },
+      {
+        "label": "interest_rate_sensitivity_financial_system_post_qe",
+        "value": 0.73,
+        "evidence": "Yellen was aware that the post-QE financial system had become more sensitive to rate increases: pension funds and insurance companies had loaded up on duration risk; leveraged loan markets had expanded; real estate valuations were dependent on low rates. The gradual hiking approach was partly calibrated to give these sectors time to adjust. The bank term funding program (BTFP, 2023) revealed that this sensitivity was still present in 2023: SVB's held-to-maturity securities losses were a direct consequence of rapid rate hiking into an interest-rate-sensitive financial system."
+      },
+      {
+        "label": "foreign_direct_investment_screening",
+        "value": 0.71,
+        "evidence": "As Treasury Secretary, Yellen chaired CFIUS (Committee on Foreign Investment in the United States), which reviews foreign acquisitions for national security implications. Under her leadership, CFIUS reviews were expanded in scope (TikTok, agricultural land near military bases, semiconductor fabs) and CFIUS declined or conditioned more transactions. The evolution: CFIUS was historically focused on defense sector acquisitions; under Yellen it expanded to cover data security, critical infrastructure, and technology supply chains. This expansion was consistent with her 'de-risking' framework — reducing foreign investment exposure in strategic sectors."
+      },
+      {
+        "label": "central_bank_digital_currency_international_aspects",
+        "value": 0.67,
+        "evidence": "Yellen's CBDC position included international coordination concerns: if major currencies adopt CBDCs and the US does not, dollar reserve currency status could be affected. However, her cautious approach to US CBDC implementation was driven by domestic concerns (banking disintermediation, privacy) that outweighed the international competitive concern. She supported continued research and coordination with allies (BIS, IMF CBDC working groups) while not committing to US implementation. This reflected her multilateral instinct — if CBDCs emerge, they should be designed with international standards, not unilaterally."
+      },
+      {
+        "label": "treasury_market_resilience_concern",
+        "value": 0.80,
+        "evidence": "Yellen was attentive to Treasury market functioning as a financial stability concern: the Sep-Oct 2019 repo market stress (before her Treasury tenure), the Mar 2020 Treasury market disruption, and ongoing concerns about dealer capacity in a larger Treasury market. As Treasury Secretary, she pushed for improvements in Treasury market infrastructure: reporting requirements for primary dealers, basis for regulatory change to improve market liquidity. The Treasury market — the backbone of global safe asset collateral — was a specific fragility she monitored beyond general financial stability concerns."
+      },
+      {
+        "label": "tax_policy_distributional_emphasis",
+        "value": 0.82,
+        "evidence": "Yellen consistently pushed for distributional analysis in tax policy: IRS enforcement funding (IRA included $80B for IRS, later partially rescinded) targeting wealthy noncompliance; global minimum corporate tax ending low-tax havens; child tax credit expansion (Build Back Better); capital gains rate reform advocacy. Her view: tax policy's distributional effects are as economically important as its efficiency effects — a position consistent with her labor economics background and inequality research. She was more aggressive on tax-side distributional concerns than many mainstream economists in high Treasury positions."
+      }
+    ]
+  },
+  "red_lines": [
+    {
+      "id": "RL001",
+      "name": "labor_market_reversal_premature_tightening",
+      "condition": "Rate hiking cycle causing unemployment to rise back above 5.5% with inflation below target",
+      "forced_action": "immediate_pause_or_reversal_of_hiking_cycle",
+      "confidence": 0.92,
+      "evidence": "The 1937 error (which Bernanke explicitly cited) is equally relevant to Yellen's framework. Her academic work on hysteresis makes premature tightening that forces workers back to unemployment a red line: those workers may become permanently detached from the labor force. The Sep 2015 no-hike decision (unemployment falling but with market instability) reflects this: uncertainty about whether labor market improvement would be reversed was sufficient to pause. She would reverse course faster than most Fed Chairs if tightening were producing labor market deterioration.",
+      "priority": 1
+    },
+    {
+      "id": "RL002",
+      "name": "financial_market_systemic_stress",
+      "condition": "Credit spreads blowing out to crisis levels (investment grade spreads >300bp, high yield >800bp) concurrent with economic deterioration",
+      "forced_action": "accelerated_accommodation_or_emergency_facility_deployment",
+      "confidence": 0.89,
+      "evidence": "SVB crisis (2023): Treasury invoked systemic risk exception despite SVB not being a GSIB, demonstrating willingness to intervene at lower threshold than some frameworks suggest. Her GFC-era experience as SF Fed President (2004-2010) gave her direct exposure to financial stress cascade dynamics. The BTFP design showed understanding of specific transmission mechanisms. She would deploy accommodation or emergency tools at the first signs of systemic financial stress.",
+      "priority": 1
+    },
+    {
+      "id": "RL003",
+      "name": "us_debt_default",
+      "condition": "Treasury running out of cash/extraordinary measures — imminent default on Treasury obligations",
+      "forced_action": "maximum_urgency_congressional_communication_and_executive_branch_pressure",
+      "confidence": 0.97,
+      "evidence": "Debt ceiling management was a repeated high-stakes operation under Yellen. Multiple 'X-date' letters to Congress. Her view: US sovereign default would be catastrophic for global financial markets, destroy dollar reserve currency status, and cause irreversible institutional damage. This is the closest thing to an absolute constraint in her Treasury Secretary role — default cannot be allowed under any circumstances. She consistently refused to use constitutional workarounds (platinum coin, 14th Amendment) but was maximally aggressive in using orthodox extraordinary measures and Congressional pressure.",
+      "priority": 1
+    },
+    {
+      "id": "RL004",
+      "name": "inflation_expectations_deanchoring_downside",
+      "condition": "5-year inflation expectations falling below 1.5% (TIPS breakevens, Michigan survey) signaling deflationary risk",
+      "forced_action": "accelerated_accommodation_or_explicit_average_inflation_framework_adoption",
+      "confidence": 0.88,
+      "evidence": "Yellen monitored downside inflation expectations deanchoring as a threat to the recovery. In 2015-2016, with TIPS breakevens falling below 1.5%, she expressed concern about inflation expectations becoming unmoored below target. This concern was a secondary rationale for maintaining accommodation even as the labor market improved. A genuine deanchoring below 1.5% would have triggered more aggressive accommodation — potentially additional QE or an explicit average inflation target framework.",
+      "priority": 2
+    },
+    {
+      "id": "RL005",
+      "name": "russia_sanctions_regime_collapse",
+      "condition": "Major G7 country breaking ranks on Russia sanctions regime — threatening the multilateral architecture",
+      "forced_action": "emergency_G7_coordination_and_diplomatic_engagement",
+      "confidence": 0.85,
+      "evidence": "Yellen invested enormous political capital in building the G7 Russia sanctions architecture. The oil price cap mechanism required sustained G7 unity. Any major defection (Germany, Italy, or Japan breaking from the cap) would have undermined both the specific mechanism and US sanctions credibility more broadly. She would have deployed maximum diplomatic engagement to prevent a G7 defection on Russia sanctions, viewing it as a threat to the multilateral financial framework she had spent years building.",
+      "priority": 2
+    },
+    {
+      "id": "RL006",
+      "name": "dollar_reserve_currency_status_threat",
+      "condition": "Significant movement by major economies to replace dollar in bilateral trade (China-Saudi Arabia oil in renminbi at scale, etc.)",
+      "forced_action": "policy_adjustment_and_multilateral_engagement_to_reinforce_dollar_role",
+      "confidence": 0.80,
+      "evidence": "Yellen explicitly acknowledged that excessive sanctions use could accelerate dollar displacement. She was aware that the reserve currency status was a finite policy resource. Significant dollar displacement in global trade would threaten US ability to implement financial sanctions, raise US borrowing costs, and reduce seigniorage. This would trigger a review of sanctions intensity and multilateral financial architecture engagement. She would not sacrifice the dollar's institutional role for short-term geopolitical goals.",
+      "priority": 3
+    },
+    {
+      "id": "RL007",
+      "name": "global_minimum_tax_unraveling",
+      "condition": "Major OECD countries abandoning the global minimum corporate tax framework — triggering race-to-the-bottom resumption",
+      "forced_action": "diplomatic_offensive_and_threat_of_retaliatory_measures",
+      "confidence": 0.82,
+      "evidence": "Yellen invested significant political capital in the OECD Pillar One/Two global minimum tax framework. It represented a 20-year policy goal and a major multilateral achievement. Unraveling of the framework — through political changes in key countries or legal challenges — would return to the pre-2021 status quo of corporate tax arbitrage. She would use US Treasury leverage (threat of UTPR implementation, bilateral tax treaty renegotiations) to defend the framework's integrity.",
+      "priority": 3
+    }
+  ],
+  "information_fidelity": 0.91,
+  "information_fidelity_reasoning": "As Fed Chair (2014-2018): Yellen had essentially the same information access as Powell and Bernanke — near-perfect access to US macroeconomic data (FRED, internal Fed models, Beige Book, regional Fed intelligence, real-time financial market data). Minor deductions: (a) data lags similar to Powell/Bernanke era; (b) r* uncertainty was a genuine knowledge gap about a key unobserved variable; (c) global economic conditions (China, EM) were harder to assess in real time than US conditions. Fed Chair information fidelity: 0.93. As Treasury Secretary (2021-2025): Information access was broader (global economic intelligence, NSC integration, G7 Treasury coordination) but with different gaps. Yellen had access to: (a) US fiscal and economic data; (b) financial sector data through FSOC membership; (c) classified intelligence relevant to sanctions; (d) direct G7 Treasury Secretary communications; (e) IMF/World Bank analysis. Key gaps: (a) Chinese economic data reliability (Yellen acknowledged China's official data was less reliable than US data); (b) Russian financial system opacity increased after sanctions (it was harder to assess whether sanctions were achieving intended effects); (c) private sector financial institution data was less accessible than in the Fed role (no supervisory authority); (d) Congressional budget dynamics were often opaque until political deals were struck, making fiscal forecasting difficult. Treasury Secretary information fidelity: 0.89. Combined rating: 0.91, reflecting the high quality of US economic and financial intelligence with specific gaps in Chinese/Russian data reliability and novel policy terrain (crypto, climate finance) where analytical frameworks were still developing.",
+  "special_notes": "1. DUAL ROLE BEHAVIORAL REGIME SHIFT: Yellen's behavior exhibits a clear regime shift between her Fed Chair and Treasury Secretary roles. As Fed Chair: independent, data-dependent, focused narrowly on dual mandate, non-partisan. As Treasury Secretary: explicitly partisan (cabinet member), broader mandate (global economic policy, fiscal policy, sanctions), more politically engaged. The behavioral vectors that are consistent across both roles (labor market emphasis, gradualism, multilateral preference, academic framework reliance) reveal her stable underlying preferences. The vectors that differ (fiscal advocacy, partisan engagement, geopolitical involvement) reflect role-determined behavior rather than personal preference shifts. 2. HYSTERESIS AS ORGANIZING FRAMEWORK: More than any other Fed Chair, Yellen's decisions were organized around the hysteresis concept from her academic research. Hysteresis implies: the cost of premature tightening is not symmetric (workers who become long-term unemployed may never fully recover); therefore run accommodation longer than point estimates suggest. This asymmetric risk weighting consistently produced more dovish outcomes than her colleagues' preferred. The framework has empirical support (the 2016-2019 'hot labor market' did draw back previously discouraged workers) but also contributed to the 2021 fiscal stimulus assessment that proved too optimistic. 3. TAPER INHERITANCE AND COMPLETION: Yellen's first 8 months as Fed Chair were spent completing Bernanke's taper — she inherited the $85B/month QE program and systematically wound it down from Feb to Oct 2014. This required managing the transition from Bernanke's era without disruption: maintaining exactly the same communication language until the taper was complete, then transitioning to her own framework. The successful completion of the taper (with minimal market disruption relative to the 2013 tantrum) was a significant early institutional achievement that established her Fed Chair credibility. 4. YELLEN AS BRIDGE FIGURE: Yellen bridges the GFC era (completing Bernanke's QE exit) and the post-crisis normalization era (beginning rate hiking). Her Fed Chair tenure was institutionally crucial but less dramatic than her predecessor's: there were no 2008-scale crises, no unprecedented policy innovations on the scale of QE1. Her contribution was executing a difficult policy normalization — the gradual exit from ZLB — without triggering another crisis. This bridge role makes her behavior matrix particularly important for modeling transition periods. 5. AMERICAN RESCUE PLAN POST-MORTEM: Yellen's 2021 advocacy for $1.9T ARP is the central contested decision of her Treasury tenure. The counterfactual is inherently uncertain: without ARP, would the recovery have been slower and more scarring (her framework)? Or was ARP the primary cause of the 2021-2022 inflation surge (the Summers critique)? She has acknowledged in post-tenure discussions that ARP may have been larger than optimal, but maintains that the uncertainty at the time justified erring on the side of support. This is a direct application of her asymmetric risk framework — a framework that may need calibration for supply-constrained recoveries vs. demand-constrained recoveries. 6. SANCTIONS AS ECONOMIC POLICY INSTRUMENT: Yellen's Treasury tenure coincided with the most aggressive use of financial sanctions in US history (Russia, 2022). Her contribution was treating sanctions as a sophisticated economic policy instrument rather than a simple political signal — designing the oil price cap as an economically optimal mechanism, acknowledging dollar weaponization risks, insisting on G7 coordination. This represented the highest-level integration of economic analysis into geopolitical tool deployment in Treasury history. Her academic training in international economics gave her unusual depth in understanding second-order effects of financial sanctions on global markets."
+}

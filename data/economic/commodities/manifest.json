@@ -1,0 +1,240 @@
+{
+  "fred_emv_commodity_vol": {
+    "source": "FRED",
+    "frequency": "monthly",
+    "count": 494,
+    "start": "1985-01-01",
+    "end": "2026-02-01"
+  },
+  "fred_aluminum_imf": {
+    "source": "FRED",
+    "frequency": "monthly",
+    "count": 277,
+    "start": "2003-01-01",
+    "end": "2026-01-01"
+  },
+  "fred_nickel_imf": {
+    "source": "FRED",
+    "frequency": "monthly",
+    "count": 277,
+    "start": "2003-01-01",
+    "end": "2026-01-01"
+  },
+  "fred_iron_ore_imf": {
+    "source": "FRED",
+    "frequency": "monthly",
+    "count": 133,
+    "start": "2015-01-01",
+    "end": "2026-01-01"
+  },
+  "fred_uranium_imf": {
+    "source": "FRED",
+    "frequency": "monthly",
+    "count": 133,
+    "start": "2015-01-01",
+    "end": "2026-01-01"
+  },
+  "fred_coal_imf": {
+    "source": "FRED",
+    "frequency": "monthly",
+    "count": 272,
+    "start": "2003-06-01",
+    "end": "2026-01-01"
+  },
+  "fred_soybeans_imf": {
+    "source": "FRED",
+    "frequency": "monthly",
+    "count": 277,
+    "start": "2003-01-01",
+    "end": "2026-01-01"
+  },
+  "fred_wheat_imf": {
+    "source": "FRED",
+    "frequency": "monthly",
+    "count": 277,
+    "start": "2003-01-01",
+    "end": "2026-01-01"
+  },
+  "fred_corn_imf": {
+    "source": "FRED",
+    "frequency": "monthly",
+    "count": 277,
+    "start": "2003-01-01",
+    "end": "2026-01-01"
+  },
+  "fred_cotton_imf": {
+    "source": "FRED",
+    "frequency": "monthly",
+    "count": 277,
+    "start": "2003-01-01",
+    "end": "2026-01-01"
+  },
+  "fred_sugar_imf": {
+    "source": "FRED",
+    "frequency": "monthly",
+    "count": 179,
+    "start": "2011-03-01",
+    "end": "2026-01-01"
+  },
+  "fred_coffee_arabica_imf": {
+    "source": "FRED",
+    "frequency": "monthly",
+    "count": 277,
+    "start": "2003-01-01",
+    "end": "2026-01-01"
+  },
+  "fred_coffee_robusta_imf": {
+    "source": "FRED",
+    "frequency": "monthly",
+    "count": 277,
+    "start": "2003-01-01",
+    "end": "2026-01-01"
+  },
+  "fred_brent_imf": {
+    "source": "FRED",
+    "frequency": "monthly",
+    "count": 277,
+    "start": "2003-01-01",
+    "end": "2026-01-01"
+  },
+  "fred_wti_imf": {
+    "source": "FRED",
+    "frequency": "monthly",
+    "count": 277,
+    "start": "2003-01-01",
+    "end": "2026-01-01"
+  },
+  "fred_ng_us_imf": {
+    "source": "FRED",
+    "frequency": "monthly",
+    "count": 277,
+    "start": "2003-01-01",
+    "end": "2026-01-01"
+  },
+  "fred_ng_eu_imf": {
+    "source": "FRED",
+    "frequency": "monthly",
+    "count": 272,
+    "start": "2003-06-01",
+    "end": "2026-01-01"
+  },
+  "fred_lng_japan_imf": {
+    "source": "FRED",
+    "frequency": "monthly",
+    "count": 272,
+    "start": "2003-06-01",
+    "end": "2026-01-01"
+  },
+  "yf_crude_wti_daily": {
+    "source": "Yahoo Finance",
+    "frequency": "daily",
+    "count": 6414,
+    "start": "2000-08-23",
+    "end": "2026-03-11"
+  },
+  "yf_crude_brent_daily": {
+    "source": "Yahoo Finance",
+    "frequency": "daily",
+    "count": 4632,
+    "start": "2007-07-30",
+    "end": "2026-03-11"
+  },
+  "yf_gold_daily": {
+    "source": "Yahoo Finance",
+    "frequency": "daily",
+    "count": 6405,
+    "start": "2000-08-30",
+    "end": "2026-03-11"
+  },
+  "yf_silver_daily": {
+    "source": "Yahoo Finance",
+    "frequency": "daily",
+    "count": 6407,
+    "start": "2000-08-30",
+    "end": "2026-03-11"
+  },
+  "yf_copper_daily": {
+    "source": "Yahoo Finance",
+    "frequency": "daily",
+    "count": 6410,
+    "start": "2000-08-30",
+    "end": "2026-03-11"
+  },
+  "yf_natural_gas_daily": {
+    "source": "Yahoo Finance",
+    "frequency": "daily",
+    "count": 6411,
+    "start": "2000-08-30",
+    "end": "2026-03-11"
+  },
+  "yf_soybeans_daily": {
+    "source": "Yahoo Finance",
+    "frequency": "daily",
+    "count": 6409,
+    "start": "2000-09-15",
+    "end": "2026-03-11"
+  },
+  "yf_wheat_daily": {
+    "source": "Yahoo Finance",
+    "frequency": "daily",
+    "count": 6429,
+    "start": "2000-07-17",
+    "end": "2026-03-11"
+  },
+  "yf_corn_daily": {
+    "source": "Yahoo Finance",
+    "frequency": "daily",
+    "count": 6417,
+    "start": "2000-07-17",
+    "end": "2026-03-11"
+  },
+  "yf_palladium_daily": {
+    "source": "Yahoo Finance",
+    "frequency": "daily",
+    "count": 6444,
+    "start": "1998-09-28",
+    "end": "2026-03-11"
+  },
+  "yf_platinum_daily": {
+    "source": "Yahoo Finance",
+    "frequency": "daily",
+    "count": 6433,
+    "start": "1997-10-29",
+    "end": "2026-03-11"
+  },
+  "yf_cotton_daily": {
+    "source": "Yahoo Finance",
+    "frequency": "daily",
+    "count": 6567,
+    "start": "2000-01-03",
+    "end": "2026-03-11"
+  },
+  "yf_sugar_daily": {
+    "source": "Yahoo Finance",
+    "frequency": "daily",
+    "count": 6528,
+    "start": "2000-03-01",
+    "end": "2026-03-11"
+  },
+  "yf_coffee_daily": {
+    "source": "Yahoo Finance",
+    "frequency": "daily",
+    "count": 6565,
+    "start": "2000-01-03",
+    "end": "2026-03-11"
+  },
+  "yf_cocoa_daily": {
+    "source": "Yahoo Finance",
+    "frequency": "daily",
+    "count": 6567,
+    "start": "2000-01-03",
+    "end": "2026-03-11"
+  },
+  "yf_move_bond_vol": {
+    "source": "Yahoo Finance",
+    "frequency": "daily",
+    "count": 5766,
+    "start": "2002-11-12",
+    "end": "2026-03-11"
+  }
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<title>TDA前瞻推演报告</title>
+<style>
+body { font-family: "Microsoft YaHei", "Segoe UI", sans-serif; max-width: 1000px; margin: 40px auto; padding: 0 20px; background: #f5f5f5; }
+h1 { color: #333; border-bottom: 3px solid #4169E1; padding-bottom: 10px; }
+h2 { color: #4169E1; margin-top: 30px; }
+.card { background: white; border-radius: 10px; padding: 20px; margin: 15px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.crisis { border-left: 5px solid #FF0000; }
+.stress { border-left: 5px solid #FF8C00; }
+.normal { border-left: 5px solid #32CD32; }
+.prob { font-size: 2em; font-weight: bold; }
+.red { color: #FF0000; } .orange { color: #FF8C00; } .green { color: #32CD32; }
+table { border-collapse: collapse; width: 100%; margin: 10px 0; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+th { background: #4169E1; color: white; }
+tr:nth-child(even) { background: #f9f9f9; }
+.indicator { display: inline-block; padding: 3px 8px; border-radius: 4px; margin: 2px; font-size: 0.85em; }
+.high { background: #FFE0E0; color: #CC0000; }
+.low { background: #E0F0FF; color: #0066CC; }
+</style></head><body>
+<h1>TDA 前瞻推演报告</h1>
+<p>生成时间: 2026-03-12 | 当前位置: 2026-03 | 推演窗口: 24个月</p>
+
+<h2>一、情景概率</h2>
+<div style="display:flex; gap:20px;">
+<div class="card crisis" style="flex:1;text-align:center;"><div class="prob red">11%</div><div>🔴 危机情景<br>24个月内进入已知危机区域</div></div>
+<div class="card stress" style="flex:1;text-align:center;"><div class="prob orange">0%</div><div>🟡 压力情景<br>拓扑距离升高但未触发命名危机</div></div>
+<div class="card normal" style="flex:1;text-align:center;"><div class="prob green">89%</div><div>🟢 正常情景<br>保持在正常拓扑区域内</div></div>
+</div>
+
+<h2>二、最相似历史时期 (TOP 10)</h2>
+<div class="card">
+<table><tr><th>排名</th><th>月份</th><th>拓扑距离</th><th>当时事件</th><th>之后发生</th></tr>
+<tr><td>1</td><td>2025-07</td><td>0.505</td><td>正常时期</td><td>持续正常</td></tr>
+<tr><td>2</td><td>2025-06</td><td>0.513</td><td>正常时期</td><td>持续正常</td></tr>
+<tr><td>3</td><td>2025-08</td><td>0.636</td><td>正常时期</td><td>持续正常</td></tr>
+<tr><td>4</td><td>2025-02</td><td>0.673</td><td>正常时期</td><td>持续正常</td></tr>
+<tr><td>5</td><td>2025-03</td><td>0.682</td><td>正常时期</td><td>持续正常</td></tr>
+<tr><td>6</td><td>2025-05</td><td>0.697</td><td>正常时期</td><td>持续正常</td></tr>
+<tr><td>7</td><td>2024-12</td><td>0.876</td><td>正常时期</td><td>持续正常</td></tr>
+<tr><td>8</td><td>2024-11</td><td>0.887</td><td>正常时期</td><td>持续正常</td></tr>
+<tr><td>9</td><td>2025-04</td><td>0.894</td><td>正常时期</td><td>持续正常</td></tr>
+<tr><td>10</td><td>2025-01</td><td>0.905</td><td>正常时期</td><td>持续正常</td></tr>
+</table></div>
+
+<h2>三、当前异常指标</h2>
+<div class="card">
+<p>以下指标显著偏离历史均值 (|z-score| > 1.5):</p>
+<span class="indicator high">📊 comm_fred_uranium_imf: z=+1.92 (偏高)</span>
+<span class="indicator low">📊 idx_csi300: z=-1.85 (偏低)</span>
+<span class="indicator high">📊 comm_fred_copper_imf: z=+1.81 (偏高)</span>
+<span class="indicator high">📊 comm_yaho_gold_daily: z=+1.81 (偏高)</span>
+<span class="indicator high">📊 metal_gold: z=+1.81 (偏高)</span>
+<span class="indicator high">📊 idx_eurostoxx50: z=+1.80 (偏高)</span>
+<span class="indicator high">📊 crypto_btc_usd: z=+1.80 (偏高)</span>
+<span class="indicator high">📊 metal_silver: z=+1.79 (偏高)</span>
+<span class="indicator high">📊 comm_yaho_silver_daily: z=+1.79 (偏高)</span>
+<span class="indicator high">📊 idx_kospi: z=+1.79 (偏高)</span>
+<span class="indicator high">📊 idx_ftse100: z=+1.79 (偏高)</span>
+<span class="indicator high">📊 idx_bovespa: z=+1.79 (偏高)</span>
+<span class="indicator high">📊 idx_nikkei225: z=+1.79 (偏高)</span>
+<span class="indicator high">📊 comm_yaho_copper_daily: z=+1.78 (偏高)</span>
+<span class="indicator high">📊 comm_yaho_platinum_daily: z=+1.78 (偏高)</span>
+</div>
+
+<h2>四、关键时间窗口</h2>
+<div class="card">
+<table><tr><th>时间</th><th>拓扑距离(均值)</th><th>距阈值%</th><th>危机概率</th><th>评估</th></tr>
+<tr><td>+3个月 (2026-05)</td><td>0.402</td><td>68%</td><td>10.5%</td><td>🟡 需关注</td></tr>
+<tr><td>+6个月 (2026-08)</td><td>0.393</td><td>66%</td><td>10.5%</td><td>🟡 需关注</td></tr>
+<tr><td>+12个月 (2027-02)</td><td>0.400</td><td>68%</td><td>10.9%</td><td>🟡 需关注</td></tr>
+<tr><td>+18个月 (2027-08)</td><td>0.413</td><td>70%</td><td>0.0%</td><td>🟢 正常</td></tr>
+<tr><td>+24个月 (2028-02)</td><td>0.425</td><td>72%</td><td>0.0%</td><td>🟢 正常</td></tr>
+</table></div>
+
+<h2>五、方法论说明</h2>
+<div class="card">
+<p><b>这不是预测，是拓扑历史类比。</b></p>
+<ul>
+<li>在73维状态空间（经济数据+领导人行为参数）中找到当前状态的20个最近邻</li>
+<li>追踪这些历史类比点之后24个月的实际演化路径</li>
+<li>用拓扑距离的倒数加权（越相似的历史时期权重越大）</li>
+<li>危机概率 = 历史类比路径中进入已知危机区域的加权比例</li>
+</ul>
+<p><b>局限性：</b></p>
+<ul>
+<li>假设拓扑结构（状态空间的形状）未来仍然成立</li>
+<li>不包含未见过的黑天鹅事件（但历史类比自然包含极端情景）</li>
+<li>领导人行为参数是静态的（未来可能变化）</li>
+<li>这是Phase 1的初步推演，完整Monte Carlo引擎待Phase 3实现</li>
+</ul>
+</div>
+</body></html>

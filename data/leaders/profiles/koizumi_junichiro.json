@@ -1,0 +1,288 @@
+{
+  "leader": "Koizumi Junichiro",
+  "leader_zh": "小泉纯一郎",
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "Historical record: Koizumi cabinet decisions 2001-2006",
+    "Postal privatization legislation 2005 (passed Oct 2005)",
+    "Takenaka Plan (Heizo Takenaka financial reform) 2002-2003",
+    "BoJ quantitative easing policy Mar 2001 - Mar 2006",
+    "Iraq War support decisions 2003-2004 (MSDF dispatch)",
+    "LDP general election Sep 2005 (postal election, landslide)",
+    "Structural reform council (Keizai Zaisei Shimon Kaigi) records",
+    "Yasukuni shrine visits 2001-2006 (all 6 years)",
+    "Academic literature: Aurelia George Mulgan Koizumi's Japan, Koichi Nakano"
+  ],
+  "background": {
+    "birth_year": 1942,
+    "education": "Keio University Economics Faculty; studied briefly at University College London",
+    "career_path": "Political family (father and grandfather were politicians) → LDP politician → Minister of Posts and Telecommunications → Minister of Health and Welfare → LDP presidential candidate (3 attempts before winning) → PM",
+    "decision_archetype": "Populist reformer / theatrical communicator / single-issue crusader",
+    "key_experiences": [
+      "Third-generation LDP politician — understood LDP internal politics as native terrain",
+      "Minister of Posts: developed obsessive focus on postal system reform as symbolic of structural change",
+      "Three failed LDP presidential bids before 2001 win — persistence as identity",
+      "Idiosyncratic personal brand (opera fan, Elvis Presley fan, Lion King hair) — unusual for Japanese PM",
+      "Son of Koizumi Junya (Defense Agency director) — defense policy not alien territory",
+      "Watched LDP's revolving door period (1998-2001) and determined it required outsider-style disruption from within"
+    ],
+    "nickname": "Lion King (ライオンハート) — for distinctive hair and fighting spirit"
+  },
+  "behavior_matrix": {
+    "description": "Behavior vector for Koizumi Junichiro's 2001-2006 premiership — second-longest in postwar Japan (nearly 5.5 years). Covers: Takenaka Plan bad-debt resolution (2002-2003), BoJ quantitative easing (Mar 2001 onward), postal privatization crusade culminating in 2005 landslide election victory, Iraq War JSDF deployment (2003-2004), Yasukuni shrine visits (every year, damaging China/Korea relations), and the structural reform agenda that partially ended the 'lost decade.' Koizumi used populist communication and single-issue framing to overcome LDP's entrenched interests more effectively than any predecessor.",
+    "dimensions": 68,
+    "vectors": [
+      {
+        "label": "populist_communication_effectiveness",
+        "value": 0.95,
+        "evidence": "Koizumi transformed Japanese political communication. His 'reform with no sacred cows' slogan, theatrical confrontations with LDP rebels ('assassins'), and personal charisma generated unprecedented public engagement. Approval ratings on entering office were 80%+ — historically exceptional. He used TV appearances, direct appeals to voters over LDP factions' heads, and simple memorable slogans ('muda o habuiku,' 'zasetsu shitemo zenshin') that bypassed bureaucratic complexity. His 2005 election campaign was built entirely on postal privatization as a referendum — simplifying complex institutional reform into binary choice."
+      },
+      {
+        "label": "postal_privatization_obsession",
+        "value": 0.97,
+        "evidence": "Koizumi had pursued postal privatization since his 1990s tenure as PM of Posts. He described it as 'reform with no sacred cows' and the symbolic test of structural reform. Japan Post controlled ¥330 trillion in assets (postal savings + insurance) — the world's largest financial institution. It was the financial pipeline for LDP's patronage system. When the Upper House rejected the postal privatization bill (Aug 2005), Koizumi dissolved the Lower House — a constitutional gamble — ran on postal privatization as the single election issue, and won a historic landslide (LDP: 296/480 seats). The privatization was enacted Oct 2005."
+      },
+      {
+        "label": "bad_debt_resolution_decisiveness",
+        "value": 0.82,
+        "evidence": "Takenaka Plan (Oct 2002 — Heizo Takenaka as Financial Services Minister): forced major banks to recognize bad loans at market value, imposed mandatory recapitalization targets, threatened temporary nationalization if banks didn't clean up balance sheets. This was a radical departure from MoF's 'convoy system.' Resona Bank was effectively nationalized (May 2003) when it failed to meet capital requirements. UFJ Bank was forced into merger with Mitsubishi Tokyo Financial Group. By 2005, major bank NPL ratios had halved. The Takenaka shock therapy worked — though it caused short-term deflation and recession-deepening in 2002-2003."
+      },
+      {
+        "label": "takenaka_plan_political_risk_acceptance",
+        "value": 0.88,
+        "evidence": "The Takenaka Plan was opposed by: (1) major banks (faced margin calls and potential nationalization), (2) Tanaka faction/construction LDP (banks were financing patronage projects), (3) MoF (loss of supervisory authority), (4) Keidanren (cross-shareholding unwinding). Koizumi accepted all this opposition and stood behind Takenaka when there were attempts to dismiss him. His protection of Takenaka under intense LDP political pressure was a decisive act of political courage."
+      },
+      {
+        "label": "structural_reform_over_stimulus_preference",
+        "value": 0.82,
+        "evidence": "Koizumi's model was: (1) clean up banking system, (2) privatize/deregulate, (3) let market-driven growth restart. He resisted pure fiscal stimulus (Hashimoto-era lesson absorbed). The Economic and Fiscal Policy Council (Keizai Zaisei Shimon Kaigi) under Takenaka and Heizo provided structural reform agenda framing. He was willing to accept short-term pain (2002-2003 recession deepening, unemployment rising to 5.5%) to achieve structural correction. This contrasted with demand-stimulus Keynesians who wanted deficit spending."
+      },
+      {
+        "label": "fiscal_consolidation_rhetoric",
+        "value": 0.80,
+        "evidence": "Koizumi pledged to cap new government bond issuance at ¥30 trillion per year (later waived). He cut public works spending significantly — reversing the LDP construction state model. General account public works budget fell from ¥9.4 trillion (2001) to ¥7.2 trillion (2005). This was genuine fiscal adjustment on the expenditure side, though revenue shortfalls from weak growth kept deficits high in practice."
+      },
+      {
+        "label": "qe_partnership_with_boj",
+        "value": 0.82,
+        "evidence": "BoJ's quantitative easing (Mar 2001 - Mar 2006) under Hayami and Fukui was the monetary complement to Koizumi's structural reform. Targeting reserves rather than interest rates (near-zero rates since 1999). Koizumi supported BoJ's QE direction. The combination of BoJ QE + Takenaka bad-debt cleanup + structural reform created the recovery: Japan's economy grew 2004-2007 with deflation gradually ending. The coordination (without formal coordination — BoJ was independent) worked."
+      },
+      {
+        "label": "public_works_spending_reduction",
+        "value": 0.80,
+        "evidence": "Significant reduction in LDP's signature construction pork barrel spending. Public investment as share of GDP fell from approximately 8% to 5% under Koizumi. This directly attacked the Tanaka/Takeshita LDP model. Rural LDP construction contractors, and the politicians who depended on them, resisted. Koizumi absorbed this opposition as a necessary feature of structural reform — the 'sacred cows' he was willing to slaughter included his own party's funding base."
+      },
+      {
+        "label": "lhp_rebel_confrontation",
+        "value": 0.90,
+        "evidence": "In August 2005, when 37 LDP Upper House members voted against postal privatization, Koizumi: (1) dissolved the Lower House immediately, (2) refused to endorse the rebels ('assassins') in the election, (3) recruited 'assassin candidates' to run against rebels in their home constituencies. This unprecedented use of the dissolution power was constitutionally aggressive and politically brilliant. The election result (LDP landslide) vindicated him. He treated intraparty opposition as enemies to be defeated, not factions to be accommodated."
+      },
+      {
+        "label": "us_alliance_priority",
+        "value": 0.93,
+        "evidence": "Koizumi's relationship with George W. Bush was as close as Nakasone-Reagan. JSDF deployment to Iraq (2003-2004): Ground Self-Defense Forces sent to Samawah, Iraq — first JSDF combat zone deployment. Maritime Self-Defense Forces supported Indian Ocean operations. US-Japan military interoperability expanded. He visited Graceland with Bush in 2006 (PR moment). The alliance was explicitly prioritized over China/Korea sensitivities when they conflicted."
+      },
+      {
+        "label": "iraq_war_support_resolve",
+        "value": 0.88,
+        "evidence": "Japan's GSDF deployment to Iraq (Feb 2004 - Jul 2006) was controversial domestically — Article 9 restrictions required sending to 'non-combat zones' (Samawah reconstruction). Three Japanese hostages taken (Apr 2004) — Koizumi refused to withdraw JSDF and told families the individuals had taken personal risk. He accepted the political cost of appearing cold to the families because withdrawal would damage US alliance credibility. This was a significant test of resolve."
+      },
+      {
+        "label": "yasukuni_shrine_visits_persistence",
+        "value": 0.90,
+        "evidence": "Koizumi visited Yasukuni Shrine every year of his premiership (2001-2006) — the first PM to do so consistently. Despite severe protests from China (bilateral summits suspended 2001-2006) and South Korea, he continued. He framed it as personal religious expression and domestic political right. This choice permanently damaged Japan-China relations during his tenure. He calculated that domestic nationalist base required this signal and that China/Korea would not permanently break economic ties over it. China eventually blinked economically."
+      },
+      {
+        "label": "china_relations_sacrifice",
+        "value": 0.30,
+        "evidence": "Japan-China summit diplomacy was effectively suspended for most of Koizumi's tenure due to Yasukuni issue. Anti-Japanese demonstrations in China (April 2005) reflected accumulated resentment. Japan's largest bilateral trade partner relationship was politically frozen. Koizumi calculated that domestic political needs (Yasukuni) took priority and that economic interdependence would contain the damage. He was largely correct in the short run but set back Japan-China normalization significantly."
+      },
+      {
+        "label": "deregulation_special_economic_zones",
+        "value": 0.75,
+        "evidence": "Structural Reform Special Zones (kozo kaikaku tokku) created from 2002 — allowing deregulation in specific geographic areas to test reforms before national rollout. 1,000+ special zones approved. This 'bottom-up' deregulation approach allowed experimentation without requiring national legislative consensus. Education, agriculture, medical services, employment were covered. Partially implemented Japan's first structural deregulation experiment."
+      },
+      {
+        "label": "labor_market_flexibility_expansion",
+        "value": 0.78,
+        "evidence": "Dispatch worker deregulation expanded significantly under Koizumi — manufacturing (previously excluded) opened to temporary workers from 2004. This expanded the 'non-regular' workforce that became a major social issue. By 2006, non-regular workers were ~33% of workforce (up from ~25% in 2001). This provided the labor market flexibility that Koizumi's economic model needed but created growing inequality and precarity. The social cost emerged as an issue after his tenure."
+      },
+      {
+        "label": "social_inequality_tolerance",
+        "value": 0.72,
+        "evidence": "Koizumi explicitly stated that inequality (kakusa) was acceptable if it reflected effort and merit. 'Let winners win' philosophy. Growing disparity in labor market outcomes (regular vs. non-regular workers) was framed as structural reform's necessary feature. He did not regard rising income inequality as a policy problem to be addressed. This was a significant departure from LDP's traditional inclusive growth model."
+      },
+      {
+        "label": "single_issue_electoral_strategy",
+        "value": 0.92,
+        "evidence": "The 2005 election campaign was built entirely on postal privatization as the single organizing question: 'Are you for reform or against reform?' This simplification was strategically brilliant — it reframed complex institutional politics into a binary populist choice, mobilized voters who had been disengaged, and allowed Koizumi to tar all opponents as enemies of reform. The strategy worked (LDP 296 seats). He demonstrated that single-issue simplification could override traditional LDP coalition logic."
+      },
+      {
+        "label": "institutional_disruption_willingness",
+        "value": 0.88,
+        "evidence": "Koizumi was willing to disrupt LDP's own institutional architecture to achieve his goals. Sending assassin candidates against LDP rebels was unprecedented. Using the Economic and Fiscal Policy Council (with private sector members like Takenaka) to bypass traditional ministerial process was institutionally aggressive. Overriding MoF's bank supervisory approach via Takenaka was a direct challenge to bureaucratic power. He was institutionally disruptive in service of specific reform goals."
+      },
+      {
+        "label": "economic_ideology_supply_side",
+        "value": 0.80,
+        "evidence": "Koizumi's economic model was supply-side: remove structural barriers (bad banks, postal system as inefficient capital allocator, labor regulations, construction pork), let competition improve resource allocation, and productivity-led growth would follow. This was aligned with 1990s-2000s Washington Consensus thinking and Reagan/Thatcher supply-side ideology. It partially worked — Japan's export sector recovered strongly in 2003-2006 — but the domestic service sector remained protected."
+      },
+      {
+        "label": "political_theatricality",
+        "value": 0.93,
+        "evidence": "Koizumi's political style was deliberately theatrical. Memorable phrases ('oni to tatakau,' 'structural reform with no sacred cows'), unusual personal brand (hair, opera/Elvis), dramatic gestures (house dissolution as 'bet your whole future on reform'). He visited Graceland with Bush, dressed as Elvis. He personally selected female candidates ('Koizumi's children') for 2005 election. These theatrical choices were calculated to maintain public engagement and media attention. He treated politics as performance art in service of substantive goals."
+      },
+      {
+        "label": "defense_policy_expansion",
+        "value": 0.82,
+        "evidence": "Beyond Iraq, Koizumi expanded Japan's security role: antimissile defense system (SM-3) agreement with US, expanded JSDF missions (peacekeeping, disaster relief abroad), revised National Defense Program Outline (2004) identifying China and North Korea as concerns. He moved the Overton window on defense faster than any PM since Nakasone. North Korea missile threat (Aug 1998 Taepodong over Japan) had created political space that Koizumi exploited."
+      },
+      {
+        "label": "north_korea_abductee_diplomacy",
+        "value": 0.85,
+        "evidence": "Koizumi made two historic visits to Pyongyang (Sep 2002, May 2004). Kim Jong-il admitted to abductions of Japanese citizens — a extraordinary diplomatic breakthrough. Five abductees returned to Japan (Oct 2002). However, nuclear/missile issues remained unresolved, and domestic pressure (abductee families, hardliners) ultimately prevented the comprehensive normalization Koizumi had sought. The diplomatic initiative was bold but incomplete."
+      },
+      {
+        "label": "russia_relations_pragmatic",
+        "value": 0.65,
+        "evidence": "Koizumi-Putin meetings focused on energy cooperation (Sakhalin II LNG, Russia pipeline discussions) and Northern Territories. No resolution on territorial dispute but economic relations developed. Russia under Putin was viewed as an energy partner rather than a strategic threat. Japan's energy diversification required cultivating Russian relationships regardless of territorial issues."
+      },
+      {
+        "label": "womenomics_precursor",
+        "value": 0.68,
+        "evidence": "The 'Koizumi's children' (Koizumi kids) campaign in 2005 deliberately recruited attractive women candidates for high-visibility constituencies. This was partly theatrical (media appeal) but also legitimized women's political role. Female voter turnout and engagement increased. Not a systematic gender policy program (that would come under Abe's Womenomics), but a populist opening of political visibility."
+      },
+      {
+        "label": "information_fidelity",
+        "value": 0.75,
+        "evidence": "Koizumi relied heavily on Takenaka and Heizo for economic information (bypassing MoF in many cases), and on CIRO (Cabinet Intelligence and Research Office) for security intelligence. His information about structural reform outcomes was generally good (Takenaka was technically rigorous). His information about social costs of structural reform (non-regular worker expansion, regional inequality) was less carefully tracked — he was not a social inequality analyst by disposition."
+      },
+      {
+        "label": "deficit_spending_reluctance",
+        "value": 0.75,
+        "evidence": "Koizumi tried to cap bond issuance at ¥30 trillion/year — though he frequently had to waive the cap due to revenue shortfalls. General account public works were cut. However, social security spending continued growing (aging demographics). Net fiscal position improved only slowly. He was more successful at cutting wasteful spending than at revenue generation. Consumption tax increase (which he knew Japan eventually needed) was explicitly ruled out during his tenure — 'I will not raise taxes during my administration.'"
+      },
+      {
+        "label": "media_management_mastery",
+        "value": 0.90,
+        "evidence": "Koizumi was the first Japanese PM to truly master television as a political tool. Weekly NHK appearances, memorable soundbites, theatrical confrontations that played well on screen. He created the model that Abe would later refine. His personal quirks (hair, music taste, Elvis enthusiasm) generated extensive coverage. He effectively made structural reform feel exciting — a remarkable achievement for inherently dry policy content."
+      },
+      {
+        "label": "privatization_beyond_postal",
+        "value": 0.70,
+        "evidence": "Beyond postal privatization, Koizumi's structural reform included: Japan Highway Corporation privatization (road construction reorganization), Urban Renaissance Agency reforms, reorganization of government financial institutions. The privatization agenda was not limited to Japan Post but used it as the symbolic centerpiece."
+      },
+      {
+        "label": "regional_disparity_awareness",
+        "value": 0.45,
+        "evidence": "Koizumi's structural reform — cutting public works, letting inefficient businesses fail, expanding non-regular labor — exacerbated regional disparities (kakusa). Depopulating rural regions dependent on construction spending were particularly affected. He was aware of this but framed it as necessary Schumpeterian creative destruction. His rural constituency base eroded significantly under his tenure — a long-term LDP cost."
+      },
+      {
+        "label": "anti_corruption_rhetoric",
+        "value": 0.72,
+        "evidence": "Koizumi's reform rhetoric included opposition to 'structural corruption' — LDP politicians directing public works to contractors who funded their campaigns. Cutting public works was both economically and anti-corruption motivated. However, LDP's factional money politics continued. No criminal prosecutions of political corruption during his tenure. Reform was more structural (changing incentive architecture) than criminal enforcement."
+      },
+      {
+        "label": "constitutional_revision_willingness",
+        "value": 0.70,
+        "evidence": "Koizumi endorsed a constitutional revision process and the LDP's draft constitutional revision proposal was developed during his tenure. He supported changing Article 9 to formally recognize Japan's military. However, unlike Abe, he did not make this a central political crusade — it was a background priority subordinated to economic structural reform and alliance management."
+      },
+      {
+        "label": "boj_independence_respect",
+        "value": 0.80,
+        "evidence": "Koizumi did not publicly pressure BoJ but clearly supported the QE direction. When Hayami (initially resistant to QE) was replaced by Fukui (2003), QE was maintained. The PM's appointment of BoJ governor is a crucial lever — Koizumi's choice reflected support for unconventional monetary easing. He maintained the formal independence while using appointment power strategically."
+      },
+      {
+        "label": "diplomatic_independence_selective",
+        "value": 0.72,
+        "evidence": "North Korea visits were independent diplomatic initiatives not coordinated with US. Koizumi pursued this despite Bush's 'axis of evil' framing — a rare departure from US-follower stance. Iraq War support showed US alliance primacy. He navigated these in parallel rather than as contradictions. Independent diplomatic initiative on North Korea coexisted with full US alliance loyalty on Iraq."
+      },
+      {
+        "label": "policy_intellectual_partnership",
+        "value": 0.82,
+        "evidence": "Koizumi's relationship with Takenaka Heizo was the defining policy intellectual partnership of his tenure. Takenaka (economist, not a politician) provided the intellectual architecture for financial reform. Koizumi provided the political protection. This politician-intellectual partnership model (Koizumi-Takenaka) was more effective than the traditional politician-bureaucrat partnership because Takenaka was insulated from MoF bureaucratic resistance."
+      },
+      {
+        "label": "exit_timing_voluntary",
+        "value": 0.88,
+        "evidence": "Koizumi announced in advance that he would not seek another term as LDP president after Sep 2006 and honored this commitment. He left at the peak of his reformist success (postal privatization enacted, economy recovering). This voluntary exit at a moment of strength was unusual in Japanese politics. It allowed his reform legacy to solidify before the inevitable backlash."
+      },
+      {
+        "label": "social_welfare_reform_ambivalence",
+        "value": 0.60,
+        "evidence": "Koizumi's structural reform agenda did not include major social welfare reform beyond incremental pension/healthcare adjustments. The expansion of non-regular workers created a cohort without adequate social protection, which became visible as a social problem. He was more focused on supply-side efficiency than social insurance architecture. Social policy was handled by Health and Welfare Ministry bureaucrats rather than as a PM priority."
+      },
+      {
+        "label": "asia_pacific_trade",
+        "value": 0.65,
+        "evidence": "Japan-ASEAN FTA negotiations began under Koizumi but progressed slowly due to agricultural protection issues. Japan-Mexico FTA (2005) was completed. WTO Doha Round participation. Koizumi supported trade liberalization in principle but was constrained by agricultural lobby. The FTA architecture that later developed under Abe (TPP) was not advanced during Koizumi's tenure."
+      },
+      {
+        "label": "consumption_tax_avoidance",
+        "value": 0.88,
+        "evidence": "Koizumi explicitly promised not to raise the consumption tax during his tenure — breaking from Hashimoto's failed fiscal hawkery. This was partly political survival (Hashimoto's 1997 increase was the electoral disaster) and partly strategic sequencing (structural reform first, then revenue when growth returns). He recognized that premature fiscal tightening had derailed the 1990s recovery."
+      },
+      {
+        "label": "postal_savings_misallocation_theory",
+        "value": 0.88,
+        "evidence": "Koizumi's intellectual argument for postal privatization was that Japan Post's ¥330 trillion in savings was being misallocated through the fiscal investment and loan program (Zaito) to politically directed public corporations rather than productive private investment. Breaking this circuit — postal savings to Zaito to construction pork — would reallocate capital to productive uses and restore economic dynamism. This theory had merit but the privatization's implementation had limitations (Japan Post remained a single entity initially)."
+      },
+      {
+        "label": "health_welfare_experience_policy",
+        "value": 0.65,
+        "evidence": "As Minister of Health and Welfare (1988, 1996-1998), Koizumi had managed HIV-tainted blood compensation scandal and later pension reform. This background gave him some institutional knowledge of social policy that most reform-focused PMs lacked. However, social policy was not his primary PM focus — structural economic reform dominated."
+      },
+      {
+        "label": "anti_deflationary_coordination",
+        "value": 0.78,
+        "evidence": "Koizumi's structural reform + BoJ QE combination, plus the Takenaka Plan's bank cleanup, collectively ended Japan's deflationary spiral. CPI returned to 0% and then positive territory by 2006. The combination of cleaning bank balance sheets (Takenaka) + monetary expansion (BoJ QE) + structural micro-efficiency (deregulation/privatization) was the right prescription. However, deflation had not been fully defeated — it returned after BoJ ended QE in 2006."
+      },
+      {
+        "label": "golden_week_bridge_politics",
+        "value": 0.72,
+        "evidence": "Koizumi's political genius was combining a credible institutional reform agenda with theatrical politics. He used LDP's internal election system as political theater: each LDP leadership challenge (he ran three times before winning) built his public image as the reformer blocked by the 'old guard.' The 2001 win was partly driven by public pressure on LDP prefectural chapters — he was genuinely a public choice over the party machine's preference."
+      },
+      {
+        "label": "pension_reform_management",
+        "value": 0.68,
+        "evidence": "Major pension reform (2004): 'macro-economic slide' mechanism automatically reducing pension benefits when demographics worsen. This was a genuine long-term sustainability reform — adjusting benefit levels to demographic reality. Koizumi supported this reform that his Health and Welfare Ministry background had prepared him for. The reform was actuarially necessary and politically courageous — it explicitly promised lower future benefits."
+      },
+      {
+        "label": "zaito_fiscal_investment_reform",
+        "value": 0.80,
+        "evidence": "Zaito reform (2001): the Fiscal Investment and Loan Program — Japan's 'second budget' funded by postal savings and pension funds, directing ¥30T+ to public corporations — was restructured. Public corporations had to issue bonds directly to market rather than receiving automatic Zaito funding. This market discipline requirement was the mechanism of postal privatization's capital allocation improvement. Zaito reform enabled the private market to price public corporation credit risk."
+      },
+      {
+        "label": "china_relations_economic_despite_yasukuni",
+        "value": 0.55,
+        "evidence": "Despite Yasukuni visits suspending Japan-China summit diplomacy for 5 years, bilateral economic relations continued growing. Japanese FDI in China accelerated under Koizumi (Chinese manufacturing as platform for Japanese firms). Trade surged. Economic interdependence deepened even as political relations froze. This bifurcation — political hostility + economic integration — was a novel relationship dynamic that persisted and complicated subsequent Japan-China management."
+      },
+      {
+        "label": "resona_bank_nationalization",
+        "value": 0.85,
+        "evidence": "Resona Bank nationalization (May 2003): Government injected ¥1.96T in public funds, effectively nationalizing the bank after it failed to meet capital requirements under Takenaka's stricter standards. The auditors' refusal to certify deferred tax assets as capital was the trigger — a decision that changed auditor behavior toward banks across Japan. Koizumi's political protection of Takenaka enabled this precedent-setting intervention."
+      },
+      {
+        "label": "economic_recovery_2003_2006",
+        "value": 0.80,
+        "evidence": "Japan's economic recovery under Koizumi was genuine: GDP grew 2-3% annually 2003-2006, unemployment fell from 5.4% to 4.1%, corporate profits recovered strongly (driven partly by China demand and yen weakness), Nikkei recovered from 8,000 to 17,000. The recovery was export and corporate-led rather than consumption-led — wages stagnated despite profit recovery. This incomplete recovery ('corporate-led recovery without wage gains') set up the inequality discourse of the Abe era."
+      },
+      {
+        "label": "postal_privatization_implementation_limits",
+        "value": 0.62,
+        "evidence": "The Oct 2005 postal privatization legislation split Japan Post into four companies (banking, insurance, postal service, delivery) holding company structure. Full privatization (government share sell-down) was to proceed over 10 years. However, the DPJ government (2009-2012) partially reversed the privatization, slowing the process. Japan Post's banking and insurance subsidiaries retained significant market power. The privatization was structurally established but full market competition remained limited."
+      },
+      {
+        "label": "shadow_cabinet_lhp_reform",
+        "value": 0.78,
+        "evidence": "Koizumi's use of Economic and Fiscal Policy Council (Keizai Zaisei Shimon Kaigi — CEFP) with private sector members (Takenaka, other economists) alongside cabinet ministers effectively created a shadow cabinet for economic policy. The CEFP's annual 'Basic Policies' documents set the reform agenda over ministry resistance. This institutional innovation — using advisory councils with external members as reform mechanism — was a structural change in PM office authority that persisted after Koizumi."
+      },
+      {
+        "label": "political_legacy_structural",
+        "value": 0.82,
+        "evidence": "Koizumi's structural legacy: (1) postal privatization (implemented), (2) Takenaka Plan bad debt resolution (banking system cleaned), (3) CEFP mechanism for PM-led economic policy (structural), (4) non-regular labor market expansion (consequential but controversial), (5) US alliance deepening (Iraq, security guidelines), (6) electoral reform legacy (2001 upper house reform further). The institutional changes outlasted the specific reform outcomes. His 2005 landslide also enabled 2007 Abe constitutional revision attempt."
+      }
+    ]
+  }
+}

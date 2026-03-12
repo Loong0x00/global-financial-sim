@@ -1,0 +1,544 @@
+{
+  "leader": "Vladimir Putin",
+  "role": "President of Russia (2000-2008, 2012-present); Prime Minister (2008-2012)",
+  "level": 1,
+  "compiled_by": "claude-sonnet-4-6",
+  "compiled_date": "2026-03-12",
+  "compilation_sources": [
+    "Public policy decisions and official decrees 2000-2026",
+    "Energy export policy timeline (Gazprom, Nord Stream, gas supply cutoffs)",
+    "Sanctions response and capital control measures 2014, 2022",
+    "Ukraine escalation timeline: 2014 Crimea annexation through 2022 full-scale invasion",
+    "Oligarch management: arrests, asset seizures, forced sales 2003-2022",
+    "Central Bank of Russia decisions under Nabiullina (Putin's retained appointee)",
+    "Ruble crisis response: 2014 (17% emergency rate) and 2022 (20% rate, capital controls)",
+    "Import substitution program documentation 2014-2022",
+    "China pivot: bilateral trade/energy agreements post-2022",
+    "Nuclear signaling events: rhetoric escalation calendar 2022-2025",
+    "Information warfare operations: RT, Sputnik, election interference documentation",
+    "KGB/FSB career record and St. Petersburg deputy mayor period (1991-1999)"
+  ],
+  "background": {
+    "born": "1952-10-07",
+    "origin": "Leningrad (St. Petersburg), Soviet Union",
+    "career_path": "KGB officer (1975-1991) → St. Petersburg deputy mayor under Sobchak (1991-1996) → Deputy Chief of Presidential Staff (1997-1998) → FSB Director (1998-1999) → Prime Minister (1999) → Acting President (1999-2000) → President (2000-2008) → Prime Minister (2008-2012) → President (2012-present)",
+    "formative_experiences": "KGB Dresden station 1985-1990: witnessed Soviet collapse from abroad, watched crowds storm Stasi HQ while Moscow gave no orders — this experience of state collapse from impotence is the root of his obsession with state power and order. 1990s St. Petersburg: navigated corruption, organized crime, and economic chaos of Yeltsin era — learned that law is a tool, not a constraint. 1999 apartment bombings (disputed) + Chechen war: demonstrated willingness to use extreme violence for political consolidation.",
+    "decision_style_origin": "KGB tradecraft: patience, kompromat, controlled escalation, never reveal true intentions, always have an exit. Treats geopolitics as an intelligence operation: identify leverage, apply pressure incrementally, test resolve before escalating."
+  },
+  "behavior_matrix": {
+    "description": "High-dimensional behavior vector for Vladimir Putin compiled from 25+ years of governance decisions (2000-2026). Covers two distinct phases: consolidation (2000-2012) and revisionist expansion (2012-present). Includes all major economic crises, energy weapon deployments, sanctions responses, military escalations, and financial policy decisions. KGB background creates a specific decision architecture: intelligence-style patience with periodic high-risk gambles when assessment of opponent weakness is confirmed.",
+    "dimensions": 102,
+    "vectors": [
+      {
+        "label": "energy_as_geopolitical_weapon_propensity",
+        "value": 0.91,
+        "evidence": "Gas cutoff to Ukraine Jan 2006 (price dispute used as coercive tool, 3 days, affected Europe). Gas cutoff to Ukraine Jan 2009 (13 days, 18 European countries affected). Nord Stream 1 completion 2011: deliberate bypass of Ukraine transit, eliminating Ukrainian leverage. Nord Stream 2 completion 2021: pushed through despite US sanctions threats. Gas supply reductions to Europe Aug-Sep 2022 (Nord Stream 1 reduced to 20% capacity then zero). Nord Stream pipeline explosions Sep 26, 2022: deliberately ambiguous attribution. Energy as weapon is the most consistently deployed non-military tool."
+      },
+      {
+        "label": "energy_revenue_dependency_on_policy",
+        "value": 0.78,
+        "evidence": "Energy revenues (oil+gas) constituted 45-50% of Russian federal budget revenue 2000-2022. High oil prices 2003-2008 and 2010-2014 enabled military buildup and social spending. Oil price collapse 2014-2016 ($115→$45/barrel) contributed to 2015-2016 recession (-3.7% GDP). Pre-2022 budget breakeven oil price ~$40-45/barrel, rose to ~$70+ post-invasion due to sanctions costs. Dependency creates both motivation (protect energy leverage) and vulnerability (oil price as external constraint)."
+      },
+      {
+        "label": "sanctions_resilience_preparation_premeditation",
+        "value": 0.87,
+        "evidence": "Post-2014 Crimea sanctions triggered 'Fortress Russia' strategy: (1) National Payment Card System (Mir) launched 2015 as VISA/Mastercard alternative. (2) SWIFT alternative (SPFS) development accelerated. (3) Foreign currency reserves doubled from $350bn to $640bn by 2021. (4) Food import substitution: banned Western food imports 2014, domestic production expanded. (5) De-dollarization: dollar share of reserves fell from 40% to 16% by 2022. The 8-year gap between 2014 and 2022 was used for systematic sanctions-proofing, confirming that 2022 invasion was planned well in advance."
+      },
+      {
+        "label": "sanctions_response_speed_and_adaptation",
+        "value": 0.82,
+        "evidence": "Feb 28, 2022 (4 days after invasion): Emergency CBR rate hike to 20%, capital controls imposed, foreign currency accounts restricted. Mar 2022: Export revenues required to convert 80% to rubles (later reduced to 50%). Apr 2022: 'Unfriendly countries' required to pay gas in rubles. May 2022: Ruble strengthened back to pre-invasion levels despite unprecedented sanctions. Adaptation to asset freeze ($300bn foreign reserves frozen): shift to gold, yuan, and domestic debt instruments. Speed and sophistication of 2022 response exceeded Western expectations — reflection of 8-year preparation."
+      },
+      {
+        "label": "military_escalation_threshold",
+        "value": 0.84,
+        "evidence": "Escalation ladder: Chechnya I (1994-96, lost) → Chechnya II (1999-2009, won) → Georgia (Aug 2008, 5-day war) → Crimea (Mar 2014, bloodless) → Donbas proxy war (Apr 2014-2022) → Full invasion (Feb 24, 2022). Each step tested Western response and found insufficient resolve. 2008 Georgia: no NATO response. 2014 Crimea: only sanctions, no military response. 2014-2021: NATO did not deploy troops to Ukraine. 2022 full invasion: assessed Western support would be limited and fleeting. Escalation is calibrated, not impulsive — but calibration can be wrong."
+      },
+      {
+        "label": "risk_assessment_accuracy",
+        "value": 0.31,
+        "evidence": "Historical accuracy: Chechnya II (2000) — accurate (won). Georgia (2008) — accurate (fast victory). Crimea (2014) — accurate (no military resistance). Donbas (2014) — mostly accurate (frozen conflict achieved). 2022 Full invasion — catastrophically inaccurate: assessed 3-day Kyiv capture, expected Ukrainian collapse, expected Western disunity. All three assessments were wrong. Ukraine resisted, Western unity was unprecedented ($150bn+ military aid). By 2026, Russia had taken ~20% of Ukrainian territory at cost of ~300-500k casualties, $1.5tn+ economic damage, and permanent NATO expansion. The 2022 risk assessment failure is the largest intelligence/political error of his career."
+      },
+      {
+        "label": "sunken_cost_commitment_post_failure",
+        "value": 0.93,
+        "evidence": "Despite 2022 assessment failure, continued and escalated: mobilized 300,000 troops (Sep 2022), annexation of 4 oblasts despite not controlling them (Sep 30, 2022), nuclear threats repeatedly, destroyed civilian infrastructure systematically (Oct 2022 onward), launched largest industrial production drive since Soviet era. No adjustment toward de-escalation or negotiation. Pattern: once committed, sunk-cost logic dominates — retreat is more threatening to power than continued losses. Chechnya I is the counter-example (accepted loss), but in Chechnya I he was not yet President."
+      },
+      {
+        "label": "ukraine_geopolitical_fixation",
+        "value": 0.96,
+        "evidence": "'On the Historical Unity of Russians and Ukrainians' essay (Jul 12, 2021): explicitly denied Ukrainian nationhood. Bucharest NATO summit (Apr 2008): declared Ukraine and Georgia joining NATO 'direct threat.' 2014 Crimea annexation: 'Crimea has always been an inalienable part of Russia.' 2022 invasion stated goal: 'denazification and demilitarization.' Ukraine is uniquely non-negotiable in Putin's worldview — it is the single issue where he has violated normal cost-benefit reasoning. This is the highest-value fixed belief in his decision space."
+      },
+      {
+        "label": "nato_expansion_red_line_commitment",
+        "value": 0.89,
+        "evidence": "Consistent messaging since 2007 Munich Security Conference speech: NATO expansion to former Soviet space is existential threat. 2008: Letter to NATO before Bucharest summit warning against Ukraine/Georgia MAP. 2021 ultimatum demands (Dec 2021): insisted on written guarantee Ukraine would never join NATO. 2022 stated casus belli: NATO/Ukraine threat. Ironically, 2022 invasion triggered Finland+Sweden NATO accession (2023-2024), the worst possible outcome for his stated red line — but he did not retreat from the Ukraine war despite this."
+      },
+      {
+        "label": "oligarch_management_coercive_control",
+        "value": 0.88,
+        "evidence": "Khodorkovsky arrest Oct 2003 (Yukos CEO, Russia's richest man, political rival): sentenced to 9 years, assets seized. Gusinsky/Berezovsky: forced exile 2000-2001 for controlling opposition media. Post-2022 oligarch deaths: 8-10 prominent businessmen died in suspicious circumstances 2022-2023 (falls from windows, etc.), all having expressed anti-war sentiment. Abramovich: used as back-channel negotiator (unique case of survival via usefulness). Model: loyalty + usefulness = protection; dissent = prison, exile, or death. Not random — calibrated to maintain fear without creating full opposition."
+      },
+      {
+        "label": "oligarch_tolerated_wealth_conditionality",
+        "value": 0.72,
+        "evidence": "Explicitly stated 'equidistance' deal in 2000: oligarchs keep wealth if they stay out of politics. Potanin (Norilsk Nickel), Fridman (Alfa), Usmanov: survived by staying politically neutral. Those who funded political opposition (Khodorkovsky via Open Russia, Gusinsky via NTV, Berezovsky via ORT anti-Putin coverage): all destroyed. Post-2022 modification: oligarchs now also required to not criticize the war. The deal became progressively more restrictive."
+      },
+      {
+        "label": "central_bank_independence_tolerance",
+        "value": 0.61,
+        "evidence": "Nabiullina appointed 2013, reappointed 2018 and 2023 — kept despite her reportedly attempting to resign before the 2022 invasion. Feb-Mar 2022: allowed her to implement emergency 20% rate hike and capital controls despite these being painful domestically. Jun 2022: allowed rate cuts as stability returned. Maintained her through intense political pressure from industrialists and state enterprises wanting cheap credit. Counter-evidence: CBR does not operate independently on exchange rate (government directs FX sale mandates), and CBR policies must align with presidential economic priorities. 'Independence' is operational, not strategic."
+      },
+      {
+        "label": "nabiullina_retention_rationale",
+        "value": 0.77,
+        "evidence": "Retained Nabiullina through 2022 war crisis for instrumental reasons: (1) She successfully stabilized the ruble in 2014 (17% rate, ruble recovered). (2) She managed the banking sector cleanup (revoked 400+ licenses 2013-2019), building institutional credibility. (3) Her technical competence and international reputation gave the CBR actions credibility with markets. (4) Replacing her mid-crisis would signal panic. The retention is a rational calculation, not ideological commitment to CB independence."
+      },
+      {
+        "label": "ruble_crisis_2014_response_effectiveness",
+        "value": 0.73,
+        "evidence": "Dec 2014 ruble crisis: ruble fell 50% vs dollar in 2014 ($1 = 37 rub → 80 rub). CBR emergency rate hike Dec 16, 2014: 650bp hike to 17% (largest single hike in major economy since 1998 Russia). Effect: ruble temporarily stabilized, then gradually recovered to ~60/dollar range by 2015. Rate then cut to 11% by 2015. Effectiveness: crisis contained but not reversed — ruble never returned to pre-2014 levels (~32/dollar). Oil price collapse was the fundamental driver; monetary policy bought time."
+      },
+      {
+        "label": "ruble_crisis_2022_response_effectiveness",
+        "value": 0.81,
+        "evidence": "Feb 28, 2022: CBR rate to 20%, capital controls. Mar 11: withdrawal limits ($10k max/month). Mar 23: mandatory ruble payment for gas (Gazprombank loophole). Mar 28: 80% forex export revenue conversion mandate. Result: ruble recovered from 150/dollar (Mar 7) to 60/dollar (Jun 2022) — stronger than pre-invasion. However: this was a managed rate supported by capital controls + energy windfall revenue, not genuine market strength. After Western oil price cap ($60/barrel, Dec 2022) and reduced energy revenue, ruble depreciated to 90-100/dollar range by late 2023."
+      },
+      {
+        "label": "import_substitution_ideology_commitment",
+        "value": 0.76,
+        "evidence": "Post-2014 import substitution program (импортозамещение): agricultural success (pork, poultry, grain — Russia became wheat exporter). Failure areas: semiconductors, aviation components, machine tools (Boeing/Airbus parts dependency exposed post-2022). Post-2022 acceleration: $34bn import substitution fund, mandatory use of Russian software in state entities. Aviation crisis: fleet of ~1300 Western planes stranded without parts, spare parts black market, local production of Il-96 and Tu-214 restarted. The program is real but chronically underdelivers in advanced manufacturing."
+      },
+      {
+        "label": "china_pivot_post_2022_dependency_creation",
+        "value": 0.85,
+        "evidence": "Pre-2022 trade: China ~18% of Russian trade. Post-2022: China share exceeded 40% by 2023. Power of Siberia 2 negotiations: Putin sought deal to replace Europe gas revenue (not yet finalized due to Chinese price demands). Yuan as reserve currency: CBR yuan holdings rose from <1% to >17% by 2023. Chinese banks replaced Western counterparts for cross-border payments (CIPS). Chinese car imports filled Western vacuum (40%+ of Russian car market by 2023). Critical dependency: if China imposed secondary sanctions, Russia's economy would collapse. Putin accepted this dependency as lesser evil vs. Western sanctions."
+      },
+      {
+        "label": "nuclear_threat_calibration_precision",
+        "value": 0.68,
+        "evidence": "Nuclear signaling events: Sep 2022 (annexation speech): 'not a bluff' warning. Oct 2022: tactical nuclear exercise. Nov 2022: nuclear doctrine update (lower threshold). Jun 2023 (Wagner mutiny aftermath): no nuclear escalation despite domestic crisis. Jun 2024: nuclear exercises with Belarus. Feb 2025: suspended START treaty participation. Pattern: threats are calibrated to (1) deter direct NATO intervention, (2) erode Western public will to support Ukraine, not to actually use weapons. Each threat is reversible and non-specific. Crossed thresholds (no-fly zone, heavy weapons, F-16s, ATACMS) did not trigger nuclear response — showing threats are deterrent theater, not binding commitments."
+      },
+      {
+        "label": "nuclear_first_use_probability_assessment",
+        "value": 0.12,
+        "evidence": "Despite 3+ years of escalating rhetoric, no nuclear use in Ukraine war. Calculated deterrent value of threats exceeds value of actual use. Chemical/biological weapons (Syria: used by Assad with Russian cover, 2013-2018) not replicated in Ukraine despite incentive. IAEA/Zaporizhzhia nuclear plant: used as hostage/threat but not sabotaged. CIA/intelligence assessments (public statements 2022-2025): consistently assessed low probability of tactical nuclear use. The pattern of threats without action establishes that nuclear signaling is a tactical communication tool, not a genuine operational decision node."
+      },
+      {
+        "label": "information_warfare_as_economic_tool",
+        "value": 0.83,
+        "evidence": "RT (Russia Today) launched 2005 with $30m budget, reached $300m by 2014: deliberate Western soft power counter. Sputnik News 2014: explicitly tied to Ukraine crisis response. Internet Research Agency (troll factory): 2016 US election interference reduced risk perception of Trump presidency (more favorable to Russia). 2016-2020 anti-NATO/anti-EU social media campaigns designed to reduce Western aid willingness. Economic impact: each percentage point of reduced Western support for Ukraine sanctions = reduced cost to Russia. Information operations are not just political — they directly reduce the economic cost of military action."
+      },
+      {
+        "label": "political_survival_primacy_over_economic_optimality",
+        "value": 0.94,
+        "evidence": "2022 invasion decision: economically catastrophic by any standard analysis (Russia GDP fell 2.1% 2022, lost $300bn reserves, long-term capital flight, technology access eliminated, human capital exodus of 700k+). Decision was made anyway because political survival requires narrative control over Ukraine. Oligarch destruction (Khodorkovsky): economically costly (Yukos was world's 5th largest oil company, destroyed shareholder value), done for political survival. Energy cutoffs to Europe 2022: cost Russia €50bn+ in lost revenue, done for coercive signaling. Every major economic sacrifice has been made to preserve political control."
+      },
+      {
+        "label": "kgb_tradecraft_patience_horizon",
+        "value": 0.86,
+        "evidence": "Multi-decade strategic patience: 1990s — accepted weakness and built power base quietly. 2000-2008 — used oil revenues to rebuild military and state capacity while appearing cooperative with West. 2008 Georgia: tested resolve, found it lacking. 2009-2013: smiled at Obama's 'reset,' built Nord Stream 2, stockpiled reserves. 2014: acted when opportunity (Maidan revolution, Western distraction) appeared. 2014-2021: 8 years of preparation for 2022. This is not impulsive behavior — it is KGB-style long-game thinking. Anomaly: 2022 full invasion appears to break the patience pattern, suggesting either miscalculation or information failure."
+      },
+      {
+        "label": "kompromat_and_leverage_collection",
+        "value": 0.79,
+        "evidence": "FSB/SVR documented operation: Lugovoi (Litvinenko's killer) continues to serve as Duma member — signals that loyalty to Putin overrides Western legal pressure. Skripals poisoning (Mar 2018, Salisbury): GRU officers identified publicly — no accountability, message to potential defectors worldwide. Steele dossier allegations (unverified) re: Trump kompromat. Belarus Lukashenko Oct 2020: Putin saved him from mass protests via security cooperation — created dependency. Kompromat use in domestic politics: almost certain but unprovable (explains why many oligarchs comply without explicit coercion)."
+      },
+      {
+        "label": "domestic_opposition_suppression_economic_tools",
+        "value": 0.87,
+        "evidence": "Navalny: poisoned Aug 2020 (Novichok), imprisoned 2021, killed Feb 2024. Nemtsov: assassinated Feb 2015. Memorial (NGO documenting Soviet repression): liquidated Dec 2021. Post-2022: 'foreign agents' law expanded to essentially all independent media. Meduza (Latvia-based), Novaya Gazeta (Nobel-winning newspaper): forced to suspend. 7,000+ anti-war protesters arrested first week of invasion. Economic tools: bank accounts of NGOs blocked, foreign funding criminalized. Opposition is eliminated before it can organize economically or politically."
+      },
+      {
+        "label": "state_enterprise_preference_over_private",
+        "value": 0.82,
+        "evidence": "Gazprom (state-controlled) dominates gas export. Rosneft (state-controlled) absorbed Yukos assets 2004 and expanded to ~40% of Russian oil production. Rostec (state defense conglomerate): controls 900+ companies. Banking: Sberbank, VTB (both state-controlled) dominate retail banking. Pattern: private enterprises in strategic sectors are gradually absorbed by state structures. BP-TNK forced sale 2012. Shell Sakhalin-2 stake forced transfer to Gazprom 2006 at below-market price. Private ownership tolerated in non-strategic sectors."
+      },
+      {
+        "label": "gdp_growth_tolerance_for_geopolitical_goals",
+        "value": 0.88,
+        "evidence": "Accepted: 2014-2016 recession (-3.7% GDP 2015) for Crimea annexation. 2022-2023: accepted GDP contraction for invasion. Military spending rose from 3.9% to 7.5% of GDP 2022-2024, explicitly crowding out consumption. 2023: defense industry employment surge at expense of consumer sector. This reveals that GDP growth is not a primary objective — it is instrumental to regime stability, and regime stability can tolerate poor growth if war narrative is successfully maintained."
+      },
+      {
+        "label": "living_standards_stability_floor",
+        "value": 0.64,
+        "evidence": "Despite accepting GDP contraction, maintained: (1) Pension payments indexed to inflation. (2) Minimum wage increases. (3) Military family payments ($1,500-3,000/month for combat service, huge for rural Russia). (4) Emergency social transfers to offset sanctions inflation (2022 consumer inflation ~12%). Implicit floor: living standards can decline if (a) decline is offset by nationalist narrative and (b) worst hardship falls on mobilized men (who leave civilian economy). 2022 consumer confidence crash was offset by military spending multiplier effect in defense-adjacent regions."
+      },
+      {
+        "label": "western_cohesion_underestimation_bias",
+        "value": 0.77,
+        "evidence": "2022 invasion bet: assumed Western sanctions would be limited (as in 2014) and Western public would tire of Ukraine support within months. Both assumptions were wrong. Assessment basis: (1) European energy dependency on Russia (correct concern, but overestimated as constraint). (2) Trump's pro-Russia faction in US politics (correct but insufficient to prevent $150bn+ aid). (3) 'Fatigue' historical precedents (Afghanistan, Iraq). Structural bias: KGB tradecraft tends to see Western liberal democracies as incoherent and self-interested — correct in general but underestimates crisis-driven cohesion."
+      },
+      {
+        "label": "information_environment_isolation_domestic",
+        "value": 0.83,
+        "evidence": "Roskomnadzor (media regulator) blocked Facebook, Instagram, Twitter post-invasion. 'Fake news' law (Mar 2022): up to 15 years prison for contradicting official military narrative. Result: estimated 70%+ of Russians relied on state TV as primary news source by 2022. State TV narrative: 'special military operation' against 'Nazi Ukraine.' Domestic information isolation means Putin faces limited domestic political constraint from military failures. Counter-evidence: some information leaks through VPN (30m+ users), Telegram (partially blocked but accessible)."
+      },
+      {
+        "label": "information_fidelity_from_advisors",
+        "value": 0.38,
+        "evidence": "Evidence of poor information quality in key decisions: (1) 2022 invasion planning assumed Ukrainian collapse in days — this assessment was clearly wrong, suggesting intelligence failure or sycophancy. (2) Generals reportedly told him Ukraine had 'no real army' — post-invasion performance proved false. (3) Economic teams reportedly underestimated sanction depth. Counter-evidence: Nabiullina's 2022 response was well-prepared, suggesting some realistic assessment existed. Paradox: KGB background means Putin prizes intelligence, yet creates an information environment (fear of bearing bad news) that degrades intelligence quality. Probably worst information quality of any major decision in his tenure."
+      },
+      {
+        "label": "personal_wealth_protection_motivation",
+        "value": 0.71,
+        "evidence": "Estimated net worth: $40-70bn (Navalny Foundation estimates, 2022 Pandora Papers). Assets: properties (Gelendzhik palace), yachts (Scheherazade, $700m, impounded Italy), corporate stakes via proxies. Regime survival is necessary for wealth protection — a democratically elected government would likely pursue asset recovery. The wealth-power relationship is circular: power protects wealth, wealth funds power maintenance. Evidence that personal wealth is a significant motivation (not just ideology) for power retention."
+      },
+      {
+        "label": "personal_historical_legacy_obsession",
+        "value": 0.88,
+        "evidence": "'On the Historical Unity' essay 2021: frames himself as reunifier of Russian civilization. 2022 annexation speech: compared himself to Peter the Great's northern conquests. 2000 speech to FSB: 'A small group of FSB agents has accomplished its assignment' (entering politics). Constitutional amendments 2020: removed presidential term limits specifically for himself. The behavior pattern is consistent with someone who believes he is acting on behalf of historical destiny, not just current political survival. This creates the dangerous non-negotiable zone on Ukraine."
+      },
+      {
+        "label": "succession_planning_avoidance",
+        "value": 0.91,
+        "evidence": "No designated successor identified after 25 years. Potential successors have been systematically neutralized: Sobchak (mentor, died 2000), Sechin (too powerful but contained), Patrushev (potential rival, demoted from Security Council Secretary 2024), Medvedev (made PM 2008-2012 as placeholder, then marginalized). Wagner mutiny (Jun 2023): Prigozhin's unique strength was immediately terminated (died in plane crash Aug 2023). Succession planning would imply impermanence — psychologically inconsistent with legacy obsession. This creates a systemic fragility: no transition mechanism exists."
+      },
+      {
+        "label": "wagner_pmc_control_and_destruction",
+        "value": 0.78,
+        "evidence": "Wagner Group created ~2014: plausible deniability tool for Ukraine, Syria, Africa operations. Prigozhin built parallel army of ~50,000 men by 2022-23. Bakhmut campaign: Wagner did most difficult urban fighting while regular army criticized. Jun 23-24, 2023: Wagner mutiny — marched toward Moscow, advanced 800km without military resistance. Turned back by Lukashenko mediation. Prigozhin died in plane crash Aug 23, 2023 (exactly 2 months after mutiny). Lesson: parallel military structures are useful until they threaten primacy — then destroyed. Post-Wagner: Africa operations absorbed into GRU/regular structures."
+      },
+      {
+        "label": "chechen_solution_generalization",
+        "value": 0.74,
+        "evidence": "Chechnya I (1994-96): lost under Yeltsin. Chechnya II (1999-2009): won via overwhelming force + co-option of Kadyrov family (Akhmad then Ramzan). The 'Chechen solution' template: (1) maximum violence to break resistance, (2) install loyal local proxy, (3) massive reconstruction funding to buy loyalty. Attempted application: Georgia 2008 (partial — installed proxy governments in Abkhazia/South Ossetia). Ukraine 2022: attempted to install Yanukovych-style proxy; failed. The template worked in small, isolated, co-optable contexts; failed against larger, NATO-backed adversary."
+      },
+      {
+        "label": "fsb_primacy_in_decision_circle",
+        "value": 0.82,
+        "evidence": "Inner circle composition 2022: Patrushev (ex-FSB Director), Bortnikov (FSB Director), Sechin (ex-FSB, Rosneft CEO), Lavrov (career diplomat, non-FSB but compliant), Mishustin (PM, technocrat, non-security). Security services outnumber economists/technocrats in decision circle. COVID policy 2020: security-services lens dominated (lockdowns as social control, not public health). 2022 invasion decision: reportedly made in a small circle without full cabinet knowledge. FSB primacy means economic factors are filtered through a security lens — 'can we afford this?' is a secondary question to 'does this strengthen security?'"
+      },
+      {
+        "label": "fiscal_conservatism_base_disposition",
+        "value": 0.67,
+        "evidence": "National Wealth Fund (oil reserve fund) built up to $182bn pre-2022. Kudrin finance ministry model (2000-2011): balanced budgets, accumulation of reserves during oil booms. Russia ran primary surpluses in most non-crisis years 2000-2021. Post-2022: military spending overrides fiscal conservatism (defense 7.5% of GDP by 2024). Counter-cyclical fiscal capacity was systematically built — unusual for petrostates. This fiscal discipline pre-war created the buffer that enabled the 2022 sanctions resilience."
+      },
+      {
+        "label": "institutional_facade_maintenance",
+        "value": 0.69,
+        "evidence": "Maintains formal democratic institutions (Duma, elections, courts, CBR) while emptying them of independent power. This facade serves: (1) domestic legitimacy narrative. (2) international diplomatic recognition. (3) economic transactions (contracts, court enforcement for business). CBR as example: technically independent, formally publishes data and holds rate-setting meetings — but strategic direction is politically determined. Facade breaks only under extreme pressure (2022: Navalny killed, multiple NGOs dissolved, 'foreign agents' law became blanket tool)."
+      },
+      {
+        "label": "cyber_warfare_as_economic_coercion",
+        "value": 0.78,
+        "evidence": "NotPetya (Jun 2017): GRU operation targeting Ukraine spread globally, caused $10bn+ damage (Maersk, Merck, FedEx, Mondelez). Estonian cyber attacks 2007: DDOS on banking/government systems during Bronze Soldier dispute. SolarWinds (2020): SVR penetration of US government networks. Colonial Pipeline 2021 (DarkSide, Russia-tolerated): caused US gas supply disruption. Pattern: cyber operations used to raise costs of anti-Russia policy without triggering kinetic response threshold. NotPetya's accidental global spread revealed the 'offensive spillover' risk of this tool."
+      },
+      {
+        "label": "petrodollar_recycling_via_europe_dependency",
+        "value": 0.73,
+        "evidence": "Nord Stream 1 (2011): €7.4bn project, gave Russia direct access to German/European market. Nord Stream 2 (2021): additional €11bn, opposed by US but Germany supported. Gas pricing strategy: below-market long-term contracts to create dependency, then price hikes when leverage established. European dependency by 2021: 45% of EU gas imports from Russia, 27% of oil. Deliberately cultivated over decades to create economic deterrent against sanctions. Post-2022 destruction: Europe cut gas imports from 45% to <10% by 2023, eliminating the leverage at enormous economic cost to Russia."
+      },
+      {
+        "label": "post_soviet_space_sphere_of_influence_priority",
+        "value": 0.91,
+        "evidence": "Belarus (2020): saved Lukashenko from democratic revolution via security cooperation + loans. Kazakhstan (Jan 2022, one month before Ukraine invasion): CSTO deployed to suppress protests — tested rapid deployment capability. Armenia-Azerbaijan conflict (2020, 2023): Russia used as security guarantor, then failed to defend Armenia — revealing declining influence. Moldova/Transnistria: maintained frozen conflict since 1992. Georgia/Abkhazia/South Ossetia: recognized independence 2008. CSTO (Collective Security Treaty Organization): maintained as Russian-dominated security structure. Any defection from this sphere triggers response."
+      },
+      {
+        "label": "international_law_as_tactical_tool",
+        "value": 0.84,
+        "evidence": "Uses international law selectively: (1) Kosovo independence 2008 used as precedent for Crimea/Donbas. (2) UN Security Council veto used to block accountability for Syria chemical attacks. (3) ICC arrest warrant (Mar 2023, child deportations): dismissed, but restricted travel options. (4) Budapest Memorandum (1994, security guarantees to Ukraine in exchange for nuclear disarmament): violated 2014 and 2022. (5) INF Treaty: violated 2019, then formally withdrew. Pattern: international law is cited when convenient (Kosovo precedent), violated when inconvenient (Budapest Memorandum). No ideological commitment."
+      },
+      {
+        "label": "inflation_tolerance_domestic",
+        "value": 0.58,
+        "evidence": "2014 crisis inflation: peaked at 16.9% (Mar 2015), accepted as unavoidable. 2022 crisis inflation: peaked at 17.8% (Apr 2022), accepted. Long-run inflation target (CBR): 4%, rarely achieved. Pattern: short-term inflation spikes tolerated if caused by external shocks or sanctions. Persistent inflation tolerated less — drives pressure on CBR. 2024: inflation persistently above 8% with CBR rate at 16% — Putin publicly criticized high interest rates (Sberbank CEO Gref also criticized), showing that prolonged high inflation/rates do create political pressure."
+      },
+      {
+        "label": "economic_modernization_vs_rent_seeking_trade_off",
+        "value": 0.29,
+        "evidence": "Skolkovo tech hub (2010): high-profile modernization initiative, largely failed (brain drain, corruption). Silicon Valley envoy Medvedev era (2009-2012): Russian tech entrepreneurs found legal insecurity too great. Post-2022: 700,000+ educated Russians emigrated ('relocation'), primarily to Armenia, Georgia, Kazakhstan, UAE, EU. Long-run failure: Russia did not diversify from energy dependence despite 25 years of stated ambitions. Root cause: property rights insecurity (Khodorkovsky lesson → no entrepreneur builds large independent company) and rent-seeking by siloviki makes genuine innovation too costly vs. extraction."
+      },
+      {
+        "label": "response_to_financial_crisis_2008_global",
+        "value": 0.65,
+        "evidence": "2008 global financial crisis hit Russia hard: GDP fell 7.8% in 2009 (worst G20 performer). Response: $200bn reserve deployment to defend ruble, bank recapitalizations, stimulus package. Chose reserves over rate hike (unlike 2014). Recovery: GDP rebounded +4.5% in 2010. Lesson learned: needed even larger reserves + more domestic substitution. Post-2008: built National Wealth Fund, reduced foreign debt, increased gold reserves. The 2008 crisis directly informed the 2014-2022 'Fortress Russia' preparation."
+      },
+      {
+        "label": "accountability_for_military_failure",
+        "value": 0.43,
+        "evidence": "Ukraine 2022 military failures: Generals replaced — Gerasimov demoted from Ukraine command (replaced by Dvornikov Apr 2022, then Surovikin Oct 2022, then Gerasimov returned Jan 2023). Shoigu (Defense Minister) replaced by Belousov (economist!) May 2024 — remarkable shift to production economics over battlefield tactics. But no public accountability — no general court-martialed for 2022 failures. Prigozhin's criticism of generals (Shoigu, Gerasimov) was the proximate cause of the mutiny. Response to failure: reshuffle quietly, not fire-and-investigate. Protects loyalty at cost of accountability."
+      },
+      {
+        "label": "economic_data_manipulation_tolerance",
+        "value": 0.71,
+        "evidence": "Rosstat (statistics agency) GDP revision history: 2022 GDP declared -2.1% (widely seen as understatement). IMF/World Bank independent estimates ranged -3.5% to -6.5% for 2022. Casualties data: defense ministry reports <10,000 Russian dead (2022-2025); US/NATO/Oryx estimates 100,000-150,000+ dead. Post-2022 GDP growth statistics disputed (defense spending inflates GDP while civilian economy contracts). Pattern: data is managed, not falsified outright — but methodology changes during political pressure. This is a feature for domestic consumption, a bug for calibrated external decisions."
+      },
+      {
+        "label": "trade_war_response_capacity",
+        "value": 0.74,
+        "evidence": "Counter-sanctions 2014: banned EU/US/Canadian agricultural imports, affecting €6.5bn of European exports annually. 'Gas for rubles' decree Apr 2022: European companies forced to open Gazprombank ruble accounts or risk cutoff. Grain deal (Black Sea, Jul 2022): used as negotiating leverage, suspended Jul 2023 citing insufficient concessions on Russian fertilizer/food exports. Pattern: trade retaliation is calibrated to impose maximum pain on counterparties while maintaining essential Russian exports. Food/energy are primary levers."
+      },
+      {
+        "label": "decision_reversibility_preference",
+        "value": 0.21,
+        "evidence": "Major decisions are almost never reversed: Crimea annexation (2014) — no reversal despite sanctions. Khodorkovsky imprisonment — only released 2013 (after 10 years) for symbolic gesture. 4 oblast annexation Sep 2022 — no reversal despite not controlling the territory. MH17 (2014): denied, never acknowledged. Skripal poisoning: denied, never acknowledged. Pattern: reversal = weakness signal in KGB worldview. Even when reversal would be economically optimal, the signaling cost prevents it. The 2013 Khodorkovsky release is the clearest exception — done when cost-benefit of continued imprisonment exceeded benefit."
+      },
+      {
+        "label": "health_and_physical_capacity_uncertainty",
+        "value": 0.52,
+        "evidence": "Age 73 as of Oct 2025. Parkinson's disease rumors (2021-2022: visible hand tremors, leg movements, swollen face at some appearances). Cancer rumors (thyroid? blood? disputed). Extended absence Apr-May 2022 (20+ days without public appearance). Meeting format changes 2022-2024: extremely long tables (Macron, Scholz meetings), isolation from crowds. Physical capacity is an uncertainty variable — if health is declining, decision horizon shortens, raising risk of acceleration of legacy-seeking actions (Ukraine). This is the highest-uncertainty personal variable."
+      },
+      {
+        "label": "long_term_economic_planning_horizon",
+        "value": 0.74,
+        "evidence": "National projects 2019-2024 (14 national projects, 25 trillion ruble investment program): infrastructure, healthcare, education. Strategy 2035 documents. Siberia development programs. Counter-evidence: 2022 decision destroyed many of these long-term programs (technology access, FDI, education). Long-term planning exists in peacetime mode; war-time mode compresses to 3-5 year horizon. The disconnect between stated long-term strategy and actual decisions (energy dependency on China replaces energy leverage over Europe) suggests planning is more PR than operational."
+      },
+      {
+        "label": "belousov_appointment_economic_war_doctrine",
+        "value": 0.79,
+        "evidence": "Sergei Shoigu replaced by Andrei Belousov (former economy minister, Putin economic advisor) as Defense Minister May 2024. This is historically unprecedented — an economist running a wartime defense ministry. Rationale: Putin explicitly cited need to integrate defense industry into economy, increase military production ROI, and better convert economic capacity into military output. This reveals a strategic shift from 'winning through military tactics' to 'winning through economic mobilization superiority' — a World War II-era industrial warfare doctrine being explicitly adopted."
+      },
+      {
+        "label": "sanctions_evasion_third_country_networks",
+        "value": 0.81,
+        "evidence": "Post-2022 sanctions evasion network: UAE (Dubai as financial hub for Russian elites), Turkey (Erdogan maintained trade), India (Russian oil purchases at discounts, $2-3bn/month by 2023), China (direct supply chain), Kazakhstan/Armenia/Georgia (re-export/transshipment routes). Microelectronics: military-grade chips imported via third-country shell companies. Aircraft spare parts: black market via Central Asia. Russian exports to Armenia surged 50% (2022), Kazakhstan 30% — most re-exported to Russia. Sanctions are porous but raise costs — effectiveness is approximately 30-40% reduction in targeted technology access, not 100%."
+      },
+      {
+        "label": "asymmetric_warfare_preference",
+        "value": 0.78,
+        "evidence": "Consistent use of asymmetric tools where direct military would trigger NATO response: (1) Hybrid war (little green men Crimea 2014), (2) Cyber (NotPetya, SolarWinds), (3) Information operations (IRA, RT), (4) Energy coercion (Nord Stream manipulation), (5) Wagner PMC (Syria, Africa, Ukraine initial), (6) Assassination (Skripal, Navalny, Prigozhin). Asymmetric tools have a cost threshold: crossing it forces symmetrical confrontation. The 2022 full invasion was a departure from asymmetric doctrine, driven by conviction that Ukraine window was closing."
+      },
+      {
+        "label": "population_sacrifice_tolerance_military",
+        "value": 0.79,
+        "evidence": "Sep 2022 partial mobilization: 300,000 conscripts called. Estimates of Russian military deaths: 100,000-150,000 killed (US/NATO intel), 300,000+ total casualties. 2022-2024 storm tactics (Bakhmut, Avdiivka): massed infantry assaults with high casualties to capture tactically marginal positions. Storming Bakhmut cost estimated 20,000-30,000 Russian dead. No public accounting of casualties — official death toll listed as <15,000 (widely regarded as gross undercount). Historical precedent: Afghanistan 1979-1989 (~15,000 Soviet dead), Chechnya II (~20,000 Russian dead). The willingness to accept mass casualties without democratic political accountability is a structural feature of authoritarian warmaking."
+      },
+      {
+        "label": "military_industrial_production_mobilization",
+        "value": 0.82,
+        "evidence": "2023-2024 Russian defense production surge: artillery shell output rose from ~1m/year (2022) to ~3m/year (2023) to ~4.5m+/year (2024). Tank production: ~300/year (2022) to ~1,500/year (2024 estimates). Defense spending: 3.9% GDP (2021) → 6.7% (2023) → 7.5% GDP (2024 budget) → approaching 10% (2025 estimates). Soviet-era defense factories reactivated. Three-shift work schedules introduced. This is a genuine wartime industrial mobilization — not fully Soviet scale but significant. The Belousov Defense Ministry appointment (May 2024) explicitly aimed at maximizing military production efficiency. Russia is out-producing Western military aid to Ukraine on shells and some systems by 2024."
+      },
+      {
+        "label": "natural_resource_sector_strategic_control",
+        "value": 0.85,
+        "evidence": "Systematic renationalization of strategic resources under Putin: Yukos (Khodorkovsky) → Rosneft (Sechin). Sakhalin-1 and Sakhalin-2: forced transfer from ExxonMobil/Shell/Mitsubishi to Gazprom/Rosneft (2022). Gazprom: ~17% of global gas production, 100% state-controlled. ALROSA (diamonds): state-controlled. Norilsk Nickel (palladium, nickel): effectively state-aligned via Potanin (loyal oligarch). The model: private ownership tolerated in non-strategic sectors; strategic resources (energy, metals, defense) are state assets. Post-2022: Western energy companies exited or were forced out (BP-TNK, Shell Sakhalin, ExxonMobil Sakhalin). Russia became more state-dominated in energy than at any point since Soviet era."
+      },
+      {
+        "label": "ukraine_war_domestic_narrative_control",
+        "value": 0.87,
+        "evidence": "Official narrative: 'special military operation' (zakон forbids calling it war). 'Denazification' of Ukraine. Protection of Russian-speaking population in Donbas. NATO aggression response. Narrative reach: state TV viewership ~70% primary news source. Key audience: older Russians (50+), rural regions, low-education demographics. Young urban Russians (18-35): highest skepticism, VPN usage, emigration (700k+). Feb 2024: Navalny death briefly shifted public sentiment, but no sustained mobilization. Narrative maintenance enables continued military operation without democratic consent mechanism. Loss of narrative control is the single greatest domestic political risk."
+      },
+      {
+        "label": "syria_middle_east_engagement_pattern",
+        "value": 0.74,
+        "evidence": "Sep 30, 2015: Russia entered Syrian civil war (initially anti-ISIS framing, primarily anti-rebel forces supporting Assad). Genuine strategic calculation: (1) Tartus naval base (only Russian Mediterranean base) preservation. (2) Test new weapons systems in live combat. (3) Demonstrate power projection to Middle East actors. (4) Create negotiating leverage for Ukraine-related diplomacy. Syria military success (Assad survived) was Putin's best foreign policy outcome 2015-2020. Tested weapons subsequently deployed Ukraine: Kh-101 cruise missiles, Su-57 (limited), T-90 tanks. Syria as laboratory for Ukraine: key insight from 2015-2020 deployment."
+      },
+      {
+        "label": "turkey_erdogan_leverage_balance",
+        "value": 0.69,
+        "evidence": "Russia-Turkey relationship: simultaneous adversaries (Syria proxy war, Libya, Armenia-Azerbaijan) and partners (TurkStream pipeline, S-400 purchase, sanctions evasion conduit, grain deal intermediary, tourism revenues). Erdogan mediated Black Sea grain deal (Jul 2022), Istanbul prisoner exchanges. Turkey maintained trade with Russia despite NATO membership — F-16 purchase leverage over US (Erdogan got F-16s partly by not fully sanctioning Russia). The relationship is transactional and based on mutual exploitation of each other's contradictions with Western allies. Putin does not trust Erdogan but finds him useful — and vice versa."
+      },
+      {
+        "label": "iran_north_korea_axis_deepening",
+        "value": 0.78,
+        "evidence": "Post-2022 military cooperation: Iran supplied Shahed-136 drones (100s deployed against Ukraine infrastructure Oct 2022+). North Korea: artillery ammunition supplies (shells, ~1-2m rounds by late 2023), ballistic missiles (Hwasong-11 deployed 2024). In exchange: Russia supplied Iran with satellite technology, advanced fighter aircraft components. DPRK received food aid, energy supplies, economic concessions. This is the formation of a sanctions-evading military supply chain. Intelligence sharing between Iran, Russia, DPRK reportedly expanding. China watching but not directly supplying military material (avoiding secondary sanctions). Axis creates mutual deterrence-by-entanglement with Western sanctions regimes."
+      },
+      {
+        "label": "ceasefire_negotiation_conditions_revealed",
+        "value": 0.44,
+        "evidence": "Revealed conditions (2022-2025 various backchannel signals): (1) Ukraine renounces NATO membership claim. (2) Recognition of Russian control over Crimea and (at minimum) 2022-held territory. (3) Demilitarization limits on Ukrainian armed forces. (4) Neutrality status for Ukraine. Conditions that are NOT revealed as flexible: Ukraine's right to exist (Putin's essays notwithstanding, operational demands preserve Ukrainian state). Russian territorial demands have grown with military successes — occupied 27% of Ukraine by 2025. The revealed preference: peace negotiations are a pressure management tool, not a genuine offramp, until battlefield balance makes the status quo unacceptable."
+      },
+      {
+        "label": "africa_middle_east_influence_expansion",
+        "value": 0.71,
+        "evidence": "Wagner/Russian military presence in Africa: Mali (2021, ousted French force), Central African Republic (2018), Libya, Sudan, Mozambique (briefly), Niger (2023). Russia-Africa Summit (Jul 2023, St. Petersburg): 49 African heads of state or government. Africa grain deal leverage: Russia's 2023 unilateral suspension of Black Sea grain deal created food security crisis in African importing nations — then used this as leverage to demand removal of obstacles to Russian food/fertilizer exports. The Africa strategy: fill vacuums left by Western disengagement, extract resources, establish influence, create UN voting bloc (blocking Ukraine-related resolutions)."
+      },
+      {
+        "label": "propaganda_rt_effectiveness_and_limits",
+        "value": 0.61,
+        "evidence": "RT (Russia Today): banned by EU, UK, Canada (Mar 2022), deplatformed by YouTube in Europe. Effectiveness pre-ban: 70m weekly viewers (claimed). Post-ban: audience collapsed in Europe. Telegram channels, YouTube channels maintained by proxies. Sputnik: similarly restricted. Information warfare effectiveness: better in Global South (India, Africa, Middle East — RT still active) than in West (where credibility was destroyed by Ukraine war coverage). The Western information warfare countermeasures (platform bans, label requirements) significantly reduced RT reach. Counter: alternative channels (Telegram, encrypted) partially compensate. Net assessment: information operations are effective at the margins, not decisive."
+      },
+      {
+        "label": "economic_growth_record_first_term",
+        "value": 0.71,
+        "evidence": "2000-2008 GDP growth: average 7.0%/year. Real wages rose 150% 2000-2008. Poverty rate fell from 29% to 13.4%. Life expectancy rose. Cause: oil windfall (oil price $25 → $130/barrel 2003-2008), fiscal consolidation (Kudrin), political stability after 1990s chaos. Legitimate governance legitimacy was built on this material improvement — 'the Putin prosperity.' This prosperity baseline explains his political durability: Russians compare current conditions (even wartime) against the 1990s chaos, not against Western standards. Growth record gives credibility to claims that he brought stability."
+      },
+      {
+        "label": "personal_investment_in_sports_soft_power",
+        "value": 0.55,
+        "evidence": "2014 Sochi Olympics ($51bn, most expensive in history): deliberate soft power investment. 2018 FIFA World Cup: Russia received best international PR of any event since 2008 crisis. State Sports Minister: systematic doping program (McLaren Report 2016: 1,000+ Russian athletes benefited, institutional program). IOC bans partially imposed but Russia competed under neutral flags. Pattern: sports are used as legitimacy and soft power tools, with willingness to cheat systematically. Post-2022: Russia barred from most major international sports events, eliminating the soft power channel. Sports as soft power is now largely non-functional as a tool."
+      },
+      {
+        "label": "constitutional_term_limit_manipulation",
+        "value": 0.89,
+        "evidence": "2008: Could not serve third consecutive term → installed Medvedev as president, served as PM. 2012: Returned to presidency (Medvedev served 2008-2012 as placeholder). 2020 constitutional amendments: 'reset' term counter, allowing Putin to serve until 2036 (at age 83). The 'reset' provision was the key amendment — the rest of the 2020 constitutional package (God in constitution, Russian primacy in international law) was political packaging. The institutional manipulation of term limits is the clearest evidence that formal constitutional rules are subordinate to power maintenance objectives. No other G8-era leader has so explicitly manipulated constitutional limits."
+      },
+      {
+        "label": "media_control_evolution_2000_2022",
+        "value": 0.83,
+        "evidence": "2000-2001: Gusinsky's NTV (independent, anti-Putin) → pressure → sold to Gazprom-Media. Berezovsky's ORT → pressure → sold. Ekho Moskvy radio (mildly independent): survived until 2022. Novaya Gazeta: survived with warnings until 2022, suspended after invasion. 2022: essentially all independent Russian journalism either shut or in exile. Russian journalists killed: 38 since 2000 (CPJ data). The process was gradual (2000-2014: squeeze, 2014-2022: restrict, 2022: eliminate) — not a sudden switch. This graduated approach mirrors KGB tradecraft: establish control incrementally, not through dramatic coup."
+      },
+      {
+        "label": "response_to_economic_shock_1998_analogue",
+        "value": 0.67,
+        "evidence": "Russia 1998 default context: Putin was FSB Director, watching from inside. The 1998 crisis (ruble -75%, sovereign default, Yeltsin political collapse) shaped his economic security doctrine. Post-2000 policy explicitly designed to never repeat 1998: (1) Reserve accumulation. (2) Debt reduction (Russia went from most indebted to least indebted major economy in 15 years). (3) Balanced budgets. (4) No foreign currency denominated sovereign debt. These policies were institutionalized before his presidency through Kudrin (Finance Minister, Putin-ally). The 1998 trauma is the root of 'Fortress Russia' fiscal doctrine."
+      },
+      {
+        "label": "populism_domestic_approval_mechanism",
+        "value": 0.72,
+        "evidence": "Approval rating: consistently 65-85% in Levada Center polls (with caveat that polls in authoritarian states measure comfort with stating approval, not genuine belief). Post-Crimea: 86% (Mar 2014). Post-invasion: rose from 69% to 83% in Mar 2022 (rally-round-flag). Mechanisms: (1) State TV narrative dominance. (2) Real wage growth 2000-2008. (3) Crimea nationalist narrative. (4) 'The West hates Russia' siege mentality cultivation. (5) Military employment as economic support in stagnant regions. The approval mechanism is not purely propaganda — there is genuine Russian nationalist sentiment and genuine resentment of 1990s humiliation that Putin channels."
+      },
+      {
+        "label": "economic_statecraft_vs_military_balance",
+        "value": 0.66,
+        "evidence": "2000-2012: economic statecraft dominant (energy leverage, trade, investment attraction). 2012-2022: gradually shifting to military. 2022-present: military-dominant with economic tools as secondary. The shift reflects: (1) 2012 protest wave convinced him soft power is insufficient against domestic opposition. (2) 2014 Western response to Crimea showed economic statecraft had limits. (3) 2022: explicit choice to use military force when economic/political tools could not achieve objectives. Belousov defense appointment (2024): integrating economic management INTO military tool, not alongside it. The economic-to-military shift is irreversible under current political logic."
+      },
+      {
+        "label": "privatization_era_attitude_reversal",
+        "value": 0.79,
+        "evidence": "1990s: Russia implemented radical privatization (voucher privatization, loans-for-shares). Putin initial position (2000): accepted privatization results, only targeted oligarchs who challenged political power. 2003 Yukos: marked reversal to state control in strategic sectors. 2022 foreign company exits: nationalized or forced sale at negligible prices (McDonald's, Renault, Shell Sakhalin). Long-run trajectory: state economic share rose from 35% (2000) to 55%+ (2020, OECD estimate) to 60%+ (2024). The reversal is ideological (security) and personal (kleptocratic — state assets provide patronage network). By 2024 Russia's economic structure is closer to late Soviet than to 1990s market model."
+      },
+      {
+        "label": "military_general_officer_accountability",
+        "value": 0.47,
+        "evidence": "2022 Ukraine war: multiple senior commanders fired but zero court-martialed. Surovikin (General Armageddon): promoted Oct 2022, removed Jan 2023, arrested briefly post-Wagner mutiny, then released (apparently cleared). Shoigu: Defense Minister for 11 years, replaced by Belousov May 2024 without explanation or accountability. Gerasimov: Chief of General Staff, was removed from Ukraine command then returned — no accountability. The accountability culture: reshuffle rather than investigate. This protects loyalty (generals know that failure = reassignment not prison if still loyal) but reduces learning from errors. The cultural norm is face-saving reshuffles."
+      },
+      {
+        "label": "energy_transition_russian_response",
+        "value": 0.52,
+        "evidence": "Global energy transition (EV adoption, solar/wind expansion) is existential threat to Russia's primary economic base. Pre-2022 response: some LNG development (Yamal LNG, Arctic LNG projects), modest domestic renewable investment, opposition to EU carbon border adjustment. Post-2022: energy transition accelerated by Western countries in response to war — 'weaponized' diversification. EU gas imports from Russia: 45% (2021) → 8% (2023). Russian strategy: double down on Asia markets (India, China), maintain LNG capacity, hope energy transition proceeds slowly enough for revenue extraction. No serious domestic decarbonization strategy exists — would undermine regime economic model."
+      },
+      {
+        "label": "demographic_decline_migration_response",
+        "value": 0.49,
+        "evidence": "Russia's demographic problem: declining birth rate, high mortality, emigration. 2022 invasion exacerbated: estimated 700,000-1,000,000 Russians emigrated (2022-2023), mostly educated/young. Draft: killed or disabled 150,000-300,000 mostly working-age men. Total demographic loss from war: potentially 1-2 million working-age people (deaths + emigration). Putin's response: pronatalist incentives (maternity capital payments, expanded 2023), immigration restrictions on Central Asian workers loosened pragmatically, Ukrainian deportations (children) — criminally perverse response to demographic decline. No coherent demographic strategy that doesn't also contradict the war itself."
+      },
+      {
+        "label": "petrostate_resource_curse_trajectory",
+        "value": 0.58,
+        "evidence": "Russia demonstrates classic resource curse: (1) Dutch disease effects (2000s oil boom → manufacturing uncompetitive). (2) Rent extraction dominates over productivity growth. (3) Political economy captured by resource rents (Gazprom, Rosneft as patronage networks). (4) Economic diversification consistently promised, never delivered. (5) Oil price dependency: breakeven oil price for budget balance rose from $45 (2012) to $70+ (2024) — counter-intuitive worsening under sanctions (more spending required). The resource curse is structural; no known path out without either (a) regime change or (b) sustained low oil price forcing adaptation."
+      },
+      {
+        "label": "international_crisis_ceasefire_mediator_role_loss",
+        "value": 0.67,
+        "evidence": "Pre-2022: Russia participated as mediator in various conflicts (Nagorno-Karabakh, Syrian civil war, Sahel). Post-2022: credibility as neutral mediator essentially destroyed. Armenia-Azerbaijan 2023: Russia failed to prevent Armenian territorial loss despite CSTO guarantee — exposed Russian guarantee as worthless. Wagner Africa operations 2023-2024: continued post-Prigozhin as GRU operation — Russia still involved but as partner of coup governments, not peacemaker. The geopolitical role transformation: Russia went from a power with legitimate mediator status to one confined to a 'revisionist axis' with Iran, North Korea. This limits future diplomatic tools."
+      },
+      {
+        "label": "g7_g20_exclusion_impact",
+        "value": 0.63,
+        "evidence": "G8 suspension (Mar 2014): Russia excluded after Crimea annexation (G8→G7). G20: Russia not excluded but increasingly isolated at summits. G20 Bali (Nov 2022): Lavrov walked out during Ukraine discussion; most leaders boycotted session when Russia speaking. G20 India (Sep 2023): Putin did not attend (ICC arrest warrant). APEC 2022, 2023: Putin absent. UN Security Council: Russia still holds veto, remains member, uses it systematically. The institutional exclusions reduce Russia's diplomatic influence but the UN veto preserves one key blocking instrument. Putin adapted to exclusion by building alternative forums (SCO, BRICS, Russia-Africa summits)."
+      },
+      {
+        "label": "brics_expansion_as_alternative_architecture",
+        "value": 0.71,
+        "evidence": "BRICS+ expansion (South Africa summit Aug 2023): invited Argentina (declined under Milei), Ethiopia, Iran, Saudi Arabia, UAE, Egypt to join. BRICS finance ministers: discussions on alternative payment system, de-dollarization. New Development Bank (BRICS bank): established 2014, Dilma Rousseff (post-Brazil presidency) appointed president. SCO (Shanghai Cooperation Organisation): Iran, Belarus admitted. Russia's strategy: build a 'counter-G7' institutional architecture. Practical impact limited (BRICS has no common currency, no military alliance, no trade area), but creates diplomatic voting blocs at UN and G20. The architecture-building is Russia's response to G7 exclusion."
+      },
+      {
+        "label": "winter_weaponization_infrastructure_attacks",
+        "value": 0.78,
+        "evidence": "Oct 2022: Russia began systematic attacks on Ukrainian energy infrastructure (power stations, heating systems). Nov-Dec 2022: 40-60% of Ukraine's power generation capacity destroyed. Winter 2022-23: widespread power outages, heating failures. 2023: Ukraine restored some capacity; Russia attacked again in winter 2023-24. Pattern: targeting civilian infrastructure during winter = maximizing civilian suffering to pressure government. This is: (1) War crime under Geneva Convention (deliberate civilian targeting). (2) Tactically rational from coercion logic: Ukrainian government cannot stop civilian suffering → pressure to negotiate. (3) Did not achieve capitulation — Ukrainian society adapted (generators, distributed power). Strategy worked at imposing costs, not at breaking will."
+      },
+      {
+        "label": "long_range_precision_strike_doctrine",
+        "value": 0.75,
+        "evidence": "Kalibr cruise missiles (launched from Caspian Sea, Mediterranean, Black Sea submarines): first combat use Oct 2015 (Syria), deployed Ukraine from 2022. Kh-101 air-launched cruise missiles: extended range (5,000km+). Iskander-M ballistic missiles (500km range). Total long-range strike campaign 2022-2025: estimated 3,000+ cruise/ballistic missile launches against Ukraine. Production rates: expanded from ~40-50/month (2022) to 100+ (2024) Kalibr/Kh-101 equivalent. The long-range strike doctrine is consistent with Soviet-era deep strike theory but enabled by precision guidance. It is Russia's primary tool for striking Ukrainian rear areas without air superiority."
+      },
+      {
+        "label": "oil_cap_response_shadow_fleet",
+        "value": 0.77,
+        "evidence": "G7 oil price cap ($60/barrel, Dec 2022): designed to limit Russian oil revenues while keeping supply flowing. Russia's response: build shadow fleet of tankers not subject to Western insurance (P&I clubs). Shadow fleet estimated: 400-600 tankers by 2024. Tanker sources: aging vessels purchased from Greek, Norwegian, Danish owners. Insurance: alternative providers in UAE, India, Russia. Effect on cap: Russia sold oil above $60 cap to India, China (~$70-80), reducing but not eliminating cap's impact. Revenue impact: ~$10-15bn annual revenue loss vs. pre-cap baseline (significant but not crippling given $100bn+ annual energy export revenue). Shadow fleet represents the sanctions evasion infrastructure at its most sophisticated."
+      },
+      {
+        "label": "presidential_term_timeline_2024_to_2036",
+        "value": 0.83,
+        "evidence": "Mar 2024 election: Putin re-elected with 87% (no serious opposition; Navalny died Feb 2024; major candidates barred). New term: 2024-2030. With 2020 constitutional reset, eligible for one more term: 2030-2036. Age at 2036 term end: 83. Planning horizon: Putin's actions in 2022-2026 must be evaluated against a potential 12+ year remaining tenure. This is not a leader facing imminent succession — it is a leader with time to see whether the Ukraine war produces desired outcomes. However: health uncertainty (see physical_capacity dimension) may create shorter de facto horizon. The formal horizon (2036) is the upper bound on planning."
+      },
+      {
+        "label": "post_2022_dollar_system_challenge",
+        "value": 0.64,
+        "evidence": "Russia actively promotes alternatives to dollar-based financial system: BRICS payment mechanisms, bilateral currency agreements (India pays in rupees for Russian oil), yuan in trade settlements. The freezing of $300bn reserves was cited globally as a cautionary tale — Saudi Arabia, UAE, China all reassessed their dollar reserve concentration after observing Russia's experience. Russia's diplomatic campaign: 'the dollar is being weaponized, we must diversify.' Practical effect: minor but accelerating. India-Russia rupee-ruble trade grew to $20bn+ by 2024. ASEAN countries increased local currency settlements. The dollar's share of global reserves fell from 72% (2002) to 59% (2022) — Russia's advocacy is one factor but not dominant."
+      },
+      {
+        "label": "moldova_transnistria_frozen_conflict",
+        "value": 0.66,
+        "evidence": "Transnistria (breakaway from Moldova since 1992): Russian troops stationed (1,500 'peacekeepers'). Gas debt: Transnistria owes Gazprom ~$7bn (accumulated, never paid). Russia uses gas debt as implicit financial leverage. 2024: Moldovan government suspended Transnistrian gas supply, testing Russian response. Response: Russia did not escalate militarily (overextended in Ukraine). The Transnistria pattern is the classic frozen conflict template: minimal military investment, maximum strategic leverage from ambiguity. Moldova being sanctioned from Russian gas disruption in 2024 represented the first successful Ukrainian/Western counter-move in a frozen conflict context."
+      },
+      {
+        "label": "space_and_technology_sector_decline",
+        "value": 0.47,
+        "evidence": "Roscosmos (space agency): post-2022 declined dramatically. ISS cooperation suspended. Western components (semiconductors, precision instruments) for space hardware: cut off. Arianespace: terminated Russian Soyuz launches. OneWeb contracts cancelled. Roscosmos budget: cut 30% after invasion. Civilian satellite technology: critically degraded. Military space: continued (GLONASS, reconnaissance). The space sector decline is a microcosm of the broader technology problem: Russian civilian aerospace was highly dependent on Western components and partnerships that are now unavailable. Unlike energy or military sectors, no domestic or Chinese substitute exists for advanced space technology."
+      },
+      {
+        "label": "russia_india_relationship_expansion",
+        "value": 0.71,
+        "evidence": "Post-2022 Russia-India relationship: (1) India became Russia's largest oil customer (replacing Europe) — $2-3bn/month by 2023-2024. (2) Trade volume: $65bn (2023) vs. $13bn (2021). (3) Modi-Putin personal relationship maintained (Modi visited Moscow Jul 2024 despite Western pressure). (4) Defence: India S-400 purchase despite US CAATSA threats. (5) Rupee-ruble payment mechanism: operational but with accumulation problem (Russia accumulates rupees it cannot easily spend). India's position: strategic autonomy, buys cheap Russian oil, maintains Western partnerships. For Russia: India is a critical sanctions evasion node AND evidence that non-Western world is not fully aligned against Russia."
+      },
+      {
+        "label": "wagner_africa_successor_africa_corps",
+        "value": 0.65,
+        "evidence": "Post-Prigozhin (Aug 2023): Wagner operations transitioned to 'Africa Corps' (Korpus Afriki) under Russian MoD/GRU control. Operations: Mali, Niger, Burkina Faso, Central African Republic, Libya. Business model: (1) Security assistance in exchange for mining concessions (gold, uranium, coltan). (2) No official Russian presence = plausible deniability. (3) Anti-French/Western narrative provided. Revenue model: estimates $1-2bn/year from mining concessions across operations. The Africa operations provide: (1) Hard currency income (gold). (2) UN voting bloc management. (3) Diplomatic leverage. (4) Strategic depth in event of complete Western encirclement. Smaller than Wagner at peak but more systematically controlled."
+      },
+      {
+        "label": "financial_intelligence_and_tracking_evasion",
+        "value": 0.73,
+        "evidence": "Russia's financial intelligence counter-measures post-2022: (1) Golden passports/visas for oligarchs: EU/UK cancelled, shifted to UAE, Turkey, Saudi Arabia. (2) Shell company ownership: shifted from Cyprus/BVI/Cayman to UAE, Oman, China jurisdictions not cooperating with FATF sanctions enforcement. (3) Crypto usage: CBR allowed despite prior skepticism — Russia became significant crypto user for international payments. (4) Correspondent banking: shifted from Western banks to Turkish/Indian/Chinese banks. The sophistication of evasion reflects that Russia had 8 years (2014-2022) to plan. Counter-measure effectiveness: Western estimates suggest 60-70% of targeted sanctions have some real impact; 30-40% are being evaded."
+      },
+      {
+        "label": "moldova_georgia_nato_enlargement_blocking",
+        "value": 0.61,
+        "evidence": "Russia systematically uses frozen conflicts to block NATO/EU enlargement of former Soviet states: Georgia (Abkhazia/South Ossetia recognized 2008 = prevents NATO membership, which requires no territorial disputes). Moldova (Transnistria). Ukraine (2014 Donbas). The logic: NATO Charter Article 5 requires unanimous membership vote; countries with active territorial disputes cannot join. By maintaining/creating frozen conflicts, Russia creates a permanent veto mechanism over former Soviet space NATO integration. The 2022 full invasion contradicted this logic — instead of maintaining the frozen conflict mechanism, it energized NATO enlargement by prompting Finland/Sweden to join."
+      },
+      {
+        "label": "domestic_economic_mobility_social_contract",
+        "value": 0.59,
+        "evidence": "Russia's social contract under Putin: (1) Don't interfere in politics → don't face political/legal pressure. (2) Work in approved sectors → access to consumer goods, limited social mobility. (3) Military service (after 2022) → substantial financial uplift (combat pay 3-5x average wage). (4) State employment → stable income + access to housing programs. The social contract changed post-2022: military service became financially attractive for rural/working-class Russians (combat pay ≈ professional salary for urban Russians). This is a wartime social contract: the state provides material benefits in exchange for political loyalty and military participation. Counter: 700,000+ who could emigrated rather than accept the contract terms."
+      },
+      {
+        "label": "nabiullina_advisor_economists_structure",
+        "value": 0.57,
+        "evidence": "Putin's economic advisors: Nabiullina (CBR), Siluanov (Finance Minister), Mishustin (PM, technocrat). Academic advisors: Andrey Belousov (now Defense Minister — unusual progression), various Russian Economic School (NES) economists. Maxim Oreshkin: former MED Minister, now Presidential Economic Advisor. The structure: technocratic execution (Nabiullina, Siluanov) with political oversight (Presidential Administration). Policy direction is set politically; execution is delegated to technocrats who are retained based on results. The Belousov promotion (MED → Defense) is the most remarkable personnel decision: Putin explicitly valued Belousov's economic mobilization skills more than traditional military expertise for running the Defense Ministry."
+      },
+      {
+        "label": "information_filter_access_to_western_media",
+        "value": 0.44,
+        "evidence": "Putin reportedly reads extensive foreign intelligence reports but minimizes direct consumption of Western media. Sources: FSB analytical summaries, foreign intelligence, selected translated excerpts. This creates a mediated view of the West — filtered through intelligence analysts who have incentives to confirm his priors. Counter: Putin has met hundreds of Western leaders and has genuine direct experience of Western political systems. He speaks German fluently (Dresden KGB posting), has consumed Western media directly at various points. The information environment is not a total information bubble — but the systematic filtering of unmediated Western public discourse means his view of Western public opinion is intelligence-analyst-mediated rather than direct."
+      },
+      {
+        "label": "second_term_2012_hardening",
+        "value": 0.78,
+        "evidence": "2011-2012 protests (Bolotnaya Square, For Fair Elections movement): largest protests since 1991, mobilizing 100,000+. Putin's response: won 2012 election with 63%, then immediately launched crackdown: Magnitsky Act (US, 2012) retaliated with Dima Yakovlev Law (banned US adoption of Russian children), NGO foreign agents law (2012), treason law expansion, LGBT propaganda law (2013), Pussy Riot imprisonment (2-year sentence). The 2011-2012 protest wave fundamentally changed Putin's domestic political stance — he concluded that liberal civil society was a Western-sponsored destabilization attempt. This is the turning point from 'managed democracy' to overt authoritarianism."
+      },
+      {
+        "label": "succession_risk_systemic_fragility",
+        "value": 0.81,
+        "evidence": "Russia's governance is highly personalized: the system depends on Putin's ability to balance competing interests (FSB, military, oligarchs, technocrats). No institutional mechanism exists for orderly succession. Potential succession scenarios: (1) Health crisis: unclear who from the inner circle would emerge (Patrushev, Bortnikov, Mishustin are possibilities). (2) Palace coup: would require FSB-military alignment (rare historically). (3) Defeat in Ukraine: would potentially trigger political instability, as occurred for Russia in WWI (1917) and Soviet Union in Afghanistan (1989). Wagner mutiny (Jun 2023) was the first successful test of this fragility — Prigozhin advanced 800km with zero military resistance, suggesting the loyalist structures are less robust than assumed."
+      },
+      {
+        "label": "response_to_international_criticism",
+        "value": 0.19,
+        "evidence": "Putin consistently dismisses Western criticism as hypocritical (citing Iraq/Libya/Kosovo as examples of Western rule violations). Press conference responses to human rights questions: deflect with whataboutism. Navalny assassination: denied, accused West of provocation. MH17: denied until Nov 2022 when Netherlands formally held Russia responsible. The non-responsiveness to criticism has been consistent since 2003 (Iraq war provided rhetorical cover: if US violates international law in Iraq, Russia can cite Kosovo for Crimea). This is not social pressure sensitivity = 0 — it is a calibrated rhetorical strategy that has proven electorally effective domestically."
+      },
+      {
+        "label": "pension_reform_2018_domestic_popularity_cost",
+        "value": 0.61,
+        "evidence": "Pension age increase (2018): raised retirement age from 60/55 (men/women) to 65/60. Triggered largest domestic protests since 2011-2012. Approval rating dropped from 78% to 64% (largest single drop in his tenure). Putin modified (60 for women, not 63 as proposed) but did not reverse. The episode shows: (1) He responds to severity of protest (modification). (2) But does not U-turn entirely (fundamental reform maintained). (3) Domestic spending commitments (National Projects) were the financial justification for raising pension age. The pension reform was economically necessary (demographics, pay-as-you-go system unsustainability) but politically costly — his most unpopular domestic economic decision."
+      },
+      {
+        "label": "covid_pandemic_management",
+        "value": 0.57,
+        "evidence": "COVID response: (1) Sputnik V vaccine developed quickly (approved Aug 2020, before phase 3 trials — fastest major vaccine, disputed internationally). (2) Lockdown in Apr 2020. (3) Economy reopened quickly. (4) Vaccination rate low: only 45% fully vaccinated by 2022 (lowest of major economies). (5) Excess mortality: estimated 800,000+ above-normal deaths 2020-2021 (official COVID deaths: 300,000). The contradiction: developed a vaccine but could not convince own population to take it. COVID management revealed: (1) Information control was imperfect (population distrusted government health data). (2) Vaccine diplomacy (Sputnik V export) was geopolitical but inconsistent with domestic vaccination failures."
+      },
+      {
+        "label": "government_structure_presidential_dominance",
+        "value": 0.88,
+        "evidence": "Russian constitutional structure (post-2020 amendments): superpresidential system. President controls: foreign policy, military, security services, prosecutor-general, CBR Governor nomination. Prime Minister and Cabinet: economic management, subordinate to President. Duma (legislature): rubber-stamp for presidential initiatives (United Russia party had 70%+ majority). Federation Council: approves presidential nominees. Constitutional Court: packed with loyalists. The institutional structure ensures that all major policy decisions flow from the presidential administration. Mishustin as PM is a technocrat in charge of economic execution, not economic strategy. Putin sets strategy; institutions implement."
+      },
+      {
+        "label": "personal_network_inner_circle_evolution",
+        "value": 0.74,
+        "evidence": "Putin inner circle evolution: Early (2000s): Sobchak connections (Sechin, Medvedev, others from St. Petersburg). FSB network: Patrushev, Bortnikov. Oligarch balance: Abramovich (Chelsea owner, used as channel to West). Later (2010s-2020s): oligarchs marginalized, security services more dominant. Security Council composition: Patrushev (demoted from Secretary 2024 to Presidential Advisor, succeeded by Shoigu), Bortnikov (FSB), Naryshkin (SVR). Economic technocrats: Mishustin (PM), Siluanov (Finance), Nabiullina (CBR) — retained for competence, not inner circle status. The inner circle has contracted and security-service-dominated over 25 years."
+      },
+      {
+        "label": "arms_exports_military_industrial_complex",
+        "value": 0.7,
+        "evidence": "Russia arms exports: world 2nd largest arms exporter (19-20% global share, 2018-2022). Main customers: India (30-35%), China (15%), Egypt, Algeria, Vietnam. Rosoboronexport (state export agency): key revenue source (-17bn/year). Post-2022: arms export capacity disrupted (weapons redirected to domestic use; reputation damaged by poor Ukraine performance). Key systems: S-400 (Turkey, India, China), Su-30/35, MiG-29, T-90 tanks, submarines. Arms exports are: (1) Revenue. (2) Geopolitical leverage (customer dependency for spare parts). (3) Soft power (buyer = closer relationship). The Ukraine war damaged Russia-arms brand: S-400 performed, aircraft less so, main battle tank vulnerabilities exposed."
+      },
+      {
+        "label": "domestic_consumption_suppression_for_military",
+        "value": 0.71,
+        "evidence": "2023-2024: Russia shifted GDP composition dramatically. Private consumption growth: +7% nominally but real wages lagged inflation. Manufacturing: defense sector +35% output (2023), civilian manufacturing -5 to -10%. Investment: military investment +60%, civilian fixed investment -10% (equipment unavailable, financing expensive). Consumer goods: shortages in imported categories (cars, electronics) offset by domestic and Chinese substitutes. The composition shift is the economic signature of a war economy: resources flow to military production from civilian consumption and investment. The medium-term consequence: lower civilian living standards, reduced capacity for future civilian investment, technology gap widening."
+      }
+    ]
+  }
+}
